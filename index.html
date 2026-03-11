@@ -15,6 +15,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@dutchrojas" />
     <meta name="twitter:creator" content="@dutchrojas" />
+    <meta name="twitter:title" content="The Rojas Report — Healthcare Market Intelligence" />
+    <meta name="twitter:description" content="Data-driven investigations into Certificate of Need laws, hospital monopolies, and healthcare policy." />
     <meta property="og:image" content="https://rojasreport.com/og-default.png" />
     <meta name="twitter:image" content="https://rojasreport.com/og-default.png" />
     <meta property="og:site_name" content="The Rojas Report" />
@@ -29,7 +31,296 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
     <script type="module" crossorigin src="/assets/index-DCuUjDTP.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CEHeDj1x.css">
-    <script src="/__manus__/debug-collector.js" defer></script>
+    <script>
+(function() {
+  "use strict";
+  
+  var BASE = "https://rojasreport.com";
+  var OG_IMAGE = BASE + "/og-default.png";
+  
+  var STATES = {"alabama": "Alabama", "alaska": "Alaska", "arkansas": "Arkansas", "connecticut": "Connecticut", "dc": "Washington D.C.", "delaware": "Delaware", "florida": "Florida", "georgia": "Georgia", "hawaii": "Hawaii", "illinois": "Illinois", "iowa": "Iowa", "kentucky": "Kentucky", "louisiana": "Louisiana", "maine": "Maine", "maryland": "Maryland", "massachusetts": "Massachusetts", "michigan": "Michigan", "minnesota": "Minnesota", "mississippi": "Mississippi", "missouri": "Missouri", "montana": "Montana", "nebraska": "Nebraska", "nevada": "Nevada", "new-jersey": "New Jersey", "new-york": "New York", "north-carolina": "North Carolina", "north-dakota": "North Dakota", "oklahoma": "Oklahoma", "oregon": "Oregon", "rhode-island": "Rhode Island", "tennessee": "Tennessee", "vermont": "Vermont", "virginia": "Virginia", "washington": "Washington", "west-virginia": "West Virginia", "wisconsin": "Wisconsin"};
+  
+  var PAGE_META = {
+    "/": {
+      title: "Healthcare Policy Intelligence for Physicians & Policymakers | The Rojas Report",
+      description: "The definitive source for healthcare market intelligence. Data-driven investigations into Certificate of Need laws, hospital monopolies, 340B drug pricing, and IDR policy across all 50 states.",
+      type: "website"
+    },
+    "/about": {
+      title: "About The Rojas Report — Methodology & Data Sources",
+      description: "Learn about The Rojas Report's methodology, data sources, and mission to deliver healthcare market intelligence for physicians and policymakers.",
+      type: "website"
+    },
+    "/certificate-of-need": {
+      title: "Certificate of Need Laws: 50-State Guide & Analysis (2026) | The Rojas Report",
+      description: "Comprehensive state-by-state analysis of Certificate of Need (CON) laws. Data on market concentration, healthcare costs, and legislative reform efforts across America.",
+      type: "article"
+    },
+    "/340b-drug-pricing": {
+      title: "340B Drug Pricing Program: Data, Analysis & State Policy | The Rojas Report",
+      description: "In-depth analysis of the 340B Drug Pricing Program. Contract pharmacy data, covered entity trends, and state-level policy tracking for physicians and lawmakers.",
+      type: "article"
+    },
+    "/hospital-monopolies": {
+      title: "Hospital Monopolies: Market Concentration Data by State | The Rojas Report",
+      description: "Exposing hospital market concentration across America. HHI data, merger analysis, pricing impacts, and the systems that dominate your state's healthcare market.",
+      type: "article"
+    },
+    "/idr-no-surprises-act": {
+      title: "IDR & No Surprises Act: Dispute Data & Analysis | The Rojas Report",
+      description: "Independent Dispute Resolution data and No Surprises Act analysis. Outcome trends, insurer tactics, and what physicians need to know about IDR in their state.",
+      type: "article"
+    },
+    "/hospital-monopolies/university-of-michigan": {
+      title: "University of Michigan Hospital Monopoly: A Case Study | The Rojas Report",
+      description: "How the University of Michigan Health System built a regional monopoly. Market share data, pricing analysis, and lessons for healthcare policy reform.",
+      type: "article"
+    }
+  };
+  
+  function getStateName(slug) {
+    return STATES[slug] || slug.replace(/-/g, " ").replace(/\b\w/g, function(c) { return c.toUpperCase(); });
+  }
+  
+  function getPageMeta(path) {
+    // Exact match first
+    if (PAGE_META[path]) return PAGE_META[path];
+    
+    // State CON page pattern: /[state]/certificate-of-need
+    var stateMatch = path.match(/^\/([a-z-]+)\/certificate-of-need\/?$/);
+    if (stateMatch) {
+      var stateName = getStateName(stateMatch[1]);
+      return {
+        title: stateName + " Certificate of Need Laws: Rules, Data & Analysis | The Rojas Report",
+        description: "Complete analysis of " + stateName + "'s Certificate of Need laws. Market concentration data, regulated services, application process, and legislative reform status.",
+        type: "article"
+      };
+    }
+    
+    // Default
+    return PAGE_META["/"];
+  }
+  
+  function updateMeta() {
+    var path = window.location.pathname.replace(/\/$/, "") || "/";
+    var meta = getPageMeta(path);
+    var url = BASE + path;
+    
+    // Update title
+    document.title = meta.title;
+    
+    // Helper to set meta tag
+    function setMeta(attr, attrVal, content) {
+      var sel = "meta[" + attr + '="' + attrVal + '"]';
+      var el = document.querySelector(sel);
+      if (el) {
+        el.setAttribute("content", content);
+      } else {
+        el = document.createElement("meta");
+        el.setAttribute(attr, attrVal);
+        el.setAttribute("content", content);
+        document.head.appendChild(el);
+      }
+    }
+    
+    // Meta description
+    setMeta("name", "description", meta.description);
+    
+    // Open Graph
+    setMeta("property", "og:title", meta.title);
+    setMeta("property", "og:description", meta.description);
+    setMeta("property", "og:type", meta.type);
+    setMeta("property", "og:url", url);
+    setMeta("property", "og:image", OG_IMAGE);
+    setMeta("property", "og:site_name", "The Rojas Report");
+    
+    // Twitter Cards
+    setMeta("name", "twitter:card", "summary_large_image");
+    setMeta("name", "twitter:site", "@dutchrojas");
+    setMeta("name", "twitter:creator", "@dutchrojas");
+    setMeta("name", "twitter:title", meta.title);
+    setMeta("name", "twitter:description", meta.description);
+    setMeta("name", "twitter:image", OG_IMAGE);
+    
+    // Canonical URL
+    var canonical = document.querySelector('link[rel="canonical"]');
+    if (canonical) {
+      canonical.setAttribute("href", url);
+    } else {
+      canonical = document.createElement("link");
+      canonical.setAttribute("rel", "canonical");
+      canonical.setAttribute("href", url);
+      document.head.appendChild(canonical);
+    }
+    
+    // JSON-LD Structured Data
+    updateStructuredData(path, meta, url);
+  }
+  
+  function updateStructuredData(path, meta, url) {
+    // Remove existing JSON-LD
+    var existing = document.querySelectorAll('script[type="application/ld+json"]');
+    existing.forEach(function(el) { el.remove(); });
+    
+    var schemas = [];
+    
+    // Organization schema (every page)
+    schemas.push({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "The Rojas Report",
+      "url": "https://rojasreport.com",
+      "logo": "https://rojasreport.com/og-default.png",
+      "description": "The definitive source for healthcare market intelligence. Data-driven investigations for physicians and policymakers.",
+      "founder": {
+        "@type": "Person",
+        "name": "Dutch Rojas",
+        "url": "https://rojasreport.com/about",
+        "sameAs": [
+          "https://x.com/dutchrojas",
+          "https://substack.com/@dutchrojas"
+        ]
+      },
+      "sameAs": [
+        "https://x.com/dutchrojas",
+        "https://therojasreport.substack.com"
+      ]
+    });
+    
+    // Article schema for content pages
+    if (meta.type === "article") {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": meta.title.split(" | ")[0],
+        "description": meta.description,
+        "url": url,
+        "image": "https://rojasreport.com/og-default.png",
+        "author": {
+          "@type": "Person",
+          "name": "Dutch Rojas",
+          "url": "https://rojasreport.com/about"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Rojas Report",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://rojasreport.com/og-default.png"
+          }
+        },
+        "datePublished": "2026-03-01",
+        "dateModified": "2026-03-10",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": url
+        }
+      });
+    }
+    
+    // BreadcrumbList for state pages and case studies
+    var stateMatch = path.match(/^\/([a-z-]+)\/certificate-of-need\/?$/);
+    if (stateMatch) {
+      var stateName = getStateName(stateMatch[1]);
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://rojasreport.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Certificate of Need",
+            "item": "https://rojasreport.com/certificate-of-need"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": stateName,
+            "item": url
+          }
+        ]
+      });
+    }
+    
+    if (path === "/hospital-monopolies/university-of-michigan") {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://rojasreport.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Hospital Monopolies",
+            "item": "https://rojasreport.com/hospital-monopolies"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "University of Michigan",
+            "item": url
+          }
+        ]
+      });
+    }
+    
+    // WebSite schema for homepage
+    if (path === "/") {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "The Rojas Report",
+        "url": "https://rojasreport.com",
+        "description": "Healthcare market intelligence for physicians and policymakers.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Rojas Report"
+        }
+      });
+    }
+    
+    // Inject all schemas
+    schemas.forEach(function(schema) {
+      var script = document.createElement("script");
+      script.type = "application/ld+json";
+      script.textContent = JSON.stringify(schema);
+      document.head.appendChild(script);
+    });
+  }
+  
+  // Run on initial load
+  updateMeta();
+  
+  // Watch for SPA route changes
+  var _pushState = history.pushState;
+  var _replaceState = history.replaceState;
+  
+  history.pushState = function() {
+    _pushState.apply(this, arguments);
+    setTimeout(updateMeta, 50);
+  };
+  
+  history.replaceState = function() {
+    _replaceState.apply(this, arguments);
+    setTimeout(updateMeta, 50);
+  };
+  
+  window.addEventListener("popstate", function() {
+    setTimeout(updateMeta, 50);
+  });
+})();
+</script>
   </head>
 
   <body>
