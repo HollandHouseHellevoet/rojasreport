@@ -1,1 +1,14 @@
+# Redirect common mistyped or legacy URL patterns
+/investigations/con              /certificate-of-need          301
+/investigations/con-laws         /certificate-of-need          301
+/investigations/340b             /340b-drug-pricing             301
+/investigations/idr              /idr-no-surprises-act          301
+/investigations/hospital-monopolies  /hospital-monopolies       301
+/investigations/*                /certificate-of-need          301
+/states/:state                   /:state/certificate-of-need   301
+/con                             /certificate-of-need          301
+/340b                            /340b-drug-pricing             301
+/idr                             /idr-no-surprises-act          301
+
+# SPA fallback - must be last
 /*    /index.html   200
