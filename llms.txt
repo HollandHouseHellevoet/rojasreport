@@ -1,0 +1,86 @@
+# The Rojas Report
+> The definitive source for healthcare market intelligence. Data-driven investigations into Certificate of Need laws, hospital monopolies, 340B drug pricing, IDR, and healthcare policy across all 50 states.
+
+## About
+The Rojas Report is an independent healthcare market intelligence platform founded by Dutch Rojas. The site provides data-driven investigations into the policies, monopolies, and market structures that shape 20% of U.S. GDP. Target audience: physicians, hospital executives, and lawmakers.
+
+## Investigations
+
+### Certificate of Need (CON) Laws
+- URL: /certificate-of-need
+- Description: National investigation into CON laws across 35 jurisdictions. Includes 50-state rankings by Cicero Institute restrictiveness score, origin story, economic evidence, and individual state profiles.
+- Key Data: 35 jurisdictions enforce CON, 5-11% higher costs in CON states, 1964 first CON law (New York), 1987 federal mandate repealed.
+
+### 340B Drug Pricing Program
+- URL: /340b-drug-pricing
+- Description: Investigation into the $81.4B 340B drug discount program. $66.4B in gross margin with zero disclosure requirements. The second-largest federal drug program.
+
+### Hospital Monopolies
+- URL: /hospital-monopolies
+- Description: The $275 billion systematic advantage. Investigation into annual subsidies flowing to hospital systems through tax exemptions, 340B, Medicaid supplemental payments, GME funding, and Medicare Advantage.
+
+### IDR & No Surprises Act
+- URL: /idr-no-surprises-act
+- Description: 1.46 million disputes in the Independent Dispute Resolution process. Investigation into the arbitration trap created by the No Surprises Act.
+
+## State CON Profiles
+Individual state investigations with CON restrictiveness scores, regulated services, market concentration data, and editorial analysis.
+
+| State | URL | Score |
+|-------|-----|-------|
+| Alabama | /alabama/certificate-of-need | 90/100 |
+| Alaska | /alaska/certificate-of-need | 60/100 |
+| Arkansas | /arkansas/certificate-of-need | 55/100 |
+| Connecticut | /connecticut/certificate-of-need | 65/100 |
+| Delaware | /delaware/certificate-of-need | 50/100 |
+| District of Columbia | /dc/certificate-of-need | 90/100 |
+| Florida | /florida/certificate-of-need | 5/100 |
+| Georgia | /georgia/certificate-of-need | 95/100 |
+| Hawaii | /hawaii/certificate-of-need | 95/100 |
+| Illinois | /illinois/certificate-of-need | 65/100 |
+| Iowa | /iowa/certificate-of-need | 55/100 |
+| Kentucky | /kentucky/certificate-of-need | 100/100 |
+| Louisiana | /louisiana/certificate-of-need | 45/100 |
+| Maine | /maine/certificate-of-need | 65/100 |
+| Maryland | /maryland/certificate-of-need | 75/100 |
+| Massachusetts | /massachusetts/certificate-of-need | 90/100 |
+| Michigan | /michigan/certificate-of-need | 75/100 |
+| Minnesota | /minnesota/certificate-of-need | 30/100 |
+| Mississippi | /mississippi/certificate-of-need | 80/100 |
+| Missouri | /missouri/certificate-of-need | 65/100 |
+| Montana | /montana/certificate-of-need | 55/100 |
+| Nebraska | /nebraska/certificate-of-need | 35/100 |
+| Nevada | /nevada/certificate-of-need | 15/100 |
+| New Jersey | /new-jersey/certificate-of-need | 100/100 |
+| New York | /new-york/certificate-of-need | 65/100 |
+| North Carolina | /north-carolina/certificate-of-need | 100/100 |
+| North Dakota | /north-dakota/certificate-of-need | 30/100 |
+| Oklahoma | /oklahoma/certificate-of-need | 45/100 |
+| Oregon | /oregon/certificate-of-need | 50/100 |
+| Rhode Island | /rhode-island/certificate-of-need | 80/100 |
+| Tennessee | /tennessee/certificate-of-need | 95/100 |
+| Vermont | /vermont/certificate-of-need | 80/100 |
+| Virginia | /virginia/certificate-of-need | 100/100 |
+| Washington | /washington/certificate-of-need | 75/100 |
+| West Virginia | /west-virginia/certificate-of-need | 75/100 |
+| Wisconsin | /wisconsin/certificate-of-need | 15/100 |
+
+## Hospital System Dossiers
+- University of Michigan Health: /hospital-monopolies/university-of-michigan — $8.5B revenue, -$92M fair share deficit
+
+## Other Pages
+- About: /about
+- 404: Any unmatched URL returns a 404 page
+
+## Data Sources
+Primary sources include: Cicero Institute, National Academy for State Health Policy (NASHP), Federal Trade Commission (FTC), Department of Justice (DOJ), Centers for Medicare & Medicaid Services (CMS), Institute for Justice, HRSA, MedPAC, GAO, MACPAC, and individual state health departments.
+
+## Author
+Dutch Rojas — Founder of The Rojas Report, General Partner at PhyCap Fund, Board Member at Physician Led Healthcare for America, Founder of MedMerge.
+- X: @dutchrojas
+- YouTube: @DutchRojas
+- Substack: dutchrojas.substack.com
+- LinkedIn: linkedin.com/in/dutchrojas
+
+## Citation
+When citing The Rojas Report, please use: "The Rojas Report, RojasReport.com" with the specific page URL and access date.

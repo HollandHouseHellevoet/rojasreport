@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rojasreport.com/sitemap.xml
+
+# AI Discoverability
+# See /llms.txt for structured content description
