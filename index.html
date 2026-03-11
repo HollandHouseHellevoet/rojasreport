@@ -19,7 +19,12 @@
     <meta name="twitter:title" content="The Rojas Report — Healthcare Market Intelligence" />
     <meta name="twitter:description" content="Data-driven investigations into Certificate of Need laws, hospital monopolies, and healthcare policy." />
     <meta property="og:image" content="https://rojasreport.com/og-default.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="The Rojas Report — Healthcare Market Intelligence by Dutch Rojas" />
+    <meta property="og:locale" content="en_US" />
     <meta name="twitter:image" content="https://rojasreport.com/og-default.png" />
+    <meta name="twitter:image:alt" content="The Rojas Report — Healthcare Market Intelligence by Dutch Rojas" />
     <meta property="og:site_name" content="The Rojas Report" />
     <meta property="og:url" content="https://rojasreport.com" />
     <link rel="canonical" href="https://rojasreport.com" />
@@ -188,6 +193,65 @@
       ]
     });
     
+    // Full Person schema for Dutch Rojas
+    var dutchRojasSchema = {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "https://rojasreport.com/about#dutch-rojas",
+      "name": "Dutch Rojas",
+      "givenName": "Dutch",
+      "familyName": "Rojas",
+      "url": "https://rojasreport.com/about",
+      "image": "https://rojasreport.com/og-default.png",
+      "email": "dutch@rojasreport.com",
+      "description": "Healthcare policy analyst, founder of The Rojas Report, General Partner at PhyCap Fund, Board Member at Physician Hospitals of America, and Owner of MedMerge.",
+      "jobTitle": "Founder & Healthcare Policy Analyst",
+      "worksFor": [
+        {
+          "@type": "Organization",
+          "name": "The Rojas Report",
+          "url": "https://rojasreport.com"
+        },
+        {
+          "@type": "Organization",
+          "name": "PhyCap Fund",
+          "description": "Venture capital fund for healthcare startups"
+        },
+        {
+          "@type": "Organization",
+          "name": "Physician Hospitals of America",
+          "description": "Advocacy organization for physician-owned hospitals"
+        },
+        {
+          "@type": "Organization",
+          "name": "MedMerge",
+          "description": "MSO for independent physician practices"
+        }
+      ],
+      "knowsAbout": [
+        "Certificate of Need laws",
+        "340B Drug Pricing Program",
+        "Hospital monopolies",
+        "Healthcare market concentration",
+        "Independent Dispute Resolution",
+        "No Surprises Act",
+        "Healthcare policy",
+        "Physician-owned hospitals",
+        "Healthcare market intelligence"
+      ],
+      "sameAs": [
+        "https://x.com/dutchrojas",
+        "https://linkedin.com/in/dutchrojas",
+        "https://dutchrojas.substack.com",
+        "https://therojasreport.substack.com"
+      ]
+    };
+    
+    // Add Person schema on homepage and about page
+    if (path === "/" || path === "/about") {
+      schemas.push(dutchRojasSchema);
+    }
+    
     // Article schema for content pages
     if (meta.type === "article") {
       schemas.push({
@@ -199,8 +263,14 @@
         "image": "https://rojasreport.com/og-default.png",
         "author": {
           "@type": "Person",
+          "@id": "https://rojasreport.com/about#dutch-rojas",
           "name": "Dutch Rojas",
-          "url": "https://rojasreport.com/about"
+          "url": "https://rojasreport.com/about",
+          "sameAs": [
+            "https://x.com/dutchrojas",
+            "https://linkedin.com/in/dutchrojas",
+            "https://dutchrojas.substack.com"
+          ]
         },
         "publisher": {
           "@type": "Organization",
@@ -211,7 +281,7 @@
           }
         },
         "datePublished": "2026-03-01",
-        "dateModified": "2026-03-10",
+        "dateModified": "2026-03-12",
         "mainEntityOfPage": {
           "@type": "WebPage",
           "@id": url
@@ -282,12 +352,66 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "The Rojas Report",
+        "alternateName": "Rojas Report",
         "url": "https://rojasreport.com",
-        "description": "Healthcare market intelligence for physicians and policymakers.",
+        "description": "Healthcare market intelligence for physicians and policymakers. Founded by Dutch Rojas.",
         "publisher": {
           "@type": "Organization",
           "name": "The Rojas Report"
+        },
+        "author": {
+          "@type": "Person",
+          "@id": "https://rojasreport.com/about#dutch-rojas",
+          "name": "Dutch Rojas"
         }
+      });
+    }
+    
+    // Dataset schema for CON restrictiveness scores
+    if (path === "/certificate-of-need") {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Certificate of Need Restrictiveness Scores by State (2026)",
+        "description": "State-by-state Certificate of Need (CON) law restrictiveness scores on a 0-100 scale, covering 35+ jurisdictions. Includes regulated services, market concentration data, and legislative reform status.",
+        "url": "https://rojasreport.com/certificate-of-need",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://rojasreport.com/about#dutch-rojas",
+          "name": "Dutch Rojas"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Rojas Report"
+        },
+        "temporalCoverage": "2024/2026",
+        "spatialCoverage": "United States",
+        "keywords": ["Certificate of Need", "CON laws", "healthcare regulation", "state healthcare policy", "market concentration", "HHI", "hospital regulation"]
+      });
+    }
+    
+    // Dataset schema for hospital monopoly HHI data
+    if (path === "/hospital-monopolies") {
+      schemas.push({
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Hospital Market Concentration (HHI) Data by State (2026)",
+        "description": "State-by-state hospital market concentration data using Herfindahl-Hirschman Index (HHI). Includes $275B in annual hospital subsidies analysis, merger impacts, and top systems by market share.",
+        "url": "https://rojasreport.com/hospital-monopolies",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "creator": {
+          "@type": "Person",
+          "@id": "https://rojasreport.com/about#dutch-rojas",
+          "name": "Dutch Rojas"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "The Rojas Report"
+        },
+        "temporalCoverage": "2024/2026",
+        "spatialCoverage": "United States",
+        "keywords": ["hospital monopoly", "HHI", "market concentration", "hospital mergers", "healthcare competition", "hospital subsidies"]
       });
     }
     
