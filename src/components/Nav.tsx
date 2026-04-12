@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const primaryLinks = [
   { href: '/evidence/', label: 'Evidence' },
-  { href: '/', label: 'States' },
+  { href: '/#states', label: 'States' },
   { href: '/rankings/', label: 'Rankings' },
 ];
 
@@ -25,15 +25,21 @@ export default function Nav() {
   return (
     <nav className="bg-navy border-b border-orange print:hidden">
       <div className="max-w-content mx-auto px-5 py-4 flex items-center justify-between">
-        {/* Brand */}
-        <Link href="/" className="flex flex-col" onClick={() => setOpen(false)}>
+        {/* Brand - links to parent site */}
+        <a
+          href="https://rojasreport.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col"
+          onClick={() => setOpen(false)}
+        >
           <span className="font-display text-xl font-bold text-cream leading-none">
             The Rojas Report
           </span>
           <span className="font-body text-[11px] font-semibold text-orange tracking-[0.15em] uppercase mt-0.5">
             Healthcare Intelligence
           </span>
-        </Link>
+        </a>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-6 font-body text-[15px]">
@@ -78,6 +84,15 @@ export default function Nav() {
           </div>
 
           <a
+            href="https://rojasreport.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-cream/60 hover:text-cream transition-colors"
+          >
+            rojasreport.com
+          </a>
+
+          <a
             href="https://read.rojasreport.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -116,6 +131,15 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href="https://rojasreport.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cream/60 hover:text-cream transition-colors font-body text-[15px] py-1"
+              onClick={() => setOpen(false)}
+            >
+              rojasreport.com
+            </a>
             <a
               href="https://read.rojasreport.com"
               target="_blank"

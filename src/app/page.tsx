@@ -141,7 +141,7 @@ export default function HomePage() {
       </section>
 
       {/* State Grid */}
-      <section className="bg-navy-dark border-b border-white/10">
+      <section id="states" className="bg-navy-dark border-b border-white/10 scroll-mt-20">
         <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="04"
