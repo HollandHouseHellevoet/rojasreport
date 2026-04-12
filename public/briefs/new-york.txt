@@ -1,0 +1,81 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: NEW YORK
+  The Rojas Report | conlaws.rojasreport.com/states/new-york/
+==============================================================================
+
+  State:    New York (NY)
+  Score:    65/100
+  Tier:     Restrictive
+  Rank:     27 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+            8+  Service categories regulated
+          1964  Year CON enacted
+         44.2%  Kaleida Health market share (Erie Co.)
+         31.1%  Northwell Health market share (Long Island)
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  New York CON score 90/100 (most restrictive). Oldest CON program in the US
+(1964). Northwell Health holds 31.1% market share on Long Island.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+  * 8+ service categories regulated
+  * Hospital Beds
+  * More beds in rural areas
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  New York's CON program, the oldest in the nation, has been in place since
+1964. It regulates a broad range of services, creating significant barriers to
+entry. In major markets like Long Island, incumbent systems like Northwell
+Health face little meaningful competition.
+
+  Manhattan ASC Application
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  New York's CON program, the oldest in the nation, has been in place since
+1964. It regulates a broad range of services, creating significant barriers to
+entry. In major markets like Long Island, incumbent systems like Northwell
+Health face little meaningful competition.
+
+  Three massive non-profit systems—Northwell, NYU Langone, and NewYork-
+Presbyterian—dominate the state, collectively pulling in over $46 billion in
+annual revenue.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Three massive non-profit systems—Northwell, NYU Langone, and NewYork-
+Presbyterian—dominate the state, collectively pulling in over $46 billion in
+annual revenue.
+
+  New York (No Meaningful Reform)
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  This case is a clear example of how New York's CON process is used to
+protect existing hospitals from competition. By denying the ASC, the state
+ensured that patients would continue to have fewer choices and be forced to
+seek care in higher-cost hospital settings, benefiting the incumbent systems.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/new-york/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

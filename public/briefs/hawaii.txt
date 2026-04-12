@@ -1,0 +1,58 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: HAWAII
+  The Rojas Report | conlaws.rojasreport.com/states/hawaii/
+==============================================================================
+
+  State:    Hawaii (HI)
+  Score:    65/100
+  Tier:     Restrictive
+  Rank:     27 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Hawaii's Certificate of Need (CON) laws, examining
+their impact on healthcare competition, market concentration, and patient
+access.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Skilled nursing facilities / Intermediate care facilities
+  * Outpatient clinics and ambulatory care facilities
+  * Home health agencies
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  The path to approval is lengthy and provides ample opportunity for
+established players to block new competition.
+
+  The state's regulatory framework creates a protectionist moat around
+incumbent providers.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Most communities have only one hospital system.
+
+  $81.4B in discounted drugs. Zero disclosure requirements.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Annual Revenue: ~$1.7 Billion
+
+  Despite criticism from free-market advocates, Hawaii's CON law has not been
+repealed and remains one of the strictest in the nation.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/hawaii/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

@@ -1,0 +1,75 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: GEORGIA
+  The Rojas Report | conlaws.rojasreport.com/states/georgia/
+==============================================================================
+
+  State:    Georgia (GA)
+  Score:    95/100
+  Tier:     Most Restrictive
+  Rank:     41 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+            11  Categories regulated by CON
+          1979  Year CON enacted
+         7,453  Albany market HHI
+           86%  Phoebe Putney market share
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Georgia CON score 95/100 (most restrictive). 11 categories of services
+regulated since 1979. The Phoebe Putney system controls 86% of the Albany
+hospital market.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  The statutory timeline for a review is 120 days, with the actual process
+taking about four months. A key feature of Georgia's process is the formal
+'opposition meeting,' which allows incumbent providers a platform to
+officially contest applications from potential new competitors.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Georgia's CON laws, enacted in 1979, regulate a broad range of healthcare
+services. This has led to highly concentrated markets, exemplified by the
+Albany area, where one system, Phoebe Putney, controls 86% of the market.
+
+  Atlanta Hospital Market Share (Estimated)
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Georgia's CON laws, enacted in 1979, regulate a broad range of healthcare
+services. This has led to highly concentrated markets, exemplified by the
+Albany area, where one system, Phoebe Putney, controls 86% of the market.
+
+  Georgia (No Full Repeal)
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  — U.S. Supreme Court, FTC v. Phoebe Putney Health System, Inc.
+
+  FTC v. Phoebe Putney Health System, Inc.
+
+  Decided February 2013 · U.S. Supreme Court
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/georgia/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

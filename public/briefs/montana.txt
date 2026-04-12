@@ -1,0 +1,46 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: MONTANA
+  The Rojas Report | conlaws.rojasreport.com/states/montana/
+==============================================================================
+
+  State:    Montana (MT)
+  Score:    5/100
+  Tier:     Mostly Free
+  Rank:     14 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Montana has very limited CON laws, applying only to long-term care
+facilities. Explore its impact on healthcare access and competition.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Long-Term Care Facilities Only
+  * Long-Term Care / Nursing Homes
+  * Ambulatory Surgery Centers (ASCs)
+  * Imaging (MRI, CT, PET)
+  * Home Health Agencies
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  The process for the remaining CON is administered by the DPHHS, but its
+narrow focus means few applications are filed.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  1975 (Mostly Repealed)
+
+  Billings Clinic, Providence Health
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/montana/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

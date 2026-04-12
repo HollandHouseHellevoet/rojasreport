@@ -1,0 +1,55 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: LOUISIANA
+  The Rojas Report | conlaws.rojasreport.com/states/louisiana/
+==============================================================================
+
+  State:    Louisiana (LA)
+  Score:    55/100
+  Tier:     Restrictive
+  Rank:     25 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Louisiana's Facility Need Review (FNR) laws, market
+concentration, and the real-world impact on healthcare access and competition.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Hospice Providers & Facilities
+  * Limited Scope, But Still a Barrier
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Facility Need Review (FNR)
+
+  Louisiana's Facility Need Review (FNR) process is narrower than traditional
+CON laws and primarily targets specific provider types, many linked to
+Medicaid reimbursement.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Louisiana's hospital market is dominated by a few large, non-profit systems
+that wield significant market power, particularly in metro areas like New
+Orleans and Baton Rouge.
+
+  $81.4B in discounted drugs. Zero disclosure requirements.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Blocked: Sivad Home and Community Services
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/louisiana/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

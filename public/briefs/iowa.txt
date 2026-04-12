@@ -1,0 +1,55 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: IOWA
+  The Rojas Report | conlaws.rojasreport.com/states/iowa/
+==============================================================================
+
+  State:    Iowa (IA)
+  Score:    90/100
+  Tier:     Highly Restrictive
+  Rank:     37 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Explore Iowa's highly restrictive Certificate of Need (CON) laws, scoring
+90/100. Learn about its impact on healthcare services, market competition, and
+reform efforts.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Nursing Facilities
+  * Any new beds
+  * Ambulatory Surgery Centers (ASCs)
+  * Major Medical Equipment
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Iowa's strict CON laws have fostered a market dominated by a few large
+health systems. UnityPoint Health and MercyOne face limited competition, which
+can lead to higher prices and fewer choices for consumers. CON laws protect
+these incumbents from new market entrants, securing their revenue streams at
+the expense of innovation and patient choice.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Iowa has seen no significant reform efforts in recent years. The powerful
+hospital lobby and an entrenched bureaucracy have successfully resisted
+attempts to modernize or repeal the state's CON laws. The status quo benefits
+established players, leaving little political will for change.
+
+  A full repeal of Iowa's CON laws could inject much-needed competition into
+the market. This would likely lead to the development of more specialized,
+lower-cost providers like ASCs, downward pressure on prices, and increased
+innovation in care delivery for both urban and rural populations.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/iowa/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

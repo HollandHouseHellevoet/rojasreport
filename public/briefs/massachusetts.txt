@@ -1,0 +1,88 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: MASSACHUSETTS
+  The Rojas Report | conlaws.rojasreport.com/states/massachusetts/
+==============================================================================
+
+  State:    Massachusetts (MA)
+  Score:    90/100
+  Tier:     Highly Restrictive
+  Rank:     37 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+           10+  Services regulated by CON
+          1971  Year CON enacted
+           38%  MGB market share (East MA)
+        $20.6B  Mass General Brigham Revenue
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Massachusetts CON score 85/100 (highly restrictive). 10+ services regulated
+since 1971. Mass General Brigham controls 38% of the tertiary market in
+Eastern Massachusetts.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Massachusetts's Determination of Need law, in place since 1971, is a state-
+sanctioned shield for incumbent hospital systems. It regulates a wide array of
+services, allowing giants like Mass General Brigham to cement their market
+dominance under the guise of public health.
+
+  The process allows for intervention by 'Ten Taxpayer Groups,' which can
+register to submit written comments and request public hearings, effectively
+giving incumbent providers a formal mechanism to obstruct new competition.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Massachusetts's Determination of Need law, in place since 1971, is a state-
+sanctioned shield for incumbent hospital systems. It regulates a wide array of
+services, allowing giants like Mass General Brigham to cement their market
+dominance under the guise of public health.
+
+  Blue Cross Blue Shield of Massachusetts's dominant share of the commercial
+insurance market.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Massachusetts (No Full Repeal)
+
+  The state has made several material reforms, most recently in 2017 and
+2024-2025. The 2025 reform broadened the concept of a 'party of record,' but
+did not dismantle the core CON framework. The system continues to enable
+incumbents to delay or block new competitors.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  In 1972, just one year after the CON law was enacted, the Bessie M. Burke
+Memorial Hospital sought to undertake a major renovation. The Department of
+Public Health denied the application, arguing that the project was too costly
+and would still leave the hospital with an outdated facility. The denial was
+based on the principle of efficient resource allocation.
+
+  However, the hospital's supporters wielded their political influence. The
+state legislature intervened, passing a special act that overrode the DPH's
+decision and authorized the renovation. This case set a precedent,
+demonstrating that the supposedly objective, needs-based CON process could be
+subverted by political power, undermining its entire purpose.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/massachusetts/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

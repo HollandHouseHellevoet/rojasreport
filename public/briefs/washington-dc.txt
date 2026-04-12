@@ -1,0 +1,56 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: WASHINGTON, D.C.
+  The Rojas Report | conlaws.rojasreport.com/states/washington-dc/
+==============================================================================
+
+  State:    Washington, D.C. (DC)
+  Score:    90/100
+  Tier:     Highly Restrictive
+  Rank:     43 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of the District of Columbia's Certificate of Need (CON)
+laws, market concentration, and the impact on healthcare access and cost.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Ambulatory Surgery Centers (ASCs)
+  * Diagnostic Imaging Facilities (MRI, CT, PET)
+  * Nursing Homes & Long-Term Care
+  * Home Health Agencies
+  * Hospice Providers
+  * Major Medical Equipment Purchases
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  The Application Gauntlet
+
+  6-12 months (in practice)
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Controls a dominant share of tertiary care via Washington Hospital Center &
+Georgetown University Hospital.
+
+  $81.4B in discounted drugs. Zero disclosure requirements.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  no significant reforms
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/washington-dc/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

@@ -1,0 +1,68 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: CONNECTICUT
+  The Rojas Report | conlaws.rojasreport.com/states/connecticut/
+==============================================================================
+
+  State:    Connecticut (CT)
+  Score:    90/100
+  Tier:     Highly Restrictive
+  Rank:     37 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Connecticut's Certificate of Need (CON) laws,
+evaluating their impact on healthcare competition, cost, and quality.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Regulated
+  * New Hospitals & Long-Term Care Facilities
+  * Ambulatory Surgery Centers (ASCs)
+  * CT, MRI, PET Scanners & Linear Accelerators
+  * Increases in Licensed Beds or Operating Rooms
+  * DSS (Nursing Homes)
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Connecticut's CON law is comprehensive, covering a wide array of healthcare
+services and facilities. Any significant capital expenditure, service
+addition, or equipment acquisition requires state approval.
+
+  The process is managed by the Office of Health Strategy (OHS) for most
+facilities and the Department of Social Services (DSS) for long-term care. It
+involves fees, lengthy reviews, and public hearings where competitors can
+intervene.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Connecticut's hospital market is a duopoly. Two behemoth systems, Yale New
+Haven Health and Hartford HealthCare, control approximately 60% of the state's
+hospital revenue, creating a highly concentrated and anti-competitive
+landscape.
+
+  $81.4B in discounted drugs. Zero disclosure requirements.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  In a clear example of CON laws restricting access to care, Norwalk Hospital
+was denied a certificate to offer elective angioplasty (PCI) services. The
+state's rationale was the hospital's lack of an on-site cardiac surgery
+backup—a requirement that protects incumbent hospitals with full-service
+cardiac programs. This decision forced patients in the Norwalk area to travel
+farther for a common, life-saving procedure, prioritizing market stability
+over patient convenience and access.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/connecticut/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

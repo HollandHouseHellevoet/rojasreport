@@ -1,0 +1,62 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: MINNESOTA
+  The Rojas Report | conlaws.rojasreport.com/states/minnesota/
+==============================================================================
+
+  State:    Minnesota (MN)
+  Score:    30/100
+  Tier:     Moderate
+  Rank:     21 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Minnesota's hospital construction moratorium, market
+concentration, and its impact on healthcare competition.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * New Nursing Home Beds
+  * Notably, ambulatory surgery centers and imaging centers are not subject to this review.
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Notably, ambulatory surgery centers and imaging centers are not subject to
+this review.
+
+  150 days for MDH review, plus legislative action
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  The Twin Cities market is dominated by three systems controlling ~70% of
+revenue:
+
+  Virtual monopoly in the Rochester hospital market.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Minnesota replaced its traditional CON program with a hospital construction
+moratorium, creating a unique and complex regulatory environment.
+
+  CON Law Repealed 1984
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  2024 Rehab Hospital Denial Recommendation
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/minnesota/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

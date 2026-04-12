@@ -1,0 +1,79 @@
+{
+  "tiers": [
+    {
+      "name": "Free Market",
+      "score_range": "0",
+      "color": "#22c55e",
+      "description": "No Certificate of Need law. Healthcare providers can open facilities, expand services, and purchase equipment without government permission.",
+      "states": ["Texas", "Idaho", "New Hampshire", "California", "Colorado", "Kansas", "New Mexico", "Pennsylvania", "South Dakota", "Utah", "Wyoming", "Arizona"],
+      "count": 12
+    },
+    {
+      "name": "Mostly Free",
+      "score_range": "5-20",
+      "color": "#4ade80",
+      "description": "CON has been largely repealed or reduced to a narrow scope. Minimal services still regulated, typically limited to nursing homes or specific equipment.",
+      "states": ["Florida", "Montana", "North Dakota", "Wisconsin", "Arkansas", "Oklahoma"],
+      "count": 6
+    },
+    {
+      "name": "Moderate",
+      "score_range": "30-45",
+      "color": "#facc15",
+      "description": "CON law exists with meaningful scope but contains significant exemptions or has been partially reformed. Some services are deregulated.",
+      "states": ["Minnesota", "South Carolina", "Delaware", "Nebraska"],
+      "count": 4
+    },
+    {
+      "name": "Restrictive",
+      "score_range": "55-65",
+      "color": "#f97316",
+      "description": "Broad CON law covering most major healthcare services. Application process creates significant barriers to entry. Incumbent providers can intervene.",
+      "states": ["Alaska", "Louisiana", "Hawaii", "Maine", "Michigan", "Illinois", "Oregon", "New York"],
+      "count": 8
+    },
+    {
+      "name": "Highly Restrictive",
+      "score_range": "80-90",
+      "color": "#ef4444",
+      "description": "Extensive CON law covering numerous services. High fees, long timelines, and aggressive incumbent intervention. Reform efforts have repeatedly failed.",
+      "states": ["Missouri", "Alabama", "Rhode Island", "Tennessee", "Mississippi", "Connecticut", "Iowa", "Massachusetts", "District of Columbia"],
+      "count": 9
+    },
+    {
+      "name": "Most Restrictive",
+      "score_range": "95-100",
+      "color": "#b91c1c",
+      "description": "Maximum CON restrictiveness. Nearly every healthcare service requires permission. Markets are highly concentrated. Reform is politically blocked.",
+      "states": ["Georgia", "Maryland", "Kentucky", "Nevada", "New Jersey", "North Carolina", "Vermont", "Virginia", "Washington", "West Virginia"],
+      "count": 10
+    }
+  ],
+  "scoring_methodology": {
+    "source": "Cicero Institute",
+    "scale": "0-100",
+    "dimensions": [
+      "Number of regulated service categories",
+      "Breadth of regulated activities (new construction, expansion, equipment, relocation)",
+      "Financial thresholds triggering review",
+      "Competitor intervention mechanisms",
+      "Appeal and judicial review processes"
+    ],
+    "note": "Scores reflect the statutory and regulatory burden of the CON program. A score of 0 means no CON law exists. A score of 100 means maximum restrictiveness across all dimensions."
+  },
+  "momentum_methodology": {
+    "scale": "0-5",
+    "dimensions": [
+      { "label": "Bill Introduced", "description": "A reform or repeal bill was introduced in the current or most recent legislative session." },
+      { "label": "Committee Assignment", "description": "The bill received a committee assignment, indicating it was taken seriously by leadership." },
+      { "label": "Hearing Held", "description": "The bill received a hearing, markup session, or floor vote." },
+      { "label": "Governor Support", "description": "The sitting governor has publicly supported CON reform or repeal." },
+      { "label": "Prior Reform", "description": "The state has previously reformed its CON law through partial repeal, exemptions, or scope reduction." }
+    ],
+    "thresholds": [
+      { "range": "4-5", "signal": "Green", "meaning": "Reform likely" },
+      { "range": "2-3", "signal": "Yellow", "meaning": "Reform possible" },
+      { "range": "0-1", "signal": "Red", "meaning": "Reform stalled" }
+    ]
+  }
+}

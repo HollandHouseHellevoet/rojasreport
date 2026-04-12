@@ -1,0 +1,46 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: NORTH DAKOTA
+  The Rojas Report | conlaws.rojasreport.com/states/north-dakota/
+==============================================================================
+
+  State:    North Dakota (ND)
+  Score:    5/100
+  Tier:     Mostly Free
+  Rank:     14 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of North Dakota's limited Certificate of Need (CON) laws,
+which apply only to long-term and basic care facilities, and their impact on
+the state's healthcare market.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Long-Term Care Facilities
+  * Hospitals & Ambulatory Surgery
+  * Advanced Imaging (MRI, CT)
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Source materials include state legislative documents, reports from the
+Mercatus Center, and public filings from health systems. All data as of latest
+update.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Source materials include state legislative documents, reports from the
+Mercatus Center, and public filings from health systems. All data as of latest
+update.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/north-dakota/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

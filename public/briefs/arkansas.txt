@@ -1,0 +1,68 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: ARKANSAS
+  The Rojas Report | conlaws.rojasreport.com/states/arkansas/
+==============================================================================
+
+  State:    Arkansas (AR)
+  Score:    15/100
+  Tier:     Mostly Free
+  Rank:     18 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Arkansas's Permit of Approval (POA) program, its impact
+on healthcare competition, and market concentration data.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Long-Term Care
+  * Nursing home construction, adding/converting beds.
+  * Home Health
+  * Establishment of new hospice programs.
+  * Threshold of $1,000,000 for nursing home renovations.
+  * Case Law: Denial of Home Health Services
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Arkansas: Permit of Approval
+
+  Arkansas replaced its broad Certificate of Need (CON) program with a
+narrower Permit of Approval (POA) system in 1987, primarily regulating long-
+term care and home health services while largely exempting hospitals. This
+shift has created a unique regulatory landscape that warrants close
+examination.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Threshold of $1,000,000 for nursing home renovations.
+
+  The state uses a structured batching system for POA applications, creating
+predictable but rigid timelines for market entry.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Case Law: Denial of Home Health Services
+
+  The most significant feature of the modern POA system is the 2001 law (Act
+1800) that explicitly bars competitors from seeking judicial review of a
+granted permit. This creates a one-way street for legal challenges: applicants
+can sue if denied, but competitors cannot sue if a new rival is approved. This
+legislative shield effectively nullifies a key accountability mechanism,
+entrenching the commission's decisions and protecting approved applicants from
+legal challenges by incumbents.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/arkansas/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

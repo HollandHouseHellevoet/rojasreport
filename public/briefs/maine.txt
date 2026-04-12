@@ -1,0 +1,67 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: MAINE
+  The Rojas Report | conlaws.rojasreport.com/states/maine/
+==============================================================================
+
+  State:    Maine (ME)
+  Score:    65/100
+  Tier:     Restrictive
+  Rank:     27 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Maine's Certificate of Need (CON) laws, evaluating
+their impact on healthcare competition, cost, and quality.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Psychiatric Hospitals
+  * Nursing Facilities
+  * Ambulatory Surgical Centers
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Maine's CON laws cover a broad range of healthcare services and facilities,
+requiring government approval for new projects, expansions, and major
+equipment purchases.
+
+  Securing a CON is a lengthy and costly process, giving incumbent providers
+ample opportunity to block new competitors.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  CON laws have fostered a consolidated market dominated by a few large health
+systems and insurers, reducing competition and driving up costs.
+
+  MaineHealth holds a commanding market share, particularly in the southern
+part of the state.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Repeal efforts have consistently failed.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Case Study: St. Mary's Health System (2008)
+
+  This denial occurred amidst similar challenges faced by a rival hospital,
+demonstrating how the CON process can become a battleground for incumbents
+rather than a tool for community planning.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/maine/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

@@ -1,0 +1,59 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: DELAWARE
+  The Rojas Report | conlaws.rojasreport.com/states/delaware/
+==============================================================================
+
+  State:    Delaware (DE)
+  Score:    45/100
+  Tier:     Moderate
+  Rank:     23 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+            6+  Services regulated by CON
+          1978  Year CON enacted
+          ~60%  ChristianaCare market share
+             3  Counties in entire state
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Delaware CON score 45/100 (moderate). Limited CON program covering nursing
+facilities, hospitals, and select services since 1978. ChristianaCare
+dominates the state's healthcare market.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+  * RWJBarnabas Health's $7.5B empire. 25+ regulated services. Score: 100/100.
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Applications are reviewed by the Delaware Health Resources Board. The
+process includes a public hearing where interested parties — including
+competitors — can testify for or against the application.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  The state's proximity to Philadelphia means that some Delaware residents
+seek care across state lines, which partially mitigates the domestic
+concentration. But for the majority of Delawareans — particularly those in
+Kent and Sussex counties — the local market is the only practical option.
+
+  Delaware's CON program is moderate by national standards, but that is
+grading on a curve. In a state with three counties and two dominant hospital
+systems, even a moderate regulatory barrier locks in the existing market
+structure.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/delaware/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

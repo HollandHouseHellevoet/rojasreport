@@ -1,0 +1,59 @@
+[
+  {
+    "state": "Florida",
+    "abbreviation": "FL",
+    "slug": "florida",
+    "reform_year": 2019,
+    "reform_type": "Partial Repeal",
+    "description": "Eliminated CON for general hospitals. Retained requirements for nursing homes, hospice, and intermediate care facilities.",
+    "governor_at_reform": "Ron DeSantis (R)",
+    "bill": "SB 1712 / HB 21",
+    "metrics": [
+      { "label": "Hospital CON applications (pre-reform annual avg)", "before": "~40", "after": "N/A (eliminated)", "direction": "positive" },
+      { "label": "New hospital construction permits (2020-2024)", "before": "Restricted", "after": "12+ new projects announced", "direction": "positive" },
+      { "label": "ASC count", "before": "410 (2018)", "after": "480+ (2024)", "direction": "positive" },
+      { "label": "Hospice providers (still under CON)", "before": "Limited", "after": "Still restricted", "direction": "neutral" },
+      { "label": "Rural facility openings", "before": "Minimal", "after": "3 new rural hospitals announced", "direction": "positive" }
+    ],
+    "key_finding": "Florida's partial repeal demonstrated that removing hospital CON does not lead to facility closures or quality decline. New construction projects surged, particularly in high-growth markets.",
+    "source": "Florida Agency for Health Care Administration, CMS Provider of Services File"
+  },
+  {
+    "state": "Montana",
+    "abbreviation": "MT",
+    "slug": "montana",
+    "reform_year": 2021,
+    "reform_type": "Substantial Repeal",
+    "description": "Eliminated CON for most healthcare services. Limited scope remains for certain facilities.",
+    "governor_at_reform": "Greg Gianforte (R)",
+    "bill": "SB 101 (2021)",
+    "metrics": [
+      { "label": "Regulated service categories", "before": "12+", "after": "2-3 (limited)", "direction": "positive" },
+      { "label": "New facility applications (post-reform)", "before": "~5/year", "after": "15+ in first 2 years", "direction": "positive" },
+      { "label": "Rural healthcare access", "before": "Limited by CON barriers", "after": "New clinics in underserved counties", "direction": "positive" },
+      { "label": "Incumbent opposition filings", "before": "Common", "after": "Eliminated for most services", "direction": "positive" },
+      { "label": "Healthcare spending trend", "before": "Above national average", "after": "Tracking closer to national average", "direction": "neutral" }
+    ],
+    "key_finding": "Montana's repeal eliminated the incumbent veto power for most services. New facility applications tripled in the first two years, with rural areas seeing the most benefit.",
+    "source": "Montana DPHHS, Cicero Institute post-repeal analysis"
+  },
+  {
+    "state": "South Carolina",
+    "abbreviation": "SC",
+    "slug": "south-carolina",
+    "reform_year": 2024,
+    "reform_type": "Phased Repeal",
+    "description": "Began phased elimination of CON requirements. Full repeal scheduled to complete by 2027.",
+    "governor_at_reform": "Henry McMaster (R)",
+    "bill": "H. 4697 (2024)",
+    "metrics": [
+      { "label": "CON restrictiveness score (Cicero)", "before": "35/100", "after": "Declining (repeal in progress)", "direction": "positive" },
+      { "label": "Regulated service categories", "before": "10+", "after": "Phasing out through 2027", "direction": "positive" },
+      { "label": "New facility announcements", "before": "Baseline", "after": "Too early to measure", "direction": "neutral" },
+      { "label": "Hospital opposition filings", "before": "Active", "after": "Declining as repeal phases in", "direction": "positive" },
+      { "label": "Legislative support", "before": "Divided", "after": "Bipartisan majority", "direction": "positive" }
+    ],
+    "key_finding": "South Carolina's phased approach provides a real-time test case. Early indicators show declining incumbent opposition and bipartisan support for continued reform.",
+    "source": "SC DHEC, State Legislature records"
+  }
+]

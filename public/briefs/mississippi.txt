@@ -1,0 +1,87 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: MISSISSIPPI
+  The Rojas Report | conlaws.rojasreport.com/states/mississippi/
+==============================================================================
+
+  State:    Mississippi (MS)
+  Score:    90/100
+  Tier:     Highly Restrictive
+  Rank:     37 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+             7  Services regulated by CON
+          1979  Year CON enacted
+            40  Years of home health moratorium
+           50%  BCBS market share
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Mississippi CON score 90/100 (highly restrictive). 7 services regulated
+since 1979. A 40-year moratorium on new home health agencies was struck down
+by a federal court.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+  * A 40-year moratorium on home health agencies was only lifted by federal court order.
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  The applicant bears the burden of proving the proposed service is necessary.
+The process allows for intervention from competitors, who can request
+administrative hearings to contest the application.
+
+  The decision showcases how incumbents can use the CON process to block new
+competitors from entering a market.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Market share estimated based on available revenue and operational data.
+
+  In 2010, St. Dominic's Hospital sought to build a new $121 million hospital
+in Madison County, one of the fastest-growing and wealthiest counties in the
+state. The proposed facility would have brought new services and competition
+to an area dominated by existing providers.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Mississippi's CON laws have been in place since 1979. They regulate 7
+different services, devices, and procedures. For 40 years, the state enforced
+a moratorium on new home health agencies, a policy so blatantly anti-
+competitive it took a federal court to strike it down.
+
+  Mississippi (No Substantive Reform)
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Mississippi's CON laws have been in place since 1979. They regulate 7
+different services, devices, and procedures. For 40 years, the state enforced
+a moratorium on new home health agencies, a policy so blatantly anti-
+competitive it took a federal court to strike it down.
+
+  In 2010, St. Dominic's Hospital sought to build a new $121 million hospital
+in Madison County, one of the fastest-growing and wealthiest counties in the
+state. The proposed facility would have brought new services and competition
+to an area dominated by existing providers.
+
+  The decision showcases how incumbents can use the CON process to block new
+competitors from entering a market.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/mississippi/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

@@ -1,0 +1,65 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: MICHIGAN
+  The Rojas Report | conlaws.rojasreport.com/states/michigan/
+==============================================================================
+
+  State:    Michigan (MI)
+  Score:    65/100
+  Tier:     Restrictive
+  Rank:     27 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Michigan's Certificate of Need (CON) program, its
+market impact on healthcare providers like Corewell Health, and the regulatory
+landscape.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * **Facilities:** Hospitals, Nursing Homes, Psychiatric Hospitals, and Ambulatory Surgical Centers (ASCs).
+  * **Imaging:** CT, MRI, and PET scanners.
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Michigan's CON law covers a broad range of healthcare services and
+facilities, requiring state approval for new projects, expansions, or
+equipment purchases over a certain cost.
+
+  The Application Gauntlet
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  $81.4B in discounted drugs. Zero disclosure requirements.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  The path to approval is a bureaucratic maze managed by the Department of
+Health & Human Services (MDHHS) and a governor-appointed commission.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  In a landmark case, Huron Valley Hospital's 1977 CON application was denied
+after local planners favored an established competitor. The subsequent lawsuit
+alleged that the CON process was used not to manage resources, but to actively
+conspire against new market entrants. The courts found evidence of potential
+abuses, highlighting how CON laws can be weaponized to protect incumbents and
+stifle competition, a legal battle that underscores the system's capacity for
+cronyism.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/michigan/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

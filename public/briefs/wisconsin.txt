@@ -1,0 +1,63 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: WISCONSIN
+  The Rojas Report | conlaws.rojasreport.com/states/wisconsin/
+==============================================================================
+
+  State:    Wisconsin (WI)
+  Score:    5/100
+  Tier:     Mostly Free
+  Rank:     14 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Wisconsin has very limited CON laws, applying only to nursing homes. Explore
+its impact on healthcare access and market competition.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Nursing Home Bed Moratorium
+  * Regulated Services
+  * Nursing Home Beds
+  * Ambulatory Surgery Centers (ASCs)
+  * MRI & CT Scanners
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Wisconsin's CON program is a narrow exception in an otherwise free market.
+The only service requiring approval is the establishment of or increase in
+beds for nursing homes and certain long-term care facilities.
+
+  The process is administered by the Wisconsin Department of Health Services
+under the Nursing Home Bed Moratorium (Wis. Stat. 150.31).
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  The broader hospital and outpatient market is competitive, featuring several
+large non-profit systems. These systems compete on price and quality,
+unhindered by CON for most services. Major players include:
+
+  Like many states, Wisconsin had a broad CON program covering a wide range of
+healthcare services. This system was criticized for stifling competition and
+innovation.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Nursing Home Bed Moratorium
+
+  The process is administered by the Wisconsin Department of Health Services
+under the Nursing Home Bed Moratorium (Wis. Stat. 150.31).
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/wisconsin/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

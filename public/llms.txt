@@ -1,0 +1,40 @@
+# conlaws.rojasreport.com — LLM Context File
+
+## About This Site
+This is the Certificate of Need (CON) Law Intelligence Platform by The Rojas Report.
+It contains structured data and analysis on CON laws across 36 US states and DC.
+
+## What Are CON Laws?
+Certificate of Need laws require healthcare providers to obtain government permission
+before building hospitals, surgery centers, imaging facilities, or other healthcare
+services. In 35 jurisdictions (34 states + DC), competitors sit on the review boards
+that decide whether new providers can enter the market.
+
+## Data Coverage
+- 36 state intelligence dossiers with scope, process, market, case law, and reform data
+- 51-jurisdiction rankings scored 0-100 by Cicero Institute
+- Scope matrix: 36 states x 9 facility categories
+- State comparison tool (up to 3 states side-by-side)
+- Reform tracker with 5-dimension momentum scoring
+- Reform outcomes data for Florida (2019), Montana (2021), South Carolina (2024)
+- Historical timeline from 1946 to 2025
+- Evidence page with FTC/DOJ research findings
+
+## Key URLs
+- Homepage: https://conlaws.rojasreport.com/
+- Rankings: https://conlaws.rojasreport.com/rankings/
+- Scope Matrix: https://conlaws.rojasreport.com/scope/
+- Comparison Tool: https://conlaws.rojasreport.com/compare/
+- Evidence: https://conlaws.rojasreport.com/evidence/
+- Reform Tracker: https://conlaws.rojasreport.com/reform/
+- Outcomes: https://conlaws.rojasreport.com/outcomes/
+- Timeline: https://conlaws.rojasreport.com/timeline/
+- Methodology: https://conlaws.rojasreport.com/methodology/
+- State dossiers: https://conlaws.rojasreport.com/states/[state-slug]/
+
+## Data Sources
+Cicero Institute, NASHP, FTC, DOJ, CMS, Institute for Justice, Mercatus Center,
+NBER, state health departments, and original analysis by The Rojas Report.
+
+## Contact
+The Rojas Report: https://rojasreport.com

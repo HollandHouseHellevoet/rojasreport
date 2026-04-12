@@ -1,0 +1,67 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: MISSOURI
+  The Rojas Report | conlaws.rojasreport.com/states/missouri/
+==============================================================================
+
+  State:    Missouri (MO)
+  Score:    80/100
+  Tier:     Highly Restrictive
+  Rank:     33 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Missouri's Certificate of Need (CON) laws, their
+economic impact, and the political landscape surrounding them.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Long-term care facilities (nursing homes, assisted living)
+  * Psychiatric and rehabilitation services
+  * Major medical equipment (MRI, CT, PET scanners)
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Missouri's CON law covers a broad range of healthcare services, requiring
+providers to obtain state approval for significant capital expenditures. This
+includes:
+
+  Missouri Health Facilities Review Committee
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  CON laws often lead to consolidated markets, benefiting established players.
+In Missouri, the healthcare landscape is dominated by a few large systems,
+particularly in the St. Louis metropolitan area.
+
+  $81.4B in discounted drugs. Zero disclosure requirements.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Partial Repeal Pending
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  In a clear example of bureaucratic hurdles, the Missouri Health Facilities
+Review Committee unanimously denied a CON for an 18-bed residential care
+facility. The denial was not based on need, but on a technicality: the
+applicant had moved the proposed site by 1.5 miles after filing the initial
+letter of intent. This case highlights how CON regulations can stifle
+development over procedural minutiae rather than community benefit.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/missouri/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

@@ -1,0 +1,74 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: OREGON
+  The Rojas Report | conlaws.rojasreport.com/states/oregon/
+==============================================================================
+
+  State:    Oregon (OR)
+  Score:    65/100
+  Tier:     Restrictive
+  Rank:     27 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Oregon's Certificate of Need (CON) laws, market
+concentration, and their impact on healthcare competition and access.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Psychiatric Beds
+  * Regulated Services
+  * Ambulatory Surgical Centers (since 2009)
+  * Psychiatric Hospital Denied
+  * exemption of Ambulatory Surgical Centers (ASCs) from CON review in 2009
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  exemption of Ambulatory Surgical Centers (ASCs) from CON review in 2009
+
+  However, the core of the law, which covers new hospitals and long-term care
+facilities, remains firmly in place, preserving the gatekeeping power of the
+state and incumbent providers.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  The state's score of 65 reflects this mixed reality: a major reform in the
+past, but a system that still significantly restricts market entry for core
+healthcare facilities.
+
+  $81.4B in discounted drugs. Zero disclosure requirements.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  exemption of Ambulatory Surgical Centers (ASCs) from CON review in 2009
+
+  The state's score of 65 reflects this mixed reality: a major reform in the
+past, but a system that still significantly restricts market entry for core
+healthcare facilities.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Case File: NEWCO Oregon, Inc.
+
+  Psychiatric Hospital Denied
+
+  In 2017, the Oregon Health Authority denied a Certificate of Need for a
+proposed 100-bed freestanding psychiatric hospital in Wilsonville. The
+applicant, NEWCO, argued the state desperately needed more mental health
+capacity.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/oregon/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

@@ -1,0 +1,85 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: KENTUCKY
+  The Rojas Report | conlaws.rojasreport.com/states/kentucky/
+==============================================================================
+
+  State:    Kentucky (KY)
+  Score:    100/100
+  Tier:     Most Restrictive
+  Rank:     43 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+            18  Services regulated by CON
+          1972  Year CON enacted
+         3,720  Louisville market HHI
+          354%  Max pricing vs. Medicare
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Kentucky CON score 100/100 (most restrictive). 18 services regulated since
+1972. Three systems control 100% of Louisville's inpatient market. Pricing
+reaches 354% of Medicare.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+  * 9 home health agencies for 22,000 patients
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  The process is bifurcated into two tracks. The Formal Review is the most
+common and complex path. The applicant bears the burden of proving the
+proposed service is necessary, and a decision is typically rendered six months
+after the application date. This process resembles a trial, where incumbent
+providers can intervene to block a new competitor's entry.
+
+  Hospital mergers have been found to increase the average hospital price by
+6-18% nationwide. Kentucky's experience aligns with this trend, as the state's
+CON laws protect incumbent systems from new entrants that could offer more
+competitive pricing.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Kentucky's CON laws have been in place since 1972. They regulate 18
+different services, devices, and procedures. Three hospital systems control
+100% of the Louisville inpatient market. Competition is not just difficult
+here. It is illegal.
+
+  Three systems control 100% of the inpatient hospital market in Louisville.
+Norton Healthcare's 55% share gives it a commanding position.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  $2 billion health care conglomerate
+
+  How a $2 billion conglomerate used CON laws to block a Nepali immigrant from
+serving refugees.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Case Concluded. CON Upheld.
+
+  The case received unfavorable decisions at both the district court and the
+Sixth Circuit Court of Appeals (February 2022). The U.S. Supreme Court
+declined to hear the case in November 2022.
+
+  Tiwari v. Meier: Full Case Analysis
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/kentucky/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

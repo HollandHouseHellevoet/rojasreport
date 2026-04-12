@@ -1,0 +1,57 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: VERMONT
+  The Rojas Report | conlaws.rojasreport.com/states/vermont/
+==============================================================================
+
+  State:    Vermont (VT)
+  Score:    100/100
+  Tier:     Most Restrictive
+  Rank:     43 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Vermont scores 100/100 on CON restrictiveness. The Green Mountain Care Board
+holds both CON and rate-setting authority — unique in the nation. UVM Health
+Network dominates with 6 hospitals.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Score 65. Northwell's $17.6B empire. 26 regulated services. The state that started it all in 1964.
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Vermont's Green Mountain Care Board is the only regulatory body in the
+nation that combines Certificate of Need authority with hospital budget review
+and rate-setting power. This means the GMCB doesn't just decide who can build
+— it decides what they can charge.
+
+  Reviews and approves hospital budgets annually
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Controls market entry for all major healthcare services
+
+  Any project over $3M requires GMCB approval
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  What Reform Would Look Like
+
+  Compare all 35 jurisdictions. Interactive table with scores, tiers, and
+reform status.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/vermont/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

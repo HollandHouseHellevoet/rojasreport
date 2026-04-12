@@ -1,0 +1,70 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: ALASKA
+  The Rojas Report | conlaws.rojasreport.com/states/alaska/
+==============================================================================
+
+  State:    Alaska (AK)
+  Score:    55/100
+  Tier:     Restrictive
+  Rank:     25 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  In-depth analysis of Alaska's Certificate of Need (CON) laws, examining
+their impact on healthcare competition, market concentration, and consumer
+costs.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Regulated Services
+  * Hospitals (General, Psychiatric)
+  * Ambulatory Surgical Facilities
+  * Independent Diagnostic Testing Facilities (MRI, CT, PET)
+  * Residential Psychiatric Treatment Centers
+  * Skilled Nursing Facilities / Nursing Homes
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  105-135 days (plus extensions)
+
+  Alaska has not pursued any significant repeal or reform of its Certificate
+of Need program. The law, enacted in 1976, remains firmly in place, with only
+minor threshold adjustments over the decades. The regulatory environment
+continues to favor incumbents and limit new market entrants.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Anchorage is dominated by Providence Health (48% inpatient share), while
+Fairbanks is a virtual monopoly with a single hospital holding 100% market
+share.
+
+  $81.4B in discounted drugs. $66.4B in gross margin. Zero disclosure
+requirements.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Alaska has not pursued any significant repeal or reform of its Certificate
+of Need program. The law, enacted in 1976, remains firmly in place, with only
+minor threshold adjustments over the decades. The regulatory environment
+continues to favor incumbents and limit new market entrants.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Alaska Regional's Blocked ER
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/alaska/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

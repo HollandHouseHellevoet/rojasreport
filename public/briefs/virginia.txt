@@ -1,0 +1,60 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: VIRGINIA
+  The Rojas Report | conlaws.rojasreport.com/states/virginia/
+==============================================================================
+
+  State:    Virginia (VA)
+  Score:    100/100
+  Tier:     Most Restrictive
+  Rank:     43 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+            19  Services regulated by CON
+          1973  Year CON enacted
+        17.71%  Top Insurer Market Share
+  Highly Concentrated  Northern VA Hospital Market
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Virginia CON score 100/100 (Most Restrictive). 19 services regulated since
+1973. See how the law impacts healthcare access and cost.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+  * MRI Machine Denial
+
+------------------------------------------------------------------------------
+  KEY HEALTH SYSTEMS
+------------------------------------------------------------------------------
+  Sentara Health                  Revenue: $13B
+  Inova Health System             Revenue: $6.5B
+  UVA Health System               Revenue: $5.6B
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  A few large systems control the majority of hospital revenue in Virginia, a
+sign of a concentrated market.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Current State: No Meaningful Reform
+
+  Despite numerous attempts, Virginia's COPN law remains largely intact. Bills
+to repeal or significantly reform the law have consistently failed in the
+General Assembly, often due to strong opposition from the hospital lobby.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/virginia/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

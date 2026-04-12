@@ -1,0 +1,82 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: NORTH CAROLINA
+  The Rojas Report | conlaws.rojasreport.com/states/north-carolina/
+==============================================================================
+
+  State:    North Carolina (NC)
+  Score:    100/100
+  Tier:     Most Restrictive
+  Rank:     43 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+           13+  Categories regulated by CON
+          1977  Year CON enacted
+          ~85%  Charlotte Market Share (2 Systems)
+           62%  BCBS NC Market Share
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  North Carolina CON score 85/100 (highly restrictive). 18 services regulated
+since 1977. Two systems control nearly 100% of Charlotte's inpatient market.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+  * UNC Hospitals PET Scanner Application
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  The review process is lengthy and allows incumbent providers to file a
+'contested case' against a new applicant. This legal challenge mechanism
+significantly raises the cost and time required to bring new services to a
+community, protecting established players from competition.
+
+  — Dr. Gajendra Singh, whose application for a new hospital was blocked
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  North Carolina's CON law is a textbook case of regulatory capture. In
+Charlotte, two hospital systems, Atrium and Novant, control nearly 100% of the
+market. The state uses its power to pick winners and losers, stifling
+competition and leaving patients with fewer choices and higher costs.
+
+  Combined hospital market share of Atrium & Novant in Charlotte
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  National Reform Efforts
+
+  An overview of the legislative battles to repeal or reform CON laws.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  North Carolina's CON law is a textbook case of regulatory capture. In
+Charlotte, two hospital systems, Atrium and Novant, control nearly 100% of the
+market. The state uses its power to pick winners and losers, stifling
+competition and leaving patients with fewer choices and higher costs.
+
+  The review process is lengthy and allows incumbent providers to file a
+'contested case' against a new applicant. This legal challenge mechanism
+significantly raises the cost and time required to bring new services to a
+community, protecting established players from competition.
+
+  — Dr. Gajendra Singh, whose application for a new hospital was blocked
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/north-carolina/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

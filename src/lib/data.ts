@@ -142,6 +142,32 @@ export function getReformTracker(): ReformTrackerEntry[] {
   return JSON.parse(raw) as ReformTrackerEntry[];
 }
 
+export interface OutcomeMetric {
+  label: string;
+  before: string;
+  after: string;
+  direction: 'positive' | 'neutral' | 'negative';
+}
+
+export interface OutcomeEntry {
+  state: string;
+  abbreviation: string;
+  slug: string;
+  reform_year: number;
+  reform_type: string;
+  description: string;
+  governor_at_reform: string;
+  bill: string;
+  metrics: OutcomeMetric[];
+  key_finding: string;
+  source: string;
+}
+
+export function getOutcomes(): OutcomeEntry[] {
+  const raw = fs.readFileSync(path.join(dataDir, 'outcomes.json'), 'utf-8');
+  return JSON.parse(raw) as OutcomeEntry[];
+}
+
 export function tierColor(tier: string): string {
   switch (tier) {
     case 'Free Market': return 'tier-free';

@@ -168,6 +168,23 @@ export default function StateDossier({ state }: StateDossierProps) {
         </section>
       )}
 
+      {/* Download Brief */}
+      <section className="border-b border-white/10">
+        <div className="max-w-content mx-auto px-5 py-10 text-center">
+          <a
+            href={`/briefs/${state.slug}.txt`}
+            download={`${state.slug}-con-brief.txt`}
+            className="inline-flex items-center gap-2 font-body text-sm font-semibold text-orange hover:text-orange-light border border-orange/30 px-6 py-3 hover:border-orange/60 transition-colors"
+          >
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download State Brief
+          </a>
+          <p className="mt-2 font-body text-xs text-cream/30">
+            Plain text intelligence brief for {state.state}
+          </p>
+        </div>
+      </section>
+
       {/* Cross-links */}
       <section className="bg-navy-dark border-b border-white/10">
         <div className="max-w-content mx-auto px-5 py-16 md:py-20">

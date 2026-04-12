@@ -1,0 +1,78 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: ILLINOIS
+  The Rojas Report | conlaws.rojasreport.com/states/illinois/
+==============================================================================
+
+  State:    Illinois (IL)
+  Score:    65/100
+  Tier:     Restrictive
+  Rank:     27 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+            6+  Services regulated by CON
+          1974  Year CON enacted
+           97%  BCBS HMO market share
+          2029  Sunset date (if not renewed)
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Illinois CON score 65/100 (restrictive). 6+ services regulated since 1974.
+One insurer controls 97% of the HMO market. CON law sunsets in 2029.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Illinois calls it the Health Facilities Planning Act. It should be called
+the Incumbent Protection Racket Act. One insurer controls 97% of the HMO
+market. The state's CON law is the moat that protects this castle, ensuring no
+new competition can threaten the cozy arrangement between dominant insurers
+and hospital systems.
+
+  The HFSRB reviews all applications for new healthcare facilities and major
+capital expenditures. The process allows incumbent providers to protest,
+effectively giving existing players a veto over new competition. Application
+fees can reach $150,000.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  The HFSRB reviews all applications for new healthcare facilities and major
+capital expenditures. The process allows incumbent providers to protest,
+effectively giving existing players a veto over new competition. Application
+fees can reach $150,000.
+
+  The case illustrates how the CON process can be weaponized — not just to
+protect incumbents from competition, but potentially to punish those who
+challenge the system itself.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Edward Hospital — Plainfield Facility Denial
+
+  The Health Facilities and Services Review Board denied the application. The
+hospital's CEO alleged the denial was retaliatory after she exposed a kickback
+scheme within the review process. Despite the allegations, the board formally
+rejected the CON, leaving the community without the facility it needed.
+
+  The case illustrates how the CON process can be weaponized — not just to
+protect incumbents from competition, but potentially to punish those who
+challenge the system itself.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/illinois/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================

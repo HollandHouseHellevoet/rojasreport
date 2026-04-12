@@ -1,0 +1,89 @@
+==============================================================================
+  CERTIFICATE OF NEED INTELLIGENCE BRIEF: FLORIDA
+  The Rojas Report | conlaws.rojasreport.com/states/florida/
+==============================================================================
+
+  State:    Florida (FL)
+  Score:    5/100
+  Tier:     Mostly Free
+  Rank:     14 of 51 jurisdictions
+
+------------------------------------------------------------------------------
+  KEY METRICS
+------------------------------------------------------------------------------
+             3  Services regulated by CON
+          2019  Year CON partially repealed
+        $17.3B  AdventHealth Revenue
+           36%  BCBSFL Market Share
+
+------------------------------------------------------------------------------
+  SUMMARY
+------------------------------------------------------------------------------
+
+  Florida CON score 5/100 (mostly free). CON remains for nursing
+homes/hospice. AdventHealth and HCA dominate key markets.
+
+------------------------------------------------------------------------------
+  SCOPE OF REGULATION
+------------------------------------------------------------------------------
+  * Services Requiring CON Approval
+  * Sarasota County Hospice Denial
+  * single monopoly hospice provider
+  * nursing homes and hospices
+
+------------------------------------------------------------------------------
+  APPLICATION PROCESS
+------------------------------------------------------------------------------
+
+  Florida partially repealed its CON laws in 2019, eliminating them for
+general hospitals. However, CON requirements remain for nursing homes,
+hospices, and intermediate care facilities, protecting incumbent providers in
+the post-acute care sector.
+
+  The process for remaining CON services is rigorous. Any 'substantially
+affected person,' including existing providers, can request an administrative
+hearing to object to a new competitor's application, creating significant
+barriers to entry.
+
+------------------------------------------------------------------------------
+  MARKET CONCENTRATION
+------------------------------------------------------------------------------
+
+  Orlando Area Hospital Market Share (Illustrative)
+
+  AdventHealth and Orlando Health are the two dominant players in Central
+Florida. While hospital CON is gone, their scale gives them immense leverage
+in the remaining regulated services like hospice and nursing homes.
+
+------------------------------------------------------------------------------
+  REFORM STATUS
+------------------------------------------------------------------------------
+
+  Florida partially repealed its CON laws in 2019, eliminating them for
+general hospitals. However, CON requirements remain for nursing homes,
+hospices, and intermediate care facilities, protecting incumbent providers in
+the post-acute care sector.
+
+  By repealing most of its CON law, Florida took a significant step toward a
+more competitive hospital market. However, by leaving protections for nursing
+homes and hospices, the state continues to shield some of the most profitable
+sectors from competition.
+
+------------------------------------------------------------------------------
+  CASE LAW / DENIALS
+------------------------------------------------------------------------------
+
+  Sarasota County Hospice Denial
+
+  Decided 2018 · Sarasota County, Florida · State Court
+
+  This case highlights the core flaw of CON laws: they prioritize the
+financial stability of existing providers over the benefits of market
+competition. The state actively defended the incumbent's monopoly, forcing
+residents to rely on a single provider for end-of-life care.
+
+==============================================================================
+  Source: The Rojas Report | conlaws.rojasreport.com/states/florida/
+  Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
+  Generated: April 2026
+==============================================================================
