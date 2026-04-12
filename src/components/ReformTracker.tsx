@@ -26,29 +26,49 @@ interface ReformTrackerProps {
   entries: TrackerEntry[];
 }
 
-const MOMENTUM_FILTER_OPTIONS = ['All', 'Green (4-5)', 'Yellow (2-3)', 'Red (0-1)'];
+const MOMENTUM_FILTER_OPTIONS = ['All', 'Reform Likely', 'Reform Possible', 'Reform Stalled'];
+
+// Brand-palette mapping
+// Likely (green): cream with cream border
+// Possible (yellow): orange with orange border
+// Stalled (red): red-brown with red-brown border
+function momentumStyles(momentum: string) {
+  if (momentum === 'green') {
+    return {
+      border: 'border-l-4 border-l-cream',
+      text: 'text-cream',
+      label: 'Likely',
+    };
+  }
+  if (momentum === 'yellow') {
+    return {
+      border: 'border-l-4 border-l-orange',
+      text: 'text-orange',
+      label: 'Possible',
+    };
+  }
+  return {
+    border: 'border-l-4 border-l-red-brown',
+    text: 'text-red-brown',
+    label: 'Stalled',
+  };
+}
 
 function MomentumBadge({ momentum, score }: { momentum: string; score: number }) {
-  const colors = {
-    green: 'bg-tier-free text-white',
-    yellow: 'bg-tier-moderate text-navy',
-    red: 'bg-tier-most-restrictive text-white',
-  };
-  const labels = { green: 'Likely', yellow: 'Possible', red: 'Stalled' };
-
+  const s = momentumStyles(momentum);
   return (
-    <span className={`inline-flex items-center gap-1 px-2 py-0.5 text-xs font-bold ${colors[momentum as keyof typeof colors] || colors.red}`}>
-      {score}/5 {labels[momentum as keyof typeof labels]}
+    <span className={`inline-flex items-center gap-2 ${s.text} font-body text-sm font-bold`}>
+      <span>{score}/5</span>
+      <span className="font-semibold">{s.label}</span>
     </span>
   );
 }
 
-function ScoreDot({ filled }: { filled: boolean }) {
-  return (
-    <span
-      className={`inline-block w-2.5 h-2.5 rounded-full ${filled ? 'bg-orange' : 'bg-white/10'}`}
-      aria-label={filled ? 'Yes' : 'No'}
-    />
+function YesNo({ filled }: { filled: boolean }) {
+  return filled ? (
+    <span className="font-body text-sm font-semibold text-orange">Yes</span>
+  ) : (
+    <span className="font-body text-sm text-cream/30">No</span>
   );
 }
 
@@ -58,10 +78,9 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
 
   const filtered = useMemo(() => {
     let result = [...entries];
-
-    if (filter === 'Green (4-5)') result = result.filter(e => e.momentum === 'green');
-    else if (filter === 'Yellow (2-3)') result = result.filter(e => e.momentum === 'yellow');
-    else if (filter === 'Red (0-1)') result = result.filter(e => e.momentum === 'red');
+    if (filter === 'Reform Likely') result = result.filter(e => e.momentum === 'green');
+    else if (filter === 'Reform Possible') result = result.filter(e => e.momentum === 'yellow');
+    else if (filter === 'Reform Stalled') result = result.filter(e => e.momentum === 'red');
 
     result.sort((a, b) => {
       if (sortBy === 'momentum') return b.momentum_score - a.momentum_score || b.score - a.score;
@@ -78,22 +97,22 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
 
   return (
     <div>
-      {/* Summary cards */}
+      {/* Summary cards (brand palette) */}
       <div className="grid grid-cols-3 gap-4 mb-8">
-        <div className="border border-tier-free/30 p-4 text-center">
-          <div className="font-display text-3xl font-bold text-tier-free">{greenCount}</div>
-          <div className="font-body text-xs text-cream/50 mt-1">Reform Likely</div>
-          <div className="font-body text-[10px] text-cream/30 mt-0.5">Score 4-5</div>
+        <div className="border-l-4 border-l-cream bg-navy-dark/40 p-4">
+          <div className="font-display text-stat text-cream leading-none">{greenCount}</div>
+          <div className="mt-2 font-body text-sm font-semibold text-cream">Reform Likely</div>
+          <div className="font-body text-xs text-cream/40 mt-0.5">Score 4-5</div>
         </div>
-        <div className="border border-tier-moderate/30 p-4 text-center">
-          <div className="font-display text-3xl font-bold text-tier-moderate">{yellowCount}</div>
-          <div className="font-body text-xs text-cream/50 mt-1">Reform Possible</div>
-          <div className="font-body text-[10px] text-cream/30 mt-0.5">Score 2-3</div>
+        <div className="border-l-4 border-l-orange bg-navy-dark/40 p-4">
+          <div className="font-display text-stat text-orange leading-none">{yellowCount}</div>
+          <div className="mt-2 font-body text-sm font-semibold text-cream">Reform Possible</div>
+          <div className="font-body text-xs text-cream/40 mt-0.5">Score 2-3</div>
         </div>
-        <div className="border border-tier-most-restrictive/30 p-4 text-center">
-          <div className="font-display text-3xl font-bold text-tier-most-restrictive">{redCount}</div>
-          <div className="font-body text-xs text-cream/50 mt-1">Reform Stalled</div>
-          <div className="font-body text-[10px] text-cream/30 mt-0.5">Score 0-1</div>
+        <div className="border-l-4 border-l-red-brown bg-navy-dark/40 p-4">
+          <div className="font-display text-stat text-red-brown leading-none">{redCount}</div>
+          <div className="mt-2 font-body text-sm font-semibold text-cream">Reform Stalled</div>
+          <div className="font-body text-xs text-cream/40 mt-0.5">Score 0-1</div>
         </div>
       </div>
 
@@ -102,7 +121,7 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
         <select
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
-          className="bg-navy-dark border border-white/20 text-cream text-sm px-3 py-2 font-body focus:border-orange focus:outline-none"
+          className="bg-navy-dark border border-white/20 text-cream px-3 py-2 font-body text-sm focus:border-orange focus:outline-none"
           aria-label="Filter by momentum"
         >
           {MOMENTUM_FILTER_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
@@ -112,7 +131,7 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
             <button
               key={s}
               onClick={() => setSortBy(s)}
-              className={`px-3 py-2 text-xs font-body font-semibold capitalize transition-colors ${
+              className={`px-3 py-2 font-body text-sm font-semibold capitalize transition-colors ${
                 sortBy === s ? 'bg-orange text-white' : 'text-cream/60 hover:text-cream'
               }`}
             >
@@ -120,64 +139,66 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
             </button>
           ))}
         </div>
-        <span className="self-center text-xs font-body text-cream/30">
+        <span className="self-center font-body text-sm text-cream/30">
           {filtered.length} state{filtered.length !== 1 ? 's' : ''}
         </span>
       </div>
 
       {/* Table */}
       <div className="overflow-x-auto">
-        <table className="w-full text-left min-w-[900px]">
-          <thead>
+        <table className="w-full text-left border-collapse min-w-[980px]">
+          <thead className="sticky top-0 bg-navy z-10">
             <tr className="border-b border-white/20">
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40">State</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">CON</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Momentum</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center" title="Bill Introduced">Bill</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center" title="Committee Assigned">Cmte</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center" title="Hearing Held">Hear</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center" title="Governor Supports">Gov</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center" title="Reformed Before">Prior</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Current Bill</th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Status</th>
+              <th scope="col" className="py-3 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream/40">State</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">CON</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Momentum</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Bill Introduced</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Committee Assigned</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Hearing Held</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Governor Support</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Prior Reform</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Current Bill</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Status</th>
             </tr>
           </thead>
           <tbody>
-            {filtered.map((e) => (
-              <tr key={e.abbreviation} className="border-b border-white/5 hover:bg-white/5 transition-colors group">
-                <td className="py-3 px-2">
-                  <Link href={`/states/${e.slug}/`} className="font-body text-sm font-semibold text-cream hover:text-orange transition-colors">
-                    {e.state}
-                  </Link>
-                  <span className="block font-body text-[10px] text-cream/30">{e.tier}</span>
-                </td>
-                <td className="py-3 px-2 text-center">
-                  <span className="font-body text-xs font-bold text-cream/50">{e.score}</span>
-                </td>
-                <td className="py-3 px-2 text-center">
-                  <MomentumBadge momentum={e.momentum} score={e.momentum_score} />
-                </td>
-                <td className="py-3 px-2 text-center"><ScoreDot filled={!!e.bill_introduced} /></td>
-                <td className="py-3 px-2 text-center"><ScoreDot filled={!!e.committee_assigned} /></td>
-                <td className="py-3 px-2 text-center"><ScoreDot filled={!!e.hearing_held} /></td>
-                <td className="py-3 px-2 text-center"><ScoreDot filled={!!e.governor_supports} /></td>
-                <td className="py-3 px-2 text-center"><ScoreDot filled={!!e.reformed_before} /></td>
-                <td className="py-3 px-2 font-body text-xs text-cream/50">{e.current_bill}</td>
-                <td className="py-3 px-2 font-body text-xs text-cream/40 max-w-[200px]">{e.bill_status}</td>
-              </tr>
-            ))}
+            {filtered.map((e, i) => {
+              const s = momentumStyles(e.momentum);
+              return (
+                <tr
+                  key={e.abbreviation}
+                  className={`border-b border-white/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
+                >
+                  <td className={`py-3 px-4 ${s.border}`}>
+                    <Link href={`/states/${e.slug}/`} className="font-body text-base font-bold text-cream hover:text-orange transition-colors">
+                      {e.state}
+                    </Link>
+                    <span className="block font-body text-xs text-cream/30">{e.tier}</span>
+                  </td>
+                  <td className="py-3 px-3 text-center font-body text-sm font-bold text-cream/60">{e.score}</td>
+                  <td className="py-3 px-3"><MomentumBadge momentum={e.momentum} score={e.momentum_score} /></td>
+                  <td className="py-3 px-3 text-center"><YesNo filled={!!e.bill_introduced} /></td>
+                  <td className="py-3 px-3 text-center"><YesNo filled={!!e.committee_assigned} /></td>
+                  <td className="py-3 px-3 text-center"><YesNo filled={!!e.hearing_held} /></td>
+                  <td className="py-3 px-3 text-center"><YesNo filled={!!e.governor_supports} /></td>
+                  <td className="py-3 px-3 text-center"><YesNo filled={!!e.reformed_before} /></td>
+                  <td className="py-3 px-3 font-body text-sm text-cream/60">{e.current_bill || 'N/A'}</td>
+                  <td className="py-3 px-3 font-body text-sm text-cream/40 max-w-[220px]">{e.bill_status}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
 
       {/* Methodology note */}
       <div className="mt-8 border-t border-white/10 pt-6">
-        <p className="font-body text-xs text-cream/30 leading-relaxed max-w-3xl">
-          <strong className="text-cream/50">Methodology:</strong> Each state is scored 0-5 across five dimensions:
+        <p className="font-body text-sm text-cream/40 leading-relaxed max-w-prose">
+          <strong className="text-cream/60">Methodology:</strong> Each state is scored 0-5 across five dimensions:
           (1) reform bill introduced in current session, (2) bill has committee assignment,
           (3) hearing or floor vote held, (4) governor publicly supports reform,
-          (5) state has reformed before. Green = 4-5 (reform likely), Yellow = 2-3 (reform possible),
-          Red = 0-1 (no meaningful activity).
+          (5) state has reformed before. Score 4-5 = reform likely. Score 2-3 = reform possible.
+          Score 0-1 = reform stalled.
         </p>
       </div>
     </div>

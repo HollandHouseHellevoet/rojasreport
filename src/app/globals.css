@@ -11,20 +11,17 @@
   body {
     font-size: 18px;
     line-height: 1.7;
+    background-color: #0f1c2e;
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.012) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
+    background-size: 48px 48px;
+    background-position: center center;
   }
 
-  h1 {
-    font-size: 3rem;
-    line-height: 1.1;
-  }
-  h2 {
-    font-size: 2.25rem;
-    line-height: 1.15;
-  }
-  h3 {
-    font-size: 1.5rem;
-    line-height: 1.25;
-  }
+  h1 { font-size: 3rem; line-height: 1.1; }
+  h2 { font-size: 2.25rem; line-height: 1.15; }
+  h3 { font-size: 1.5rem; line-height: 1.25; }
 
   @media (max-width: 640px) {
     body { font-size: 16px; }
@@ -33,7 +30,33 @@
     h3 { font-size: 1.25rem; }
   }
 
-  table {
-    font-size: 1rem;
+  table { font-size: 1rem; }
+}
+
+/* Section divider utility */
+.section-rule {
+  border-top: 1px solid rgba(247, 244, 239, 0.08);
+}
+
+/* Print stylesheet */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #111 !important;
+    background-image: none !important;
+    font-size: 11pt;
   }
+  nav, footer, button, .no-print { display: none !important; }
+  a { color: #111 !important; text-decoration: none !important; }
+  a::after { content: ''; }
+  .bg-navy, .bg-navy-dark, .bg-navy-light, .bg-navy-row { background: #fff !important; }
+  .text-cream, .text-cream\/90, .text-cream\/80, .text-cream\/70, .text-cream\/60, .text-cream\/55, .text-cream\/50, .text-cream\/45, .text-cream\/40, .text-cream\/30 { color: #111 !important; }
+  .text-orange { color: #d4622a !important; }
+  .border-white\/10, .border-white\/20, .border-white\/5 { border-color: #ccc !important; }
+  section { page-break-inside: avoid; padding: 1rem 0 !important; }
+  h1, h2, h3 { color: #111 !important; page-break-after: avoid; }
+  table { page-break-inside: auto; }
+  tr { page-break-inside: avoid; page-break-after: auto; }
+  thead { display: table-header-group; }
+  .baseball-card { page-break-inside: avoid; page-break-after: always; }
 }

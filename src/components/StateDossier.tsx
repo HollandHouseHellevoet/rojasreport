@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import type { StateData } from '@/lib/data';
-import ClassificationBadge from './ClassificationBadge';
-import QuickStat from './QuickStat';
 import SectionHeader from './SectionHeader';
 import SmartText from './SmartText';
 import ScopeChecklist from './ScopeChecklist';
@@ -11,6 +9,7 @@ import InsurerCard from './InsurerCard';
 import CaseLawCard from './CaseLawCard';
 import ReformStatus from './ReformStatus';
 import CitationBlock from './CitationBlock';
+import BaseballCard from './BaseballCard';
 
 interface StateDossierProps {
   state: StateData;
@@ -123,29 +122,13 @@ export default function StateDossier({ state }: StateDossierProps) {
         </div>
       </div>
 
-      {/* Hero */}
-      <section className="bg-navy-dark border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 pt-10 pb-10">
-          <span className="font-body text-xs font-bold tracking-widest uppercase text-orange">
-            Intelligence Briefing
-          </span>
-          <h1 className="mt-3 font-display font-bold text-cream tracking-tight">
-            {state.state}
-          </h1>
-          <div className="mt-3">
-            <ClassificationBadge tier={state.tier} score={state.score} size="lg" />
-          </div>
-
-          {state.quick_stats && state.quick_stats.length > 0 && (
-            <div className="mt-6 grid grid-cols-2 lg:grid-cols-4 gap-4">
-              {state.quick_stats.map((qs) => (
-                <QuickStat key={qs.label} value={qs.value} label={qs.label} />
-              ))}
-            </div>
-          )}
-
+      {/* Hero / Intelligence Card */}
+      <section className="bg-navy pt-8 pb-4">
+        <div className="max-w-content mx-auto px-5">
+          <h1 className="sr-only">{state.state} Certificate of Need Laws</h1>
+          <BaseballCard state={state} />
           {metaSummary && (
-            <p className="mt-5 font-body text-cream/50 leading-relaxed max-w-[720px]">
+            <p className="mt-6 font-body text-cream/50 leading-relaxed max-w-prose">
               {metaSummary}
             </p>
           )}

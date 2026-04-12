@@ -9,19 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        navy: '#1a2a3a',
+        navy: '#0f1c2e',
+        'navy-light': '#1a2a3e',
+        'navy-dark': '#0a1420',
+        'navy-row': '#162636',
         cream: '#f7f4ef',
         orange: '#d4622a',
-        'navy-light': '#243546',
-        'navy-dark': '#111e2b',
-        'navy-row': '#1e3040',
         'orange-light': '#e07a3a',
-        'tier-free': '#22c55e',
-        'tier-mostly-free': '#4ade80',
-        'tier-moderate': '#facc15',
-        'tier-restrictive': '#f97316',
-        'tier-highly-restrictive': '#ef4444',
-        'tier-most-restrictive': '#b91c1c',
+        'red-brown': '#8b3a2a',
+        'tier-free': '#a8c9b0',
+        'tier-mostly-free': '#c5d4bb',
+        'tier-moderate': '#e6b85c',
+        'tier-restrictive': '#c47a3f',
+        'tier-highly-restrictive': '#b04e2f',
+        'tier-most-restrictive': '#8b3a2a',
       },
       fontFamily: {
         display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
@@ -29,9 +30,16 @@ const config: Config = {
       },
       maxWidth: {
         'content': '1080px',
+        'prose': '960px',
       },
       fontSize: {
         'stat': ['3rem', { lineHeight: '1.1', fontWeight: '700' }],
+      },
+      backgroundImage: {
+        'grid-pattern': `linear-gradient(rgba(255,255,255,0.015) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.015) 1px, transparent 1px)`,
+      },
+      backgroundSize: {
+        'grid': '32px 32px',
       },
     },
   },

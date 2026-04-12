@@ -37,6 +37,7 @@ export interface StateData {
   top_insurer_share?: string;
   case_law_summary?: string;
   parsed_scope?: string[];
+  hook?: string;
 }
 
 export interface RankingEntry {
