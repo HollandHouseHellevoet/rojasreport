@@ -15,7 +15,7 @@ export default function ScopePage() {
   const matrix = getScopeMatrix();
 
   return (
-    <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+    <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
         label="Scope of Regulation"
         title="What Requires a Certificate of Need?"

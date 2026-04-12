@@ -53,7 +53,7 @@ export default function MethodologyPage() {
 
       {/* Tier Definitions */}
       <section className="border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="01"
             label="Tier Definitions"
@@ -83,7 +83,7 @@ export default function MethodologyPage() {
 
       {/* Scoring Methodology */}
       <section className="bg-navy-dark border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="02"
             label="Restrictiveness Score"
@@ -115,7 +115,7 @@ export default function MethodologyPage() {
 
       {/* Momentum Methodology */}
       <section className="border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="03"
             label="Reform Momentum"
@@ -176,7 +176,7 @@ export default function MethodologyPage() {
 
       {/* Data Sources */}
       <section className="bg-navy-dark">
-        <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="04"
             label="Data Sources"

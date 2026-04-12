@@ -112,19 +112,19 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
       {/* Table */}
       <div className="overflow-x-auto">
         <table className="w-full text-left min-w-[800px]">
-          <thead>
+          <thead className="sticky top-0 bg-navy z-10">
             <tr className="border-b border-white/20">
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 sticky left-0 bg-navy z-10">
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 sticky left-0 bg-navy z-20">
                 State
               </th>
-              <th scope="col" className="py-3 px-2 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">
                 Score
               </th>
               {categories.map(cat => (
                 <th
                   key={cat}
                   scope="col"
-                  className="py-3 px-1 font-body text-[10px] font-bold tracking-wider uppercase text-cream/40 text-center max-w-[70px]"
+                  className="py-3 px-2 font-body text-[10px] font-bold tracking-wider uppercase text-cream/40 text-center max-w-[70px]"
                   title={cat}
                 >
                   {shortLabels[cat] || cat}
@@ -133,9 +133,9 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
             </tr>
           </thead>
           <tbody>
-            {filtered.map((row) => (
-              <tr key={row.abbreviation} className="border-b border-white/5 hover:bg-white/5 transition-colors">
-                <td className="py-2.5 px-2 sticky left-0 bg-navy z-10">
+            {filtered.map((row, i) => (
+              <tr key={row.abbreviation} className={`border-b border-white/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}>
+                <td className="py-3 px-3 sticky left-0 bg-navy z-10">
                   <Link
                     href={`/states/${row.slug}/`}
                     className="font-body text-sm font-semibold text-cream hover:text-orange transition-colors"

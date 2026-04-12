@@ -32,7 +32,7 @@ export default function ComparePage() {
   }));
 
   return (
-    <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+    <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
         label="Comparison Tool"
         title="Compare CON Laws Side by Side"

@@ -15,7 +15,7 @@ export default function ReformPage() {
   const tracker = getReformTracker();
 
   return (
-    <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+    <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
         label="Reform Tracker"
         title="CON Reform Momentum 2026"

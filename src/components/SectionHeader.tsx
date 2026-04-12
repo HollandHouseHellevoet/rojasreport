@@ -7,22 +7,22 @@ interface SectionHeaderProps {
 
 export default function SectionHeader({ number, label, title, subtitle }: SectionHeaderProps) {
   return (
-    <div className="mb-8">
-      <div className="flex items-center gap-3 mb-3">
+    <div className="mb-6">
+      <div className="flex items-baseline gap-4 mb-2">
         {number && (
-          <span className="text-orange font-body text-xs font-bold tracking-widest">
+          <span className="font-display text-4xl sm:text-5xl font-bold text-orange leading-none">
             {number}
           </span>
         )}
-        <span className="text-xs font-body font-semibold tracking-widest uppercase text-cream/40">
+        <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream/40">
           {label}
         </span>
       </div>
-      <h2 className="font-display text-2xl sm:text-3xl font-bold text-cream">
+      <h2 className="font-display text-cream">
         {title}
       </h2>
       {subtitle && (
-        <p className="mt-3 font-body text-sm text-cream/55 leading-relaxed max-w-3xl">
+        <p className="mt-2 font-body text-cream/50 leading-relaxed max-w-[720px]">
           {subtitle}
         </p>
       )}

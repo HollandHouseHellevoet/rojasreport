@@ -14,6 +14,7 @@ const config: Config = {
         orange: '#d4622a',
         'navy-light': '#243546',
         'navy-dark': '#111e2b',
+        'navy-row': '#1e3040',
         'orange-light': '#e07a3a',
         'tier-free': '#22c55e',
         'tier-mostly-free': '#4ade80',
@@ -27,7 +28,10 @@ const config: Config = {
         body: ['"Source Sans 3"', 'system-ui', '-apple-system', 'sans-serif'],
       },
       maxWidth: {
-        'content': '1200px',
+        'content': '1080px',
+      },
+      fontSize: {
+        'stat': ['3rem', { lineHeight: '1.1', fontWeight: '700' }],
       },
     },
   },

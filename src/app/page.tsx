@@ -6,6 +6,10 @@ import QuickStat from '@/components/QuickStat';
 import EvidencePreview from '@/components/EvidencePreview';
 import SectionHeader from '@/components/SectionHeader';
 
+const SHARE_TEXT = encodeURIComponent(
+  'In 35 jurisdictions, it is illegal to open a hospital without government permission. The Rojas Report mapped every one. https://conlaws.rojasreport.com'
+);
+
 export default function HomePage() {
   const states = getAllStates();
   const rankings = getRankings();
@@ -27,31 +31,49 @@ export default function HomePage() {
     <>
       {/* Hero */}
       <section className="bg-navy-dark border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 pt-12 pb-14 md:pt-16 md:pb-18">
+        <div className="max-w-content mx-auto px-5 pt-12 pb-12">
           <span className="font-body text-xs font-bold tracking-widest uppercase text-orange">
-            The Rojas Report Investigation
+            Intelligence Briefing
           </span>
-          <h1 className="mt-3 font-display text-4xl sm:text-5xl md:text-6xl font-bold text-cream leading-tight tracking-tight max-w-4xl">
-            Certificate of Need Laws:{' '}
-            <span className="text-orange">The Architecture of a Healthcare Monopoly</span>
+          <h1 className="mt-3 font-display font-bold text-cream leading-tight tracking-tight max-w-4xl">
+            Certificate of Need Laws:
           </h1>
-          <p className="mt-4 font-body text-base md:text-lg text-cream/55 leading-relaxed max-w-3xl">
+          <h2 className="font-display font-bold text-orange leading-tight tracking-tight max-w-4xl">
+            The Architecture of a Healthcare Monopoly
+          </h2>
+          <p className="mt-4 font-body text-cream/50 leading-relaxed max-w-[720px]">
             In 35 jurisdictions, it is illegal to open a hospital, surgery center, or imaging
             facility without government permission. Your competitors sit on the board that
             decides. This is how the monopoly was built.
           </p>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <Link
+              href="/evidence/"
+              className="inline-block font-body text-sm font-semibold text-cream bg-orange hover:bg-orange-light px-5 py-2.5 transition-colors"
+            >
+              Read the Investigation &rarr;
+            </Link>
+            <a
+              href={`https://x.com/intent/tweet?text=${SHARE_TEXT}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block font-body text-sm font-semibold text-cream/60 border border-white/20 px-5 py-2.5 hover:text-cream hover:border-white/40 transition-colors"
+            >
+              Post to X
+            </a>
+          </div>
           <div className="mt-8 grid grid-cols-2 lg:grid-cols-4 gap-4">
-            <QuickStat value="35" label="Jurisdictions where competition is illegal" />
-            <QuickStat value="1964" label="First CON law enacted (New York)" />
-            <QuickStat value="1987" label="Federal mandate repealed as ineffective" />
-            <QuickStat value="5-11%" label="Higher healthcare costs in CON states" />
+            <QuickStat value="35" label="Jurisdictions" context="Where competition is illegal" />
+            <QuickStat value="1964" label="First CON Law" context="Enacted in New York" />
+            <QuickStat value="1987" label="Mandate Repealed" context="Deemed ineffective by Congress" />
+            <QuickStat value="5-11%" label="Higher Costs" context="In CON states vs. free market" />
           </div>
         </div>
       </section>
 
       {/* Map */}
       <section className="border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-12">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="01"
             label="50-State Overview"
@@ -64,7 +86,7 @@ export default function HomePage() {
 
       {/* Evidence */}
       <section className="bg-navy-dark border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-12">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="02"
             label="The Evidence"
@@ -77,38 +99,33 @@ export default function HomePage() {
 
       {/* State Grid */}
       <section className="border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-12">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="03"
             label="State Dossiers"
             title="36 Full Investigations"
             subtitle="Market concentration data, case law, reform status, and the names of the systems that benefit."
           />
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
-            {states.map((s) => {
-              const teaser = s.meta_description
-                ? s.meta_description.substring(0, 80)
-                : s.content_blocks?.[0]?.substring(0, 80) || '';
-              return (
-                <StateCard
-                  key={s.abbreviation}
-                  state={s.state}
-                  abbreviation={s.abbreviation}
-                  slug={s.slug}
-                  score={s.score}
-                  tier={s.tier}
-                  conStatus={s.con_status}
-                  teaser={teaser}
-                />
-              );
-            })}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {states.map((s) => (
+              <StateCard
+                key={s.abbreviation}
+                state={s.state}
+                abbreviation={s.abbreviation}
+                slug={s.slug}
+                score={s.score}
+                tier={s.tier}
+                conStatus={s.con_status}
+                teaser={s.meta_description?.substring(0, 100) || s.content_blocks?.[0]?.substring(0, 100) || ''}
+              />
+            ))}
           </div>
           <div className="mt-6 text-center">
             <Link
               href="/rankings/"
-              className="inline-block font-body text-sm font-semibold text-orange hover:text-orange-light border border-orange/30 px-6 py-3 hover:border-orange/60 transition-colors"
+              className="inline-block font-body text-sm font-semibold text-orange hover:text-orange-light transition-colors"
             >
-              View Full 51-Jurisdiction Rankings Table
+              View Full 51-Jurisdiction Rankings &rarr;
             </Link>
           </div>
         </div>
@@ -116,17 +133,14 @@ export default function HomePage() {
 
       {/* CTA */}
       <section className="bg-navy-dark">
-        <div className="max-w-content mx-auto px-5 py-12 text-center">
-          <p className="font-body text-xs font-bold tracking-widest uppercase text-cream/40 mb-3">
-            The Rojas Report Network
-          </p>
-          <h2 className="font-display text-2xl sm:text-3xl font-bold text-cream">
+        <div className="max-w-content mx-auto px-5 py-10 text-center">
+          <h2 className="font-display font-bold text-cream">
             No other publisher has built this.
           </h2>
-          <p className="mt-3 font-body text-sm text-cream/50 max-w-2xl mx-auto leading-relaxed">
+          <p className="mt-2 font-body text-cream/45 max-w-2xl mx-auto leading-relaxed">
             Not KFF. Not Mercatus. Not Cicero. Not the AHA. The definitive Certificate
-            of Need intelligence platform. Free, fully indexable, built for executives, PE,
-            bankers, lawmakers, attorneys general, and physicians.
+            of Need intelligence platform. Free, fully indexable, built for physicians,
+            executives, and lawmakers.
           </p>
         </div>
       </section>

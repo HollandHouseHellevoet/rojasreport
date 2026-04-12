@@ -39,7 +39,7 @@ export default function OutcomesPage() {
           key={outcome.abbreviation}
           className={`border-b border-white/10 ${i % 2 === 0 ? '' : 'bg-navy-dark'}`}
         >
-          <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+          <div className="max-w-content mx-auto px-5 py-10">
             {/* Header */}
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
               <div>
@@ -124,7 +124,7 @@ export default function OutcomesPage() {
 
       {/* Bottom CTA */}
       <section className="bg-navy-dark">
-        <div className="max-w-content mx-auto px-5 py-16 text-center">
+        <div className="max-w-content mx-auto px-5 py-10 text-center">
           <h2 className="font-display text-2xl font-bold text-cream">
             The data is clear.
           </h2>

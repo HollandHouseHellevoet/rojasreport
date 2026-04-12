@@ -14,7 +14,7 @@ export default function TimelinePage() {
   const timeline = getTimeline();
 
   return (
-    <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+    <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
         label="History"
         title="How We Got Here"

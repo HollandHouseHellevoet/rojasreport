@@ -48,7 +48,7 @@ export default function EvidencePage() {
 
       {/* How It Works */}
       <section className="border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="02"
             label="The Mechanism"
@@ -80,7 +80,7 @@ export default function EvidencePage() {
       {/* Origin Story */}
       {storyParagraphs.length > 0 && (
         <section className="bg-navy-dark border-b border-white/10">
-          <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+          <div className="max-w-content mx-auto px-5 py-10">
             <SectionHeader
               number="03"
               label="The Origin Story"
@@ -109,7 +109,7 @@ export default function EvidencePage() {
 
       {/* Key Research Findings */}
       <section className="border-b border-white/10">
-        <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="04"
             label="Research Consensus"
@@ -139,7 +139,7 @@ export default function EvidencePage() {
 
       {/* Featured Profiles */}
       <section className="bg-navy-dark">
-        <div className="max-w-content mx-auto px-5 py-16 md:py-20">
+        <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="05"
             label="Featured Investigations"
