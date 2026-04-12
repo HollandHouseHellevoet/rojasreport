@@ -87,6 +87,37 @@ export function getOverview() {
   return JSON.parse(raw);
 }
 
+export interface ScopeMatrixRow {
+  state: string;
+  abbreviation: string;
+  slug: string;
+  score: number;
+  tier: string;
+  categories: Record<string, boolean>;
+}
+
+export function getScopeMatrix(): ScopeMatrixRow[] {
+  const raw = fs.readFileSync(path.join(dataDir, 'scope-matrix.json'), 'utf-8');
+  return JSON.parse(raw) as ScopeMatrixRow[];
+}
+
+export function getEvidence() {
+  const raw = fs.readFileSync(path.join(dataDir, 'evidence.json'), 'utf-8');
+  return JSON.parse(raw);
+}
+
+export const SCOPE_CATEGORIES = [
+  "Acute Hospital Beds",
+  "Ambulatory Surgery Centers",
+  "Psychiatric Facilities",
+  "Substance Abuse / Behavioral",
+  "Nursing Homes / Long-Term Care",
+  "Day Surgery / Day Services",
+  "Home Health / Hospice",
+  "Imaging (MRI, PET, CT)",
+  "Other (Rehab, Equipment)",
+] as const;
+
 export function tierColor(tier: string): string {
   switch (tier) {
     case 'Free Market': return 'tier-free';

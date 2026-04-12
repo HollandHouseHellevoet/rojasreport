@@ -1,0 +1,650 @@
+[
+  {
+    "state": "Alabama",
+    "abbreviation": "AL",
+    "slug": "alabama",
+    "score": 80,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Alaska",
+    "abbreviation": "AK",
+    "slug": "alaska",
+    "score": 55,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": true,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Arkansas",
+    "abbreviation": "AR",
+    "slug": "arkansas",
+    "score": 15,
+    "tier": "Mostly Free",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": true,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Connecticut",
+    "abbreviation": "CT",
+    "slug": "connecticut",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Delaware",
+    "abbreviation": "DE",
+    "slug": "delaware",
+    "score": 45,
+    "tier": "Moderate",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Florida",
+    "abbreviation": "FL",
+    "slug": "florida",
+    "score": 5,
+    "tier": "Mostly Free",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Georgia",
+    "abbreviation": "GA",
+    "slug": "georgia",
+    "score": 95,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Hawaii",
+    "abbreviation": "HI",
+    "slug": "hawaii",
+    "score": 65,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": false,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": true,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Illinois",
+    "abbreviation": "IL",
+    "slug": "illinois",
+    "score": 65,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Iowa",
+    "abbreviation": "IA",
+    "slug": "iowa",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Kentucky",
+    "abbreviation": "KY",
+    "slug": "kentucky",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Louisiana",
+    "abbreviation": "LA",
+    "slug": "louisiana",
+    "score": 55,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": false,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": true,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Maine",
+    "abbreviation": "ME",
+    "slug": "maine",
+    "score": 65,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": true,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Maryland",
+    "abbreviation": "MD",
+    "slug": "maryland",
+    "score": 95,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Massachusetts",
+    "abbreviation": "MA",
+    "slug": "massachusetts",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Michigan",
+    "abbreviation": "MI",
+    "slug": "michigan",
+    "score": 65,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": true,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Minnesota",
+    "abbreviation": "MN",
+    "slug": "minnesota",
+    "score": 30,
+    "tier": "Moderate",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Mississippi",
+    "abbreviation": "MS",
+    "slug": "mississippi",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": false,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Missouri",
+    "abbreviation": "MO",
+    "slug": "missouri",
+    "score": 80,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": true,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Montana",
+    "abbreviation": "MT",
+    "slug": "montana",
+    "score": 5,
+    "tier": "Mostly Free",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Nebraska",
+    "abbreviation": "NE",
+    "slug": "nebraska",
+    "score": 45,
+    "tier": "Moderate",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Nevada",
+    "abbreviation": "NV",
+    "slug": "nevada",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "New Jersey",
+    "abbreviation": "NJ",
+    "slug": "new-jersey",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": true,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "New York",
+    "abbreviation": "NY",
+    "slug": "new-york",
+    "score": 65,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": true,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "North Carolina",
+    "abbreviation": "NC",
+    "slug": "north-carolina",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "North Dakota",
+    "abbreviation": "ND",
+    "slug": "north-dakota",
+    "score": 5,
+    "tier": "Mostly Free",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Oklahoma",
+    "abbreviation": "OK",
+    "slug": "oklahoma",
+    "score": 20,
+    "tier": "Mostly Free",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": true,
+      "Substance Abuse / Behavioral": true,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": true,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Oregon",
+    "abbreviation": "OR",
+    "slug": "oregon",
+    "score": 65,
+    "tier": "Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": true,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Rhode Island",
+    "abbreviation": "RI",
+    "slug": "rhode-island",
+    "score": 80,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Tennessee",
+    "abbreviation": "TN",
+    "slug": "tennessee",
+    "score": 85,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Vermont",
+    "abbreviation": "VT",
+    "slug": "vermont",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Virginia",
+    "abbreviation": "VA",
+    "slug": "virginia",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  },
+  {
+    "state": "Washington, D.C.",
+    "abbreviation": "DC",
+    "slug": "washington-dc",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Washington",
+    "abbreviation": "WA",
+    "slug": "washington",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "West Virginia",
+    "abbreviation": "WV",
+    "slug": "west-virginia",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": false,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": false,
+      "Day Surgery / Day Services": false,
+      "Home Health / Hospice": true,
+      "Imaging (MRI, PET, CT)": false,
+      "Other (Rehab, Equipment)": true
+    }
+  },
+  {
+    "state": "Wisconsin",
+    "abbreviation": "WI",
+    "slug": "wisconsin",
+    "score": 5,
+    "tier": "Mostly Free",
+    "categories": {
+      "Acute Hospital Beds": true,
+      "Ambulatory Surgery Centers": true,
+      "Psychiatric Facilities": false,
+      "Substance Abuse / Behavioral": false,
+      "Nursing Homes / Long-Term Care": true,
+      "Day Surgery / Day Services": true,
+      "Home Health / Hospice": false,
+      "Imaging (MRI, PET, CT)": true,
+      "Other (Rehab, Equipment)": false
+    }
+  }
+]

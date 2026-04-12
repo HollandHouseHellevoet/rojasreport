@@ -1,26 +1,62 @@
 [
   {
+    "year": "1946",
+    "event": "Hill-Burton Act funds hospital construction, creating the infrastructure CON laws would later protect"
+  },
+  {
     "year": "1959",
-    "event": "Roemer's study published at UCLA"
+    "event": "Milton Roemer publishes UCLA study correlating hospital bed supply with utilization — the hospital industry twists it into a justification for restricting competition"
   },
   {
     "year": "1964",
-    "event": "New York enacts first CON law"
+    "event": "New York enacts the first Certificate of Need law in the United States"
   },
   {
     "year": "1968",
-    "event": "AHA campaigns for nationwide CON"
+    "event": "American Hospital Association campaigns for nationwide CON adoption to limit competition"
+  },
+  {
+    "year": "1972",
+    "event": "Social Security Amendments (Section 1122) tie federal funding to state planning review — CON becomes a federal priority"
   },
   {
     "year": "1974",
-    "event": "Federal mandate signed by Ford"
+    "event": "National Health Planning and Resources Development Act (PL 93-641) signed by President Ford — effectively mandates CON in all states by threatening to withhold federal funds"
+  },
+  {
+    "year": "1980",
+    "event": "Peak CON adoption: nearly every state has enacted a CON program"
   },
   {
     "year": "1987",
-    "event": "Federal mandate repealed"
+    "event": "Federal CON mandate repealed after being deemed ineffective — 14 states repeal their CON laws over the next decade, but 36 keep them"
+  },
+  {
+    "year": "2004",
+    "event": "FTC and DOJ issue joint report finding CON laws pose 'serious anticompetitive risks' and recommending repeal"
+  },
+  {
+    "year": "2015",
+    "event": "Tiwari v. Meier filed in Kentucky — a Nepali immigrant challenges CON after being blocked from serving refugees with home health care"
+  },
+  {
+    "year": "2019",
+    "event": "Florida partially repeals its CON law, eliminating requirements for general hospitals while keeping nursing home and hospice restrictions"
+  },
+  {
+    "year": "2021",
+    "event": "Montana passes CON reform, limiting the scope of its certificate of need program"
+  },
+  {
+    "year": "2022",
+    "event": "U.S. Supreme Court declines to hear Tiwari v. Meier, leaving Kentucky's CON law intact"
+  },
+  {
+    "year": "2024",
+    "event": "Georgia passes HB 1339, beginning incremental CON reform. South Carolina begins its repeal process."
   },
   {
     "year": "2025",
-    "event": "35 jurisdictions still enforce CON"
+    "event": "35 jurisdictions (34 states + DC) still enforce CON laws. The architecture remains."
   }
 ]

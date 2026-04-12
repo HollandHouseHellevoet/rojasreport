@@ -1,5 +1,13 @@
 import Link from 'next/link';
 
+const navLinks = [
+  { href: '/rankings/', label: 'Rankings' },
+  { href: '/scope/', label: 'Scope' },
+  { href: '/compare/', label: 'Compare' },
+  { href: '/evidence/', label: 'Evidence' },
+  { href: '/timeline/', label: 'Timeline' },
+];
+
 export default function Nav() {
   return (
     <nav className="bg-navy border-b border-white/10">
@@ -12,12 +20,18 @@ export default function Nav() {
             The Rojas Report
           </span>
         </Link>
-        <div className="flex items-center gap-6 text-sm font-body">
-          <Link href="/rankings/" className="text-cream/60 hover:text-cream transition-colors">
+        <div className="flex items-center gap-4 sm:gap-6 text-sm font-body">
+          {navLinks.map(link => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-cream/60 hover:text-cream transition-colors hidden md:inline"
+            >
+              {link.label}
+            </Link>
+          ))}
+          <Link href="/rankings/" className="text-cream/60 hover:text-cream transition-colors md:hidden">
             Rankings
-          </Link>
-          <Link href="/states/kentucky/" className="text-cream/60 hover:text-cream transition-colors hidden md:inline">
-            States
           </Link>
           <Link
             href="https://rojasreport.com"
