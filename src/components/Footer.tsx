@@ -49,8 +49,8 @@ export default function Footer() {
             <div className="flex flex-col gap-2 font-body text-sm">
               <a href="https://read.rojasreport.com" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Newsletter</a>
               <a href="https://youtube.com/@DutchRojas" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">YouTube</a>
-              <a href="https://rojasreport.com/about" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">About</a>
-              <a href="https://rojasreport.com/about#contact" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Contact</a>
+              <a href="https://read.rojasreport.com/about" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">About</a>
+              <a href="https://read.rojasreport.com/about" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Contact</a>
               <Link href="/methodology/" className="text-cream/50 hover:text-cream transition-colors">Methodology</Link>
               <a href="https://rojasreport.com/privacy" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Privacy Policy</a>
             </div>
