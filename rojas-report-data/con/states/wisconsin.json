@@ -1,0 +1,80 @@
+{
+  "state": "Wisconsin",
+  "abbreviation": "WI",
+  "slug": "wisconsin",
+  "meta_description": "Wisconsin has very limited CON laws, applying only to nursing homes. Explore its impact on healthcare access and market competition.",
+  "path": "/wisconsin/certificate-of-need",
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "The Verdict"
+    },
+    {
+      "number": "02",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "03",
+      "title": "Market Dynamics"
+    },
+    {
+      "number": "04",
+      "title": "Impact Analysis"
+    },
+    {
+      "number": "05",
+      "title": "Legislative History"
+    },
+    {
+      "number": "07",
+      "title": "Further Reading"
+    }
+  ],
+  "content_blocks": [
+    "Wisconsin's CON program is a narrow exception in an otherwise free market. The only service requiring approval is the establishment of or increase in beds for nursing homes and certain long-term care facilities.",
+    "Ambulatory Surgery Centers (ASCs)",
+    "The process is administered by the Wisconsin Department of Health Services under the Nursing Home Bed Moratorium (Wis. Stat. 150.31).",
+    "The broader hospital and outpatient market is competitive, featuring several large non-profit systems. These systems compete on price and quality, unhindered by CON for most services. Major players include:",
+    "Like many states, Wisconsin had a broad CON program covering a wide range of healthcare services. This system was criticized for stifling competition and innovation.",
+    "In a significant move towards deregulation, Wisconsin repealed most of its CON laws. However, political pressure led to the retention of the moratorium on new nursing home beds, preserving a pocket of protectionism.",
+    "Explore a state with a more restrictive CON regime.",
+    "A deep dive into the history and impact of these regulations.",
+    "Learn about another state that has undertaken significant reforms.",
+    "Data sourced from state statutes, Department of Health Services publications, and market analysis by The Rojas Report."
+  ],
+  "scope_data": [
+    "Nursing Home Bed Moratorium",
+    "Regulated Services",
+    "Wisconsin's CON program is a narrow exception in an otherwise free market. The only service requiring approval is the establishment of or increase in beds for nursing homes and certain long-term care facilities.",
+    "Nursing Home Beds",
+    "Ambulatory Surgery Centers (ASCs)",
+    "MRI & CT Scanners",
+    "The process is administered by the Wisconsin Department of Health Services under the Nursing Home Bed Moratorium (Wis. Stat. 150.31).",
+    "In a significant move towards deregulation, Wisconsin repealed most of its CON laws. However, political pressure led to the retention of the moratorium on new nursing home beds, preserving a pocket of protectionism."
+  ],
+  "process_data": [
+    "Wisconsin's CON program is a narrow exception in an otherwise free market. The only service requiring approval is the establishment of or increase in beds for nursing homes and certain long-term care facilities.",
+    "The process is administered by the Wisconsin Department of Health Services under the Nursing Home Bed Moratorium (Wis. Stat. 150.31).",
+    "Incumbent Advantage:"
+  ],
+  "market_data": [
+    "Dominant Systems",
+    "The broader hospital and outpatient market is competitive, featuring several large non-profit systems. These systems compete on price and quality, unhindered by CON for most services. Major players include:",
+    "Part of national system",
+    "Major regional system",
+    "Like many states, Wisconsin had a broad CON program covering a wide range of healthcare services. This system was criticized for stifling competition and innovation."
+  ],
+  "insurer_data": [],
+  "case_law": [],
+  "reform_data": [
+    "Nursing Home Bed Moratorium",
+    "The process is administered by the Wisconsin Department of Health Services under the Nursing Home Bed Moratorium (Wis. Stat. 150.31).",
+    "Post-1987: Repeal & Moratorium",
+    "In a significant move towards deregulation, Wisconsin repealed most of its CON laws. However, political pressure led to the retention of the moratorium on new nursing home beds, preserving a pocket of protectionism.",
+    "Learn about another state that has undertaken significant reforms."
+  ],
+  "score": 5,
+  "tier": "Mostly Free",
+  "rank": 14,
+  "con_status": "Limited"
+}

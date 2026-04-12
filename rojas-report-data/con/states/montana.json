@@ -1,0 +1,78 @@
+{
+  "state": "Montana",
+  "abbreviation": "MT",
+  "slug": "montana",
+  "meta_description": "Montana has very limited CON laws, applying only to long-term care facilities. Explore its impact on healthcare access and competition.",
+  "path": "/montana/certificate-of-need",
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "The Verdict"
+    },
+    {
+      "number": "02",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "03",
+      "title": "Market Impact"
+    },
+    {
+      "number": "04",
+      "title": "Access to Care"
+    },
+    {
+      "number": "05",
+      "title": "Legislative History"
+    },
+    {
+      "number": "07",
+      "title": "Dive Deeper"
+    }
+  ],
+  "content_blocks": [
+    "Dept. of Public Health and Human Services",
+    "Billings Clinic, Providence Health",
+    "The program exclusively covers long-term care facilities, primarily nursing homes. Other major service lines are exempt.",
+    "Ambulatory Surgery Centers (ASCs)",
+    "The process for the remaining CON is administered by the DPHHS, but its narrow focus means few applications are filed.",
+    "The remaining CON law specifically protects existing nursing homes from competition, potentially leading to higher costs and lower quality within that niche sector by creating local monopolies for long-term care.",
+    "Montana stands as a success story for CON repeal. By eliminating the certificate of need requirement for hospitals, ASCs, and other critical access points, the state has prioritized market competition and provider autonomy. The only remaining vestige is the requirement for long-term care facilities.",
+    "Originally enacted in 1975, Montana's former CON program was broader, covering a wider range of healthcare facilities and services. The decision to repeal these provisions reflects a legislative shift towards free-market principles in healthcare, recognizing that such laws often stifle innovation and access.",
+    "The national movement to end certificate of need laws.",
+    "Why geography is a greater barrier than regulation in states like Montana.",
+    "Another state that has successfully repealed most of its CON program.",
+    "Source Attribution: Research and data compiled from the Montana Department of Public Health and Human Services."
+  ],
+  "scope_data": [
+    "Long-Term Care Facilities Only",
+    "The program exclusively covers long-term care facilities, primarily nursing homes. Other major service lines are exempt.",
+    "Long-Term Care / Nursing Homes",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Imaging (MRI, CT, PET)",
+    "Home Health Agencies",
+    "The remaining CON law specifically protects existing nursing homes from competition, potentially leading to higher costs and lower quality within that niche sector by creating local monopolies for long-term care.",
+    "Montana stands as a success story for CON repeal. By eliminating the certificate of need requirement for hospitals, ASCs, and other critical access points, the state has prioritized market competition and provider autonomy. The only remaining vestige is the requirement for long-term care facilities."
+  ],
+  "process_data": [
+    "Application & Review",
+    "The process for the remaining CON is administered by the DPHHS, but its narrow focus means few applications are filed."
+  ],
+  "market_data": [],
+  "insurer_data": [],
+  "case_law": [],
+  "reform_data": [
+    "1975 (Mostly Repealed)",
+    "Billings Clinic, Providence Health",
+    "Current Law (Post-Repeal)",
+    "Montana stands as a success story for CON repeal. By eliminating the certificate of need requirement for hospitals, ASCs, and other critical access points, the state has prioritized market competition and provider autonomy. The only remaining vestige is the requirement for long-term care facilities.",
+    "Previous Law (Pre-Repeal)",
+    "Originally enacted in 1975, Montana's former CON program was broader, covering a wider range of healthcare facilities and services. The decision to repeal these provisions reflects a legislative shift towards free-market principles in healthcare, recognizing that such laws often stifle innovation and access.",
+    "Understanding CON Repeal",
+    "Another state that has successfully repealed most of its CON program."
+  ],
+  "score": 5,
+  "tier": "Mostly Free",
+  "rank": 14,
+  "con_status": "Limited"
+}

@@ -1,0 +1,113 @@
+{
+  "state": "Virginia",
+  "abbreviation": "VA",
+  "slug": "virginia",
+  "quick_stats": [
+    {
+      "value": "19",
+      "label": "Services regulated by CON"
+    },
+    {
+      "value": "1973",
+      "label": "Year CON enacted"
+    },
+    {
+      "value": "17.71%",
+      "label": "Top Insurer Market Share"
+    },
+    {
+      "value": "Highly Concentrated",
+      "label": "Northern VA Hospital Market"
+    }
+  ],
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "02",
+      "title": "Market Concentration"
+    },
+    {
+      "number": "03",
+      "title": "Case Law"
+    },
+    {
+      "number": "04",
+      "title": "Reform Status"
+    },
+    {
+      "number": "06",
+      "title": "Dossier"
+    }
+  ],
+  "content_blocks": [
+    "Services Requiring CON Approval",
+    "Revenue of Top System (Sentara)",
+    "Virginia Hospital System Revenue",
+    "A few large systems control the majority of hospital revenue in Virginia, a sign of a concentrated market.",
+    "Colon Health Centers v. Virginia",
+    "Current State: No Meaningful Reform",
+    "Despite numerous attempts, Virginia's COPN law remains largely intact. Bills to repeal or significantly reform the law have consistently failed in the General Assembly, often due to strong opposition from the hospital lobby.",
+    "States that have repealed their CON laws have seen increases in healthcare availability, particularly in rural areas, and lower costs. For example, after repealing its CON law, New Hampshire saw a significant increase in the number of ambulatory surgery centers.",
+    "An overview of the history and impact of Certificate of Need regulations.",
+    "Explore one of the most restrictive CON states in the nation.",
+    "Data sourced from the Virginia Department of Health, Centers for Medicare & Medicaid Services (CMS), Mercatus Center, and the Institute for Justice."
+  ],
+  "scope_data": [
+    "Services Requiring CON Approval",
+    "MRI Machine Denial",
+    "States that have repealed their CON laws have seen increases in healthcare availability, particularly in rural areas, and lower costs. For example, after repealing its CON law, New Hampshire saw a significant increase in the number of ambulatory surgery centers."
+  ],
+  "process_data": [
+    "Services Requiring CON Approval",
+    "The Application Process"
+  ],
+  "market_data": [
+    "Top Insurer Market Share",
+    "Revenue of Top System (Sentara)",
+    "Virginia Hospital System Revenue",
+    "A few large systems control the majority of hospital revenue in Virginia, a sign of a concentrated market."
+  ],
+  "insurer_data": [
+    "Top Insurer Market Share"
+  ],
+  "case_law": [],
+  "reform_data": [
+    "Current State: No Meaningful Reform",
+    "Despite numerous attempts, Virginia's COPN law remains largely intact. Bills to repeal or significantly reform the law have consistently failed in the General Assembly, often due to strong opposition from the hospital lobby.",
+    "States That Reformed",
+    "States that have repealed their CON laws have seen increases in healthcare availability, particularly in rural areas, and lower costs. For example, after repealing its CON law, New Hampshire saw a significant increase in the number of ambulatory surgery centers."
+  ],
+  "score": 100,
+  "tier": "Most Restrictive",
+  "rank": 43,
+  "con_status": "Yes",
+  "meta_description": "Virginia CON score 100/100 (Most Restrictive). 19 services regulated since 1973. See how the law impacts healthcare access and cost.",
+  "path": "/virginia/certificate-of-need",
+  "governor": "Glenn Youngkin",
+  "party": "Republican",
+  "con_year": "1973",
+  "reviewing_agency": "Virginia Department of Health",
+  "application_fee": "Varies",
+  "review_timeline": "90-180 days",
+  "competitor_intervention": "Yes",
+  "regulated_services_count": 19,
+  "key_systems": [
+    {
+      "name": "Sentara Health",
+      "revenue": "$13B"
+    },
+    {
+      "name": "Inova Health System",
+      "revenue": "$6.5B"
+    },
+    {
+      "name": "UVA Health System",
+      "revenue": "$5.6B"
+    }
+  ],
+  "top_insurer_share": "17.71%",
+  "case_law_summary": "In 2015, a federal court ruled against a physician who challenged the CON law after being denied a certificate to purchase a second MRI machine for his independent practice. The court upheld the state's right to regulate, showcasing how the law prevents providers from expanding services based on demand."
+}

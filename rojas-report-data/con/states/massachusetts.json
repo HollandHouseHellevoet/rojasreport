@@ -1,0 +1,111 @@
+{
+  "state": "Massachusetts",
+  "abbreviation": "MA",
+  "slug": "massachusetts",
+  "meta_description": "Massachusetts CON score 85/100 (highly restrictive). 10+ services regulated since 1971. Mass General Brigham controls 38% of the tertiary market in Eastern Massachusetts.",
+  "path": "/massachusetts/certificate-of-need",
+  "quick_stats": [
+    {
+      "value": "10+",
+      "label": "Services regulated by CON"
+    },
+    {
+      "value": "1971",
+      "label": "Year CON enacted"
+    },
+    {
+      "value": "38%",
+      "label": "MGB market share (East MA)"
+    },
+    {
+      "value": "$20.6B",
+      "label": "Mass General Brigham Revenue"
+    }
+  ],
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "02",
+      "title": "Market Concentration"
+    },
+    {
+      "number": "03",
+      "title": "Case Law"
+    },
+    {
+      "number": "04",
+      "title": "Reform Status"
+    },
+    {
+      "number": "06",
+      "title": "Dive Deeper"
+    }
+  ],
+  "content_blocks": [
+    "Massachusetts's Determination of Need law, in place since 1971, is a state-sanctioned shield for incumbent hospital systems. It regulates a wide array of services, allowing giants like Mass General Brigham to cement their market dominance under the guise of public health.",
+    "Services Requiring CON Approval",
+    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent providers a formal mechanism to obstruct new competition.",
+    "Mass General Brigham's share of the tertiary market in Eastern Massachusetts.",
+    "Blue Cross Blue Shield of Massachusetts's dominant share of the commercial insurance market.",
+    "Annual patient revenue for the state's largest and most powerful hospital system.",
+    "Top Hospital System Revenue (Estimated Market Share)",
+    "Bessie M. Burke Memorial Hospital v. DPH",
+    "In 1972, just one year after the CON law was enacted, the Bessie M. Burke Memorial Hospital sought to undertake a major renovation. The Department of Public Health denied the application, arguing that the project was too costly and would still leave the hospital with an outdated facility. The denial was based on the principle of efficient resource allocation.",
+    "However, the hospital's supporters wielded their political influence. The state legislature intervened, passing a special act that overrode the DPH's decision and authorized the renovation. This case set a precedent, demonstrating that the supposedly objective, needs-based CON process could be subverted by political power, undermining its entire purpose.",
+    "The state has made several material reforms, most recently in 2017 and 2024-2025. The 2025 reform broadened the concept of a 'party of record,' but did not dismantle the core CON framework. The system continues to enable incumbents to delay or block new competitors.",
+    "States that have fully repealed their CON laws have seen increased competition, lower costs, and improved access to care. For example, after repeal, California saw a significant increase in the number of healthcare facilities, particularly in underserved areas.",
+    "Mass General Brigham, pulls in over $20 billion in revenue",
+    "38% of the Eastern Massachusetts market",
+    "Learn more about how Certificate of Need laws stifle competition and harm patients across the country.",
+    "Explore our deep dive into Kentucky, one of the most restrictive CON states in the nation.",
+    "A complete breakdown and ranking of all CON states will be available shortly.",
+    "Data sources: State of Massachusetts Department of Public Health, The Rojas Report analysis."
+  ],
+  "scope_data": [
+    "Services Requiring CON Approval"
+  ],
+  "process_data": [
+    "Massachusetts's Determination of Need law, in place since 1971, is a state-sanctioned shield for incumbent hospital systems. It regulates a wide array of services, allowing giants like Mass General Brigham to cement their market dominance under the guise of public health.",
+    "Services Requiring CON Approval",
+    "The Application Process",
+    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent providers a formal mechanism to obstruct new competition.",
+    "In 1972, just one year after the CON law was enacted, the Bessie M. Burke Memorial Hospital sought to undertake a major renovation. The Department of Public Health denied the application, arguing that the project was too costly and would still leave the hospital with an outdated facility. The denial was based on the principle of efficient resource allocation.",
+    "However, the hospital's supporters wielded their political influence. The state legislature intervened, passing a special act that overrode the DPH's decision and authorized the renovation. This case set a precedent, demonstrating that the supposedly objective, needs-based CON process could be subverted by political power, undermining its entire purpose.",
+    "The state has made several material reforms, most recently in 2017 and 2024-2025. The 2025 reform broadened the concept of a 'party of record,' but did not dismantle the core CON framework. The system continues to enable incumbents to delay or block new competitors."
+  ],
+  "market_data": [
+    "Massachusetts's Determination of Need law, in place since 1971, is a state-sanctioned shield for incumbent hospital systems. It regulates a wide array of services, allowing giants like Mass General Brigham to cement their market dominance under the guise of public health.",
+    "MGB Market Share",
+    "BCBS MA Market Share",
+    "Blue Cross Blue Shield of Massachusetts's dominant share of the commercial insurance market.",
+    "MGB System Revenue",
+    "Annual patient revenue for the state's largest and most powerful hospital system.",
+    "Top Hospital System Revenue (Estimated Market Share)",
+    "The state has made several material reforms, most recently in 2017 and 2024-2025. The 2025 reform broadened the concept of a 'party of record,' but did not dismantle the core CON framework. The system continues to enable incumbents to delay or block new competitors.",
+    "Mass General Brigham, pulls in over $20 billion in revenue"
+  ],
+  "insurer_data": [
+    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent providers a formal mechanism to obstruct new competition.",
+    "BCBS MA Market Share",
+    "Blue Cross Blue Shield of Massachusetts's dominant share of the commercial insurance market."
+  ],
+  "case_law": [
+    "In 1972, just one year after the CON law was enacted, the Bessie M. Burke Memorial Hospital sought to undertake a major renovation. The Department of Public Health denied the application, arguing that the project was too costly and would still leave the hospital with an outdated facility. The denial was based on the principle of efficient resource allocation.",
+    "However, the hospital's supporters wielded their political influence. The state legislature intervened, passing a special act that overrode the DPH's decision and authorized the renovation. This case set a precedent, demonstrating that the supposedly objective, needs-based CON process could be subverted by political power, undermining its entire purpose."
+  ],
+  "reform_data": [
+    "In 1972, just one year after the CON law was enacted, the Bessie M. Burke Memorial Hospital sought to undertake a major renovation. The Department of Public Health denied the application, arguing that the project was too costly and would still leave the hospital with an outdated facility. The denial was based on the principle of efficient resource allocation.",
+    "Massachusetts (No Full Repeal)",
+    "The state has made several material reforms, most recently in 2017 and 2024-2025. The 2025 reform broadened the concept of a 'party of record,' but did not dismantle the core CON framework. The system continues to enable incumbents to delay or block new competitors.",
+    "States That Reformed",
+    "States that have fully repealed their CON laws have seen increased competition, lower costs, and improved access to care. For example, after repeal, California saw a significant increase in the number of healthcare facilities, particularly in underserved areas.",
+    "Mass General Brigham, pulls in over $20 billion in revenue"
+  ],
+  "score": 90,
+  "tier": "Highly Restrictive",
+  "rank": 37,
+  "con_status": "Yes"
+}

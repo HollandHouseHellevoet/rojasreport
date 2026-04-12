@@ -1,0 +1,76 @@
+{
+  "state": "Iowa",
+  "abbreviation": "IA",
+  "slug": "iowa",
+  "meta_description": "Explore Iowa's highly restrictive Certificate of Need (CON) laws, scoring 90/100. Learn about its impact on healthcare services, market competition, and reform efforts.",
+  "path": "/iowa/certificate-of-need",
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "The Verdict"
+    },
+    {
+      "number": "02",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "03",
+      "title": "Market Dynamics"
+    },
+    {
+      "number": "04",
+      "title": "Real-World Impact"
+    },
+    {
+      "number": "05",
+      "title": "Legislative Outlook"
+    },
+    {
+      "number": "07",
+      "title": "Further Reading"
+    }
+  ],
+  "content_blocks": [
+    "Assessing the regulatory burden on healthcare providers.",
+    "Iowa's score of 90 reflects a comprehensive and stringent CON program that covers a wide array of services and equipment, significantly limiting market entry and expansion. This score places it among the most restrictive states in the nation, creating substantial barriers to competition and innovation in the healthcare sector.",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Iowa's strict CON laws have fostered a market dominated by a few large health systems. UnityPoint Health and MercyOne face limited competition, which can lead to higher prices and fewer choices for consumers. CON laws protect these incumbents from new market entrants, securing their revenue streams at the expense of innovation and patient choice.",
+    "Higher Prices in Concentrated Markets",
+    "The Paradox of Rural Hospital Closures",
+    "Proponents of CON laws often argue they protect rural hospitals from competition, ensuring access to care in underserved areas. However, the reality in Iowa tells a different story. Despite decades of CON protection, several rural hospitals have closed or faced severe financial distress. Critics argue that CON laws stifle the very innovation and flexibility needed for rural facilities to adapt and survive, such as converting to more sustainable models like standalone emergency departments or specialized clinics. Instead of protecting them, CON may be trapping them in outdated, financially unviable structures.",
+    "Iowa has seen no significant reform efforts in recent years. The powerful hospital lobby and an entrenched bureaucracy have successfully resisted attempts to modernize or repeal the state's CON laws. The status quo benefits established players, leaving little political will for change.",
+    "A full repeal of Iowa's CON laws could inject much-needed competition into the market. This would likely lead to the development of more specialized, lower-cost providers like ASCs, downward pressure on prices, and increased innovation in care delivery for both urban and rural populations.",
+    "Discover how Florida's significant CON reforms have impacted its healthcare landscape.",
+    "Understand the history, purpose, and nationwide impact of Certificate of Need regulations.",
+    "Examine one of the most restrictive and debated CON programs in the United States.",
+    "Sources: Iowa Department of Health and Human Services, National Conference of State Legislatures, Mercatus Center."
+  ],
+  "scope_data": [
+    "Iowa's score of 90 reflects a comprehensive and stringent CON program that covers a wide array of services and equipment, significantly limiting market entry and expansion. This score places it among the most restrictive states in the nation, creating substantial barriers to competition and innovation in the healthcare sector.",
+    "Nursing Facilities",
+    "Any new beds",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Major Medical Equipment"
+  ],
+  "process_data": [
+    "Iowa's strict CON laws have fostered a market dominated by a few large health systems. UnityPoint Health and MercyOne face limited competition, which can lead to higher prices and fewer choices for consumers. CON laws protect these incumbents from new market entrants, securing their revenue streams at the expense of innovation and patient choice."
+  ],
+  "market_data": [
+    "Iowa's strict CON laws have fostered a market dominated by a few large health systems. UnityPoint Health and MercyOne face limited competition, which can lead to higher prices and fewer choices for consumers. CON laws protect these incumbents from new market entrants, securing their revenue streams at the expense of innovation and patient choice.",
+    "Market Share of Top 2 Systems"
+  ],
+  "insurer_data": [
+    "Examine one of the most restrictive and debated CON programs in the United States."
+  ],
+  "case_law": [],
+  "reform_data": [
+    "Iowa has seen no significant reform efforts in recent years. The powerful hospital lobby and an entrenched bureaucracy have successfully resisted attempts to modernize or repeal the state's CON laws. The status quo benefits established players, leaving little political will for change.",
+    "A full repeal of Iowa's CON laws could inject much-needed competition into the market. This would likely lead to the development of more specialized, lower-cost providers like ASCs, downward pressure on prices, and increased innovation in care delivery for both urban and rural populations.",
+    "Florida: A Model of Reform",
+    "Discover how Florida's significant CON reforms have impacted its healthcare landscape."
+  ],
+  "score": 90,
+  "tier": "Highly Restrictive",
+  "rank": 37,
+  "con_status": "Yes"
+}

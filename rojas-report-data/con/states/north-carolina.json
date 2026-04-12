@@ -1,0 +1,111 @@
+{
+  "state": "North Carolina",
+  "abbreviation": "NC",
+  "slug": "north-carolina",
+  "meta_description": "North Carolina CON score 85/100 (highly restrictive). 18 services regulated since 1977. Two systems control nearly 100% of Charlotte's inpatient market.",
+  "path": "/north-carolina/certificate-of-need",
+  "quick_stats": [
+    {
+      "value": "13+",
+      "label": "Categories regulated by CON"
+    },
+    {
+      "value": "1977",
+      "label": "Year CON enacted"
+    },
+    {
+      "value": "~85%",
+      "label": "Charlotte Market Share (2 Systems)"
+    },
+    {
+      "value": "62%",
+      "label": "BCBS NC Market Share"
+    }
+  ],
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "02",
+      "title": "Who Benefits"
+    },
+    {
+      "number": "03",
+      "title": "The Human Cost"
+    },
+    {
+      "number": "06",
+      "title": "Dive Deeper"
+    }
+  ],
+  "content_blocks": [
+    "North Carolina's CON law is a textbook case of regulatory capture. In Charlotte, two hospital systems, Atrium and Novant, control nearly 100% of the market. The state uses its power to pick winners and losers, stifling competition and leaving patients with fewer choices and higher costs.",
+    "Services Requiring CON Approval",
+    "The review process is lengthy and allows incumbent providers to file a 'contested case' against a new applicant. This legal challenge mechanism significantly raises the cost and time required to bring new services to a community, protecting established players from competition.",
+    "Combined hospital market share of Atrium & Novant in Charlotte",
+    "Novant Health's estimated market share in Coastal North Carolina",
+    "Market share of Blue Cross and Blue Shield of NC",
+    "Combined annual revenue of the top 3 hospital systems",
+    "Charlotte Hospital Market Share (Estimated)",
+    "The Charlotte metropolitan area is a duopoly. Atrium Health and Novant Health control the vast majority of inpatient hospital services, leaving consumers with effectively two choices for care. This lack of competition drives up costs and reduces incentives for quality improvement.",
+    "\u2014 Dr. Gajendra Singh, whose application for a new hospital was blocked",
+    "UNC Hospitals PET Scanner Application",
+    "In 2021, both UNC Hospitals and Duke University Health System submitted competing applications to acquire a new PET scanner. The state\u2019s healthcare planning agency determined that only one scanner was needed in the service area.",
+    "Instead of allowing both qualified providers to offer the service and compete on quality and price, the state regulators engaged in central planning. They evaluated both proposals and ultimately decided that Duke's application was a 'more effective alternative.'",
+    "As a result, UNC's application was denied. This case is a stark illustration of how CON laws replace market competition with government decision-making. The state, not patients or referring physicians, decided who was better equipped to provide a critical service. This process limits patient choice and reinforces the market position of state-favored incumbents.",
+    "\u2014 North Carolina Court of Appeals, 2023",
+    "Atrium and Novant have carved up the market",
+    "Learn about the history and impact of CON laws across the United States.",
+    "Explore the case of Kentucky, one of the most restrictive CON states in the nation.",
+    "An overview of the legislative battles to repeal or reform CON laws.",
+    "Data derived from state Department of Health and Human Services filings, public court records, and reports from the Mercatus Center at George Mason University and the National Conference of State Legislatures."
+  ],
+  "scope_data": [
+    "Services Requiring CON Approval",
+    "UNC Hospitals PET Scanner Application",
+    "In 2021, both UNC Hospitals and Duke University Health System submitted competing applications to acquire a new PET scanner. The state\u2019s healthcare planning agency determined that only one scanner was needed in the service area."
+  ],
+  "process_data": [
+    "Services Requiring CON Approval",
+    "The Application Process",
+    "The review process is lengthy and allows incumbent providers to file a 'contested case' against a new applicant. This legal challenge mechanism significantly raises the cost and time required to bring new services to a community, protecting established players from competition.",
+    "\u2014 Dr. Gajendra Singh, whose application for a new hospital was blocked",
+    "UNC Hospitals PET Scanner Application",
+    "In 2021, both UNC Hospitals and Duke University Health System submitted competing applications to acquire a new PET scanner. The state\u2019s healthcare planning agency determined that only one scanner was needed in the service area.",
+    "Instead of allowing both qualified providers to offer the service and compete on quality and price, the state regulators engaged in central planning. They evaluated both proposals and ultimately decided that Duke's application was a 'more effective alternative.'",
+    "As a result, UNC's application was denied. This case is a stark illustration of how CON laws replace market competition with government decision-making. The state, not patients or referring physicians, decided who was better equipped to provide a critical service. This process limits patient choice and reinforces the market position of state-favored incumbents.",
+    "Data derived from state Department of Health and Human Services filings, public court records, and reports from the Mercatus Center at George Mason University and the National Conference of State Legislatures."
+  ],
+  "market_data": [
+    "North Carolina's CON law is a textbook case of regulatory capture. In Charlotte, two hospital systems, Atrium and Novant, control nearly 100% of the market. The state uses its power to pick winners and losers, stifling competition and leaving patients with fewer choices and higher costs.",
+    "Combined hospital market share of Atrium & Novant in Charlotte",
+    "Novant Health's estimated market share in Coastal North Carolina",
+    "Market share of Blue Cross and Blue Shield of NC",
+    "Combined annual revenue of the top 3 hospital systems",
+    "Charlotte Hospital Market Share (Estimated)",
+    "In 2021, both UNC Hospitals and Duke University Health System submitted competing applications to acquire a new PET scanner. The state\u2019s healthcare planning agency determined that only one scanner was needed in the service area."
+  ],
+  "insurer_data": [
+    "Market share of Blue Cross and Blue Shield of NC",
+    "Learn about the history and impact of CON laws across the United States."
+  ],
+  "case_law": [
+    "North Carolina's CON law is a textbook case of regulatory capture. In Charlotte, two hospital systems, Atrium and Novant, control nearly 100% of the market. The state uses its power to pick winners and losers, stifling competition and leaving patients with fewer choices and higher costs.",
+    "The review process is lengthy and allows incumbent providers to file a 'contested case' against a new applicant. This legal challenge mechanism significantly raises the cost and time required to bring new services to a community, protecting established players from competition.",
+    "\u2014 Dr. Gajendra Singh, whose application for a new hospital was blocked",
+    "As a result, UNC's application was denied. This case is a stark illustration of how CON laws replace market competition with government decision-making. The state, not patients or referring physicians, decided who was better equipped to provide a critical service. This process limits patient choice and reinforces the market position of state-favored incumbents.",
+    "\u2014 North Carolina Court of Appeals, 2023",
+    "Explore the case of Kentucky, one of the most restrictive CON states in the nation.",
+    "Data derived from state Department of Health and Human Services filings, public court records, and reports from the Mercatus Center at George Mason University and the National Conference of State Legislatures."
+  ],
+  "reform_data": [
+    "National Reform Efforts",
+    "An overview of the legislative battles to repeal or reform CON laws."
+  ],
+  "score": 100,
+  "tier": "Most Restrictive",
+  "rank": 43,
+  "con_status": "Yes"
+}

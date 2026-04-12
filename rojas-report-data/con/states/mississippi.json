@@ -1,0 +1,110 @@
+{
+  "state": "Mississippi",
+  "abbreviation": "MS",
+  "slug": "mississippi",
+  "meta_description": "Mississippi CON score 90/100 (highly restrictive). 7 services regulated since 1979. A 40-year moratorium on new home health agencies was struck down by a federal court.",
+  "path": "/mississippi/certificate-of-need",
+  "quick_stats": [
+    {
+      "value": "7",
+      "label": "Services regulated by CON"
+    },
+    {
+      "value": "1979",
+      "label": "Year CON enacted"
+    },
+    {
+      "value": "40",
+      "label": "Years of home health moratorium"
+    },
+    {
+      "value": "50%",
+      "label": "BCBS market share"
+    }
+  ],
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "02",
+      "title": "Market Concentration"
+    },
+    {
+      "number": "03",
+      "title": "Case Law"
+    },
+    {
+      "number": "04",
+      "title": "Reform Efforts"
+    },
+    {
+      "number": "06",
+      "title": "Dive Deeper"
+    }
+  ],
+  "content_blocks": [
+    "Mississippi's CON laws have been in place since 1979. They regulate 7 different services, devices, and procedures. For 40 years, the state enforced a moratorium on new home health agencies, a policy so blatantly anti-competitive it took a federal court to strike it down.",
+    "Services Requiring CON Approval",
+    "The applicant bears the burden of proving the proposed service is necessary. The process allows for intervention from competitors, who can request administrative hearings to contest the application.",
+    "Market share estimated based on available revenue and operational data.",
+    "The Rojas Report Data Extraction",
+    "St. Dominic's Hospital v. MS Dept. of Health",
+    "In 2010, St. Dominic's Hospital sought to build a new $121 million hospital in Madison County, one of the fastest-growing and wealthiest counties in the state. The proposed facility would have brought new services and competition to an area dominated by existing providers.",
+    "The decision showcases how incumbents can use the CON process to block new competitors from entering a market.",
+    "Mississippi (No Substantive Reform)",
+    "Repeated legislative proposals to narrow CON have failed.",
+    "Incumbents retain significant power to block new entrants.",
+    "Market remains highly concentrated in key areas.",
+    "A 40-year moratorium on home health agencies was only lifted by federal court order.",
+    "15 states have fully repealed their CON laws.",
+    "Studies show repeal leads to more hospitals and ASCs in rural areas.",
+    "Increased competition is associated with lower mortality rates for certain conditions.",
+    "Patient choice expands and costs can decrease over time.",
+    "University of Mississippi Medical Center",
+    "Blue Cross Blue Shield of Mississippi",
+    "Learn about the history and impact of Certificate of Need laws across the United States.",
+    "Explore the most restrictive CON state in the nation, with a perfect score of 100.",
+    "Data sourced from The Rojas Report proprietary data extraction, state health departments, and public records."
+  ],
+  "scope_data": [
+    "Mississippi's CON laws have been in place since 1979. They regulate 7 different services, devices, and procedures. For 40 years, the state enforced a moratorium on new home health agencies, a policy so blatantly anti-competitive it took a federal court to strike it down.",
+    "Services Requiring CON Approval",
+    "A 40-year moratorium on home health agencies was only lifted by federal court order."
+  ],
+  "process_data": [
+    "Services Requiring CON Approval",
+    "The Application Process",
+    "The applicant bears the burden of proving the proposed service is necessary. The process allows for intervention from competitors, who can request administrative hearings to contest the application.",
+    "The decision showcases how incumbents can use the CON process to block new competitors from entering a market.",
+    "Incumbents retain significant power to block new entrants."
+  ],
+  "market_data": [
+    "Jackson Hospital Market Share",
+    "Market share estimated based on available revenue and operational data.",
+    "In 2010, St. Dominic's Hospital sought to build a new $121 million hospital in Madison County, one of the fastest-growing and wealthiest counties in the state. The proposed facility would have brought new services and competition to an area dominated by existing providers."
+  ],
+  "insurer_data": [
+    "Blue Cross Blue Shield of Mississippi",
+    "Learn about the history and impact of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "Mississippi's CON laws have been in place since 1979. They regulate 7 different services, devices, and procedures. For 40 years, the state enforced a moratorium on new home health agencies, a policy so blatantly anti-competitive it took a federal court to strike it down.",
+    "In 2010, St. Dominic's Hospital sought to build a new $121 million hospital in Madison County, one of the fastest-growing and wealthiest counties in the state. The proposed facility would have brought new services and competition to an area dominated by existing providers.",
+    "The decision showcases how incumbents can use the CON process to block new competitors from entering a market.",
+    "A 40-year moratorium on home health agencies was only lifted by federal court order."
+  ],
+  "reform_data": [
+    "Mississippi's CON laws have been in place since 1979. They regulate 7 different services, devices, and procedures. For 40 years, the state enforced a moratorium on new home health agencies, a policy so blatantly anti-competitive it took a federal court to strike it down.",
+    "Mississippi (No Substantive Reform)",
+    "A 40-year moratorium on home health agencies was only lifted by federal court order.",
+    "States That Reformed",
+    "15 states have fully repealed their CON laws.",
+    "Studies show repeal leads to more hospitals and ASCs in rural areas."
+  ],
+  "score": 90,
+  "tier": "Highly Restrictive",
+  "rank": 37,
+  "con_status": "Yes"
+}

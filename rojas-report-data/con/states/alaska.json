@@ -1,0 +1,91 @@
+{
+  "state": "Alaska",
+  "abbreviation": "AK",
+  "slug": "alaska",
+  "meta_description": "In-depth analysis of Alaska's Certificate of Need (CON) laws, examining their impact on healthcare competition, market concentration, and consumer costs.",
+  "path": "/alaska/certificate-of-need",
+  "section_headers": [
+    {
+      "title": "Scope of Regulation",
+      "subtitle": "What requires a Certificate of Need in Alaska?"
+    },
+    {
+      "title": "Market Concentration",
+      "subtitle": "Who benefits from the lack of competition?"
+    },
+    {
+      "title": "The Human Cost",
+      "subtitle": "Notable disputes and blocked competition."
+    },
+    {
+      "title": "Reform Status",
+      "subtitle": "Has Alaska made progress in rolling back CON?"
+    },
+    {
+      "title": "Related Content",
+      "subtitle": "Explore more of our investigations."
+    }
+  ],
+  "content_blocks": [
+    "Certificate of Need Investigation",
+    "Hospitals (General, Psychiatric)",
+    "Independent Diagnostic Testing Facilities (MRI, CT, PET)",
+    "Residential Psychiatric Treatment Centers",
+    "Skilled Nursing Facilities / Nursing Homes",
+    "End-Stage Renal Disease (Dialysis) Centers",
+    "Intermediate Care Facilities (ICF/ID)",
+    "Expenditure threshold: ~$1.45 million",
+    "Dept. of Health & Social Services (DHSS)",
+    "Anchorage is dominated by Providence Health (48% inpatient share), while Fairbanks is a virtual monopoly with a single hospital holding 100% market share.",
+    "Alaska has not pursued any significant repeal or reform of its Certificate of Need program. The law, enacted in 1976, remains firmly in place, with only minor threshold adjustments over the decades. The regulatory environment continues to favor incumbents and limit new market entrants.",
+    "The state's highly concentrated hospital and insurance markets are clear indicators of the anti-competitive effects of CON. With a single insurer controlling nearly 80% of the individual market and local hospital monopolies, consumers face higher prices and fewer choices.",
+    "Our comprehensive overview of Certificate of Need laws across the United States.",
+    "Investigation into the CON laws of a neighboring state.",
+    "$81.4B in discounted drugs. $66.4B in gross margin. Zero disclosure requirements.",
+    "All data is sourced from publicly available state statutes, agency reports, and news articles reviewed as of March 2026."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Hospitals (General, Psychiatric)",
+    "Ambulatory Surgical Facilities",
+    "Independent Diagnostic Testing Facilities (MRI, CT, PET)",
+    "Residential Psychiatric Treatment Centers",
+    "Skilled Nursing Facilities / Nursing Homes"
+  ],
+  "process_data": [
+    "The Application Process",
+    "105-135 days (plus extensions)",
+    "Alaska has not pursued any significant repeal or reform of its Certificate of Need program. The law, enacted in 1976, remains firmly in place, with only minor threshold adjustments over the decades. The regulatory environment continues to favor incumbents and limit new market entrants.",
+    "All data is sourced from publicly available state statutes, agency reports, and news articles reviewed as of March 2026."
+  ],
+  "market_data": [
+    "HHI (HOSPITALS)",
+    "DOMINANT INSURER",
+    "Expenditure threshold: ~$1.45 million",
+    "$2,500 to $75,000",
+    "Dominant Hospital Systems",
+    "Net Patient Revenue (NPR)",
+    "Community Health Systems:",
+    "Insurer Market Share",
+    "Anchorage is dominated by Providence Health (48% inpatient share), while Fairbanks is a virtual monopoly with a single hospital holding 100% market share.",
+    "$81.4B in discounted drugs. $66.4B in gross margin. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "DOMINANT INSURER",
+    "Premera BCBS (79%)",
+    "Insurer Market Share",
+    "Premera BCBS of Alaska",
+    "The state's highly concentrated hospital and insurance markets are clear indicators of the anti-competitive effects of CON. With a single insurer controlling nearly 80% of the individual market and local hospital monopolies, consumers face higher prices and fewer choices.",
+    "Our comprehensive overview of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "Alaska Regional's Blocked ER"
+  ],
+  "reform_data": [
+    "Alaska has not pursued any significant repeal or reform of its Certificate of Need program. The law, enacted in 1976, remains firmly in place, with only minor threshold adjustments over the decades. The regulatory environment continues to favor incumbents and limit new market entrants."
+  ],
+  "score": 55,
+  "tier": "Restrictive",
+  "rank": 25,
+  "con_status": "Yes"
+}
