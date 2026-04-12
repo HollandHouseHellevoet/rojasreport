@@ -1,0 +1,60 @@
+{
+  "state": "Missouri",
+  "abbreviation": "MO",
+  "slug": "missouri",
+  "meta_description": "In-depth analysis of Missouri's Certificate of Need (CON) laws, their economic impact, and the political landscape surrounding them.",
+  "path": "/missouri/certificate-of-need",
+  "content_blocks": [
+    "Certificate of Need Investigation",
+    "Missouri's CON law covers a broad range of healthcare services, requiring providers to obtain state approval for significant capital expenditures. This includes:",
+    "Long-term care facilities (nursing homes, assisted living)",
+    "Psychiatric and rehabilitation services",
+    "Major medical equipment (MRI, CT, PET scanners)",
+    "Missouri Health Facilities Review Committee",
+    "~71 days (full), ~41 days (expedited)",
+    "CON laws often lead to consolidated markets, benefiting established players. In Missouri, the healthcare landscape is dominated by a few large systems, particularly in the St. Louis metropolitan area.",
+    "Moberly Retirement Center (2018)",
+    "In a clear example of bureaucratic hurdles, the Missouri Health Facilities Review Committee unanimously denied a CON for an 18-bed residential care facility. The denial was not based on need, but on a technicality: the applicant had moved the proposed site by 1.5 miles after filing the initial letter of intent. This case highlights how CON regulations can stifle development over procedural minutiae rather than community benefit.",
+    "While full repeal has failed multiple times, a significant reform bill (SB 1268) was introduced in 2026 and is currently pending in the Senate Families, Seniors and Health Committee. If passed, the bill would eliminate CON review for new hospitals and major medical equipment. CON requirements would remain for other services like long-term care. The fight for a fully open market continues.",
+    "Our comprehensive overview of Certificate of Need laws across the United States.",
+    "Certificate of Need investigation for Iowa.",
+    "$81.4B in discounted drugs. Zero disclosure requirements.",
+    "Source data compiled from official state statutes, DHSS materials, and public financial disclosures."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Long-term care facilities (nursing homes, assisted living)",
+    "Psychiatric and rehabilitation services",
+    "Major medical equipment (MRI, CT, PET scanners)",
+    "While full repeal has failed multiple times, a significant reform bill (SB 1268) was introduced in 2026 and is currently pending in the Senate Families, Seniors and Health Committee. If passed, the bill would eliminate CON review for new hospitals and major medical equipment. CON requirements would remain for other services like long-term care. The fight for a fully open market continues."
+  ],
+  "process_data": [
+    "Missouri's CON law covers a broad range of healthcare services, requiring providers to obtain state approval for significant capital expenditures. This includes:",
+    "Missouri Health Facilities Review Committee",
+    "~71 days (full), ~41 days (expedited)",
+    "In a clear example of bureaucratic hurdles, the Missouri Health Facilities Review Committee unanimously denied a CON for an 18-bed residential care facility. The denial was not based on need, but on a technicality: the applicant had moved the proposed site by 1.5 miles after filing the initial letter of intent. This case highlights how CON regulations can stifle development over procedural minutiae rather than community benefit.",
+    "While full repeal has failed multiple times, a significant reform bill (SB 1268) was introduced in 2026 and is currently pending in the Senate Families, Seniors and Health Committee. If passed, the bill would eliminate CON review for new hospitals and major medical equipment. CON requirements would remain for other services like long-term care. The fight for a fully open market continues."
+  ],
+  "market_data": [
+    "$1,000 or 0.1% of project cost",
+    "CON laws often lead to consolidated markets, benefiting established players. In Missouri, the healthcare landscape is dominated by a few large systems, particularly in the St. Louis metropolitan area.",
+    "Market Share in St. Louis",
+    "Combined Market Share",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Top 3 Insurers",
+    "Our comprehensive overview of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "In a clear example of bureaucratic hurdles, the Missouri Health Facilities Review Committee unanimously denied a CON for an 18-bed residential care facility. The denial was not based on need, but on a technicality: the applicant had moved the proposed site by 1.5 miles after filing the initial letter of intent. This case highlights how CON regulations can stifle development over procedural minutiae rather than community benefit."
+  ],
+  "reform_data": [
+    "Partial Repeal Pending",
+    "While full repeal has failed multiple times, a significant reform bill (SB 1268) was introduced in 2026 and is currently pending in the Senate Families, Seniors and Health Committee. If passed, the bill would eliminate CON review for new hospitals and major medical equipment. CON requirements would remain for other services like long-term care. The fight for a fully open market continues."
+  ],
+  "score": 80,
+  "tier": "Highly Restrictive",
+  "rank": 33,
+  "con_status": "Yes"
+}

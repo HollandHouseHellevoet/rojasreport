@@ -1,0 +1,59 @@
+{
+  "state": "Louisiana",
+  "abbreviation": "LA",
+  "slug": "louisiana",
+  "meta_description": "In-depth analysis of Louisiana's Facility Need Review (FNR) laws, market concentration, and the real-world impact on healthcare access and competition.",
+  "path": "/louisiana/certificate-of-need",
+  "content_blocks": [
+    "Louisiana's Facility Need Review (FNR) process is narrower than traditional CON laws and primarily targets specific provider types, many linked to Medicaid reimbursement.",
+    "Home & Community-Based Services (HCBS)",
+    "Intermediate Care Facilities (ICF/IID)",
+    "Residential Substance Abuse Treatment",
+    "The process is managed by the Louisiana Department of Health (LDH) and is primarily a paper review.",
+    "Louisiana's hospital market is dominated by a few large, non-profit systems that wield significant market power, particularly in metro areas like New Orleans and Baton Rouge.",
+    "Blocked: Sivad Home and Community Services",
+    "Limited Scope, But Still a Barrier",
+    "While reforms in 2022 and 2024 have clarified the FNR process, they have also entrenched it by formalizing committee structures and even expanding its reach to new provider types like residential substance abuse treatment. The system lacks a general capital expenditure threshold, meaning it doesn't block major hospital expansions, but it remains a significant barrier to entry for smaller, specialized providers in the covered categories.",
+    "Explore the nationwide landscape of Certificate of Need laws.",
+    "Certificate of Need investigation for Mississippi.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Hospice Providers & Facilities",
+    "Limited Scope, But Still a Barrier"
+  ],
+  "process_data": [
+    "Facility Need Review (FNR)",
+    "Louisiana's Facility Need Review (FNR) process is narrower than traditional CON laws and primarily targets specific provider types, many linked to Medicaid reimbursement.",
+    "The process is managed by the Louisiana Department of Health (LDH) and is primarily a paper review.",
+    "While reforms in 2022 and 2024 have clarified the FNR process, they have also entrenched it by formalizing committee structures and even expanding its reach to new provider types like residential substance abuse treatment. The system lacks a general capital expenditure threshold, meaning it doesn't block major hospital expansions, but it remains a significant barrier to entry for smaller, specialized providers in the covered categories."
+  ],
+  "market_data": [
+    "Dominant Health Systems",
+    "Louisiana's hospital market is dominated by a few large, non-profit systems that wield significant market power, particularly in metro areas like New Orleans and Baton Rouge.",
+    "$7.7B Revenue (2024)",
+    "FMOL Health System",
+    "$3.8B Revenue (2024)",
+    "$3.5B Revenue (2024)",
+    "Top Insurers by Market Share",
+    "While reforms in 2022 and 2024 have clarified the FNR process, they have also entrenched it by formalizing committee structures and even expanding its reach to new provider types like residential substance abuse treatment. The system lacks a general capital expenditure threshold, meaning it doesn't block major hospital expansions, but it remains a significant barrier to entry for smaller, specialized providers in the covered categories.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Top Insurers by Market Share",
+    "UnitedHealth Group",
+    "BCBS of Louisiana",
+    "Humana Group"
+  ],
+  "case_law": [
+    "Blocked: Sivad Home and Community Services"
+  ],
+  "reform_data": [
+    "While reforms in 2022 and 2024 have clarified the FNR process, they have also entrenched it by formalizing committee structures and even expanding its reach to new provider types like residential substance abuse treatment. The system lacks a general capital expenditure threshold, meaning it doesn't block major hospital expansions, but it remains a significant barrier to entry for smaller, specialized providers in the covered categories."
+  ],
+  "score": 55,
+  "tier": "Restrictive",
+  "rank": 25,
+  "con_status": "Yes"
+}

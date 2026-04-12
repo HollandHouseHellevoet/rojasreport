@@ -1,0 +1,116 @@
+{
+  "state": "New Jersey",
+  "abbreviation": "NJ",
+  "slug": "new-jersey",
+  "meta_description": "New Jersey CON score 100/100 (most restrictive). Delays average 213 business days for 'expedited' reviews. Two systems control a significant portion of the market, with one insurer holding 71% market share.",
+  "path": "/new-jersey/certificate-of-need",
+  "quick_stats": [
+    {
+      "value": "1971",
+      "label": "Year CON enacted"
+    },
+    {
+      "value": "71%",
+      "label": "Top insurer market share"
+    },
+    {
+      "value": "$18.5B",
+      "label": "Revenue of top 2 systems"
+    }
+  ],
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "02",
+      "title": "Market Concentration"
+    },
+    {
+      "number": "03",
+      "title": "Case Law"
+    },
+    {
+      "number": "04",
+      "title": "Reform Status"
+    },
+    {
+      "number": "06",
+      "title": "Dive Deeper"
+    }
+  ],
+  "content_blocks": [
+    "Services Requiring CON Approval",
+    "Held by the state's largest insurer, Horizon BCBSNJ.",
+    "Combined share of Hackensack Meridian and Englewood in Bergen County.",
+    "Of the top two hospital systems, RWJBarnabas and Hackensack Meridian.",
+    "Core CON regime for major facilities remains intact despite minor changes.",
+    "Dominant Hospital Systems by Revenue",
+    "Newton Medical Center Psychiatric Beds",
+    "In a striking example of bureaucratic obstruction, the New Jersey Department of Health denied an extension for a previously approved Certificate of Need for Newton Medical Center to add 9 new psychiatric beds. The initial CON had been granted, acknowledging the need for expanded mental health services in the community.",
+    "The case demonstrates the immense power of the state agency within the CON process. Even after a project has been deemed necessary and approved, it can be blocked years later, leaving community health needs unmet and illustrating how CON can stifle the development of essential services.",
+    "The 1998 reform created exemptions for certain services like ambulatory surgery and PET scans, but it preserved the CON requirement for new hospitals, specialized services, and long-term care, protecting the most lucrative revenue streams for incumbent systems.",
+    "States that have fully repealed their CON laws have seen increased competition, lower costs, and better access to care, particularly in rural areas. They demonstrate that a free market in healthcare delivery is possible and beneficial.",
+    "Two hospital systems dominate the state, and one insurer controls 71% of the market.",
+    "The state has used its authority to deny extensions for previously approved, necessary projects.",
+    "RWJBarnabas Health and Hackensack Meridian Health, pulling in a combined $18.5 billion",
+    "Learn about the history and impact of Certificate of Need laws across the United States.",
+    "Explore the case of Kentucky, one of the most restrictive CON states in the nation.",
+    "A complete breakdown and ranking of all 50 states by their CON law restrictiveness.",
+    "Data sourced from state Departments of Health, the Mercatus Center, and independent research."
+  ],
+  "scope_data": [
+    "Services Requiring CON Approval",
+    "Newton Medical Center Psychiatric Beds",
+    "In a striking example of bureaucratic obstruction, the New Jersey Department of Health denied an extension for a previously approved Certificate of Need for Newton Medical Center to add 9 new psychiatric beds. The initial CON had been granted, acknowledging the need for expanded mental health services in the community.",
+    "The 1998 reform created exemptions for certain services like ambulatory surgery and PET scans, but it preserved the CON requirement for new hospitals, specialized services, and long-term care, protecting the most lucrative revenue streams for incumbent systems."
+  ],
+  "process_data": [
+    "Services Requiring CON Approval",
+    "The Application Process",
+    "The case demonstrates the immense power of the state agency within the CON process. Even after a project has been deemed necessary and approved, it can be blocked years later, leaving community health needs unmet and illustrating how CON can stifle the development of essential services.",
+    "The 1998 reform created exemptions for certain services like ambulatory surgery and PET scans, but it preserved the CON requirement for new hospitals, specialized services, and long-term care, protecting the most lucrative revenue streams for incumbent systems.",
+    "Incumbent Protection"
+  ],
+  "market_data": [
+    "Market Share",
+    "Combined Revenue",
+    "Of the top two hospital systems, RWJBarnabas and Hackensack Meridian.",
+    "Dominant Hospital Systems by Revenue",
+    "The 1998 reform created exemptions for certain services like ambulatory surgery and PET scans, but it preserved the CON requirement for new hospitals, specialized services, and long-term care, protecting the most lucrative revenue streams for incumbent systems.",
+    "Market Concentration",
+    "Two hospital systems dominate the state, and one insurer controls 71% of the market.",
+    "RWJBarnabas Health and Hackensack Meridian Health, pulling in a combined $18.5 billion"
+  ],
+  "insurer_data": [
+    "Held by the state's largest insurer, Horizon BCBSNJ.",
+    "Two hospital systems dominate the state, and one insurer controls 71% of the market.",
+    "Learn about the history and impact of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "In a striking example of bureaucratic obstruction, the New Jersey Department of Health denied an extension for a previously approved Certificate of Need for Newton Medical Center to add 9 new psychiatric beds. The initial CON had been granted, acknowledging the need for expanded mental health services in the community.",
+    "The case demonstrates the immense power of the state agency within the CON process. Even after a project has been deemed necessary and approved, it can be blocked years later, leaving community health needs unmet and illustrating how CON can stifle the development of essential services.",
+    "Explore the case of Kentucky, one of the most restrictive CON states in the nation."
+  ],
+  "reform_data": [
+    "The 1998 reform created exemptions for certain services like ambulatory surgery and PET scans, but it preserved the CON requirement for new hospitals, specialized services, and long-term care, protecting the most lucrative revenue streams for incumbent systems.",
+    "States That Reformed",
+    "States that have fully repealed their CON laws have seen increased competition, lower costs, and better access to care, particularly in rural areas. They demonstrate that a free market in healthcare delivery is possible and beneficial.",
+    "RWJBarnabas Health and Hackensack Meridian Health, pulling in a combined $18.5 billion"
+  ],
+  "market_bars": [
+    {
+      "width_pct": "52",
+      "label": "$9.57B"
+    },
+    {
+      "width_pct": "48",
+      "label": "$8.92B"
+    }
+  ],
+  "score": 100,
+  "tier": "Most Restrictive",
+  "rank": 43,
+  "con_status": "Yes"
+}

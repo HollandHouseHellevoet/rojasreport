@@ -1,0 +1,82 @@
+{
+  "state": "Arkansas",
+  "abbreviation": "AR",
+  "slug": "arkansas",
+  "meta_description": "In-depth analysis of Arkansas's Permit of Approval (POA) program, its impact on healthcare competition, and market concentration data.",
+  "path": "/arkansas/certificate-of-need",
+  "content_blocks": [
+    "Arkansas replaced its broad Certificate of Need (CON) program with a narrower Permit of Approval (POA) system in 1987, primarily regulating long-term care and home health services while largely exempting hospitals. This shift has created a unique regulatory landscape that warrants close examination.",
+    "Score out of 100, where 100 is most restrictive.",
+    "Arkansas's POA program is narrowly focused. Unlike broad CON regimes, it explicitly exempts most hospital services, outpatient surgery centers, and imaging centers. Regulation centers on:",
+    "Nursing home construction, adding/converting beds.",
+    "New agencies or expansion of service areas.",
+    "Establishment of new hospice programs.",
+    "Threshold of $1,000,000 for nursing home renovations.",
+    "The state uses a structured batching system for POA applications, creating predictable but rigid timelines for market entry.",
+    "Four 90-day review cycles per year with set deadlines (Feb 1, May 1, Aug 1, Nov 1).",
+    "Competitors have a 30-day window to file written opposition, a prerequisite for any appeal.",
+    "The Health Services Permit Agency must issue a decision within 90 days of the review cycle start.",
+    "Crucially, competitors cannot judicially appeal a decision to *grant* a Permit of Approval.",
+    "While hospitals are largely exempt from POA, the historical lack of competition has led to highly concentrated markets. The Herfindahl-Hirschman Index (HHI) for these markets would be considered 'highly concentrated' by federal antitrust agencies.",
+    "The payer side is similarly concentrated, with three major players dominating the state's health insurance market.",
+    "Case Law: Denial of Home Health Services",
+    "Arkansas's journey from a full CON program to its current POA system is a story of deliberate legislative reform. The pivotal 1987 and 1989 acts dismantled the broad hospital-focused regime, replacing it with a system aimed at controlling supply in the long-term care and home health sectors. While this represents significant reform compared to states with expansive CON laws, the system retains powerful gatekeeping functions.",
+    "The most significant feature of the modern POA system is the 2001 law (Act 1800) that explicitly bars competitors from seeking judicial review of a granted permit. This creates a one-way street for legal challenges: applicants can sue if denied, but competitors cannot sue if a new rival is approved. This legislative shield effectively nullifies a key accountability mechanism, entrenching the commission's decisions and protecting approved applicants from legal challenges by incumbents.",
+    "An overview of how Certificate of Need laws stifle competition across the United States.",
+    "An analysis of a neighboring state with a highly restrictive CON program.",
+    "$81.4B in discounted drugs. Zero disclosure requirements.",
+    "Data sourced from public records, state statutes, and agency reports. Market share data from the American Medical Association and National Association of Insurance Commissioners."
+  ],
+  "scope_data": [
+    "Arkansas replaced its broad Certificate of Need (CON) program with a narrower Permit of Approval (POA) system in 1987, primarily regulating long-term care and home health services while largely exempting hospitals. This shift has created a unique regulatory landscape that warrants close examination.",
+    "Regulated Services",
+    "Arkansas's POA program is narrowly focused. Unlike broad CON regimes, it explicitly exempts most hospital services, outpatient surgery centers, and imaging centers. Regulation centers on:",
+    "Long-Term Care",
+    "Nursing home construction, adding/converting beds.",
+    "Home Health",
+    "Establishment of new hospice programs.",
+    "Threshold of $1,000,000 for nursing home renovations.",
+    "Case Law: Denial of Home Health Services",
+    "Arkansas's journey from a full CON program to its current POA system is a story of deliberate legislative reform. The pivotal 1987 and 1989 acts dismantled the broad hospital-focused regime, replacing it with a system aimed at controlling supply in the long-term care and home health sectors. While this represents significant reform compared to states with expansive CON laws, the system retains powerful gatekeeping functions."
+  ],
+  "process_data": [
+    "Arkansas: Permit of Approval",
+    "Arkansas replaced its broad Certificate of Need (CON) program with a narrower Permit of Approval (POA) system in 1987, primarily regulating long-term care and home health services while largely exempting hospitals. This shift has created a unique regulatory landscape that warrants close examination.",
+    "The state uses a structured batching system for POA applications, creating predictable but rigid timelines for market entry.",
+    "Four 90-day review cycles per year with set deadlines (Feb 1, May 1, Aug 1, Nov 1).",
+    "The Health Services Permit Agency must issue a decision within 90 days of the review cycle start.",
+    "Crucially, competitors cannot judicially appeal a decision to *grant* a Permit of Approval.",
+    "The most significant feature of the modern POA system is the 2001 law (Act 1800) that explicitly bars competitors from seeking judicial review of a granted permit. This creates a one-way street for legal challenges: applicants can sue if denied, but competitors cannot sue if a new rival is approved. This legislative shield effectively nullifies a key accountability mechanism, entrenching the commission's decisions and protecting approved applicants from legal challenges by incumbents."
+  ],
+  "market_data": [
+    "Arkansas replaced its broad Certificate of Need (CON) program with a narrower Permit of Approval (POA) system in 1987, primarily regulating long-term care and home health services while largely exempting hospitals. This shift has created a unique regulatory landscape that warrants close examination.",
+    "Threshold of $1,000,000 for nursing home renovations.",
+    "The state uses a structured batching system for POA applications, creating predictable but rigid timelines for market entry.",
+    "Provider Market Concentration",
+    "While hospitals are largely exempt from POA, the historical lack of competition has led to highly concentrated markets. The Herfindahl-Hirschman Index (HHI) for these markets would be considered 'highly concentrated' by federal antitrust agencies.",
+    " Market Share",
+    "Insurer Market Share",
+    "Arkansas's journey from a full CON program to its current POA system is a story of deliberate legislative reform. The pivotal 1987 and 1989 acts dismantled the broad hospital-focused regime, replacing it with a system aimed at controlling supply in the long-term care and home health sectors. While this represents significant reform compared to states with expansive CON laws, the system retains powerful gatekeeping functions.",
+    "The most significant feature of the modern POA system is the 2001 law (Act 1800) that explicitly bars competitors from seeking judicial review of a granted permit. This creates a one-way street for legal challenges: applicants can sue if denied, but competitors cannot sue if a new rival is approved. This legislative shield effectively nullifies a key accountability mechanism, entrenching the commission's decisions and protecting approved applicants from legal challenges by incumbents.",
+    "$81.4B in discounted drugs. Zero disclosure requirements.",
+    "Data sourced from public records, state statutes, and agency reports. Market share data from the American Medical Association and National Association of Insurance Commissioners."
+  ],
+  "insurer_data": [
+    "Insurer Market Share",
+    "The payer side is similarly concentrated, with three major players dominating the state's health insurance market.",
+    "Arkansas BCBS",
+    "UnitedHealth Group",
+    "An overview of how Certificate of Need laws stifle competition across the United States."
+  ],
+  "case_law": [
+    "Case Law: Denial of Home Health Services",
+    "The most significant feature of the modern POA system is the 2001 law (Act 1800) that explicitly bars competitors from seeking judicial review of a granted permit. This creates a one-way street for legal challenges: applicants can sue if denied, but competitors cannot sue if a new rival is approved. This legislative shield effectively nullifies a key accountability mechanism, entrenching the commission's decisions and protecting approved applicants from legal challenges by incumbents."
+  ],
+  "reform_data": [
+    "Arkansas's journey from a full CON program to its current POA system is a story of deliberate legislative reform. The pivotal 1987 and 1989 acts dismantled the broad hospital-focused regime, replacing it with a system aimed at controlling supply in the long-term care and home health sectors. While this represents significant reform compared to states with expansive CON laws, the system retains powerful gatekeeping functions."
+  ],
+  "score": 15,
+  "tier": "Mostly Free",
+  "rank": 18,
+  "con_status": "Limited"
+}

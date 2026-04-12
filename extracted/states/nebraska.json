@@ -1,0 +1,85 @@
+{
+  "state": "Nebraska",
+  "abbreviation": "NE",
+  "slug": "nebraska",
+  "meta_description": "In-depth analysis of Nebraska's heavily reformed Certificate of Need (CON) laws, market concentration, and the impact on healthcare competition.",
+  "path": "/nebraska/certificate-of-need",
+  "section_headers": [
+    {
+      "title": "Scope of Regulation",
+      "subtitle": "What CON Covers"
+    },
+    {
+      "title": "Market Concentration",
+      "subtitle": "Who Benefits"
+    },
+    {
+      "title": "Notable Disputes",
+      "subtitle": "The Human Cost"
+    },
+    {
+      "title": "Legislative Status",
+      "subtitle": "Reform Efforts"
+    }
+  ],
+  "content_blocks": [
+    "Nebraska has significantly narrowed its CON program, but the remaining regulations for long-term care beds continue to shield incumbents and limit competition in a critical sector.",
+    "A lower score indicates a less restrictive and more competitive market.",
+    "Nebraska's CON law is narrow, primarily acting as a moratorium on new beds in specific long-term care facilities.",
+    "No capital expenditure thresholds",
+    "No review for imaging, ASCs, or general hospital services",
+    "The process is managed by the DHHS with no competitor intervention rights.",
+    "NE Dept. of Health and Human Services (DHHS)",
+    "Major metropolitan areas are highly concentrated, dominated by a few large systems.",
+    "The insurance market is similarly concentrated, with three carriers controlling over 62% of the market.",
+    "Beatrice Manor, Inc. v. Department of Health (1980)",
+    "A classic example of central planning failure. Beatrice Manor was denied a CON for additional nursing home beds in Gage County. The state's rationale was not a lack of quality or financial viability, but simply that the county already had 82 beds per 1,000 elderly residents, exceeding the state's arbitrary optimum of 68.6. This denial protected existing facilities from competition at the direct expense of patient choice and potential access to newer facilities.",
+    "Heavily Reformed, But Not Repealed",
+    "Explore our comprehensive overview of Certificate of Need laws across the United States.",
+    "Certificate of Need investigation for Missouri.",
+    "$81.4B in discounted drugs. Zero disclosure requirements.",
+    "Data sourced from state statutes, Department of Health and Human Services public records, and independent analysis by The Rojas Report."
+  ],
+  "scope_data": [
+    "Nebraska has significantly narrowed its CON program, but the remaining regulations for long-term care beds continue to shield incumbents and limit competition in a critical sector.",
+    "Regulated Services",
+    "Nebraska's CON law is narrow, primarily acting as a moratorium on new beds in specific long-term care facilities.",
+    "Long-Term Care Beds",
+    "Rehabilitation Beds",
+    "No review for imaging, ASCs, or general hospital services",
+    "A classic example of central planning failure. Beatrice Manor was denied a CON for additional nursing home beds in Gage County. The state's rationale was not a lack of quality or financial viability, but simply that the county already had 82 beds per 1,000 elderly residents, exceeding the state's arbitrary optimum of 68.6. This denial protected existing facilities from competition at the direct expense of patient choice and potential access to newer facilities."
+  ],
+  "process_data": [
+    "Nebraska has significantly narrowed its CON program, but the remaining regulations for long-term care beds continue to shield incumbents and limit competition in a critical sector.",
+    "No review for imaging, ASCs, or general hospital services",
+    "The process is managed by the DHHS with no competitor intervention rights.",
+    "Statutory Review Time",
+    "Incumbent Intervention"
+  ],
+  "market_data": [
+    "Dominant System",
+    "Major metropolitan areas are highly concentrated, dominated by a few large systems.",
+    "70% inpatient market share",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Top Insurer",
+    "UnitedHealth (24%)",
+    "Insurer Landscape",
+    "The insurance market is similarly concentrated, with three carriers controlling over 62% of the market.",
+    "UnitedHealth Group",
+    "BCBS of Nebraska",
+    "Explore our comprehensive overview of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "A classic example of central planning failure. Beatrice Manor was denied a CON for additional nursing home beds in Gage County. The state's rationale was not a lack of quality or financial viability, but simply that the county already had 82 beds per 1,000 elderly residents, exceeding the state's arbitrary optimum of 68.6. This denial protected existing facilities from competition at the direct expense of patient choice and potential access to newer facilities."
+  ],
+  "reform_data": [
+    "Nebraska's CON law is narrow, primarily acting as a moratorium on new beds in specific long-term care facilities.",
+    "Heavily Reformed, But Not Repealed"
+  ],
+  "score": 45,
+  "tier": "Moderate",
+  "rank": 23,
+  "con_status": "Yes"
+}

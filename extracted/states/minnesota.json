@@ -1,0 +1,60 @@
+{
+  "state": "Minnesota",
+  "abbreviation": "MN",
+  "slug": "minnesota",
+  "meta_description": "In-depth analysis of Minnesota's hospital construction moratorium, market concentration, and its impact on healthcare competition.",
+  "path": "/minnesota/certificate-of-need",
+  "content_blocks": [
+    "Minnesota replaced its traditional CON program with a hospital construction moratorium, creating a unique and complex regulatory environment.",
+    "Minnesota's moratorium primarily targets:",
+    "Intermediate Care Facilities for DD",
+    "Notably, ambulatory surgery centers and imaging centers are not subject to this review.",
+    "Reimbursement of MDH's actual costs",
+    "150 days for MDH review, plus legislative action",
+    "Yes, competitors can submit alternative plans",
+    "The Twin Cities market is dominated by three systems controlling ~70% of revenue:",
+    "The insurance market is similarly concentrated:",
+    "Virtual monopoly in the Rochester hospital market.",
+    "2024 Rehab Hospital Denial Recommendation",
+    "Minnesota repealed its formal CON law in 1984 but replaced it with a hospital construction moratorium that functions as a significant barrier to entry. While not a comprehensive CON regime, the moratorium and the associated Public Interest Review process still require legislative approval for new hospitals and bed expansions, effectively limiting competition.",
+    "Our comprehensive overview of Certificate of Need laws across the United States.",
+    "Certificate of Need investigation for Wisconsin.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "New Nursing Home Beds",
+    "Notably, ambulatory surgery centers and imaging centers are not subject to this review."
+  ],
+  "process_data": [
+    "Notably, ambulatory surgery centers and imaging centers are not subject to this review.",
+    "150 days for MDH review, plus legislative action",
+    "Incumbent Intervention",
+    "Minnesota repealed its formal CON law in 1984 but replaced it with a hospital construction moratorium that functions as a significant barrier to entry. While not a comprehensive CON regime, the moratorium and the associated Public Interest Review process still require legislative approval for new hospitals and bed expansions, effectively limiting competition."
+  ],
+  "market_data": [
+    "Dominant Systems",
+    "The Twin Cities market is dominated by three systems controlling ~70% of revenue:",
+    "Insurer Market Share",
+    "Virtual monopoly in the Rochester hospital market.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Insurer Market Share",
+    "The insurance market is similarly concentrated:",
+    "Our comprehensive overview of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "2024 Rehab Hospital Denial Recommendation"
+  ],
+  "reform_data": [
+    "Minnesota replaced its traditional CON program with a hospital construction moratorium, creating a unique and complex regulatory environment.",
+    "CON Law Repealed 1984",
+    "Minnesota's moratorium primarily targets:",
+    "Minnesota repealed its formal CON law in 1984 but replaced it with a hospital construction moratorium that functions as a significant barrier to entry. While not a comprehensive CON regime, the moratorium and the associated Public Interest Review process still require legislative approval for new hospitals and bed expansions, effectively limiting competition."
+  ],
+  "score": 30,
+  "tier": "Moderate",
+  "rank": 21,
+  "con_status": "Yes"
+}

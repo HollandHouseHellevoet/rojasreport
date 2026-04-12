@@ -1,0 +1,79 @@
+{
+  "state": "Michigan",
+  "abbreviation": "MI",
+  "slug": "michigan",
+  "meta_description": "In-depth analysis of Michigan's Certificate of Need (CON) program, its market impact on healthcare providers like Corewell Health, and the regulatory landscape.",
+  "path": "/michigan/certificate-of-need",
+  "section_headers": [
+    {
+      "title": "Scope of Regulation",
+      "subtitle": "What requires a Certificate of Need in Michigan?"
+    },
+    {
+      "title": "Market Concentration",
+      "subtitle": "Who benefits from Michigan's CON laws?"
+    },
+    {
+      "title": "The Human Cost",
+      "subtitle": "Notable legal challenges and their impact."
+    },
+    {
+      "title": "Reform Status",
+      "subtitle": "Has Michigan attempted to fix its CON problem?"
+    },
+    {
+      "title": "Related Content",
+      "subtitle": "Explore more of our CON investigation."
+    }
+  ],
+  "content_blocks": [
+    "An Analysis of the State Certificate of Need Program",
+    "Michigan's CON law covers a broad range of healthcare services and facilities, requiring state approval for new projects, expansions, or equipment purchases over a certain cost.",
+    "**Facilities:** Hospitals, Nursing Homes, Psychiatric Hospitals, and Ambulatory Surgical Centers (ASCs).",
+    "**Imaging:** CT, MRI, and PET scanners.",
+    "**Surgical Services:** Cardiac Catheterization, Open-Heart Surgery, and Organ Transplants.",
+    "**Specialized Care:** Neonatal Intensive Care Units (NICU) and Proton Therapy.",
+    "The path to approval is a bureaucratic maze managed by the Department of Health & Human Services (MDHHS) and a governor-appointed commission.",
+    "Huron Valley Hospital v. City of Pontiac (1986)",
+    "An Allegation of Anti-Competitive Conspiracy",
+    "In a landmark case, Huron Valley Hospital's 1977 CON application was denied after local planners favored an established competitor. The subsequent lawsuit alleged that the CON process was used not to manage resources, but to actively conspire against new market entrants. The courts found evidence of potential abuses, highlighting how CON laws can be weaponized to protect incumbents and stifle competition, a legal battle that underscores the system's capacity for cronyism.",
+    "Our comprehensive overview of Certificate of Need laws across the United States.",
+    "An analysis of the regulatory environment in a neighboring state.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Michigan's CON law covers a broad range of healthcare services and facilities, requiring state approval for new projects, expansions, or equipment purchases over a certain cost.",
+    "**Facilities:** Hospitals, Nursing Homes, Psychiatric Hospitals, and Ambulatory Surgical Centers (ASCs).",
+    "**Imaging:** CT, MRI, and PET scanners."
+  ],
+  "process_data": [
+    "Michigan's CON law covers a broad range of healthcare services and facilities, requiring state approval for new projects, expansions, or equipment purchases over a certain cost.",
+    "The Application Gauntlet",
+    "The path to approval is a bureaucratic maze managed by the Department of Health & Human Services (MDHHS) and a governor-appointed commission.",
+    "In a landmark case, Huron Valley Hospital's 1977 CON application was denied after local planners favored an established competitor. The subsequent lawsuit alleged that the CON process was used not to manage resources, but to actively conspire against new market entrants. The courts found evidence of potential abuses, highlighting how CON laws can be weaponized to protect incumbents and stifle competition, a legal battle that underscores the system's capacity for cronyism."
+  ],
+  "market_data": [
+    "$3,000 \u2013 $15,000+",
+    "Total Revenue (2023)",
+    "Operating Revenue (2024)",
+    "Operating Revenue (2023)",
+    "Dominant Insurer",
+    "In a landmark case, Huron Valley Hospital's 1977 CON application was denied after local planners favored an established competitor. The subsequent lawsuit alleged that the CON process was used not to manage resources, but to actively conspire against new market entrants. The courts found evidence of potential abuses, highlighting how CON laws can be weaponized to protect incumbents and stifle competition, a legal battle that underscores the system's capacity for cronyism.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Dominant Insurer",
+    "Our comprehensive overview of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "In a landmark case, Huron Valley Hospital's 1977 CON application was denied after local planners favored an established competitor. The subsequent lawsuit alleged that the CON process was used not to manage resources, but to actively conspire against new market entrants. The courts found evidence of potential abuses, highlighting how CON laws can be weaponized to protect incumbents and stifle competition, a legal battle that underscores the system's capacity for cronyism."
+  ],
+  "reform_data": [
+    "The path to approval is a bureaucratic maze managed by the Department of Health & Human Services (MDHHS) and a governor-appointed commission."
+  ],
+  "score": 65,
+  "tier": "Restrictive",
+  "rank": 27,
+  "con_status": "Yes"
+}

@@ -1,0 +1,81 @@
+{
+  "state": "Oregon",
+  "abbreviation": "OR",
+  "slug": "oregon",
+  "meta_description": "In-depth analysis of Oregon's Certificate of Need (CON) laws, market concentration, and their impact on healthcare competition and access.",
+  "path": "/oregon/certificate-of-need",
+  "section_headers": [
+    {
+      "title": "Scope of Regulation",
+      "subtitle": "What requires a state permission slip?"
+    },
+    {
+      "title": "Market Concentration",
+      "subtitle": "Who benefits from restricted competition?"
+    },
+    {
+      "title": "The Human Cost",
+      "subtitle": "Notable cases and their impact."
+    },
+    {
+      "title": "Reform Status",
+      "subtitle": "Where does Oregon stand on CON reform?"
+    }
+  ],
+  "content_blocks": [
+    "An in-depth look at the state's Certificate of Need landscape.",
+    "Ambulatory Surgical Centers (since 2009)",
+    "In 2017, the Oregon Health Authority denied a Certificate of Need for a proposed 100-bed freestanding psychiatric hospital in Wilsonville. The applicant, NEWCO, argued the state desperately needed more mental health capacity.",
+    "OHA concluded the project failed to meet multiple criteria, including need and cost-effectiveness, despite acknowledging the applicant's financial soundness. The denial sparked public controversy, with NEWCO framing it as an anticompetitive blockade by the state that ultimately harmed patients in need of care.",
+    "exemption of Ambulatory Surgical Centers (ASCs) from CON review in 2009",
+    "However, the core of the law, which covers new hospitals and long-term care facilities, remains firmly in place, preserving the gatekeeping power of the state and incumbent providers.",
+    "The Oregon Health Authority adopted temporary rule changes in late 2025 affecting hospital and psychiatric bed CON methodology. While positioned as updates, they don't represent a fundamental shift away from the CON regime.",
+    "The state's score of 65 reflects this mixed reality: a major reform in the past, but a system that still significantly restricts market entry for core healthcare facilities.",
+    "Explore our comprehensive overview of Certificate of Need laws across the United States.",
+    "Certificate of Need investigation for Washington.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "scope_data": [
+    "Psychiatric Beds",
+    "Regulated Services",
+    "Ambulatory Surgical Centers (since 2009)",
+    "Psychiatric Hospital Denied",
+    "In 2017, the Oregon Health Authority denied a Certificate of Need for a proposed 100-bed freestanding psychiatric hospital in Wilsonville. The applicant, NEWCO, argued the state desperately needed more mental health capacity.",
+    "exemption of Ambulatory Surgical Centers (ASCs) from CON review in 2009",
+    "However, the core of the law, which covers new hospitals and long-term care facilities, remains firmly in place, preserving the gatekeeping power of the state and incumbent providers.",
+    "The Oregon Health Authority adopted temporary rule changes in late 2025 affecting hospital and psychiatric bed CON methodology. While positioned as updates, they don't represent a fundamental shift away from the CON regime."
+  ],
+  "process_data": [
+    "exemption of Ambulatory Surgical Centers (ASCs) from CON review in 2009",
+    "However, the core of the law, which covers new hospitals and long-term care facilities, remains firmly in place, preserving the gatekeeping power of the state and incumbent providers."
+  ],
+  "market_data": [
+    "$5,000 - $90,900 (cost-based)",
+    "Largest Health Systems",
+    "(by Oregon Revenue)",
+    "(by Market Share)",
+    "(HHI equivalent)",
+    "The state's score of 65 reflects this mixed reality: a major reform in the past, but a system that still significantly restricts market entry for core healthcare facilities.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Largest Insurers",
+    "1. Kaiser Foundation:",
+    "2. Regence BCBS:",
+    "Explore our comprehensive overview of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "Case File: NEWCO Oregon, Inc.",
+    "Psychiatric Hospital Denied",
+    "In 2017, the Oregon Health Authority denied a Certificate of Need for a proposed 100-bed freestanding psychiatric hospital in Wilsonville. The applicant, NEWCO, argued the state desperately needed more mental health capacity.",
+    "OHA concluded the project failed to meet multiple criteria, including need and cost-effectiveness, despite acknowledging the applicant's financial soundness. The denial sparked public controversy, with NEWCO framing it as an anticompetitive blockade by the state that ultimately harmed patients in need of care."
+  ],
+  "reform_data": [
+    "exemption of Ambulatory Surgical Centers (ASCs) from CON review in 2009",
+    "The state's score of 65 reflects this mixed reality: a major reform in the past, but a system that still significantly restricts market entry for core healthcare facilities."
+  ],
+  "score": 65,
+  "tier": "Restrictive",
+  "rank": 27,
+  "con_status": "Yes"
+}

@@ -1,0 +1,101 @@
+{
+  "state": "Delaware",
+  "abbreviation": "DE",
+  "slug": "delaware",
+  "meta_description": "Delaware CON score 45/100 (moderate). Limited CON program covering nursing facilities, hospitals, and select services since 1978. ChristianaCare dominates the state's healthcare market.",
+  "path": "/delaware/certificate-of-need",
+  "quick_stats": [
+    {
+      "value": "6+",
+      "label": "Services regulated by CON"
+    },
+    {
+      "value": "1978",
+      "label": "Year CON enacted"
+    },
+    {
+      "value": "~60%",
+      "label": "ChristianaCare market share"
+    },
+    {
+      "value": "3",
+      "label": "Counties in entire state"
+    }
+  ],
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "02",
+      "title": "Market Concentration"
+    },
+    {
+      "number": "03",
+      "title": "Market Impact"
+    },
+    {
+      "number": "04",
+      "title": "Legislative History"
+    },
+    {
+      "number": "05",
+      "title": "Editorial"
+    },
+    {
+      "number": "06",
+      "title": "Continue Reading"
+    }
+  ],
+  "content_blocks": [
+    "Delaware's CON program, established in 1978, is narrower than many states but still regulates hospitals, nursing facilities, and select healthcare services. The state's small geography and concentrated market give ChristianaCare an outsized position in the healthcare landscape.",
+    "Services Requiring CON Approval",
+    "Applications are reviewed by the Delaware Health Resources Board. The process includes a public hearing where interested parties \u2014 including competitors \u2014 can testify for or against the application.",
+    "Estimated Inpatient Market Share",
+    "Estimated Inpatient Market Share",
+    "In a state with only three counties, even a moderate CON program creates outsized barriers to entry. The geography does the concentrating; the regulation locks it in.",
+    "Delaware's concentrated market structure",
+    "Delaware is the second-smallest state by area and has only three counties. This natural geographic concentration means that even a moderate CON program has an outsized effect on competition. When one or two systems dominate the entire state, the regulatory barrier to entry does not need to be as high to be effective.",
+    "The state's proximity to Philadelphia means that some Delaware residents seek care across state lines, which partially mitigates the domestic concentration. But for the majority of Delawareans \u2014 particularly those in Kent and Sussex counties \u2014 the local market is the only practical option.",
+    "Delaware's CON program is moderate by national standards, but that is grading on a curve. In a state with three counties and two dominant hospital systems, even a moderate regulatory barrier locks in the existing market structure.",
+    "The state's proximity to Philadelphia provides a partial escape valve that more isolated states do not have. But for residents of Kent and Sussex counties, the local market is what they get. And what they get is a market where the dominant system faces no meaningful competitive pressure.",
+    "Delaware's CON program is not the worst in the country. But in a state this small, it does not need to be.",
+    "How a 1959 study was twisted into a federal mandate that created healthcare monopolies in 35 jurisdictions.",
+    "New Jersey: The Garden State Cartel",
+    "RWJBarnabas Health's $7.5B empire. 25+ regulated services. Score: 100/100.",
+    "$81.4B in discounted drugs. Zero disclosure requirements.",
+    "Data sourced from Delaware Health Resources Board, National Academy for State Health Policy (NASHP), Cicero Institute, Federal Trade Commission, and Department of Justice."
+  ],
+  "scope_data": [
+    "Delaware's CON program, established in 1978, is narrower than many states but still regulates hospitals, nursing facilities, and select healthcare services. The state's small geography and concentrated market give ChristianaCare an outsized position in the healthcare landscape.",
+    "Services Requiring CON Approval",
+    "RWJBarnabas Health's $7.5B empire. 25+ regulated services. Score: 100/100."
+  ],
+  "process_data": [
+    "Services Requiring CON Approval",
+    "The Application Process",
+    "Applications are reviewed by the Delaware Health Resources Board. The process includes a public hearing where interested parties \u2014 including competitors \u2014 can testify for or against the application."
+  ],
+  "market_data": [
+    "Estimated Inpatient Market Share",
+    "Largest system in state",
+    "Natural concentration",
+    "Delaware is the second-smallest state by area and has only three counties. This natural geographic concentration means that even a moderate CON program has an outsized effect on competition. When one or two systems dominate the entire state, the regulatory barrier to entry does not need to be as high to be effective.",
+    "The state's proximity to Philadelphia means that some Delaware residents seek care across state lines, which partially mitigates the domestic concentration. But for the majority of Delawareans \u2014 particularly those in Kent and Sussex counties \u2014 the local market is the only practical option.",
+    "Delaware's CON program is moderate by national standards, but that is grading on a curve. In a state with three counties and two dominant hospital systems, even a moderate regulatory barrier locks in the existing market structure.",
+    "The state's proximity to Philadelphia provides a partial escape valve that more isolated states do not have. But for residents of Kent and Sussex counties, the local market is what they get. And what they get is a market where the dominant system faces no meaningful competitive pressure.",
+    "RWJBarnabas Health's $7.5B empire. 25+ regulated services. Score: 100/100.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [],
+  "case_law": [],
+  "reform_data": [
+    "Delaware (No Reform)",
+    "States That Reformed"
+  ],
+  "score": 45,
+  "tier": "Moderate",
+  "rank": 23,
+  "con_status": "Yes"
+}
