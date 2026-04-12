@@ -118,6 +118,30 @@ export const SCOPE_CATEGORIES = [
   "Other (Rehab, Equipment)",
 ] as const;
 
+export interface ReformTrackerEntry {
+  state: string;
+  abbreviation: string;
+  slug: string;
+  score: number;
+  tier: string;
+  momentum_score: number;
+  momentum: 'green' | 'yellow' | 'red';
+  bill_introduced: number;
+  committee_assigned: number;
+  hearing_held: number;
+  governor_supports: number;
+  reformed_before: number;
+  current_bill: string;
+  sponsor: string;
+  bill_status: string;
+  notes: string;
+}
+
+export function getReformTracker(): ReformTrackerEntry[] {
+  const raw = fs.readFileSync(path.join(dataDir, 'reform-tracker.json'), 'utf-8');
+  return JSON.parse(raw) as ReformTrackerEntry[];
+}
+
 export function tierColor(tier: string): string {
   switch (tier) {
     case 'Free Market': return 'tier-free';

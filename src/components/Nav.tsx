@@ -5,6 +5,7 @@ const navLinks = [
   { href: '/scope/', label: 'Scope' },
   { href: '/compare/', label: 'Compare' },
   { href: '/evidence/', label: 'Evidence' },
+  { href: '/reform/', label: 'Reform' },
   { href: '/timeline/', label: 'Timeline' },
 ];
 
