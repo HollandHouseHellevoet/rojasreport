@@ -33,14 +33,14 @@
     "Open Heart Surgery & Cardiac Catheterization",
     "Inpatient Pediatric & Rehab Services",
     "Obstetric & Neonatal Intensive Care Services",
-    "The process is lengthy and expensive, giving incumbent providers ample opportunity to block new competitors.",
+    "The process is lengthy and expensive, giving incumbent systems ample opportunity to block new competitors.",
     "WA Dept. of Health, CON Program",
     "Statewide Inpatient Market Share",
     "Statewide Inpatient Market Share",
     "Statewide Inpatient Market Share",
     "Five systems control 40% of Washington's hospitals, with local monopolies even more pronounced.",
     "Apex Spine Institute, PLLC (2024)",
-    "A proposal for a new three-room ambulatory surgical facility in Richland was denied by the Department of Health. The state determined the project was not consistent with its criteria for need, financial feasibility, and cost containment\u2014classic CON gatekeeping that protects existing hospitals from a new, specialized competitor.",
+    "A proposal for a new three-room ambulatory surgical facility in Richland was denied by the Department of Health. The state determined the project was not consistent with its criteria for need, financial feasibility, and cost containment, classic CON gatekeeping that protects existing hospitals from a new, specialized competitor.",
     "Washington has not repealed its CON law. Instead, the state continues to actively amend and update rules and fees, signaling a commitment to maintaining the regulatory barrier. The program remains one of the most comprehensive and restrictive in the United States.",
     "Our complete breakdown of Certificate of Need laws across the United States.",
     "An analysis of the neighboring state's regulatory environment.",
@@ -52,11 +52,11 @@
     "Hospitals & Nursing Homes",
     "Ambulatory Surgical Centers",
     "Home Health & Hospice Agencies",
-    "A proposal for a new three-room ambulatory surgical facility in Richland was denied by the Department of Health. The state determined the project was not consistent with its criteria for need, financial feasibility, and cost containment\u2014classic CON gatekeeping that protects existing hospitals from a new, specialized competitor."
+    "A proposal for a new three-room ambulatory surgical facility in Richland was denied by the Department of Health. The state determined the project was not consistent with its criteria for need, financial feasibility, and cost containment, classic CON gatekeeping that protects existing hospitals from a new, specialized competitor."
   ],
   "process_data": [
     "The Application Gauntlet",
-    "The process is lengthy and expensive, giving incumbent providers ample opportunity to block new competitors.",
+    "The process is lengthy and expensive, giving incumbent systems ample opportunity to block new competitors.",
     "Statutory Review Time",
     "Washington has not repealed its CON law. Instead, the state continues to actively amend and update rules and fees, signaling a commitment to maintaining the regulatory barrier. The program remains one of the most comprehensive and restrictive in the United States."
   ],
@@ -73,7 +73,7 @@
     "Our complete breakdown of Certificate of Need laws across the United States."
   ],
   "case_law": [
-    "A proposal for a new three-room ambulatory surgical facility in Richland was denied by the Department of Health. The state determined the project was not consistent with its criteria for need, financial feasibility, and cost containment\u2014classic CON gatekeeping that protects existing hospitals from a new, specialized competitor."
+    "A proposal for a new three-room ambulatory surgical facility in Richland was denied by the Department of Health. The state determined the project was not consistent with its criteria for need, financial feasibility, and cost containment, classic CON gatekeeping that protects existing hospitals from a new, specialized competitor."
   ],
   "reform_data": [
     "No Meaningful Reform",
@@ -83,5 +83,21 @@
   "score": 100,
   "tier": "Most Restrictive",
   "rank": 43,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "WA Dept. of Health",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies",
+    "Hospice",
+    "Rehabilitation Facilities",
+    "Cardiac / Open Heart Surgery",
+    "Neonatal Care"
+  ]
 }

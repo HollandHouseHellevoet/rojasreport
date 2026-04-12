@@ -55,5 +55,21 @@
   "score": 55,
   "tier": "Restrictive",
   "rank": 25,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Hospice",
+    "Substance Abuse Treatment"
+  ],
+  "key_systems": [
+    {
+      "name": "Ochsner Health",
+      "revenue": ""
+    },
+    {
+      "name": "LCMC Health",
+      "revenue": ""
+    }
+  ]
 }

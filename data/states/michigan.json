@@ -54,7 +54,7 @@
     "In a landmark case, Huron Valley Hospital's 1977 CON application was denied after local planners favored an established competitor. The subsequent lawsuit alleged that the CON process was used not to manage resources, but to actively conspire against new market entrants. The courts found evidence of potential abuses, highlighting how CON laws can be weaponized to protect incumbents and stifle competition, a legal battle that underscores the system's capacity for cronyism."
   ],
   "market_data": [
-    "$3,000 \u2013 $15,000+",
+    "$3,000 – $15,000+",
     "Total Revenue (2023)",
     "Operating Revenue (2024)",
     "Operating Revenue (2023)",
@@ -75,5 +75,30 @@
   "score": 65,
   "tier": "Restrictive",
   "rank": 27,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Psychiatric Facilities",
+    "Imaging (MRI, CT, PET)",
+    "Cardiac / Open Heart Surgery",
+    "Organ Transplantation",
+    "Neonatal Care",
+    "Major Medical Equipment"
+  ],
+  "key_systems": [
+    {
+      "name": "Beaumont/Corewell Health",
+      "revenue": ""
+    },
+    {
+      "name": "Henry Ford Health",
+      "revenue": ""
+    },
+    {
+      "name": "Trinity Health Michigan",
+      "revenue": ""
+    }
+  ]
 }

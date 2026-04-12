@@ -77,5 +77,28 @@
   "score": 90,
   "tier": "Highly Restrictive",
   "rank": 43,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies",
+    "Hospice",
+    "Imaging (MRI, CT, PET)",
+    "Major Medical Equipment"
+  ],
+  "key_systems": [
+    {
+      "name": "MedStar Health",
+      "revenue": ""
+    },
+    {
+      "name": "GW University Hospital",
+      "revenue": ""
+    },
+    {
+      "name": "Children's National",
+      "revenue": ""
+    }
+  ]
 }

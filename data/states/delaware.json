@@ -51,13 +51,13 @@
   "content_blocks": [
     "Delaware's CON program, established in 1978, is narrower than many states but still regulates hospitals, nursing facilities, and select healthcare services. The state's small geography and concentrated market give ChristianaCare an outsized position in the healthcare landscape.",
     "Services Requiring CON Approval",
-    "Applications are reviewed by the Delaware Health Resources Board. The process includes a public hearing where interested parties \u2014 including competitors \u2014 can testify for or against the application.",
+    "Applications are reviewed by the Delaware Health Resources Board. The process includes a public hearing where interested parties, including competitors, can testify for or against the application.",
     "Estimated Inpatient Market Share",
     "Estimated Inpatient Market Share",
     "In a state with only three counties, even a moderate CON program creates outsized barriers to entry. The geography does the concentrating; the regulation locks it in.",
     "Delaware's concentrated market structure",
     "Delaware is the second-smallest state by area and has only three counties. This natural geographic concentration means that even a moderate CON program has an outsized effect on competition. When one or two systems dominate the entire state, the regulatory barrier to entry does not need to be as high to be effective.",
-    "The state's proximity to Philadelphia means that some Delaware residents seek care across state lines, which partially mitigates the domestic concentration. But for the majority of Delawareans \u2014 particularly those in Kent and Sussex counties \u2014 the local market is the only practical option.",
+    "The state's proximity to Philadelphia means that some Delaware residents seek care across state lines, which partially mitigates the domestic concentration. But for the majority of Delawareans, particularly those in Kent and Sussex counties, the local market is the only practical option.",
     "Delaware's CON program is moderate by national standards, but that is grading on a curve. In a state with three counties and two dominant hospital systems, even a moderate regulatory barrier locks in the existing market structure.",
     "The state's proximity to Philadelphia provides a partial escape valve that more isolated states do not have. But for residents of Kent and Sussex counties, the local market is what they get. And what they get is a market where the dominant system faces no meaningful competitive pressure.",
     "Delaware's CON program is not the worst in the country. But in a state this small, it does not need to be.",
@@ -75,14 +75,14 @@
   "process_data": [
     "Services Requiring CON Approval",
     "The Application Process",
-    "Applications are reviewed by the Delaware Health Resources Board. The process includes a public hearing where interested parties \u2014 including competitors \u2014 can testify for or against the application."
+    "Applications are reviewed by the Delaware Health Resources Board. The process includes a public hearing where interested parties, including competitors, can testify for or against the application."
   ],
   "market_data": [
     "Estimated Inpatient Market Share",
     "Largest system in state",
     "Natural concentration",
     "Delaware is the second-smallest state by area and has only three counties. This natural geographic concentration means that even a moderate CON program has an outsized effect on competition. When one or two systems dominate the entire state, the regulatory barrier to entry does not need to be as high to be effective.",
-    "The state's proximity to Philadelphia means that some Delaware residents seek care across state lines, which partially mitigates the domestic concentration. But for the majority of Delawareans \u2014 particularly those in Kent and Sussex counties \u2014 the local market is the only practical option.",
+    "The state's proximity to Philadelphia means that some Delaware residents seek care across state lines, which partially mitigates the domestic concentration. But for the majority of Delawareans, particularly those in Kent and Sussex counties, the local market is the only practical option.",
     "Delaware's CON program is moderate by national standards, but that is grading on a curve. In a state with three counties and two dominant hospital systems, even a moderate regulatory barrier locks in the existing market structure.",
     "The state's proximity to Philadelphia provides a partial escape valve that more isolated states do not have. But for residents of Kent and Sussex counties, the local market is what they get. And what they get is a market where the dominant system faces no meaningful competitive pressure.",
     "RWJBarnabas Health's $7.5B empire. 25+ regulated services. Score: 100/100.",
@@ -97,5 +97,19 @@
   "score": 45,
   "tier": "Moderate",
   "rank": 23,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care"
+  ],
+  "key_systems": [
+    {
+      "name": "ChristianaCare",
+      "revenue": "$2.5B"
+    },
+    {
+      "name": "Bayhealth",
+      "revenue": ""
+    }
+  ]
 }

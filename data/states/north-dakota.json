@@ -53,5 +53,21 @@
   "score": 5,
   "tier": "Mostly Free",
   "rank": 14,
-  "con_status": "Limited"
+  "con_status": "Limited",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Imaging (MRI, CT, PET)"
+  ],
+  "key_systems": [
+    {
+      "name": "Sanford Health",
+      "revenue": ""
+    },
+    {
+      "name": "CHI St. Alexius",
+      "revenue": ""
+    }
+  ]
 }

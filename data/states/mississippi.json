@@ -106,5 +106,23 @@
   "score": 90,
   "tier": "Highly Restrictive",
   "rank": 37,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Home Health Agencies"
+  ],
+  "key_systems": [
+    {
+      "name": "University of Mississippi Medical Center",
+      "revenue": ""
+    },
+    {
+      "name": "Baptist Memorial Health Care",
+      "revenue": ""
+    },
+    {
+      "name": "Merit Health",
+      "revenue": ""
+    }
+  ]
 }

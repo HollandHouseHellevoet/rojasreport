@@ -47,16 +47,16 @@
   "content_blocks": [
     "Georgia's CON laws, enacted in 1979, regulate a broad range of healthcare services. This has led to highly concentrated markets, exemplified by the Albany area, where one system, Phoebe Putney, controls 86% of the market.",
     "Services Requiring CON Approval",
-    "The statutory timeline for a review is 120 days, with the actual process taking about four months. A key feature of Georgia's process is the formal 'opposition meeting,' which allows incumbent providers a platform to officially contest applications from potential new competitors.",
+    "The statutory timeline for a review is 120 days, with the actual process taking about four months. A key feature of Georgia's process is the formal 'opposition meeting,' which allows incumbent systems a platform to officially contest applications from potential new competitors.",
     "Atlanta Hospital Market Share (Estimated)",
     "Three large systems dominate the Atlanta metropolitan area, collectively controlling a significant majority of the market based on revenue.",
-    "\u2014 U.S. Supreme Court, FTC v. Phoebe Putney Health System, Inc.",
+    ", U.S. Supreme Court, FTC v. Phoebe Putney Health System, Inc.",
     "FTC v. Phoebe Putney Health System, Inc.",
-    "Decided February 2013 \u00b7 U.S. Supreme Court",
+    "Decided February 2013 · U.S. Supreme Court",
     "In 2011, Phoebe Putney Health System, which already owned one of the two hospitals in Albany, Georgia, sought to acquire the second, Palmyra Medical Center. The acquisition was orchestrated through a hospital authority, a public entity, in an attempt to shield the merger from federal antitrust scrutiny using the state-action immunity doctrine.",
     "86% of the acute-care hospital services market",
     "The case went to the U.S. Supreme Court, which unanimously ruled that the state-action immunity did not apply. The Court found that Georgia's CON law, while regulating hospital expansion, did not clearly articulate a state policy to displace competition with monopoly. The ruling was a major victory for antitrust enforcement in the healthcare sector.",
-    "\u2014 Federal Trade Commission Statement",
+    ", Federal Trade Commission Statement",
     "Northside, Piedmont, and Wellstar",
     "The full origin story of Certificate of Need laws and our 50-state rankings on market restrictiveness.",
     "Explore the nation's most restrictive CON state, where three systems control 100% of the Louisville market.",
@@ -70,13 +70,13 @@
   "process_data": [
     "Services Requiring CON Approval",
     "The Application Process",
-    "The statutory timeline for a review is 120 days, with the actual process taking about four months. A key feature of Georgia's process is the formal 'opposition meeting,' which allows incumbent providers a platform to officially contest applications from potential new competitors."
+    "The statutory timeline for a review is 120 days, with the actual process taking about four months. A key feature of Georgia's process is the formal 'opposition meeting,' which allows incumbent systems a platform to officially contest applications from potential new competitors."
   ],
   "market_data": [
     "Georgia's CON laws, enacted in 1979, regulate a broad range of healthcare services. This has led to highly concentrated markets, exemplified by the Albany area, where one system, Phoebe Putney, controls 86% of the market.",
     "Atlanta Hospital Market Share (Estimated)",
     "Three large systems dominate the Atlanta metropolitan area, collectively controlling a significant majority of the market based on revenue.",
-    "\u2014 U.S. Supreme Court, FTC v. Phoebe Putney Health System, Inc.",
+    ", U.S. Supreme Court, FTC v. Phoebe Putney Health System, Inc.",
     "FTC v. Phoebe Putney Health System, Inc.",
     "Monopoly Ruled Illegal",
     "In 2011, Phoebe Putney Health System, which already owned one of the two hospitals in Albany, Georgia, sought to acquire the second, Palmyra Medical Center. The acquisition was orchestrated through a hospital authority, a public entity, in an attempt to shield the merger from federal antitrust scrutiny using the state-action immunity doctrine.",
@@ -87,9 +87,9 @@
   ],
   "insurer_data": [],
   "case_law": [
-    "\u2014 U.S. Supreme Court, FTC v. Phoebe Putney Health System, Inc.",
+    ", U.S. Supreme Court, FTC v. Phoebe Putney Health System, Inc.",
     "FTC v. Phoebe Putney Health System, Inc.",
-    "Decided February 2013 \u00b7 U.S. Supreme Court",
+    "Decided February 2013 · U.S. Supreme Court",
     "In 2011, Phoebe Putney Health System, which already owned one of the two hospitals in Albany, Georgia, sought to acquire the second, Palmyra Medical Center. The acquisition was orchestrated through a hospital authority, a public entity, in an attempt to shield the merger from federal antitrust scrutiny using the state-action immunity doctrine.",
     "The case went to the U.S. Supreme Court, which unanimously ruled that the state-action immunity did not apply. The Court found that Georgia's CON law, while regulating hospital expansion, did not clearly articulate a state policy to displace competition with monopoly. The ruling was a major victory for antitrust enforcement in the healthcare sector.",
     "FTC v. Phoebe Putney: Full Analysis",
@@ -104,5 +104,16 @@
   "score": 95,
   "tier": "Most Restrictive",
   "rank": 41,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "FTC v. Phoebe Putney Health System",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies"
+  ]
 }

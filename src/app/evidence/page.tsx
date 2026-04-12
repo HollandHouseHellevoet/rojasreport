@@ -120,7 +120,7 @@ export default function EvidencePage() {
               { finding: 'CON states have fewer hospitals per capita, especially in rural areas.', source: 'Mercatus Center' },
               { finding: 'CON laws are associated with higher mortality rates for certain conditions.', source: 'NBER Working Paper' },
               { finding: 'Repealing CON laws does not lead to a decrease in charity care.', source: 'Journal of Health Economics' },
-              { finding: 'CON laws pose serious anticompetitive risks and should be repealed.', source: 'FTC & DOJ Joint Statement, 2004' },
+              { finding: 'CON laws pose serious anticompetitive risks. The agencies recommend repeal.', source: 'FTC & DOJ Joint Statement, 2004' },
               { finding: 'States that repeal CON see 44-47% more ASCs per capita.', source: 'Mercatus Center' },
               { finding: 'Rural areas see 92-112% increase in ASCs after CON repeal.', source: 'Journal of Health Economics' },
             ].map((item, i) => (

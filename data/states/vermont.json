@@ -2,7 +2,7 @@
   "state": "Vermont",
   "abbreviation": "VT",
   "slug": "vermont",
-  "meta_description": "Vermont scores 100/100 on CON restrictiveness. The Green Mountain Care Board holds both CON and rate-setting authority \u2014 unique in the nation. UVM Health Network dominates with 6 hospitals.",
+  "meta_description": "Vermont scores 100/100 on CON restrictiveness. The Green Mountain Care Board holds both CON and rate-setting authority, unique in the nation. UVM Health Network dominates with 6 hospitals.",
   "path": "/vermont/certificate-of-need",
   "section_headers": [
     {
@@ -27,12 +27,12 @@
     }
   ],
   "content_blocks": [
-    "Vermont's Green Mountain Care Board is the only regulatory body in the nation that combines Certificate of Need authority with hospital budget review and rate-setting power. This means the GMCB doesn't just decide who can build \u2014 it decides what they can charge.",
+    "Vermont's Green Mountain Care Board is the only regulatory body in the nation that combines Certificate of Need authority with hospital budget review and rate-setting power. This means the GMCB doesn't just decide who can build, it decides what they can charge.",
     "Controls market entry for all major healthcare services",
     "Reviews and approves hospital budgets annually",
     "Any project over $3M requires GMCB approval",
     "University of Vermont Medical Center + 5 affiliate hospitals",
-    "Vermont is the smallest state with a full CON program, and it has the most comprehensive regulatory apparatus in the country. The GMCB reviews hospital budgets, sets rates, and controls market entry. In a state with fewer people than most mid-size cities, this creates a regulatory environment where one dominant system faces virtually no competitive pressure. UVM Health Network's ~75% market share is not the result of consumer choice \u2014 it's the result of regulatory design.",
+    "Vermont is the smallest state with a full CON program, and it has the most comprehensive regulatory apparatus in the country. The GMCB reviews hospital budgets, sets rates, and controls market entry. In a state with fewer people than most mid-size cities, this creates a regulatory environment where one dominant system faces virtually no competitive pressure. UVM Health Network's ~75% market share is not the result of consumer choice, it's the result of regulatory design.",
     "In 2011, Vermont passed Act 48 to create Green Mountain Care, a single-payer healthcare system. Governor Peter Shumlin championed it as a national model. By 2014, the projected costs ($2.6 billion in new taxes) forced Shumlin to abandon the plan entirely. The failure demonstrated that even total regulatory control cannot overcome the fundamental economics of a healthcare market distorted by decades of anti-competitive policy.",
     "Vermont's unique dual-authority model (CON + rate-setting) creates a regulatory burden that is disproportionate to the state's size. Healthcare providers must navigate both market-entry restrictions and annual budget reviews. The administrative costs of compliance fall hardest on smaller providers, reinforcing the dominance of UVM Health Network, which has the institutional resources to manage the regulatory process. The GMCB's own reports acknowledge that the administrative burden is significant relative to the state's healthcare market size.",
     "Compare all 35 jurisdictions. Interactive table with scores, tiers, and reform status.",
@@ -46,11 +46,11 @@
     "Score 65. Northwell's $17.6B empire. 26 regulated services. The state that started it all in 1964."
   ],
   "process_data": [
-    "Vermont's Green Mountain Care Board is the only regulatory body in the nation that combines Certificate of Need authority with hospital budget review and rate-setting power. This means the GMCB doesn't just decide who can build \u2014 it decides what they can charge.",
+    "Vermont's Green Mountain Care Board is the only regulatory body in the nation that combines Certificate of Need authority with hospital budget review and rate-setting power. This means the GMCB doesn't just decide who can build, it decides what they can charge.",
     "Reviews and approves hospital budgets annually",
     "Capital Expenditure Review",
     "Any project over $3M requires GMCB approval",
-    "Vermont is the smallest state with a full CON program, and it has the most comprehensive regulatory apparatus in the country. The GMCB reviews hospital budgets, sets rates, and controls market entry. In a state with fewer people than most mid-size cities, this creates a regulatory environment where one dominant system faces virtually no competitive pressure. UVM Health Network's ~75% market share is not the result of consumer choice \u2014 it's the result of regulatory design.",
+    "Vermont is the smallest state with a full CON program, and it has the most comprehensive regulatory apparatus in the country. The GMCB reviews hospital budgets, sets rates, and controls market entry. In a state with fewer people than most mid-size cities, this creates a regulatory environment where one dominant system faces virtually no competitive pressure. UVM Health Network's ~75% market share is not the result of consumer choice, it's the result of regulatory design.",
     "Vermont's unique dual-authority model (CON + rate-setting) creates a regulatory burden that is disproportionate to the state's size. Healthcare providers must navigate both market-entry restrictions and annual budget reviews. The administrative costs of compliance fall hardest on smaller providers, reinforcing the dominance of UVM Health Network, which has the institutional resources to manage the regulatory process. The GMCB's own reports acknowledge that the administrative burden is significant relative to the state's healthcare market size.",
     "Sources: Green Mountain Care Board public filings and annual reports; Vermont Department of Health; UVM Health Network financial disclosures; National Conference of State Legislatures CON database; Mercatus Center CON research; Vermont Act 48 (2011) legislative record. All data verified as of March 2026."
   ],
@@ -59,7 +59,7 @@
     "Any project over $3M requires GMCB approval",
     "Dominant System",
     "Market Share",
-    "Vermont is the smallest state with a full CON program, and it has the most comprehensive regulatory apparatus in the country. The GMCB reviews hospital budgets, sets rates, and controls market entry. In a state with fewer people than most mid-size cities, this creates a regulatory environment where one dominant system faces virtually no competitive pressure. UVM Health Network's ~75% market share is not the result of consumer choice \u2014 it's the result of regulatory design.",
+    "Vermont is the smallest state with a full CON program, and it has the most comprehensive regulatory apparatus in the country. The GMCB reviews hospital budgets, sets rates, and controls market entry. In a state with fewer people than most mid-size cities, this creates a regulatory environment where one dominant system faces virtually no competitive pressure. UVM Health Network's ~75% market share is not the result of consumer choice, it's the result of regulatory design.",
     "In 2011, Vermont passed Act 48 to create Green Mountain Care, a single-payer healthcare system. Governor Peter Shumlin championed it as a national model. By 2014, the projected costs ($2.6 billion in new taxes) forced Shumlin to abandon the plan entirely. The failure demonstrated that even total regulatory control cannot overcome the fundamental economics of a healthcare market distorted by decades of anti-competitive policy.",
     "Current System",
     "Score 90. Mass General Brigham's $18.5B empire. 8 ASCs per million vs. 16+ national average.",
@@ -77,5 +77,16 @@
   "score": 100,
   "tier": "Most Restrictive",
   "rank": 43,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies"
+  ],
+  "key_systems": [
+    {
+      "name": "University of Vermont Health",
+      "revenue": ""
+    }
+  ]
 }

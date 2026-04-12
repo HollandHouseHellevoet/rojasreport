@@ -78,5 +78,27 @@
   "score": 15,
   "tier": "Mostly Free",
   "rank": 18,
-  "con_status": "Limited"
+  "con_status": "Limited",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies",
+    "Hospice",
+    "Imaging (MRI, CT, PET)"
+  ],
+  "key_systems": [
+    {
+      "name": "Baptist Health",
+      "revenue": ""
+    },
+    {
+      "name": "Mercy Health",
+      "revenue": ""
+    },
+    {
+      "name": "CHI St. Vincent",
+      "revenue": ""
+    }
+  ]
 }

@@ -45,18 +45,18 @@
     }
   ],
   "content_blocks": [
-    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent providers in the post-acute care sector.",
+    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent systems in the post-acute care sector.",
     "Services Requiring CON Approval",
     "The process for remaining CON services is rigorous. Any 'substantially affected person,' including existing providers, can request an administrative hearing to object to a new competitor's application, creating significant barriers to entry.",
     "Orlando Area Hospital Market Share (Illustrative)",
     "AdventHealth and Orlando Health are the two dominant players in Central Florida. While hospital CON is gone, their scale gives them immense leverage in the remaining regulated services like hospice and nursing homes.",
     "By repealing most of its CON law, Florida took a significant step toward a more competitive hospital market. However, by leaving protections for nursing homes and hospices, the state continues to shield some of the most profitable sectors from competition.",
-    "Decided 2018 \u00b7 Sarasota County, Florida \u00b7 State Court",
+    "Decided 2018 · Sarasota County, Florida · State Court",
     "single monopoly hospice provider",
     "ending a monopoly was not, by itself, a sufficient reason",
     "This case highlights the core flaw of CON laws: they prioritize the financial stability of existing providers over the benefits of market competition. The state actively defended the incumbent's monopoly, forcing residents to rely on a single provider for end-of-life care.",
     "The purpose of the certificate of need law is not to protect existing providers from competition, but that is its practical effect.",
-    "\u2014 Florida Court of Appeals, paraphrased",
+    ", Florida Court of Appeals, paraphrased",
     "AdventHealth pulling in over $17 billion",
     "The full origin story of Certificate of Need laws and our 50-state rankings on market restrictiveness.",
     "With a perfect 100/100 score, Kentucky has the most restrictive CON laws in the nation. See how it impacts care.",
@@ -64,7 +64,7 @@
     "Data sourced from Cicero Institute, National Academy for State Health Policy (NASHP), Agency for Health Care Administration (AHCA), KFF, and company financial reports."
   ],
   "scope_data": [
-    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent providers in the post-acute care sector.",
+    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent systems in the post-acute care sector.",
     "Services Requiring CON Approval",
     "AdventHealth and Orlando Health are the two dominant players in Central Florida. While hospital CON is gone, their scale gives them immense leverage in the remaining regulated services like hospice and nursing homes.",
     "By repealing most of its CON law, Florida took a significant step toward a more competitive hospital market. However, by leaving protections for nursing homes and hospices, the state continues to shield some of the most profitable sectors from competition.",
@@ -73,7 +73,7 @@
     "nursing homes and hospices"
   ],
   "process_data": [
-    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent providers in the post-acute care sector.",
+    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent systems in the post-acute care sector.",
     "Services Requiring CON Approval",
     "The Application Process",
     "The process for remaining CON services is rigorous. Any 'substantially affected person,' including existing providers, can request an administrative hearing to object to a new competitor's application, creating significant barriers to entry.",
@@ -90,12 +90,12 @@
   "insurer_data": [],
   "case_law": [
     "Sarasota County Hospice Denial",
-    "Decided 2018 \u00b7 Sarasota County, Florida \u00b7 State Court",
+    "Decided 2018 · Sarasota County, Florida · State Court",
     "This case highlights the core flaw of CON laws: they prioritize the financial stability of existing providers over the benefits of market competition. The state actively defended the incumbent's monopoly, forcing residents to rely on a single provider for end-of-life care.",
-    "\u2014 Florida Court of Appeals, paraphrased"
+    ", Florida Court of Appeals, paraphrased"
   ],
   "reform_data": [
-    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent providers in the post-acute care sector.",
+    "Florida partially repealed its CON laws in 2019, eliminating them for general hospitals. However, CON requirements remain for nursing homes, hospices, and intermediate care facilities, protecting incumbent systems in the post-acute care sector.",
     "By repealing most of its CON law, Florida took a significant step toward a more competitive hospital market. However, by leaving protections for nursing homes and hospices, the state continues to shield some of the most profitable sectors from competition.",
     "Florida (Partial Reform)",
     "States With Full Repeal",
@@ -104,5 +104,24 @@
   "score": 5,
   "tier": "Mostly Free",
   "rank": 14,
-  "con_status": "Repealed"
+  "con_status": "Repealed",
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Hospice"
+  ],
+  "key_systems": [
+    {
+      "name": "AdventHealth",
+      "revenue": "$17B"
+    },
+    {
+      "name": "HCA Florida",
+      "revenue": ""
+    },
+    {
+      "name": "Orlando Health",
+      "revenue": ""
+    }
+  ]
 }

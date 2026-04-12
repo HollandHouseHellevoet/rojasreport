@@ -1,15 +1,23 @@
 interface ScopeChecklistProps {
-  items: string[];
+  parsedScope?: string[];
+  rawScope?: string[];
 }
 
-export default function ScopeChecklist({ items }: ScopeChecklistProps) {
+export default function ScopeChecklist({ parsedScope, rawScope }: ScopeChecklistProps) {
+  // Prefer parsed individual facility types; fall back to raw scope_data
+  const items = parsedScope && parsedScope.length > 0
+    ? parsedScope
+    : (rawScope || []).filter(item =>
+        item.length > 5 &&
+        item.length < 80 &&
+        !item.toLowerCase().includes('services requiring') &&
+        !item.toLowerCase().includes('regulated services')
+      );
+
   if (!items.length) return null;
 
   return (
-    <div className="border border-white/10 p-5">
-      <h3 className="font-body text-xs font-bold tracking-widest uppercase text-cream/40 mb-4">
-        Services Requiring CON Approval
-      </h3>
+    <div className="border-l-2 border-orange p-5">
       <ul className="space-y-2">
         {items.map((item, i) => (
           <li key={i} className="flex items-start gap-3">

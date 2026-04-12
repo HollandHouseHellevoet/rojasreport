@@ -7,7 +7,7 @@
   "content_blocks": [
     "Maine's Certificate of Need program, established in 1977, imposes significant barriers to entry and expansion for healthcare providers, limiting competition and consumer choice.",
     "Maine's CON laws cover a broad range of healthcare services and facilities, requiring government approval for new projects, expansions, and major equipment purchases.",
-    "Securing a CON is a lengthy and costly process, giving incumbent providers ample opportunity to block new competitors.",
+    "Securing a CON is a lengthy and costly process, giving incumbent systems ample opportunity to block new competitors.",
     "Dept. of Health and Human Services (DHHS)",
     "CON laws have fostered a consolidated market dominated by a few large health systems and insurers, reducing competition and driving up costs.",
     "MaineHealth holds a commanding market share, particularly in the southern part of the state.",
@@ -31,7 +31,7 @@
   "process_data": [
     "Maine's CON laws cover a broad range of healthcare services and facilities, requiring government approval for new projects, expansions, and major equipment purchases.",
     "The Application Process",
-    "Securing a CON is a lengthy and costly process, giving incumbent providers ample opportunity to block new competitors.",
+    "Securing a CON is a lengthy and costly process, giving incumbent systems ample opportunity to block new competitors.",
     "90-120 days (avg. 8-12 weeks)",
     "This denial occurred amidst similar challenges faced by a rival hospital, demonstrating how the CON process can become a battleground for incumbents rather than a tool for community planning."
   ],
@@ -64,5 +64,22 @@
   "score": 65,
   "tier": "Restrictive",
   "rank": 27,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Psychiatric Facilities",
+    "Major Medical Equipment"
+  ],
+  "key_systems": [
+    {
+      "name": "MaineHealth",
+      "revenue": ""
+    },
+    {
+      "name": "Northern Light Health",
+      "revenue": ""
+    }
+  ]
 }

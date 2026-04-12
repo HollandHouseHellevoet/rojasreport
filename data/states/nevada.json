@@ -69,5 +69,22 @@
   "score": 100,
   "tier": "Most Restrictive",
   "rank": 43,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Imaging (MRI, CT, PET)",
+    "End-Stage Renal Disease / Dialysis",
+    "Air Ambulance"
+  ],
+  "key_systems": [
+    {
+      "name": "Sunrise Health (HCA)",
+      "revenue": ""
+    },
+    {
+      "name": "Dignity Health Nevada",
+      "revenue": ""
+    }
+  ]
 }

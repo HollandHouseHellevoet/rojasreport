@@ -189,7 +189,7 @@ export default function MethodologyPage() {
                 { name: 'National Academy for State Health Policy (NASHP)', desc: 'CON program scope and facility type classifications' },
                 { name: 'Federal Trade Commission (FTC)', desc: 'Anticompetitive findings and joint policy statements' },
                 { name: 'Department of Justice (DOJ)', desc: 'Competition advocacy and CON policy recommendations' },
-                { name: 'Centers for Medicare & Medicaid Services (CMS)', desc: 'Provider of Services File, facility counts, utilization data' },
+                { name: 'Centers for Medicare & Medicaid Services (CMS)', desc: 'CMS data files, facility counts, utilization data' },
                 { name: 'Institute for Justice', desc: 'CON litigation and constitutional challenges' },
                 { name: 'Mercatus Center at George Mason University', desc: 'Economic research on CON impacts' },
                 { name: 'National Bureau of Economic Research (NBER)', desc: 'Academic working papers on CON and health outcomes' },
@@ -200,7 +200,7 @@ export default function MethodologyPage() {
                   <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange flex-shrink-0" />
                   <div>
                     <span className="font-body text-sm font-semibold text-cream">{s.name}</span>
-                    <span className="font-body text-sm text-cream/50"> — {s.desc}</span>
+                    <span className="font-body text-sm text-cream/50">: {s.desc}</span>
                   </div>
                 </li>
               ))}

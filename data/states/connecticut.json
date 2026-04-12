@@ -41,7 +41,7 @@
     "Connecticut's hospital market is a duopoly. Two behemoth systems, Yale New Haven Health and Hartford HealthCare, control approximately 60% of the state's hospital revenue, creating a highly concentrated and anti-competitive landscape.",
     "The insurance market is similarly concentrated, with Anthem (BCBS) and UnitedHealthcare holding the lion's share of the commercial market, further limiting consumer choice.",
     "Norwalk Hospital vs. The State (2014)",
-    "In a clear example of CON laws restricting access to care, Norwalk Hospital was denied a certificate to offer elective angioplasty (PCI) services. The state's rationale was the hospital's lack of an on-site cardiac surgery backup\u2014a requirement that protects incumbent hospitals with full-service cardiac programs. This decision forced patients in the Norwalk area to travel farther for a common, life-saving procedure, prioritizing market stability over patient convenience and access.",
+    "In a clear example of CON laws restricting access to care, Norwalk Hospital was denied a certificate to offer elective angioplasty (PCI) services. The state's rationale was the hospital's lack of an on-site cardiac surgery backup, a requirement that protects incumbent hospitals with full-service cardiac programs. This decision forced patients in the Norwalk area to travel farther for a common, life-saving procedure, prioritizing market stability over patient convenience and access.",
     "Despite minor tweaks to fees and timelines in recent years (2022-2025), Connecticut's core CON law remains firmly in place. The legislature has shown no appetite for a full repeal. Instead, recent changes have focused on administrative adjustments, such as creating a graduated fee schedule and an emergency CON process for bankrupt hospitals. These actions do not address the fundamental anti-competitive nature of the law, which continues to shield established players from competition at the expense of innovation and patient choice.",
     "An overview of how Certificate of Need laws create government-enforced monopolies in healthcare across the United States.",
     "Certificate of Need investigation for Maryland.",
@@ -61,7 +61,7 @@
     "Connecticut's CON law is comprehensive, covering a wide array of healthcare services and facilities. Any significant capital expenditure, service addition, or equipment acquisition requires state approval.",
     "The process is managed by the Office of Health Strategy (OHS) for most facilities and the Department of Social Services (DSS) for long-term care. It involves fees, lengthy reviews, and public hearings where competitors can intervene.",
     "~183-434 days (median)",
-    "In a clear example of CON laws restricting access to care, Norwalk Hospital was denied a certificate to offer elective angioplasty (PCI) services. The state's rationale was the hospital's lack of an on-site cardiac surgery backup\u2014a requirement that protects incumbent hospitals with full-service cardiac programs. This decision forced patients in the Norwalk area to travel farther for a common, life-saving procedure, prioritizing market stability over patient convenience and access.",
+    "In a clear example of CON laws restricting access to care, Norwalk Hospital was denied a certificate to offer elective angioplasty (PCI) services. The state's rationale was the hospital's lack of an on-site cardiac surgery backup, a requirement that protects incumbent hospitals with full-service cardiac programs. This decision forced patients in the Norwalk area to travel farther for a common, life-saving procedure, prioritizing market stability over patient convenience and access.",
     "Despite minor tweaks to fees and timelines in recent years (2022-2025), Connecticut's core CON law remains firmly in place. The legislature has shown no appetite for a full repeal. Instead, recent changes have focused on administrative adjustments, such as creating a graduated fee schedule and an emergency CON process for bankrupt hospitals. These actions do not address the fundamental anti-competitive nature of the law, which continues to shield established players from competition at the expense of innovation and patient choice."
   ],
   "market_data": [
@@ -79,7 +79,7 @@
     "An overview of how Certificate of Need laws create government-enforced monopolies in healthcare across the United States."
   ],
   "case_law": [
-    "In a clear example of CON laws restricting access to care, Norwalk Hospital was denied a certificate to offer elective angioplasty (PCI) services. The state's rationale was the hospital's lack of an on-site cardiac surgery backup\u2014a requirement that protects incumbent hospitals with full-service cardiac programs. This decision forced patients in the Norwalk area to travel farther for a common, life-saving procedure, prioritizing market stability over patient convenience and access."
+    "In a clear example of CON laws restricting access to care, Norwalk Hospital was denied a certificate to offer elective angioplasty (PCI) services. The state's rationale was the hospital's lack of an on-site cardiac surgery backup, a requirement that protects incumbent hospitals with full-service cardiac programs. This decision forced patients in the Norwalk area to travel farther for a common, life-saving procedure, prioritizing market stability over patient convenience and access."
   ],
   "reform_data": [
     "No Meaningful Reform",
@@ -88,5 +88,19 @@
   "score": 90,
   "tier": "Highly Restrictive",
   "rank": 37,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "Hospital Expansions",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Imaging (MRI, CT, PET)",
+    "Cardiac / Open Heart Surgery",
+    "Major Medical Equipment"
+  ]
 }

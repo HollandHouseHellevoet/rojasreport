@@ -36,56 +36,56 @@ const COMPARE_ROWS: CompareRow[] = [
     label: 'Services Regulated',
     getValue: s => {
       const qs = s.quick_stats?.find(q => q.label.toLowerCase().includes('services'));
-      return qs?.value || '—';
+      return qs?.value || 'N/A';
     },
   },
   {
     label: 'Year Enacted',
     getValue: s => {
       const qs = s.quick_stats?.find(q => q.label.toLowerCase().includes('year') || q.label.toLowerCase().includes('enacted'));
-      return qs?.value || '—';
+      return qs?.value || 'N/A';
     },
   },
   {
     label: 'Top HHI',
     getValue: s => {
       const qs = s.quick_stats?.find(q => q.label.toLowerCase().includes('hhi'));
-      return qs?.value || '—';
+      return qs?.value || 'N/A';
     },
   },
   {
     label: 'Top Insurer Share',
     getValue: s => {
       const qs = s.quick_stats?.find(q => q.label.toLowerCase().includes('insurer'));
-      return qs?.value || '—';
+      return qs?.value || 'N/A';
     },
   },
   {
     label: 'Scope',
     getValue: s => {
       const items = (s.scope_data || []).filter(i => i.length > 10 && i.length < 100);
-      return items.slice(0, 2).join('; ') || '—';
+      return items.slice(0, 2).join('; ') || 'N/A';
     },
   },
   {
     label: 'Application Process',
     getValue: s => {
       const items = (s.process_data || []).filter(i => i.length > 20 && !i.includes('Services Requiring'));
-      return items[0]?.substring(0, 150) || '—';
+      return items[0]?.substring(0, 150) || 'N/A';
     },
   },
   {
     label: 'Reform Status',
     getValue: s => {
       const items = (s.reform_data || []).filter(i => i.length > 15 && i.length < 200);
-      return items[0]?.substring(0, 150) || '—';
+      return items[0]?.substring(0, 150) || 'N/A';
     },
   },
   {
     label: 'Case Law',
     getValue: s => {
       const items = (s.case_law || []).filter(i => i.length > 10);
-      return items[0]?.substring(0, 150) || '—';
+      return items[0]?.substring(0, 150) || 'N/A';
     },
   },
 ];

@@ -74,5 +74,18 @@
   "score": 5,
   "tier": "Mostly Free",
   "rank": 14,
-  "con_status": "Limited"
+  "con_status": "Limited",
+  "key_systems": [
+    {
+      "name": "Billings Clinic",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies",
+    "Imaging (MRI, CT, PET)"
+  ]
 }

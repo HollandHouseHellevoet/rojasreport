@@ -47,7 +47,7 @@
   "content_blocks": [
     "Massachusetts's Determination of Need law, in place since 1971, is a state-sanctioned shield for incumbent hospital systems. It regulates a wide array of services, allowing giants like Mass General Brigham to cement their market dominance under the guise of public health.",
     "Services Requiring CON Approval",
-    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent providers a formal mechanism to obstruct new competition.",
+    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent systems a formal mechanism to obstruct new competition.",
     "Mass General Brigham's share of the tertiary market in Eastern Massachusetts.",
     "Blue Cross Blue Shield of Massachusetts's dominant share of the commercial insurance market.",
     "Annual patient revenue for the state's largest and most powerful hospital system.",
@@ -71,7 +71,7 @@
     "Massachusetts's Determination of Need law, in place since 1971, is a state-sanctioned shield for incumbent hospital systems. It regulates a wide array of services, allowing giants like Mass General Brigham to cement their market dominance under the guise of public health.",
     "Services Requiring CON Approval",
     "The Application Process",
-    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent providers a formal mechanism to obstruct new competition.",
+    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent systems a formal mechanism to obstruct new competition.",
     "In 1972, just one year after the CON law was enacted, the Bessie M. Burke Memorial Hospital sought to undertake a major renovation. The Department of Public Health denied the application, arguing that the project was too costly and would still leave the hospital with an outdated facility. The denial was based on the principle of efficient resource allocation.",
     "However, the hospital's supporters wielded their political influence. The state legislature intervened, passing a special act that overrode the DPH's decision and authorized the renovation. This case set a precedent, demonstrating that the supposedly objective, needs-based CON process could be subverted by political power, undermining its entire purpose.",
     "The state has made several material reforms, most recently in 2017 and 2024-2025. The 2025 reform broadened the concept of a 'party of record,' but did not dismantle the core CON framework. The system continues to enable incumbents to delay or block new competitors."
@@ -88,7 +88,7 @@
     "Mass General Brigham, pulls in over $20 billion in revenue"
   ],
   "insurer_data": [
-    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent providers a formal mechanism to obstruct new competition.",
+    "The process allows for intervention by 'Ten Taxpayer Groups,' which can register to submit written comments and request public hearings, effectively giving incumbent systems a formal mechanism to obstruct new competition.",
     "BCBS MA Market Share",
     "Blue Cross Blue Shield of Massachusetts's dominant share of the commercial insurance market."
   ],
@@ -107,5 +107,20 @@
   "score": 90,
   "tier": "Highly Restrictive",
   "rank": 37,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies"
+  ],
+  "key_systems": [
+    {
+      "name": "Mass General Brigham",
+      "revenue": "$18.5B"
+    },
+    {
+      "name": "Beth Israel Lahey Health",
+      "revenue": ""
+    }
+  ]
 }

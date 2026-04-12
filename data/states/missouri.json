@@ -56,5 +56,19 @@
   "score": 80,
   "tier": "Highly Restrictive",
   "rank": 33,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "Major medical equipment (MRI",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Psychiatric Facilities",
+    "Imaging (MRI, CT, PET)",
+    "Rehabilitation Facilities",
+    "Major Medical Equipment"
+  ]
 }

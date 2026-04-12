@@ -47,16 +47,16 @@
   "content_blocks": [
     "Illinois calls it the Health Facilities Planning Act. It should be called the Incumbent Protection Racket Act. One insurer controls 97% of the HMO market. The state's CON law is the moat that protects this castle, ensuring no new competition can threaten the cozy arrangement between dominant insurers and hospital systems.",
     "Services Requiring CON Approval",
-    "The HFSRB reviews all applications for new healthcare facilities and major capital expenditures. The process allows incumbent providers to protest, effectively giving existing players a veto over new competition. Application fees can reach $150,000.",
+    "The HFSRB reviews all applications for new healthcare facilities and major capital expenditures. The process allows incumbent systems to protest, effectively giving existing players a veto over new competition. Application fees can reach $150,000.",
     "Illinois Hospital System Revenue",
     "Three systems dominate the state.",
-    "Edward Hospital \u2014 Plainfield Facility Denial",
+    "Edward Hospital, Plainfield Facility Denial",
     "In 2009, Edward Hospital applied to build a new hospital in Plainfield, a rapidly growing suburb west of Chicago. The community was underserved, and the hospital argued that a new facility was needed to meet growing demand.",
     "The Health Facilities and Services Review Board denied the application. The hospital's CEO alleged the denial was retaliatory after she exposed a kickback scheme within the review process. Despite the allegations, the board formally rejected the CON, leaving the community without the facility it needed.",
-    "The case illustrates how the CON process can be weaponized \u2014 not just to protect incumbents from competition, but potentially to punish those who challenge the system itself.",
+    "The case illustrates how the CON process can be weaponized, not just to protect incumbents from competition, but potentially to punish those who challenge the system itself.",
     "See how every state compares on our restrictiveness index.",
     "Three systems control 100% of Louisville's inpatient market.",
-    "The healthcare cartel brief \u2014 how Virginia's CON law protects monopolies.",
+    "The healthcare cartel brief, how Virginia's CON law protects monopolies.",
     "Data sourced from Illinois Health Facilities and Services Review Board, Centers for Medicare & Medicaid Services (CMS), Federal Trade Commission, American Hospital Association, and Cicero Institute."
   ],
   "scope_data": [
@@ -66,26 +66,26 @@
     "Illinois calls it the Health Facilities Planning Act. It should be called the Incumbent Protection Racket Act. One insurer controls 97% of the HMO market. The state's CON law is the moat that protects this castle, ensuring no new competition can threaten the cozy arrangement between dominant insurers and hospital systems.",
     "Services Requiring CON Approval",
     "The Application Process",
-    "The HFSRB reviews all applications for new healthcare facilities and major capital expenditures. The process allows incumbent providers to protest, effectively giving existing players a veto over new competition. Application fees can reach $150,000.",
+    "The HFSRB reviews all applications for new healthcare facilities and major capital expenditures. The process allows incumbent systems to protest, effectively giving existing players a veto over new competition. Application fees can reach $150,000.",
     "The Health Facilities and Services Review Board denied the application. The hospital's CEO alleged the denial was retaliatory after she exposed a kickback scheme within the review process. Despite the allegations, the board formally rejected the CON, leaving the community without the facility it needed.",
-    "The case illustrates how the CON process can be weaponized \u2014 not just to protect incumbents from competition, but potentially to punish those who challenge the system itself.",
+    "The case illustrates how the CON process can be weaponized, not just to protect incumbents from competition, but potentially to punish those who challenge the system itself.",
     "Data sourced from Illinois Health Facilities and Services Review Board, Centers for Medicare & Medicaid Services (CMS), Federal Trade Commission, American Hospital Association, and Cicero Institute."
   ],
   "market_data": [
     "Illinois calls it the Health Facilities Planning Act. It should be called the Incumbent Protection Racket Act. One insurer controls 97% of the HMO market. The state's CON law is the moat that protects this castle, ensuring no new competition can threaten the cozy arrangement between dominant insurers and hospital systems.",
-    "The HFSRB reviews all applications for new healthcare facilities and major capital expenditures. The process allows incumbent providers to protest, effectively giving existing players a veto over new competition. Application fees can reach $150,000.",
+    "The HFSRB reviews all applications for new healthcare facilities and major capital expenditures. The process allows incumbent systems to protest, effectively giving existing players a veto over new competition. Application fees can reach $150,000.",
     "Illinois Hospital System Revenue",
     "Three systems dominate the state.",
-    "The case illustrates how the CON process can be weaponized \u2014 not just to protect incumbents from competition, but potentially to punish those who challenge the system itself.",
+    "The case illustrates how the CON process can be weaponized, not just to protect incumbents from competition, but potentially to punish those who challenge the system itself.",
     "Three systems control 100% of Louisville's inpatient market."
   ],
   "insurer_data": [
     "Illinois calls it the Health Facilities Planning Act. It should be called the Incumbent Protection Racket Act. One insurer controls 97% of the HMO market. The state's CON law is the moat that protects this castle, ensuring no new competition can threaten the cozy arrangement between dominant insurers and hospital systems."
   ],
   "case_law": [
-    "Edward Hospital \u2014 Plainfield Facility Denial",
+    "Edward Hospital, Plainfield Facility Denial",
     "The Health Facilities and Services Review Board denied the application. The hospital's CEO alleged the denial was retaliatory after she exposed a kickback scheme within the review process. Despite the allegations, the board formally rejected the CON, leaving the community without the facility it needed.",
-    "The case illustrates how the CON process can be weaponized \u2014 not just to protect incumbents from competition, but potentially to punish those who challenge the system itself."
+    "The case illustrates how the CON process can be weaponized, not just to protect incumbents from competition, but potentially to punish those who challenge the system itself."
   ],
   "reform_data": [
     "States That Reformed"
@@ -93,5 +93,15 @@
   "score": 65,
   "tier": "Restrictive",
   "rank": 27,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Major Medical Equipment"
+  ],
+  "key_systems": [
+    {
+      "name": "Edward Hospital",
+      "revenue": ""
+    }
+  ]
 }

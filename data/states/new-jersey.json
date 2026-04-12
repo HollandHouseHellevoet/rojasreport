@@ -112,5 +112,22 @@
   "score": 100,
   "tier": "Most Restrictive",
   "rank": 43,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Psychiatric Facilities",
+    "Imaging (MRI, CT, PET)"
+  ],
+  "key_systems": [
+    {
+      "name": "RWJBarnabas Health",
+      "revenue": "$7.5B"
+    },
+    {
+      "name": "Hackensack Meridian Health",
+      "revenue": ""
+    }
+  ]
 }

@@ -50,11 +50,11 @@
     "The statutory timeline for a decision is 90 days, but the actual process often extends from 6 to 12 months. Any party that can demonstrate a 'viable interest' can contest an application, a loophole frequently exploited by established competitors to block new market entrants.",
     "Top Hospital System Market Share (Estimated)",
     "Freestanding Emergency Department Denied",
-    "In April 2024, South Baldwin Regional Medical Center sought to build a new freestanding emergency department in Loxley to serve a rapidly growing community. The application was contested by incumbent providers in the area.",
+    "In April 2024, South Baldwin Regional Medical Center sought to build a new freestanding emergency department in Loxley to serve a rapidly growing community. The application was contested by incumbent systems in the area.",
     "An administrative law judge initially recommended rejecting the application. The CON Review Board ultimately upheld this decision, formally denying the certificate of need. The denial prevents the construction of a new emergency facility that could have provided more accessible care and competition in Baldwin County.",
-    "\u2014 Alabama CON Review Board Decision, 2024",
+    ", Alabama CON Review Board Decision, 2024",
     "Current Status: No Meaningful Reform",
-    "Alabama's CON law remains firmly in place. While amended over the years, its core function\u2014restricting competition\u2014is unchanged. A 1999 moratorium on new CONs and a failed 2026 repeal bill (SB82) highlight the political inertia protecting the system.",
+    "Alabama's CON law remains firmly in place. While amended over the years, its core function, restricting competition, is unchanged. A 1999 moratorium on new CONs and a failed 2026 repeal bill (SB82) highlight the political inertia protecting the system.",
     "12 states have fully repealed their CON laws, including large states like California, Texas, and Pennsylvania. These states have generally seen an increase in healthcare facility construction and service availability, particularly in rural and underserved areas, without a corresponding decline in quality.",
     "CON states have fewer hospitals per capita, especially in rural areas.",
     "CON laws are associated with higher mortality rates for certain conditions.",
@@ -74,9 +74,9 @@
     "Services Requiring CON Approval",
     "The Application Process",
     "The statutory timeline for a decision is 90 days, but the actual process often extends from 6 to 12 months. Any party that can demonstrate a 'viable interest' can contest an application, a loophole frequently exploited by established competitors to block new market entrants.",
-    "In April 2024, South Baldwin Regional Medical Center sought to build a new freestanding emergency department in Loxley to serve a rapidly growing community. The application was contested by incumbent providers in the area.",
+    "In April 2024, South Baldwin Regional Medical Center sought to build a new freestanding emergency department in Loxley to serve a rapidly growing community. The application was contested by incumbent systems in the area.",
     "An administrative law judge initially recommended rejecting the application. The CON Review Board ultimately upheld this decision, formally denying the certificate of need. The denial prevents the construction of a new emergency facility that could have provided more accessible care and competition in Baldwin County.",
-    "\u2014 Alabama CON Review Board Decision, 2024"
+    ", Alabama CON Review Board Decision, 2024"
   ],
   "market_data": [
     "Alabama's CON laws, enacted in 1979, regulate 7 different healthcare services. The state's healthcare landscape is marked by extreme market concentration, with Decatur experiencing a literal monopoly (HHI 10,000) and a single insurer controlling 84% of the commercial market.",
@@ -86,7 +86,7 @@
     "Dominant Insurer",
     "Top Hospital System Market Share (Estimated)",
     "UAB Health System",
-    "Alabama's CON law remains firmly in place. While amended over the years, its core function\u2014restricting competition\u2014is unchanged. A 1999 moratorium on new CONs and a failed 2026 repeal bill (SB82) highlight the political inertia protecting the system.",
+    "Alabama's CON law remains firmly in place. While amended over the years, its core function, restricting competition, is unchanged. A 1999 moratorium on new CONs and a failed 2026 repeal bill (SB82) highlight the political inertia protecting the system.",
     "HHI of 10,000",
     "University of Alabama at Birmingham system ($3.5B in revenue)",
     "Huntsville Hospital ($2.9B in revenue)"
@@ -100,13 +100,13 @@
   "case_law": [
     "Case: South Baldwin RMC",
     "Freestanding Emergency Department Denied",
-    "In April 2024, South Baldwin Regional Medical Center sought to build a new freestanding emergency department in Loxley to serve a rapidly growing community. The application was contested by incumbent providers in the area.",
+    "In April 2024, South Baldwin Regional Medical Center sought to build a new freestanding emergency department in Loxley to serve a rapidly growing community. The application was contested by incumbent systems in the area.",
     "An administrative law judge initially recommended rejecting the application. The CON Review Board ultimately upheld this decision, formally denying the certificate of need. The denial prevents the construction of a new emergency facility that could have provided more accessible care and competition in Baldwin County."
   ],
   "reform_data": [
     "Alabama's CON laws, enacted in 1979, regulate 7 different healthcare services. The state's healthcare landscape is marked by extreme market concentration, with Decatur experiencing a literal monopoly (HHI 10,000) and a single insurer controlling 84% of the commercial market.",
     "Current Status: No Meaningful Reform",
-    "Alabama's CON law remains firmly in place. While amended over the years, its core function\u2014restricting competition\u2014is unchanged. A 1999 moratorium on new CONs and a failed 2026 repeal bill (SB82) highlight the political inertia protecting the system.",
+    "Alabama's CON law remains firmly in place. While amended over the years, its core function, restricting competition, is unchanged. A 1999 moratorium on new CONs and a failed 2026 repeal bill (SB82) highlight the political inertia protecting the system.",
     "States That Reformed",
     "12 states have fully repealed their CON laws, including large states like California, Texas, and Pennsylvania. These states have generally seen an increase in healthcare facility construction and service availability, particularly in rural and underserved areas, without a corresponding decline in quality.",
     "Repealing CON laws does not lead to a decrease in charity care."
@@ -128,5 +128,28 @@
   "score": 80,
   "tier": "Highly Restrictive",
   "rank": 33,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "UAB Health System",
+      "revenue": "$3.5B"
+    },
+    {
+      "name": "Huntsville Hospital",
+      "revenue": "$2.9B"
+    },
+    {
+      "name": "Infirmary Health",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies",
+    "Hospice",
+    "End-Stage Renal Disease / Dialysis",
+    "Psychiatric Facilities"
+  ]
 }

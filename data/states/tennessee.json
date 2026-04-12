@@ -82,5 +82,26 @@
   "score": 85,
   "tier": "Highly Restrictive",
   "rank": 36,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies",
+    "Imaging (MRI, CT, PET)",
+    "Major Medical Equipment"
+  ],
+  "key_systems": [
+    {
+      "name": "HCA Healthcare",
+      "revenue": ""
+    },
+    {
+      "name": "Ascension Saint Thomas",
+      "revenue": ""
+    },
+    {
+      "name": "Ballad Health",
+      "revenue": ""
+    }
+  ]
 }

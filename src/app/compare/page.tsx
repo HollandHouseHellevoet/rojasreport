@@ -36,7 +36,7 @@ export default function ComparePage() {
       <SectionHeader
         label="Comparison Tool"
         title="Compare CON Laws Side by Side"
-        subtitle="Select up to 3 states to compare every dimension of their Certificate of Need programs. Shareable via URL — just copy and paste."
+        subtitle="Select up to 3 states to compare every dimension of their Certificate of Need programs. Shareable via URL. Just copy and paste."
       />
       <StateCompare allStates={clientStates} />
     </div>

@@ -87,5 +87,19 @@
   "score": 55,
   "tier": "Restrictive",
   "rank": 25,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "Hospitals (General",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Psychiatric Facilities",
+    "Imaging (MRI, CT, PET)",
+    "End-Stage Renal Disease / Dialysis"
+  ]
 }

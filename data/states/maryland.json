@@ -74,5 +74,24 @@
   "score": 95,
   "tier": "Most Restrictive",
   "rank": 41,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Nursing Homes / Long-Term Care",
+    "Home Health Agencies"
+  ],
+  "key_systems": [
+    {
+      "name": "Johns Hopkins Health",
+      "revenue": "$9.0B"
+    },
+    {
+      "name": "University of Maryland Medical",
+      "revenue": "$8.7B"
+    },
+    {
+      "name": "MedStar Health",
+      "revenue": ""
+    }
+  ]
 }

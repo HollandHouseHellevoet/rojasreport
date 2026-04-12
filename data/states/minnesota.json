@@ -56,5 +56,21 @@
   "score": 30,
   "tier": "Moderate",
   "rank": 21,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Imaging (MRI, CT, PET)"
+  ],
+  "key_systems": [
+    {
+      "name": "Mayo Clinic",
+      "revenue": ""
+    },
+    {
+      "name": "Allina Health",
+      "revenue": ""
+    }
+  ]
 }

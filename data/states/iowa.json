@@ -72,5 +72,21 @@
   "score": 90,
   "tier": "Highly Restrictive",
   "rank": 37,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Major Medical Equipment"
+  ],
+  "key_systems": [
+    {
+      "name": "UnityPoint Health",
+      "revenue": ""
+    },
+    {
+      "name": "MercyOne",
+      "revenue": ""
+    }
+  ]
 }

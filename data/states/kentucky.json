@@ -47,17 +47,17 @@
   "content_blocks": [
     "Kentucky's CON laws have been in place since 1972. They regulate 18 different services, devices, and procedures. Three hospital systems control 100% of the Louisville inpatient market. Competition is not just difficult here. It is illegal.",
     "Services Requiring CON Approval",
-    "The process is bifurcated into two tracks. The Formal Review is the most common and complex path. The applicant bears the burden of proving the proposed service is necessary, and a decision is typically rendered six months after the application date. This process resembles a trial, where incumbent providers can intervene to block a new competitor's entry.",
+    "The process is bifurcated into two tracks. The Formal Review is the most common and complex path. The applicant bears the burden of proving the proposed service is necessary, and a decision is typically rendered six months after the application date. This process resembles a trial, where incumbent systems can intervene to block a new competitor's entry.",
     "Louisville Inpatient Market Share",
     "Three systems control 100% of the inpatient hospital market in Louisville. Norton Healthcare's 55% share gives it a commanding position.",
     "Hospital mergers have been found to increase the average hospital price by 6-18% nationwide. Kentucky's experience aligns with this trend, as the state's CON laws protect incumbent systems from new entrants that could offer more competitive pricing.",
     "Tiwari v. Meier (Tiwari v. Friedlander)",
-    "Filed December 2019 \u00b7 Louisville, Kentucky \u00b7 Institute for Justice",
+    "Filed December 2019 · Louisville, Kentucky · Institute for Justice",
     "$2 billion health care conglomerate",
     "9 home health agencies for 22,000 patients",
     "The case received unfavorable decisions at both the district court and the Sixth Circuit Court of Appeals (February 2022). The U.S. Supreme Court declined to hear the case in November 2022.",
     "Everyone has the right to earn an honest living free from irrational laws. Letting giant health care conglomerates keep entrepreneurs out of business has nothing to do with protecting the public. It protects entrenched corporations.",
-    "\u2014 Institute for Justice, Tiwari v. Meier brief",
+    ", Institute for Justice, Tiwari v. Meier brief",
     "How a 1959 study was twisted into a federal mandate that created healthcare monopolies in 35 jurisdictions. The full origin story and 50-state rankings.",
     "Virginia: The Healthcare Cartel",
     "Sentara's $4.79B empire and the 17 services you cannot offer without government permission.",
@@ -72,7 +72,7 @@
   "process_data": [
     "Services Requiring CON Approval",
     "The Application Process",
-    "The process is bifurcated into two tracks. The Formal Review is the most common and complex path. The applicant bears the burden of proving the proposed service is necessary, and a decision is typically rendered six months after the application date. This process resembles a trial, where incumbent providers can intervene to block a new competitor's entry.",
+    "The process is bifurcated into two tracks. The Formal Review is the most common and complex path. The applicant bears the burden of proving the proposed service is necessary, and a decision is typically rendered six months after the application date. This process resembles a trial, where incumbent systems can intervene to block a new competitor's entry.",
     "Hospital mergers have been found to increase the average hospital price by 6-18% nationwide. Kentucky's experience aligns with this trend, as the state's CON laws protect incumbent systems from new entrants that could offer more competitive pricing."
   ],
   "market_data": [
@@ -99,5 +99,23 @@
   "score": 100,
   "tier": "Most Restrictive",
   "rank": 43,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Home Health Agencies"
+  ],
+  "key_systems": [
+    {
+      "name": "Norton Healthcare",
+      "revenue": ""
+    },
+    {
+      "name": "Baptist Health",
+      "revenue": ""
+    },
+    {
+      "name": "CHI Saint Joseph",
+      "revenue": ""
+    }
+  ]
 }

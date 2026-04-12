@@ -109,5 +109,10 @@
     }
   ],
   "top_insurer_share": "17.71%",
-  "case_law_summary": "In 2015, a federal court ruled against a physician who challenged the CON law after being denied a certificate to purchase a second MRI machine for his independent practice. The court upheld the state's right to regulate, showcasing how the law prevents providers from expanding services based on demand."
+  "case_law_summary": "In 2015, a federal court ruled against a physician who challenged the CON law after being denied a certificate to purchase a second MRI machine for his independent practice. The court upheld the state's right to regulate, showcasing how the law prevents providers from expanding services based on demand.",
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Imaging (MRI, CT, PET)"
+  ]
 }

@@ -36,6 +36,7 @@ export interface StateData {
   key_systems?: Array<{ name: string; revenue: string }>;
   top_insurer_share?: string;
   case_law_summary?: string;
+  parsed_scope?: string[];
 }
 
 export interface RankingEntry {

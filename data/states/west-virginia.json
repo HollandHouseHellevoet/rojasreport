@@ -49,16 +49,16 @@
     }
   ],
   "content_blocks": [
-    "West Virginia's CON laws, enacted in 1977, regulate 23+ healthcare services and facilities. Two systems \u2014 WVU Medicine and CAMC/Vandalia Health \u2014 dominate the state. In February 2025, a CON repeal bill failed by a single vote in the House Health Committee, despite being a top priority for the Republican governor. The hospital lobby won.",
+    "West Virginia's CON laws, enacted in 1977, regulate 23+ healthcare services and facilities. Two systems, WVU Medicine and CAMC/Vandalia Health, dominate the state. In February 2025, a CON repeal bill failed by a single vote in the House Health Committee, despite being a top priority for the Republican governor. The hospital lobby won.",
     "Services Requiring CON Approval",
     "CON is required for construction, development, or acquisition of any health care facility, capital expenditures exceeding $5.8 million, substantial changes to bed capacity, addition of new health services, and expansion of hospice or home health service areas. The threshold is broad enough to capture nearly any meaningful investment in healthcare delivery.",
-    "Earned $34.9M \u2014 CEO paid $1.07M",
+    "Earned $34.9M, CEO paid $1.07M",
     "56% of all 340B hospitals in state",
     "WVU Medicine lost $30.5 million in 2023 but paid its CEO $3.96 million. CAMC earned $34.9 million in profit but paid its CEO only $1.07 million. When financial loss is rewarded with higher pay, market forces are not at play.",
     "What the President of the West Virginia Hospital Association won't tell you is that CON laws don't exist to ensure access or quality. They exist to block competition and shield providers from accountability.",
-    "\u2014 Cardinal Institute for West Virginia, 2025",
+    ", Cardinal Institute for West Virginia, 2025",
     "HB 2013: The CON Repeal That Died by One Vote",
-    "February 2025 \u00b7 West Virginia House Health Committee",
+    "February 2025 · West Virginia House Health Committee",
     "failing at basic safety measures",
     "A Republican-supermajority government that preaches free-market principles while actively voting to uphold a state-sanctioned cartel. The hospital lobby is more powerful than the governor.",
     "How a 1959 study was twisted into a federal mandate that created healthcare monopolies in 35 jurisdictions. The full origin story and 50-state rankings.",
@@ -76,11 +76,11 @@
     "Data sourced from West Virginia Health Care Authority, IRS Form 990 filings (ProPublica Nonprofit Explorer), Cardinal Institute for West Virginia, Leapfrog Group, Mountain State Times, West Virginia Watch, Federal Trade Commission, and Department of Justice."
   ],
   "market_data": [
-    "West Virginia's CON laws, enacted in 1977, regulate 23+ healthcare services and facilities. Two systems \u2014 WVU Medicine and CAMC/Vandalia Health \u2014 dominate the state. In February 2025, a CON repeal bill failed by a single vote in the House Health Committee, despite being a top priority for the Republican governor. The hospital lobby won.",
+    "West Virginia's CON laws, enacted in 1977, regulate 23+ healthcare services and facilities. Two systems, WVU Medicine and CAMC/Vandalia Health, dominate the state. In February 2025, a CON repeal bill failed by a single vote in the House Health Committee, despite being a top priority for the Republican governor. The hospital lobby won.",
     "CON is required for construction, development, or acquisition of any health care facility, capital expenditures exceeding $5.8 million, substantial changes to bed capacity, addition of new health services, and expansion of hospice or home health service areas. The threshold is broad enough to capture nearly any meaningful investment in healthcare delivery.",
     "Total Revenue (2023)",
-    "Lost $30.5M \u2014 CEO paid $3.96M",
-    "Earned $34.9M \u2014 CEO paid $1.07M",
+    "Lost $30.5M, CEO paid $3.96M",
+    "Earned $34.9M, CEO paid $1.07M",
     "Despite losing $30.5M",
     "WVU Medicine lost $30.5 million in 2023 but paid its CEO $3.96 million. CAMC earned $34.9 million in profit but paid its CEO only $1.07 million. When financial loss is rewarded with higher pay, market forces are not at play.",
     "$30.5 million",
@@ -91,7 +91,7 @@
   "insurer_data": [],
   "case_law": [],
   "reform_data": [
-    "West Virginia's CON laws, enacted in 1977, regulate 23+ healthcare services and facilities. Two systems \u2014 WVU Medicine and CAMC/Vandalia Health \u2014 dominate the state. In February 2025, a CON repeal bill failed by a single vote in the House Health Committee, despite being a top priority for the Republican governor. The hospital lobby won.",
+    "West Virginia's CON laws, enacted in 1977, regulate 23+ healthcare services and facilities. Two systems, WVU Medicine and CAMC/Vandalia Health, dominate the state. In February 2025, a CON repeal bill failed by a single vote in the House Health Committee, despite being a top priority for the Republican governor. The hospital lobby won.",
     "HB 2013: The CON Repeal That Died by One Vote",
     "13-12 to kill the bill",
     "A Republican-supermajority government that preaches free-market principles while actively voting to uphold a state-sanctioned cartel. The hospital lobby is more powerful than the governor.",
@@ -101,5 +101,21 @@
   "score": 100,
   "tier": "Most Restrictive",
   "rank": 43,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "parsed_scope": [
+    "Hospitals",
+    "Home Health Agencies",
+    "Hospice",
+    "Major Medical Equipment"
+  ],
+  "key_systems": [
+    {
+      "name": "WVU Medicine",
+      "revenue": ""
+    },
+    {
+      "name": "CAMC Health System",
+      "revenue": ""
+    }
+  ]
 }

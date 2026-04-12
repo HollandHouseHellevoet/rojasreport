@@ -28,7 +28,7 @@ export default function OutcomesPage() {
           <SectionHeader
             label="Reform Outcomes"
             title="What Happens After Repeal?"
-            subtitle="Every CON reform bill faces the same opposition testimony: 'repeal will close rural hospitals.' These three states provide the answer — with data."
+            subtitle="Every CON reform bill faces the same opposition testimony: 'repeal will close rural hospitals.' These three states provide the answer, with data."
           />
         </div>
       </section>
@@ -130,7 +130,7 @@ export default function OutcomesPage() {
           </h2>
           <p className="mt-3 font-body text-sm text-cream/50 max-w-2xl mx-auto leading-relaxed">
             States that reform their CON laws see more facilities, more competition,
-            and better access — especially in rural areas. No state that has repealed
+            and better access, especially in rural areas. No state that has repealed
             its CON law has reversed course.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-4">

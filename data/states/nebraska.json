@@ -81,5 +81,23 @@
   "score": 45,
   "tier": "Moderate",
   "rank": 23,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "No review for imaging",
+      "revenue": ""
+    },
+    {
+      "name": "Beatrice Manor",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Imaging (MRI, CT, PET)",
+    "Rehabilitation Facilities",
+    "Major Medical Equipment"
+  ]
 }

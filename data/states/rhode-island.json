@@ -66,5 +66,20 @@
   "score": 80,
   "tier": "Highly Restrictive",
   "rank": 33,
-  "con_status": "Yes"
+  "con_status": "Yes",
+  "key_systems": [
+    {
+      "name": "Dept. of Health",
+      "revenue": ""
+    }
+  ],
+  "parsed_scope": [
+    "Hospitals",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Nursing Homes / Long-Term Care",
+    "Hospice",
+    "Imaging (MRI, CT, PET)",
+    "Rehabilitation Facilities",
+    "Cardiac / Open Heart Surgery"
+  ]
 }
