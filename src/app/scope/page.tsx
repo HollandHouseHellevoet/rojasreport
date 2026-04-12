@@ -8,6 +8,7 @@ export const metadata: Metadata = makeMetadata({
   title: 'CON Scope Matrix | What Requires a Certificate of Need by State',
   description: 'Filterable grid showing which healthcare services require a Certificate of Need permit in each of 36 states. Filter by facility type, tier, and sort by restrictiveness.',
   path: '/scope/',
+  ogImage: '/og/scope.svg',
 });
 
 export default function ScopePage() {

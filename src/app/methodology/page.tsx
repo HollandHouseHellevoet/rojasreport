@@ -8,6 +8,7 @@ export const metadata: Metadata = makeMetadata({
   title: 'Methodology | CON Law Classification Framework | The Rojas Report',
   description: 'How we score and classify Certificate of Need laws. Cicero Institute restrictiveness scoring (0-100), tier definitions, reform momentum methodology (0-5), and data sources.',
   path: '/methodology/',
+  ogImage: '/og/methodology.svg',
 });
 
 interface Tier {

@@ -8,6 +8,7 @@ export const metadata: Metadata = makeMetadata({
   title: 'Compare CON Laws | Side-by-Side State Analysis',
   description: 'Compare Certificate of Need laws across up to 3 states side by side. Scores, tiers, regulated services, fees, timelines, market data, reform status, and case law.',
   path: '/compare/',
+  ogImage: '/og/compare.svg',
 });
 
 export default function ComparePage() {

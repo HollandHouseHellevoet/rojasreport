@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import { siteJsonLd } from '@/lib/seo';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -11,6 +12,9 @@ export const metadata: Metadata = {
   description:
     'In 35 jurisdictions, it is illegal to open a hospital without government permission. Complete intelligence on every CON state: rankings, market data, case law, reform status.',
   metadataBase: new URL('https://conlaws.rojasreport.com'),
+  openGraph: {
+    images: [{ url: '/og/home.svg', width: 1200, height: 630 }],
+  },
 };
 
 export default function RootLayout({
@@ -18,6 +22,8 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const jsonLd = siteJsonLd();
+
   return (
     <html lang="en">
       <head>
@@ -29,6 +35,10 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-navy text-cream font-body antialiased min-h-screen flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-orange focus:text-white focus:px-4 focus:py-2">
           Skip to content
         </a>

@@ -8,6 +8,7 @@ export const metadata: Metadata = makeMetadata({
   title: 'CON Reform Tracker 2026 | Certificate of Need Repeal Progress',
   description: 'Track Certificate of Need reform momentum across 36 states. Each state scored on 5 dimensions: bill introduced, committee assignment, hearing held, governor support, prior reform history.',
   path: '/reform/',
+  ogImage: '/og/reform.svg',
 });
 
 export default function ReformPage() {

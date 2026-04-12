@@ -195,31 +195,45 @@ export default function StateDossier({ state }: StateDossierProps) {
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link
-              href="/"
+              href={`/compare/?states=${state.abbreviation}`}
               className="block border border-white/10 p-5 hover:border-orange/40 transition-colors"
             >
               <span className="font-body text-xs font-bold tracking-widest uppercase text-cream/40">
-                Overview
+                Compare
               </span>
               <h3 className="mt-2 font-display text-lg font-bold text-cream">
-                What Are CON Laws?
+                Compare {state.state}
               </h3>
               <p className="mt-1 font-body text-sm text-cream/50">
-                The full investigation with 50-state rankings and evidence.
+                Side-by-side with other states on every dimension.
               </p>
             </Link>
             <Link
-              href="/rankings/"
+              href="/scope/"
               className="block border border-white/10 p-5 hover:border-orange/40 transition-colors"
             >
               <span className="font-body text-xs font-bold tracking-widest uppercase text-cream/40">
-                Rankings
+                Scope Matrix
               </span>
               <h3 className="mt-2 font-display text-lg font-bold text-cream">
-                51-Jurisdiction Rankings
+                What Requires CON?
               </h3>
               <p className="mt-1 font-body text-sm text-cream/50">
-                Every state scored, tiered, and ranked by restrictiveness.
+                See which services are regulated across all 36 states.
+              </p>
+            </Link>
+            <Link
+              href="/reform/"
+              className="block border border-white/10 p-5 hover:border-orange/40 transition-colors"
+            >
+              <span className="font-body text-xs font-bold tracking-widest uppercase text-cream/40">
+                Reform Tracker
+              </span>
+              <h3 className="mt-2 font-display text-lg font-bold text-cream">
+                Reform Momentum
+              </h3>
+              <p className="mt-1 font-body text-sm text-cream/50">
+                Track which states are closest to CON repeal.
               </p>
             </Link>
           </div>

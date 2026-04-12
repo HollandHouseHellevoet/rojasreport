@@ -8,6 +8,7 @@ export const metadata: Metadata = makeMetadata({
   title: 'CON Law Rankings | 50-State Certificate of Need Index | The Rojas Report',
   description: 'All 51 jurisdictions ranked by CON law restrictiveness. Scores from 0 (free market) to 100 (most restrictive). Click any state for the full intelligence dossier.',
   path: '/rankings/',
+  ogImage: '/og/rankings.svg',
 });
 
 export default function RankingsPage() {

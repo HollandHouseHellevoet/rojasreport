@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#111e2b"/>
+  <rect x="0" y="0" width="1200" height="6" fill="#d4622a"/>
+  <text x="60" y="80" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#d4622a" letter-spacing="3" text-transform="uppercase">THE ROJAS REPORT</text>
+  <text x="60" y="200" font-family="Georgia, serif" font-size="56" font-weight="bold" fill="#f7f4ef">Kentucky</text>
+  <text x="60" y="260" font-family="system-ui, sans-serif" font-size="22" fill="#f7f4ef" opacity="0.55">Certificate of Need Laws</text>
+  <rect x="60" y="310" width="180" height="70" rx="0" fill="#b91c1c"/>
+  <text x="150" y="352" font-family="system-ui, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">100/100</text>
+  <text x="260" y="352" font-family="system-ui, sans-serif" font-size="18" font-weight="bold" fill="#f7f4ef" opacity="0.6">Most Restrictive</text>
+  <text x="60" y="560" font-family="system-ui, sans-serif" font-size="16" fill="#f7f4ef" opacity="0.3">conlaws.rojasreport.com</text>
+  <text x="1140" y="560" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#d4622a" text-anchor="end" letter-spacing="2">CON INTELLIGENCE</text>
+</svg>

@@ -8,6 +8,7 @@ export const metadata: Metadata = makeMetadata({
   title: 'CON Repeal Outcomes | What Happens After Reform',
   description: 'Before-and-after data from states that reformed their Certificate of Need laws. Florida (2019), Montana (2021), South Carolina (2024). New facilities, rural access, cost trends.',
   path: '/outcomes/',
+  ogImage: '/og/outcomes.svg',
 });
 
 function DirectionIcon({ direction }: { direction: string }) {

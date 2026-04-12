@@ -24,6 +24,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     title,
     description,
     path: `/states/${state.slug}/`,
+    ogImage: `/og/${state.slug}.svg`,
   });
 }
 

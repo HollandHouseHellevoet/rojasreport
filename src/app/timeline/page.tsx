@@ -7,6 +7,7 @@ export const metadata: Metadata = makeMetadata({
   title: 'History of CON Laws | Certificate of Need Timeline 1946-2025',
   description: 'The complete history of Certificate of Need laws from the 1946 Hill-Burton Act through today. How a 1959 study was twisted into a federal mandate that created healthcare monopolies.',
   path: '/timeline/',
+  ogImage: '/og/timeline.svg',
 });
 
 export default function TimelinePage() {
