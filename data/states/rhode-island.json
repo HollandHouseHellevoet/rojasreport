@@ -1,0 +1,70 @@
+{
+  "state": "Rhode Island",
+  "abbreviation": "RI",
+  "slug": "rhode-island",
+  "meta_description": "Rhode Island CON score 80/100 (highly restrictive). 18 services regulated since 1970. Lifespan and Care New England control ~80% of acute-care beds.",
+  "path": "/rhode-island/certificate-of-need",
+  "content_blocks": [
+    "Rhode Island's long-standing and expansive Certificate of Need program creates significant barriers to entry, protecting incumbent health systems and limiting consumer choice. The state's healthcare market is highly concentrated, with a few dominant players.",
+    "Inpatient Rehabilitation Centers",
+    "Freestanding Surgical Facilities (ASCs)",
+    "Bed Expansions (>10 beds or 10%)",
+    "Cardiac Catheterization & Open-Heart Surgery",
+    "PET, MRI, and Linear Accelerators",
+    "New services with >$1.7M annual operating cost",
+    "Dept. of Health, Health Services Council",
+    "$500 - $10,000 + 0.25% of project cost",
+    "120 days (reviews twice per year)",
+    "The hospital market is an oligopoly, with Lifespan (Brown University Health) and Care New England controlling ~80% of acute-care beds.",
+    "BCBS of Rhode Island dominates the commercial market with a staggering 76% share in the large-group market.",
+    "Lifespan, Care New England, and CharterCARE are the three largest systems, controlling the majority of inpatient volume.",
+    "Case Study: Encompass Health Denied",
+    "In 2021, a proposal by Encompass Health to build a new 50-bed inpatient rehab hospital was overturned on appeal from existing providers. The stated reason was a lack of public need, effectively protecting incumbent hospitals from new competition and forcing patients to rely on existing, potentially overburdened, facilities.",
+    "Rhode Island's CON law has been amended over 25 times but never fully repealed. A 2026 bill to repeal the statutes was introduced but has not passed, indicating that significant reform is not on the immediate horizon. The state remains committed to its CON regime, with periodic adjustments rather than a fundamental overhaul.",
+    "Explore our nationwide analysis of Certificate of Need laws and their impact on healthcare.",
+    "Certificate of Need investigation for Connecticut.",
+    "$81.4B in discounted drugs. Zero disclosure requirements.",
+    "Sources: RI Dept. of Health, RI General Laws, and public records."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Hospitals & Nursing Homes",
+    "Home Care & Hospice Agencies",
+    "Bed Expansions (>10 beds or 10%)",
+    "PET, MRI, and Linear Accelerators",
+    "The hospital market is an oligopoly, with Lifespan (Brown University Health) and Care New England controlling ~80% of acute-care beds."
+  ],
+  "process_data": [
+    "Rhode Island's long-standing and expansive Certificate of Need program creates significant barriers to entry, protecting incumbent health systems and limiting consumer choice. The state's healthcare market is highly concentrated, with a few dominant players.",
+    "The Application Gauntlet",
+    "Application Timeline",
+    "120 days (reviews twice per year)",
+    "In 2021, a proposal by Encompass Health to build a new 50-bed inpatient rehab hospital was overturned on appeal from existing providers. The stated reason was a lack of public need, effectively protecting incumbent hospitals from new competition and forcing patients to rely on existing, potentially overburdened, facilities."
+  ],
+  "market_data": [
+    "Rhode Island's long-standing and expansive Certificate of Need program creates significant barriers to entry, protecting incumbent health systems and limiting consumer choice. The state's healthcare market is highly concentrated, with a few dominant players.",
+    "Dominant Systems",
+    "New services with >$1.7M annual operating cost",
+    "Capital expenditures >$5.9M",
+    "$500 - $10,000 + 0.25% of project cost",
+    "Hospital Market Concentration",
+    "Insurer Market Concentration",
+    "Lifespan, Care New England, and CharterCARE are the three largest systems, controlling the majority of inpatient volume.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Insurer Market Concentration",
+    "BCBS of Rhode Island dominates the commercial market with a staggering 76% share in the large-group market.",
+    "Rhode Island's CON law has been amended over 25 times but never fully repealed. A 2026 bill to repeal the statutes was introduced but has not passed, indicating that significant reform is not on the immediate horizon. The state remains committed to its CON regime, with periodic adjustments rather than a fundamental overhaul."
+  ],
+  "case_law": [
+    "Case Study: Encompass Health Denied"
+  ],
+  "reform_data": [
+    "Rhode Island's CON law has been amended over 25 times but never fully repealed. A 2026 bill to repeal the statutes was introduced but has not passed, indicating that significant reform is not on the immediate horizon. The state remains committed to its CON regime, with periodic adjustments rather than a fundamental overhaul."
+  ],
+  "score": 80,
+  "tier": "Highly Restrictive",
+  "rank": 33,
+  "con_status": "Yes"
+}

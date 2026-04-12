@@ -1,0 +1,116 @@
+{
+  "state": "New York",
+  "abbreviation": "NY",
+  "slug": "new-york",
+  "meta_description": "New York CON score 90/100 (most restrictive). Oldest CON program in the US (1964). Northwell Health holds 31.1% market share on Long Island.",
+  "path": "/new-york/certificate-of-need",
+  "quick_stats": [
+    {
+      "value": "8+",
+      "label": "Service categories regulated"
+    },
+    {
+      "value": "1964",
+      "label": "Year CON enacted"
+    },
+    {
+      "value": "44.2%",
+      "label": "Kaleida Health market share (Erie Co.)"
+    },
+    {
+      "value": "31.1%",
+      "label": "Northwell Health market share (Long Island)"
+    }
+  ],
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "02",
+      "title": "Market Concentration"
+    },
+    {
+      "number": "03",
+      "title": "Case Law"
+    },
+    {
+      "number": "04",
+      "title": "Reform Status"
+    },
+    {
+      "number": "06",
+      "title": "Dive Deeper"
+    }
+  ],
+  "content_blocks": [
+    "New York's CON program, the oldest in the nation, has been in place since 1964. It regulates a broad range of services, creating significant barriers to entry. In major markets like Long Island, incumbent systems like Northwell Health face little meaningful competition.",
+    "Services Requiring CON Approval",
+    "New York Hospital System Revenue",
+    "Three massive non-profit systems\u2014Northwell, NYU Langone, and NewYork-Presbyterian\u2014dominate the state, collectively pulling in over $46 billion in annual revenue.",
+    "Date: 2013 | Location: Manhattan, NY",
+    "In 2013, an application was filed to establish a new multispecialty ambulatory surgery center (ASC) in Manhattan. The goal was to provide a lower-cost, more convenient option for outpatient surgical procedures.",
+    "This case is a clear example of how New York's CON process is used to protect existing hospitals from competition. By denying the ASC, the state ensured that patients would continue to have fewer choices and be forced to seek care in higher-cost hospital settings, benefiting the incumbent systems.",
+    "New York (No Meaningful Reform)",
+    "CON program in place since 1964",
+    "8+ service categories regulated",
+    "Score: 90/100 (Most Restrictive)",
+    "2025 rule changes only raised cost thresholds",
+    "Long Island market share for Northwell: 31.1%",
+    "Erie County market share for Kaleida: 44.2%",
+    "States that have repealed or significantly reformed their CON laws have seen increased competition, lower costs, and improved access to care. Evidence from these states shows that markets, not regulators, are better at determining public need.",
+    "Northwell Health, NYU Langone, and NewYork-Presbyterian",
+    "31.1% market share on Long Island",
+    "44.15% of the market in Erie County",
+    "Learn about the history of Certificate of Need laws and how they create government-enforced monopolies.",
+    "With a perfect score of 100, Kentucky has one of the most restrictive CON programs in the United States.",
+    "A full 50-state report card and national analysis of CON laws is in development.",
+    "Data sourced from the New York State Department of Health, the PHHPC, Centers for Medicare & Medicaid Services (CMS), and the Cicero Institute."
+  ],
+  "scope_data": [
+    "Services Requiring CON Approval",
+    "In 2013, an application was filed to establish a new multispecialty ambulatory surgery center (ASC) in Manhattan. The goal was to provide a lower-cost, more convenient option for outpatient surgical procedures.",
+    "8+ service categories regulated",
+    "Hospital Beds",
+    "More beds in rural areas"
+  ],
+  "process_data": [
+    "New York's CON program, the oldest in the nation, has been in place since 1964. It regulates a broad range of services, creating significant barriers to entry. In major markets like Long Island, incumbent systems like Northwell Health face little meaningful competition.",
+    "Services Requiring CON Approval",
+    "The Application Process",
+    "Manhattan ASC Application",
+    "In 2013, an application was filed to establish a new multispecialty ambulatory surgery center (ASC) in Manhattan. The goal was to provide a lower-cost, more convenient option for outpatient surgical procedures.",
+    "This case is a clear example of how New York's CON process is used to protect existing hospitals from competition. By denying the ASC, the state ensured that patients would continue to have fewer choices and be forced to seek care in higher-cost hospital settings, benefiting the incumbent systems."
+  ],
+  "market_data": [
+    "New York's CON program, the oldest in the nation, has been in place since 1964. It regulates a broad range of services, creating significant barriers to entry. In major markets like Long Island, incumbent systems like Northwell Health face little meaningful competition.",
+    "New York Hospital System Revenue",
+    "Three massive non-profit systems\u2014Northwell, NYU Langone, and NewYork-Presbyterian\u2014dominate the state, collectively pulling in over $46 billion in annual revenue.",
+    "Northwell Health ($18.6B)",
+    "NYU Langone Health ($14.2B)",
+    "NewYork-Presbyterian ($13.2B)",
+    "This case is a clear example of how New York's CON process is used to protect existing hospitals from competition. By denying the ASC, the state ensured that patients would continue to have fewer choices and be forced to seek care in higher-cost hospital settings, benefiting the incumbent systems.",
+    "Long Island market share for Northwell: 31.1%",
+    "Erie County market share for Kaleida: 44.2%",
+    "$18.6 billion in revenue",
+    "31.1% market share on Long Island"
+  ],
+  "insurer_data": [
+    "With a perfect score of 100, Kentucky has one of the most restrictive CON programs in the United States."
+  ],
+  "case_law": [
+    "This case is a clear example of how New York's CON process is used to protect existing hospitals from competition. By denying the ASC, the state ensured that patients would continue to have fewer choices and be forced to seek care in higher-cost hospital settings, benefiting the incumbent systems."
+  ],
+  "reform_data": [
+    "Three massive non-profit systems\u2014Northwell, NYU Langone, and NewYork-Presbyterian\u2014dominate the state, collectively pulling in over $46 billion in annual revenue.",
+    "New York (No Meaningful Reform)",
+    "States That Reformed",
+    "States that have repealed or significantly reformed their CON laws have seen increased competition, lower costs, and improved access to care. Evidence from these states shows that markets, not regulators, are better at determining public need.",
+    "$18.6 billion in revenue"
+  ],
+  "score": 65,
+  "tier": "Restrictive",
+  "rank": 27,
+  "con_status": "Yes"
+}

@@ -1,0 +1,57 @@
+{
+  "state": "North Dakota",
+  "abbreviation": "ND",
+  "slug": "north-dakota",
+  "meta_description": "In-depth analysis of North Dakota's limited Certificate of Need (CON) laws, which apply only to long-term and basic care facilities, and their impact on the state's healthcare market.",
+  "path": "/north-dakota/certificate-of-need",
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "Scope of CON"
+    },
+    {
+      "number": "02",
+      "title": "Market Impact"
+    },
+    {
+      "number": "03",
+      "title": "Notable Disputes"
+    },
+    {
+      "number": "04",
+      "title": "Legislative Status"
+    }
+  ],
+  "content_blocks": [
+    "North Dakota maintains a very limited Certificate of Need program, creating a mostly free market for healthcare services. This minimal regulatory environment has resulted in one of the least restrictive states in the nation.",
+    "North Dakota Department of Health and Human Services",
+    "With CON laws limited to long-term care, there are few high-profile public battles over new services. Market competition and disputes, when they arise, are more likely to be fought through contracting, physician recruitment, and service line development rather than regulatory CON challenges.",
+    "North Dakota has effectively achieved full repeal for most of the healthcare economy. The remaining CON laws for long-term care facilities face little political opposition, as they are seen as a tool for managing capacity in a specialized sector. There is no significant legislative push for further changes.",
+    "A state with a more restrictive CON program.",
+    "Understand the basics of CON regulations.",
+    "How lack of competition impacts care.",
+    "Source materials include state legislative documents, reports from the Mercatus Center, and public filings from health systems. All data as of latest update."
+  ],
+  "scope_data": [
+    "Long-Term Care Facilities",
+    "Hospitals & Ambulatory Surgery",
+    "Advanced Imaging (MRI, CT)",
+    "With CON laws limited to long-term care, there are few high-profile public battles over new services. Market competition and disputes, when they arise, are more likely to be fought through contracting, physician recruitment, and service line development rather than regulatory CON challenges.",
+    "North Dakota has effectively achieved full repeal for most of the healthcare economy. The remaining CON laws for long-term care facilities face little political opposition, as they are seen as a tool for managing capacity in a specialized sector. There is no significant legislative push for further changes."
+  ],
+  "process_data": [
+    "Source materials include state legislative documents, reports from the Mercatus Center, and public filings from health systems. All data as of latest update."
+  ],
+  "market_data": [
+    "Source materials include state legislative documents, reports from the Mercatus Center, and public filings from health systems. All data as of latest update."
+  ],
+  "insurer_data": [],
+  "case_law": [],
+  "reform_data": [
+    "North Dakota has effectively achieved full repeal for most of the healthcare economy. The remaining CON laws for long-term care facilities face little political opposition, as they are seen as a tool for managing capacity in a specialized sector. There is no significant legislative push for further changes."
+  ],
+  "score": 5,
+  "tier": "Mostly Free",
+  "rank": 14,
+  "con_status": "Limited"
+}

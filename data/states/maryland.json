@@ -1,0 +1,78 @@
+{
+  "state": "Maryland",
+  "abbreviation": "MD",
+  "slug": "maryland",
+  "meta_description": "In-depth analysis of Maryland\\\\'s highly restrictive Certificate of Need (CON) laws, market concentration, and the impact on healthcare access and cost.",
+  "path": "/maryland/certificate-of-need",
+  "section_headers": [
+    {
+      "title": "Scope of Regulation",
+      "subtitle": "What requires a Certificate of Need in Maryland?"
+    },
+    {
+      "title": "Market Concentration",
+      "subtitle": "Who benefits from the lack of competition?"
+    },
+    {
+      "title": "The Human Cost",
+      "subtitle": "Documented cases of patient harm or access denial."
+    },
+    {
+      "title": "Reform Status",
+      "subtitle": "Has Maryland made progress in rolling back CON?"
+    }
+  ],
+  "content_blocks": [
+    "Maryland Health Care Commission (MHCC)",
+    "Varies by project type (per COMAR)",
+    "90 days (standard) to 150 days (with hearing)",
+    "Yes, for competitors who can show adverse impact",
+    "~$1.85 Billion Revenue (Flagship)",
+    "Insurer Market Share (Fully Insured)",
+    "Our investigation found no publicly documented instances of the Maryland Health Care Commission formally denying a Certificate of Need application. While approvals are noted in reports, specific details on denied projects, withdrawn applications under pressure, or legal challenges are not made available. This lack of transparency makes it impossible to quantify the full chilling effect of the law on potential healthcare innovators and the patients they would serve.",
+    "Maryland has not undertaken a wholesale repeal of its CON program. Reforms have been piecemeal, focusing on adjusting capital thresholds for inflation (2006) and tightening the criteria for competitor interventions (2023). These changes do not fundamentally alter the restrictive nature of the law.",
+    "With 100% of its acute-care hospitals owned by large systems and a commercial insurance market dominated by two carriers, the state\\\\'s healthcare economy is a consolidated fortress. The CON law serves as the primary defense mechanism, protecting incumbents from new competition and preserving the status quo.",
+    "See how all 19 CON states compare.",
+    "An in-depth look at another highly restrictive state.",
+    "Investigating the controversial drug pricing scheme.",
+    "Sources: Maryland statutes and regulations; Maryland Health Care Commission reports; academic and policy analyses; press releases and health system data."
+  ],
+  "scope_data": [],
+  "process_data": [
+    "90 days (standard) to 150 days (with hearing)",
+    "Our investigation found no publicly documented instances of the Maryland Health Care Commission formally denying a Certificate of Need application. While approvals are noted in reports, specific details on denied projects, withdrawn applications under pressure, or legal challenges are not made available. This lack of transparency makes it impossible to quantify the full chilling effect of the law on potential healthcare innovators and the patients they would serve.",
+    "With 100% of its acute-care hospitals owned by large systems and a commercial insurance market dominated by two carriers, the state\\\\'s healthcare economy is a consolidated fortress. The CON law serves as the primary defense mechanism, protecting incumbents from new competition and preserving the status quo."
+  ],
+  "market_data": [
+    "Hospital System Affiliation",
+    "Top Insurer Market Share",
+    "Dominant System",
+    "~$9.0 Billion Revenue (FY25)",
+    "~$8.7 Billion Revenue (FY23)",
+    "~$1.85 Billion Revenue (Flagship)",
+    "Insurer Market Share (Fully Insured)",
+    "Entrenched System",
+    "With 100% of its acute-care hospitals owned by large systems and a commercial insurance market dominated by two carriers, the state\\\\'s healthcare economy is a consolidated fortress. The CON law serves as the primary defense mechanism, protecting incumbents from new competition and preserving the status quo.",
+    "Sources: Maryland statutes and regulations; Maryland Health Care Commission reports; academic and policy analyses; press releases and health system data."
+  ],
+  "insurer_data": [
+    "Top Insurer Market Share",
+    "Insurer Market Share (Fully Insured)",
+    "CareFirst BCBS",
+    "With 100% of its acute-care hospitals owned by large systems and a commercial insurance market dominated by two carriers, the state\\\\'s healthcare economy is a consolidated fortress. The CON law serves as the primary defense mechanism, protecting incumbents from new competition and preserving the status quo."
+  ],
+  "case_law": [
+    "No Public Record of Denials",
+    "Our investigation found no publicly documented instances of the Maryland Health Care Commission formally denying a Certificate of Need application. While approvals are noted in reports, specific details on denied projects, withdrawn applications under pressure, or legal challenges are not made available. This lack of transparency makes it impossible to quantify the full chilling effect of the law on potential healthcare innovators and the patients they would serve."
+  ],
+  "reform_data": [
+    "~$9.0 Billion Revenue (FY25)",
+    "~$8.7 Billion Revenue (FY23)",
+    "~$1.85 Billion Revenue (Flagship)",
+    "Maryland has not undertaken a wholesale repeal of its CON program. Reforms have been piecemeal, focusing on adjusting capital thresholds for inflation (2006) and tightening the criteria for competitor interventions (2023). These changes do not fundamentally alter the restrictive nature of the law."
+  ],
+  "score": 95,
+  "tier": "Most Restrictive",
+  "rank": 41,
+  "con_status": "Yes"
+}

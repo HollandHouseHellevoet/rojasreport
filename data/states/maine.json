@@ -1,0 +1,68 @@
+{
+  "state": "Maine",
+  "abbreviation": "ME",
+  "slug": "maine",
+  "meta_description": "In-depth analysis of Maine's Certificate of Need (CON) laws, evaluating their impact on healthcare competition, cost, and quality.",
+  "path": "/maine/certificate-of-need",
+  "content_blocks": [
+    "Maine's Certificate of Need program, established in 1977, imposes significant barriers to entry and expansion for healthcare providers, limiting competition and consumer choice.",
+    "Maine's CON laws cover a broad range of healthcare services and facilities, requiring government approval for new projects, expansions, and major equipment purchases.",
+    "Securing a CON is a lengthy and costly process, giving incumbent providers ample opportunity to block new competitors.",
+    "Dept. of Health and Human Services (DHHS)",
+    "CON laws have fostered a consolidated market dominated by a few large health systems and insurers, reducing competition and driving up costs.",
+    "MaineHealth holds a commanding market share, particularly in the southern part of the state.",
+    "The insurance market is heavily concentrated, with Anthem controlling over half of the market.",
+    "In Southern Maine, MaineHealth's market share reaches ~65%, indicating a highly concentrated market.",
+    "Case Study: St. Mary's Health System (2008)",
+    "This denial occurred amidst similar challenges faced by a rival hospital, demonstrating how the CON process can become a battleground for incumbents rather than a tool for community planning.",
+    "Repeal efforts have consistently failed.",
+    "Explore our comprehensive analysis of Certificate of Need laws across the United States.",
+    "An in-depth look at one of the nation's most restrictive CON states.",
+    "340B Drug Pricing Investigation",
+    "Our next investigation dives into the controversial 340B drug pricing program."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Maine's CON laws cover a broad range of healthcare services and facilities, requiring government approval for new projects, expansions, and major equipment purchases.",
+    "Psychiatric Hospitals",
+    "Nursing Facilities",
+    "Ambulatory Surgical Centers"
+  ],
+  "process_data": [
+    "Maine's CON laws cover a broad range of healthcare services and facilities, requiring government approval for new projects, expansions, and major equipment purchases.",
+    "The Application Process",
+    "Securing a CON is a lengthy and costly process, giving incumbent providers ample opportunity to block new competitors.",
+    "90-120 days (avg. 8-12 weeks)",
+    "This denial occurred amidst similar challenges faced by a rival hospital, demonstrating how the CON process can become a battleground for incumbents rather than a tool for community planning."
+  ],
+  "market_data": [
+    "HHI S. Maine",
+    "$5,000 minimum, up to $250,000",
+    "CON laws have fostered a consolidated market dominated by a few large health systems and insurers, reducing competition and driving up costs.",
+    "Dominant Health Systems",
+    "MaineHealth holds a commanding market share, particularly in the southern part of the state.",
+    "Insurer Market Share",
+    "Regional Dominance (HHI)",
+    "In Southern Maine, MaineHealth's market share reaches ~65%, indicating a highly concentrated market.",
+    "~4,300 HHI",
+    "Case Study: St. Mary's Health System (2008)"
+  ],
+  "insurer_data": [
+    "CON laws have fostered a consolidated market dominated by a few large health systems and insurers, reducing competition and driving up costs.",
+    "Insurer Market Share",
+    "The insurance market is heavily concentrated, with Anthem controlling over half of the market.",
+    "1. Anthem (BCBS):",
+    "Explore our comprehensive analysis of Certificate of Need laws across the United States."
+  ],
+  "case_law": [
+    "Case Study: St. Mary's Health System (2008)",
+    "This denial occurred amidst similar challenges faced by a rival hospital, demonstrating how the CON process can become a battleground for incumbents rather than a tool for community planning."
+  ],
+  "reform_data": [
+    "Repeal efforts have consistently failed."
+  ],
+  "score": 65,
+  "tier": "Restrictive",
+  "rank": 27,
+  "con_status": "Yes"
+}

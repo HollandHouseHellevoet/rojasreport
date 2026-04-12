@@ -1,0 +1,190 @@
+{
+  "sections": [
+    {
+      "number": "01",
+      "label": "How It Works",
+      "title": "How Certificate of Need Works",
+      "subtitle": "A Certificate of Need is a government-mandated permission slip that a healthcare provider must obtain before opening a new facility, expanding services, or making significant capital expenditures. The process is designed so that your competitors decide whether you are allowed to exist."
+    },
+    {
+      "number": "02",
+      "label": "The Origin Story",
+      "title": "How We Got Here"
+    },
+    {
+      "number": "03",
+      "label": "The Evidence",
+      "title": "What CON Laws Actually Do",
+      "subtitle": "The Federal Trade Commission and the Department of Justice have found no reliable evidence that CON programs achieve any public benefits. They have found clear evidence that the laws grant anticompetitive benefits to protected business interests."
+    },
+    {
+      "number": "04",
+      "label": "50-State Rankings",
+      "title": "Every State, Ranked",
+      "subtitle": "The Cicero Institute ranks all 50 states on the restrictiveness of their CON laws, scoring each from 0 (no CON) to 100 (most restrictive). Click any state with a full profile to see its investigation."
+    },
+    {
+      "number": "05",
+      "label": "Editorial",
+      "title": "The Architecture Stays"
+    },
+    {
+      "number": "06",
+      "label": "Featured Investigations",
+      "title": "Deep-Dive State Profiles",
+      "subtitle": "These states have been fully investigated by The Rojas Report. Each profile includes market concentration data, case law, reform status, and the names of the systems that benefit from the monopoly."
+    }
+  ],
+  "origin_story": [
+    "The story of CON laws begins in 1959 with a UCLA health researcher named Milton Roemer. His study found a correlation between the number of available hospital beds and the number of hospital days used. The hospital industry twisted this finding into a justification for limiting competition: if more beds mean more utilization, then we must restrict the supply of beds.",
+    "What Roemer actually proved was that ,e.jsxDEV( supply and demand work . What the cartel claimed was that markets are wasteful and competition must be limited.",
+    "The federal government's entry into CON was the ,e.jsxDEV( National Health Planning and Resources Development Act of 1974 (Public Law 93-641), sponsored by Senator Edward M. Kennedy. The law effectively federalized the CON concept, threatening to withhold federal funds from states that did not adopt CON programs. By the early 1980s, nearly every state had one.",
+    "The mandate was repealed in 1987 after the policy was deemed ineffective. But  35 jurisdictions kept their laws on the books",
+    "They didn't prove waste. They proved access.",
+    "mt-1 font-sans text-xs text-cream/50 leading-snug"
+  ],
+  "evidence_paragraphs": [
+    "Same procedures. Fraction of the cost. Regulated out of existence."
+  ],
+  "blockquotes": [
+    {
+      "text": "It's like asking McDonald's for permission to open a Burger King.",
+      "source": ""
+    },
+    {
+      "text": "They didn't prove waste. They proved access.",
+      "source": "\u2014 The Rojas Report, on Roemer's Law"
+    }
+  ],
+  "hero_stats": [
+    {
+      "number": "35",
+      "label": "Jurisdictions where competition is illegal"
+    },
+    {
+      "number": "1964",
+      "label": "First CON law enacted (New York)"
+    },
+    {
+      "number": "1987",
+      "label": "Federal mandate repealed as ineffective"
+    },
+    {
+      "number": "5-11%",
+      "label": "Higher healthcare costs in CON states"
+    },
+    {
+      "number": "5-11%",
+      "label": "Higher healthcare costs in CON states"
+    },
+    {
+      "number": "44-47%",
+      "label": "Increase in ASCs per capita after CON repeal"
+    },
+    {
+      "number": "92-112%",
+      "label": "Increase in rural ASCs after CON repeal"
+    },
+    {
+      "number": "$275B",
+      "label": "Annual subsidies flowing to hospital systems"
+    }
+  ],
+  "how_it_works_steps": [
+    {
+      "step": 1,
+      "text": "You want to build a surgery center"
+    },
+    {
+      "step": 2,
+      "text": "You apply to the state board"
+    },
+    {
+      "step": 3,
+      "text": "Your competitors sit on that board"
+    },
+    {
+      "step": 4,
+      "text": "Your competitors vote on whether you exist"
+    }
+  ],
+  "featured_state_profiles": [
+    {
+      "state": "Kentucky",
+      "score": 100,
+      "status": "Most Restrictive",
+      "href": "/kentucky/certificate-of-need",
+      "description": "Three systems control 100% of Louisville's inpatient market. Prices reach 354% of Medicare. A Nepali immigrant was blocked from serving refugees."
+    },
+    {
+      "state": "Virginia",
+      "score": 100,
+      "status": "Most Restrictive",
+      "href": "/virginia/certificate-of-need",
+      "description": "Sentara's $4.79B empire. Five systems control $16B+ in revenue. The 4th Circuit acknowledged the harm but refused to act."
+    },
+    {
+      "state": "Massachusetts",
+      "score": 90,
+      "status": "Highly Restrictive",
+      "href": "/massachusetts/certificate-of-need",
+      "description": "8 ASCs per million vs. 16+ national average. Mass General Brigham's $18.5B empire. A 15-year regulatory stranglehold on surgical competition."
+    },
+    {
+      "state": "Georgia",
+      "score": 95,
+      "status": "Most Restrictive",
+      "href": "/georgia/certificate-of-need",
+      "description": "Piedmont's $5.6B system. HB 1339 began reform in 2024. Centene controls 38% of the insurer market."
+    },
+    {
+      "state": "North Carolina",
+      "score": 100,
+      "status": "Most Restrictive",
+      "href": "/north-carolina/certificate-of-need",
+      "description": "Two systems control nearly 100% of Charlotte's inpatient market. BCBS NC holds 62% of the insurer market."
+    },
+    {
+      "state": "New York",
+      "score": 65,
+      "status": "Restrictive",
+      "href": "/new-york/certificate-of-need",
+      "description": "Northwell's $17.6B empire. 26 regulated services. The state that started it all in 1964."
+    },
+    {
+      "state": "Alabama",
+      "score": 80,
+      "status": "Highly Restrictive",
+      "href": "/alabama/certificate-of-need",
+      "description": "Decatur HHI 10,000 \u2014 literal monopoly. BCBS Alabama controls 84% of the commercial market."
+    },
+    {
+      "state": "Mississippi",
+      "score": 90,
+      "status": "Highly Restrictive",
+      "href": "/mississippi/certificate-of-need",
+      "description": "A 40-year moratorium on new hospital construction. BCBS MS controls 53% of the insurer market."
+    },
+    {
+      "state": "New Jersey",
+      "score": 100,
+      "status": "Most Restrictive",
+      "href": "/new-jersey/certificate-of-need",
+      "description": "RWJBarnabas Health's $7.5B empire. 25+ regulated services. The Garden State's healthcare cartel."
+    },
+    {
+      "state": "Illinois",
+      "score": 65,
+      "status": "Restrictive",
+      "href": "/illinois/certificate-of-need",
+      "description": "BCBS controls 97% of the HMO market. CON law sunsets in 2029 \u2014 if the incumbents let it."
+    },
+    {
+      "state": "Florida",
+      "score": 5,
+      "status": "Mostly Free",
+      "href": "/florida/certificate-of-need",
+      "description": "Mostly repealed, but hospice and nursing home CON remain. A court upheld a hospice monopoly in Sarasota."
+    }
+  ]
+}

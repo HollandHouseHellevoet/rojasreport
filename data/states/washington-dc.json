@@ -1,0 +1,81 @@
+{
+  "state": "Washington, D.C.",
+  "abbreviation": "DC",
+  "slug": "washington-dc",
+  "meta_description": "In-depth analysis of the District of Columbia's Certificate of Need (CON) laws, market concentration, and the impact on healthcare access and cost.",
+  "path": "/dc/certificate-of-need",
+  "section_headers": [
+    {
+      "title": "Scope of Regulation",
+      "subtitle": "What requires a permission slip?"
+    },
+    {
+      "title": "Market Concentration",
+      "subtitle": "Who benefits from the lack of competition?"
+    },
+    {
+      "title": "The Human Cost",
+      "subtitle": "How CON laws impact patient care."
+    },
+    {
+      "title": "Reform Status",
+      "subtitle": "Where does D.C. stand on CON reform?"
+    }
+  ],
+  "content_blocks": [
+    "Certificate of Need Investigation",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Diagnostic Imaging Facilities (MRI, CT, PET)",
+    "Major Medical Equipment Purchases",
+    "Controls a dominant share of tertiary care via Washington Hospital Center & Georgetown University Hospital.",
+    "2. George Washington University Hospital (UHS)",
+    "Major academic center owned by for-profit giant Universal Health Services.",
+    "3. Children's National Hospital",
+    "Dominant pediatric academic system.",
+    "Howard University Hospital (2013-2014):",
+    "Specialty Hospital of Washington (2009-2010):",
+    "Explore our comprehensive analysis of CON laws across the United States.",
+    "Certificate of Need investigation for Maryland.",
+    "$81.4B in discounted drugs. Zero disclosure requirements.",
+    "Data sourced from state regulatory filings, public records, and independent analysis by The Rojas Report."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Ambulatory Surgery Centers (ASCs)",
+    "Diagnostic Imaging Facilities (MRI, CT, PET)",
+    "Nursing Homes & Long-Term Care",
+    "Home Health Agencies",
+    "Hospice Providers",
+    "Major Medical Equipment Purchases"
+  ],
+  "process_data": [
+    "The Application Gauntlet",
+    "6-12 months (in practice)",
+    "Yes, incumbents can intervene",
+    "Data sourced from state regulatory filings, public records, and independent analysis by The Rojas Report."
+  ],
+  "market_data": [
+    "Dominant System",
+    "$5,000 - $250,000",
+    "Dominant Health Systems",
+    "Controls a dominant share of tertiary care via Washington Hospital Center & Georgetown University Hospital.",
+    "Dominant pediatric academic system.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Top Insurers",
+    "CareFirst BlueCross BlueShield",
+    "UnitedHealthcare",
+    "Kaiser Permanente",
+    "Explore our comprehensive analysis of CON laws across the United States."
+  ],
+  "case_law": [],
+  "reform_data": [
+    "No Meaningful Reform",
+    "no significant reforms"
+  ],
+  "score": 90,
+  "tier": "Highly Restrictive",
+  "rank": 43,
+  "con_status": "Yes"
+}

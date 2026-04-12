@@ -1,0 +1,86 @@
+{
+  "state": "Tennessee",
+  "abbreviation": "TN",
+  "slug": "tennessee",
+  "meta_description": "In-depth analysis of Tennessee's highly restrictive Certificate of Need (CON) laws, their market impact, and the dominance of HCA Healthcare.",
+  "path": "/tennessee/certificate-of-need",
+  "section_headers": [
+    {
+      "number": "01",
+      "title": "The Verdict"
+    },
+    {
+      "number": "02",
+      "title": "Scope of Regulation"
+    },
+    {
+      "number": "03",
+      "title": "Market Dynamics"
+    },
+    {
+      "number": "04",
+      "title": "Notable Disputes"
+    },
+    {
+      "number": "05",
+      "title": "Legislative Climate"
+    },
+    {
+      "number": "07",
+      "title": "Dive Deeper"
+    }
+  ],
+  "content_blocks": [
+    "Nashville, the nation's healthcare capital, is home to HCA Healthcare, the world's largest for-profit hospital operator, whose $60B+ empire benefits directly from CON's anti-competitive barriers.",
+    "Diagnostic Imaging (MRI, CT, PET)",
+    "The Health Services and Development Agency (HSDA) administers the CON program, a process often criticized for favoring established players.",
+    "Tennessee's CON laws create a protected market for incumbent hospital systems, limiting patient choice and inflating costs.",
+    "World's largest for-profit hospital company, headquartered in Nashville.",
+    "Vanderbilt University Medical Center",
+    "Major academic medical center with significant market share.",
+    "Incumbent Protectionism in Action",
+    "Tennessee maintains one of the most comprehensive and restrictive CON programs in the United States. The law covers a wide array of services and equipment, making it difficult for new providers to enter the market or for existing providers to expand services without state approval.",
+    "Despite the clear market distortions, legislative efforts to significantly reform or repeal CON laws have consistently failed. The powerful lobbying influence of incumbent hospital systems, particularly HCA, presents a formidable barrier to meaningful change. Minor tweaks have occurred, but the core structure remains intact.",
+    "How incumbent industries manipulate government regulation to stifle competition.",
+    "An in-depth look at the strategies and market power of the hospital giant.",
+    "Examining the economic and health outcomes in states that have embraced competition.",
+    "Data sourced from state statutes, reports from the Mercatus Center, and the National Conference of State Legislatures."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Regulated Healthcare Services",
+    "Nursing Homes & Home Health",
+    "Diagnostic Imaging (MRI, CT, PET)",
+    "Tennessee maintains one of the most comprehensive and restrictive CON programs in the United States. The law covers a wide array of services and equipment, making it difficult for new providers to enter the market or for existing providers to expand services without state approval."
+  ],
+  "process_data": [
+    "Application & Approval",
+    "The Health Services and Development Agency (HSDA) administers the CON program, a process often criticized for favoring established players.",
+    "Tennessee's CON laws create a protected market for incumbent hospital systems, limiting patient choice and inflating costs.",
+    "Incumbent Protectionism in Action",
+    "Tennessee maintains one of the most comprehensive and restrictive CON programs in the United States. The law covers a wide array of services and equipment, making it difficult for new providers to enter the market or for existing providers to expand services without state approval.",
+    "Despite the clear market distortions, legislative efforts to significantly reform or repeal CON laws have consistently failed. The powerful lobbying influence of incumbent hospital systems, particularly HCA, presents a formidable barrier to meaningful change. Minor tweaks have occurred, but the core structure remains intact.",
+    "How incumbent industries manipulate government regulation to stifle competition."
+  ],
+  "market_data": [
+    "Nashville, the nation's healthcare capital, is home to HCA Healthcare, the world's largest for-profit hospital operator, whose $60B+ empire benefits directly from CON's anti-competitive barriers.",
+    "Tennessee's CON laws create a protected market for incumbent hospital systems, limiting patient choice and inflating costs.",
+    "Dominant For-Profit System",
+    "Dominant Non-Profit System",
+    "Major academic medical center with significant market share.",
+    "Despite the clear market distortions, legislative efforts to significantly reform or repeal CON laws have consistently failed. The powerful lobbying influence of incumbent hospital systems, particularly HCA, presents a formidable barrier to meaningful change. Minor tweaks have occurred, but the core structure remains intact."
+  ],
+  "insurer_data": [
+    "Tennessee maintains one of the most comprehensive and restrictive CON programs in the United States. The law covers a wide array of services and equipment, making it difficult for new providers to enter the market or for existing providers to expand services without state approval."
+  ],
+  "case_law": [],
+  "reform_data": [
+    "Governor: Bill Lee (R)",
+    "Despite the clear market distortions, legislative efforts to significantly reform or repeal CON laws have consistently failed. The powerful lobbying influence of incumbent hospital systems, particularly HCA, presents a formidable barrier to meaningful change. Minor tweaks have occurred, but the core structure remains intact.",
+    "States That Repealed CON"
+  ],
+  "score": 85,
+  "tier": "Highly Restrictive",
+  "rank": 36,
+  "con_status": "Yes"
+}

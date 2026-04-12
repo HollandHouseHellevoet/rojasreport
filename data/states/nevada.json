@@ -1,0 +1,73 @@
+{
+  "state": "Nevada",
+  "abbreviation": "NV",
+  "slug": "nevada",
+  "meta_description": "In-depth analysis of Nevada's highly restrictive Certificate of Need (CON) laws, market concentration, and their impact on healthcare access and competition.",
+  "path": "/nevada/certificate-of-need",
+  "section_headers": [
+    {
+      "title": "Scope of Regulation",
+      "subtitle": "What requires a state permission slip?"
+    },
+    {
+      "title": "Market Concentration",
+      "subtitle": "Who benefits from the lack of competition?"
+    },
+    {
+      "title": "The Human Cost",
+      "subtitle": "How CON laws block care."
+    },
+    {
+      "title": "Reform Status",
+      "subtitle": "Where does Nevada stand on CON reform?"
+    }
+  ],
+  "content_blocks": [
+    "Nevada's stringent Certificate of Need program creates significant barriers to entry, particularly in rural areas, stifling competition and innovation.",
+    "Nevada's CON law applies to a broad range of new or expanded health facilities in rural areas, plus specialized services statewide.",
+    "New Hospitals & Clinics in rural areas",
+    "Ambulatory Surgery Centers (ASCs) in rural areas",
+    "Imaging & Dialysis Centers in rural areas",
+    "Any rural project with capital costs over $2,000,000",
+    "New Air Ambulance (Helicopter) Services",
+    "DHHS (shifting to NV Health Authority)",
+    "The hospital market is highly concentrated, with a few large players controlling regional markets.",
+    "The commercial insurance market is a duopoly, limiting choices for employers and patients.",
+    "Dept. of Human Resources v. UHS of the Colony (1987)",
+    "Nevada's CON law, enacted in 1971, remains firmly in place with no significant repeals. While administrative oversight is shifting, the core regulatory barriers persist, maintaining a restrictive environment that favors established players.",
+    "Explore our 50-state analysis of Certificate of Need laws.",
+    "Explore neighboring state CON profiles.",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "scope_data": [
+    "Regulated Services",
+    "Ambulatory Surgery Centers (ASCs) in rural areas",
+    "Imaging & Dialysis Centers in rural areas"
+  ],
+  "process_data": [
+    "The Application Process",
+    "Competitors can intervene"
+  ],
+  "market_data": [
+    "Dominant Health Systems",
+    "Any rural project with capital costs over $2,000,000",
+    "Dominant Systems",
+    "$81.4B in discounted drugs. Zero disclosure requirements."
+  ],
+  "insurer_data": [
+    "Insurer Landscape",
+    "The commercial insurance market is a duopoly, limiting choices for employers and patients.",
+    "Hometown Health (BCBS)",
+    "UnitedHealthcare"
+  ],
+  "case_law": [
+    "Source: Nevada Supreme Court"
+  ],
+  "reform_data": [
+    "Nevada's CON law, enacted in 1971, remains firmly in place with no significant repeals. While administrative oversight is shifting, the core regulatory barriers persist, maintaining a restrictive environment that favors established players."
+  ],
+  "score": 100,
+  "tier": "Most Restrictive",
+  "rank": 43,
+  "con_status": "Yes"
+}

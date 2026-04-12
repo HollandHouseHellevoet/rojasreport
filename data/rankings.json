@@ -1,0 +1,359 @@
+[
+  {
+    "rank": 1,
+    "state": "Texas",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "Idaho",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "New Hampshire",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "California",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "Colorado",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "Kansas",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "New Mexico",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "Pennsylvania",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "South Dakota",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "Utah",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "Wyoming",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 1,
+    "state": "Arizona",
+    "con_status": "No",
+    "score": 0,
+    "tier": "Free Market"
+  },
+  {
+    "rank": 14,
+    "state": "Florida",
+    "con_status": "Repealed",
+    "score": 5,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 14,
+    "state": "Montana",
+    "con_status": "Limited",
+    "score": 5,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 14,
+    "state": "North Dakota",
+    "con_status": "Limited",
+    "score": 5,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 14,
+    "state": "Ohio",
+    "con_status": "Repealed",
+    "score": 5,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 14,
+    "state": "Wisconsin",
+    "con_status": "Limited",
+    "score": 5,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 18,
+    "state": "Arkansas",
+    "con_status": "Limited",
+    "score": 15,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 18,
+    "state": "Indiana",
+    "con_status": "Limited",
+    "score": 15,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 20,
+    "state": "Oklahoma",
+    "con_status": "Limited",
+    "score": 20,
+    "tier": "Mostly Free"
+  },
+  {
+    "rank": 21,
+    "state": "Minnesota",
+    "con_status": "Yes",
+    "score": 30,
+    "tier": "Moderate"
+  },
+  {
+    "rank": 22,
+    "state": "South Carolina",
+    "con_status": "Repealing",
+    "score": 35,
+    "tier": "Moderate"
+  },
+  {
+    "rank": 23,
+    "state": "Delaware",
+    "con_status": "Yes",
+    "score": 45,
+    "tier": "Moderate"
+  },
+  {
+    "rank": 23,
+    "state": "Nebraska",
+    "con_status": "Yes",
+    "score": 45,
+    "tier": "Moderate"
+  },
+  {
+    "rank": 25,
+    "state": "Alaska",
+    "con_status": "Yes",
+    "score": 55,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 25,
+    "state": "Louisiana",
+    "con_status": "Yes",
+    "score": 55,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 27,
+    "state": "Hawaii",
+    "con_status": "Yes",
+    "score": 65,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 27,
+    "state": "Maine",
+    "con_status": "Yes",
+    "score": 65,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 27,
+    "state": "Michigan",
+    "con_status": "Yes",
+    "score": 65,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 27,
+    "state": "Illinois",
+    "con_status": "Yes",
+    "score": 65,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 27,
+    "state": "Oregon",
+    "con_status": "Yes",
+    "score": 65,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 27,
+    "state": "New York",
+    "con_status": "Yes",
+    "score": 65,
+    "tier": "Restrictive"
+  },
+  {
+    "rank": 33,
+    "state": "Missouri",
+    "con_status": "Yes",
+    "score": 80,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 33,
+    "state": "Alabama",
+    "con_status": "Yes",
+    "score": 80,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 33,
+    "state": "Rhode Island",
+    "con_status": "Yes",
+    "score": 80,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 36,
+    "state": "Tennessee",
+    "con_status": "Yes",
+    "score": 85,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 37,
+    "state": "Mississippi",
+    "con_status": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 37,
+    "state": "Connecticut",
+    "con_status": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 37,
+    "state": "Iowa",
+    "con_status": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 37,
+    "state": "Massachusetts",
+    "con_status": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive"
+  },
+  {
+    "rank": 41,
+    "state": "Georgia",
+    "con_status": "Yes",
+    "score": 95,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 41,
+    "state": "Maryland",
+    "con_status": "Yes",
+    "score": 95,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "Kentucky",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "Nevada",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "New Jersey",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "North Carolina",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "Vermont",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "Virginia",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "Washington",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "West Virginia",
+    "con_status": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive"
+  },
+  {
+    "rank": 43,
+    "state": "District of Columbia",
+    "con_status": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive"
+  }
+]
