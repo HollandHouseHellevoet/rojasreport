@@ -34,6 +34,7 @@ export default function ComparePage() {
   return (
     <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
+        as="h1"
         label="Comparison Tool"
         title="Compare CON Laws Side by Side"
         subtitle="Select up to 3 states to compare every dimension of their Certificate of Need programs. Shareable via URL. Just copy and paste."

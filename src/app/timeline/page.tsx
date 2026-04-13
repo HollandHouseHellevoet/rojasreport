@@ -16,6 +16,7 @@ export default function TimelinePage() {
   return (
     <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
+        as="h1"
         label="History"
         title="How We Got Here"
         subtitle="From a 1959 academic study to a federal mandate to 35 jurisdictions that still restrict healthcare competition. This is the timeline of Certificate of Need."

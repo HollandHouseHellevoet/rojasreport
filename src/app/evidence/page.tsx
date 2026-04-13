@@ -33,6 +33,7 @@ export default function EvidencePage() {
       <section className="bg-navy-dark border-b border-white/10">
         <div className="max-w-content mx-auto px-5 pt-16 pb-20">
           <SectionHeader
+            as="h1"
             number="01"
             label="The Evidence"
             title="What CON Laws Actually Do"

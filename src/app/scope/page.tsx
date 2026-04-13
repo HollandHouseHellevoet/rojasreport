@@ -17,6 +17,7 @@ export default function ScopePage() {
   return (
     <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
+        as="h1"
         label="Scope of Regulation"
         title="What Requires a Certificate of Need?"
         subtitle="Each checkmark means a state requires government permission before that type of healthcare facility can be built or expanded. Filter by category to find which states regulate a specific service."

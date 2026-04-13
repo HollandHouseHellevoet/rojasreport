@@ -24,6 +24,7 @@ export default function RankingsPage() {
   return (
     <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
+        as="h1"
         label="50-State Rankings"
         title="Every Jurisdiction, Ranked"
         subtitle="Scored from 0 (no CON law) to 100 (most restrictive). Based on Cicero Institute methodology. Click column headers to sort."

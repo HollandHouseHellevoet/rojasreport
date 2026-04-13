@@ -158,29 +158,32 @@ export default function StateCompare({ allStates }: StateCompareProps) {
       {/* Comparison table */}
       {selectedStates.length > 0 ? (
         <div className="overflow-x-auto">
-          <table className="w-full text-left">
-            <thead>
+          <table className="w-full text-left border-collapse">
+            <thead className="sticky top-0 bg-navy z-10">
               <tr className="border-b border-white/20">
-                <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 min-w-[140px]">
+                <th scope="col" className="py-4 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream/40 min-w-[160px]">
                   Dimension
                 </th>
                 {selectedStates.map(s => (
-                  <th key={s.slug} scope="col" className="py-3 px-3 font-body text-sm font-bold text-cream">
+                  <th key={s.slug} scope="col" className="py-4 px-4 font-body text-base font-bold text-cream">
                     <Link href={`/states/${s.slug}/`} className="hover:text-orange transition-colors">
                       {s.state}
                     </Link>
+                    <span className="block font-body text-xs text-cream/40 font-normal mt-0.5">
+                      {s.score}/100 &middot; {s.tier}
+                    </span>
                   </th>
                 ))}
               </tr>
             </thead>
             <tbody>
-              {COMPARE_ROWS.map(row => (
-                <tr key={row.label} className="border-b border-white/5">
-                  <td className="py-3 px-3 font-body text-xs font-semibold text-cream/50 align-top">
+              {COMPARE_ROWS.map((row, i) => (
+                <tr key={row.label} className={`border-b border-white/5 ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}>
+                  <td className="py-4 px-4 font-body text-sm font-semibold text-cream/60 align-top">
                     {row.label}
                   </td>
                   {selectedStates.map(s => (
-                    <td key={s.slug} className="py-3 px-3 font-body text-sm text-cream/70 align-top max-w-[300px]">
+                    <td key={s.slug} className="py-4 px-4 font-body text-base text-cream/80 align-top max-w-[320px] leading-relaxed">
                       {row.getValue(s)}
                     </td>
                   ))}
@@ -190,8 +193,8 @@ export default function StateCompare({ allStates }: StateCompareProps) {
           </table>
         </div>
       ) : (
-        <div className="border border-white/10 p-12 text-center">
-          <p className="font-body text-sm text-cream/40">
+        <div className="border border-white/10 p-10 text-center">
+          <p className="font-body text-cream/40">
             Select up to 3 states above to compare their CON profiles side by side.
           </p>
         </div>

@@ -144,8 +144,48 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
         </span>
       </div>
 
-      {/* Table */}
-      <div className="overflow-x-auto">
+      {/* Mobile card view */}
+      <div className="md:hidden space-y-3">
+        {filtered.map(e => {
+          const s = momentumStyles(e.momentum);
+          return (
+            <div
+              key={e.abbreviation}
+              className={`bg-navy-dark/40 p-4 ${s.border}`}
+            >
+              <div className="flex items-start justify-between gap-3 mb-2">
+                <div>
+                  <Link href={`/states/${e.slug}/`} className="font-body text-base font-bold text-cream hover:text-orange transition-colors">
+                    {e.state}
+                  </Link>
+                  <p className="font-body text-xs text-cream/30">{e.tier}</p>
+                </div>
+                <div className="text-right">
+                  <MomentumBadge momentum={e.momentum} score={e.momentum_score} />
+                  <p className="mt-1 font-body text-xs text-cream/40">Score: {e.score}</p>
+                </div>
+              </div>
+              {e.current_bill && e.current_bill !== 'N/A' && (
+                <p className="mt-3 font-body text-sm">
+                  <span className="text-cream/40">Bill: </span>
+                  <span className="text-cream font-semibold">{e.current_bill}</span>
+                </p>
+              )}
+              <p className="mt-1 font-body text-sm text-cream/50">{e.bill_status}</p>
+              <div className="mt-3 grid grid-cols-2 gap-x-3 gap-y-1 font-body text-xs">
+                <div><span className="text-cream/40">Bill: </span><YesNo filled={!!e.bill_introduced} /></div>
+                <div><span className="text-cream/40">Cmte: </span><YesNo filled={!!e.committee_assigned} /></div>
+                <div><span className="text-cream/40">Hearing: </span><YesNo filled={!!e.hearing_held} /></div>
+                <div><span className="text-cream/40">Gov: </span><YesNo filled={!!e.governor_supports} /></div>
+                <div><span className="text-cream/40">Prior: </span><YesNo filled={!!e.reformed_before} /></div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Desktop Table */}
+      <div className="hidden md:block overflow-x-auto">
         <table className="w-full text-left border-collapse min-w-[980px]">
           <thead className="sticky top-0 bg-navy z-10">
             <tr className="border-b border-white/20">

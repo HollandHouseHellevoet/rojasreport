@@ -17,6 +17,7 @@ export default function ReformPage() {
   return (
     <div className="max-w-content mx-auto px-5 py-10">
       <SectionHeader
+        as="h1"
         label="Reform Tracker"
         title="CON Reform Momentum 2026"
         subtitle="Where is reform happening? Each state scored on five dimensions to produce a momentum signal. Green means reform is likely. Red means the status quo is entrenched."

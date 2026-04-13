@@ -44,6 +44,7 @@ export default function MethodologyPage() {
       <section className="bg-navy-dark border-b border-white/10">
         <div className="max-w-content mx-auto px-5 pt-16 pb-12">
           <SectionHeader
+            as="h1"
             label="Methodology"
             title="Classification Framework"
             subtitle="How we score, classify, and track Certificate of Need laws across 51 jurisdictions. Transparent methodology. Reproducible results."

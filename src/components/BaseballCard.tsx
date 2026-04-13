@@ -102,9 +102,9 @@ export default function BaseballCard({ state }: BaseballCardProps) {
           </div>
         </div>
 
-        {/* Systems + Insurer */}
+        {/* Systems + Insurer (collapses to single column if only one present) */}
         {(state.key_systems?.length || topInsurer) && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+          <div className={`grid gap-6 mt-6 ${state.key_systems?.length && topInsurer ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'}`}>
             {state.key_systems && state.key_systems.length > 0 && (
               <div>
                 <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Top Systems</p>
@@ -147,30 +147,30 @@ export default function BaseballCard({ state }: BaseballCardProps) {
           <p className="mt-2 font-body text-sm text-cream/80">{caseText}</p>
         </div>
 
-        {/* Actions */}
-        <div className="mt-8 flex flex-wrap gap-3 no-print">
+        {/* Actions: 2x2 on mobile, inline on desktop */}
+        <div className="mt-8 grid grid-cols-2 sm:flex sm:flex-wrap gap-3 no-print">
           <a
             href={`/briefs/${state.slug}.txt`}
             download={`${state.slug}-intelligence-brief.txt`}
-            className="inline-flex items-center gap-2 font-body text-sm font-semibold text-cream bg-orange hover:bg-orange-light px-4 py-2 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream bg-orange hover:bg-orange-light px-4 py-2.5 transition-colors rounded-sm"
           >
             Download Brief
           </a>
           <button
             onClick={copyShareLink}
-            className="inline-flex items-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Share
           </button>
           <Link
             href={`/compare/?states=${state.abbreviation}`}
-            className="inline-flex items-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Compare
           </Link>
           <button
             onClick={() => window.print()}
-            className="inline-flex items-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Print
           </button>

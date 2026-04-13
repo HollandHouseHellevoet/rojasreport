@@ -26,6 +26,7 @@ export default function OutcomesPage() {
       <section className="bg-navy-dark border-b border-white/10">
         <div className="max-w-content mx-auto px-5 pt-16 pb-12">
           <SectionHeader
+            as="h1"
             label="Reform Outcomes"
             title="What Happens After Repeal?"
             subtitle="Every CON reform bill faces the same opposition testimony: 'repeal will close rural hospitals.' These three states provide the answer, with data."
