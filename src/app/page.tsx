@@ -2,10 +2,14 @@ import Link from 'next/link';
 import { getAllStates, getRankings } from '@/lib/data';
 import ConMap from '@/components/ConMap';
 import StateCard from '@/components/StateCard';
+import FeaturedStateCard from '@/components/FeaturedStateCard';
 import QuickStat from '@/components/QuickStat';
 import EvidencePreview from '@/components/EvidencePreview';
 import SectionHeader from '@/components/SectionHeader';
 import IntelligencePill from '@/components/IntelligencePill';
+
+// Curated featured states - the 4 with the most compelling narratives
+const FEATURED_SLUGS = ['kentucky', 'virginia', 'georgia', 'west-virginia'];
 
 const SHARE_TEXT = encodeURIComponent(
   'In 35 jurisdictions, it is illegal to open a hospital without government permission. The Rojas Report mapped every one. https://conlaws.rojasreport.com'
@@ -21,6 +25,17 @@ const MECHANISM_STEPS = [
 export default function HomePage() {
   const states = getAllStates();
   const rankings = getRankings();
+
+  // Featured: curated worst offenders
+  const featured = FEATURED_SLUGS
+    .map(slug => states.find(s => s.slug === slug))
+    .filter((s): s is NonNullable<typeof s> => !!s);
+
+  // Rest: sort by score DESC (most restrictive first), exclude featured
+  const featuredSet = new Set(FEATURED_SLUGS);
+  const rest = [...states]
+    .filter(s => !featuredSet.has(s.slug))
+    .sort((a, b) => b.score - a.score || a.state.localeCompare(b.state));
 
   const mapStates = rankings.map((r) => {
     const stateData = states.find(s => s.state === r.state);
@@ -140,30 +155,57 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* State Grid */}
+      {/* Featured + State Grid */}
       <section id="states" className="bg-navy-dark border-b border-white/10 scroll-mt-20">
         <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="04"
             label="State Dossiers"
-            title="36 Full Investigations"
-            subtitle="Market concentration data, case law, reform status, and the names of the systems that benefit."
+            title="Start With the Worst Offenders"
+            subtitle="Four states where the monopoly is most entrenched. The data below is the rest of the map."
           />
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {states.map((s) => (
-              <StateCard
+
+          {/* Featured 4 - worst offenders with richest data */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {featured.map(s => (
+              <FeaturedStateCard
                 key={s.abbreviation}
                 state={s.state}
-                abbreviation={s.abbreviation}
                 slug={s.slug}
                 score={s.score}
                 tier={s.tier}
-                conStatus={s.con_status}
-                teaser={s.hook || s.meta_description?.substring(0, 100) || ''}
+                hook={s.hook || s.meta_description?.substring(0, 120) || ''}
               />
             ))}
           </div>
-          <div className="mt-6 text-center">
+
+          {/* All 36, sorted most restrictive first */}
+          <div className="mt-10 pt-8 border-t border-white/5">
+            <div className="flex items-baseline justify-between mb-4 flex-wrap gap-2">
+              <h3 className="font-display text-xl font-bold text-cream">
+                All 36 States
+              </h3>
+              <p className="font-body text-sm text-cream/40">
+                Sorted by restrictiveness (most to least)
+              </p>
+            </div>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+              {rest.map((s) => (
+                <StateCard
+                  key={s.abbreviation}
+                  state={s.state}
+                  abbreviation={s.abbreviation}
+                  slug={s.slug}
+                  score={s.score}
+                  tier={s.tier}
+                  conStatus={s.con_status}
+                  teaser={s.hook || ''}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-8 text-center">
             <Link
               href="/rankings/"
               className="inline-block font-body text-sm font-semibold text-orange hover:text-orange-light transition-colors"
