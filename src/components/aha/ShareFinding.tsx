@@ -13,7 +13,7 @@ export default function ShareFinding({ sectionName, slug }: ShareFindingProps) {
     ? `rojasreport.com/aha/profiles/${slug}/`
     : "rojasreport.com/aha/powermap/";
 
-  const citation = `${sectionName} -- AHA Intelligence, RojasReport.com/aha [${url}]`;
+  const citation = `${sectionName} -- AHA, RojasReport.com/aha [${url}]`;
 
   const handleCopy = async () => {
     try {

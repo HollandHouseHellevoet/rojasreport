@@ -12,7 +12,7 @@ export default function Breadcrumb({ profileName }: BreadcrumbProps) {
       </Link>
       <span className="text-border">/</span>
       <Link href="/aha/" className="hover:text-cream transition-colors">
-        AHA Intelligence
+        AHA
       </Link>
       {profileName && (
         <>

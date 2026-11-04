@@ -4,15 +4,15 @@ import profilesData from "@/data/aha/profiles.json";
 const CURRENT_COUNT = (profilesData as { status?: string }[]).filter((p) => p.status !== "former").length;
 
 export const metadata: Metadata = {
-  title: "About AHA Intelligence",
-  description: "AHA Intelligence is the definitive sourced database on the American Hospital Association's leadership, lobbying, and financial conflicts of interest.",
+  title: "About the AHA Dossiers",
+  description: "The AHA dossiers are the definitive sourced database on the American Hospital Association's leadership, lobbying, and financial conflicts of interest.",
 };
 
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
       <p className="text-xs text-orange uppercase tracking-widest font-body mb-4">About This Site</p>
-      <h1 className="font-display text-4xl font-semibold text-cream mb-10">AHA Intelligence</h1>
+      <h1 className="font-display text-4xl font-semibold text-cream mb-10">About the AHA Dossiers</h1>
 
       <div className="space-y-8 font-body leading-relaxed" style={{ fontSize: "17px", color: "#c8b89a" }}>
 
@@ -30,7 +30,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          AHA Intelligence exists to close that gap.
+          This section exists to close that gap.
         </p>
 
         <div className="border-l-4 border-orange pl-6 py-2 my-8"
@@ -66,7 +66,7 @@ export default function AboutPage() {
         </p>
 
         <p style={{ color: "#8a9bb0" }}>
-          AHA Intelligence is published by{" "}
+          The AHA dossiers are published by{" "}
           <a
             href="https://rojasreport.com"
             target="_blank"

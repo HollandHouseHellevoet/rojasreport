@@ -45,20 +45,20 @@ export async function generateMetadata({
   const firstFlag = profile.redFlags[0] || profile.patternSummary || "";
   const description = `${firstFlag} ${profile.patternSummary}`.slice(0, 155);
   return {
-    title: `${profile.name || slug}: AHA Intelligence Dossier`,
+    title: `${profile.name || slug}: AHA Dossier`,
     description,
     alternates: {
       canonical: `https://rojasreport.com/aha/profiles/${slug}/`,
     },
     openGraph: {
-      title: `${profile.name || slug} -- AHA Intelligence Dossier`,
+      title: `${profile.name || slug} -- AHA Dossier`,
       description,
       url: `https://rojasreport.com/aha/profiles/${slug}/`,
       images: [{ url: "https://rojasreport.com/aha/og-image.png", width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
-      title: `${profile.name || slug}: AHA Intelligence Dossier`,
+      title: `${profile.name || slug}: AHA Dossier`,
       description,
       images: ["https://rojasreport.com/aha/og-image.png"],
       site: "@TheRojasReport",

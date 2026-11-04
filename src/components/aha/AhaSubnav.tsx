@@ -22,7 +22,7 @@ export default function AhaSubnav() {
           href="/aha/"
           className="font-body text-[11px] font-semibold uppercase tracking-[0.15em] text-orange py-3 whitespace-nowrap"
         >
-          AHA Intelligence
+          AHA
         </Link>
         {links.map((l) => (
           <Link

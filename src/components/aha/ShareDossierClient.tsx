@@ -13,7 +13,7 @@ export default function ShareDossierClient({ name, slug, tweetText }: ShareDossi
   const handleShare = async () => {
     try {
       await navigator.clipboard.writeText(
-        `${name} -- AHA Intelligence Dossier: rojasreport.com/aha/profiles/${slug}/`
+        `${name} -- AHA Dossier: rojasreport.com/aha/profiles/${slug}/`
       );
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
