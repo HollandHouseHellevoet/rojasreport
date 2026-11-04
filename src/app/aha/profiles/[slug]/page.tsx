@@ -54,13 +54,13 @@ export async function generateMetadata({
       title: `${profile.name || slug} -- AHA Intelligence Dossier`,
       description,
       url: `https://rojasreport.com/aha/profiles/${slug}/`,
-      images: [{ url: "https://rojasreport.com/og-default.png", width: 1200, height: 630 }],
+      images: [{ url: "https://rojasreport.com/aha/og-image.png", width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${profile.name || slug}: AHA Intelligence Dossier`,
       description,
-      images: ["https://rojasreport.com/og-default.png"],
+      images: ["https://rojasreport.com/aha/og-image.png"],
       site: "@TheRojasReport",
     },
   };

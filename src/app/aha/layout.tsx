@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     description: DESCRIPTION,
     url: "https://rojasreport.com/aha/",
     siteName: "The Rojas Report",
-    images: [{ url: "https://rojasreport.com/og-default.png", width: 1200, height: 630, alt: "AHA Intelligence - The Rojas Report" }],
+    images: [{ url: "https://rojasreport.com/aha/og-image.png", width: 1200, height: 630, alt: "AHA Intelligence - The Rojas Report" }],
     locale: "en_US",
     type: "website",
   },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AHA Intelligence | The Rojas Report",
     description: DESCRIPTION,
-    images: ["https://rojasreport.com/og-default.png"],
+    images: ["https://rojasreport.com/aha/og-image.png"],
     site: "@TheRojasReport",
   },
 };
