@@ -7,6 +7,7 @@ const primaryLinks = [
   { href: '/evidence/', label: 'Evidence' },
   { href: '/#states', label: 'States' },
   { href: '/rankings/', label: 'Rankings' },
+  { href: '/aha/', label: 'AHA Intelligence' },
 ];
 
 const toolsLinks = [

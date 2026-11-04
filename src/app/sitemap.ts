@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { getAllStateSlugs } from '@/lib/data';
+import ahaProfiles from '@/data/aha/profiles.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://conlaws.rojasreport.com';
@@ -25,5 +26,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...statePages];
+  const ahaBase = 'https://rojasreport.com/aha';
+  const ahaPages = [
+    { url: `${ahaBase}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${ahaBase}/powermap/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${ahaBase}/about/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
+    ...(ahaProfiles as { slug: string }[]).map(p => ({
+      url: `${ahaBase}/profiles/${p.slug}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...staticPages, ...statePages, ...ahaPages];
 }
