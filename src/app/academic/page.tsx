@@ -66,7 +66,7 @@ const JSON_LD = {
       '@type': 'Article',
       headline: 'The AMC Debt Trap: The Most Protected Are the Most Exposed',
       datePublished: '2026-04-02',
-      dateModified: '2026-04-02',
+      dateModified: '2026-11-04',
       author: { '@type': 'Person', name: 'Dutch Rojas' },
       publisher: { '@type': 'Organization', name: 'Rojas Media LLC' },
       url: 'https://rojasreport.com/academic/',
@@ -78,7 +78,7 @@ const JSON_LD = {
 
 function HeroSection() {
   const tweetText = encodeURIComponent(
-    'The AMC Debt Trap: Five institutions issued $5B+ in new debt while operating at or below 2% margin. The most protected are the most exposed. https://rojasreport.com/academic'
+    'The AMC Debt Trap: Five institutions issued $4.6B in new debt while operating at or below 2% margin. The most protected are the most exposed. https://rojasreport.com/academic'
   );
   return (
     <section className="hero" id="thesis">
@@ -121,7 +121,7 @@ function FindingSection() {
           <span className="section-num">01</span>
           <span className="section-label">The Finding</span>
         </div>
-        <h2 className="section-h2">Five Institutions. $5B. Sub-2% Margins.</h2>
+        <h2 className="section-h2">Five Institutions. $4.6B. Sub-2% Margins.</h2>
         <p className="section-desc">
           This is not a stress indicator. This is the argument. Institutions
           borrowing at scale while operating performance deteriorates.
@@ -130,10 +130,10 @@ function FindingSection() {
 
         <div className="card-grid">
           <div className="card">
-            <div className="card-figure">$5B+</div>
+            <div className="card-figure">$4.6B</div>
             <div className="card-label">New Debt Issued</div>
             <p className="card-desc">
-              Five AMCs issued over $5 billion in combined new debt while operating
+              Five AMCs issued about $4.6 billion in combined new debt while operating
               at or below 2% margin.
             </p>
           </div>
@@ -189,8 +189,8 @@ function FindingSection() {
                 </tr>
                 <tr>
                   <td className="institution">Emory Healthcare</td>
-                  <td className="mono">$1B+</td>
-                  <td>2025 (planned)</td>
+                  <td className="mono">$862.7M</td>
+                  <td>2025</td>
                 </tr>
               </tbody>
             </table>
@@ -280,18 +280,21 @@ function LiabilitySection() {
             <h3>Assumption 2 Exposed</h3>
             <div className="card-status">NIH Indirect Cost Recovery</div>
             <p>
-              Federal scrutiny of indirect cost recovery rates hits AMC operating
-              margins directly. Institutions modeled for 26-28% recovery rates are
-              not hedged for 18%.
+              In February 2025 the administration tried to cap NIH indirect cost
+              recovery at 15%. Courts blocked it and Congress barred changes through
+              fiscal 2026, but the fiscal 2027 budget proposes the cap again. Budgets
+              built on today&apos;s negotiated rates are one appropriations cycle from a hole.
             </p>
           </div>
           <div className="card">
             <h3>Assumption 3 Legislated Away</h3>
             <div className="card-status">Pricing Power</div>
             <p>
-              Price transparency enforcement, site-neutral payment proposals, and
-              facility fee reform target the exact revenue streams that made AMC
-              debt serviceable.
+              Price transparency enforcement began in April 2026. Site-neutral pay is now
+              law for drug administration at off-campus hospital departments and proposed
+              for imaging in 2027, and from 2028 every off-campus department must bill under
+              its own provider number. Each targets a revenue stream that made AMC debt
+              serviceable.
             </p>
           </div>
         </div>
@@ -334,28 +337,28 @@ function PoliticalSection() {
 function BondTableSection() {
   const institutions = [
     { name: 'Advocate Health (Atrium)', moodys: 'Aa2', sp: 'N/F', outlook: 'Stable', debt: '~$7.4B', action: 'Upgraded Aa3\u2192Aa2 (Oct 2025)', unverified: true },
-    { name: 'UPMC', moodys: 'A2', sp: 'A', outlook: 'Stable', debt: '~$6.2B+', action: '$1.6B issuance (2025) after 2yr losses', unverified: false },
-    { name: 'Mass General Brigham', moodys: 'Aa3', sp: 'N/F', outlook: 'Stable', debt: '~$6.0B', action: 'Affirmed Aa3, stable', unverified: true },
+    { name: 'UPMC', moodys: 'A2', sp: 'A', outlook: 'Stable', debt: '~$6.2B+', action: 'Ratings affirmed (Mar 2026); Fitch outlook negative\u2192stable', unverified: false },
+    { name: 'Mass General Brigham', moodys: 'Aa3', sp: 'N/F', outlook: 'Stable', debt: '~$6.0B', action: '$865.5M new bonds (Apr 2026), Aa3 stable', unverified: false },
     { name: 'Cleveland Clinic', moodys: 'Aa2', sp: 'AA', outlook: 'Stable', debt: '~$5.0B', action: '$440M new issuance (2025)', unverified: true },
-    { name: 'Northwell Health', moodys: 'A3', sp: 'A-', outlook: 'Stable', debt: '~$4.9B', action: '$762.8M issuance at <2% margin', unverified: false },
+    { name: 'Northwell Health', moodys: 'A3', sp: 'A-', outlook: 'Stable', debt: '~$4.9B', action: '$762.8M (2024); up to $800M more filed (Aug 2026)', unverified: false },
     { name: 'Mayo Clinic', moodys: 'Aa2', sp: 'AA', outlook: 'Stable', debt: '~$4.7B', action: '~$400M Series 2025 bonds', unverified: false },
     { name: 'Intermountain Health', moodys: 'Aa1', sp: 'AA+', outlook: 'Stable', debt: '~$4.3B', action: 'Affirmed Aa1, stable', unverified: true },
     { name: 'Baylor Scott & White', moodys: 'Aa2', sp: 'AA-', outlook: 'Stable', debt: '~$3.9B', action: 'Upgraded Aa3\u2192Aa2 (Feb 2025)', unverified: false },
-    { name: 'NYU Langone Health', moodys: 'A1', sp: 'A+', outlook: 'Stable', debt: '~$3.2B', action: 'Affirmed A1, stable (Feb 2025)', unverified: false },
+    { name: 'NYU Langone Health', moodys: 'A1', sp: 'A+', outlook: 'Stable', debt: '~$3.2B', action: 'A1/A+ unchanged (Mar 2026)', unverified: false },
     { name: 'Stanford Health Care', moodys: 'Aa2', sp: 'AA-', outlook: 'Stable', debt: '~$2.2B', action: 'Upgraded Aa3\u2192Aa2 (May 2025)', unverified: false },
-    { name: 'Duke Univ Health System', moodys: 'Aa3', sp: 'AA-', outlook: 'Stable', debt: '~$2.1B', action: '~$743M issuance at -1.5% margin', unverified: false },
+    { name: 'Duke Univ Health System', moodys: 'Aa3', sp: 'AA-', outlook: 'Stable', debt: '~$2.1B', action: '~$743M issuance at -1.5% margin (2025)', unverified: false },
     { name: 'Johns Hopkins', moodys: 'Aa2', sp: 'N/F', outlook: 'Stable', debt: '~$1.9B', action: 'Affirmed Aa2, stable', unverified: true },
-    { name: 'Yale New Haven Health', moodys: 'A1', sp: 'N/F', outlook: 'Stable', debt: '~$1.7B', action: 'Downgraded Aa3\u2192A1 (May 2023)', unverified: false },
+    { name: 'Yale New Haven Health', moodys: 'A1', sp: 'AA-', outlook: 'Negative (S&P)', debt: '~$1.7B', action: 'S&P outlook revised to negative (fall 2025)', unverified: false },
     { name: 'Northwestern Memorial', moodys: 'Aa2', sp: 'AA+', outlook: 'Stable', debt: '~$1.7B', action: 'Affirmed Aa2, stable', unverified: true },
     { name: 'Cedars-Sinai', moodys: 'Aa3', sp: 'N/F', outlook: 'Stable', debt: '~$1.1B', action: 'Affirmed Aa3, stable', unverified: true },
-    { name: 'UC Health (Colorado)', moodys: 'Aa3', sp: 'N/F', outlook: 'Positive', debt: '~$1.1B', action: 'Outlook \u2192 positive (2021)', unverified: true },
+    { name: 'UC Health (Colorado)', moodys: 'Aa3', sp: 'N/F', outlook: 'Stable', debt: '~$1.1B', action: 'Fitch upgraded AA\u2192AA+ (Mar 2026)', unverified: true },
     { name: 'OSF HealthCare', moodys: 'WD', sp: 'A', outlook: 'Stable', debt: 'N/F', action: "Moody's withdrawn (Oct 2022)", unverified: false },
-    { name: 'Vanderbilt UMC', moodys: 'A3', sp: 'N/F', outlook: 'Stable', debt: '~$0.9B', action: 'Affirmed A3, stable (2019)', unverified: false },
+    { name: 'Vanderbilt UMC', moodys: 'A3', sp: 'N/F', outlook: 'Negative (2021)', debt: '~$2.4B', action: 'Debt $2.42B (Mar 2025); last Moody\u2019s action Oct 2021', unverified: true },
     { name: 'WakeMed', moodys: 'A2', sp: 'N/F', outlook: 'Stable', debt: '~$0.76B', action: 'Outlook stable from negative (2024)', unverified: false },
-    { name: 'Penn Medicine (UPHS)', moodys: 'Aa3', sp: 'N/F', outlook: 'Stable', debt: 'N/F', action: 'Affirmed Aa3, stable (2021)', unverified: false },
+    { name: 'Penn Medicine (UPHS)', moodys: 'Aa3', sp: 'N/F', outlook: 'Stable', debt: '~$2.3B', action: 'Moody\u2019s affirmed Aa3, stable (FY2024 review)', unverified: false },
     { name: 'U of Michigan Health', moodys: 'Aa2', sp: 'AA+', outlook: 'Stable', debt: 'N/F', action: 'Hospital Aa2/AA+ (univ Aaa/AAA)', unverified: false },
     { name: 'Houston Methodist', moodys: 'N/F', sp: 'AA', outlook: 'Stable', debt: 'N/F', action: 'Fitch AA, stable', unverified: true },
-    { name: 'Emory Healthcare', moodys: 'N/F', sp: 'N/F', outlook: 'Negative', debt: 'N/F', action: '$1B+ issuance planned (2025)', unverified: false },
+    { name: 'Emory Healthcare', moodys: 'N/F', sp: 'N/F', outlook: 'Negative (Jan 2024)', debt: 'N/F', action: '$862.7M priced (June 2025)', unverified: false },
     { name: 'UCSF Health', moodys: 'Aa2*', sp: 'AA*', outlook: 'Stable', debt: 'N/F', action: 'UC system-level ratings', unverified: false },
     { name: 'Ochsner Health', moodys: 'A3', sp: 'A', outlook: 'Stable', debt: 'N/F', action: 'Affirmed A3/A, stable', unverified: false },
   ];
@@ -413,24 +416,24 @@ function BondTableSection() {
             <div className="card-figure">8</div>
             <div className="card-label">Below Aa3 / AA-</div>
             <p className="card-desc">
-              32% of the cohort rated below the Aa3/AA- threshold, carrying ~$18.8B+
+              32% of the cohort rated below the Aa3/AA- threshold, carrying ~$19.2B+
               in combined long-term debt.
             </p>
           </div>
           <div className="card">
-            <div className="card-figure">1</div>
-            <div className="card-label">Negative Outlook</div>
+            <div className="card-figure">2</div>
+            <div className="card-label">Negative Outlooks</div>
             <p className="card-desc">
-              Emory Healthcare on confirmed negative outlook. WakeMed and Yale New
-              Haven recently stabilized from negative.
+              Yale New Haven (S&amp;P, revised fall 2025) and Emory Healthcare
+              (Moody&apos;s, last confirmed January 2024).
             </p>
           </div>
           <div className="card">
-            <div className="card-figure">$75B+</div>
+            <div className="card-figure">$63B+</div>
             <div className="card-label">Aggregate LT Debt</div>
             <p className="card-desc">
-              Estimated aggregate long-term debt across all 25 institutions. $63.8B
-              confirmed; remainder extrapolated.
+              Long-term debt across the 19 institutions with published figures: about
+              $62.9B. The other 6 are not found, so the true total is higher.
             </p>
           </div>
         </div>
@@ -588,7 +591,7 @@ function CitationsSection() {
           </li>
         </ol>
         <p className="table-caption" style={{ marginTop: '24px' }}>
-          Dutch Rojas &middot; Rojas Media LLC &middot; Last updated April 2, 2026
+          Dutch Rojas &middot; Rojas Media LLC &middot; Last updated November 4, 2026
         </p>
       </div>
     </section>
