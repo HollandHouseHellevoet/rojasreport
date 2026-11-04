@@ -6,12 +6,12 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Certificate of Need Laws by State | CON Law Intelligence | The Rojas Report',
+    default: 'The Rojas Report | Healthcare Intelligence',
     template: '%s | The Rojas Report',
   },
   description:
-    'In 35 jurisdictions, it is illegal to open a hospital without government permission. Complete intelligence on every CON state: rankings, market data, case law, reform status.',
-  metadataBase: new URL('https://conlaws.rojasreport.com'),
+    'Healthcare intelligence: who writes the rules, who buys the outcome, who gets paid, and where every fight over American healthcare stands. Sourced to public records.',
+  metadataBase: new URL('https://rojasreport.com'),
   openGraph: {
     images: [{ url: '/og/home.svg', width: 1200, height: 630 }],
   },

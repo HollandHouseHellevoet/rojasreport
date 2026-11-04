@@ -1,0 +1,71 @@
+[
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "question": "Who writes the rules",
+    "desks": [
+      { "name": "Ways & Means", "href": "https://waysandmeans.rojasreport.com", "status": "live", "blurb": "Every member's healthcare record, votes and money." },
+      { "name": "HHS Healthcare Advisory Committee", "href": "https://hac.rojasreport.com", "status": "live", "blurb": "Who advises HHS, and what they stand to gain." },
+      { "name": "Energy & Commerce", "status": "planned" },
+      { "name": "Senate HELP", "status": "planned" },
+      { "name": "Senate Finance", "status": "planned" },
+      { "name": "GOP Doctors Caucus", "status": "planned" },
+      { "name": "Machine Score", "status": "planned", "blurb": "A 0-100 score for every member of Congress." }
+    ]
+  },
+  {
+    "slug": "lobby",
+    "name": "The Lobby",
+    "question": "Who buys the outcome",
+    "desks": [
+      { "name": "American Hospital Association", "href": "/aha/", "status": "live", "stat": "$25.5M", "statLabel": "federal lobbying, 2025", "blurb": "The 2027 board and executive team: pay, lobbying, red flags." },
+      { "name": "Federation of American Hospitals", "href": "https://fah.rojasreport.com", "status": "live", "blurb": "The for-profit hospital lobby: board, lobbying, PAC." },
+      { "name": "Lobbying firms", "status": "planned" },
+      { "name": "Hospital PACs", "status": "planned" },
+      { "name": "State hospital associations", "status": "planned" }
+    ]
+  },
+  {
+    "slug": "systems",
+    "name": "The Systems",
+    "question": "Who gets paid",
+    "desks": [
+      { "name": "Academic medical centers", "href": "/academic/", "status": "live", "stat": "$4.6B", "statLabel": "new debt at sub-2% margins", "blurb": "The AMC Debt Trap: the most protected are the most exposed." },
+      { "name": "Every nonprofit health system", "status": "planned", "blurb": "A dossier on each: pay, charity care, tax exemption, aircraft." },
+      { "name": "Executive pay", "status": "planned" }
+    ]
+  },
+  {
+    "slug": "fights",
+    "name": "The Fights",
+    "question": "How the game is rigged, and who's trying to change it",
+    "desks": [
+      { "name": "Certificate of need", "href": "/con/", "status": "live", "stat": "35", "statLabel": "jurisdictions require permission to compete", "blurb": "Rankings, case law and reform status in every CON state." },
+      { "name": "Physician-owned hospitals", "href": "https://poh.rojasreport.com", "status": "live", "blurb": "The 2010 ban on physician-owned hospitals, state by state." },
+      { "name": "340B program reform", "status": "planned" },
+      { "name": "Site-neutral payment", "status": "planned" },
+      { "name": "Price transparency", "status": "planned" },
+      { "name": "Single payer", "status": "planned" },
+      { "name": "Stark and Anti-Kickback", "status": "planned" }
+    ]
+  },
+  {
+    "slug": "states",
+    "name": "The States",
+    "question": "Where it costs you",
+    "desks": [
+      { "name": "CON state pages", "href": "/con/", "status": "live", "blurb": "Every CON state: rankings, scope, case law, reform." },
+      { "name": "State dossiers", "status": "planned", "blurb": "Why healthcare costs what it does in every state." },
+      { "name": "AG oversight of nonprofit systems", "status": "planned" }
+    ]
+  },
+  {
+    "slug": "physicians",
+    "name": "Physicians",
+    "question": "What you can do about it",
+    "desks": [
+      { "name": "Build assets, beat the systems", "status": "planned", "blurb": "How independent physicians own what they build." },
+      { "name": "Direct contracting", "status": "planned" }
+    ]
+  }
+]

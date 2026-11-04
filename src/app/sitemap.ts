@@ -3,11 +3,13 @@ import { getAllStateSlugs } from '@/lib/data';
 import ahaProfiles from '@/data/aha/profiles.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://conlaws.rojasreport.com';
+  const baseUrl = 'https://rojasreport.com';
   const now = new Date().toISOString();
 
   const staticPages = [
     { url: `${baseUrl}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 1.0 },
+    { url: `${baseUrl}/con/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/academic/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/rankings/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/scope/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/compare/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },

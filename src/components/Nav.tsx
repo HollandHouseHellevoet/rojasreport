@@ -4,13 +4,18 @@ import { useState } from 'react';
 import Link from 'next/link';
 
 const primaryLinks = [
-  { href: '/evidence/', label: 'Evidence' },
-  { href: '/#states', label: 'States' },
-  { href: '/rankings/', label: 'Rankings' },
-  { href: '/aha/', label: 'AHA' },
+  { href: '/washington/', label: 'Washington' },
+  { href: '/lobby/', label: 'The Lobby' },
+  { href: '/systems/', label: 'The Systems' },
+  { href: '/fights/', label: 'The Fights' },
+  { href: '/states/', label: 'The States' },
+  { href: '/physicians/', label: 'Physicians' },
 ];
 
 const toolsLinks = [
+  { href: '/con/', label: 'CON Home' },
+  { href: '/evidence/', label: 'Evidence' },
+  { href: '/rankings/', label: 'Rankings' },
   { href: '/scope/', label: 'Scope Matrix' },
   { href: '/compare/', label: 'Compare' },
   { href: '/reform/', label: 'Reform Tracker' },
@@ -27,10 +32,8 @@ export default function Nav() {
     <nav className="bg-navy border-b border-orange print:hidden">
       <div className="max-w-content mx-auto px-5 py-4 flex items-center justify-between">
         {/* Brand - links to parent site */}
-        <a
-          href="https://rojasreport.com"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="/"
           className="flex flex-col"
           onClick={() => setOpen(false)}
         >
@@ -40,10 +43,10 @@ export default function Nav() {
           <span className="font-body text-[11px] font-semibold text-orange tracking-[0.15em] uppercase mt-0.5">
             Healthcare Intelligence
           </span>
-        </a>
+        </Link>
 
         {/* Desktop links */}
-        <div className="hidden md:flex items-center gap-6 font-body text-[15px]">
+        <div className="hidden lg:flex items-center gap-5 font-body text-[14px]">
           {primaryLinks.map(link => (
             <Link
               key={link.href}
@@ -65,7 +68,7 @@ export default function Nav() {
               onClick={() => setToolsOpen(!toolsOpen)}
               aria-expanded={toolsOpen}
             >
-              Tools
+              CON Tools
               <svg width="10" height="10" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5"><polyline points="3 5 6 8 9 5"/></svg>
             </button>
             {toolsOpen && (
@@ -84,14 +87,6 @@ export default function Nav() {
             )}
           </div>
 
-          <a
-            href="https://rojasreport.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cream/60 hover:text-cream transition-colors"
-          >
-            rojasreport.com
-          </a>
 
           <a
             href="https://read.rojasreport.com"
@@ -105,7 +100,7 @@ export default function Nav() {
 
         {/* Mobile hamburger */}
         <button
-          className="md:hidden text-cream/60 hover:text-cream p-1"
+          className="lg:hidden text-cream/60 hover:text-cream p-1"
           onClick={() => setOpen(!open)}
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
@@ -120,7 +115,7 @@ export default function Nav() {
 
       {/* Mobile dropdown */}
       {open && (
-        <div className="md:hidden border-t border-white/10 bg-navy-dark">
+        <div className="lg:hidden border-t border-white/10 bg-navy-dark">
           <div className="max-w-content mx-auto px-5 py-4 flex flex-col gap-3">
             {[...primaryLinks, ...toolsLinks].map(link => (
               <Link
@@ -132,15 +127,6 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="https://rojasreport.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-cream/60 hover:text-cream transition-colors font-body text-[15px] py-1"
-              onClick={() => setOpen(false)}
-            >
-              rojasreport.com
-            </a>
             <a
               href="https://read.rojasreport.com"
               target="_blank"
