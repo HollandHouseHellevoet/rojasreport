@@ -30,7 +30,7 @@
     "name": "The Systems",
     "question": "Who gets paid",
     "desks": [
-      { "name": "Academic medical centers", "href": "/academic/", "status": "live", "stat": "$4.6B", "statLabel": "new debt at sub-2% margins", "blurb": "The AMC Debt Trap: the most protected are the most exposed." },
+      { "name": "Academic medical centers", "href": "/academic/", "status": "live", "stat": "$5.5B", "statLabel": "new debt at sub-2% margins", "blurb": "The AMC Debt Trap: the most protected are the most exposed." },
       { "name": "Every nonprofit health system", "status": "planned", "blurb": "A dossier on each: pay, charity care, tax exemption, aircraft." },
       { "name": "Executive pay", "status": "planned" }
     ]

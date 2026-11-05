@@ -78,7 +78,7 @@ const JSON_LD = {
 
 function HeroSection() {
   const tweetText = encodeURIComponent(
-    'The AMC Debt Trap: Five institutions issued $4.6B in new debt while operating at or below 2% margin. The most protected are the most exposed. https://rojasreport.com/academic'
+    'The AMC Debt Trap: Six institutions issued $5.5B in new debt while operating at or below 2% margin. The most protected are the most exposed. https://rojasreport.com/academic'
   );
   return (
     <section className="hero" id="thesis">
@@ -121,7 +121,7 @@ function FindingSection() {
           <span className="section-num">01</span>
           <span className="section-label">The Finding</span>
         </div>
-        <h2 className="section-h2">Five Institutions. $4.6B. Sub-2% Margins.</h2>
+        <h2 className="section-h2">Six Institutions. $5.5B. Sub-2% Margins.</h2>
         <p className="section-desc">
           This is not a stress indicator. This is the argument. Institutions
           borrowing at scale while operating performance deteriorates.
@@ -130,18 +130,18 @@ function FindingSection() {
 
         <div className="card-grid">
           <div className="card">
-            <div className="card-figure">$4.6B</div>
+            <div className="card-figure">$5.5B</div>
             <div className="card-label">New Debt Issued</div>
             <p className="card-desc">
-              Five AMCs issued about $4.6 billion in combined new debt while operating
+              Six AMCs issued about $5.5 billion in combined new debt while operating
               at or below 2% margin.
             </p>
           </div>
           <div className="card">
-            <div className="card-figure">5</div>
+            <div className="card-figure">6</div>
             <div className="card-label">Institutions</div>
             <p className="card-desc">
-              UPMC, Northwell, Duke, Yale New Haven, and Emory. Named. Documented.
+              UPMC, Northwell, Duke, Yale New Haven, Emory, and Mass General Brigham. Named. Documented.
               On the record.
             </p>
           </div>
@@ -155,7 +155,7 @@ function FindingSection() {
           </div>
         </div>
 
-        {/* 5-institution issuance table */}
+        {/* 6-institution issuance table */}
         <div style={{ marginTop: '36px' }}>
           <div className="table-wrap">
             <table className="data-table">
@@ -191,6 +191,11 @@ function FindingSection() {
                   <td className="institution">Emory Healthcare</td>
                   <td className="mono">$862.7M</td>
                   <td>2025</td>
+                </tr>
+                <tr>
+                  <td className="institution">Mass General Brigham</td>
+                  <td className="mono">$865.5M</td>
+                  <td>2026</td>
                 </tr>
               </tbody>
             </table>
