@@ -137,10 +137,9 @@ export default async function HomePage() {
           <p className="font-body text-cream/65 max-w-2xl mb-8 leading-relaxed">
             For independent physicians: own what you build, contract directly, and stop financing the systems that compete with you.
           </p>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2">
             {[
               { name: 'MedMerge', href: 'https://medmerge.co', blurb: 'Physician benefits.' },
-              { name: 'Cornerstone Indemnity', href: 'https://drcaptives.com', blurb: 'Physician-owned malpractice captives.' },
               { name: 'PhyCap Fund', href: 'https://www.phycapfund.com', blurb: 'Capital for physician-led companies.' },
             ].map((c) => (
               <a key={c.name} href={c.href} className="group block border border-white/10 hover:border-orange/60 transition-colors p-4">
