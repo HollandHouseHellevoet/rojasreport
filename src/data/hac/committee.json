@@ -1,9 +1,9 @@
 {
   "name": "Healthcare Advisory Committee",
   "shortName": "HAC",
-  "announced": "March 27, 2026",
-  "authority": "Public Health Service Act; Federal Advisory Committee Act",
-  "reportsTo": "HHS Secretary Robert F. Kennedy Jr. and CMS Administrator Mehmet Oz",
+  "announced": "March 26, 2026",
+  "authority": "Section 222 of the Public Health Service Act (42 U.S.C. 217a); Federal Advisory Committee Act",
+  "reportsTo": "HHS Secretary Robert F. Kennedy Jr. and CMS Administrator Mehmet Oz. CMS staffs the committee and the Administrator appoints its members.",
   "focusAreas": "Chronic disease prevention, outcomes accountability, real-time data, vulnerable populations, Medicare Advantage sustainability",
   "memberCount": 18,
   "nominations": "400+",
@@ -11,17 +11,61 @@
   "thesis": "The committee is built to protect the incumbent healthcare industrial complex: large hospital systems, Medicare Advantage insurers, value-based care platforms, and the health IT infrastructure that serves them. The branding promises disruption. The roster guarantees continuity.",
   "thesisDate": "The Rojas Report, March 28, 2026",
   "sectorBreakdown": [
-    { "sector": "Hospital systems and finance", "count": 3, "members": "Gassen, Laraway, Liljenquist" },
-    { "sector": "Value-based care and managed care", "count": 3, "members": "Bessler, Carmouche, Gudapati" },
-    { "sector": "Primary care consolidation", "count": 1, "members": "Fields" },
-    { "sector": "Insurance-adjacent and claims", "count": 2, "members": "Rhee, R. Thomas" },
-    { "sector": "For-profit behavioral health", "count": 1, "members": "Lynch" },
-    { "sector": "Government (CMS)", "count": 2, "members": "Brandt, Carlton" },
-    { "sector": "Venture capital and health tech", "count": 1, "members": "Caliri" },
-    { "sector": "Wellness and celebrity", "count": 1, "members": "Robbins" },
-    { "sector": "State government", "count": 2, "members": "McElroy, Huhn" },
-    { "sector": "Safety net and FQHCs", "count": 1, "members": "Thomas-Hemak" },
-    { "sector": "Nursing homes and post-acute care", "count": 1, "members": "Fago" }
+    {
+      "sector": "Hospital systems and finance",
+      "count": 3,
+      "members": "Gassen, Laraway, Liljenquist"
+    },
+    {
+      "sector": "Value-based care and managed care",
+      "count": 3,
+      "members": "Bessler, Carmouche, Gudapati"
+    },
+    {
+      "sector": "Primary care consolidation",
+      "count": 1,
+      "members": "Fields"
+    },
+    {
+      "sector": "Insurance-adjacent and claims",
+      "count": 2,
+      "members": "Rhee, R. Thomas"
+    },
+    {
+      "sector": "For-profit behavioral health",
+      "count": 1,
+      "members": "Lynch"
+    },
+    {
+      "sector": "Government (CMS)",
+      "count": 2,
+      "members": "Brandt, Carlton"
+    },
+    {
+      "sector": "Venture capital and health tech",
+      "count": 1,
+      "members": "Caliri"
+    },
+    {
+      "sector": "Wellness and celebrity",
+      "count": 1,
+      "members": "Robbins"
+    },
+    {
+      "sector": "State government",
+      "count": 2,
+      "members": "McElroy, Huhn"
+    },
+    {
+      "sector": "Safety net and FQHCs",
+      "count": 1,
+      "members": "Thomas-Hemak"
+    },
+    {
+      "sector": "Nursing homes and post-acute care",
+      "count": 1,
+      "members": "Fago"
+    }
   ],
   "notAtTable": [
     "Independent physician practice owners",
@@ -37,5 +81,133 @@
     "Academic researchers on hospital market concentration",
     "State attorney general staff investigating health system pricing"
   ],
-  "sources": []
+  "sources": [
+    {
+      "label": "Committee charter (CMS)",
+      "url": "https://www.cms.gov/files/document/healthcare-advisory-committee-charter.pdf"
+    },
+    {
+      "label": "CMS press release naming the members, March 26, 2026",
+      "url": "https://www.cms.gov/newsroom/press-releases/hhs-cms-announce-healthcare-advisory-committee-members-improve-patient-care-modernize-u-s-healthcare"
+    },
+    {
+      "label": "CMS committee overview and roster",
+      "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+    },
+    {
+      "label": "Meeting notice, 91 FR 27052 (May 13, 2026)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-05-13/html/2026-09444.htm"
+    },
+    {
+      "label": "FY2026-27 meeting schedule, 91 FR 49433 (Aug. 4, 2026)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/html/2026-15786.htm"
+    },
+    {
+      "label": "Bylaws",
+      "url": "https://www.cms.gov/files/document/hac-bylaws.pdf"
+    },
+    {
+      "label": "Orientation meeting summary, May 18, 2026",
+      "url": "https://www.cms.gov/files/document/hac-orientation-meeting-summary.pdf"
+    },
+    {
+      "label": "Meeting 3 agenda, Nov. 9, 2026",
+      "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+    }
+  ],
+  "chair": "Clive K. Fields, MD (VillageMD co-founder)",
+  "dfo": "Morgan Taylor, CMS",
+  "charter": "Signed August 19, 2025; amended March 16, 2026 to allow up to 20 members. Two-year terms for members and the chair.",
+  "nextMeeting": {
+    "date": "2026-11-09",
+    "text": "Virtual public meeting. The committee votes on 15 working-group recommendations, including site-neutral pricing, Medicare Advantage and VA payment overlap, broker reform and Food is Medicine in Medicaid.",
+    "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+  },
+  "meetings": [
+    {
+      "date": "2026-05-18",
+      "label": "Orientation (closed) and Meeting 1 (public)",
+      "text": "Members sworn in; bylaws adopted 15 to 0; six working groups formed. Kennedy and Oz attended the closed session. Robbins absent, sworn in the next day.",
+      "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+    },
+    {
+      "date": "2026-08-31",
+      "label": "Meeting 2 (virtual)",
+      "text": "Agenda: each working group presents its vision and initial ideas. No summary, transcript or coverage located as of November 6, 2026.",
+      "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15786/healthcare-advisory-committee-hac-announcement-of-the-hac-meetings-for-fiscal-year-2026-2027"
+    },
+    {
+      "date": "2026-11-09",
+      "label": "Meeting 3 (virtual)",
+      "text": "Vote on 15 proposed recommendations: collaborative care, Food is Medicine in Medicaid, site-neutral pricing, real-time claims integrity, Medicare Advantage and VA overlap ($22 billion), agent and broker reform, plan transparency, credentialing through the National Provider Directory, Medicaid data modernization.",
+      "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+    },
+    {
+      "date": "2027-02-22",
+      "label": "Meeting 4 (virtual, scheduled)",
+      "text": "Working-group proposals and votes.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/html/2026-15786.htm"
+    },
+    {
+      "date": "2027-05-10",
+      "label": "Meeting 5 (virtual, scheduled)",
+      "text": "Not yet posted.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-04/html/2026-15786.htm"
+    }
+  ],
+  "workingGroups": [
+    {
+      "name": "MAHA wellness and chronic disease",
+      "lead": "Fields",
+      "members": "Lynch, Robbins"
+    },
+    {
+      "name": "Reducing administrative burden",
+      "lead": "Liljenquist",
+      "members": "Laraway, Thomas-Hemak"
+    },
+    {
+      "name": "Deploying real-time data",
+      "lead": "Caliri",
+      "members": "Carmouche, Carlton"
+    },
+    {
+      "name": "Improving care for vulnerable populations",
+      "lead": "Rhee",
+      "members": "Huhn, Gassen"
+    },
+    {
+      "name": "Strengthening Medicare Advantage",
+      "lead": "Bessler",
+      "members": "McElroy, Fago"
+    },
+    {
+      "name": "Crushing fraud, waste and abuse",
+      "lead": "Russ Thomas",
+      "members": "Brandt, Gudapati"
+    }
+  ],
+  "workProducts": "Bylaws and Meeting 1 materials only. No report or recommendation has been sent to HHS or CMS as of November 6, 2026.",
+  "scrutiny": [
+    {
+      "date": "2026-04-06",
+      "text": "AACOM: no osteopathic physicians were appointed.",
+      "url": "https://www.aacom.org/news-reports/news/2026/04/06/hhs-and-cms-appoint-members-to-new-healthcare-advisory-committee"
+    },
+    {
+      "date": "2026-05-13",
+      "text": "Public Citizen: financial conflicts are widespread and no patient or consumer representative sits on the committee.",
+      "url": "https://www.citizen.org/article/trumps-new-corporate-interest-healthcare-advisory-panel/"
+    },
+    {
+      "date": "2026-07-14",
+      "text": "Senators Merkley and Wyden wrote to Kennedy and Oz: most members are executives or investors who stand to benefit; they question FACA balance. No reply found.",
+      "url": "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/"
+    },
+    {
+      "date": "2026-08-01",
+      "text": "Public Citizen urged HHS and CMS to disband or reconstitute the committee.",
+      "url": "https://www.citizen.org/article/outrage-of-the-month-trumps-corporate-interest-healthcare-advisory-panel/"
+    }
+  ]
 }

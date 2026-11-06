@@ -22,21 +22,21 @@ const sectorMap = [
   { sector: "Value-based care and managed care", members: [
     { name: "Robert Bessler, MD", slug: "robert-bessler", org: "Honest Health" },
     { name: "David Carmouche, MD", slug: "david-carmouche", org: "Lumeris" },
-    { name: "Jenni Gudapati, PhD", slug: "jenni-gudapati", org: "Amethyst Solutions / Boise State" },
+    { name: "Jenni Gudapati, PhD", slug: "jenni-gudapati", org: "HealthyInsights.ai / Boise State" },
   ]},
   { sector: "Primary care consolidation", members: [
-    { name: "Clive K. Fields, MD", slug: "clive-fields", org: "VillageMD (private-equity owned)" },
+    { name: "Clive K. Fields, MD", slug: "clive-fields", org: "VillageMD co-founder and former CMO; committee chair" },
   ]},
   { sector: "Insurance-adjacent and claims infrastructure", members: [
     { name: "Kyu Rhee, MD", slug: "kyu-rhee", org: "NACHC; Providence Health Plan board" },
     { name: "Russ Thomas, JD", slug: "russ-thomas", org: "Availity (insurer-owned)" },
   ]},
   { sector: "For-profit behavioral health", members: [
-    { name: "Andrew Lynch, PhD", slug: "andrew-lynch", org: "Acadia Healthcare" },
+    { name: "Andrew Lynch, PhD", slug: "andrew-lynch", org: "Acadia Healthcare (280 facilities)" },
   ]},
   { sector: "Government (CMS, ex officio)", members: [
     { name: "Kimberly Brandt, JD", slug: "kimberly-brandt", org: "CMS Deputy Administrator and COO" },
-    { name: "Stephanie Carlton", slug: "stephanie-carlton", org: "CMS Deputy Administrator and Chief of Staff" },
+    { name: "Stephanie Carlton", slug: "stephanie-carlton", org: "CMS Deputy Administrator and Chief Clinical AI Officer" },
   ]},
   { sector: "Venture capital and health tech", members: [
     { name: "Sebastian Caliri", slug: "sebastian-caliri", org: "8VC ($6B+ under management)" },

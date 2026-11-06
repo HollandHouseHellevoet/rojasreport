@@ -51,8 +51,10 @@ export default function HacPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             {[
               ["Announced", committee.announced],
-              ["Authority", committee.authority],
+              ["Chair", committee.chair],
               ["Reports to", committee.reportsTo],
+              ["Charter", committee.charter],
+              ["Authority", committee.authority],
               ["Stated focus areas", committee.focusAreas],
             ].map(([k, v]) => (
               <div key={k} className="bg-navy-light p-6 border-t-2 border-orange">
@@ -62,6 +64,59 @@ export default function HacPage() {
             ))}
           </div>
 
+          <div className="bg-navy-dark border border-orange/30 p-6 sm:p-8 mb-12">
+            <Label className="mb-2">Next meeting · {fmtDate(committee.nextMeeting.date)}</Label>
+            <p className="font-body text-cream/85 leading-relaxed">{committee.nextMeeting.text}{" "}
+              <a href={committee.nextMeeting.url} target="_blank" rel="noopener noreferrer" className="text-orange hover:text-orange-light underline underline-offset-2">Agenda</a>
+            </p>
+          </div>
+
+          <h3 className="font-display text-2xl text-cream font-semibold mb-4">Meetings</h3>
+          <div className="overflow-x-auto mb-12">
+            <table className="w-full text-left" aria-label="Meetings">
+              <thead>
+                <tr className="border-b border-white/20">
+                  {["Date", "Meeting", "What happened"].map((h) => (
+                    <th key={h} className="font-body text-xs uppercase tracking-widest text-orange py-3 pr-4">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {committee.meetings.map((m) => (
+                  <tr key={m.date + m.label} className="border-b border-white/5 align-top">
+                    <td className="font-body text-sm text-cream whitespace-nowrap py-3 pr-4">{fmtDate(m.date)}</td>
+                    <td className="font-body text-sm text-cream/80 py-3 pr-4"><a href={m.url} target="_blank" rel="noopener noreferrer" className="hover:text-orange underline underline-offset-2">{m.label}</a></td>
+                    <td className="font-body text-sm text-cream/70 py-3">{m.text}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h3 className="font-display text-2xl text-cream font-semibold mb-4">Working groups</h3>
+          <div className="overflow-x-auto mb-12">
+            <table className="w-full text-left" aria-label="Working groups">
+              <thead>
+                <tr className="border-b border-white/20">
+                  {["Working group", "Lead", "Members"].map((h) => (
+                    <th key={h} className="font-body text-xs uppercase tracking-widest text-orange py-3 pr-4">{h}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {committee.workingGroups.map((g) => (
+                  <tr key={g.name} className="border-b border-white/5">
+                    <td className="font-body text-sm text-cream py-3 pr-4">{g.name}</td>
+                    <td className="font-body text-sm text-orange font-semibold py-3 pr-4">{g.lead}</td>
+                    <td className="font-body text-sm text-cream/70 py-3">{g.members}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="font-body text-sm text-cream/70 mb-12">{committee.workProducts}</p>
+
+          <h3 className="font-display text-2xl text-cream font-semibold mb-4">Roster</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-left" aria-label="Full roster">
               <thead>
@@ -147,14 +202,35 @@ export default function HacPage() {
         </div>
       </section>
 
-      <section className="py-16 sm:py-24 px-4 bg-navy-dark" aria-label="The thesis">
+      <section className="py-16 sm:py-24 px-4 bg-navy-dark" aria-label="Scrutiny">
+        <div className="max-w-5xl mx-auto">
+          <Label className="mb-3">04 · Scrutiny</Label>
+          <h2 className="font-display text-3xl sm:text-[42px] text-cream font-semibold mb-10">Who has objected</h2>
+          <ul className="space-y-4">
+            {committee.scrutiny.map((s) => (
+              <li key={s.url + s.date} className="font-body text-sm text-cream/85 flex items-start gap-3">
+                <span className="text-orange whitespace-nowrap">{fmtDate(s.date)}</span>
+                <span>{s.text}{" "}<a href={s.url} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-orange underline underline-offset-2">source</a></span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="py-16 sm:py-24 px-4" aria-label="The thesis">
         <div className="max-w-4xl mx-auto">
-          <Label className="mb-3">04 · The thesis</Label>
+          <Label className="mb-3">05 · The thesis</Label>
           <h2 className="font-display text-3xl sm:text-[42px] text-cream font-semibold mb-10">The structural conclusion</h2>
           <blockquote className="border-l-4 border-orange pl-6 sm:pl-8">
             <p className="font-display text-xl sm:text-2xl text-cream/90 italic leading-relaxed">&ldquo;{committee.thesis}&rdquo;</p>
             <footer className="mt-6"><p className="font-body text-sm text-orange">{committee.thesisDate}</p></footer>
           </blockquote>
+          <h3 className="font-display text-xl font-semibold text-cream mt-16 mb-4">Sources</h3>
+          <ol className="space-y-2 list-decimal list-inside">
+            {committee.sources.map((src) => (
+              <li key={src.url} className="font-body text-sm text-cream/70"><a href={src.url} target="_blank" rel="noopener noreferrer" className="text-orange hover:text-orange-light underline underline-offset-2">{src.label}</a></li>
+            ))}
+          </ol>
         </div>
       </section>
     </article>

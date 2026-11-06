@@ -34,6 +34,14 @@ export interface Committee {
   asOf: string;
   thesis: string;
   thesisDate: string;
+  chair: string;
+  dfo: string;
+  charter: string;
+  nextMeeting: { date: string; text: string; url: string };
+  meetings: { date: string; label: string; text: string; url: string }[];
+  workingGroups: { name: string; lead: string; members: string }[];
+  workProducts: string;
+  scrutiny: { date: string; text: string; url: string }[];
   sectorBreakdown: { sector: string; count: number; members: string }[];
   notAtTable: string[];
   sources: Source[];

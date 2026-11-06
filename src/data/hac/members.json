@@ -3,21 +3,21 @@
     "slug": "elizabeth-fago",
     "name": "Elizabeth M. Fago",
     "nickname": "The Donor",
-    "title": "Founder",
-    "org": "Home Quality Management / Palm Health Partners",
+    "title": "Healthcare entrepreneur",
+    "org": "Home Quality Management (founder; sold 2007)",
     "sector": "Nursing Homes & Post-Acute Care",
     "base": "North Palm Beach, Florida",
-    "overview": "Nursing home and post-acute care empire operator. Her son Paul Walczak was convicted of diverting $7M+ from employee paychecks to fund personal luxury spending including a $2M yacht. Trump pardoned Walczak in May 2025, weeks after Fago attended a $1 million-per-person fundraiser at Mar-a-Lago. A payroll company co-owned by Walczak and Fago owed $8.3M to the IRS, growing to $10M+ by 2019.",
+    "overview": "Founded and ran Home Quality Management, a nursing home operator, and sold it in 2007. She told the committee in May 2026 that she once ran more than 100 facilities with 13,000 employees. Her son Paul Walczak, a former nursing home executive, pleaded guilty to diverting more than $7 million from employee paychecks. She gave $1 million to MAGA Inc. in April 2025 and attended a $1 million-per-person fundraiser at Mar-a-Lago. Trump pardoned Walczak weeks later; a House Judiciary Democrats staff report puts the pardon 12 days after the fundraiser. A payroll company she co-owned with Walczak owed the IRS $8.3 million, growing past $10 million by 2019. In April 2026 a West Palm Beach cancer-testing startup named her chairwoman of its advisory board, citing her committee seat.",
     "careerArc": [
       {
-        "role": "Founder",
-        "org": "Home Quality Management",
-        "period": "Current"
+        "role": "Founder and chief executive",
+        "org": "Home Quality Management (nursing homes)",
+        "period": "Sold 2007"
       },
       {
-        "role": "Operator",
-        "org": "Palm Health Partners",
-        "period": "Current"
+        "role": "Non-executive chairwoman, advisory board",
+        "org": "Advanced Oncosure Testing",
+        "period": "April 2026"
       },
       {
         "role": "Managing Member",
@@ -28,7 +28,7 @@
         "org": "Harvard Medical School Systems Biology"
       },
       {
-        "role": "Trump Nominee",
+        "role": "Trump nominee",
         "org": "National Cancer Advisory Board",
         "period": "2020"
       },
@@ -40,9 +40,10 @@
     ],
     "redFlags": [
       "Pay-to-play pattern: million-dollar Mar-a-Lago fundraiser followed by son's pardon followed by federal advisory committee appointment.",
-      "Nursing home operator on a committee advising Medicaid and Medicare, with direct financial interest in every policy recommendation.",
+      "Former nursing home operator on a committee advising Medicaid and Medicare, the programs that paid her facilities.",
       "FW Healthcare Investments sued for $6.3M in 2019 Florida appellate case.",
       "Trump pardoned multiple nursing home executives convicted of multimillion-dollar fraud.",
+      "Named by Senators Wyden and Merkley (July 2026) and in the House Judiciary Democrats report on pardons (August 2026).",
       "No evident policy expertise."
     ],
     "pohRelevance": "Nursing home and post-acute care operator with direct financial dependency on Medicare and Medicaid reimbursement. No stated interest in physician ownership or expanding competitive alternatives to consolidated systems.",
@@ -62,8 +63,49 @@
       {
         "label": "Justia: FW Healthcare Investments v. Halle",
         "url": "https://law.justia.com/cases/florida/fourth-district-court-of-appeal/2019/19-0179.html"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 1 transcript, May 18, 2026",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-transcript.pdf"
+      },
+      {
+        "label": "House Judiciary Democrats staff report, Pardons, Inc. (August 2026)",
+        "url": "https://democrats-judiciary.house.gov/sites/evo-subsites/democrats-judiciary.house.gov/files/evo-media-document/2026-08-hjc-dems-staff-report-pardons-inc.pdf"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-04-06",
+        "text": "Advanced Oncosure Testing Inc. (West Palm Beach) named Fago its first Non-Executive Chairwoman of a new advisory board, citing her HAC seat. Paid company press release, not independently confirmed.",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/revolutionary-cancer-company-oncosure-testing-160000873.html"
+      },
+      {
+        "date": "2026-05-13",
+        "text": "Public Citizen review of the committee: Fago worked in the nursing home business, raised millions for Trump; her son Paul Walczak, a former nursing home executive, was pardoned in 2025 after pleading guilty to tax crimes.",
+        "url": "https://www.citizen.org/article/trumps-new-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-07-14",
+        "text": "Senators Wyden and Merkley wrote Kennedy and Oz citing Fago's nursing home industry ties, her fundraising for Trump and the April 2025 Mar-a-Lago fundraiser, and asked about FACA compliance.",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-merkley-demand-answers-from-kennedy-oz-on-newly-formed-healthcare-advisory-committee"
+      },
+      {
+        "date": "2026-08-01",
+        "text": "Public Citizen reported the Wyden-Merkley letter argues the committee fails FACA's balance requirement and calls for removal of members tied to Trump; it names Fago's nursing home work and Trump fundraising.",
+        "url": "https://www.citizen.org/article/outrage-of-the-month-trumps-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-08-25",
+        "text": "House Judiciary Democrats' August 2026 staff report 'Pardons, Inc.' says Walczak was pardoned 12 days after his mother attended a $1 million-per-plate Trump fundraiser.",
+        "url": "https://democrats-judiciary.house.gov/sites/evo-subsites/democrats-judiciary.house.gov/files/evo-media-document/2026-08-hjc-dems-staff-report-pardons-inc.pdf"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "robert-bessler",
@@ -73,7 +115,7 @@
     "org": "Honest Health",
     "sector": "Value-Based Care / Hospital Medicine Staffing",
     "base": "Nashville, TN",
-    "overview": "Built Sound Physicians into a $2B+ hospitalist staffing empire across 450+ hospitals in 47 states over 22 years. Named CEO of Honest Health in April 2024, a value-based care company founded by Adam Boehler (former CMMI director, Trump 1.0) and Abe Sutton (current CMMI director). Honest Health raised $140M. Bessler now advises CMS on Medicare policy while his company's founders designed and currently lead the same programs.",
+    "overview": "Built Sound Physicians into a hospitalist staffing company with more than $2 billion in revenue across 450 hospitals in 47 states over 22 years. Became CEO of Honest Health in April 2024, a Nashville value-based care company founded in 2021 by Rubicon Founders investors, among them Abe Sutton, now director of the CMS Innovation Center, and Adam Boehler, who ran it in Trump's first term. Honest raised $140 million in February 2026. He leads the committee's Strengthening Medicare Advantage working group. Its recommendations go to a vote on November 9, 2026, including ending overlapping Medicare Advantage and VA payments the group puts at $22 billion a year. As a LifeStance Health director he sold about $14.8 million of LifeStance stock between April and June 2026, including a $4.6 million sale on May 12 that the filing marks as outside a trading plan.",
     "careerArc": [
       {
         "role": "CEO",
@@ -118,22 +160,87 @@
       {
         "label": "LifeStance Health Board",
         "url": "https://investor.lifestance.com/board-member/robert-bessler-md/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "SEC Form 4 filings, LifeStance Health (April to July 2026)",
+        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845257&type=4"
+      },
+      {
+        "label": "HAC Meeting 1 summary (working group leads)",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "label": "HAC Meeting 3 agenda, Nov. 9, 2026",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-04-24",
+        "text": "As a LifeStance Health (LFST) director, sold 69,899 shares on April 23 and 24 at $7.00 to $7.05 under a 10b5-1 plan, through Vitthal LLC and Shama LLC (SEC Form 4).",
+        "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526182153/ownership.xml"
+      },
+      {
+        "date": "2026-05-07",
+        "text": "Sold 75,000 LifeStance shares at a weighted average $8.55 through Vitthal LLC and Shama LLC under a 10b5-1 plan (SEC Form 4).",
+        "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526217216/ownership.xml"
+      },
+      {
+        "date": "2026-05-12",
+        "text": "Sold 575,034 LifeStance shares at $8.02 (about $4.61 million) through Vitthal LLC and Shama LLC; the filing marks the sale as not under a 10b5-1 plan (SEC Form 4).",
+        "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526224379/ownership.xml"
+      },
+      {
+        "date": "2026-05-13",
+        "text": "Public Citizen review: Honest was founded in 2021 by Rubicon Founders investors including Abe Sutton, now CMS Innovation Center director; Bessler has donated to WinRed. (Public Citizen misspells him 'Bressler'.)",
+        "url": "https://www.citizen.org/article/trumps-new-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-05-18",
+        "text": "At the first HAC meeting he was named lead of the Strengthening Medicare Advantage Working Group (risk adjustment, quality measurement, plan choice, Trust Fund sustainability).",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "date": "2026-06-26",
+        "text": "Sold 894,337 LifeStance shares at a weighted average $10.13 (about $9.06 million) through Vitthal LLC and Shama LLC, leaving 1,196,323 indirect and 57,619 direct shares (SEC Form 4).",
+        "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526290752/ownership.xml"
+      },
+      {
+        "date": "2026-07-02",
+        "text": "Received an annual director grant of 17,746 LifeStance restricted stock units (SEC Form 4).",
+        "url": "https://www.sec.gov/Archives/edgar/data/1845257/000119312526297810/ownership.xml"
+      },
+      {
+        "date": "2026-08-09",
+        "text": "Appeared with CMS Deputy Administrator Dan Brillman on Modern Healthcare's Healthcare Insider podcast on the next phase of value-based care.",
+        "url": "https://honesthealth.com/what-will-define-the-next-phase-of-value-based-care/"
+      },
+      {
+        "date": "2026-11-09",
+        "text": "His working group's recommendations up for vote: eliminate overlapping Medicare Advantage and VA payments (stated savings $22 billion a year), agent and broker reform, plan and network transparency.",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "david-carmouche",
     "name": "David Carmouche, MD",
     "nickname": "The Shapeshifter",
-    "title": "EVP & Chief Clinical Transformation Officer",
+    "title": "EVP and Chief Medical and Commercial Officer",
     "org": "Lumeris",
     "sector": "Value-Based Care / Managed Care",
-    "overview": "Has personally sat on every side of the healthcare table: insurer, health system, retail disruptor, and technology vendor. Designed payer contracts at BCBS Louisiana, ran physician and hospital networks at Ochsner, led retail health at Walmart alongside an Optum/UnitedHealth partnership, and now deploys AI for primary care teams at Lumeris. Every career move traces the consolidation of healthcare by the payer-industrial complex.",
+    "overview": "Has personally sat on every side of the healthcare table: insurer, health system, retail disruptor, and technology vendor. Designed payer contracts at BCBS Louisiana, ran physician and hospital networks at Ochsner, led retail health at Walmart alongside an Optum/UnitedHealth partnership, and now holds the top medical and commercial job at Lumeris, which sells AI tools for primary care and value-based care. Lumeris's executive committee page did not list him when checked in November 2026, with no announcement either way. Every career move traces the consolidation of healthcare by the payer-industrial complex.",
     "careerArc": [
       {
-        "role": "EVP & Chief Clinical Transformation Officer",
+        "role": "EVP and Chief Medical and Commercial Officer",
         "org": "Lumeris",
-        "period": "Current"
+        "period": "Current (joined as Chief Clinical Transformation Officer, September 2024)"
       },
       {
         "role": "SVP Healthcare Delivery",
@@ -144,12 +251,12 @@
         "org": "Ochsner Health Network"
       },
       {
-        "role": "EVP & CMO",
+        "role": "EVP and CMO",
         "org": "Blue Cross Blue Shield of Louisiana"
       },
       {
         "role": "Private practice physician",
-        "org": "Cardiology/Internal Medicine"
+        "org": "Cardiology and internal medicine"
       }
     ],
     "redFlags": [
@@ -167,23 +274,60 @@
       {
         "label": "AcademyHealth Profile",
         "url": "https://academyhealth.org/about/people/david-carmouche-md"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 1 transcript, May 18, 2026 (self-introduction)",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-transcript.pdf"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-04-06",
+        "text": "Published a HIT Consultant op-ed, bylined EVP, Chief Medical & Commercial Officer at Lumeris, defending clinician-supervised AI in rural primary care after the debate over Oz's 'avatar' remark.",
+        "url": "https://hitconsultant.net/?p=95626"
+      },
+      {
+        "date": "2026-04-23",
+        "text": "Medical Economics published his piece on AI extending primary care capacity, identifying him as EVP and chief medical and commercial officer at Lumeris.",
+        "url": "https://www.medicaleconomics.com/view/-make-the-right-thing-the-easy-thing-a-vision-for-ai-to-improve-primary-care"
+      },
+      {
+        "date": "2026-05-13",
+        "text": "Public Citizen review: chief medical and commercial officer at Lumeris; formerly Walmart, Ochsner Health, Blue Cross Blue Shield of Louisiana; a history of donating to Republicans.",
+        "url": "https://www.citizen.org/article/trumps-new-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-05-18",
+        "text": "At the first HAC meeting he introduced himself as EVP and Chief Medical and Commercial Officer of Lumeris, citing 30 years as a primary care physician and executive roles at health plans, health systems and Walmart Health.",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-transcript.pdf"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "clive-fields",
     "name": "Clive K. Fields, MD",
     "nickname": "The VillageMD Walgreens Entanglement",
-    "title": "Co-Founder & CMO",
+    "title": "Co-founder and former Chief Medical Officer",
     "org": "VillageMD",
     "sector": "Primary Care Consolidation",
     "base": "Houston, TX",
-    "overview": "Co-founded VillageMD in 2013, which became majority-owned by Walgreens Boots Alliance, then participated in a $8.9B acquisition of Summit Health-CityMD with Cigna/Evernorth taking a minority stake. Walgreens was subsequently acquired by private equity firm Sycamore Partners for $10B+, making VillageMD a standalone PE-owned entity. His committee role gives him influence over the Medicare payment policy that drives VillageMD's value-based contracts.",
+    "overview": "Co-founded VillageMD in 2013 and was its chief medical officer; CMS now lists him as the former CMO, and his July 2026 FEC filings give his employer as retired. Walgreens took majority ownership, VillageMD bought Summit Health-CityMD for $8.9 billion with Cigna's Evernorth as a minority holder, and Sycamore Partners took Walgreens private in 2025. In October 2026 VillageMD agreed to sell 27 Houston-area clinics to Harbor Health. He chairs the Healthcare Advisory Committee, ran its first meeting and bylaws vote, and leads the MAHA wellness and chronic disease working group. Since March 2026 he has given $7,000 to Scott Singer for Congress (half later reattributed to his spouse), $5,000 to Accountable Care PAC and $7,000 to the Garbarino Victory Fund. The gavel sits with the co-founder of a company built on Medicare Advantage risk contracts.",
     "careerArc": [
       {
-        "role": "Co-Founder & CMO",
+        "role": "Chair",
+        "org": "Healthcare Advisory Committee (HHS/CMS)",
+        "period": "May 2026–Present"
+      },
+      {
+        "role": "Co-Founder and former Chief Medical Officer",
         "org": "VillageMD",
-        "period": "2013–Present"
+        "period": "2013–"
       },
       {
         "role": "Physician executive",
@@ -205,9 +349,11 @@
       "Three-time Modern Healthcare \"100 Most Influential.\" AAFP Physician Executive of the Year 2018."
     ],
     "redFlags": [
+      "Chairs the committee while listed as co-founder and former CMO of a private-equity-owned primary care company built on Medicare Advantage risk contracts.",
       "Co-founded what became a $9B acquisition target, now PE-owned. Committee role gives influence over Medicare payment policy driving VillageMD's contracts.",
       "VillageMD's entire business model is Medicare Advantage risk-based primary care: exactly what the committee is chartered to advise on.",
-      "Cigna/Evernorth minority stake means the nation's second-largest insurer has a financial interest in VillageMD's policy outcomes."
+      "Cigna/Evernorth minority stake means the nation's second-largest insurer has a financial interest in VillageMD's policy outcomes.",
+      "Gave $15,500 to Republican campaigns and a health-industry PAC between July and September 2026 while chairing a federal advisory committee, after a $3,500 reattribution to his spouse (FEC)."
     ],
     "pohRelevance": "VillageMD represents the aggregation of independent primary care practices into corporate platforms under MA value-based contracts: the model that displaces physician-owned independent practice. No stated interest in physician ownership restoration.",
     "sources": [
@@ -222,8 +368,63 @@
       {
         "label": "Health Evolution Bio",
         "url": "https://www.healthevolution.com/bios/speaker/clive-fields-md/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "FEC individual contributions, Clive Fields, 2026",
+        "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=Fields%2C+Clive&min_date=03%2F28%2F2026&max_date=11%2F06%2F2026"
+      },
+      {
+        "label": "HAC Meeting 1 summary (chair, working groups)",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "label": "MarketScale: Harbor Health to buy 27 Village Medical clinics (Oct. 8, 2026)",
+        "url": "https://www.marketscale.com/industries/healthcare/harbor-health-to-buy-27-village-medical-clinics-in-greater-houston"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-05-13",
+        "text": "Public Citizen review: co-founder of VillageMD; has donated to many Republican office holders and PACs.",
+        "url": "https://www.citizen.org/article/trumps-new-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-05-18",
+        "text": "Chaired the first HAC meeting, ran the bylaws vote, and took the lead of the MAHA wellness and chronic disease working group.",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "date": "2026-07-13",
+        "text": "FEC: $7,000 to Scott Singer for Congress via WinRed, employer listed as Retired, Houston; $3,500 reattributed to spouse on July 16, 2026.",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&contributor_name=Fields%2C+Clive&min_date=2026-03-28&max_date=2026-11-06&per_page=50&sort=-contribution_receipt_date"
+      },
+      {
+        "date": "2026-09-03",
+        "text": "FEC: $5,000 to Accountable Care PAC, employer listed as VillageMD, Houston.",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&contributor_name=Fields%2C+Clive&min_date=2026-03-28&max_date=2026-11-06&per_page=50&sort=-contribution_receipt_date"
+      },
+      {
+        "date": "2026-09-09",
+        "text": "FEC: $7,000 to Garbarino Victory Fund, contributor Clive K. Fields, Houston.",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&contributor_name=Fields%2C+Clive&min_date=2026-03-28&max_date=2026-11-06&per_page=50&sort=-contribution_receipt_date"
+      },
+      {
+        "date": "2026-10-08",
+        "text": "VillageMD agreed to sell 27 Village Medical clinics in Harris, Montgomery, Fort Bend and Brazoria counties to Harbor Health, closing expected end of 2026; terms undisclosed. VillageMD keeps 12 Houston practices, 17 Georgia clinics, two Kentucky.",
+        "url": "https://www.marketscale.com/industries/healthcare/harbor-health-to-buy-27-village-medical-clinics-in-greater-houston"
+      },
+      {
+        "date": "2026-11-09",
+        "text": "His working group's collaborative care recommendation (integrating behavioral health into primary care) is scheduled for a vote at HAC meeting 3.",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Chair, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "kyu-rhee",
@@ -232,7 +433,7 @@
     "title": "President & CEO",
     "org": "NACHC (National Association of Community Health Centers)",
     "sector": "Insurer-Aligned / Community Health",
-    "overview": "Went from designing coverage policy for 65 million Aetna members to running NACHC (which lobbies the agencies Aetna profits from) while simultaneously sitting on the board of Providence Health Plan, a Medicaid/Medicare participating insurer. Spent a decade as IBM's Chief Health Officer during Watson Health's well-documented failure, which provided \"useless and sometimes dangerous recommendations\" in oncology and burned $62M at MD Anderson before cancellation.",
+    "overview": "Went from designing coverage policy for 65 million Aetna members to running NACHC (which lobbies the agencies Aetna profits from) while simultaneously sitting on the board of Providence Health Plan, a Medicaid/Medicare participating insurer. Spent a decade as IBM's Chief Health Officer during Watson Health's well-documented failure, which provided \"useless and sometimes dangerous recommendations\" in oncology and burned $62M at MD Anderson before cancellation. He leads the committee's Improving Care for Vulnerable Populations working group, whose Food is Medicine recommendations for Medicaid go to a vote on November 9, 2026. In 2026 NACHC struck partnerships with the Joint Commission, including a new accreditation program for health centers, and with Labcorp.",
     "careerArc": [
       {
         "role": "President & CEO",
@@ -292,18 +493,64 @@
       {
         "label": "CHAI Board",
         "url": "https://www.prnewswire.com/news-releases/coalition-for-health-ai-chai-names-board-of-directors-and-ceo-302077922.html"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 1 summary (working group leads)",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "label": "NACHC and the Joint Commission partnership (May 6, 2026)",
+        "url": "https://www.nachc.org/?p=100251"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-05-06",
+        "text": "NACHC and the Joint Commission announced a partnership to build education, training, advisory services and a new accreditation program for community health centers; Rhee called it 'a strategic investment in high-quality patient care'.",
+        "url": "https://www.nachc.org/?p=100251"
+      },
+      {
+        "date": "2026-05-13",
+        "text": "Public Citizen review: NACHC lobbies for community health centers; Rhee serves on the medical advisory board of Found Health, a telehealth weight-loss company; formerly Aetna chief medical officer at CVS Health.",
+        "url": "https://www.citizen.org/article/trumps-new-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-05-18",
+        "text": "Named lead of the HAC Improving Care for Vulnerable Populations Working Group (Medicaid quality, non-medical services, volume to value).",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "date": "2026-08-18",
+        "text": "Labcorp and NACHC launched a strategic alliance including a Leadership Exchange for health center chief medical officers and use of de-identified lab data for quality work.",
+        "url": "https://www.nachc.org/?p=102540"
+      },
+      {
+        "date": "2026-09-03",
+        "text": "NACHC announced Felix Valbuena Jr., MD, CEO of CHASS Center in Detroit, as board chair; Rhee quoted as President and CEO.",
+        "url": "https://www.nachc.org/?p=102773"
+      },
+      {
+        "date": "2026-11-09",
+        "text": "His working group's Food is Medicine recommendations (medically tailored meals, Medicaid 1115 guidance, pediatric food insecurity screening via EPSDT, psychiatric hospital rule updates) are scheduled for a vote.",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "linda-thomas-hemak",
     "name": "Linda Thomas-Hemak, MD",
     "nickname": "The Safety Net Voice",
     "title": "President & CEO",
-    "org": "The Wright Center for Community Health",
+    "org": "The Wright Centers for Community Health and Graduate Medical Education",
     "sector": "Safety Net / FQHCs",
     "base": "Scranton, PA",
-    "overview": "The closest thing to a genuine safety-net representative on this committee. Quintuple board-certified (internal medicine, pediatrics, addiction medicine, obesity medicine, nutrition), Harvard-trained, returned to her hometown of Jermyn, PA to run 13 community health centers. Runs the largest HRSA-funded Teaching Health Center GME Safety Net Consortium in the nation. No corporate ties. No PE backing. No controversies found. One voice among 18.",
+    "overview": "The closest thing to a genuine safety-net representative on this committee. Quintuple board-certified (internal medicine, pediatrics, addiction medicine, obesity medicine, nutrition), Harvard-trained, returned to her hometown of Jermyn, PA to run 13 community health centers. Runs the largest HRSA-funded Teaching Health Center GME Safety Net Consortium in the nation. No corporate ties. No PE backing. No controversies found. One voice among 18. In August 2026 HRSA granted the Wright Center full Federally Qualified Health Center status after a 15-year effort, with a 16th site planned. Its National Family Medicine Residency ended in June 2026 after producing 167 family physicians.",
     "careerArc": [
       {
         "role": "President & CEO",
@@ -343,23 +590,80 @@
       {
         "label": "NACHC Lifetime Achievement Award",
         "url": "https://thewrightcenter.org/president-and-ceo-at-the-wright-center-receives-national-lifetime-achievement-award/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "The Wright Center earns FQHC designation (Aug. 10, 2026)",
+        "url": "https://thewrightcenter.org/the-wright-center-earns-federally-qualified-health-center-designation/"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-05-13",
+        "text": "Public Citizen review: president and CEO of the nonprofit Wright Center for Graduate Medical Education; has donated to both Democratic and Republican campaigns.",
+        "url": "https://www.citizen.org/article/trumps-new-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-05-18",
+        "text": "At the first HAC meeting she described herself as a first-generation internal medicine and pediatric physician and medical educator leading the Wright Center's teaching health center consortium.",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-transcript.pdf"
+      },
+      {
+        "date": "2026-08-10",
+        "text": "HRSA granted The Wright Center for Community Health full Federally Qualified Health Center status through the New Access Point program, up from Look-Alike status held since 2019; a 16th site in Blakeslee, Monroe County is planned for late fall.",
+        "url": "https://thewrightcenter.org/the-wright-center-earns-federally-qualified-health-center-designation/"
+      },
+      {
+        "date": "2026-08-10",
+        "text": "Rep. Rob Bresnahan marked the FQHC designation after a 15-year effort; Thomas-Hemak called it 'the humbling culmination of my 25 years of service'.",
+        "url": "https://bresnahan.house.gov/media/press-releases/bresnahan-celebrates-wright-centers-fqhc-designation-after-15-year-effort"
+      },
+      {
+        "date": "2026-08-20",
+        "text": "The Wright Center opened a Friendship House site in Carbondale, PA offering primary care, addiction and behavioral health services.",
+        "url": "https://www.wvia.org/news/local/2026-08-20/the-wright-center-celebrates-new-carbondale-location-and-updated-federal-designation"
+      },
+      {
+        "date": "2026-10-07",
+        "text": "Received the inaugural 2026 Program Leader of the Year Award from the Sheps Center's GME Technical Assistance Center, accepted at the Rural and Health Center National GME Conference, Rockville, MD, Aug. 31 to Sept. 2.",
+        "url": "https://thewrightcenter.org/president-ceo-at-the-wright-center-receives-inaugural-national-award-for-graduate-medical-education-leadership/"
+      },
+      {
+        "date": "2026-10-07",
+        "text": "The same release says the Wright Center's National Family Medicine Residency concluded in June 2026 after producing 167 family physicians.",
+        "url": "https://thewrightcenter.org/president-ceo-at-the-wright-center-receives-inaugural-national-award-for-graduate-medical-education-leadership/"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "william-gassen",
     "name": "William J. Gassen, JD",
     "nickname": "The Hospital Lobby's Incoming Chairman",
-    "title": "President & CEO",
+    "title": "President and CEO",
     "org": "Sanford Health",
     "sector": "Integrated Hospital System",
     "base": "Sioux Falls, SD",
-    "overview": "Runs a $12.5B integrated health system with 53,000 employees and 425,000 health plan members. The AHA Chair-Elect Designate: will become Chairman of the American Hospital Association in 2027. The AHA spent $29M+ on lobbying in 2023 and is the leading institutional force opposing physician-owned hospitals. The AHA actively opposes H.R. 3022 (Restoring Rights of Physicians to Own Hospitals Act). Gassen also sits on the board of Oscar Health (NYSE: OSCR), a technology-driven insurer backed by 8VC.",
+    "overview": "Runs Sanford Health, which reported $12.5 billion in revenue, 53,000 employees and 425,000 health plan members before its September 2026 merger with North Memorial Health. That deal carried Sanford into the Twin Cities under a 10-year oversight agreement with Minnesota's attorney general. He is the AHA's chair-elect and becomes its chairman in 2027. The AHA spent $29 million or more on lobbying in 2023 and is the leading institutional force against physician-owned hospitals; it opposes H.R. 3022. He joined the board of Oscar Health, a technology-driven insurer, in 2022, and the board of HealthEquity in March 2026. In July 2026 Senators Wyden and Merkley asked HHS to confirm the date he would be removed from the committee. He remains on the November 9 agenda, on the Vulnerable Populations working group. Since March 2026 he has given $10,000 to Team Jackley, a South Dakota congressional fundraising committee, $5,000 to HealthEquity's PAC and $500 to the AHA PAC.",
     "careerArc": [
       {
-        "role": "President & CEO",
+        "role": "President and CEO",
         "org": "Sanford Health",
         "period": "2020–Present"
+      },
+      {
+        "role": "Director",
+        "org": "HealthEquity, Inc.",
+        "period": "March 2026–Present"
+      },
+      {
+        "role": "Director",
+        "org": "Oscar Health, Inc.",
+        "period": "December 2022–Present"
       },
       {
         "role": "CAO / CHRO / Corporate Counsel",
@@ -371,17 +675,19 @@
       }
     ],
     "businessDetails": [
-      "Sanford Health: $12.5B system, 53,000 employees, 2M+ patients, ~425,000 health plan members.",
-      "2025 mergers: Marshfield Clinic Health System (Wisconsin) and Prairie Lakes Healthcare System.",
-      "AHA Chair-Elect Designate (chairs 2027). AHA spent $29M+ lobbying in 2023.",
-      "Oscar Health Board (NYSE: OSCR): co-founded with 8VC/Joe Lonsdale backing.",
+      "Sanford Health: $12.5B system, 53,000 employees, 2M+ patients, ~425,000 health plan members (pre-merger figures; combined totals NOT FOUND).",
+      "Mergers: Marshfield Clinic Health System and Prairie Lakes Healthcare System (2025); North Memorial Health, Twin Cities (closed Sept. 1, 2026, $600 million committed to Minnesota facilities over 10 years).",
+      "AHA Chair-elect (chairs 2027). AHA spent $29M+ lobbying in 2023.",
+      "Oscar Health board (NYSE: OSCR), independent director since December 2022; re-elected June 2026.",
+      "HealthEquity board (NASDAQ: HQY) since March 26, 2026; Audit and Risk, and Talent, Compensation and Culture committees.",
       "Chair, Coalition to Strengthen America's Healthcare.",
       "Four consecutive years Modern Healthcare \"100 Most Influential.\""
     ],
     "redFlags": [
       "The AHA is the single most powerful institutional opponent of physician-owned hospitals. Its incoming chairman sits on a CMS advisory committee.",
       "AHA actively opposes H.R. 3022 (Restoring Rights of Physicians to Own Hospitals Act): on the record as of July 2025.",
-      "Oscar Health board seat: governs a health insurer while running a $12.5B system with its own 425,000-member health plan: advising CMS on programs both entities profit from.",
+      "Oscar Health and HealthEquity board seats: governs an insurer and a health savings account company while running a $12.5B system with its own 425,000-member health plan, and advises CMS on programs all three profit from.",
+      "Named by Senators Wyden and Merkley (July 2026), who asked HHS when he would be removed. No removal found; still on the Nov. 9, 2026 agenda.",
       "Not a physician. JD background: former healthcare litigator."
     ],
     "pohRelevance": "The most significant POH-adverse member on this committee. As incoming AHA chairman, Gassen represents the apex of institutional hospital lobbying against physician ownership. His presence on a CMS advisory committee is a direct channel from the hospital lobby to federal payment policy.",
@@ -401,17 +707,104 @@
       {
         "label": "AHA Opposes POH Ban Repeal",
         "url": "https://www.aha.org/news/headline/2025-07-08-aha-house-bill-would-repeal-15-year-ban-new-physician-owned-hospitals-destabilize-health-care-access"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 3 agenda, Nov. 9, 2026",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      },
+      {
+        "label": "Senators Wyden and Merkley letter to Kennedy and Oz (July 14, 2026)",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-merkley-demand-answers-from-kennedy-oz-on-newly-formed-healthcare-advisory-committee"
+      },
+      {
+        "label": "HAC orientation meeting summary (working group assignments)",
+        "url": "https://www.cms.gov/files/document/hac-orientation-meeting-summary.pdf"
+      },
+      {
+        "label": "HealthEquity 8-K, annual meeting results (June 25, 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000034/hqy-20260625.htm"
+      },
+      {
+        "label": "FEC individual contributions, Gassen, South Dakota, since March 2026",
+        "url": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=Gassen&contributor_state=SD&min_date=03%2F28%2F2026"
+      },
+      {
+        "label": "MPR News: Ellison oversight deal clears Sanford-North Memorial merger (Aug. 28, 2026)",
+        "url": "https://www.mprnews.org/story/2026/08/28/keith-ellison-announces-oversight-deal-allowing-north-memorialsanford-health-merger"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-03-26",
+        "text": "Elected to the HealthEquity, Inc. (NASDAQ: HQY) board of directors effective March 26, 2026; serves on the Audit and Risk Committee and the Talent, Compensation and Culture Committee. Reported in an 8-K filed March 30, 2026.",
+        "url": "https://www.boardroomalpha.com/sec/hqy-8-k-2026-03-30-0001428336-26-000012/billgassenboardappointment.htm"
+      },
+      {
+        "date": "2026-05-08",
+        "text": "Sanford Health announced a merger with Twin Cities-based North Memorial Health (Robbinsdale and Maple Grove hospitals). North Memorial anchors a new Sanford Twin Cities region; two North Memorial board members join the Sanford Board of Trustees.",
+        "url": "https://www.hcinnovationgroup.com/finance-revenue-cycle/mergers-acquisitions/news/55376738/sanford-health-announces-merger-with-twin-cities-based-north-memorial-health"
+      },
+      {
+        "date": "2026-06-04",
+        "text": "Re-elected to the Oscar Health, Inc. (NYSE: OSCR) board at the June 4, 2026 annual meeting (750,059,354 for, 24,317,674 withheld), term to the 2027 annual meeting.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1568651/000156865126000059/oscr-20260604.htm"
+      },
+      {
+        "date": "2026-06-08",
+        "text": "FEC records show a $5,000 contribution from Bill Gassen (employer HealthEquity Inc) to HealthEquity, Inc. Purple Political Action Committee on June 8, 2026.",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&contributor_name=Gassen&contributor_state=SD&min_date=2026-03-28&sort=-contribution_receipt_date&per_page=50"
+      },
+      {
+        "date": "2026-06-25",
+        "text": "Elected by HealthEquity shareholders at the June 25, 2026 annual meeting (75,701,238 for, 193,566 against), term to the 2027 annual meeting.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1428336/000142833626000034/hqy-20260625.htm"
+      },
+      {
+        "date": "2026-07-14",
+        "text": "Sens. Wyden and Merkley wrote Kennedy and Oz naming Gassen (Sanford CEO, AHA chairman-elect, Oscar Health director) and asked HHS to confirm the date he 'will be removed from the Committee'. Responses were requested by Aug 14, 2026.",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-merkley-demand-answers-from-kennedy-oz-on-newly-formed-healthcare-advisory-committee"
+      },
+      {
+        "date": "2026-07-18",
+        "text": "T. Denny Sanford, Sanford Health's namesake and lead philanthropist, died July 18, 2026, at 90. Sanford Health published the obituary.",
+        "url": "https://www.valleynewslive.com/2026/07/19/denny-sanford-philanthropist-who-gave-nearly-2-billion-sanford-health-dies-90/"
+      },
+      {
+        "date": "2026-07-31",
+        "text": "FEC records show a $500 contribution from Bill Gassen (Sanford Health) to the American Hospital Association PAC on July 31, 2026.",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&contributor_name=Gassen&contributor_state=SD&min_date=2026-03-28&sort=-contribution_receipt_date&per_page=50"
+      },
+      {
+        "date": "2026-08-28",
+        "text": "Minnesota Attorney General Keith Ellison announced a 10-year oversight agreement clearing the Sanford-North Memorial merger: $600 million invested in Maple Grove and Robbinsdale hospitals, Level 1 trauma center kept at least a decade, quarterly meetings with the AG's office. Gassen is quoted.",
+        "url": "https://www.mprnews.org/story/2026/08/28/keith-ellison-announces-oversight-deal-allowing-north-memorialsanford-health-merger"
+      },
+      {
+        "date": "2026-09-01",
+        "text": "Sanford Health and North Memorial Health finalized their combination as one nonprofit system, bringing Sanford into the Twin Cities for the first time; $600 million committed to Minnesota facilities over 10 years.",
+        "url": "https://www.dakotanewsnow.com/2026/09/01/sanford-health-north-memorial-health-complete-merger/"
+      },
+      {
+        "date": "2026-09-22",
+        "text": "FEC records show a $10,000 contribution from William Gassen III (Sanford Health) to Team Jackley, a South Dakota joint fundraising committee affiliated with U.S. House candidate Marty Jackley, on Sept 22, 2026 (with a $1,500 memo share to 605 Leadership PAC).",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&contributor_name=Gassen&contributor_state=SD&min_date=2026-03-28&sort=-contribution_receipt_date&per_page=50"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "dennis-laraway",
     "name": "Dennis Laraway",
     "nickname": "The Cleveland Clinic's Money Man",
-    "title": "EVP & CFO",
+    "title": "EVP and CFO",
     "org": "Cleveland Clinic",
     "sector": "Hospital System Finance",
-    "overview": "Every employer in Laraway's career is a direct competitor to physician-owned hospitals and a direct beneficiary of the Section 6001 ban. He is now CFO of Cleveland Clinic: an $18B system with $934M in 340B drug revenue over three years, $28.85M in federal fraud settlements in the last four years, and Medicare rate advantages of 3–5x over physician-owned facilities for the same procedures.",
+    "overview": "Every employer in Laraway's career is a direct competitor to physician-owned hospitals and a direct beneficiary of the Section 6001 ban. He is now CFO of Cleveland Clinic, which reported $18.3 billion in revenue and $913 million in operating income for 2025. The system collected $934 million in 340B drug revenue over three years, paid $28.85 million in federal fraud settlements in four years, and holds Medicare rate advantages of 3 to 5 times over physician-owned facilities for the same procedures. In June 2026 the Clinic paid $308,000 to resolve alleged false billings and committed $2 million for care for detransitioners under a DOJ resolution; it denied the allegations. He sits on the committee's Reducing Administrative Burden working group.",
     "careerArc": [
       {
         "role": "EVP & CFO",
@@ -476,21 +869,70 @@
       {
         "label": "Ohio Capital Journal 340B",
         "url": "https://ohiocapitaljournal.com/2025/05/30/ohios-cleveland-clinic-faces-questions-over-booming-subsidies/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 3 agenda, Nov. 9, 2026",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      },
+      {
+        "label": "HAC orientation meeting summary (working group assignments)",
+        "url": "https://www.cms.gov/files/document/hac-orientation-meeting-summary.pdf"
+      },
+      {
+        "label": "DOJ resolution with Cleveland Clinic (June 5, 2026)",
+        "url": "https://www.justice.gov/opa/pr/justice-department-secures-resolution-cleveland-clinic-end-pediatric-gender-affirming-care"
+      },
+      {
+        "label": "Cleveland Clinic Q2 2026 interim financial statements",
+        "url": "https://my.clevelandclinic.org/-/scassets/files/org/about/financial-statements/2q-2026-interim-unaudited-fs-mda.pdf?la=en"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-05-15",
+        "text": "Cleveland Clinic reported Q1 2026 operating income of $173 million on $4.7 billion unrestricted revenue (3.7% margin), up from $53 million (1.3%) in Q1 2025; operating revenues rose 12.1%.",
+        "url": "https://my.clevelandclinic.org/-/scassets/files/org/about/financial-statements/1q-2026-interim-unaudited-fs-mda.pdf?la=en"
+      },
+      {
+        "date": "2026-06-05",
+        "text": "DOJ announced a resolution with Cleveland Clinic: a $308,000 payment to resolve alleged false billings, $2 million for care for detransitioners, and a long-term commitment not to provide puberty blockers or cross-sex hormones to minors. The Clinic denied the allegations.",
+        "url": "https://www.justice.gov/opa/pr/justice-department-secures-resolution-cleveland-clinic-end-pediatric-gender-affirming-care"
+      },
+      {
+        "date": "2026-08-14",
+        "text": "Q2 2026 operating income of $246 million on $4.9 billion revenue (5.0% margin), down 3.7% from $255 million (5.6%) in Q2 2025; first-half operating income $418 million (4.3%). Cash and investments $18.3 billion at June 30, 2026.",
+        "url": "https://my.clevelandclinic.org/-/scassets/files/org/about/financial-statements/2q-2026-interim-unaudited-fs-mda.pdf?la=en"
+      },
+      {
+        "date": "2026-10-08",
+        "text": "SEIU 1199 WV/KY/OH members at Cleveland Clinic Lutheran Hospital ratified a three-year contract (wage increases of nearly 11%) ending a strike that began Sept 23, 2026.",
+        "url": "https://cleveland19.com/2026/10/08/lutheran-hospital-workers-ratify-contract-with-cleveland-clinic/"
+      },
+      {
+        "date": "2026-11-02",
+        "text": "Spoke as EVP and CFO of Cleveland Clinic at the Becker's CEO + CFO Roundtable session 'Bending the cost curve without breaking growth' on Nov 2, 2026.",
+        "url": "https://conferences.beckershospitalreview.com/ceocfo-2026/session/4455434/01.-bending-the-cost-curve-without-breaking-growth"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "dan-liljenquist",
     "name": "Dan Liljenquist, JD",
     "nickname": "The Bain Strategist Inside Intermountain",
-    "title": "EVP & Chief Strategy Officer",
+    "title": "Chief Strategy Officer",
     "org": "Intermountain Health",
     "sector": "Hospital System Strategy / Medicare Advantage",
     "base": "Salt Lake City, UT",
-    "overview": "A Bain-trained strategist who wrote Utah's Medicaid growth cap as a state legislator (the first state Medicaid cap in the nation) then became chief strategist for Intermountain Health, one of the nation's largest nonprofit systems. Intermountain owns SelectHealth (a Medicare Advantage insurer, 1M+ members) and Castell ($86.7M in Medicare ACO savings in 2023, second-highest nationally). He advises CMS on Medicare Advantage sustainability while his employer profits directly from MA contracts.",
+    "overview": "A Bain-trained strategist who wrote Utah's Medicaid growth cap as a state legislator, the first state Medicaid cap in the nation, then became chief strategist for Intermountain Health, one of the nation's largest nonprofit systems. Intermountain owns SelectHealth, a Medicare Advantage insurer with more than a million members, and Castell, which earned $86.7 million in Medicare ACO savings in 2023. He leads the committee's Reducing Administrative Burden working group, whose recommendations go to a vote on November 9, 2026, while his employer profits directly from the Medicare Advantage contracts the committee also advises on. Intermountain kept expanding through 2026: a Denver joint venture with AdventHealth signed in August and a $1.15 billion deal for a southeast Idaho hospital network announced in July.",
     "careerArc": [
       {
-        "role": "EVP & Chief Strategy Officer",
+        "role": "Chief Strategy Officer",
         "org": "Intermountain Health",
         "period": "Current"
       },
@@ -518,7 +960,7 @@
       "Federal lobbying: $230,000 in 2024. InterMountain PAC: $227,572 in 2024 cycle."
     ],
     "redFlags": [
-      "The MA conflict is the most material. Advises CMS on \"Medicare Advantage sustainability\" while Intermountain owns SelectHealth (MA insurer) and Castell ($86.7M in Medicare savings). Every recommendation on MA payment rates directly affects Intermountain revenue.",
+      "The MA conflict is the most material. Intermountain owns SelectHealth (MA insurer) and Castell ($86.7M in Medicare savings), and the committee votes on Medicare Advantage recommendations on Nov. 9, 2026. He leads the Reducing Administrative Burden group; every recommendation on paperwork and payment affects Intermountain revenue.",
       "Oversaw Intermountain's Government Relations team running the $230K/year federal lobbying operation: then moved to advise the agency being lobbied.",
       "As Utah state senator, wrote Medicaid cap legislation, then went to work for a system that collects that Medicaid revenue. Classic revolving door, executed with sophistication.",
       "Dual role: chaired Civica Rx while serving as top strategist for one of its founding member organizations."
@@ -540,8 +982,51 @@
       {
         "label": "Castell ACO Savings",
         "url": "https://news.intermountainhealth.org/castells-proactive-care-approach-makes-intermountain-health-a-national-leader-in-medicare-aco-quality-and-savings-performance/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 3 agenda, Nov. 9, 2026",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      },
+      {
+        "label": "HAC orientation meeting summary (working group assignments)",
+        "url": "https://www.cms.gov/files/document/hac-orientation-meeting-summary.pdf"
+      },
+      {
+        "label": "HAC Meeting 2 agenda, Aug. 31, 2026 (working group presentations)",
+        "url": "https://www.cms.gov/files/document/formal-hac-meeting-agenda-2.pdf"
+      },
+      {
+        "label": "Intermountain: AdventHealth Denver partnership (Aug. 6, 2026)",
+        "url": "https://news.intermountainhealth.org/adventhealth-intermountain-health-plan-partnership-to-strengthen-healthcare-for-denver-metro-communities/"
+      },
+      {
+        "label": "Chief Healthcare Executive: Intermountain $1.15B Idaho deal (July 24, 2026)",
+        "url": "https://www.chiefhealthcareexecutive.com/view/intermountain-health-plans-1-15b-deal-to-expand-presence-in-idaho"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-07-21",
+        "text": "AdventHealth and Intermountain signed a letter of intent for a Denver-area joint venture combining five AdventHealth hospitals and three Intermountain hospitals (Good Samaritan, Lutheran, Platte Valley), managed by AdventHealth; definitive agreement signed Aug 6, 2026; close expected early 2027.",
+        "url": "https://news.intermountainhealth.org/adventhealth-intermountain-health-plan-partnership-to-strengthen-healthcare-for-denver-metro-communities/"
+      },
+      {
+        "date": "2026-07-24",
+        "text": "Intermountain announced plans to buy Surgery Partners' interests in a southeast Idaho network (Mountain View Hospital, Idaho Falls Community Hospital, 60+ clinics); Surgery Partners valued the deal at about $1.15 billion. Not closed as of the report.",
+        "url": "https://www.chiefhealthcareexecutive.com/view/intermountain-health-plans-1-15b-deal-to-expand-presence-in-idaho"
+      },
+      {
+        "date": "2026-10-06",
+        "text": "Utah's Office of Artificial Intelligence Policy signed a master agreement with Intermountain Health and University of Utah Health to test AI tools; Liljenquist, as chief strategy officer, spoke at the Oct 5 Capitol announcement.",
+        "url": "https://www.route-fifty.com/artificial-intelligence/2026/10/ai-may-soon-be-more-healthcare-processes-utah-under-new-state-agreements/416437/"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "andrew-lynch",
@@ -551,7 +1036,7 @@
     "org": "Acadia Healthcare",
     "sector": "For-Profit Behavioral Health",
     "base": "Franklin, TN",
-    "overview": "Chief strategist of the largest pure-play for-profit behavioral health company in America (260+ facilities, 70,000+ patients daily) which is under active DOJ criminal investigation, carries a Corporate Integrity Agreement from a prior $17M fraud settlement, and faces $800M+ in fraud settlements and jury verdicts including mass sexual assault lawsuits across multiple states. He now advises CMS on healthcare policy.",
+    "overview": "Chief strategist of the largest pure-play for-profit behavioral health company in America: 280 facilities in 40 states and Puerto Rico as of November 2026. Acadia disclosed a DOJ and SDNY investigation in September 2024, carries a Corporate Integrity Agreement from a 2019 $17 million settlement, and faces jury verdicts and sexual assault suits across several states. It paid $19.85 million in 2024 to settle False Claims Act allegations. Senators Wyden and Merkley cited that settlement in July 2026 when they questioned why he belongs on the committee. Acadia booked $18.3 million in government investigation costs in the third quarter of 2026 alone. In July 2026 it settled shareholder derivative suits for $12 million paid by insurers plus four years of governance reforms. Debbie Osteen became CEO in January 2026 and the CFO left in April. He sits on the committee's MAHA wellness and chronic disease working group and gave $1,000 to the NABH PAC in April 2026.",
     "careerArc": [
       {
         "role": "Chief Strategy Officer",
@@ -568,13 +1053,14 @@
       },
       {
         "role": "Consultant",
-        "org": "McKinsey & Company"
+        "org": "Global management consulting firm"
       }
     ],
     "businessDetails": [
-      "Acadia Healthcare: 260+ facilities in 39 states, 70,000+ patients/day. Largest pure-play for-profit behavioral health company in the US.",
-      "NABH board chair-elect (National Association for Behavioral Healthcare).",
-      "Acadia lobbying: ~$522,500 through Armory Hill Advocates since 2021 on Medicare behavioral health regulations."
+      "Acadia Healthcare: 280 facilities in 40 states and Puerto Rico, 70,000+ patients/day (Nov. 2026). Largest pure-play for-profit behavioral health company in the US.",
+      "NABH board chair-elect (National Association for Behavioral Healthcare); Jim Shaheen is chair.",
+      "Acadia lobbying: ~$522,500 through Armory Hill Advocates since 2021 on Medicare behavioral health regulations.",
+      "Political giving: $1,000 to NABH Champions PAC (April 2026) plus payroll contributions to the Acadia Healthcare PAC through September 2026 (FEC)."
     ],
     "redFlags": [
       "Active DOJ/SDNY criminal investigation (September 2024) on admissions, length of stay, and billing.",
@@ -584,8 +1070,9 @@
       "$17M settlement (2019): largest healthcare fraud settlement in West Virginia history. Active five-year Corporate Integrity Agreement with HHS-OIG.",
       "$400M and $405M jury verdicts (2023) for sexual abuse of minors at facilities.",
       "New York Times investigation (September 2024): Acadia detained patients against their will in at least 12 states, holding people until insurance ran out, charging up to $2,200/day.",
-      "$31M in investigation-related costs in Q1 2025 alone.",
-      "Fourth Circuit (February 2025): reversed dismissal of qui tam case alleging fabricated therapy notes and billing for sessions that never happened."
+      "$31M in investigation-related costs in Q1 2025; $18.3M more in Q3 2026 alone.",
+      "Fourth Circuit (February 2025): reversed dismissal of qui tam case alleging fabricated therapy notes and billing for sessions that never happened.",
+      "Named by Senators Wyden and Merkley (July 2026), who asked why he belongs on the committee. Still on the Nov. 9, 2026 agenda."
     ],
     "pohRelevance": "Lynch is the chief strategist of a company under active federal criminal investigation with $800M+ in fraud settlements and jury verdicts. He advises CMS on healthcare policy while his company lobbies the same agency. No stated interest in physician ownership.",
     "sources": [
@@ -604,8 +1091,70 @@
       {
         "label": "Options Facility Closure",
         "url": "https://mirrorindy.org/options-behavioral-health-closing-acadia-healthcare-abuse-allegations/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 3 agenda, Nov. 9, 2026",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      },
+      {
+        "label": "Senators Wyden and Merkley letter to Kennedy and Oz (July 14, 2026)",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-merkley-demand-answers-from-kennedy-oz-on-newly-formed-healthcare-advisory-committee"
+      },
+      {
+        "label": "HAC orientation meeting summary (working group assignments)",
+        "url": "https://www.cms.gov/files/document/hac-orientation-meeting-summary.pdf"
+      },
+      {
+        "label": "Acadia Q3 2026 results (Nov. 4, 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/1520697/000143774926034941/ex_1038216.htm"
+      },
+      {
+        "label": "Acadia derivative settlement notice (Sept. 2026)",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001520697/000143774926031225/ex_1019032.htm"
+      },
+      {
+        "label": "NABH board of trustees",
+        "url": "https://www.nabh.org/about-nabh/board-of-trustees-staff/"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-04-21",
+        "text": "FEC records show a $1,000 contribution from Andrew Lynch (Acadia Healthcare, Chief Strategy Officer) to the NABH Champions PAC on April 21, 2026, plus biweekly $38.46 payroll contributions to the Acadia Healthcare PAC through Sept 25, 2026.",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=DEMO_KEY&contributor_name=Lynch&contributor_employer=Acadia&min_date=2026-03-28&sort=-contribution_receipt_date&per_page=50"
+      },
+      {
+        "date": "2026-04-23",
+        "text": "Acadia announced CFO Todd Young's departure (effective April 30) and named former CFO David Duckworth interim CFO effective May 1, 2026, to serve at least until the permanent CEO search concludes.",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001520697/000119312526173769/d116826dex991.htm"
+      },
+      {
+        "date": "2026-07-14",
+        "text": "Sens. Wyden and Merkley's letter to Kennedy and Oz questioned Lynch's membership because Acadia paid $19.85 million in 2024 to settle False Claims Act allegations of overbilling.",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-merkley-demand-answers-from-kennedy-oz-on-newly-formed-healthcare-advisory-committee"
+      },
+      {
+        "date": "2026-07-28",
+        "text": "Acadia Q2 2026: revenue $865.8 million, net income $10.9 million, adjusted EBITDA $149.2 million including a $28.6 million liability reserve adjustment; $7.5 million government investigation costs; $13.8 million six-month legal settlement expense tied to Sandoval v. Acadia.",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001520697/000143774926024693/ex_994474.htm"
+      },
+      {
+        "date": "2026-07-31",
+        "text": "Stipulation settling stockholder derivative suits (M.D. Tenn. lead case 3:19-cv-00167; Delaware Chancery Pfenning and Solak): $12 million paid by insurers to Acadia, four years of governance reforms, $4.75 million plaintiffs' fees subject to approval. Preliminary court approval Sept 1; notice published Sept 25, 2026.",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001520697/000143774926031225/ex_1019032.htm"
+      },
+      {
+        "date": "2026-11-04",
+        "text": "Acadia Q3 2026: revenue $895.3 million (up 5.1%), net income $34.5 million, adjusted EBITDA $176.4 million; full-year guidance raised; 280 facilities in 40 states and Puerto Rico; $18.3 million government investigation costs in the quarter.",
+        "url": "https://www.sec.gov/Archives/edgar/data/1520697/000143774926034941/ex_1038216.htm"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "russ-thomas",
@@ -615,7 +1164,7 @@
     "org": "Availity",
     "sector": "Health IT / Claims Processing",
     "base": "Jacksonville, FL",
-    "overview": "Runs Availity: the nation's largest health information network, processing 13 billion healthcare transactions annually across 3 million-plus physicians, hospitals and other billers and 2,000 health plans. Availity is owned by a consortium of the nation's largest health insurers: Elevance Health (Anthem), Humana, HCSC (BCBS IL/NM/OK/TX), GuideWell (Florida Blue), and BCBS Minnesota. Thomas sits on a committee that wants to \"expand real-time data and speed claims processing\": which is literally what Availity sells.",
+    "overview": "Runs Availity: the nation's largest health information network, processing 13 billion healthcare transactions annually across 3 million-plus physicians, hospitals and other billers and 2,000 health plans. Availity is owned by a consortium of the nation's largest health insurers: Elevance Health (Anthem), Humana, HCSC (BCBS IL/NM/OK/TX), GuideWell (Florida Blue), and BCBS Minnesota. Thomas sits on a committee that wants to \"expand real-time data and speed claims processing\": which is literally what Availity sells. He leads the committee's Crushing Fraud, Waste and Abuse working group, whose recommendations go to a vote on November 9, 2026. In 2026 Availity launched Availity Extend, an automation and AI layer on its network, and hired its first chief medical officer. He also sits on the boards of Jacksonville University and Iodine Software.",
     "careerArc": [
       {
         "role": "CEO",
@@ -639,13 +1188,15 @@
       "Availity: 13 billion transactions a year, 3 million-plus physicians, hospitals and other billers, 2,000 health plans, 1,000 technology partners.",
       "Owned by: Elevance Health (Anthem), Humana, HCSC, GuideWell (Florida Blue), BCBS Minnesota, Novo Holdings.",
       "Founded 2001 as joint venture between Florida Blue and Humana.",
-      "AI-powered prior authorization and utilization management workflows."
+      "AI-powered prior authorization and utilization management workflows.",
+      "Boards: Jacksonville University; Iodine Software; Florida Chamber of Commerce (chairs its Healthcare Policy Council)."
     ],
     "redFlags": [
       "Direct commercial interest in committee priorities: \"real-time data for claims processing\" is Availity's core product.",
       "Owned by major insurers who participate in every program this committee advises on.",
       "CMS's Prior Authorization Final Rule reshapes the market Availity dominates. Thomas advises the agency writing rules his company must comply with and profit from.",
-      "Dual policy influence: chairs Florida Chamber Healthcare Policy Council while advising CMS federally."
+      "Dual policy influence: chairs Florida Chamber Healthcare Policy Council while advising CMS federally.",
+      "Leads the committee working group on fraud, waste and abuse: a claims-network company sets the agenda for policing the claims it carries."
     ],
     "pohRelevance": "Availity's payer-owned transaction infrastructure is the claims backbone for the incumbent system. Real-time data initiatives that benefit Availity's insurer owners do not serve physician-owned hospital access. No stated interest in physician ownership.",
     "sources": [
@@ -660,21 +1211,55 @@
       {
         "label": "Availity History",
         "url": "https://www.availity.com/history/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 3 agenda, Nov. 9, 2026",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      },
+      {
+        "label": "HAC orientation meeting summary (working group assignments)",
+        "url": "https://www.cms.gov/files/document/hac-orientation-meeting-summary.pdf"
+      },
+      {
+        "label": "HAC Meeting 2 agenda, Aug. 31, 2026 (working group presentations)",
+        "url": "https://www.cms.gov/files/document/formal-hac-meeting-agenda-2.pdf"
+      },
+      {
+        "label": "Availity: CEO appointed to federal Healthcare Advisory Committee (March 27, 2026)",
+        "url": "https://www.availity.com/news/availity-ceo-russ-thomas-appointed-to-federal-healthcare-advisory-committee/"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-04-28",
+        "text": "Availity announced Availity Extend, a layer for building automation and AI workflows on its network; limited rollout in first-half 2026, broader availability later in 2026. Thomas quoted as CEO.",
+        "url": "https://finance.yahoo.com/sectors/healthcare/articles/availity-introduces-availity-extend-power-120200994.html"
+      },
+      {
+        "date": "2026-07-21",
+        "text": "Availity appointed Hannah Alphs Jackson, MD, MHSA, as its first Chief Medical Officer; Thomas quoted as CEO.",
+        "url": "https://www.healthcaredive.com/press-release/20260720-availity-appoints-dr-hannah-alphs-jackson-chief-medical-officer-1/"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "kimberly-brandt",
     "name": "Kimberly Brandt, JD",
     "nickname": "The Revolving Door Made Flesh",
-    "title": "Deputy Administrator & COO",
+    "title": "Deputy Administrator and COO",
     "org": "CMS",
     "sector": "Government / Lobbying / Private Equity",
-    "overview": "Six turns through the revolving door: HHS-OIG to CMS to Alston & Bird health fraud defense to Senate Finance Committee to CMS Trump 1.0 (led Stark Law reform) to TDY lobbying firm (Pfizer, AbbVie, Elevance as clients, $109.4M lifetime firm lobbying income) to joined board of Noridian Healthcare Solutions (a CMS Medicare Administrative Contractor) in September 2024, then returned to run CMS operations January 2025. She was also accused by House Democrats in March 2026 of providing inaccurate testimony to Congress regarding Medicaid funding deferrals.",
+    "overview": "Six turns through the revolving door: HHS-OIG to CMS to Alston & Bird health fraud defense to Senate Finance Committee to CMS in Trump's first term (led Stark Law reform) to the TDY lobbying firm (Pfizer and Elevance among its clients, $109.4 million lifetime firm lobbying income) to the board of Noridian Healthcare Solutions, a CMS Medicare Administrative Contractor, in September 2024, then back to run CMS operations in January 2025. House Democrats accused her in March 2026 of inaccurate testimony on Medicaid funding deferrals; in June the committee's ranking member said no correction had been provided. She fronts the Medicaid Fraud War Room, which CMS says stopped $203 million in improper payments in its first 88 days, and in October 2026 HHS handed CMS the Secretary's exclusion authority. She told a conference she hopes suspensions quadruple within six months. CMS's leadership page also lists her as acting director of the Center for Program Integrity. She sits ex officio on the committee's fraud, waste and abuse working group.",
     "careerArc": [
       {
-        "role": "Deputy Administrator & COO",
-        "org": "CMS: Trump 2.0",
+        "role": "Deputy Administrator and COO (CMS page also lists Acting Center Director, Program Integrity)",
+        "org": "CMS",
         "period": "January 2025–Present"
       },
       {
@@ -716,8 +1301,9 @@
       "Noridian conflict: joined the board of a CMS Medicare Administrative Contractor in September 2024 and returned to run CMS operations four months later. No public ethics waiver or recusal disclosed.",
       "Registered lobbyist representing 52 clients in 2023. TDY lifetime firm lobbying income: $109.4M.",
       "PE advisor turned regulator: Enhanced Healthcare Partners' portfolio depends on Medicare/Medicaid reimbursement she now controls.",
-      "Accused of misleading Congress (March 2026): testified CMS couldn't schedule a Minnesota Medicaid hearing due to \"ongoing litigation\": two days later she herself requested the stay. Reps. Pallone and Clarke gave her until April 7 to revise testimony.",
-      "Medicaid deferrals launched against Minnesota, California, New York, Maine, Florida: Democrats allege politically targeted."
+      "Accused of misleading Congress (March 2026): testified CMS could not schedule a Minnesota Medicaid hearing due to \"ongoing litigation\"; two days later she herself requested the stay. On June 25, 2026 Ranking Member Clarke said Brandt had not provided a correction when asked.",
+      "Medicaid deferrals launched against Minnesota, California, New York, Maine, Florida: Democrats allege politically targeted.",
+      "Now holds delegated exclusion authority over Medicare and Medicaid participation (October 2026) while sitting on the committee that advises on program integrity."
     ],
     "pohRelevance": "Led Stark Law reform at CMS during Trump 1.0: creating value-based exceptions to physician self-referral rules that intersect with Section 6001. Represents the regulatory architecture governing physician ownership. No stated interest in expanding physician-owned hospitals.",
     "sources": [
@@ -740,22 +1326,79 @@
       {
         "label": "ProPublica Trump Town",
         "url": "https://projects.propublica.org/trump-town/staffers/kimberly-l-brandt"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "HAC Meeting 3 agenda, Nov. 9, 2026",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      },
+      {
+        "label": "HAC orientation meeting summary (working group assignments)",
+        "url": "https://www.cms.gov/files/document/hac-orientation-meeting-summary.pdf"
+      },
+      {
+        "label": "CMS leadership page: Kimberly Brandt",
+        "url": "https://www.cms.gov/about-cms/who-we-are/leadership/kimberly-brandt-0"
+      },
+      {
+        "label": "Rep. Clarke opening statement, Energy and Commerce oversight hearing (June 25, 2026)",
+        "url": "https://democrats-energycommerce.house.gov/sites/evo-subsites/democrats-energycommerce.house.gov/files/evo-media-document/clarke_os_oi_2026.6.25.pdf"
+      },
+      {
+        "label": "CMS: Medicaid Fraud War Room first 88 days (July 28, 2026)",
+        "url": "https://www.cms.gov/newsroom/press-releases/cms-medicaid-fraud-war-room-stops-more-203-million-improper-payments-during-first-88-days"
+      },
+      {
+        "label": "GovExec: CMS hopes to quadruple suspensions (Oct. 16, 2026)",
+        "url": "https://www.govexec.com/technology/2026/10/cms-hopes-quadruple-provider-suspensions-over-next-six-months-official-says/416645/"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-06-25",
+        "text": "At a House Energy and Commerce oversight hearing, Ranking Member Yvette Clarke said Brandt's March testimony that CMS had 'been stayed' from scheduling a Minnesota Medicaid hearing was false and that Brandt had not provided a correction when asked.",
+        "url": "https://democrats-energycommerce.house.gov/sites/evo-subsites/democrats-energycommerce.house.gov/files/evo-media-document/clarke_os_oi_2026.6.25.pdf"
+      },
+      {
+        "date": "2026-07-28",
+        "text": "CMS said its Medicaid Fraud War Room, launched April 23, 2026, stopped about $203.3 million in improper Medicaid payments to 50 billers in its first 88 days. Brandt, as Deputy Administrator and COO, is quoted.",
+        "url": "https://www.cms.gov/newsroom/press-releases/cms-medicaid-fraud-war-room-stops-more-203-million-improper-payments-during-first-88-days"
+      },
+      {
+        "date": "2026-10-14",
+        "text": "HHS delegated the Secretary's permissive exclusion authority (Social Security Act 1128(b)) to the CMS Administrator, effective immediately (Federal Register doc. 2026-21001).",
+        "url": "https://www.aha.org/news/headline/2026-10-14-cms-delegated-exclusion-authorities-medicare-medicaid"
+      },
+      {
+        "date": "2026-10-16",
+        "text": "At the ADAPT conference in Santa Fe, Brandt said she hopes suspensions of Medicare and Medicaid billers will quadruple within six months under the new exclusion authority, cited $342 million stopped and 124 exclusion notices through September, and said CMS will publish results of an Indiana AI Medicaid fraud pilot.",
+        "url": "https://www.govexec.com/technology/2026/10/cms-hopes-quadruple-provider-suspensions-over-next-six-months-official-says/416645/"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Ex officio member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "stephanie-carlton",
     "name": "Stephanie Carlton",
-    "nickname": "The McKinsey Partner Running CMS",
-    "title": "Deputy Administrator & Chief of Staff",
+    "nickname": "The Consultant Running CMS",
+    "title": "Deputy Administrator and Chief Clinical AI Officer",
     "org": "CMS",
     "sector": "Government / Management Consulting",
-    "overview": "The ideological architect in the room. Authored the Patients' Choice Act as Republican Senate Finance staff: the conservative ACA alternative proposing tax credits and state-based markets. Spent years as a McKinsey partner building the consulting playbook for health system reform. Was Acting CMS Administrator before Dr. Oz was confirmed. Now oversees $1.7 trillion in federal health spending. CPAC USA 2026 speaker.",
+    "overview": "The ideological architect in the room. Authored the Patients' Choice Act as Republican Senate Finance staff: the conservative ACA alternative proposing tax credits and state-based markets. Spent years as a partner at a global consulting firm building its playbook for health system reform. Was Acting CMS Administrator before Oz was confirmed, then his chief of staff. In May 2026 Oz named Rebekah Armstrong chief of staff; Carlton kept the deputy administrator title and took a new post as chief clinical AI officer. CMS's committee page still calls her chief of staff. CPAC USA 2026 speaker.",
     "careerArc": [
       {
-        "role": "Deputy Administrator & Chief of Staff",
+        "role": "Deputy Administrator and Chief Clinical AI Officer",
         "org": "CMS",
-        "period": "January 2025–Present"
+        "period": "May 2026–Present"
+      },
+      {
+        "role": "Deputy Administrator and Chief of Staff",
+        "org": "CMS",
+        "period": "January 2025–May 2026"
       },
       {
         "role": "Acting CMS Administrator",
@@ -763,7 +1406,7 @@
       },
       {
         "role": "Partner",
-        "org": "McKinsey & Company: SHaPE Practice, Center for U.S. Health System Reform"
+        "org": "Global management consulting firm: health systems practice and its center for U.S. health system reform"
       },
       {
         "role": "Harvard Kennedy School resident fellow",
@@ -778,19 +1421,19 @@
         "org": "Senate Finance Committee: authored Patients' Choice Act"
       },
       {
-        "role": "Labor & delivery nurse"
+        "role": "Labor and delivery nurse"
       },
       {
-        "role": "Board of \"major pro-life nonprofit\""
+        "role": "Board of a major pro-life nonprofit"
       }
     ],
     "redFlags": [
-      "McKinsey's history in healthcare includes work that has been criticized for optimizing revenue extraction over patient outcomes. Carlton built McKinsey's health system reform playbook.",
+      "Big consulting's history in healthcare includes work criticized for optimizing revenue extraction over patient outcomes. Carlton built her former firm's health system reform playbook.",
       "The Patients' Choice Act she authored was the conservative counter-vision to the ACA: every policy recommendation she makes filters through this ideological lens.",
       "Acting Administrator before Oz: she set the initial direction of the agency in the current administration.",
       "CPAC 2026 speaker signals continued political alignment beyond the advisory role."
     ],
-    "pohRelevance": "Carlton is the ex officio filter through which all committee recommendations pass at CMS. Her McKinsey background and conservative policy ideology represent the management consulting and deregulatory frameworks that govern how CMS interprets physician ownership questions. No stated interest in expanding physician-owned hospitals.",
+    "pohRelevance": "Carlton is the ex officio filter through which all committee recommendations pass at CMS. Her consulting background and conservative policy ideology represent the management consulting and deregulatory frameworks that govern how CMS interprets physician ownership questions. No stated interest in expanding physician-owned hospitals.",
     "sources": [
       {
         "label": "CMS Leadership Page",
@@ -803,8 +1446,34 @@
       {
         "label": "CPAC 2026",
         "url": "https://www.cpac.org/post/stephanie-carlton-to-join-cpac-usa-2026"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "Bloomberg Government: Oz shuffles CMS leadership (May 23, 2026)",
+        "url": "https://news.bgov.com/insurance/mehmet-oz-shuffles-leadership-at-medicare-and-medicaid-agency"
+      },
+      {
+        "label": "Milken Institute speaker listing (title as of November 2026)",
+        "url": "https://milkeninstitute.org/events/future-health-summit-2026/speakers/stephanie-carlton"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-05-23",
+        "text": "Bloomberg Government: Administrator Oz named Rebekah Armstrong, head of the CMS office of legislation, chief of staff. Carlton keeps the deputy administrator role; her portfolio includes clinical artificial intelligence.",
+        "url": "https://news.bgov.com/insurance/mehmet-oz-shuffles-leadership-at-medicare-and-medicaid-agency"
+      },
+      {
+        "date": "2026-11-11",
+        "text": "Listed as a speaker at the Milken Institute Future of Health Summit, Nov 11 to 13, 2026, Washington, DC, with the title Deputy Administrator and Chief Clinical AI Officer, CMS.",
+        "url": "https://milkeninstitute.org/events/future-health-summit-2026/speakers/stephanie-carlton"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Ex officio member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "sebastian-caliri",
@@ -813,10 +1482,10 @@
     "title": "Partner",
     "org": "8VC",
     "sector": "Venture Capital / Health Tech",
-    "overview": "Led healthcare at Palantir Technologies (a CIA-backed defense/intelligence data company) where he built relationships with HHS, CDC, and CMS as a vendor. Now invests in health tech through 8VC, a $6B+ fund run by Joe Lonsdale, Palantir co-founder, $1M+ Trump donor, and political confidant of Elon Musk. Sits on a CMS advisory committee while his portfolio companies seek to sell into the same agency.",
+    "overview": "Led healthcare at Palantir Technologies (a CIA-backed defense/intelligence data company) where he built relationships with HHS, CDC, and CMS as a vendor. Now invests in health tech through 8VC, a $6B+ fund run by Joe Lonsdale, Palantir co-founder, $1M+ Trump donor, and political confidant of Elon Musk. Sits on a CMS advisory committee while his portfolio companies seek to sell into the same agency. He leads the committee's Deploying Real-Time Data working group. In July 2026 Senators Wyden and Merkley named him in a letter to Kennedy and Oz over his stake in BlinkRx, whose board includes Donald Trump Jr., and said his duty to investors conflicts with the advisory role. CMS lists him as a partner; 8VC's own site shows him leading its healthcare team without that title.",
     "careerArc": [
       {
-        "role": "Partner, healthcare team lead",
+        "role": "Partner (per CMS); healthcare team lead",
         "org": "8VC",
         "period": "Current"
       },
@@ -825,15 +1494,11 @@
         "org": "Palantir Technologies"
       },
       {
-        "role": "Board member",
-        "org": "Candid Health (revenue cycle automation)"
-      },
-      {
         "role": "Stanford MD program (one year)"
       },
       {
         "role": "BS/MS magna cum laude",
-        "org": "Yale: Molecular Biophysics & Biochemistry"
+        "org": "Yale: Molecular Biophysics and Biochemistry"
       }
     ],
     "businessDetails": [
@@ -861,17 +1526,68 @@
       {
         "label": "Caliri Medium Post",
         "url": "https://medium.com/8vc-news/what-happened-to-the-future-of-healthcare-c98aafd53016"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "STAT: senators question committee members (July 14, 2026)",
+        "url": "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/"
+      },
+      {
+        "label": "HAC Meeting 1 summary (working group leads)",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-04-26",
+        "text": "Newser, citing the Financial Times: Finn Kennedy, son of HHS Secretary Kennedy, previously worked at 8VC and is raising a $100 million health fund, Victura Ventures, with about $70 million committed.",
+        "url": "https://www.newser.com/story/387990/kennedys-son-launches-fund-planning-maha-convergence.html"
+      },
+      {
+        "date": "2026-05-18",
+        "text": "Attended the inaugural HAC meeting and was named lead of the Deploying Real-Time Data Working Group, one of six working groups, focused on data liquidity, data sharing between payers and clinicians, and Medicaid data infrastructure.",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "date": "2026-07-14",
+        "text": "Sens. Wyden and Merkley wrote Kennedy and Oz naming Caliri as a venture capitalist with a stake in BlinkRx, whose board includes Donald Trump Jr., and said his fiduciary duty to investors conflicts with his advisory role.",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-merkley-demand-answers-from-kennedy-oz-on-newly-formed-healthcare-advisory-committee"
+      },
+      {
+        "date": "2026-07-14",
+        "text": "STAT reported the Wyden and Merkley letter, which raised 'serious concerns' about credibility and conflicts of interest among committee members and asked about Federal Advisory Committee Act compliance.",
+        "url": "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/"
+      },
+      {
+        "date": "2026-08-01",
+        "text": "Public Citizen column on the committee said 8VC invests in Blink Health, a prescription drug platform whose board includes Donald Trump Jr., and identified Caliri as an 8VC venture capitalist.",
+        "url": "https://www.citizen.org/article/outrage-of-the-month-trumps-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-08-31",
+        "text": "Presented the Deploying Real-Time Data Working Group vision and initial ideas at HAC meeting 2.",
+        "url": "https://www.cms.gov/files/document/formal-hac-meeting-agenda-2.pdf"
+      },
+      {
+        "date": "2026-11-09",
+        "text": "Scheduled to present the Real-Time Data Working Group recommendations for a vote at HAC meeting 3, including modernizing Medicaid data systems for real-time program integrity.",
+        "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "tony-robbins",
     "name": "Tony Robbins",
     "nickname": "The Celebrity Play",
-    "title": "Author / Investor",
-    "org": "Fountain Life / Celularity",
+    "title": "Author and investor",
+    "org": "Fountain Life (co-founder); CMS lists no organization",
     "sector": "Wellness / Longevity Biotech",
-    "overview": "Motivational speaker turned longevity investor. Co-founder of Fountain Life ($21,500/year subscription diagnostics, $108M raised) and investor in Celularity (stem cell therapeutics, $250M raised). Co-authored \"Life Force\" with his business partners: a #1 NYT bestseller that promoted companies he owns. Trump donor. Appeared at a CMS quality conference, reportedly impressing Dr. Oz enough to earn a committee seat. Zero healthcare policy expertise.",
+    "overview": "Motivational speaker turned longevity investor. Co-founder of Fountain Life ($21,500-a-year subscription diagnostics, $108 million raised) and investor in Celularity, a stem cell company, according to his own book and press coverage. Co-authored \"Life Force\" with his business partners, a #1 New York Times bestseller that promoted companies he owns. Appeared at a CMS quality conference, reportedly impressing Oz enough to earn a seat. He was the only member absent from the committee's first meeting in May 2026 and was sworn in the next day. In June 2026 Celularity and Fountain Life began offering an FDA-unapproved placental cell therapy to Florida physicians under a 2025 state law. Celularity's June 30 quarterly report showed $586,000 in cash and substantial doubt about its ability to continue, followed by a recapitalization in September. Senators Wyden and Merkley called him a motivational speaker with no healthcare credentials.",
     "careerArc": [
       {
         "role": "Co-Founder & board member",
@@ -904,7 +1620,7 @@
       "Zero healthcare policy expertise. No medical degree, no policy credentials, no operational healthcare experience. Qualification is celebrity, wealth, and political access.",
       "Direct commercial conflict: if committee recommends CMS coverage for precision diagnostics, longevity screening, or regenerative medicine, Robbins' companies benefit directly.",
       "\"Life Force\" is effectively a 400-page advertisement for companies Robbins owns. Co-authors are his business partners.",
-      "Stem cell hype: promotes \"as-yet unproven\" therapies through companies he owns.",
+      "Celularity and Fountain Life sell an FDA-unapproved cell therapy in Florida under a state pathway; Celularity reported going-concern doubt in 2026.",
       "Health policy community reaction to his appointment: \"somewhere between confusion and amusement.\""
     ],
     "pohRelevance": "No connection to physician ownership whatsoever. Robbins' commercial interests are in direct-pay longevity and diagnostics: a market that benefits from CMS coverage expansion but has nothing to do with the physician-owned hospital question.",
@@ -920,8 +1636,73 @@
       {
         "label": "CNN: RFK Jr. VP Outreach",
         "url": "https://www.cnn.com/2024/03/18/politics/tony-robbins-rfk-jr-vice-president-running-mate-outreach"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "Celularity 10-Q for the quarter ended June 30, 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001752828/000149315226047787/form10-q.htm"
+      },
+      {
+        "label": "Celularity and Fountain Life: cenplacel-L availability in Florida (June 4, 2026)",
+        "url": "https://celularity.com/celularity-and-fountain-life-announce-availability-of-cenplacel-l-for-investigational-use-under-new-florida-law-establishing-scalable-pathway-for-advancement-of-placental-derived-cell-therapies/"
+      },
+      {
+        "label": "HAC Meeting 1 summary (absence, sworn in May 19)",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-04-13",
+        "text": "Press release distributed via PRUnderground announced his appointment, calling him a peak performance coach and philanthropist; he said the effort would 'transcend politics.' No companies named.",
+        "url": "https://stocks.observer-reporter.com/observerreporter/article/prunderground-2026-4-13-tony-robbins-named-to-us-healthcare-advisory-committee-charged-with-modernizing-healthcare"
+      },
+      {
+        "date": "2026-05-18",
+        "text": "Did not attend the inaugural HAC meeting (the only member absent). CMS told a questioner he remains a member and was sworn in the following day, May 19.",
+        "url": "https://www.cms.gov/files/document/hac-committee-meeting-1-summary.pdf"
+      },
+      {
+        "date": "2026-06-04",
+        "text": "Celularity and Fountain Life announced cenplacel-L, an FDA-unapproved placental cell therapy, available for investigational use by licensed Florida physicians under a 2025 Florida law. Release names Robbins a Fountain Life co-founder.",
+        "url": "https://celularity.com/celularity-and-fountain-life-announce-availability-of-cenplacel-l-for-investigational-use-under-new-florida-law-establishing-scalable-pathway-for-advancement-of-placental-derived-cell-therapies/"
+      },
+      {
+        "date": "2026-06-09",
+        "text": "Celularity (Fountain Life partner; Robbins described as investor) received Nasdaq notices: June 9 market value below $35M; July 23 bid price below $1; Aug 21 late 10-Q. Nasdaq confirmed Sept 11 it regained the first two.",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001752828/000149315226047787/form10-q.htm"
+      },
+      {
+        "date": "2026-07-14",
+        "text": "Sens. Wyden and Merkley's letter to Kennedy and Oz described Robbins as a motivational speaker with no healthcare credentials who skipped the committee's first meeting.",
+        "url": "https://www.finance.senate.gov/ranking-members-news/wyden-merkley-demand-answers-from-kennedy-oz-on-newly-formed-healthcare-advisory-committee"
+      },
+      {
+        "date": "2026-07-14",
+        "text": "STAT: the senators' letter raised 'serious concerns' about member credibility and conflicts; Robbins is the one member STAT names.",
+        "url": "https://www.statnews.com/2026/07/14/senators-raise-question-hhs-healthcare-advisory-committee-members/"
+      },
+      {
+        "date": "2026-08-01",
+        "text": "Public Citizen column said Robbins profits from expensive, unproven supplements, has no qualifying credentials, and was reportedly approached by Kennedy as a 2024 running mate.",
+        "url": "https://www.citizen.org/article/outrage-of-the-month-trumps-corporate-interest-healthcare-advisory-panel/"
+      },
+      {
+        "date": "2026-09-24",
+        "text": "Celularity's 10-Q for the quarter ended June 30, 2026: cash $586K, working capital deficit $53.3M, substantial doubt about going concern; Sept 24 initial closing of $8.8M net from senior secured convertible notes, part of up to $25M recapitalization.",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001752828/000149315226047787/form10-q.htm"
+      },
+      {
+        "date": "2026-09-29",
+        "text": "Celularity preliminary proxy: Sept 23, 2026 securities purchase agreement with the Philip & Daniele Barach Family Trust; Barach joined the board and Naveen Jain was designated to succeed director Diane Parks.",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001752828/000149315226049115/formpre14a.htm"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "ursel-mcelroy",
@@ -931,7 +1712,7 @@
     "org": "Ohio Department of Aging",
     "sector": "State Government / Long-Term Care",
     "base": "Columbus, OH",
-    "overview": "30-year Ohio state government official. No corporate affiliations, no PE ties, no lobbying registrations. Administers Ohio's PASSPORT Medicaid waiver for home-based long-term services. Chaired Governor DeWine's Nursing Home Quality & Accountability Task Force. The relevant context is structural: Ohio's aging policy operates within an ecosystem where the nursing home industry spent $6M+ on Ohio politics in five years and Governor DeWine, who appointed McElroy, received at least $300,000 from nursing home industry operators.",
+    "overview": "30-year Ohio state government official. No corporate affiliations, no PE ties, no lobbying registrations. Administers Ohio's PASSPORT Medicaid waiver for home-based long-term services. Chaired Governor DeWine's Nursing Home Quality & Accountability Task Force. The relevant context is structural: Ohio's aging policy operates within an ecosystem where the nursing home industry spent $6M+ on Ohio politics in five years and Governor DeWine, who appointed McElroy, received at least $300,000 from nursing home industry operators. In May 2026 she and DeWine launched the Ohio Aging Compass, a navigator comparing more than 1,700 long-term care facilities. Her department's draft 2027-2030 State Plan on Aging went out for comment in August. Amy Acton, a Democrat, won the governorship on November 3, 2026 and succeeds DeWine, who appointed her.",
     "careerArc": [
       {
         "role": "Director",
@@ -940,19 +1721,19 @@
       },
       {
         "role": "President",
-        "org": "ADvancing States Board"
+        "org": "ADvancing States board (per CMS; 2026-27 officers not confirmed)"
       },
       {
         "role": "Various roles",
-        "org": "Ohio AG's Office (10 years)"
+        "org": "Ohio Attorney General's Office (10 years)"
       },
       {
         "role": "Various roles",
-        "org": "Ohio Dept. of Youth Services"
+        "org": "Ohio Department of Youth Services"
       },
       {
         "role": "Various roles",
-        "org": "Ohio DJFS"
+        "org": "Ohio Department of Job and Family Services"
       },
       {
         "role": "Adult Protective Services"
@@ -975,8 +1756,35 @@
       {
         "label": "Ohio Capital Journal: Nursing Home Political Spending",
         "url": "https://ohiocapitaljournal.com/2021/04/19/nursing-homes-spent-at-least-6-million-on-ohio-politics-in-five-years/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "Statehouse News Bureau: Ohio Aging Compass launch (May 1, 2026)",
+        "url": "https://www.statenews.org/government-politics/2026-05-01/state-launches-one-stop-hub-featuring-resources-info-for-older-ohioans"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-05-01",
+        "text": "Unveiled the Ohio Aging Compass with Gov. DeWine: a long-term care navigator comparing more than 1,700 facilities, a resource hub, and a data dashboard, at Compass.Aging.Ohio.gov.",
+        "url": "https://www.statenews.org/government-politics/2026-05-01/state-launches-one-stop-hub-featuring-resources-info-for-older-ohioans"
+      },
+      {
+        "date": "2026-08-06",
+        "text": "Department released its draft 2027-2030 State Plan on Aging (required by the Older Americans Act) for public comment through Aug 30, 2026, with eight priority areas.",
+        "url": "https://www.leadingageohio.org/aws/LAO/pt/sd/news_article/632180/_BLANK/ebulletin_layout_newsletter_details/false"
+      },
+      {
+        "date": "2026-11-03",
+        "text": "Democrat Amy Acton defeated Vivek Ramaswamy for Ohio governor and will succeed term-limited Gov. DeWine, who appointed McElroy in 2019.",
+        "url": "https://www.opb.org/article/2026/11/03/democrat-amy-acton-defeats-vivek-ramaswamy-in-ohio-governors-race/"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "valerie-huhn",
@@ -986,7 +1794,7 @@
     "org": "Missouri Department of Mental Health",
     "sector": "State Government / Behavioral Health",
     "base": "Jefferson City, MO",
-    "overview": "26-year Missouri state government bureaucrat. No private sector employment, no corporate board seats, no investment interests. Oversees ~7,500 state employees and ~170,000 Missourians served annually. In June 2024 the DOJ found Missouri violated the ADA by unnecessarily institutionalizing 3,289 adults with mental health disabilities under her watch. An active federal class action filed November 2025 alleges 500+ Missourians languishing in jails awaiting court-ordered mental health services, with average waits of 14 months. She now advises the federal committee on \"vulnerable populations.\"",
+    "overview": "26-year Missouri state government official. No private sector employment, no corporate board seats, no investment interests. Oversees more than 6,500 state employees, more than $4 billion in budget authority and about 170,000 Missourians served a year. In June 2024 the DOJ found Missouri violated the ADA by unnecessarily institutionalizing 3,289 adults with mental health disabilities under her watch. A federal class action filed November 2025 alleges 500-plus Missourians sat in jails awaiting court-ordered mental health services, with average waits of 14 months; plaintiffs sought a preliminary injunction in March 2026, and no ruling was found by November 2026. In February 2026 the governor's office proposed $80.7 million in disability care cuts; the legislature restored more than $80 million in May, and the budget signed June 30 kept day habilitation and self-directed supports. She now advises the federal committee on \"vulnerable populations.\"",
     "careerArc": [
       {
         "role": "Director",
@@ -1008,8 +1816,8 @@
     ],
     "redFlags": [
       "DOJ ADA violation finding (June 2024): Missouri unnecessarily institutionalized 3,289 adults with mental health disabilities. \"Almost none\" needed nursing facility placement. Missouri's guardianship system functioned as a \"pipeline to nursing facilities.\"",
-      "Federal class action: Darrington v. DMH (November 2025): 500+ Missourians in jails awaiting competency restoration. Average wait: 14 months. Waitlist grew 88% since September 2023.",
-      "$80.7M disability care cuts proposed (February 2026): Huhn acknowledged cuts would create waitlists but did not publicly oppose them.",
+      "Federal class action, Darrington v. DMH (November 2025): 500-plus Missourians in jails awaiting competency restoration, average wait 14 months, waitlist up 88% since September 2023. Huhn told the court in March 2026 that more than 400 people were waiting.",
+      "$80.7 million in disability care cuts proposed in February 2026: Huhn acknowledged the cuts would create waitlists but did not publicly oppose them. The legislature restored the money.",
       "No private financial conflicts: the story is institutional failure being rewarded with a federal advisory role."
     ],
     "pohRelevance": "No connection to physician ownership. The relevant concern is that an official whose state has been found by the DOJ to be systematically failing vulnerable populations is now advising CMS on vulnerable population policy.",
@@ -1025,28 +1833,82 @@
       {
         "label": "Missouri Independent: 500+ in Jails",
         "url": "https://missouriindependent.org/2026/02/05/more-than-500-missourians-await-court-ordered-mental-health-services-languishing-in-jails/"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "Missouri DMH release on her HAC appointment (April 1, 2026)",
+        "url": "https://dmh.mo.gov/node/50456"
+      },
+      {
+        "label": "KCUR: legislature restores disability funding (May 7, 2026)",
+        "url": "https://www.kcur.org/politics-elections-and-government/2026-05-07/missouri-budget-public-education-school-transportation"
+      },
+      {
+        "label": "News Tribune: ACLU seeks relief for 400-plus Missourians in jail (March 14, 2026)",
+        "url": "https://www.newstribune.com/news/2026/mar/14/aclu-requests-relief-for-400-plus-missourians-on/"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-03-14",
+        "text": "Plaintiffs in Darrington v. Missouri DMH (W.D. Mo., Judge Harpool) moved for a preliminary injunction ordering DMH to finish wait-listed competency evaluations within 60 days; Huhn said 400+ people waited in county jails. Motion filed March 9.",
+        "url": "https://www.newstribune.com/news/2026/mar/14/aclu-requests-relief-for-400-plus-missourians-on/"
+      },
+      {
+        "date": "2026-04-01",
+        "text": "DMH release on her HAC appointment lists her as President of the NASDDDS Board of Directors and a member of the CMS Home and Community-Based Services Access Workgroup; DMH has over $4 billion budget authority and 6,500+ employees.",
+        "url": "https://dmh.mo.gov/node/50456"
+      },
+      {
+        "date": "2026-05-07",
+        "text": "Missouri legislature passed the FY2027 budget, restoring over $80 million for disability care programs that Gov. Kehoe's office had cut.",
+        "url": "https://www.kcur.org/politics-elections-and-government/2026-05-07/missouri-budget-public-education-school-transportation"
+      },
+      {
+        "date": "2026-06-30",
+        "text": "Gov. Kehoe signed the FY2027 budget; the governor's release says the $24.8 billion health category includes self-directed supports and outpatient competency restoration. Day habilitation and self-directed supports funding survived vetoes.",
+        "url": "https://governor.mo.gov/press-releases/archive/governor-kehoe-takes-action-fy27-state-budget-bills"
+      },
+      {
+        "date": "2026-09-15",
+        "text": "DMH named Jason Jones director of its Division of Behavioral Health effective Oct 1, 2026, succeeding Nora Bock, who is retiring.",
+        "url": "https://dmh.mo.gov/news/2026"
+      },
+      {
+        "date": "2026-10-14",
+        "text": "DMH released a Parent and Caregiver Resource Guide; the release quotes Director Huhn, confirming her in post as of mid-October 2026.",
+        "url": "https://dmh.mo.gov/news/2026"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   },
   {
     "slug": "jenni-gudapati",
     "name": "Jenni Gudapati, PhD",
     "nickname": "The Idaho Value-Based Care Academic",
-    "title": "CEO / Director",
-    "org": "Amethyst Solutions / Boise State University",
-    "sector": "Home Health / Value-Based Care Education",
+    "title": "President and Founder; Program Director",
+    "org": "HealthyInsights.ai; Boise State University",
+    "sector": "Value-Based Care Analytics / Education",
     "base": "Boise, ID",
-    "overview": "The smallest-scale operator on the committee. Created the nation's first partnered master's degree in Population & Health Systems Management. Former president of Idaho Association for Home Care. CMS Hospice & Home Health Quality Reporting TEP member. No mega-system affiliation, no PE backing. No controversies found. Her consulting business benefits from the value-based care ecosystem the committee will shape.",
+    "overview": "The smallest-scale operator on the committee. President and founder of HealthyInsights.ai, a value-based care intelligence company with offices in Boise and Dallas serving Medicare Advantage, managed Medicaid and ACO clients. Created the nation's first partnered master's degree in Population & Health Systems Management at Boise State and directs it. Former president of the Idaho Association for Home Care and a member of a CMS hospice and home health quality reporting panel. Also behind Amethyst Solutions, a healthcare consulting firm. Idaho Business Review named her a 2026 Woman of the Year. No mega-system affiliation, no PE backing. Her company sells into the value-based care ecosystem the committee will shape.",
     "careerArc": [
       {
-        "role": "CEO",
-        "org": "Amethyst Solutions",
+        "role": "President and Founder",
+        "org": "HealthyInsights.ai",
         "period": "Current"
       },
       {
-        "role": "Director",
-        "org": "Boise State University Value-Based Healthcare Program",
+        "role": "Program Director, Master's in Population & Health Systems Management",
+        "org": "Boise State University",
         "period": "Current"
+      },
+      {
+        "role": "Founder",
+        "org": "Amethyst Solutions (healthcare consulting)"
       },
       {
         "role": "President",
@@ -1062,7 +1924,7 @@
       }
     ],
     "redFlags": [
-      "Consulting business (Amethyst Solutions) benefits from value-based care frameworks the committee will shape: modest but present commercial interest.",
+      "HealthyInsights.ai sells value-based care analytics to Medicare Advantage and Medicaid plans, the programs the committee advises on: a modest but direct commercial interest.",
       "No significant conflicts identified beyond this structural observation."
     ],
     "pohRelevance": "No connection to physician ownership. Focuses on home health, hospice quality, and rural/senior populations. The most conflict-free member on the committee alongside Thomas-Hemak.",
@@ -1074,7 +1936,29 @@
       {
         "label": "Amethyst Solutions",
         "url": "https://www.amethystsolutions.org/about"
+      },
+      {
+        "label": "CMS: Healthcare Advisory Committee roster and biographies (page updated Oct. 20, 2026)",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "label": "Boise State University directory",
+        "url": "https://www.boisestate.edu/healthsciences/directory/jenni-gudapati-mba-rn/"
       }
-    ]
+    ],
+    "developments": [
+      {
+        "date": "2026-03-26",
+        "text": "CMS roster lists her as 'President, Founder, and Creator, Healthy Insights.ai', a value-based care intelligence company with offices in Boise, Idaho and Dallas, Texas serving Medicare Advantage, managed Medicaid, and ACO clients.",
+        "url": "https://www.cms.gov/priorities/healthcare-advisory-committee/overview"
+      },
+      {
+        "date": "2026-06-19",
+        "text": "Idaho Business Review named her a 2026 Women of the Year honoree; ceremony Sept 10, 2026 at Boise Centre West.",
+        "url": "https://idahobusinessreview.com/2026/06/19/idaho-business-review-2026-women-of-year-honorees/"
+      }
+    ],
+    "lastVerified": "2026-11-06",
+    "committeeStatus": "Member, confirmed on the Nov. 9, 2026 agenda"
   }
 ]
