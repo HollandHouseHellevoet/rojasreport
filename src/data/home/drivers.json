@@ -1,0 +1,66 @@
+{
+  "_howTo": "The six driver cards on the home page, in order. figure.basis is reported, estimated or pending; a pending figure renders as an em dash marked pending, never a guess. status is one of lobby-holding, in-play, on-paper, in-court, reform-moving, pending.",
+  "asOf": "November 6, 2026",
+  "drivers": [
+    {
+      "numeral": "I",
+      "label": "Section 6001",
+      "title": "The physician-owned hospital ban",
+      "figure": { "value": "2010", "basis": "reported", "source": "Patient Protection and Affordable Care Act, Pub. L. 111-148, section 6001 (2010)", "as_of": "2010-03-23" },
+      "text": "The year Congress froze physician-owned hospitals in place. No new ones. No expansion of the ones that survived.",
+      "status": "lobby-holding",
+      "statusNote": "Unchanged",
+      "href": "/drivers/"
+    },
+    {
+      "numeral": "II",
+      "label": "Price Transparency",
+      "title": "Prices you can see but cannot use",
+      "figure": { "value": "2021", "basis": "reported", "source": "45 CFR Part 180, Hospital Price Transparency, effective January 1, 2021", "as_of": "2021-01-01" },
+      "text": "Hospitals have been required to publish prices since January 2021. Almost none of it is usable to shop for care.",
+      "status": "on-paper",
+      "statusNote": "Enforced, not actionable",
+      "href": "/drivers/"
+    },
+    {
+      "numeral": "III",
+      "label": "Certificate of Need",
+      "title": "Permission to compete, granted by your competitors",
+      "figure": { "value": "34 states", "basis": "reported", "source": "Rojas Report CON desk, 35 jurisdictions (34 states and the District of Columbia), data/overview.json", "as_of": "2026-11-06" },
+      "text": "And the District still require a state board's approval to open or expand a facility, with incumbents allowed to object.",
+      "status": "in-play",
+      "statusNote": "State by state, 2026 sessions",
+      "href": "/con/"
+    },
+    {
+      "numeral": "IV",
+      "label": "Hospital Subsidies",
+      "title": "Tax exemption, the 340B program, DSH and provider taxes",
+      "figure": { "value": null, "basis": "pending", "source": null, "as_of": null },
+      "text": "A year in public money flowing to the same systems that lobby to keep competitors out.",
+      "status": "in-court",
+      "statusNote": "340B rebate model",
+      "href": "/drivers/"
+    },
+    {
+      "numeral": "V",
+      "label": "CMS Favoritism",
+      "title": "Same service, higher price, if a hospital owns the building",
+      "figure": { "value": null, "basis": "pending", "source": null, "as_of": null },
+      "text": "What Medicare pays a hospital outpatient department over an independent office for the same infusion or scan.",
+      "status": "reform-moving",
+      "statusNote": "Site-neutral, partly final",
+      "href": "/drivers/"
+    },
+    {
+      "numeral": "VI",
+      "label": "Stark & Anti-Kickback",
+      "title": "The rules that keep physicians from building rivals",
+      "figure": { "value": "1989", "basis": "reported", "source": "Ethics in Patient Referrals Act (Stark I), Omnibus Budget Reconciliation Act of 1989, Pub. L. 101-239", "as_of": "1989-12-19" },
+      "text": "Written to stop self-referral. Now the reason independent physicians cannot integrate the way health systems already do.",
+      "status": "lobby-holding",
+      "statusNote": "Unchanged",
+      "href": "/drivers/"
+    }
+  ]
+}

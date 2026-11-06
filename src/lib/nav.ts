@@ -1,6 +1,6 @@
 /** Site navigation, from docs/DECISIONS.md decision 5. */
 export const NAV = [
-  { href: '/drivers/', label: 'Cost Drivers' },
+  { href: '/drivers/', label: 'Cost Drivers', homeLabel: 'The Cost Drivers' },
   { href: '/states/', label: 'States' },
   { href: '/systems/', label: 'Health Systems' },
   { href: '/carriers/', label: 'Carriers' },

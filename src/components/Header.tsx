@@ -14,7 +14,8 @@ const BUILD_DATE = new Date().toLocaleDateString('en-US', {
 
 const label = 'font-meta uppercase tracking-[0.12em]';
 
-function NavLinks({ pathname, size }: { pathname: string; size: string }) {
+function NavLinks({ pathname, size }: { pathname: string; size: 'home' | 'compact' }) {
+  const cls = size === 'home' ? 'text-[13px]' : 'text-[12px]';
   return (
     <>
       {NAV.map((item) => {
@@ -24,11 +25,11 @@ function NavLinks({ pathname, size }: { pathname: string; size: string }) {
             key={item.href}
             href={item.href}
             aria-current={active ? 'page' : undefined}
-            className={`${label} ${size} py-4 border-b ${
+            className={`${label} ${cls} py-4 border-b ${
               active ? 'text-oxblood border-oxblood' : 'text-ink border-transparent hover:text-oxblood'
             }`}
           >
-            {item.label}
+            {size === "home" ? ((item as { homeLabel?: string }).homeLabel ?? item.label) : item.label}
           </Link>
         );
       })}
@@ -91,7 +92,7 @@ export default function Header() {
         {/* Nav */}
         <nav aria-label="Primary" className="border-t border-ink border-b border-b-hairline">
           <div className="max-w-content mx-auto px-5 md:px-8 flex flex-wrap justify-center gap-x-8 lg:gap-x-10">
-            <NavLinks pathname={pathname} size="text-[13px]" />
+            <NavLinks pathname={pathname} size="home" />
           </div>
         </nav>
       </header>
@@ -105,7 +106,7 @@ export default function Header() {
           THE ROJAS REPORT
         </Link>
         <nav aria-label="Primary" className="order-3 lg:order-2 w-full lg:w-auto flex flex-wrap gap-x-6 xl:gap-x-7 -mt-1">
-          <NavLinks pathname={pathname} size="text-[12px]" />
+          <NavLinks pathname={pathname} size="compact" />
         </nav>
         <div className="order-2 lg:order-3 flex items-center gap-5">
           <Link href="/reports/" className={`${label} text-[12px] text-muted hover:text-oxblood hidden sm:inline`}>
