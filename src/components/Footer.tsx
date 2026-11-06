@@ -7,17 +7,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
-            <a
-              href="https://rojasreport.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block"
-            >
+            <Link href="/" className="inline-block">
               <p className="font-display text-xl font-bold text-cream">The Rojas Report</p>
               <p className="font-body text-[11px] font-semibold text-orange tracking-[0.15em] uppercase mt-1">
                 Healthcare Intelligence
               </p>
-            </a>
+            </Link>
             <p className="mt-3 font-body text-sm text-cream/40 leading-relaxed">
               Intelligence briefings on healthcare markets, regulation, and reform.
               Built for physicians, executives, and lawmakers.
@@ -27,17 +22,16 @@ export default function Footer() {
           {/* Investigations */}
           <div>
             <p className="font-body text-xs font-semibold tracking-widest uppercase text-cream/40 mb-3">
-              Investigations
+              Desks
             </p>
             <div className="flex flex-col gap-2 font-body text-sm">
-              <Link href="/" className="text-cream/50 hover:text-cream transition-colors">CON Laws</Link>
-              <a href="https://rojasreport.com/340b-drug-pricing" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">340B Drug Pricing</a>
-              <a href="https://rojasreport.com/hospital-monopolies" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Hospital Monopolies</a>
-              <a href="https://rojasreport.com/idr-no-surprises-act" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">IDR &amp; No Surprises Act</a>
-              <a href="https://aha.rojasreport.com" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">AHA Reports</a>
-              <a href="https://poh.rojasreport.com" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Physician-Owned Hospitals</a>
-              <a href="https://academic.rojasreport.com" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Academic Medical Centers</a>
-              <a href="https://waysandmeans.rojasreport.com" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Ways &amp; Means</a>
+              <Link href="/con/" className="text-cream/50 hover:text-cream transition-colors">CON Laws</Link>
+              <Link href="/aha/" className="text-cream/50 hover:text-cream transition-colors">American Hospital Association</Link>
+              <Link href="/academic/" className="text-cream/50 hover:text-cream transition-colors">Academic Medical Centers</Link>
+              <a href="https://fah.rojasreport.com" className="text-cream/50 hover:text-cream transition-colors">Federation of American Hospitals</a>
+              <a href="https://poh.rojasreport.com" className="text-cream/50 hover:text-cream transition-colors">Physician-Owned Hospitals</a>
+              <a href="/hac/" className="text-cream/50 hover:text-cream transition-colors">HHS Advisory Committee</a>
+              <a href="https://waysandmeans.rojasreport.com" className="text-cream/50 hover:text-cream transition-colors">Ways &amp; Means</a>
             </div>
           </div>
 
@@ -52,7 +46,7 @@ export default function Footer() {
               <a href="https://read.rojasreport.com/about" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">About</a>
               <a href="https://read.rojasreport.com/about" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Contact</a>
               <Link href="/methodology/" className="text-cream/50 hover:text-cream transition-colors">Methodology</Link>
-              <a href="https://rojasreport.com/privacy" target="_blank" rel="noopener noreferrer" className="text-cream/50 hover:text-cream transition-colors">Privacy Policy</a>
+              <Link href="/privacy/" className="text-cream/50 hover:text-cream transition-colors">Privacy Policy</Link>
             </div>
           </div>
 
@@ -71,7 +65,7 @@ export default function Footer() {
 
         <div className="mt-10 pt-6 border-t border-white/5">
           <p className="font-body text-xs text-cream/25 leading-relaxed">
-            Data sourced from Cicero Institute, NASHP, FTC, DOJ, CMS, and state health departments.
+            Sourced to public records: IRS Form 990s, Senate lobbying disclosures, FEC filings, CMS, HRSA, court records, and state agencies. Each desk lists its sources.
           </p>
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mt-3">
             <p className="font-body text-xs text-cream/20">

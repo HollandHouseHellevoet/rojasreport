@@ -1,0 +1,14 @@
+{
+  "asOf": "November 6, 2026",
+  "rows": [
+    { "issue": "Site-neutral pay: drug administration at off-campus hospital departments", "status": "In effect", "tone": "loss", "date": "Jan. 1, 2026", "note": "Final rule. Paid at the physician-office rate.", "href": "/aha/powermap/#lobbying-footprint" },
+    { "issue": "Site-neutral pay: imaging without contrast", "status": "Final", "tone": "loss", "date": "Nov. 4, 2026", "note": "CY2027 Medicare outpatient final rule. Physician-office rates from Jan. 1, 2027; rural sole community hospitals exempt.", "href": "/aha/powermap/#lobbying-footprint" },
+    { "issue": "Hospital price transparency", "status": "Enforced", "tone": "loss", "date": "Apr. 1, 2026", "note": "Hospitals must post actual allowed amounts; a senior official attests.", "href": "/aha/powermap/#lobbying-footprint" },
+    { "issue": "340B program: Medicare payment cut", "status": "Final", "tone": "loss", "date": "Nov. 4, 2026", "note": "340B drugs paid at ASP minus 28% from Jan. 1, 2027, down from ASP plus 6%. CMS had proposed minus 33.4%.", "href": "/aha/powermap/#lobbying-footprint" },
+    { "issue": "340B program: rebate model", "status": "In court", "tone": "pending", "date": "Oct. 9, 2026", "note": "AHA sued to stop the revised pilot set to start Jan. 1, 2027.", "href": "/aha/powermap/#lobbying-footprint" },
+    { "issue": "Physician-owned hospital ban", "status": "Unchanged", "tone": "win", "date": "Nov. 2026", "note": "Physician-led competitors stay locked out.", "href": "https://poh.rojasreport.com" },
+    { "issue": "Medicaid provider taxes and state-directed payments", "status": "Enacted", "tone": "loss", "date": "July 4, 2025", "note": "New provider-tax cap began Oct. 1, 2026; payment cuts start 2028.", "href": "/aha/powermap/#lobbying-footprint" },
+    { "issue": "Certificate of need", "status": "State by state", "tone": "pending", "date": "2026 sessions", "note": "Where repeal and reform stand in every CON state.", "href": "/reform/" }
+  ],
+  "_toneKey": "win = the hospital lobby held the line; loss = the reform happened; pending = still being fought"
+}

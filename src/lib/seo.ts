@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-const SITE_URL = 'https://conlaws.rojasreport.com';
+const SITE_URL = 'https://rojasreport.com';
 const SITE_NAME = 'The Rojas Report | CON Intelligence';
 
 export function makeMetadata(opts: {
@@ -68,6 +68,6 @@ export function siteJsonLd() {
     '@type': 'Organization',
     name: 'The Rojas Report',
     url: 'https://rojasreport.com',
-    sameAs: ['https://conlaws.rojasreport.com'],
+    sameAs: ['https://rojasreport.com'],
   };
 }

@@ -23,6 +23,15 @@ const config: Config = {
         'tier-restrictive': '#c47a3f',
         'tier-highly-restrictive': '#b04e2f',
         'tier-most-restrictive': '#8b3a2a',
+        // AHA Intelligence section
+        card: '#1a2a3e',
+        'card-alt': '#162636',
+        border: '#26364a',
+        muted: '#8a9bb0',
+        dark: '#0a1420',
+        darkest: '#070f19',
+        redflag: '#C0392B',
+        'redflag-bg': '#1e1010',
       },
       fontFamily: {
         display: ['"Cormorant Garamond"', 'Georgia', 'serif'],

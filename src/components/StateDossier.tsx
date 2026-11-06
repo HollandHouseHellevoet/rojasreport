@@ -117,6 +117,8 @@ export default function StateDossier({ state }: StateDossierProps) {
           <nav className="font-body text-xs text-cream/40" aria-label="Breadcrumb">
             <Link href="/" className="text-orange hover:text-orange-light">Home</Link>
             <span className="mx-2">/</span>
+            <Link href="/states/" className="text-orange hover:text-orange-light">The States</Link>
+            <span className="mx-2">/</span>
             <span className="text-cream/60">{state.state}</span>
           </nav>
         </div>
