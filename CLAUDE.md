@@ -2,6 +2,10 @@
 
 Next 14 static export, React 18, Tailwind v3. Code in `src/app`, alias `@/*` to `./src/*`. Build: `npm run build`, output in `out/`. Netlify project "therojasreport"; pull requests get a deploy preview.
 
+## Redesign (branch `redesign`, November 2026)
+
+The controlling document for the site is `docs/BUILD_BRIEF.md` (Dutch Rojas, November 6, 2026). The Machine Score spec is `docs/MACHINE_SCORE_DRAFT.md`. The approved mockups are the four artboards in `docs/mockups/` (home, health system profile, state dossier, committee dossier); where a mockup and the brief disagree, the brief wins. Build from these, not from the old look (navy, orange, Cormorant) or old plans. Hard rules in the brief: no invented numbers, every figure labeled reported or estimated with a source and an as-of date, client work stays out, never "donate," membership by application and never say anyone is excluded.
+
 ## Who merges
 
 Dutch Rojas merges and deploys. Never merge, never deploy, never enable auto-merge. Open a pull request and send the deploy-preview link.
