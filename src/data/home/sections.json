@@ -49,19 +49,25 @@
     "intro": "Every state, graded: its CON law, its tax-exempt systems, its subsidies, its attorney general and the lawmakers who decide.",
     "desks": [
       {
+        "name": "North Carolina",
+        "href": "/states/north-carolina/",
+        "status": "live",
+        "stat": "D",
+        "statLabel": "The Rojas grade, provisional",
+        "blurb": "54 hospitals in the 340B program cleared $4.1B in a year, take an estimated $1.1B in tax breaks and keep certificate of need. The first state dossier.",
+        "group": "State dossiers"
+      },
+      {
         "name": "CON state pages",
         "href": "/con/",
         "status": "live",
-        "blurb": "Every CON state: rankings, scope, case law, reform."
-      },
-      {
-        "name": "State dossiers",
-        "status": "planned",
-        "blurb": "Why healthcare costs what it does in every state. North Carolina first."
+        "blurb": "Every CON state: rankings, scope, case law, reform.",
+        "group": "Desks"
       },
       {
         "name": "AG oversight of nonprofit systems",
-        "status": "planned"
+        "status": "planned",
+        "group": "Desks"
       }
     ]
   },

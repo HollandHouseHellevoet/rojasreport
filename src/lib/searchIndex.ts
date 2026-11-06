@@ -5,6 +5,7 @@ import hacMembers from '@/data/hac/members.json';
 import fahBoard from '@/data/fah/board.json';
 import { STATE_TILES } from '@/lib/stateMap';
 import { systems } from '@/lib/systems';
+import { stateDossiers } from '@/lib/stateDossiers';
 
 export interface SearchEntry {
   title: string;
@@ -20,6 +21,10 @@ export function buildSearchIndex(): SearchEntry[] {
   for (const [abbr, , , name] of STATE_TILES) {
     const slug = conStates.get(abbr);
     out.push({ title: name, kind: 'State', href: slug ? `/states/${slug}/` : '/states/' });
+  }
+  for (const d of stateDossiers) {
+    out.push({ title: `${d.name} state dossier`, kind: 'State dossier', href: `/states/${d.slug}/` });
+    if (conStates.has(d.code)) out.push({ title: `${d.name} certificate of need`, kind: 'CON state page', href: `/con/${d.slug}/` });
   }
   for (const sys of systems) {
     out.push({ title: sys.name, kind: 'Health system', href: `/systems/${sys.slug}/` });

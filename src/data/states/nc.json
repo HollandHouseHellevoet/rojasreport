@@ -1,0 +1,1117 @@
+{
+  "slug": "north-carolina",
+  "code": "NC",
+  "name": "North Carolina",
+  "verdict": "Its 340B hospitals cleared $4.1 billion in a year and take an estimated $1.1 billion in tax breaks. A physician still needs a state permit to open a competing facility.",
+  "asOf": "September 30, 2026",
+  "grade": {
+    "note": "Driver grades are the Rojas Report editorial grades from Build Brief 2 (November 6, 2026), provisional until the state-grade rubric is published at /methodology/state-grade/."
+  },
+  "money": {
+    "asOf": "North Carolina's 54 hospitals in the 340B program, fiscal years ending 2024 to 2025",
+    "items": [
+      {
+        "value": "$4.1B",
+        "text": "in net income in one year, on $36.7B of patient revenue.",
+        "note": "48 of 54 made money. CMS hospital cost reports, latest report per hospital.",
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Net Income 4,062,986,363 and Net Patient Revenue 36,695,642,758 over the 54 active 340B hospitals; 48 of 54 with positive net income",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "value": "$48.7B",
+        "text": "in total assets on their books.",
+        "note": "CMS hospital cost reports, latest report per hospital.",
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Total Assets 48,668,915,322 over the 54 hospitals",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "value": "$1.1B",
+        "text": "a year in estimated tax breaks, against $846M of charity care.",
+        "note": "Federal income $862M, state income $92M, property $161M, at 2025 rates. Sales tax not estimated.",
+        "basis": "estimated",
+        "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 5: federal income tax $862,401,207 (21% of cost-report net income of the 48 profitable hospitals), North Carolina income tax $92,400,129 (2.25% rate, tax year 2025), property tax high case $161,322,797 (commercial effective rates from the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study, April 2026 edition, taxes paid in 2025, on $18.4 billion of land and buildings at historical cost); total $1,116,124,133. Charity care at cost 846,319,513 from the cost reports",
+        "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "value": "770",
+        "text": "340B contract pharmacy arrangements with pharmacies outside North Carolina, of 1,698 in all.",
+        "note": "HRSA 340B registry, September 29, 2026.",
+        "basis": "reported",
+        "source": "HRSA 340B OPAIS export of September 29, 2026: 1,698 active contract pharmacy arrangements for the 54 hospitals, 770 with pharmacies outside the state (45%)",
+        "as_of": "September 29, 2026"
+      }
+    ]
+  },
+  "drivers": [
+    {
+      "num": "I",
+      "label": "Section 6001",
+      "key": "6001",
+      "weight": 5,
+      "title": "Physician-owned hospitals",
+      "grade": "F",
+      "body": "The federal ban applies here as everywhere. North Carolina has one physician-owned hospital left, North Carolina Specialty Hospital in Durham, grandfathered under Section 6001. No new one can open and bill Medicare.",
+      "status": "LOBBY HOLDING · Federal ban unchanged",
+      "tone": "red",
+      "href": "/physician-owned/",
+      "linkText": "Read the physician-owned hospital desk",
+      "basis": "reported",
+      "source": "Rojas Report physician-owned hospital database (Physician_Owned_Hospitals_US.xlsx, February 2026): master list row 78, North Carolina Specialty Hospital, Durham, grandfathered (ACA Section 6001), operating; summary by state NC 1 listed, 1 operating",
+      "as_of": "February 2026"
+    },
+    {
+      "num": "II",
+      "label": "Price Transparency",
+      "key": "transparency",
+      "weight": 12.5,
+      "title": "Prices without teeth",
+      "grade": null,
+      "body": "No North Carolina hospital price-disclosure statute beyond the federal rule has been found yet. Two 2025 bills, HB 434 and SB 316 (Lower Healthcare Costs), name price transparency. HB 434 sits in conference and SB 316 in House Health.",
+      "status": "PENDING RESEARCH · State statute review open",
+      "tone": "grey",
+      "href": null,
+      "linkText": null,
+      "basis": "pending",
+      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 7: bill-text search for 'price transparency', 2025-2026 Session (HB 434 passed both chambers in 2025, House failed to concur June 17, 2025, conferees changed April 6, 2026; SB 316 passed the Senate March 27, 2025, re-referred to House Health May 6, 2026); no state statute reviewed",
+      "as_of": "September 30, 2026"
+    },
+    {
+      "num": "III",
+      "label": "Certificate of Need",
+      "key": "con",
+      "weight": 30,
+      "title": "Still a permit to compete",
+      "grade": "D",
+      "body": "CON remains law under G.S. 131E Article 9. Session Law 2023-7 trimmed it: psychiatric and chemical dependency facilities are out, and urban surgery centers in counties over 125,000 are exempt. MRI review narrows to smaller counties in a later stage. New hospitals and acute-care beds still need state approval.",
+      "status": "PARTLY REPEALED · Core intact",
+      "tone": "gold",
+      "href": "/con/north-carolina/",
+      "linkText": "Read the North Carolina CON brief",
+      "basis": "reported",
+      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 4: G.S. 131E-176(9b) scope; Session Law 2023-7 (HB 76) sections 3.1 (diagnostic threshold $1.5M to $3M, psychiatric and chemical dependency beds), 3.2 (psychiatric and chemical dependency facilities out; qualified urban ambulatory surgical facilities in counties over 125,000 exempt, G.S. 131E-147.5 4% rule, in effect two years after the first HASP payment) and 3.3 (MRI review limited to counties of 125,000 or fewer, three years after the first HASP payment)",
+      "as_of": "September 30, 2026"
+    },
+    {
+      "num": "IV",
+      "label": "Hospital Subsidies",
+      "key": "subsidies",
+      "weight": 27.5,
+      "title": "$1.1 billion a year in tax breaks",
+      "grade": "F",
+      "body": "Estimated federal, state and property tax exemptions for the 54 hospitals in the 340B program come to $1.1 billion a year. Against that, $846 million of charity care at cost. Those hospitals run 855 340B child sites and 1,698 contract pharmacy arrangements.",
+      "status": "LOBBY HOLDING · SB 517 stalled",
+      "tone": "red",
+      "href": "/drivers/",
+      "linkText": "Read the hospital subsidies desk",
+      "basis": "estimated",
+      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 5 (exemptions $1,116,124,133 at 2025 rates; charity care at cost 846,319,513); HRSA 340B OPAIS export of September 29, 2026 (855 child sites, 1,698 arrangements); SB 517 in Senate Rules and Operations since March 26, 2025",
+      "as_of": "September 30, 2026"
+    },
+    {
+      "num": "V",
+      "label": "CMS Favoritism",
+      "key": "cms",
+      "weight": 12.5,
+      "title": "Urban hospitals, rural rules",
+      "grade": "D",
+      "body": "12 of the 54 are hospitals in urban areas that CMS treats as rural under 42 CFR 412.103. Duke University Hospital, UNC Hospitals and Novant Health New Hanover are among them. Rural status can lower the 340B eligibility bar for a rural referral center and change Medicare wage-index reclassification.",
+      "status": "IN PLAY · 12 of 54 reclassified",
+      "tone": "gold",
+      "href": "/drivers/",
+      "linkText": "Read the CMS favoritism desk",
+      "basis": "reported",
+      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 4: 12 of 54 with dual classification (cost report Rural; CMS FY2027 IPPS impact file urban, Section 401 flag): Duke Regional, Forsyth Memorial, Cape Fear Valley Medical Center, Catawba Valley, Moses H Cone Memorial, Alamance Regional, Duke University Hospital, FirstHealth Moore Regional, Novant Health New Hanover, Onslow Memorial, UNC Hospitals, Wayne Memorial",
+      "as_of": "CMS FY2027 IPPS final rule impact file (correction notice)"
+    },
+    {
+      "num": "VI",
+      "label": "Stark & Anti-Kickback",
+      "key": "stark",
+      "weight": 12.5,
+      "title": "No room to build rivals",
+      "grade": null,
+      "body": "Whether North Carolina self-referral and anti-kickback law goes beyond the federal statutes is not yet researched.",
+      "status": "PENDING RESEARCH",
+      "tone": "grey",
+      "href": null,
+      "linkText": null,
+      "basis": "pending",
+      "source": "Not yet researched",
+      "as_of": "November 6, 2026"
+    }
+  ],
+  "systems": {
+    "subtitle": "Their 340B hospitals in North Carolina",
+    "note": "Margin is net income over net patient revenue plus other income, the cost report’s total margin. CMS hospital cost reports, latest report per hospital. Atrium Health (a hospital authority) and UNC Hospitals (a state entity) file no Form 990.",
+    "rows": [
+      {
+        "name": "UNC Health",
+        "slug": null,
+        "hospitals": 5,
+        "netPatientRevenue": 4318038225,
+        "netIncome": 763410632,
+        "otherIncome": 258349642,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Advocate Health (Atrium Health)",
+        "slug": null,
+        "hospitals": 6,
+        "netPatientRevenue": 7705045542,
+        "netIncome": 746617416,
+        "otherIncome": 1056814704,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Novant Health",
+        "slug": null,
+        "hospitals": 5,
+        "netPatientRevenue": 6437399451,
+        "netIncome": 698982681,
+        "otherIncome": 291274523,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "ECU Health",
+        "slug": null,
+        "hospitals": 8,
+        "netPatientRevenue": 2398218309,
+        "netIncome": 301519296,
+        "otherIncome": 159881980,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Duke University Health",
+        "slug": null,
+        "hospitals": 2,
+        "netPatientRevenue": 5382737360,
+        "netIncome": 279817515,
+        "otherIncome": 79305046,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Cone Health",
+        "slug": null,
+        "hospitals": 2,
+        "netPatientRevenue": 2037454633,
+        "netIncome": 244868088,
+        "otherIncome": 38704321,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "FirstHealth of the Carolinas",
+        "slug": null,
+        "hospitals": 2,
+        "netPatientRevenue": 925113605,
+        "netIncome": 233597236,
+        "otherIncome": 218542093,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Cape Fear Valley Health System",
+        "slug": null,
+        "hospitals": 4,
+        "netPatientRevenue": 1327470552,
+        "netIncome": 136280999,
+        "otherIncome": 170242936,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Wayne Health Corporation (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 349235572,
+        "netIncome": 87682118,
+        "otherIncome": 55673085,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Catawba Valley Medical Center",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 426581770,
+        "netIncome": 81372865,
+        "otherIncome": 21797583,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Caromont Health System",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 822685423,
+        "netIncome": 68998325,
+        "otherIncome": -4271631,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Blue Ridge HealthCare System (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 332228219,
+        "netIncome": 63166410,
+        "otherIncome": 44203338,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Nash Health Care Systems (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 370286001,
+        "netIncome": 58764615,
+        "otherIncome": 18107940,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "WakeMed Health and Hospitals",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 1442800112,
+        "netIncome": 57398188,
+        "otherIncome": 0,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Scotland Health Care System Inc (managed by Atrium Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 244917299,
+        "netIncome": 50601023,
+        "otherIncome": 47888772,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Onslow County Hospital Authority (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 227546292,
+        "netIncome": 41883916,
+        "otherIncome": 5740759,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Southeastern Regional Medical Center (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 345536131,
+        "netIncome": 32984068,
+        "otherIncome": 40643297,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Lenoir Memorial Hospital Inc (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 172824259,
+        "netIncome": 26818494,
+        "otherIncome": 11009440,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "AdventHealth",
+        "slug": null,
+        "hospitals": 2,
+        "netPatientRevenue": 338958261,
+        "netIncome": 22290762,
+        "otherIncome": 20868525,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Independent hospitals",
+        "slug": null,
+        "hospitals": 2,
+        "netPatientRevenue": 157672229,
+        "netIncome": 21877906,
+        "otherIncome": 24413590,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Columbus Regional Healthcare System (managed by Atrium Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 137291066,
+        "netIncome": 21395302,
+        "otherIncome": 8260534,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Sentara Health",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 194022094,
+        "netIncome": 11429000,
+        "otherIncome": 3928107,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Appalachian Regional Healthcare System (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 27991435,
+        "netIncome": 4801396,
+        "otherIncome": 3301803,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Henderson County Hospital Corporation (managed by UNC Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 450953513,
+        "netIncome": 3273345,
+        "otherIncome": 0,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Erlanger Health System",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 70508049,
+        "netIncome": 3045106,
+        "otherIncome": 8052664,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      },
+      {
+        "name": "Ashe Memorial Hospital Inc (managed by Novant Health)",
+        "slug": null,
+        "hospitals": 1,
+        "netPatientRevenue": 52127356,
+        "netIncome": 109661,
+        "otherIncome": 1963189,
+        "basis": "reported",
+        "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems per the dossier appendix (HRSA OPAIS, AHRQ Compendium and Form 990 linkage)",
+        "as_of": "hospital fiscal years ending 2024 to 2025"
+      }
+    ]
+  },
+  "hospitals": {
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital",
+    "as_of": "hospital fiscal years ending 2024 to 2025",
+    "rows": [
+      {
+        "ccn": "340061",
+        "name": "UNC Hospitals",
+        "system": "UNC Health Care System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 3606086345,
+        "netIncome": 712790379,
+        "totalAssets": 7595455981,
+        "charityCareAtCost": 84074852
+      },
+      {
+        "ccn": "340053",
+        "name": "Presbyterian Hospital, d/b/a Novant Health Presbyterian Medical Center",
+        "system": "Novant Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 2029067133,
+        "netIncome": 336649727,
+        "totalAssets": 698100457,
+        "charityCareAtCost": 23194135
+      },
+      {
+        "ccn": "340030",
+        "name": "Duke University Hospital",
+        "system": "Duke University Health System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 4842220810,
+        "netIncome": 289088950,
+        "totalAssets": 2469794717,
+        "charityCareAtCost": 114628825
+      },
+      {
+        "ccn": "340047",
+        "name": "North Carolina Baptist Hospital",
+        "system": "Advocate Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 2399209430,
+        "netIncome": 248464847,
+        "totalAssets": 2745615658,
+        "charityCareAtCost": 26420073
+      },
+      {
+        "ccn": "340113",
+        "name": "Carolinas Medical Center",
+        "system": "Advocate Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 4075132959,
+        "netIncome": 240288467,
+        "totalAssets": 7531248186,
+        "charityCareAtCost": 57356038
+      },
+      {
+        "ccn": "340040",
+        "name": "Pitt County Memorial Hospital, Incorporated d/b/a ECU Health Medical Center",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 1770994226,
+        "netIncome": 238600153,
+        "totalAssets": 1614589809,
+        "charityCareAtCost": 47090838
+      },
+      {
+        "ccn": "340115",
+        "name": "Firsthealth Moore Regional Hospital",
+        "system": "FirstHealth of the Carolinas",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 903965919,
+        "netIncome": 230837650,
+        "totalAssets": 1907192059,
+        "charityCareAtCost": 17161213
+      },
+      {
+        "ccn": "340141",
+        "name": "Novant Health New Hanover Regional Medical Center",
+        "system": "Novant Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 2019244974,
+        "netIncome": 228697590,
+        "totalAssets": 1984997630,
+        "charityCareAtCost": 33461976
+      },
+      {
+        "ccn": "340091",
+        "name": "The Moses H Cone Memorial Hospital Operating Corporation",
+        "system": "Cone Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 1720095979,
+        "netIncome": 197904619,
+        "totalAssets": 1997262448,
+        "charityCareAtCost": 33316325
+      },
+      {
+        "ccn": "340166",
+        "name": "Atrium Health University City",
+        "system": "Advocate Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 365352731,
+        "netIncome": 138464741,
+        "totalAssets": 549504677,
+        "charityCareAtCost": 10058513
+      },
+      {
+        "ccn": "340085",
+        "name": "Novant Health Thomasville Medical Center",
+        "system": "Novant Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 373689742,
+        "netIncome": 130227717,
+        "totalAssets": 95273418,
+        "charityCareAtCost": 4499963
+      },
+      {
+        "ccn": "340028",
+        "name": "Cape Fear Valley Medical Center",
+        "system": "Cape Fear Valley Health System",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 1060713646,
+        "netIncome": 90601251,
+        "totalAssets": 4410102970,
+        "charityCareAtCost": 37622637
+      },
+      {
+        "ccn": "340010",
+        "name": "Wayne Memorial Hospital",
+        "system": "Wayne Health Corporation (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 349235572,
+        "netIncome": 87682118,
+        "totalAssets": 619776561,
+        "charityCareAtCost": 11152200
+      },
+      {
+        "ccn": "340143",
+        "name": "Catawba Valley Medical Center",
+        "system": "Catawba Valley Medical Center",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 426581770,
+        "netIncome": 81372865,
+        "totalAssets": 822931332,
+        "charityCareAtCost": 16297797
+      },
+      {
+        "ccn": "340021",
+        "name": "Atrium Health Cleveland",
+        "system": "Advocate Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 388954404,
+        "netIncome": 70099951,
+        "totalAssets": 556652736,
+        "charityCareAtCost": 7224619
+      },
+      {
+        "ccn": "340032",
+        "name": "Gaston Memorial Hospital",
+        "system": "Caromont Health System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 822685423,
+        "netIncome": 68998325,
+        "totalAssets": 778202610,
+        "charityCareAtCost": 14366884
+      },
+      {
+        "ccn": "340075",
+        "name": "Blue Ridge HealthCare Hospitals, Inc",
+        "system": "Blue Ridge HealthCare System (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 332228219,
+        "netIncome": 63166410,
+        "totalAssets": 798714537,
+        "charityCareAtCost": 9403926
+      },
+      {
+        "ccn": "340147",
+        "name": "Nash Hospitals, Inc.",
+        "system": "Nash Health Care Systems (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 370286001,
+        "netIncome": 58764615,
+        "totalAssets": 524205209,
+        "charityCareAtCost": 24487695
+      },
+      {
+        "ccn": "340069",
+        "name": "Wakemed",
+        "system": "WakeMed Health and Hospitals",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 1442800112,
+        "netIncome": 57398188,
+        "totalAssets": 2463943763,
+        "charityCareAtCost": 69205005
+      },
+      {
+        "ccn": "340008",
+        "name": "Scotland Memorial Hospital",
+        "system": "Scotland Health Care System Inc (managed by Atrium Health)",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 244917299,
+        "netIncome": 50601023,
+        "totalAssets": 377275203,
+        "charityCareAtCost": 4982701
+      },
+      {
+        "ccn": "340004",
+        "name": "High Point Regional Health",
+        "system": "Advocate Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 463278562,
+        "netIncome": 49339859,
+        "totalAssets": 482002587,
+        "charityCareAtCost": 5182996
+      },
+      {
+        "ccn": "340070",
+        "name": "Alamance Regional Medical Center",
+        "system": "Cone Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 317358654,
+        "netIncome": 46963469,
+        "totalAssets": 762284679,
+        "charityCareAtCost": 7992636
+      },
+      {
+        "ccn": "340042",
+        "name": "Onslow Memorial Hospital",
+        "system": "Onslow County Hospital Authority (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 227546292,
+        "netIncome": 41883916,
+        "totalAssets": 218236103,
+        "charityCareAtCost": 7265277
+      },
+      {
+        "ccn": "340090",
+        "name": "Johnston Health Services Corporation",
+        "system": "UNC Health Care System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 387481936,
+        "netIncome": 39801447,
+        "totalAssets": 414090607,
+        "charityCareAtCost": 17638991
+      },
+      {
+        "ccn": "340050",
+        "name": "S.E. Regl Medical Center",
+        "system": "Southeastern Regional Medical Center (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 345536131,
+        "netIncome": 32984068,
+        "totalAssets": 358962603,
+        "charityCareAtCost": 8310426
+      },
+      {
+        "ccn": "341324",
+        "name": "Outer Banks Health Hospital DBA",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 106300332,
+        "netIncome": 30672249,
+        "totalAssets": 22424298,
+        "charityCareAtCost": 1684193
+      },
+      {
+        "ccn": "340027",
+        "name": "Lenoir Memorial Hospital, Inc.",
+        "system": "Lenoir Memorial Hospital Inc (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 172824259,
+        "netIncome": 26818494,
+        "totalAssets": 199833601,
+        "charityCareAtCost": 5073812
+      },
+      {
+        "ccn": "340188",
+        "name": "Cape Fear Valley Hoke Hospital",
+        "system": "Cape Fear Valley Health System",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 77258508,
+        "netIncome": 25256459,
+        "totalAssets": 724853854,
+        "charityCareAtCost": 6833096
+      },
+      {
+        "ccn": "341318",
+        "name": "East Carolina Health-Chowan, Inc. d/b/a ECU Health Chowan Hospital",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 84797668,
+        "netIncome": 23385403,
+        "totalAssets": 19234178,
+        "charityCareAtCost": 2282421
+      },
+      {
+        "ccn": "340068",
+        "name": "Columbus Regional Healthcare System",
+        "system": "Columbus Regional Healthcare System (managed by Atrium Health)",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 137291066,
+        "netIncome": 21395302,
+        "totalAssets": 236298568,
+        "charityCareAtCost": 2053247
+      },
+      {
+        "ccn": "340041",
+        "name": "Caldwell Memorial Hospital",
+        "system": "UNC Health Care System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 205381534,
+        "netIncome": 18107606,
+        "totalAssets": 161735418,
+        "charityCareAtCost": 4683515
+      },
+      {
+        "ccn": "341315",
+        "name": "Bladen Healthcare, LLC DBA Cape Fear Valley Health System - Bladen County Hospital",
+        "system": "Cape Fear Valley Health System",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 54668652,
+        "netIncome": 16066147,
+        "totalAssets": 319438071,
+        "charityCareAtCost": 3240041
+      },
+      {
+        "ccn": "340127",
+        "name": "Granville Medical Center",
+        "system": "Independent",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 98904519,
+        "netIncome": 14696709,
+        "totalAssets": 93954525,
+        "charityCareAtCost": 823810
+      },
+      {
+        "ccn": "340023",
+        "name": "Adventhealth Hendersonville",
+        "system": "AdventHealth",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 288726500,
+        "netIncome": 13845720,
+        "totalAssets": 303269674,
+        "charityCareAtCost": 8346141
+      },
+      {
+        "ccn": "340109",
+        "name": "Sentara Albemarle Regional Medical Center",
+        "system": "Sentara Healthcare",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 194022094,
+        "netIncome": 11429000,
+        "totalAssets": 301641000,
+        "charityCareAtCost": 8104327
+      },
+      {
+        "ccn": "340107",
+        "name": "East Carolina Health-Heritage, Inc. d/b/a ECU Health Edgecombe Hospital",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 109510539,
+        "netIncome": 9832618,
+        "totalAssets": 84756457,
+        "charityCareAtCost": 4709764
+      },
+      {
+        "ccn": "340015",
+        "name": "Rowan Regional Hospital",
+        "system": "Novant Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 346047349,
+        "netIncome": 9203668,
+        "totalAssets": 190496979,
+        "charityCareAtCost": 6829758
+      },
+      {
+        "ccn": "341304",
+        "name": "East Carolina Health-Bertie d/b/a ECU Health Bertie Hospital",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 35019938,
+        "netIncome": 8556858,
+        "totalAssets": 32165609,
+        "charityCareAtCost": 982462
+      },
+      {
+        "ccn": "341322",
+        "name": "AdventHealth Polk",
+        "system": "AdventHealth",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 50231761,
+        "netIncome": 8445042,
+        "totalAssets": 62724008,
+        "charityCareAtCost": 615694
+      },
+      {
+        "ccn": "341327",
+        "name": "J Arthur Dosher Memorial Hospital",
+        "system": "Independent",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 58767710,
+        "netIncome": 7181197,
+        "totalAssets": 91724535,
+        "charityCareAtCost": 84090
+      },
+      {
+        "ccn": "340120",
+        "name": "Duplin General Hospital, Inc. D/B/A ECU Health Duplin Hospital",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 80858359,
+        "netIncome": 6836625,
+        "totalAssets": 59937364,
+        "charityCareAtCost": 4929673
+      },
+      {
+        "ccn": "341311",
+        "name": "Chatham Hospital Inc",
+        "system": "UNC Health Care System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 60173363,
+        "netIncome": 4924736,
+        "totalAssets": 45111075,
+        "charityCareAtCost": 4487570
+      },
+      {
+        "ccn": "341323",
+        "name": "Charles A. Cannon Memorial Hospital",
+        "system": "Appalachian Regional Healthcare System (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 27991435,
+        "netIncome": 4801396,
+        "totalAssets": 39779018,
+        "charityCareAtCost": 662767
+      },
+      {
+        "ccn": "340071",
+        "name": "Harnett Health System, Inc.",
+        "system": "Cape Fear Valley Health System",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 134829746,
+        "netIncome": 4357142,
+        "totalAssets": 1219352678,
+        "charityCareAtCost": 7339990
+      },
+      {
+        "ccn": "340017",
+        "name": "Margaret R. Pardee Memorial Hospital",
+        "system": "Henderson County Hospital Corporation (managed by UNC Health)",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 450953513,
+        "netIncome": 3273345,
+        "totalAssets": 257801961,
+        "charityCareAtCost": 9862378
+      },
+      {
+        "ccn": "341328",
+        "name": "Murphy Medical Center dba Erlanger Western Carolina Hospital",
+        "system": "Erlanger Health System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 70508049,
+        "netIncome": 3045106,
+        "totalAssets": -19350782,
+        "charityCareAtCost": 2433577
+      },
+      {
+        "ccn": "341303",
+        "name": "Firsthealth Montgomery Memorial Hospital",
+        "system": "FirstHealth of the Carolinas",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 21147686,
+        "netIncome": 2759586,
+        "totalAssets": 5910980,
+        "charityCareAtCost": 694270
+      },
+      {
+        "ccn": "341325",
+        "name": "Ashe Memorial Hospital",
+        "system": "Ashe Memorial Hospital Inc (managed by Novant Health)",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 52127356,
+        "netIncome": 109661,
+        "totalAssets": 24646000,
+        "charityCareAtCost": 61539
+      },
+      {
+        "ccn": "341320",
+        "name": "Alleghany Memorial Hospital",
+        "system": "Advocate Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 13117456,
+        "netIncome": -40449,
+        "totalAssets": 22233608,
+        "charityCareAtCost": 382492
+      },
+      {
+        "ccn": "340099",
+        "name": "East Carolina Health d/b/a ECU Health Roanoke-Chowan Hospital",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 97458334,
+        "netIncome": -116889,
+        "totalAssets": 62915832,
+        "charityCareAtCost": 2892346
+      },
+      {
+        "ccn": "340014",
+        "name": "Forsyth Memorial Hospital Inc",
+        "system": "Novant Health",
+        "fiscalYearEnd": "12/31/2024",
+        "netPatientRevenue": 1669350253,
+        "netIncome": -5796021,
+        "totalAssets": 902388688,
+        "charityCareAtCost": 25345074
+      },
+      {
+        "ccn": "340155",
+        "name": "Duke Regional Hospital",
+        "system": "Duke University Health System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 540516550,
+        "netIncome": -9271435,
+        "totalAssets": 317295456,
+        "charityCareAtCost": 31795259
+      },
+      {
+        "ccn": "340060",
+        "name": "UNC Rockingham Hospital",
+        "system": "UNC Health Care System",
+        "fiscalYearEnd": "06/30/2025",
+        "netPatientRevenue": 58915047,
+        "netIncome": -12213536,
+        "totalAssets": 37573572,
+        "charityCareAtCost": 2622941
+      },
+      {
+        "ccn": "340151",
+        "name": "Halifax Regional Medical Center, Inc. d/b/a ECU Health North Hospital",
+        "system": "ECU Health",
+        "fiscalYearEnd": "09/30/2024",
+        "netPatientRevenue": 113278913,
+        "netIncome": -16247721,
+        "totalAssets": 72352557,
+        "charityCareAtCost": 4066725
+      }
+    ]
+  },
+  "whoDecides": {
+    "subtitle": "Machine Scores coming with the lawmaker pages",
+    "groups": [
+      {
+        "name": "The executive",
+        "people": [
+          {
+            "name": "Josh Stein",
+            "role": "Governor (D), since January 2025"
+          },
+          {
+            "name": "Jeff Jackson",
+            "role": "Attorney General (D), since January 2025"
+          }
+        ]
+      },
+      {
+        "name": "The General Assembly",
+        "people": [
+          {
+            "name": "Phil Berger",
+            "role": "Senate President Pro Tempore (R), District 26"
+          },
+          {
+            "name": "Jim Burgin, Amy S. Galey, Benton G. Sawrey",
+            "role": "Chairs, Senate Health Care (all R)"
+          },
+          {
+            "name": "Larry W. Potts, Donny Lambeth, Timothy Reeder MD, Donna McDowell White",
+            "role": "Senior chair and chairs, House Health (all R)"
+          }
+        ],
+        "note": "38 of 50 senators and 48 of 120 House members have a 340B hospital in their district."
+      },
+      {
+        "name": "In Washington",
+        "people": [
+          {
+            "name": "Sen. Thom Tillis",
+            "role": "Senate Finance"
+          },
+          {
+            "name": "Rep. Greg Murphy",
+            "role": "Ways and Means (NC-3)"
+          },
+          {
+            "name": "Rep. Richard Hudson",
+            "role": "Energy and Commerce (NC-9)"
+          }
+        ]
+      }
+    ],
+    "pac": {
+      "text": "The North Carolina Healthcare Association's PAC spent $319,396 in 2024, $304,800 of it on candidates and political committees.",
+      "basis": "reported",
+      "source": "North Carolina State Board of Elections, NCHA, Inc. Political Action Committee (SBoE Id STA-C3234N-C-001), 2024 First through Fourth Quarter reports: $319,396.38 total expenditures, $304,800.00 contributions to candidates and political committees",
+      "as_of": "calendar year 2024 reports"
+    },
+    "basis": "reported",
+    "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 2 (officeholders from saved official rosters, collected October 3, 2026; Senate Health Care and House Health committee pages; NCGA leadership page; 119th Congress committee rosters; district counts from the Census geocoder and TIGERweb, retrieved September 30, 2026)",
+    "as_of": "September 30, 2026"
+  },
+  "bills": {
+    "subtitle": "Remaining 2026 windows: Nov. 16 to 19 and Nov. 30 to Dec. 18",
+    "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), sections 2 and 7: N.C. General Assembly bill pages and Resolution 2026-6 (reconvened windows October 26 to 28, November 16 to 19 and November 30 to December 18, 2026; adjournment sine die December 18, 2026)",
+    "as_of": "September 30, 2026",
+    "rows": [
+      {
+        "id": "SB 517",
+        "title": "Cap hospital 340B payments at cost",
+        "body": "Would cap what a 340B hospital accepts for a 340B drug at its acquisition cost and require annual 340B reporting to the state.",
+        "status": "STALLED · Senate Rules since Mar. 26, 2025",
+        "tone": "red"
+      },
+      {
+        "id": "HB 163",
+        "title": "Pharmacy benefit manager provisions",
+        "body": "Pharmacy benefit manager bill with 340B provisions. Passed the House 106 to 9 in April 2025 and sits in Senate Rules.",
+        "status": "STALLED · Senate Rules since Apr. 30, 2025",
+        "tone": "red"
+      },
+      {
+        "id": "SL 2025-69",
+        "title": "SB 479, the SCRIPT Act",
+        "body": "Bars pharmacy benefit managers from discriminating against 340B entities and their contract pharmacies.",
+        "status": "ENACTED Jul. 9, 2025 · Protects the program",
+        "tone": "red"
+      },
+      {
+        "id": "SL 2023-7",
+        "title": "Medicaid expansion and CON reform",
+        "body": "Expanded Medicaid and phased out parts of certificate of need: one change on enactment, two more tied to the first hospital directed payment.",
+        "status": "ENACTED 2023 · Phasing in",
+        "tone": "gold"
+      }
+    ]
+  },
+  "practicing": {
+    "heading": "Practicing in North Carolina?",
+    "text": "CON still governs what you can build. Here is what independent physicians in North Carolina can do now: own their benefits, contract directly with employers, and keep their malpractice profit.",
+    "links": [
+      {
+        "name": "MedMerge",
+        "href": "https://medmerge.co"
+      },
+      {
+        "name": "Cornerstone Indemnity",
+        "href": null
+      },
+      {
+        "name": "PhyCap Fund",
+        "href": "https://phycapfund.com"
+      }
+    ]
+  },
+  "buy": {
+    "heading": "Take North Carolina with you.",
+    "text": "Every hospital, every subsidy line, every lawmaker's district exposure, with the source documents.",
+    "options": [
+      {
+        "label": "North Carolina dataset",
+        "price": null,
+        "perYear": false,
+        "primary": true
+      },
+      {
+        "label": "All states, all-access",
+        "price": null,
+        "perYear": true,
+        "primary": false
+      }
+    ]
+  },
+  "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, IRS Form 990, N.C. General Statutes and Session Laws, N.C. General Assembly, N.C. State Board of Elections, CMS FY2027 IPPS impact file, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Rojas Report physician-owned hospital database (February 2026)."
+}
