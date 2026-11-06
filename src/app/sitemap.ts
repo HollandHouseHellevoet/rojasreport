@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 import { getAllStateSlugs } from '@/lib/data';
 import ahaProfiles from '@/data/aha/profiles.json';
 import hacMembers from '@/data/hac/members.json';
+import fahBoard from '@/data/fah/board.json';
+import fahPillars from '@/data/fah/pillars.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://rojasreport.com';
@@ -60,5 +62,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticPages, ...statePages, ...ahaPages, ...hacPages];
+  const fahBase = 'https://rojasreport.com/fah';
+  const fahPages = [
+    { url: `${fahBase}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${fahBase}/pillars/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${fahBase}/lobbying/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${fahBase}/pac/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    ...(fahBoard as { slug: string }[]).map(m => ({ url: `${fahBase}/board/${m.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
+    ...(fahPillars as { slug: string }[]).map(p => ({ url: `${fahBase}/pillars/${p.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
+  ];
+
+  return [...staticPages, ...statePages, ...ahaPages, ...hacPages, ...fahPages];
 }
