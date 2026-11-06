@@ -120,7 +120,7 @@
   "charter": "Signed August 19, 2025; amended March 16, 2026 to allow up to 20 members. Two-year terms for members and the chair.",
   "nextMeeting": {
     "date": "2026-11-09",
-    "text": "Virtual public meeting. The committee votes on 15 working-group recommendations, including site-neutral pricing, Medicare Advantage and VA payment overlap, broker reform and Food is Medicine in Medicaid.",
+    "text": "Virtual public meeting. The committee votes on 16 working-group recommendations, including site-neutral pricing, Medicare Advantage and VA payment overlap, broker reform and Food is Medicine in Medicaid.",
     "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
   },
   "meetings": [
@@ -134,12 +134,12 @@
       "date": "2026-08-31",
       "label": "Meeting 2 (virtual)",
       "text": "Agenda: each working group presents its vision and initial ideas. No summary, transcript or coverage located as of November 6, 2026.",
-      "url": "https://www.federalregister.gov/documents/2026/08/04/2026-15786/healthcare-advisory-committee-hac-announcement-of-the-hac-meetings-for-fiscal-year-2026-2027"
+      "url": "https://www.cms.gov/files/document/formal-hac-meeting-agenda-2.pdf"
     },
     {
       "date": "2026-11-09",
       "label": "Meeting 3 (virtual)",
-      "text": "Vote on 15 proposed recommendations: collaborative care, Food is Medicine in Medicaid, site-neutral pricing, real-time claims integrity, Medicare Advantage and VA overlap ($22 billion), agent and broker reform, plan transparency, credentialing through the National Provider Directory, Medicaid data modernization.",
+      "text": "Vote on 16 proposed recommendations. Among them: collaborative care, Food is Medicine in Medicaid, site-neutral pricing, real-time claims integrity, Medicare Advantage and VA overlap ($22 billion), agent and broker reform, plan transparency, credentialing through the National Provider Directory, Medicaid data modernization.",
       "url": "https://www.cms.gov/files/document/federal-advisory-committee-meeting-3-agenda.pdf"
     },
     {
@@ -187,7 +187,7 @@
       "members": "Brandt, Gudapati"
     }
   ],
-  "workProducts": "Bylaws and Meeting 1 materials only. No report or recommendation has been sent to HHS or CMS as of November 6, 2026.",
+  "workProducts": "Bylaws, meeting summaries and agendas only. No report or recommendation has been sent to HHS or CMS as of November 6, 2026.",
   "scrutiny": [
     {
       "date": "2026-04-06",

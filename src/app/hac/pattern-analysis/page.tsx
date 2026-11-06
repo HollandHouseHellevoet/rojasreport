@@ -27,14 +27,14 @@ const sectorMap = [
   { sector: "Primary care consolidation", members: [
     { name: "Clive K. Fields, MD", slug: "clive-fields", org: "VillageMD co-founder and former CMO; committee chair" },
   ]},
-  { sector: "Insurance-adjacent and claims infrastructure", members: [
+  { sector: "Insurance-adjacent and claims", members: [
     { name: "Kyu Rhee, MD", slug: "kyu-rhee", org: "NACHC; Providence Health Plan board" },
     { name: "Russ Thomas, JD", slug: "russ-thomas", org: "Availity (insurer-owned)" },
   ]},
   { sector: "For-profit behavioral health", members: [
     { name: "Andrew Lynch, PhD", slug: "andrew-lynch", org: "Acadia Healthcare (280 facilities)" },
   ]},
-  { sector: "Government (CMS, ex officio)", members: [
+  { sector: "Government (CMS)", members: [
     { name: "Kimberly Brandt, JD", slug: "kimberly-brandt", org: "CMS Deputy Administrator and COO" },
     { name: "Stephanie Carlton", slug: "stephanie-carlton", org: "CMS Deputy Administrator and Chief Clinical AI Officer" },
   ]},
@@ -152,7 +152,7 @@ export default function PatternAnalysis() {
           <div className="bg-navy-dark border border-orange/30 p-6 sm:p-8 space-y-4">
             <p className="font-body text-cream/85 leading-relaxed">The center of gravity is Medicare Advantage and value-based care. At least 10 of 18 members have a direct financial interest in Medicare Advantage rates, value-based contracts, or the claims infrastructure that processes them.</p>
             <p className="font-body text-cream/85 leading-relaxed">The hospital bloc (Gassen, Laraway, Liljenquist) runs systems with more than $45 billion in combined revenue. The 2027 AHA chairman sits beside the CFO of Cleveland Clinic and the chief strategist of Intermountain. All three systems benefit from the Section 6001 ban on physician-owned hospitals.</p>
-            <p className="font-body text-cream/85 leading-relaxed">The value-based care corridor (Bessler, Carmouche, Fields) runs companies whose revenue depends on Medicare Advantage risk adjustment and CMS payment innovation. Bessler&apos;s company was founded by the current and a former head of the CMS Innovation Center.</p>
+            <p className="font-body text-cream/85 leading-relaxed">The value-based care corridor (Bessler, Carmouche, Fields) runs companies whose revenue depends on Medicare Advantage risk adjustment and CMS payment innovation. Bessler&apos;s company was founded by Rubicon Founders investors, among them the current and a former head of the CMS Innovation Center.</p>
             <p className="font-body text-cream/85 leading-relaxed">No member represents independent physician practice. No member represents physician-owned hospitals. No member has publicly backed Section 6001 reform. The charter names &ldquo;Medicare Advantage sustainability&rdquo; as a priority, and the roster is built to sustain it.</p>
           </div>
         </section>
