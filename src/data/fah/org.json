@@ -34,13 +34,13 @@
       "title": "Senior Vice President and Head of Government Relations",
       "since": "May 7, 2026",
       "prior": "Nearly a decade at Merck, most recently executive director of U.S. policy and government relations. Health Subcommittee staff director for Sen. Mike Enzi on the Senate HELP Committee. Health policy for Sen. Ron Johnson. Registered in-house lobbyist.",
-      "source": "https://fah.org/blog/fah-builds-out-executive-team-announces-new-head-of-government-relations/"
+      "source": "https://www.healthcaredive.com/news/federation-american-hospitals-taps-new-government-relations-elizabeth-schwartz/819601/"
     },
     {
       "name": "Rebecca Heilig Lira",
       "title": "Senior Vice President, Government Relations",
       "since": "November 19, 2024",
-      "prior": "FAH government relations since 2021. Associate Director, White House Office of Public Liaison. Republican National Committee member services. Aide to Rep. Steve Scalise. Registered in-house lobbyist and FEDPAC treasurer.",
+      "prior": "FAH government relations since 2021. Associate Director, White House Office of Public Liaison. Republican National Committee member services. Aide to Rep. Steve Scalise. Registered in-house lobbyist.",
       "source": "https://fah.org/blog/fah-promotes-rebecca-lira"
     },
     {
@@ -54,8 +54,8 @@
       "name": "Alyssa Keefe",
       "title": "Senior Vice President, Head of Policy",
       "since": "January 14, 2026",
-      "prior": "FAH Vice President, Policy and Analysis, from December 2024. System Senior Vice President for public policy at CommonSpirit Health. Vice President of federal regulatory affairs, California Hospital Association. Earlier policy posts at the American Hospital Association.",
-      "source": "https://fah.org/blog/fah-announces-new-executive-team-under-president-ceo-charlene-macdonald/"
+      "prior": "Rejoined FAH in December 2024. System Senior Vice President, Public Policy and Advocacy, CommonSpirit Health, from November 2020. Nearly ten years as Vice President for Federal Regulatory Affairs at the California Hospital Association. Earlier senior policy posts at the American Hospital Association and the Catholic Health Association, and an earlier stint at FAH.",
+      "source": "https://fah.org/about-fah/fah-staff/alyssa-keefe/"
     },
     {
       "name": "Paul Eiting",
@@ -208,7 +208,7 @@
       {
         "firm": "Cozen O'Connor Public Strategies",
         "amount2025": "$160,000",
-        "amount2026ytd": "$20,000; terminated Jan. 30, 2026",
+        "amount2026ytd": "$50,000 on the Q1 report; $20,000 on the termination report; terminated Jan. 30, 2026",
         "issues": "Medicaid and premium tax credits",
         "notable": "Alexandra Campau (White House health policy; House Budget Committee)"
       },
@@ -274,6 +274,10 @@
         "url": "https://lda.gov/filings/public/filing/85744d64-25c9-4ef0-81cb-c924b0654d0b/print/"
       },
       {
+        "label": "Cozen O'Connor Q1 2026 report, $50,000",
+        "url": "https://lda.gov/filings/public/filing/a710a495-8708-4287-94a7-78bd38f8a08e/print/"
+      },
+      {
         "label": "Invariant termination report (2026)",
         "url": "https://lda.gov/filings/public/filing/b6ca443a-0c2a-404a-8a4f-c9e84a356494/print/"
       },
@@ -298,7 +302,7 @@
       },
       {
         "name": "Rebecca Heilig Lira",
-        "current": "FAH SVP, Government Relations; in-house lobbyist; FEDPAC treasurer",
+        "current": "FAH SVP, Government Relations; in-house lobbyist",
         "prior": "White House Office of Public Liaison; Rep. Steve Scalise; Republican National Committee"
       },
       {
@@ -590,7 +594,7 @@
   "pac": {
     "fecId": "C00002261",
     "name": "FEDPAC",
-    "narrative": "FEDPAC is FAH's federal political action committee, registered in 1976 and filing monthly. It raised $754,000 in the 2025-26 cycle through October 14, 2026, nearly all from individuals, and gave $825,000 to candidates and committees. Candidate money this cycle ran 53% Republican and 47% Democratic; the four national party committees got $115,000 between them, split evenly. In 2023-24 it leaned slightly Democratic. Its treasurer is FAH's head of government relations, Rebecca Heilig Lira.",
+    "narrative": "FEDPAC is FAH's federal political action committee, registered in 1976 and filing monthly. It raised $754,000 in the 2025-26 cycle through October 14, 2026, nearly all from individuals, and gave $825,000 to candidates and committees. Candidate money this cycle ran 53% Republican and 47% Democratic. The four national party committees got $115,000 between them: $60,000 to the two Democratic committees and $55,000 to the two Republican ones. In 2023-24 it leaned slightly Democratic. Its treasurer of record at the FEC is Elizabeth Schwartz, FAH's head of government relations.",
     "cycle2026": {
       "receipts": "$754,348",
       "disbursements": "$826,196",
@@ -743,7 +747,7 @@
     {
       "date": "2026-05-07",
       "text": "Elizabeth Schwartz hired from Merck as Senior Vice President and Head of Government Relations.",
-      "url": "https://fah.org/blog/fah-builds-out-executive-team-announces-new-head-of-government-relations/"
+      "url": "https://www.healthcaredive.com/news/federation-american-hospitals-taps-new-government-relations-elizabeth-schwartz/819601/"
     },
     {
       "date": "2026-05-08",
