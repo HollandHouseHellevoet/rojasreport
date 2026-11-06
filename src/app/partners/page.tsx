@@ -36,6 +36,7 @@ export default function PartnersPage() {
             { title: 'Investors', body: 'Which rules change which markets, before they change.' },
             { title: 'Law and lobbying firms', body: 'Players, money and status on every fight your clients care about.' },
             { title: 'Physician groups and MSOs', body: 'CON, the physician-owned hospital ban, Stark, and how to compete with the systems.' },
+            { title: 'Device and diagnostics companies', body: 'Site-neutral payment, outpatient migration and facility fees.' },
           ]}
         />
       </Block>
@@ -69,6 +70,9 @@ export default function PartnersPage() {
         </div>
         <p className="font-body text-cream/60 text-sm mt-6 max-w-2xl leading-relaxed">
           Annual, paid in advance. Briefings and calls are off the record. Custom research, strategy and exclusive work are available separately.
+        </p>
+        <p className="font-body text-cream/60 text-sm mt-3 max-w-2xl leading-relaxed">
+          Rojas Intelligence Partners is sold by Rojas Intelligence, a brand of Rojas Media.
         </p>
       </Block>
 
