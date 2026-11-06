@@ -42,10 +42,10 @@ export default function PartnersPage() {
       </Block>
 
       <Block label="Membership" title="Two levels">
-        <div className="overflow-x-auto border border-white/10">
+        <div className="overflow-x-auto border border-ink/10">
           <table className="w-full min-w-[620px] font-body text-sm">
             <thead>
-              <tr className="border-b border-white/10 text-left">
+              <tr className="border-b border-ink/10 text-left">
                 <th className="p-4 font-semibold text-cream/60"></th>
                 <th className="p-4">
                   <span className="block font-display text-xl text-cream">Standard</span>
@@ -59,7 +59,7 @@ export default function PartnersPage() {
             </thead>
             <tbody>
               {ROWS.map(([label, std, plus]) => (
-                <tr key={label} className="border-b border-white/10 last:border-0">
+                <tr key={label} className="border-b border-ink/10 last:border-0">
                   <td className="p-4 text-cream/80">{label}</td>
                   <td className="p-4 text-cream tabular-nums">{std}</td>
                   <td className="p-4 text-cream tabular-nums">{plus}</td>

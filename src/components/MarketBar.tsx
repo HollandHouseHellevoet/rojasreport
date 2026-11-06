@@ -29,7 +29,7 @@ export default function MarketBar({ bars, systems }: MarketBarProps) {
                   className="bg-orange h-6 rounded-full flex items-center justify-end px-2"
                   style={{ width: `${Math.max(parseInt(bar.width_pct), 10)}%` }}
                 >
-                  <span className="text-xs font-bold text-white">
+                  <span className="text-xs font-bold text-paper">
                     {bar.label}
                   </span>
                 </div>

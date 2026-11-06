@@ -5,7 +5,7 @@ interface CitationBlockProps {
 
 export default function CitationBlock({ sources, lastUpdated }: CitationBlockProps) {
   return (
-    <div className="border-t border-white/10 pt-6 mt-12">
+    <div className="border-t border-ink/10 pt-6 mt-12">
       <p className="text-xs font-body text-cream/30 leading-relaxed">
         {sources}
       </p>

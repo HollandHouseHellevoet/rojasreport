@@ -155,7 +155,7 @@ export default async function ProfilePage({
         <div className="mb-12 border-b border-border pb-10">
           <div className="flex items-start justify-between flex-wrap gap-4">
             <div>
-              <h1 className="font-display font-semibold text-cream mb-2" style={{ fontSize: "48px" }}>
+              <h1 className="font-display text-cream mb-2" style={{ fontSize: "48px" }}>
                 {profile.name || profile.slug}
               </h1>
               {profile.aha_position && (
@@ -190,7 +190,7 @@ export default async function ProfilePage({
             <Section title="Litigation and Scrutiny" items={profile.litigation} />
             {profile.redFlags.length > 0 && (
               <div className="mt-8 mb-8">
-                <h2 className="font-display font-semibold mb-4" style={{ fontSize: "28px", color: "#d4622a" }}>
+                <h2 className="font-display mb-4" style={{ fontSize: "28px", color: "#8E1B1B" }}>
                   Red Flags
                 </h2>
                 {profile.redFlags.map((flag, i) => (
@@ -199,7 +199,7 @@ export default async function ProfilePage({
               </div>
             )}
             {profile.patternSummary && (
-              <div className="mt-8 border-l-4 border-orange px-6 py-6" style={{ backgroundColor: "#162636" }}>
+              <div className="mt-8 border-l-4 border-orange px-6 py-6" style={{ backgroundColor: "#ECE5D8" }}>
                 <p className="font-body text-orange uppercase tracking-widest font-semibold mb-3" style={{ fontSize: "11px", letterSpacing: "0.15em" }}>
                   Pattern Summary
                 </p>
@@ -210,7 +210,7 @@ export default async function ProfilePage({
             )}
             {profile.sources.length > 0 && (
               <div className="mt-10">
-                <h2 className="font-display text-xl font-semibold text-cream mb-4">Sources and Citations</h2>
+                <h2 className="font-display text-xl text-cream mb-4">Sources and Citations</h2>
                 <ol className="space-y-2">
                   {profile.sources.map((url, i) => (
                     <li key={i} className="flex gap-2">

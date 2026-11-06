@@ -31,7 +31,7 @@ function Section({ label, title, children }: { label: string; title?: string; ch
   return (
     <section className="mb-12">
       <Label className="mb-3">{label}</Label>
-      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream font-semibold mb-6">{title}</h2>}
+      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream mb-6">{title}</h2>}
       {children}
     </section>
   );
@@ -73,7 +73,7 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
         <FahBreadcrumb trail={[{ href: "/fah/#board", label: "Board" }]} current={m.name} />
 
         <header className="mb-10">
-          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] font-bold text-cream">{m.name}</h1>
+          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream">{m.name}</h1>
           <p className="font-display italic text-orange text-lg sm:text-xl mt-2">{m.nickname}</p>
           <p className="font-body text-cream/80 mt-4">{m.title}, {m.company}{m.ticker ? ` (${m.ticker})` : ""}</p>
           <div className="flex flex-wrap items-center gap-3 mt-4">
@@ -85,10 +85,10 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
           <div className="w-16 h-0.5 bg-orange mt-8" />
         </header>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12 bg-navy-dark border-y border-white/10 py-8 px-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12 bg-navy-dark border-y border-ink/10 py-8 px-4">
           {m.keyStats.map((s) => (
             <div key={s.label} className="text-center">
-              <p className="font-display text-3xl sm:text-4xl font-bold text-orange">{s.value}</p>
+              <p className="font-display text-3xl sm:text-4xl text-orange">{s.value}</p>
               <p className="font-body text-xs sm:text-sm text-cream/70 mt-1">{s.label}</p>
             </div>
           ))}
@@ -166,7 +166,7 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
           <SourceList sources={m.sources} />
         </Section>
 
-        <nav className="flex justify-between items-center pt-8 border-t border-white/10" aria-label="Board navigation">
+        <nav className="flex justify-between items-center pt-8 border-t border-ink/10" aria-label="Board navigation">
           {prev ? <Link href={`/fah/board/${prev.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors">&larr; {prev.name}</Link> : <div />}
           {next ? <Link href={`/fah/board/${next.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors text-right">{next.name} &rarr;</Link> : <div />}
         </nav>

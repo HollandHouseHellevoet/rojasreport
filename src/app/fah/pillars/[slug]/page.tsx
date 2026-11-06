@@ -31,7 +31,7 @@ function Section({ label, title, children }: { label: string; title?: string; ch
   return (
     <section className="mb-12">
       <Label className="mb-3">{label}</Label>
-      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream font-semibold mb-6">{title}</h2>}
+      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream mb-6">{title}</h2>}
       {children}
     </section>
   );
@@ -49,7 +49,7 @@ export default function PillarPage({ params }: { params: { slug: string } }) {
 
         <header className="mb-10">
           <Label className="mb-3">Pillar {p.number}</Label>
-          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] font-bold text-cream">{p.title}</h1>
+          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream">{p.title}</h1>
           <p className="font-body text-sm text-cream/50 uppercase tracking-wider mt-3">{p.subtitle}</p>
           <div className="flex flex-wrap items-center gap-3 mt-5">
             <ThreatTag level={p.threat} />
@@ -139,7 +139,7 @@ export default function PillarPage({ params }: { params: { slug: string } }) {
           <SourceList sources={p.sources} />
         </Section>
 
-        <nav className="flex justify-between items-center pt-8 border-t border-white/10" aria-label="Pillar navigation">
+        <nav className="flex justify-between items-center pt-8 border-t border-ink/10" aria-label="Pillar navigation">
           {prev ? <Link href={`/fah/pillars/${prev.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors">&larr; {prev.title}</Link> : <div />}
           {next ? <Link href={`/fah/pillars/${next.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors text-right">{next.title} &rarr;</Link> : <div />}
         </nav>

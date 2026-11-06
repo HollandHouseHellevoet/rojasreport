@@ -23,7 +23,7 @@ export default function EvidencePreview() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
       {findings.map((f) => (
-        <div key={f.stat} className="border border-white/10 p-5">
+        <div key={f.stat} className="border border-ink/10 p-5">
           <div className="font-display text-stat text-orange">
             {f.stat}
           </div>

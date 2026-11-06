@@ -1,71 +1,97 @@
 [
   {
-    "slug": "washington",
-    "name": "Washington",
-    "question": "Who writes the rules",
+    "slug": "drivers",
+    "name": "The Cost Drivers",
+    "question": "Why care costs what it does",
+    "band": "oxblood",
+    "intro": "Six rules, subsidies and payment formulas. None of them are accidents, and each one has a sponsor.",
     "desks": [
-      { "name": "Ways & Means", "href": "https://waysandmeans.rojasreport.com", "status": "live", "blurb": "Every member's healthcare record, votes and money." },
-      { "name": "Healthcare Advisory Committee", "href": "/hac/", "status": "live", "stat": "18", "statLabel": "members, none for physician ownership", "blurb": "Who advises HHS and CMS, and what they stand to gain." },
-      { "name": "Energy & Commerce", "status": "planned" },
-      { "name": "Senate HELP", "status": "planned" },
-      { "name": "Senate Finance", "status": "planned" },
-      { "name": "GOP Doctors Caucus", "status": "planned" },
-      { "name": "Machine Score", "status": "planned", "blurb": "A 0-100 score for every member of Congress." }
-    ]
-  },
-  {
-    "slug": "lobby",
-    "name": "The Lobby",
-    "question": "Who buys the outcome",
-    "desks": [
-      { "name": "American Hospital Association", "href": "/aha/", "status": "live", "stat": "$25.5M", "statLabel": "federal lobbying, 2025", "blurb": "The 2027 board and executive team: pay, lobbying, red flags." },
-      { "name": "Federation of American Hospitals", "href": "/fah/", "status": "live", "blurb": "The for-profit hospital lobby: board, lobbying, PAC, eight fights." },
-      { "name": "Lobbying firms", "status": "planned" },
-      { "name": "Hospital PACs", "status": "planned" },
-      { "name": "State hospital associations", "status": "planned" }
-    ]
-  },
-  {
-    "slug": "systems",
-    "name": "The Systems",
-    "question": "Who gets paid",
-    "desks": [
-      { "name": "Academic medical centers", "href": "/academic/", "status": "live", "stat": "$5.5B", "statLabel": "new debt at sub-2% margins", "blurb": "The AMC Debt Trap: the most protected are the most exposed." },
-      { "name": "Every nonprofit health system", "status": "planned", "blurb": "A dossier on each: pay, charity care, tax exemption, aircraft." },
-      { "name": "Executive pay", "status": "planned" }
-    ]
-  },
-  {
-    "slug": "fights",
-    "name": "The Fights",
-    "question": "How the game is rigged, and who's trying to change it",
-    "desks": [
-      { "name": "Certificate of need", "href": "/con/", "status": "live", "stat": "35", "statLabel": "jurisdictions require permission to compete", "blurb": "Rankings, case law and reform status in every CON state." },
-      { "name": "Physician-owned hospitals", "href": "https://poh.rojasreport.com", "status": "live", "blurb": "The 2010 ban on physician-owned hospitals, state by state." },
-      { "name": "340B program reform", "status": "planned" },
-      { "name": "Site-neutral payment", "status": "planned" },
-      { "name": "Price transparency", "status": "planned" },
-      { "name": "Single payer", "status": "planned" },
-      { "name": "Stark and Anti-Kickback", "status": "planned" }
+      { "name": "I · Section 6001: the physician-owned hospital ban", "status": "planned", "blurb": "The 2010 freeze on physician-owned hospitals." },
+      { "name": "II · Price transparency", "status": "planned", "blurb": "Prices you can see but cannot use." },
+      { "name": "III · Certificate of need", "href": "/con/", "status": "live", "stat": "35", "statLabel": "jurisdictions require permission to compete", "blurb": "Rankings, case law and reform status in every CON state." },
+      { "name": "IV · Hospital subsidies", "status": "planned", "blurb": "Tax exemption, the 340B program, DSH and provider taxes." },
+      { "name": "V · CMS favoritism", "status": "planned", "blurb": "Same service, higher price, if a hospital owns the building." },
+      { "name": "VI · Stark and Anti-Kickback", "status": "planned", "blurb": "The rules that keep physicians from building rivals." }
     ]
   },
   {
     "slug": "states",
     "name": "The States",
     "question": "Where it costs you",
+    "band": "green",
+    "intro": "Every state, graded: its CON law, its tax-exempt systems, its subsidies, its attorney general and the lawmakers who decide.",
     "desks": [
       { "name": "CON state pages", "href": "/con/", "status": "live", "blurb": "Every CON state: rankings, scope, case law, reform." },
-      { "name": "State dossiers", "status": "planned", "blurb": "Why healthcare costs what it does in every state." },
+      { "name": "State dossiers", "status": "planned", "blurb": "Why healthcare costs what it does in every state. North Carolina first." },
       { "name": "AG oversight of nonprofit systems", "status": "planned" }
     ]
   },
   {
-    "slug": "physicians",
-    "name": "Physicians",
-    "question": "What you can do about it",
+    "slug": "systems",
+    "name": "Health Systems",
+    "question": "Where the money sits",
+    "band": "green",
+    "intro": "The top 100 nonprofit health systems and academic medical centers: cash, subsidies, pay and what each one gives back.",
     "desks": [
-      { "name": "Build assets, beat the systems", "status": "planned", "blurb": "How independent physicians own what they build." },
-      { "name": "Direct contracting", "status": "planned" }
+      { "name": "Academic medical centers", "href": "/academic/", "status": "live", "stat": "$5.5B", "statLabel": "new debt at sub-2% margins", "blurb": "The AMC Debt Trap: the most protected are the most exposed." },
+      { "name": "The top 100 systems", "status": "planned", "blurb": "A profile on each: the subsidy ledger, offshore insurance, pay, lobbying, aircraft." },
+      { "name": "Executive pay", "status": "planned" }
+    ]
+  },
+  {
+    "slug": "carriers",
+    "name": "Carriers",
+    "question": "Who holds the premium",
+    "band": "green",
+    "intro": "Insurers, their pharmacy benefit managers and the physician groups they own.",
+    "desks": [
+      { "name": "Carrier profiles", "status": "planned", "blurb": "Medicare Advantage payments, risk-adjustment gains, denial rates and physicians employed." },
+      { "name": "Pharmacy benefit managers", "status": "planned" },
+      { "name": "Physician employment by carriers", "status": "planned" }
+    ]
+  },
+  {
+    "slug": "physician-owned",
+    "name": "Physician-Owned",
+    "question": "What physicians built anyway",
+    "band": "green",
+    "intro": "The hospitals and surgery centers physicians own, where they are allowed to, and what the rules cost them.",
+    "desks": [
+      { "name": "Physician-owned hospitals", "href": "https://poh.rojasreport.com", "status": "live", "blurb": "Every physician-owned hospital in the country, with ownership and state context." },
+      { "name": "Ambulatory surgery centers", "status": "planned", "blurb": "Physician-owned share and CON treatment by state." },
+      { "name": "Independent groups", "status": "planned" }
+    ]
+  },
+  {
+    "slug": "government",
+    "name": "Government",
+    "question": "Who writes the rules",
+    "band": "oxblood",
+    "intro": "The committees, advisory bodies and agencies that set what care costs, and every member's record.",
+    "desks": [
+      { "group": "Congress", "name": "Ways & Means", "href": "https://waysandmeans.rojasreport.com", "status": "live", "blurb": "Every member's healthcare record, votes and money." },
+      { "group": "Congress", "name": "Senate Finance", "status": "planned" },
+      { "group": "Congress", "name": "Senate HELP", "status": "planned" },
+      { "group": "Congress", "name": "Energy & Commerce", "status": "planned" },
+      { "group": "Congress", "name": "The Machine Score", "status": "planned", "blurb": "A 0 to 100 score for every member of Congress: how independent of the hospital lobby." },
+      { "group": "Advisory bodies", "name": "Healthcare Advisory Committee", "href": "/hac/", "status": "live", "stat": "18", "statLabel": "members, none for physician ownership", "blurb": "Who advises HHS and CMS, and what they stand to gain." },
+      { "group": "Advisory bodies", "name": "MedPAC and MACPAC", "status": "planned" },
+      { "group": "Agencies", "name": "CMS, HHS and HRSA", "status": "planned", "blurb": "The rules they write, and who asked for them." }
+    ]
+  },
+  {
+    "slug": "lobby",
+    "name": "The Lobby",
+    "question": "Who buys the outcome",
+    "band": "oxblood",
+    "intro": "The trade groups, PACs and firms that pay to keep the rules as they are.",
+    "desks": [
+      { "group": "The hospital lobby", "name": "American Hospital Association", "href": "/aha/", "status": "live", "stat": "$25.5M", "statLabel": "federal lobbying, 2025", "blurb": "The 2027 board and executive team: pay, lobbying, red flags." },
+      { "group": "The hospital lobby", "name": "Federation of American Hospitals", "href": "/fah/", "status": "live", "blurb": "The for-profit hospital lobby: board, lobbying, PAC, eight fights." },
+      { "group": "The hospital lobby", "name": "State hospital associations", "status": "planned" },
+      { "group": "The insurer lobby", "name": "AHIP and the Blue Cross Blue Shield Association", "status": "planned" },
+      { "group": "Money and firms", "name": "Hospital PACs", "status": "planned" },
+      { "group": "Money and firms", "name": "Lobbying firms", "status": "planned" }
     ]
   }
 ]

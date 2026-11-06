@@ -41,7 +41,7 @@ export default function MethodologyPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-navy-dark border-b border-white/10">
+      <section className="bg-navy-dark border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 pt-16 pb-12">
           <SectionHeader
             as="h1"
@@ -53,7 +53,7 @@ export default function MethodologyPage() {
       </section>
 
       {/* Tier Definitions */}
-      <section className="border-b border-white/10">
+      <section className="border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="01"
@@ -62,10 +62,10 @@ export default function MethodologyPage() {
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {tiers.map(tier => (
-              <div key={tier.name} className="border border-white/10 p-5">
+              <div key={tier.name} className="border border-ink/10 p-5">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-4 h-4 rounded-sm" style={{ backgroundColor: tier.color }} />
-                  <h3 className="font-display text-lg font-bold text-cream">{tier.name}</h3>
+                  <h3 className="font-display text-lg text-cream">{tier.name}</h3>
                 </div>
                 <p className="font-body text-xs font-semibold text-cream/40 mb-2">
                   Score: {tier.score_range} &middot; {tier.count} jurisdictions
@@ -83,7 +83,7 @@ export default function MethodologyPage() {
       </section>
 
       {/* Scoring Methodology */}
-      <section className="bg-navy-dark border-b border-white/10">
+      <section className="bg-navy-dark border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="02"
@@ -115,7 +115,7 @@ export default function MethodologyPage() {
       </section>
 
       {/* Momentum Methodology */}
-      <section className="border-b border-white/10">
+      <section className="border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="03"
@@ -130,7 +130,7 @@ export default function MethodologyPage() {
 
             <div className="space-y-4 mb-8">
               {momentum.dimensions.map((dim: MomentumDimension, i: number) => (
-                <div key={i} className="border border-white/10 p-4">
+                <div key={i} className="border border-ink/10 p-4">
                   <div className="flex items-center gap-3 mb-1">
                     <span className="w-2.5 h-2.5 rounded-full bg-orange" />
                     <h4 className="font-body text-sm font-semibold text-cream">{dim.label}</h4>
@@ -146,7 +146,7 @@ export default function MethodologyPage() {
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
-                  <tr className="border-b border-white/20">
+                  <tr className="border-b border-ink/20">
                     <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Score</th>
                     <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Signal</th>
                     <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Meaning</th>
@@ -154,13 +154,13 @@ export default function MethodologyPage() {
                 </thead>
                 <tbody>
                   {momentum.thresholds.map((t: MomentumThreshold) => (
-                    <tr key={t.range} className="border-b border-white/5">
+                    <tr key={t.range} className="border-b border-ink/5">
                       <td className="py-3 px-3 font-body text-sm text-cream/70 font-semibold">{t.range}</td>
                       <td className="py-3 px-3">
                         <span className={`px-2 py-0.5 text-xs font-bold ${
-                          t.signal === 'Green' ? 'bg-tier-free text-white' :
+                          t.signal === 'Green' ? 'bg-tier-free text-paper' :
                           t.signal === 'Yellow' ? 'bg-tier-moderate text-navy' :
-                          'bg-tier-most-restrictive text-white'
+                          'bg-tier-most-restrictive text-paper'
                         }`}>
                           {t.signal}
                         </span>

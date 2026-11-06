@@ -30,7 +30,7 @@ export default function EvidencePage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-navy-dark border-b border-white/10">
+      <section className="bg-navy-dark border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 pt-16 pb-20">
           <SectionHeader
             as="h1"
@@ -48,7 +48,7 @@ export default function EvidencePage() {
       </section>
 
       {/* How It Works */}
-      <section className="border-b border-white/10">
+      <section className="border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="02"
@@ -58,8 +58,8 @@ export default function EvidencePage() {
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8">
             {(evidence.how_it_works_steps || []).map((step: { step: number; text: string }) => (
-              <div key={step.step} className="border border-white/10 p-5 text-center">
-                <div className="font-display text-4xl font-bold text-orange mb-3">
+              <div key={step.step} className="border border-ink/10 p-5 text-center">
+                <div className="font-display text-4xl text-orange mb-3">
                   {step.step}
                 </div>
                 <p className="font-body text-sm text-cream/70 leading-relaxed">
@@ -80,7 +80,7 @@ export default function EvidencePage() {
 
       {/* Origin Story */}
       {storyParagraphs.length > 0 && (
-        <section className="bg-navy-dark border-b border-white/10">
+        <section className="bg-navy-dark border-b border-ink/10">
           <div className="max-w-content mx-auto px-5 py-10">
             <SectionHeader
               number="03"
@@ -109,7 +109,7 @@ export default function EvidencePage() {
       )}
 
       {/* Key Research Findings */}
-      <section className="border-b border-white/10">
+      <section className="border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-10">
           <SectionHeader
             number="04"
@@ -125,7 +125,7 @@ export default function EvidencePage() {
               { finding: 'States that repeal CON see 44-47% more ASCs per capita.', source: 'Mercatus Center' },
               { finding: 'Rural areas see 92-112% increase in ASCs after CON repeal.', source: 'Journal of Health Economics' },
             ].map((item, i) => (
-              <div key={i} className="border border-white/10 p-5">
+              <div key={i} className="border border-ink/10 p-5">
                 <p className="font-body text-sm text-cream/70 leading-relaxed">
                   {item.finding}
                 </p>
@@ -159,7 +159,7 @@ export default function EvidencePage() {
                 <a
                   key={p.state}
                   href={`/states/${slug}/`}
-                  className="block border border-white/10 p-5 hover:border-orange/40 transition-colors"
+                  className="block border border-ink/10 p-5 hover:border-orange/40 transition-colors"
                 >
                   <div className="flex items-center justify-between mb-2">
                     <span className="font-body text-xs font-bold tracking-widest uppercase text-cream/40">
@@ -169,7 +169,7 @@ export default function EvidencePage() {
                       {p.score}/100
                     </span>
                   </div>
-                  <h3 className="font-display text-lg font-bold text-cream">
+                  <h3 className="font-display text-lg text-cream">
                     {p.state}
                   </h3>
                   <p className="mt-2 font-body text-sm text-cream/50 leading-relaxed">

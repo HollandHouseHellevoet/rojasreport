@@ -19,7 +19,7 @@ function Section({ label, title, children }: { label: string; title?: string; ch
   return (
     <section className="mb-14">
       <Label className="mb-3">{label}</Label>
-      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream font-semibold mb-6">{title}</h2>}
+      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream mb-6">{title}</h2>}
       {children}
     </section>
   );
@@ -33,7 +33,7 @@ export default function LobbyingPage() {
         <FahBreadcrumb current="Lobbying" />
         <header className="mb-10">
           <Label className="mb-3">Lobbying</Label>
-          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] font-bold text-cream mb-4">The machine</h1>
+          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream mb-4">The machine</h1>
           <p className="font-body text-lg text-cream/80 max-w-2xl">{L.narrative}</p>
           <p className="font-body text-sm text-muted mt-3">Record as of {fmtDate(org.asOf)}</p>
           <div className="w-16 h-0.5 bg-orange mt-8" />
@@ -61,7 +61,7 @@ export default function LobbyingPage() {
 
         <Section label="04 · Dark money" title="Partnership for America's Health Care Future">
           <p className="font-body text-cream/85 leading-relaxed mb-6">{org.pahcf.narrative}</p>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-6 bg-navy-dark border-y border-white/10 py-8 px-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-6 bg-navy-dark border-y border-ink/10 py-8 px-4">
             {[
               [org.pahcf.founded, "Founded"],
               [org.pahcf.memberCount, "Member organizations"],
@@ -69,7 +69,7 @@ export default function LobbyingPage() {
               [org.pahcf.status2026, "Status in 2026"],
             ].map(([v, l]) => (
               <div key={l} className="text-center">
-                <p className="font-display text-2xl sm:text-3xl font-bold text-orange">{v}</p>
+                <p className="font-display text-2xl sm:text-3xl text-orange">{v}</p>
                 <p className="font-body text-xs sm:text-sm text-cream/70 mt-1">{l}</p>
               </div>
             ))}

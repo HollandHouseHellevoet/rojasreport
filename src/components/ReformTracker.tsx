@@ -121,18 +121,18 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
         <select
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
-          className="bg-navy-dark border border-white/20 text-cream px-3 py-2 font-body text-sm focus:border-orange focus:outline-none"
+          className="bg-navy-dark border border-ink/20 text-cream px-3 py-2 font-body text-sm focus:border-orange focus:outline-none"
           aria-label="Filter by momentum"
         >
           {MOMENTUM_FILTER_OPTIONS.map(o => <option key={o} value={o}>{o}</option>)}
         </select>
-        <div className="flex border border-white/20">
+        <div className="flex border border-ink/20">
           {(['momentum', 'state', 'score'] as const).map(s => (
             <button
               key={s}
               onClick={() => setSortBy(s)}
               className={`px-3 py-2 font-body text-sm font-semibold capitalize transition-colors ${
-                sortBy === s ? 'bg-orange text-white' : 'text-cream/60 hover:text-cream'
+                sortBy === s ? 'bg-oxblood text-paper' : 'text-cream/60 hover:text-cream'
               }`}
             >
               {s}
@@ -188,7 +188,7 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
       <div className="hidden md:block overflow-x-auto">
         <table className="w-full text-left border-collapse min-w-[980px]">
           <thead className="sticky top-0 bg-navy z-10">
-            <tr className="border-b border-white/20">
+            <tr className="border-b border-ink/20">
               <th scope="col" className="py-3 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream/40">State</th>
               <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">CON</th>
               <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Momentum</th>
@@ -207,7 +207,7 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
               return (
                 <tr
                   key={e.abbreviation}
-                  className={`border-b border-white/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
+                  className={`border-b border-ink/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
                 >
                   <td className={`py-3 px-4 ${s.border}`}>
                     <Link href={`/states/${e.slug}/`} className="font-body text-base font-bold text-cream hover:text-orange transition-colors">
@@ -232,7 +232,7 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
       </div>
 
       {/* Methodology note */}
-      <div className="mt-8 border-t border-white/10 pt-6">
+      <div className="mt-8 border-t border-ink/10 pt-6">
         <p className="font-body text-sm text-cream/40 leading-relaxed max-w-prose">
           <strong className="text-cream/60">Methodology:</strong> Each state is scored 0-5 across five dimensions:
           (1) reform bill introduced in current session, (2) bill has committee assignment,

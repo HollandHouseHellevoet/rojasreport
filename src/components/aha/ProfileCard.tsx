@@ -27,7 +27,7 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
   return (
     <div
       className={`flex flex-col bg-card border-l-4 p-6 hover:brightness-110 transition-all ${former ? "border-muted opacity-75" : "border-orange"}`}
-      style={{ borderTop: "1px solid #26364a", borderRight: "1px solid #26364a", borderBottom: "1px solid #26364a" }}
+      style={{ borderTop: "1px solid #CFC6B6", borderRight: "1px solid #CFC6B6", borderBottom: "1px solid #CFC6B6" }}
     >
       {/* Role tag */}
       <span
@@ -38,7 +38,7 @@ export default function ProfileCard({ profile }: ProfileCardProps) {
       </span>
 
       {/* Name */}
-      <h3 className="font-display text-[22px] font-semibold text-cream leading-snug mb-1">
+      <h3 className="font-display text-[22px] text-cream leading-snug mb-1">
         {profile.name || profile.slug}
       </h3>
 

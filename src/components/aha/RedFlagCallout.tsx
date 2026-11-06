@@ -6,7 +6,7 @@ export default function RedFlagCallout({ text }: RedFlagCalloutProps) {
   return (
     <div
       className="border-l-4 rounded-r-md p-4 flex gap-3 items-start my-3"
-      style={{ backgroundColor: "#1e1010", borderColor: "#C0392B" }}
+      style={{ backgroundColor: "#ECE5D8", borderColor: "#8E1B1B" }}
     >
       <svg
         className="flex-shrink-0 mt-0.5 text-orange"

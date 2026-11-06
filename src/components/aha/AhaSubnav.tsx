@@ -16,7 +16,7 @@ export default function AhaSubnav() {
       : pathname.startsWith(href.replace(/\/$/, ""));
 
   return (
-    <div className="bg-navy-dark border-b border-white/10 print:hidden">
+    <div className="bg-navy-dark border-b border-ink/10 print:hidden">
       <div className="max-w-7xl mx-auto px-4 flex items-center gap-6 overflow-x-auto">
         <Link
           href="/aha/"

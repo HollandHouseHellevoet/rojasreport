@@ -15,7 +15,7 @@ export default function FeaturedStateCard({ state, slug, score, tier, hook }: Fe
   return (
     <Link
       href={`/states/${slug}/`}
-      className="block border-2 border-white/10 hover:border-orange/50 transition-colors bg-navy-dark/40 h-full"
+      className="block border-2 border-ink/10 hover:border-orange/50 transition-colors bg-navy-dark/40 h-full"
     >
       <div className="p-5">
         <div className="flex items-start justify-between gap-3 mb-3">
@@ -23,12 +23,12 @@ export default function FeaturedStateCard({ state, slug, score, tier, hook }: Fe
             <p className="font-body text-[11px] font-semibold tracking-widest uppercase text-cream/40">
               {tier}
             </p>
-            <h3 className="mt-1 font-display text-2xl font-bold text-cream leading-tight">
+            <h3 className="mt-1 font-display text-2xl text-cream leading-tight">
               {state}
             </h3>
           </div>
           <span
-            className="font-display text-3xl font-bold text-white px-3 py-1 rounded-sm leading-none"
+            className="font-display text-3xl text-paper px-3 py-1 rounded-sm leading-none"
             style={{ backgroundColor: `rgba(212, 98, 42, ${badgeOpacity})` }}
           >
             {score}

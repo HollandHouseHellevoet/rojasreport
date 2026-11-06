@@ -66,27 +66,16 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero — full-bleed with background image */}
-      <section
-        className="relative bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=1600&q=80')",
-        }}
-      >
-        {/* Dark overlay */}
-        <div
-          className="absolute inset-0"
-          style={{ background: "rgba(10, 20, 32, 0.82)" }}
-        />
-        <div className="relative max-w-7xl mx-auto px-6 py-24 md:py-32">
+      {/* Hero */}
+      <section className="relative bg-paper-2 border-b border-hairline">
+        <div className="relative max-w-7xl mx-auto px-6 py-20 md:py-24">
           {/* Pill tag */}
           <span className="inline-block border border-orange text-orange font-body text-xs uppercase tracking-widest px-3 py-1 mb-8">
             Intelligence Briefing
           </span>
 
           <h1
-            className="font-display font-semibold text-cream leading-tight mb-6"
+            className="font-display text-cream leading-tight mb-6"
             style={{ fontSize: "clamp(2.5rem, 5vw, 4rem)", maxWidth: "700px" }}
           >
             Who Controls American Hospital Policy
@@ -102,7 +91,7 @@ export default function HomePage() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="/aha/powermap/"
-              className="font-body font-semibold text-sm bg-orange text-navy px-6 py-3 hover:bg-orange/90 transition-colors"
+              className="font-body font-semibold text-sm bg-oxblood text-paper px-6 py-3 hover:bg-orange/90 transition-colors"
             >
               View the Power Map
             </Link>
@@ -126,7 +115,7 @@ export default function HomePage() {
                 className="px-6 py-8 border-l border-orange"
               >
                 <div
-                  className="font-display font-semibold text-orange mb-1"
+                  className="font-display text-orange mb-1"
                   style={{ fontSize: "48px", lineHeight: 1 }}
                 >
                   {stat.value}
@@ -151,7 +140,7 @@ export default function HomePage() {
               The Intelligence Database
             </span>
           </div>
-          <h2 className="font-display text-3xl font-semibold text-cream">
+          <h2 className="font-display text-3xl text-cream">
             {CURRENT_COUNT} Individuals. Every Conflict on Record.
           </h2>
           <p className="font-body text-muted text-sm mt-2">
@@ -176,7 +165,7 @@ export default function HomePage() {
       </section>
 
       {/* Section 02 — The Power Map */}
-      <section className="border-y border-border" style={{ backgroundColor: "#1a2a3e" }}>
+      <section className="border-y border-border" style={{ backgroundColor: "#ECE5D8" }}>
         <div className="max-w-7xl mx-auto px-4 py-16">
           <div className="flex items-baseline gap-3 mb-2">
             <span className="font-body text-orange uppercase tracking-widest font-semibold" style={{ fontSize: "11px" }}>
@@ -186,7 +175,7 @@ export default function HomePage() {
               Power Map
             </span>
           </div>
-          <h2 className="font-display text-3xl font-semibold text-cream mb-4">
+          <h2 className="font-display text-3xl text-cream mb-4">
             The AHA Power Map
           </h2>
           <p className="font-body text-muted text-sm mb-8 max-w-xl">
@@ -214,7 +203,7 @@ export default function HomePage() {
 
           <Link
             href="/aha/powermap/"
-            className="inline-block font-body font-semibold bg-orange text-navy text-sm px-6 py-3 hover:bg-orange/90 transition-colors"
+            className="inline-block font-body font-semibold bg-oxblood text-paper text-sm px-6 py-3 hover:bg-orange/90 transition-colors"
           >
             Read the Full Power Map
           </Link>
@@ -227,7 +216,7 @@ export default function HomePage() {
           <span className="inline-block border border-orange text-orange font-body text-xs uppercase tracking-widest px-3 py-1 mb-8">
             Rojas Intelligence
           </span>
-          <h2 className="font-display text-3xl md:text-4xl font-semibold text-cream mb-6">
+          <h2 className="font-display text-3xl md:text-4xl text-cream mb-6">
             No spin. Just the data that moves markets.
           </h2>
           <p className="font-body text-muted leading-relaxed mb-10 max-w-xl mx-auto">
@@ -237,7 +226,7 @@ export default function HomePage() {
             href="https://dutchrojas.substack.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block font-body font-semibold bg-orange text-navy text-sm px-8 py-3 hover:bg-orange/90 transition-colors"
+            className="inline-block font-body font-semibold bg-oxblood text-paper text-sm px-8 py-3 hover:bg-orange/90 transition-colors"
           >
             Subscribe on Substack
           </a>

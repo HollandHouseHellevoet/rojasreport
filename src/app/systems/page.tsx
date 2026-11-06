@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import SectionPage from '@/components/home/SectionPage';
 
 export const metadata: Metadata = {
-  title: 'The Systems',
-  description: 'Who gets paid: academic medical centers and nonprofit health systems, their debt, pay and tax exemptions.',
+  title: 'Health Systems',
+  description: 'Where the money sits: the top 100 nonprofit health systems and academic medical centers.',
   alternates: { canonical: 'https://rojasreport.com/systems/' },
 };
 

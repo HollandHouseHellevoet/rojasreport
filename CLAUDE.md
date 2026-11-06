@@ -12,7 +12,9 @@ Dutch Rojas merges and deploys. Never merge, never deploy, never enable auto-mer
 
 ## Site structure
 
-Six sections, each a landing page that groups desks: `/washington/`, `/lobby/`, `/systems/`, `/fights/`, `/states/`, `/physicians/`. Desks keep flat, permanent URLs (`/aha/`, `/con/`, `/academic/`). The desk list and each desk's live or planned status is `src/data/home/sections.json`; the home-page Fights tracker is `src/data/home/fights.json`; helpers in `src/lib/home.ts`.
+Seven sections (docs/DECISIONS.md decision 5), each a landing page that groups desks: `/drivers/`, `/states/`, `/systems/`, `/carriers/`, `/physician-owned/`, `/government/`, `/lobby/`. Reports & Data (`/reports/`) and Support (`/support/`) sit in the utility bar. The nav is `src/lib/nav.ts`; the shell is `src/components/Header.tsx` (full masthead on `/`, compact elsewhere) and `Footer.tsx`. Desks keep flat, permanent URLs (`/aha/`, `/con/`, `/academic/`, `/fah/`, `/hac/`). The desk list, each desk's live or planned status and each section's band color is `src/data/home/sections.json`; the home-page Fights tracker is `src/data/home/fights.json`; helpers in `src/lib/home.ts`. The retired section URLs redirect in `public/_redirects`.
+
+Design tokens are in `tailwind.config.ts` (the brief's names: paper, paper-2, ink, oxblood, green, muted, body, hairline, gold). The legacy names (navy, cream, orange, ...) are aliases so desks built before the redesign render inside the shell; new code uses the brief's names only. Desks rebuilt into the brief's templates drop the aliases as they go.
 
 Four page templates cover every desk: person dossier (model: `/aha/profiles/`), institution dossier, roster, fight page.
 

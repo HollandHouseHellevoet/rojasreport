@@ -13,13 +13,13 @@ export default function StatesIndex() {
   const states = [...getAllStates()].sort((a, b) => a.state.localeCompare(b.state));
   return (
     <SectionPage slug="states">
-      <h2 className="font-display text-2xl font-bold text-cream mt-14 mb-4">Every state</h2>
+      <h2 className="font-display text-2xl text-cream mt-14 mb-4">Every state</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
         {states.map((s) => (
           <Link
             key={s.slug}
             href={`/states/${s.slug}/`}
-            className="group flex items-baseline justify-between border border-white/10 px-3 py-2 hover:border-orange/60 transition-colors"
+            className="group flex items-baseline justify-between border border-ink/10 px-3 py-2 hover:border-orange/60 transition-colors"
           >
             <span className="font-body text-sm text-cream group-hover:text-orange transition-colors">{s.state}</span>
             <span className="font-body text-[10px] uppercase tracking-wider text-cream/40">{s.tier}</span>
