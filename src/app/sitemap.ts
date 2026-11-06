@@ -32,7 +32,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/reform/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/outcomes/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/timeline/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
-    { url: `${baseUrl}/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
+    { url: `${baseUrl}/methodology/subsidy-ledger/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology/state-grade/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology/machine-score/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/con/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
   ];
 
   const systemPages = systems.map((s) => ({

@@ -30,6 +30,11 @@ export function buildSearchIndex(): SearchEntry[] {
   for (const c of committees) {
     out.push({ title: `${c.name} committee`, kind: 'Committee dossier', href: `/committees/${c.slug}/` });
   }
+  out.push({ title: 'Methodology', kind: 'Methodology', href: '/methodology/' });
+  out.push({ title: 'The Subsidy Ledger', kind: 'Methodology', href: '/methodology/subsidy-ledger/' });
+  out.push({ title: 'The State Grade', kind: 'Methodology', href: '/methodology/state-grade/' });
+  out.push({ title: 'The Machine Score', kind: 'Methodology', href: '/methodology/machine-score/' });
+  out.push({ title: 'CON classification methodology', kind: 'Methodology', href: '/con/methodology/' });
   for (const sys of systems) {
     out.push({ title: sys.name, kind: 'Health system', href: `/systems/${sys.slug}/` });
   }

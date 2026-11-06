@@ -245,7 +245,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
         </div>
         <p className="mt-12 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
           {p.sourcesLine}{' '}
-          <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">Methodology</Link> ·{' '}
+          <Link href="/methodology/subsidy-ledger/" className="text-ink border-b border-hairline hover:text-oxblood">Methodology</Link> ·{' '}
           <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
         </p>
       </section>

@@ -60,7 +60,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
               {g.provisional
                 ? `Provisional: ${word(g.graded)} of ${word(g.total)} drivers graded. `
                 : 'All six drivers graded. '}
-              <Link href="/methodology/" className="text-muted border-b border-hairline hover:text-oxblood">How we grade</Link>
+              <Link href="/methodology/state-grade/" className="text-muted border-b border-hairline hover:text-oxblood">How we grade</Link>
             </div>
           </div>
         </div>

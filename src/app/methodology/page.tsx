@@ -1,214 +1,139 @@
 import type { Metadata } from 'next';
-import fs from 'fs';
-import path from 'path';
-import { makeMetadata } from '@/lib/seo';
-import SectionHeader from '@/components/SectionHeader';
+import Link from 'next/link';
+import { MethodPage, Section, Defs, Band, prose, small, th, td } from '@/components/methodology/Method';
 
-export const metadata: Metadata = makeMetadata({
-  title: 'Methodology | CON Law Classification Framework | The Rojas Report',
-  description: 'How we score and classify Certificate of Need laws. Cicero Institute restrictiveness scoring (0-100), tier definitions, reform momentum methodology (0-5), and data sources.',
-  path: '/methodology/',
-  ogImage: '/og/methodology.svg',
-});
+/** /methodology: how every figure on the site is built, and the three methods that produce our own numbers. */
 
-interface Tier {
-  name: string;
-  score_range: string;
-  color: string;
-  description: string;
-  states: string[];
-  count: number;
-}
+export const metadata: Metadata = {
+  title: 'Methodology',
+  description: 'How every figure on The Rojas Report is sourced and labeled. How the subsidy ledger, the state grade and the Machine Score are calculated.',
+  alternates: { canonical: 'https://rojasreport.com/methodology/' },
+};
 
-interface MomentumDimension {
-  label: string;
-  description: string;
-}
+const methods = [
+  {
+    href: '/methodology/subsidy-ledger/',
+    title: 'The Subsidy Ledger',
+    text: 'What counts as a subsidy and what counts as a write-off. How each line is read from the filings, and how the Fair Share Test ratio is formed.',
+    status: 'In use on health system profiles and state dossiers',
+  },
+  {
+    href: '/methodology/state-grade/',
+    title: 'The State Grade',
+    text: 'Six cost drivers, one letter each, weighted into a single grade. The weights, the cutoffs and what makes a grade provisional.',
+    status: 'In use on state dossiers',
+  },
+  {
+    href: '/methodology/machine-score/',
+    title: 'The Machine Score',
+    text: 'A 0 to 100 measure of how independent a member of Congress is from the hospital lobby. Judged only against the lobby’s own written positions.',
+    status: 'Draft rules; no scores published yet',
+  },
+];
 
-interface MomentumThreshold {
-  range: string;
-  signal: string;
-  meaning: string;
-}
+const sources = [
+  ['IRS Form 990 e-file XML (Schedules B, H, J, F, R; Part X)', 'Charity care, community benefit, bad debt, Medicare shortfall, executive pay, offshore entities, foreign investments, tax-exempt bonds, contributions'],
+  ['Audited financial statements (EMMA, system sites)', 'Cash and investments, net assets, debt, operating results'],
+  ['CMS hospital cost reports (summary files and HCRIS)', 'DSH, IME, direct GME, Medicare bad debt, cost of charity care, property base, net income by hospital'],
+  ['CMS IPPS DSH supplemental file', 'Medicare uncompensated care payments'],
+  ['HRSA 340B OPAIS export', 'Registrations, child sites, contract pharmacy arrangements'],
+  ['Medicaid DSH audits; state-directed payment and provider tax reports', 'State Medicaid financing lines'],
+  ['Lincoln Institute of Land Policy, 50-State Property Tax Comparison Study', 'Property tax exemption estimates'],
+  ['FEC and state campaign filings', 'Hospital money'],
+  ['Congress.gov, Senate and House roll calls, AHA and FAH letters', 'Machine Score actions'],
+  ['State legislatures, statutes and boards of elections', 'State bills, certificate of need law, officials'],
+];
 
-export default function MethodologyPage() {
-  const raw = fs.readFileSync(path.join(process.cwd(), 'data', 'classifications.json'), 'utf-8');
-  const data = JSON.parse(raw);
-  const tiers: Tier[] = data.tiers;
-  const scoring = data.scoring_methodology;
-  const momentum = data.momentum_methodology;
-
+export default function MethodologyIndex() {
   return (
-    <>
-      {/* Hero */}
-      <section className="bg-navy-dark border-b border-ink/10">
-        <div className="max-w-content mx-auto px-5 pt-16 pb-12">
-          <SectionHeader
-            as="h1"
-            label="Methodology"
-            title="Classification Framework"
-            subtitle="How we score, classify, and track Certificate of Need laws across 51 jurisdictions. Transparent methodology. Reproducible results."
-          />
-        </div>
-      </section>
+    <MethodPage
+      title="How the numbers are built."
+      lede="Every figure on this site links to a public filing or is calculated from one by a method written down here. Nothing is invented."
+      asOf="Methodology version 1, November 2026"
+    >
+      <Section title="Three labels on every figure">
+        <p className={`${prose} max-w-[760px] mb-6`}>
+          Each number on the site carries one of three labels. The label, the source and the as-of date travel with the figure wherever it appears.
+        </p>
+        <Defs
+          items={[
+            {
+              term: 'Reported',
+              body: 'The figure appears in a public filing exactly as shown, or is a plain sum of such figures across a system’s filers. The source names the form, the schedule and the line.',
+            },
+            {
+              term: <>Estimated <span className="font-meta text-[11px] uppercase tracking-[0.12em] text-oxblood">est.</span></>,
+              body: 'A Rojas Report calculation from reported inputs. The method is on one of the three pages below, and the source line shows the inputs and the arithmetic.',
+            },
+            {
+              term: <>Pending <span className="font-display text-[22px] text-muted">&mdash;</span></>,
+              body: 'A line still being built from source filings. It shows as a dash, never as a guess, and it is left out of every total until it is filled.',
+            },
+          ]}
+        />
+      </Section>
 
-      {/* Tier Definitions */}
-      <section className="border-b border-ink/10">
-        <div className="max-w-content mx-auto px-5 py-10">
-          <SectionHeader
-            number="01"
-            label="Tier Definitions"
-            title="Six Tiers of Restrictiveness"
-          />
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {tiers.map(tier => (
-              <div key={tier.name} className="border border-ink/10 p-5">
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-4 h-4 rounded-sm" style={{ backgroundColor: tier.color }} />
-                  <h3 className="font-display text-lg text-cream">{tier.name}</h3>
-                </div>
-                <p className="font-body text-xs font-semibold text-cream/40 mb-2">
-                  Score: {tier.score_range} &middot; {tier.count} jurisdictions
-                </p>
-                <p className="font-body text-sm text-cream/60 leading-relaxed">
-                  {tier.description}
-                </p>
-                <p className="mt-3 font-body text-xs text-cream/30">
-                  {tier.states.join(', ')}
-                </p>
-              </div>
-            ))}
-          </div>
+      <Section title="The three methods">
+        <div className="grid gap-6" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
+          {methods.map((m) => (
+            <Link key={m.href} href={m.href} className="group border border-ink p-7 flex flex-col gap-3 hover:border-oxblood">
+              <h3 className="font-display text-[30px] leading-[1.1] group-hover:text-oxblood">{m.title}</h3>
+              <p className={small}>{m.text}</p>
+              <p className="mt-auto pt-3 font-meta text-[12px] tracking-[0.06em] text-muted">{m.status}</p>
+            </Link>
+          ))}
         </div>
-      </section>
+      </Section>
 
-      {/* Scoring Methodology */}
-      <section className="bg-navy-dark border-b border-ink/10">
-        <div className="max-w-content mx-auto px-5 py-10">
-          <SectionHeader
-            number="02"
-            label="Restrictiveness Score"
-            title="Cicero Institute Scoring (0-100)"
-          />
-          <div className="max-w-3xl">
-            <p className="font-body text-sm text-cream/60 leading-relaxed mb-6">
-              {scoring.note}
-            </p>
-            <h3 className="font-body text-xs font-bold tracking-widest uppercase text-cream/40 mb-4">
-              Scoring Dimensions
-            </h3>
-            <ol className="space-y-3">
-              {scoring.dimensions.map((dim: string, i: number) => (
-                <li key={i} className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-6 h-6 flex items-center justify-center bg-orange/20 text-orange text-xs font-bold">
-                    {i + 1}
-                  </span>
-                  <span className="font-body text-sm text-cream/70">{dim}</span>
-                </li>
+      <Band tone="paper-2">
+        <h2 className="font-display font-normal leading-[1.1] text-[32px] md:text-[40px] mb-6">Where the data comes from</h2>
+        <p className={`${prose} max-w-[760px] mb-4`}>
+          All sources are public. Files are refreshed from the agency. A sample of figures is checked by hand against the filing.
+        </p>
+        <div className="table-scroll max-w-[1000px]">
+          <table className="w-full border-collapse">
+            <thead>
+              <tr>
+                <th className={th}>Source</th>
+                <th className={th}>What it feeds</th>
+              </tr>
+            </thead>
+            <tbody>
+              {sources.map(([s, f]) => (
+                <tr key={s}>
+                  <td className={`${td} pr-6 w-[45%]`}>{s}</td>
+                  <td className={`${td} text-body`}>{f}</td>
+                </tr>
               ))}
-            </ol>
-            <p className="mt-6 font-body text-xs text-cream/30">
-              Source: {scoring.source}. Scale: {scoring.scale}.
-            </p>
-          </div>
+            </tbody>
+          </table>
         </div>
-      </section>
+      </Band>
 
-      {/* Momentum Methodology */}
-      <section className="border-b border-ink/10">
-        <div className="max-w-content mx-auto px-5 py-10">
-          <SectionHeader
-            number="03"
-            label="Reform Momentum"
-            title="5-Point Momentum Scoring"
-          />
-          <div className="max-w-3xl">
-            <p className="font-body text-sm text-cream/60 leading-relaxed mb-6">
-              Each CON state is evaluated on five binary dimensions. A state earns 1 point
-              for each dimension it satisfies, producing a score from 0 to 5.
-            </p>
-
-            <div className="space-y-4 mb-8">
-              {momentum.dimensions.map((dim: MomentumDimension, i: number) => (
-                <div key={i} className="border border-ink/10 p-4">
-                  <div className="flex items-center gap-3 mb-1">
-                    <span className="w-2.5 h-2.5 rounded-full bg-orange" />
-                    <h4 className="font-body text-sm font-semibold text-cream">{dim.label}</h4>
-                  </div>
-                  <p className="font-body text-sm text-cream/50 ml-5">{dim.description}</p>
-                </div>
-              ))}
-            </div>
-
-            <h3 className="font-body text-xs font-bold tracking-widest uppercase text-cream/40 mb-4">
-              Signal Thresholds
-            </h3>
-            <div className="overflow-x-auto">
-              <table className="w-full text-left">
-                <thead>
-                  <tr className="border-b border-ink/20">
-                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Score</th>
-                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Signal</th>
-                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Meaning</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {momentum.thresholds.map((t: MomentumThreshold) => (
-                    <tr key={t.range} className="border-b border-ink/5">
-                      <td className="py-3 px-3 font-body text-sm text-cream/70 font-semibold">{t.range}</td>
-                      <td className="py-3 px-3">
-                        <span className={`px-2 py-0.5 text-xs font-bold ${
-                          t.signal === 'Green' ? 'bg-tier-free text-paper' :
-                          t.signal === 'Yellow' ? 'bg-tier-moderate text-navy' :
-                          'bg-tier-most-restrictive text-paper'
-                        }`}>
-                          {t.signal}
-                        </span>
-                      </td>
-                      <td className="py-3 px-3 font-body text-sm text-cream/50">{t.meaning}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Data Sources */}
-      <section className="bg-navy-dark">
-        <div className="max-w-content mx-auto px-5 py-10">
-          <SectionHeader
-            number="04"
-            label="Data Sources"
-            title="Where the Data Comes From"
-          />
-          <div className="max-w-3xl">
-            <ul className="space-y-3">
-              {[
-                { name: 'Cicero Institute', desc: 'State CON restrictiveness scores and tier classifications' },
-                { name: 'National Academy for State Health Policy (NASHP)', desc: 'CON program scope and facility type classifications' },
-                { name: 'Federal Trade Commission (FTC)', desc: 'Anticompetitive findings and joint policy statements' },
-                { name: 'Department of Justice (DOJ)', desc: 'Competition advocacy and CON policy recommendations' },
-                { name: 'Centers for Medicare & Medicaid Services (CMS)', desc: 'CMS data files, facility counts, utilization data' },
-                { name: 'Institute for Justice', desc: 'CON litigation and constitutional challenges' },
-                { name: 'Mercatus Center at George Mason University', desc: 'Economic research on CON impacts' },
-                { name: 'National Bureau of Economic Research (NBER)', desc: 'Academic working papers on CON and health outcomes' },
-                { name: 'State health departments', desc: 'Individual state CON program rules, fee schedules, and application data' },
-                { name: 'The Rojas Report', desc: 'Original analysis, market concentration data, and editorial content' },
-              ].map(s => (
-                <li key={s.name} className="flex items-start gap-3">
-                  <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange flex-shrink-0" />
-                  <div>
-                    <span className="font-body text-sm font-semibold text-cream">{s.name}</span>
-                    <span className="font-body text-sm text-cream/50">: {s.desc}</span>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-      </section>
-    </>
+      <Section title="Rules that apply everywhere">
+        <Defs
+          items={[
+            { term: 'Fiscal years', body: 'Each figure carries the fiscal year or the as-of date of its filing.' },
+            { term: 'Systems', body: 'A health system’s figure is the sum over its hospital filers, counted in the source line. Where the audited consolidated statement is cited instead, the source line says so.' },
+            { term: 'Rounding', body: 'Dollar figures on the page are rounded. Ratios display to the cent. The source line carries each figure as filed or as calculated.' },
+            { term: 'The 340B program', body: 'Registration, child site and contract pharmacy counts are HRSA’s listed arrangements as exported on the stated date.' },
+            { term: 'Corrections', body: 'Corrections are reviewed against the filing and logged publicly. Every figure carries its as-of date.' },
+            {
+              term: 'Certificate of need',
+              body: (
+                <>
+                  The CON desk uses the Cicero Institute’s 0 to 100 restrictiveness score. Its tiers and reform-momentum rules are on the{' '}
+                  <Link href="/con/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">CON classification methodology</Link> page.
+                </>
+              ),
+            },
+          ]}
+        />
+        <p className="mt-10 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+          Questions about a figure or a method:{' '}
+          <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
+        </p>
+      </Section>
+    </MethodPage>
   );
 }
