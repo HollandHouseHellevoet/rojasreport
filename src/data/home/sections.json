@@ -19,7 +19,7 @@
     "question": "Who buys the outcome",
     "desks": [
       { "name": "American Hospital Association", "href": "/aha/", "status": "live", "stat": "$25.5M", "statLabel": "federal lobbying, 2025", "blurb": "The 2027 board and executive team: pay, lobbying, red flags." },
-      { "name": "Federation of American Hospitals", "href": "https://fah.rojasreport.com", "status": "live", "blurb": "The for-profit hospital lobby: board, lobbying, PAC." },
+      { "name": "Federation of American Hospitals", "href": "/fah/", "status": "live", "blurb": "The for-profit hospital lobby: board, lobbying, PAC, eight fights." },
       { "name": "Lobbying firms", "status": "planned" },
       { "name": "Hospital PACs", "status": "planned" },
       { "name": "State hospital associations", "status": "planned" }

@@ -1,0 +1,886 @@
+{
+  "asOf": "2026-11-06",
+  "name": "Federation of American Hospitals",
+  "shortName": "FAH",
+  "tagline": "The for-profit hospital lobby: nine executives, five retained firms, one coalition, and the ban on physician-owned hospitals they keep in place.",
+  "keyStats": [
+    {
+      "value": "$3.57M",
+      "label": "Federal lobbying, 2025 (Senate filings)"
+    },
+    {
+      "value": "$1.91M",
+      "label": "Lobbying through Sept. 30, 2026"
+    },
+    {
+      "value": "$825K",
+      "label": "FEDPAC gifts to candidates and committees, 2025-26"
+    },
+    {
+      "value": "$99.6M",
+      "label": "Spent by the coalition FAH co-founded, 2018 to 2024"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Charlene MacDonald",
+      "title": "President and Chief Executive Officer",
+      "since": "January 1, 2026",
+      "prior": "FAH Executive Vice President of Public Affairs, 2023 to 2025. Chief Government Affairs Officer, CareFirst BlueCross BlueShield. Nearly a decade in House and Senate policy posts, including senior policy advisor to Whip Steny Hoyer. Registered in-house lobbyist.",
+      "source": "https://www.fah.org/charlene-macdonald-named-president-chief-executive-officer-of-federation-of-american-hospitals/"
+    },
+    {
+      "name": "Elizabeth Schwartz",
+      "title": "Senior Vice President and Head of Government Relations",
+      "since": "May 7, 2026",
+      "prior": "Nearly a decade at Merck, most recently executive director of U.S. policy and government relations. Health Subcommittee staff director for Sen. Mike Enzi on the Senate HELP Committee. Health policy for Sen. Ron Johnson. Registered in-house lobbyist.",
+      "source": "https://www.healthcaredive.com/news/federation-american-hospitals-taps-new-government-relations-elizabeth-schwartz/819601/"
+    },
+    {
+      "name": "Rebecca Heilig Lira",
+      "title": "Senior Vice President, Government Relations",
+      "since": "November 19, 2024",
+      "prior": "FAH government relations since 2021. Associate Director, White House Office of Public Liaison. Republican National Committee member services. Aide to Rep. Steve Scalise. Registered in-house lobbyist.",
+      "source": "https://fah.org/blog/fah-promotes-rebecca-lira"
+    },
+    {
+      "name": "Christina McCauley",
+      "title": "Vice President, Government Relations",
+      "since": "2026 (first on the Q3 2026 lobbying report)",
+      "prior": "Policy adviser to Sen. Catherine Cortez Masto for more than three years. Nearly four years with Rep. Doris Matsui, rising to legislative director. Registered in-house lobbyist.",
+      "source": "https://www.legistorm.com/pro_news/4476/hospital-group-admits-senate-health-aide.html"
+    },
+    {
+      "name": "Alyssa Keefe",
+      "title": "Senior Vice President, Head of Policy",
+      "since": "January 14, 2026",
+      "prior": "Rejoined FAH in December 2024. System Senior Vice President, Public Policy and Advocacy, CommonSpirit Health, from November 2020. Nearly ten years as Vice President for Federal Regulatory Affairs at the California Hospital Association. Earlier senior policy posts at the American Hospital Association and the Catholic Health Association, and an earlier stint at FAH.",
+      "source": "https://fah.org/about-fah/fah-staff/alyssa-keefe/"
+    },
+    {
+      "name": "Paul Eiting",
+      "title": "Vice President, Policy",
+      "since": "October 7, 2026",
+      "prior": "Managing director of legislative and regulatory policy, Blue Cross Blue Shield Association. Policy director at AHIP during the 2009 to 2010 health reform debate. Office of Rep. Paul Ryan.",
+      "source": "https://fah.org/blog/federation-of-american-hospitals-names-paul-eiting-vice-president-policy/"
+    },
+    {
+      "name": "Tilithia McBride",
+      "title": "Chief Operating Officer",
+      "since": "January 14, 2026",
+      "prior": "FAH staff; the Federation's lead on quality, patient safety and public health, with more than 25 years in the health sector.",
+      "source": "https://fah.org/blog/fah-announces-new-executive-team-under-president-ceo-charlene-macdonald/"
+    },
+    {
+      "name": "Adam Broder",
+      "title": "Chief Strategy Officer",
+      "since": "January 14, 2026",
+      "prior": "FAH public affairs staff; nearly 20 years in public affairs and campaigns.",
+      "source": "https://fah.org/blog/fah-announces-new-executive-team-under-president-ceo-charlene-macdonald/"
+    },
+    {
+      "name": "Katie Tenoever",
+      "title": "Senior Vice President and General Counsel",
+      "since": "Continuing (confirmed January 2026)",
+      "prior": "Decades of legal and policy work at health care trade associations, per FAH.",
+      "source": "https://fah.org/blog/fah-announces-new-executive-team-under-president-ceo-charlene-macdonald/"
+    },
+    {
+      "name": "Charles N. (Chip) Kahn III",
+      "title": "President and CEO, 2001 to 2025 (retired December 31, 2025)",
+      "since": "Retired",
+      "prior": "Led FAH for 24 years. Legislative assistant for health to Sen. Dan Quayle; senior health policy advisor to Sen. David Durenberger; later Health Insurance Association of America executive. President of the Partnership for America's Health Care Future 2022 to 2024. Now a visiting senior fellow at the American Enterprise Institute, per secondary sources.",
+      "source": "https://sph.tulane.edu/after-nearly-quarter-century-chip-kahn-retire-federation-american-hospitals"
+    }
+  ],
+  "board": {
+    "chair": {
+      "name": "Sam Hazen",
+      "company": "HCA Healthcare",
+      "slug": "hazen"
+    },
+    "chairElect": {
+      "name": "Saum Sutaria, MD",
+      "company": "Tenet Healthcare",
+      "slug": "sutaria"
+    },
+    "pastChair": {
+      "name": "David Dill",
+      "company": "Lifepoint Health",
+      "slug": "dill"
+    },
+    "treasurer": {
+      "name": "Mark Tarr",
+      "company": "Encompass Health",
+      "slug": "tarr"
+    },
+    "directorsCount": "9",
+    "note": "Elected October 14, 2026 for calendar 2027. Dill is also Secretary. Two seats changed hands mid-2026: Ardent's Marty Bonick, the 2026 chair-elect, left Ardent on June 2 and his successor Dave Caspers took the seat. ScionHealth's Rob Jay moved to executive chairman on June 10 and new CEO Doug Shirley took his.",
+    "source": "https://fah.org/blog/fah-announces-2027-chairman-and-board-of-directors-at-annual-membership-meeting/"
+  },
+  "lobbying": {
+    "narrative": "FAH reported $3.57 million of federal lobbying in 2025, its highest year since 2019, and $1.91 million through the third quarter of 2026. Four in-house lobbyists are registered, including the CEO. Five outside firms are on retainer in 2026. Three others were dropped at the turn of the year, and BGR Government Affairs was added in January. The figures are FAH's own quarterly Senate filings, which already include what it pays the firms.",
+    "annual": [
+      {
+        "year": "2018",
+        "amount": "$2,610,000"
+      },
+      {
+        "year": "2019",
+        "amount": "$3,570,000"
+      },
+      {
+        "year": "2020",
+        "amount": "$2,590,000"
+      },
+      {
+        "year": "2021",
+        "amount": "$2,440,000"
+      },
+      {
+        "year": "2022",
+        "amount": "$2,800,000"
+      },
+      {
+        "year": "2023",
+        "amount": "$2,523,000"
+      },
+      {
+        "year": "2024",
+        "amount": "$2,380,000"
+      },
+      {
+        "year": "2025",
+        "amount": "$3,565,000"
+      }
+    ],
+    "ytd2026": {
+      "amount": "$1,910,000",
+      "through": "September 30, 2026"
+    },
+    "inHouseLobbyists": {
+      "count": "Four",
+      "asOf": "Q3 2026"
+    },
+    "retainedFirms": [
+      {
+        "firm": "Avoq",
+        "amount2025": "$240,000",
+        "amount2026ytd": "$300,000",
+        "issues": "Medicare and Medicaid hospital payment; physician-owned hospitals; site-neutral payments; ACA premium tax credits",
+        "notable": "Steven Elmendorf (chief of staff to House Democratic Leader Gephardt); Bill Ghent (chief of staff to Sen. Carper); Lindsey Seidman (deputy staff director, Senate HELP)"
+      },
+      {
+        "firm": "BGR Government Affairs",
+        "amount2025": "Not retained",
+        "amount2026ytd": "$240,000",
+        "issues": "Health policy and hospitals; registered January 15, 2026",
+        "notable": "Robb Walton (health counsel to Sen. Cassidy); Remy Mason (Sen. Murray's HELP staff; Sen. Warren); James Williams (White House Domestic Policy Council)"
+      },
+      {
+        "firm": "Marshall & Popp",
+        "amount2025": "$240,000",
+        "amount2026ytd": "$180,000",
+        "issues": "Medicaid funding; site-neutral; price transparency; cybersecurity; rural extenders; ACA subsidies",
+        "notable": "Hazen Marshall (policy director to Majority Leader McConnell); Monica Popp (chief of staff to Whip Cornyn)"
+      },
+      {
+        "firm": "Welsh Rose",
+        "amount2025": "$200,000",
+        "amount2026ytd": "$150,000",
+        "issues": "Implementation of the 2025 reconciliation law on Medicare and Medicaid; premium tax credits; No Surprises Act; hospital transparency",
+        "notable": "Kristin Welsh (deputy health policy director, Senate Finance); Kate Rose (Sen. Rockefeller health staff)"
+      },
+      {
+        "firm": "Capitol Tax Partners",
+        "amount2025": "$40,000",
+        "amount2026ytd": "$30,000",
+        "issues": "Corporate tax and tax issues affecting for-profit hospitals",
+        "notable": "Rick Grafmeyer (Joint Committee on Taxation); Katherine Monge (counsel to Speaker Pelosi)"
+      },
+      {
+        "firm": "Miller Strategies",
+        "amount2025": "$540,000",
+        "amount2026ytd": "Terminated Dec. 31, 2025",
+        "issues": "Medicare and Medicaid hospital payment",
+        "notable": "Jonathan Hiler (legislative affairs director to Vice President Pence); Ashley Gunn (White House Cabinet Affairs)"
+      },
+      {
+        "firm": "Cozen O'Connor Public Strategies",
+        "amount2025": "$160,000",
+        "amount2026ytd": "$50,000 on the Q1 report; $20,000 on the termination report; terminated Jan. 30, 2026",
+        "issues": "Medicaid and premium tax credits",
+        "notable": "Alexandra Campau (White House health policy; House Budget Committee)"
+      },
+      {
+        "firm": "Invariant",
+        "amount2025": "$0 reported",
+        "amount2026ytd": "Terminated July 1, 2026",
+        "issues": "None listed on 2025 and 2026 reports; $240,000 in 2024",
+        "notable": "Christopher Gillott (deputy chief of staff to Sen. Cassidy)"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Senate LDA filings index, Federation of American Hospitals, by year",
+        "url": "https://lda.gov/api/v1/filings/?client_name=federation+of+american+hospitals&filing_year=2025"
+      },
+      {
+        "label": "FAH Q3 2026 lobbying report (posted Oct. 20, 2026)",
+        "url": "https://lda.gov/filings/public/filing/ea2c8e87-9a11-4f13-b99f-a03cca451886/print/"
+      },
+      {
+        "label": "FAH Q2 2026 lobbying report",
+        "url": "https://lda.gov/filings/public/filing/1b0751e5-88eb-4cc8-9ae4-05590c4dbf08/print/"
+      },
+      {
+        "label": "FAH Q1 2026 lobbying report",
+        "url": "https://lda.gov/filings/public/filing/35ebeb82-6f24-4fb3-b481-cf18ffdbb264/print/"
+      },
+      {
+        "label": "FAH Q4 2025 lobbying report",
+        "url": "https://lda.gov/filings/public/filing/dbe006c1-89b0-4a13-821f-d930d16d88f8/print/"
+      },
+      {
+        "label": "Avoq Q3 2026 report for FAH",
+        "url": "https://lda.gov/filings/public/filing/8a028950-2fab-4347-b788-e37deac5251a/print/"
+      },
+      {
+        "label": "BGR Government Affairs registration for FAH (Jan. 15, 2026)",
+        "url": "https://lda.gov/filings/public/filing/dbb5aea4-6e72-4ba1-9ffd-3c58ae58a214/print/"
+      },
+      {
+        "label": "BGR Government Affairs Q3 2026 report for FAH",
+        "url": "https://lda.gov/filings/public/filing/d2ed39b3-2ce0-4354-836e-4dd41b35a966/print/"
+      },
+      {
+        "label": "Marshall & Popp Q3 2026 report for FAH",
+        "url": "https://lda.gov/filings/public/filing/81b87734-7609-4fcd-b273-73cb8e52af44/print/"
+      },
+      {
+        "label": "Welsh Rose Q3 2026 report for FAH",
+        "url": "https://lda.gov/filings/public/filing/767d08b9-0bca-407b-80d5-5ba7def1b581/print/"
+      },
+      {
+        "label": "Capitol Tax Partners Q3 2026 report for FAH",
+        "url": "https://lda.gov/filings/public/filing/ac619fbe-388e-4223-a2f9-d0071becba30/print/"
+      },
+      {
+        "label": "Miller Strategies termination report (Q4 2025)",
+        "url": "https://lda.gov/filings/public/filing/87d2303a-d1af-45ac-96c2-8b7133eb74f9/print/"
+      },
+      {
+        "label": "Cozen O'Connor termination report (2026)",
+        "url": "https://lda.gov/filings/public/filing/85744d64-25c9-4ef0-81cb-c924b0654d0b/print/"
+      },
+      {
+        "label": "Cozen O'Connor Q1 2026 report, $50,000",
+        "url": "https://lda.gov/filings/public/filing/a710a495-8708-4287-94a7-78bd38f8a08e/print/"
+      },
+      {
+        "label": "Invariant termination report (2026)",
+        "url": "https://lda.gov/filings/public/filing/b6ca443a-0c2a-404a-8a4f-c9e84a356494/print/"
+      },
+      {
+        "label": "Healthcare Dive, FAH taps new head of government relations (May 8, 2026)",
+        "url": "https://www.healthcaredive.com/news/federation-american-hospitals-taps-new-government-relations-elizabeth-schwartz/819601/"
+      }
+    ]
+  },
+  "revolvingDoor": {
+    "narrative": "At least 27 people lobbying for FAH in 2026, in-house or at its retained firms, came from Congress or the White House. The CEO came from a Democratic whip's office. The head of government relations ran a Senate HELP health subcommittee before a decade at Merck. The retained firms supply former staff to Majority Leader McConnell, Whip Cornyn, Sen. Cassidy, Sen. Murray, Speaker Pelosi and the Senate Finance Committee. Names and prior posts come from the covered-position fields on Senate lobbying filings and the firms' own bios.",
+    "people": [
+      {
+        "name": "Charlene MacDonald",
+        "current": "FAH President and CEO; in-house lobbyist",
+        "prior": "Senior policy advisor to House Minority Whip Steny Hoyer; nearly a decade of House and Senate policy posts"
+      },
+      {
+        "name": "Elizabeth Schwartz",
+        "current": "FAH SVP, Head of Government Relations; in-house lobbyist",
+        "prior": "Health Subcommittee staff director, Senate HELP (Sen. Enzi); Sen. Ron Johnson health policy; then Merck"
+      },
+      {
+        "name": "Rebecca Heilig Lira",
+        "current": "FAH SVP, Government Relations; in-house lobbyist",
+        "prior": "White House Office of Public Liaison; Rep. Steve Scalise; Republican National Committee"
+      },
+      {
+        "name": "Christina McCauley",
+        "current": "FAH VP, Government Relations; in-house lobbyist",
+        "prior": "Policy adviser to Sen. Cortez Masto; legislative director to Rep. Matsui"
+      },
+      {
+        "name": "Paul Eiting",
+        "current": "FAH VP, Policy",
+        "prior": "Office of Rep. Paul Ryan; later AHIP and Blue Cross Blue Shield Association"
+      },
+      {
+        "name": "Chip Kahn",
+        "current": "Retired FAH CEO; AEI visiting senior fellow (secondary sources)",
+        "prior": "Health aide to Sen. Quayle; health policy advisor to Sen. Durenberger"
+      },
+      {
+        "name": "Hazen Marshall",
+        "current": "Marshall & Popp",
+        "prior": "Policy director to Majority Leader McConnell; staff director, Senate Budget Committee"
+      },
+      {
+        "name": "Monica Popp",
+        "current": "Marshall & Popp",
+        "prior": "Chief of staff to Whip John Cornyn; House Energy and Commerce staff"
+      },
+      {
+        "name": "Kristin Welsh",
+        "current": "Welsh Rose",
+        "prior": "Deputy health policy director, Senate Finance (Sen. Hatch); Senate HELP health advisor"
+      },
+      {
+        "name": "Kate Rose",
+        "current": "Welsh Rose",
+        "prior": "Health legislative assistant to Sen. Rockefeller; senior health advisor to Rep. Allyson Schwartz"
+      },
+      {
+        "name": "Steven Elmendorf",
+        "current": "Avoq",
+        "prior": "Chief of staff to House Democratic Leader Richard Gephardt"
+      },
+      {
+        "name": "Bill Ghent",
+        "current": "Avoq",
+        "prior": "Chief of staff to Sen. Tom Carper, 2015 to 2019"
+      },
+      {
+        "name": "Lindsey Seidman",
+        "current": "Avoq",
+        "prior": "Republican deputy staff director, Senate HELP; Senate Appropriations Labor-HHS clerk"
+      },
+      {
+        "name": "Sandra Alcala",
+        "current": "Avoq",
+        "prior": "Chief of staff to Rep. Filemon Vela; House Democratic Caucus member services"
+      },
+      {
+        "name": "Caitlin Canter",
+        "current": "Avoq",
+        "prior": "Deputy chief of staff to Rep. Devin Nunes"
+      },
+      {
+        "name": "Rick Grafmeyer",
+        "current": "Capitol Tax Partners",
+        "prior": "Deputy chief of staff, Joint Committee on Taxation; Senate Finance deputy staff director"
+      },
+      {
+        "name": "Katherine Monge",
+        "current": "Capitol Tax Partners",
+        "prior": "Senior counsel to Speaker Nancy Pelosi; tax counsel to Sen. Ben Cardin"
+      },
+      {
+        "name": "Robb Walton",
+        "current": "BGR Government Affairs",
+        "prior": "Senior health policy advisor and counsel to Sen. Bill Cassidy; Senate HELP staff"
+      },
+      {
+        "name": "Remy Mason",
+        "current": "BGR Government Affairs",
+        "prior": "Senate HELP FDA policy advisor (Sen. Murray); health advisor to Sen. Warren"
+      },
+      {
+        "name": "Chris Kelly",
+        "current": "BGR Government Affairs",
+        "prior": "Health policy director to Sen. Marsha Blackburn"
+      },
+      {
+        "name": "James Williams",
+        "current": "BGR Government Affairs",
+        "prior": "White House Domestic Policy Council; Council of Economic Advisers"
+      },
+      {
+        "name": "William Crozer",
+        "current": "BGR Government Affairs (on the 2026 registration)",
+        "prior": "Special Assistant to the President for Intergovernmental Affairs"
+      },
+      {
+        "name": "Daniel Farmer",
+        "current": "BGR Government Affairs",
+        "prior": "Legislative director to Rep. Zack Space; staff to Rep. Debbie Wasserman Schultz"
+      },
+      {
+        "name": "Alexandra Campau",
+        "current": "Cozen O'Connor (dropped Jan. 2026)",
+        "prior": "White House health policy; House Budget Committee; Senate Republican Policy Committee"
+      },
+      {
+        "name": "Jonathan Hiler",
+        "current": "Miller Strategies (dropped Dec. 2025)",
+        "prior": "Legislative affairs director to Vice President Pence; legislative director to Sen. Cotton"
+      },
+      {
+        "name": "Ashley Gunn",
+        "current": "Miller Strategies (dropped Dec. 2025)",
+        "prior": "Special Assistant to the President, White House Cabinet Affairs"
+      },
+      {
+        "name": "Lucas Wallwork",
+        "current": "Miller Strategies (dropped Dec. 2025)",
+        "prior": "Deputy chief of staff to Rep. Tom Reed; legislative director to Rep. Greg Murphy"
+      }
+    ],
+    "sources": [
+      {
+        "label": "FAH Q1 2021 lobbying report (Lira covered positions)",
+        "url": "https://lda.gov/filings/public/filing/49fc0225-ef82-4682-ba4c-c0ee073df27d/print/"
+      },
+      {
+        "label": "FAH staff page, Liz Schwartz",
+        "url": "https://fah.org/about-fah/fah-staff/liz-schwartz/"
+      },
+      {
+        "label": "Healthcare Dive, FAH names Charlene MacDonald CEO (Dec. 17, 2025)",
+        "url": "https://www.healthcaredive.com/news/federation-american-hospitals-ceo-charlene-macdonald/808106/"
+      },
+      {
+        "label": "LegiStorm, hospital group hires Senate health aide",
+        "url": "https://www.legistorm.com/pro_news/4476/hospital-group-admits-senate-health-aide.html"
+      },
+      {
+        "label": "Marshall & Popp registration for FAH (2023, covered positions)",
+        "url": "https://lda.gov/filings/public/filing/0c950e8c-38bd-457b-b3f1-4056a0490fa2/print/"
+      },
+      {
+        "label": "Welsh Rose registration for FAH (2023, covered positions)",
+        "url": "https://lda.gov/filings/public/filing/80f6f164-c156-440b-af41-b38507e68106/print/"
+      },
+      {
+        "label": "Avoq report for FAH (Seidman covered positions)",
+        "url": "https://lda.gov/filings/public/filing/3e250286-3619-480e-bdd1-90f27c13c6fb/print/"
+      },
+      {
+        "label": "Avoq report for FAH (Ghent covered positions)",
+        "url": "https://lda.gov/filings/public/filing/e870e1fe-4c0a-40e3-b7b3-b5f29af309d0/print/"
+      },
+      {
+        "label": "Avoq report for FAH (Alcala covered positions)",
+        "url": "https://lda.gov/filings/public/filing/197e6856-73e9-439b-a563-12be22062af1/print/"
+      },
+      {
+        "label": "Avoq report for FAH (Canter covered positions)",
+        "url": "https://lda.gov/filings/public/filing/150e9a87-3022-4bb0-beb8-6f9279a2cb62/print/"
+      },
+      {
+        "label": "Capitol Tax Partners report for FAH (Monge covered positions)",
+        "url": "https://lda.gov/filings/public/filing/c158a1dd-54c0-44c4-ae18-a5d2f93e79c7/print/"
+      },
+      {
+        "label": "American Action Forum, Rick Grafmeyer bio",
+        "url": "https://americanactionforum.org/experts/rick-grafmeyer"
+      },
+      {
+        "label": "BGR Government Affairs Q3 2026 report for FAH (covered positions)",
+        "url": "https://lda.gov/filings/public/filing/d2ed39b3-2ce0-4354-836e-4dd41b35a966/print/"
+      },
+      {
+        "label": "Cozen O'Connor registration for FAH (2025, Campau covered positions)",
+        "url": "https://lda.gov/filings/public/filing/798669a5-1790-4147-b593-08282aea50e1/print/"
+      },
+      {
+        "label": "Miller Strategies registration for FAH (2022, Hiler covered positions)",
+        "url": "https://lda.gov/filings/public/filing/163cfee6-081e-4560-b920-351f72d30ebb/print/"
+      },
+      {
+        "label": "Miller Strategies report for FAH (Gunn covered positions)",
+        "url": "https://lda.gov/filings/public/filing/58ebfb4a-fc77-401f-97bc-4d5eff35924a/print/"
+      },
+      {
+        "label": "Miller Strategies report for FAH (Wallwork covered positions)",
+        "url": "https://lda.gov/filings/public/filing/048419b0-a893-427e-b1d2-c4334aa89b51/print/"
+      },
+      {
+        "label": "KFF, Chip Kahn bio",
+        "url": "https://www.kff.org/person/chip-kahn/"
+      },
+      {
+        "label": "Wikipedia, Steve Elmendorf",
+        "url": "https://en.wikipedia.org/wiki/Steve_Elmendorf"
+      }
+    ]
+  },
+  "pahcf": {
+    "narrative": "The Partnership for America's Health Care Future is the dark-money coalition FAH founded with the insurers' and drugmakers' lobbies in June 2018. Its purpose: stop Medicare for All and a public option. It is a 501(c)(4), so its donors are secret. Its Form 990s show $99.6 million spent from 2018 through 2024, with $55.4 million raised in 2019 alone. Chip Kahn, then FAH's CEO, was its secretary and then its president through 2024. It is still posting statements in November 2026, now against a public option, and its members page is blank.",
+    "founded": "June 2018",
+    "memberCount": "Not published",
+    "cumulativeSpend": "$99.6M",
+    "byYear": [
+      {
+        "year": "2018",
+        "revenue": "$5,127,650",
+        "expenses": "$3,733,638"
+      },
+      {
+        "year": "2019",
+        "revenue": "$55,401,022",
+        "expenses": "$20,315,258"
+      },
+      {
+        "year": "2020",
+        "revenue": "$18,582,328",
+        "expenses": "$39,638,967"
+      },
+      {
+        "year": "2021",
+        "revenue": "$5,300,000",
+        "expenses": "$17,227,503"
+      },
+      {
+        "year": "2022",
+        "revenue": "$7,970,285",
+        "expenses": "$9,341,851"
+      },
+      {
+        "year": "2023",
+        "revenue": "$7,113,653",
+        "expenses": "$6,404,617"
+      },
+      {
+        "year": "2024",
+        "revenue": "$2,140,851",
+        "expenses": "$2,953,060"
+      }
+    ],
+    "status2026": "Active",
+    "sources": [
+      {
+        "label": "ProPublica Nonprofit Explorer, Partnership for America's Health Care Future (EIN 83-0939222)",
+        "url": "https://projects.propublica.org/nonprofits/organizations/830939222"
+      },
+      {
+        "label": "ProPublica Nonprofit Explorer, PAHCF Action (EIN 84-3893369)",
+        "url": "https://projects.propublica.org/nonprofits/organizations/843893369"
+      },
+      {
+        "label": "ProPublica, PAHCF 2024 Form 990 (filed Nov. 17, 2025)",
+        "url": "https://projects.propublica.org/nonprofits/organizations/830939222/202513219349315261/full"
+      },
+      {
+        "label": "ProPublica, PAHCF 2019 Form 990",
+        "url": "https://projects.propublica.org/nonprofits/organizations/830939222/202033219349303093/full"
+      },
+      {
+        "label": "CauseIQ, Partnership for America's Health Care Future",
+        "url": "https://causeiq.com/organizations/partnership-for-americas-health-care-future,830939222"
+      },
+      {
+        "label": "PAHCF, post-election statement (Nov. 4, 2026)",
+        "url": "https://americashealthcarefuture.org/pahcf-voters-sent-a-message-on-health-care-costs-congress-should-follow-their-stead/"
+      },
+      {
+        "label": "PAHCF, members page (blank, Nov. 2026)",
+        "url": "https://americashealthcarefuture.org/members/"
+      },
+      {
+        "label": "CEO Update, groups form partnership on policy issues (2018)",
+        "url": "https://www.ceoupdate.com/ceo-dateline-groups-spanning-health-care-sector-form-partnership-on-policy-issues"
+      },
+      {
+        "label": "Becker's, AMA backs out of coalition (2020)",
+        "url": "https://www.beckershospitalreview.com/payer-issues/ama-backs-out-of-anti-medicare-expansion-coalition.html"
+      },
+      {
+        "label": "Wikipedia, Partnership for America's Health Care Future",
+        "url": "https://en.wikipedia.org/wiki/Partnership_for_America%27s_Health_Care_Future"
+      }
+    ]
+  },
+  "pac": {
+    "fecId": "C00002261",
+    "name": "FEDPAC",
+    "narrative": "FEDPAC is FAH's federal political action committee, registered in 1976 and filing monthly. It raised $754,000 in the 2025-26 cycle through October 14, 2026, nearly all from individuals, and gave $825,000 to candidates and committees. Candidate money this cycle ran 53% Republican and 47% Democratic. The four national party committees got $115,000 between them: $60,000 to the two Democratic committees and $55,000 to the two Republican ones. In 2023-24 it leaned slightly Democratic. Its treasurer of record at the FEC is Elizabeth Schwartz, FAH's head of government relations.",
+    "cycle2026": {
+      "receipts": "$754,348",
+      "disbursements": "$826,196",
+      "contributions": "$825,000",
+      "cashOnHand": "$68,033",
+      "asOf": "Oct. 14, 2026",
+      "demShare": "47.2%",
+      "repShare": "52.8%"
+    },
+    "cycle2024": {
+      "receipts": "$752,461",
+      "disbursements": "$768,045",
+      "contributions": "$744,500",
+      "demShare": "53.9%",
+      "repShare": "46.1%"
+    },
+    "topRecipients": [
+      {
+        "name": "DSCC",
+        "office": "National party committee",
+        "party": "D",
+        "amount": "$30,000"
+      },
+      {
+        "name": "DCCC",
+        "office": "National party committee",
+        "party": "D",
+        "amount": "$30,000"
+      },
+      {
+        "name": "NRSC",
+        "office": "National party committee",
+        "party": "R",
+        "amount": "$30,000"
+      },
+      {
+        "name": "NRCC",
+        "office": "National party committee",
+        "party": "R",
+        "amount": "$25,000"
+      },
+      {
+        "name": "Linda Sanchez",
+        "office": "House CA-41",
+        "party": "D",
+        "amount": "$15,000"
+      },
+      {
+        "name": "SCALISE LEADERSHIP FUND",
+        "office": "Leadership PAC",
+        "party": "PAC",
+        "amount": "$15,000"
+      },
+      {
+        "name": "Heartland Values PAC (Sen. Thune)",
+        "office": "Leadership PAC",
+        "party": "PAC",
+        "amount": "$10,000"
+      },
+      {
+        "name": "CA LUV PAC",
+        "office": "Leadership PAC",
+        "party": "PAC",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Pete Aguilar",
+        "office": "House CA-33",
+        "party": "D",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Morgan Griffith",
+        "office": "House VA-09",
+        "party": "R",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Katherine Clark",
+        "office": "House MA-05",
+        "party": "D",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Bill Hagerty",
+        "office": "Senate TN",
+        "party": "R",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Joe Neguse",
+        "office": "House CO-02",
+        "party": "D",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Mr. Southern Missourian in the House PAC",
+        "office": "Leadership PAC",
+        "party": "PAC",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Frank Pallone Jr.",
+        "office": "House NJ-06",
+        "party": "D",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Brian Fitzpatrick",
+        "office": "House PA-01",
+        "party": "R",
+        "amount": "$10,000"
+      },
+      {
+        "name": "Brett Guthrie",
+        "office": "House KY-02",
+        "party": "R",
+        "amount": "$10,000"
+      }
+    ],
+    "sources": [
+      {
+        "label": "FEC, Federation of American Hospitals PAC, 2025-2026 cycle",
+        "url": "https://www.fec.gov/data/committee/C00002261/?cycle=2026"
+      },
+      {
+        "label": "FEC, Federation of American Hospitals PAC, 2023-2024 cycle",
+        "url": "https://www.fec.gov/data/committee/C00002261/?cycle=2024"
+      },
+      {
+        "label": "FEC API, committee totals, 2026 cycle",
+        "url": "https://api.open.fec.gov/v1/committee/C00002261/totals/?api_key=DEMO_KEY&cycle=2026"
+      },
+      {
+        "label": "FEC API, Schedule B disbursements, 2026 cycle",
+        "url": "https://api.open.fec.gov/v1/schedules/schedule_b/?api_key=DEMO_KEY&committee_id=C00002261&two_year_transaction_period=2026"
+      },
+      {
+        "label": "OpenSecrets, FAH PAC summary, 2024 cycle (party split)",
+        "url": "https://www.opensecrets.org/political-action-committees-pacs/federation-of-american-hospitals/C00002261/summary/2024"
+      }
+    ]
+  },
+  "developments": [
+    {
+      "date": "2026-04-28",
+      "text": "Statement after the House Ways and Means hearing on health systems: there is no replacement for a local hospital when you need it most.",
+      "url": "https://fah.org/blog/taxpaying-hospitals-show-up-for-patients-fah-highlights-member-hospitals-role-in-preserving-patient-access-to-care-and-promoting-health-care-affordability/"
+    },
+    {
+      "date": "2026-05-07",
+      "text": "Elizabeth Schwartz hired from Merck as Senior Vice President and Head of Government Relations.",
+      "url": "https://www.healthcaredive.com/news/federation-american-hospitals-taps-new-government-relations-elizabeth-schwartz/819601/"
+    },
+    {
+      "date": "2026-05-08",
+      "text": "FAH rebuts a Families USA post on corporate hospital pricing as not a serious analysis of affordability.",
+      "url": "https://fah.org/blog/fah-refutes-families-usa-report-highlights-tax-paying-hospitals-contributions-to-patients-and-communities/"
+    },
+    {
+      "date": "2026-05-28",
+      "text": "Statement welcoming the No Surprises Act IDR operations final rule.",
+      "url": "https://fah.org/blog/fah-statement-on-federal-independent-dispute-resolution-operations-final-rule/"
+    },
+    {
+      "date": "2026-06-02",
+      "text": "Board change: 2026 chair-elect Marty Bonick steps down at Ardent; Dave Caspers becomes CEO and later takes the FAH seat.",
+      "url": "https://www.beckershospitalreview.com/hospital-executive-moves/ardent-health-ceo-steps-down-coo-takes-helm/"
+    },
+    {
+      "date": "2026-06-10",
+      "text": "Board change: ScionHealth names Doug Shirley CEO; Rob Jay moves to executive chairman and off the FAH board.",
+      "url": "https://www.scionhealth.com/News-Stories/scionhealth-announces-executive-leadership-transition"
+    },
+    {
+      "date": "2026-06-10",
+      "text": "Statement for the House Energy and Commerce transparency hearing: patients' costs are dictated primarily by insurers' benefit design.",
+      "url": "https://fah.org/blog/fah-highlights-taxpaying-hospitals-commitment-to-transparency-calls-for-meaningful-transparency-across-the-health-care-system-2/"
+    },
+    {
+      "date": "2026-06-17",
+      "text": "FAH joins AHA, the Children's Hospital Association and AAMC on a Fifth Circuit amicus brief backing Texas. The case concerns CMS's reading of the Medicaid hold-harmless rules for state hospital taxes.",
+      "url": "https://www.aha.org/amicus-brief/2026-06-17-aha-amicus-brief-5th-us-circuit-court-appeals-provider-taxes-case"
+    },
+    {
+      "date": "2026-06-25",
+      "text": "Statement on the House subcommittee price transparency markup: duplicative and impractical hospital reporting requirements will not help patients.",
+      "url": "https://fah.org/blog/fah-releases-statement-on-ec-health-subcommittee-markup/"
+    },
+    {
+      "date": "2026-07-02",
+      "text": "Statement on the CY2027 outpatient proposed rule objecting to accelerated 340B recoupment.",
+      "url": "https://fah.org/blog/fah-releases-statement-on-cy-2027-opps-proposed-rule/"
+    },
+    {
+      "date": "2026-07-15",
+      "text": "Statement on the Ways and Means markup praising Medicare Advantage transparency measures.",
+      "url": "https://fah.org/blog/fah-statement-on-ways-means-committee-legislative-markup/"
+    },
+    {
+      "date": "2026-07-21",
+      "text": "Statement on the Energy and Commerce markup: transparency works when it produces meaningful information for patients, not just more data.",
+      "url": "https://fah.org/transparency-works-when-it-produces-meaningful-information-for-patients-fah-statement-on-ec-markup/"
+    },
+    {
+      "date": "2026-07-31",
+      "text": "Statement on the FY2027 inpatient final rule: adequate Medicare payments become even more critical as uncompensated care grows.",
+      "url": "https://fah.org/blog/every-policy-should-strengthen-not-strain-patients-access-to-care-fah-statement-on-fy-2027-ipps-final-rule/"
+    },
+    {
+      "date": "2026-08-31",
+      "text": "CY2027 outpatient comment letter: supports the 340B cut to acquisition cost; opposes the imaging site-neutral cut and the faster recoupment.",
+      "url": "https://fah.org/wp-content/uploads/2026/08/FAH-CY2027-OPPS-Comment-Letter-8.31.26.pdf"
+    },
+    {
+      "date": "2026-09-22",
+      "text": "Statement on CMS Marketplace anti-fraud actions: Americans are being priced out of health insurance and losing coverage.",
+      "url": "https://fah.org/blog/fah-statement-tackle-fraud-and-protect-americans-coverage/"
+    },
+    {
+      "date": "2026-10-07",
+      "text": "Paul Eiting hired from the Blue Cross Blue Shield Association as Vice President, Policy.",
+      "url": "https://fah.org/blog/federation-of-american-hospitals-names-paul-eiting-vice-president-policy/"
+    },
+    {
+      "date": "2026-10-14",
+      "text": "2027 board elected: Hazen chair, Sutaria chair-elect, Dill past chair and secretary, Tarr treasurer; directors Caspers, Hammons, Miller, Reddy, Shirley.",
+      "url": "https://fah.org/blog/fah-announces-2027-chairman-and-board-of-directors-at-annual-membership-meeting/"
+    },
+    {
+      "date": "2026-10-20",
+      "text": "Q3 2026 lobbying report: $760,000, the highest quarter of 2026; four in-house lobbyists.",
+      "url": "https://lda.gov/filings/public/filing/ea2c8e87-9a11-4f13-b99f-a03cca451886/print/"
+    },
+    {
+      "date": "2026-11-04",
+      "text": "PAHCF, the coalition FAH co-founded, issues a post-election statement that Medicare for All and the public option are not the answer.",
+      "url": "https://americashealthcarefuture.org/pahcf-voters-sent-a-message-on-health-care-costs-congress-should-follow-their-stead/"
+    },
+    {
+      "date": "2026-11-04",
+      "text": "CMS finalizes the CY2027 outpatient rule over FAH's objections on imaging site-neutral payment and the 2% recoupment.",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/calendar-year-2027-hospital-outpatient-prospective-payment-system-opps-ambulatory-surgical-center-0"
+    }
+  ],
+  "bottomLine": "The Federation of American Hospitals is nine chief executives and $3.6 million a year in lobbying. Beside it sits a dark-money coalition that has spent $99.6 million since 2018. Its board runs more than 700 hospitals and carries more than $3 billion in federal fraud settlements. In 2025 and 2026 it fought the two reforms that matter most to an independent physician: site-neutral payment and the right to own a hospital. Chip Kahn said the physician-owned hospital ban would not exist without the Federation. Sixteen years in, four repeal bills sit in committee and the Federation's new CEO came from the whip's office.",
+  "sources": [
+    {
+      "label": "FAH, 2027 board announcement (Oct. 14, 2026)",
+      "url": "https://fah.org/blog/fah-announces-2027-chairman-and-board-of-directors-at-annual-membership-meeting/"
+    },
+    {
+      "label": "FAH, board of directors page",
+      "url": "https://www.fah.org/about-fah/board-of-directors/"
+    },
+    {
+      "label": "FAH, Charlene MacDonald named President and CEO (Dec. 16, 2025)",
+      "url": "https://www.fah.org/charlene-macdonald-named-president-chief-executive-officer-of-federation-of-american-hospitals/"
+    },
+    {
+      "label": "FAH, new executive team under MacDonald (Jan. 14, 2026)",
+      "url": "https://fah.org/blog/fah-announces-new-executive-team-under-president-ceo-charlene-macdonald/"
+    },
+    {
+      "label": "FAH, Chip Kahn announces retirement",
+      "url": "https://www.fah.org/blog/chip-kahn-announces-retirement"
+    },
+    {
+      "label": "Tulane SPH, Chip Kahn to retire after nearly a quarter century",
+      "url": "https://sph.tulane.edu/after-nearly-quarter-century-chip-kahn-retire-federation-american-hospitals"
+    },
+    {
+      "label": "Advisory Board, Chip Kahn on two decades at FAH (June 1, 2021)",
+      "url": "https://www.advisory.com/blog/2021/06/two-decades"
+    },
+    {
+      "label": "Senate LDA filings index, Federation of American Hospitals",
+      "url": "https://lda.gov/api/v1/filings/?client_name=federation+of+american+hospitals&filing_year=2026"
+    },
+    {
+      "label": "FEC, Federation of American Hospitals PAC",
+      "url": "https://www.fec.gov/data/committee/C00002261/?cycle=2026"
+    },
+    {
+      "label": "ProPublica Nonprofit Explorer, PAHCF Form 990s",
+      "url": "https://projects.propublica.org/nonprofits/organizations/830939222"
+    }
+  ]
+}

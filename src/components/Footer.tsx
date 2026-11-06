@@ -28,7 +28,7 @@ export default function Footer() {
               <Link href="/con/" className="text-cream/50 hover:text-cream transition-colors">CON Laws</Link>
               <Link href="/aha/" className="text-cream/50 hover:text-cream transition-colors">American Hospital Association</Link>
               <Link href="/academic/" className="text-cream/50 hover:text-cream transition-colors">Academic Medical Centers</Link>
-              <a href="https://fah.rojasreport.com" className="text-cream/50 hover:text-cream transition-colors">Federation of American Hospitals</a>
+              <Link href="/fah/" className="text-cream/50 hover:text-cream transition-colors">Federation of American Hospitals</Link>
               <a href="https://poh.rojasreport.com" className="text-cream/50 hover:text-cream transition-colors">Physician-Owned Hospitals</a>
               <a href="/hac/" className="text-cream/50 hover:text-cream transition-colors">HHS Advisory Committee</a>
               <a href="https://waysandmeans.rojasreport.com" className="text-cream/50 hover:text-cream transition-colors">Ways &amp; Means</a>
