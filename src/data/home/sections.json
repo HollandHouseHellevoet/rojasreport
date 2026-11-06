@@ -172,7 +172,11 @@
       {
         "group": "Congress",
         "name": "Senate Finance",
-        "status": "planned"
+        "status": "live",
+        "href": "/committees/senate-finance/",
+        "stat": "6",
+        "statLabel": "of 14 Republicans leaving in January",
+        "blurb": "The committee that writes Medicare, Medicaid and the hospital tax exemption changes hands in January. The first committee dossier."
       },
       {
         "group": "Congress",

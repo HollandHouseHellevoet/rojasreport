@@ -6,6 +6,7 @@ import fahBoard from '@/data/fah/board.json';
 import { STATE_TILES } from '@/lib/stateMap';
 import { systems } from '@/lib/systems';
 import { stateDossiers } from '@/lib/stateDossiers';
+import { committees } from '@/lib/committees';
 
 export interface SearchEntry {
   title: string;
@@ -25,6 +26,9 @@ export function buildSearchIndex(): SearchEntry[] {
   for (const d of stateDossiers) {
     out.push({ title: `${d.name} state dossier`, kind: 'State dossier', href: `/states/${d.slug}/` });
     if (conStates.has(d.code)) out.push({ title: `${d.name} certificate of need`, kind: 'CON state page', href: `/con/${d.slug}/` });
+  }
+  for (const c of committees) {
+    out.push({ title: `${c.name} committee`, kind: 'Committee dossier', href: `/committees/${c.slug}/` });
   }
   for (const sys of systems) {
     out.push({ title: sys.name, kind: 'Health system', href: `/systems/${sys.slug}/` });

@@ -6,6 +6,7 @@ import fahBoard from '@/data/fah/board.json';
 import fahPillars from '@/data/fah/pillars.json';
 import { systems } from '@/lib/systems';
 import { stateDossiers } from '@/lib/stateDossiers';
+import { committees } from '@/lib/committees';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://rojasreport.com';
@@ -48,6 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly' as const,
     priority: stateDossiers.some((d) => d.slug === slug) ? 0.9 : 0.8,
   }));
+  const committeePages = committees.map((c) => ({ url: `${baseUrl}/committees/${c.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 }));
   // CON desk pages for states whose /states/ URL carries the dossier.
   const conStatePages = stateDossiers
     .filter((d) => stateSlugs.includes(d.slug))
@@ -90,5 +92,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticPages,
     ...systemPages, ...statePages,
-    ...conStatePages, ...ahaPages, ...hacPages, ...fahPages];
+    ...conStatePages, ...committeePages, ...ahaPages, ...hacPages, ...fahPages];
 }

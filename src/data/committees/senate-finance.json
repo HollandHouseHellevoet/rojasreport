@@ -1,0 +1,617 @@
+{
+  "slug": "senate-finance",
+  "name": "Senate Finance",
+  "chamber": "Senate",
+  "congress": "120th Congress",
+  "verdict": "The committee that writes the rules for Medicare, Medicaid and the tax exemption every nonprofit hospital lives on. In January it changes hands, and more than a third of its Republicans are gone.",
+  "verdictSource": "Jurisdiction: Senate Rule XXV(1)(i). Change of control: CBS News projected Democratic control of the Senate on November 3, 2026. Departures: six of the committee’s 14 Republicans (Cornyn, Cassidy, Marshall, Tillis, Daines, Blackburn) leave the Senate in January 2027; see the leaving table.",
+  "tabs": [
+    {
+      "slug": "senate-finance",
+      "name": "Senate Finance",
+      "status": "live"
+    },
+    {
+      "slug": "senate-help",
+      "name": "Senate HELP",
+      "status": "planned"
+    },
+    {
+      "slug": "house-ways-and-means",
+      "name": "House Ways and Means",
+      "status": "planned"
+    },
+    {
+      "slug": "house-energy-and-commerce",
+      "name": "House Energy and Commerce",
+      "status": "planned"
+    }
+  ],
+  "plainEnglish": {
+    "kicker": "Never heard of it? Most people haven’t.",
+    "heading": "What this committee does, in plain English",
+    "intro": "Congress does its real work in committees. A small group of senators writes the bills; the full Senate mostly votes yes or no on what they send it. On health care, this is the room where the bills get written.",
+    "points": [
+      {
+        "title": "It writes Medicare’s rules.",
+        "body": "What Medicare pays your practice, and why it pays a hospital more for the same visit. Almost every change to Medicare in the Senate starts here."
+      },
+      {
+        "title": "It writes Medicaid’s federal rules.",
+        "body": "How much federal money goes to each state, and the financing arrangements that route much of it back to hospital systems."
+      },
+      {
+        "title": "It writes the tax code.",
+        "body": "Including the exemption that lets nonprofit hospitals pay no federal income tax and borrow with tax-free bonds, while your practice pays both."
+      },
+      {
+        "title": "Its House twin is Ways and Means.",
+        "body": "The same rules have to pass both. In the House, Energy and Commerce shares part of Medicare. In the Senate, the HELP Committee handles public health, drug approval and the 340B program."
+      }
+    ],
+    "source": "Senate Rule XXV(1)(i) (Finance: revenue measures, bonded debt, health programs under the Social Security Act and health programs financed by a specific tax or trust fund); Rule XXV(1)(l) (HELP: health, public health, biomedical research); the 340B program is section 340B of the Public Health Service Act, 42 U.S.C. 256b, within HELP’s health jurisdiction; House Rule X (Ways and Means: revenue, Social Security Act health programs financed by payroll taxes; Energy and Commerce: public health and Medicaid, shared Medicare Part B)",
+    "as_of": "Standing Rules of the Senate, 119th Congress"
+  },
+  "controls": {
+    "subtitle": "The parts of its jurisdiction that set what care costs",
+    "source": "Senate Finance Committee jurisdiction page (finance.senate.gov/about/jurisdiction), quoting Senate Rule XXV(1)(i): revenue measures generally; bonded debt of the United States; health programs under the Social Security Act",
+    "as_of": "119th Congress",
+    "items": [
+      {
+        "title": "Medicare",
+        "body": "What hospitals and physicians are paid, including the higher rates hospitals get for the same service in a building they own.",
+        "note": "Social Security Act, Title XVIII"
+      },
+      {
+        "title": "Medicaid",
+        "body": "Federal matching money, provider taxes and the state-directed payments that flow to hospital systems.",
+        "note": "Social Security Act, Title XIX"
+      },
+      {
+        "title": "The tax exemption",
+        "body": "Whether nonprofit hospitals keep their federal tax exemption, and what charity care they must show for it.",
+        "note": "Internal Revenue Code §501(c)(3) and §501(r)"
+      },
+      {
+        "title": "Tax-exempt bonds",
+        "body": "The cheap borrowing that finances hospital towers and acquisitions.",
+        "note": "Internal Revenue Code §145"
+      }
+    ]
+  },
+  "whoRuns": {
+    "heading": "Who runs it in 2027",
+    "subtitle": "Democrats won the Senate on November 3",
+    "source": "CBS News, Senate election results live page, projection of Democratic control at 11:44 p.m. ET on November 3, 2026 (at least 54 seats as of November 5, Alaska and Mississippi unresolved). Chair and ranking member are expected: the 120th Congress organizes in January 2027. Wyden chaired Finance from February 2021 to January 2025 (finance.senate.gov); Crapo chairs it in the 119th Congress (finance.senate.gov/about/membership).",
+    "as_of": "November 6, 2026",
+    "people": [
+      {
+        "label": "Expected chairman",
+        "name": "Ron Wyden",
+        "line": "D-Oregon · chaired Finance 2021 to 2025",
+        "text": "Has named billionaire taxes, a guarantee of health care for all, and oversight of banks, insurers and drug companies as his priorities. Nonprofit hospital systems are not on his list.",
+        "source": "Wyden statement on the Finance Committee Democratic majority agenda, November 4, 2026, as quoted by KTVZ (November 4, 2026) and The Hill: billionaires and tax cheats; “a new foundation for America’s health care system that guarantees health care for all”; banks, insurers and pharmaceutical CEOs “forced to answer to the Senate Finance Committee.” The quoted statement does not mention hospitals, Medicare or Medicaid."
+      },
+      {
+        "label": "Expected ranking Republican",
+        "name": "Mike Crapo",
+        "line": "R-Idaho · chairman in the 119th Congress",
+        "text": "Moves from the gavel to the minority with a depleted bench. Six of his 13 Republican colleagues on the committee will not return.",
+        "source": "Leaving table below: Cornyn, Cassidy, Marshall, Tillis, Daines and Blackburn, six of the 13 other Republicans on the 119th Congress roster"
+      }
+    ]
+  },
+  "leaving": {
+    "heading": "Who is leaving",
+    "asOf": "As of November 6, 2026",
+    "intro": "Two of the committee’s three physicians are out. So is the chairman of the trade subcommittee, and one Democrat.",
+    "introSource": "Physicians on the committee: Bill Cassidy MD, Roger Marshall MD and John Barrasso MD (an orthopaedic surgeon, barrasso.senate.gov biography). Trade subcommittee chairman: John Cornyn (Senate committee-membership XML, SSFI13, September 30, 2026). Democrat: Tina Smith.",
+    "rows": [
+      {
+        "name": "John Cornyn",
+        "party": "R-Texas",
+        "why": "Lost his primary",
+        "tone": "red",
+        "loss": "Chairman of the trade subcommittee. Seat won by Democrat James Talarico.",
+        "source": "Texas Tribune and Washington Post: Ken Paxton defeated Cornyn in the May 26, 2026 Republican runoff; AP called the November 3 general election for Talarico (CBS News, Houston Public Media)"
+      },
+      {
+        "name": "Bill Cassidy",
+        "party": "R-Louisiana",
+        "why": "Lost his primary",
+        "tone": "red",
+        "loss": "A physician, and chairman of the HELP Committee. Seat won by Republican Julia Letlow.",
+        "source": "NPR, CNN and Axios: Cassidy finished third in the May 16, 2026 Louisiana Republican primary; WAFB: Letlow won the November 3 general election; help.senate.gov/about lists Cassidy as chairman"
+      },
+      {
+        "name": "Roger Marshall",
+        "party": "R-Kansas",
+        "why": "Defeated in the general election",
+        "tone": "red",
+        "loss": "A physician. Kansas elects its first Democratic senator since 1932.",
+        "source": "AP call reported by NPR, NBC News and CBS News, November 3, 2026: Democrat Adam Hamilton defeated Marshall; first Democrat elected to the Senate from Kansas since 1932"
+      },
+      {
+        "name": "Thom Tillis",
+        "party": "R-North Carolina",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Seat won by Democrat Roy Cooper.",
+        "source": "NBC News and NPR, November 3, 2026: Cooper defeated Michael Whatley for the open seat Tillis did not seek again"
+      },
+      {
+        "name": "Steve Daines",
+        "party": "R-Montana",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Seat held by Republican Kurt Alme.",
+        "source": "Daines announced March 4, 2026 that he would not seek reelection (Montana Public Radio, Ballotpedia); NBC News and Decision Desk HQ: Alme won the November 3 general election"
+      },
+      {
+        "name": "Marsha Blackburn",
+        "party": "R-Tennessee",
+        "why": "Elected governor",
+        "tone": "gold",
+        "loss": "Leaves the Senate when she takes office in January, and is expected to appoint her own successor.",
+        "source": "AP call reported by NBC News, WKRN and WPLN, November 3, 2026; Tennessee Secretary of State declared her the winner; WATE: expected to appoint her replacement"
+      },
+      {
+        "name": "Tina Smith",
+        "party": "D-Minnesota",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Seat held by Democrat Peggy Flanagan.",
+        "source": "Fox 9 and NBC News, November 3, 2026: Flanagan defeated Michele Tafoya for the seat Smith is vacating"
+      }
+    ]
+  },
+  "scorecard": {
+    "heading": "Where the members stand",
+    "subtitle": "Returning senators; the 120th Congress roster is set in January",
+    "intro": "Each member’s record on the cost drivers this committee controls, and a Machine Score from 0 to 100. The score measures how independent they are from the hospital lobby. Higher is better; 100 means they have never sided with it. Hospital PAC money sits beside the score, not inside it.",
+    "note": "Records and Machine Scores load when the scored-action list is published. Hospital PAC money: FEC bulk files, 2024 and 2026 cycles, PAC contributions from hospital systems and hospital associations, through October 8, 2026.",
+    "columns": [
+      "Site-neutral pay",
+      "Physician-owned hospitals",
+      "Price transparency",
+      "Nonprofit tax exemption"
+    ],
+    "members": [
+      {
+        "slug": "ron-wyden",
+        "name": "Ron Wyden",
+        "party": "D-Ore.",
+        "role": "Expected chairman",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 2500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6OR00110",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "mike-crapo",
+        "name": "Mike Crapo",
+        "party": "R-Idaho",
+        "role": "Expected ranking member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 10000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S8ID00027",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "john-barrasso",
+        "name": "John Barrasso",
+        "party": "R-Wyo.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 35000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6WY00068",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "michael-f-bennet",
+        "name": "Michael F. Bennet",
+        "party": "D-Colo.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 0,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0CO00211",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "maria-cantwell",
+        "name": "Maria Cantwell",
+        "party": "D-Wash.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 0,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S8WA00194",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "chuck-grassley",
+        "name": "Chuck Grassley",
+        "party": "R-Iowa",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 1000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0IA00028",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "margaret-wood-hassan",
+        "name": "Maggie Hassan",
+        "party": "D-N.H.",
+        "role": "Health Care subcommittee ranking member, 119th Congress",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 0,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6NH00091",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "ron-johnson",
+        "name": "Ron Johnson",
+        "party": "R-Wis.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 3500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0WI00197",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "james-lankford",
+        "name": "James Lankford",
+        "party": "R-Okla.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 3500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S4OK00232",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "ben-ray-lujan",
+        "name": "Ben Ray Luján",
+        "party": "D-N.M.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 12500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0NM00058",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "catherine-cortez-masto",
+        "name": "Catherine Cortez Masto",
+        "party": "D-Nev.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 10000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6NV00200",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "bernard-sanders",
+        "name": "Bernie Sanders",
+        "party": "I-Vt.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 0,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S4VT00033",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "tim-scott",
+        "name": "Tim Scott",
+        "party": "R-S.C.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 2500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S4SC00240",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "john-thune",
+        "name": "John Thune",
+        "party": "R-S.D.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 5000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S2SD00068",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "mark-r-warner",
+        "name": "Mark R. Warner",
+        "party": "D-Va.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 36500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6VA00093",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "raphael-g-warnock",
+        "name": "Raphael G. Warnock",
+        "party": "D-Ga.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 0,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0GA00559",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "elizabeth-warren",
+        "name": "Elizabeth Warren",
+        "party": "D-Mass.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 0,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S2MA00170",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "peter-welch",
+        "name": "Peter Welch",
+        "party": "D-Vt.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 0,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S2VT00235",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "sheldon-whitehouse",
+        "name": "Sheldon Whitehouse",
+        "party": "D-R.I.",
+        "role": "Returning senator; assignment in January",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 7500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6RI00221",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "todd-young",
+        "name": "Todd Young",
+        "party": "R-Ind.",
+        "role": "Health Care subcommittee chairman, 119th Congress",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 11000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6IN00191",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      }
+    ],
+    "source": "Senate Finance Committee membership page (finance.senate.gov/about/membership) and the Senate committee-membership XML saved September 30, 2026 (SSFI, 119th Congress)",
+    "as_of": "Roster as of September 30, 2026; departures as of November 6, 2026"
+  },
+  "docket": {
+    "heading": "What is on the docket",
+    "subtitle": "The fights this committee will decide in 2027",
+    "items": [
+      {
+        "title": "Site-neutral payment",
+        "body": "Whether Medicare keeps paying hospital outpatient departments more than independent offices for the same service. CMS cut the hospital rate for drug administration at off-campus departments from January 1, 2026. Congress decides whether to extend that to other services.",
+        "status": "IN PLAY · Reform partly final",
+        "tone": "gold",
+        "source": "CMS CY2026 OPPS final rule, November 21, 2025: drug administration at excepted off-campus hospital outpatient departments paid at 40% of the OPPS rate from January 1, 2026, rural sole community hospitals exempt, CMS estimate $290 million in 2026 and $8 billion over ten years (KFF Quick Take, November 24, 2025); CRS In Focus IF13233 (May 2026) on congressional interest and CMS’s intent to expand"
+      },
+      {
+        "title": "The nonprofit hospital tax exemption",
+        "body": "Whether tax-exempt systems must show charity care in proportion to the tax breaks they receive. Not on the incoming chairman’s stated list.",
+        "status": "UNADDRESSED · Not on the agenda",
+        "tone": "red",
+        "source": "Wyden statement of November 4, 2026 as quoted by KTVZ and The Hill: no mention of hospitals, Medicare or Medicaid"
+      },
+      {
+        "title": "Medicaid financing",
+        "body": "Provider taxes and state-directed payments that recycle federal money back to hospital systems. The 2025 reconciliation law bars new provider taxes, freezes existing ones and phases down directed payments from 2028.",
+        "status": "ENACTED 2025 · Phasing in",
+        "tone": "gold",
+        "source": "Public Law 119-21 (July 4, 2025), sections 71115 (provider taxes: no new or increased taxes after enactment, thresholds for expansion states step down from 2028) and 71116 (state-directed payments capped at 100% of Medicare in expansion states and 110% elsewhere, above-cap arrangements phased down 10 points a year from 2028); CMS guidance reported by Healthcare Dive and Becker’s"
+      },
+      {
+        "title": "Health care for all",
+        "body": "The incoming chairman has called for a new foundation for the health system that guarantees coverage. A Republican White House can veto it.",
+        "status": "NEW MAJORITY PRIORITY",
+        "tone": "grey",
+        "source": "Wyden statement of November 4, 2026 as quoted by KTVZ: “a new foundation for America’s health care system that guarantees health care for all”; presidential term runs to January 2029"
+      }
+    ]
+  },
+  "staff": {
+    "heading": "Work for a member of this committee?",
+    "text": "Every health system in your member’s state, with its subsidies, reserves, executive pay and offshore holdings, sourced to the filing. Ready for a hearing.",
+    "options": [
+      {
+        "label": "Committee member dataset",
+        "price": null,
+        "primary": true,
+        "href": "/reports/"
+      },
+      {
+        "label": "Request a briefing for staff",
+        "price": "Contact →",
+        "primary": false,
+        "href": "https://read.rojasreport.com/about"
+      }
+    ]
+  },
+  "sourcesLine": "Sources: Senate Finance Committee; Standing Rules of the Senate; AP race calls as reported by CBS News, NBC News, NPR and state outlets; Senator Wyden’s November 4, 2026 statement as reported by KTVZ and The Hill; CMS CY2026 OPPS final rule; Public Law 119-21; FEC bulk data."
+}
