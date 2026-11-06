@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { getAllStateSlugs } from '@/lib/data';
 import ahaProfiles from '@/data/aha/profiles.json';
+import hacMembers from '@/data/hac/members.json';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://rojasreport.com';
@@ -47,5 +48,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  return [...staticPages, ...statePages, ...ahaPages];
+  const hacBase = 'https://rojasreport.com/hac';
+  const hacPages = [
+    { url: `${hacBase}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${hacBase}/pattern-analysis/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    ...(hacMembers as { slug: string }[]).map(m => ({
+      url: `${hacBase}/members/${m.slug}/`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
+    })),
+  ];
+
+  return [...staticPages, ...statePages, ...ahaPages, ...hacPages];
 }

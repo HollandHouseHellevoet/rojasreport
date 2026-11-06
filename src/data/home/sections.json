@@ -5,7 +5,7 @@
     "question": "Who writes the rules",
     "desks": [
       { "name": "Ways & Means", "href": "https://waysandmeans.rojasreport.com", "status": "live", "blurb": "Every member's healthcare record, votes and money." },
-      { "name": "HHS Healthcare Advisory Committee", "href": "https://hac.rojasreport.com", "status": "live", "blurb": "Who advises HHS, and what they stand to gain." },
+      { "name": "Healthcare Advisory Committee", "href": "/hac/", "status": "live", "stat": "18", "statLabel": "members, none for physician ownership", "blurb": "Who advises HHS and CMS, and what they stand to gain." },
       { "name": "Energy & Commerce", "status": "planned" },
       { "name": "Senate HELP", "status": "planned" },
       { "name": "Senate Finance", "status": "planned" },

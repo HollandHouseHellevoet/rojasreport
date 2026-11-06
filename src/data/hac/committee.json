@@ -1,0 +1,41 @@
+{
+  "name": "Healthcare Advisory Committee",
+  "shortName": "HAC",
+  "announced": "March 27, 2026",
+  "authority": "Public Health Service Act; Federal Advisory Committee Act",
+  "reportsTo": "HHS Secretary Robert F. Kennedy Jr. and CMS Administrator Mehmet Oz",
+  "focusAreas": "Chronic disease prevention, outcomes accountability, real-time data, vulnerable populations, Medicare Advantage sustainability",
+  "memberCount": 18,
+  "nominations": "400+",
+  "asOf": "2026-11-06",
+  "thesis": "The committee is built to protect the incumbent healthcare industrial complex: large hospital systems, Medicare Advantage insurers, value-based care platforms, and the health IT infrastructure that serves them. The branding promises disruption. The roster guarantees continuity.",
+  "thesisDate": "The Rojas Report, March 28, 2026",
+  "sectorBreakdown": [
+    { "sector": "Hospital systems and finance", "count": 3, "members": "Gassen, Laraway, Liljenquist" },
+    { "sector": "Value-based care and managed care", "count": 3, "members": "Bessler, Carmouche, Gudapati" },
+    { "sector": "Primary care consolidation", "count": 1, "members": "Fields" },
+    { "sector": "Insurance-adjacent and claims", "count": 2, "members": "Rhee, R. Thomas" },
+    { "sector": "For-profit behavioral health", "count": 1, "members": "Lynch" },
+    { "sector": "Government (CMS)", "count": 2, "members": "Brandt, Carlton" },
+    { "sector": "Venture capital and health tech", "count": 1, "members": "Caliri" },
+    { "sector": "Wellness and celebrity", "count": 1, "members": "Robbins" },
+    { "sector": "State government", "count": 2, "members": "McElroy, Huhn" },
+    { "sector": "Safety net and FQHCs", "count": 1, "members": "Thomas-Hemak" },
+    { "sector": "Nursing homes and post-acute care", "count": 1, "members": "Fago" }
+  ],
+  "notAtTable": [
+    "Independent physician practice owners",
+    "Physician-owned hospital operators",
+    "Rural hospital administrators outside a system",
+    "Patient advocacy organizations unaffiliated with industry",
+    "Healthcare antitrust experts",
+    "Medical school debt and physician workforce experts",
+    "Uninsured or underinsured patient representatives",
+    "Direct primary care physicians",
+    "Independent emergency medicine groups",
+    "Physicians who have testified against hospital consolidation",
+    "Academic researchers on hospital market concentration",
+    "State attorney general staff investigating health system pricing"
+  ],
+  "sources": []
+}
