@@ -4,6 +4,7 @@ import ahaProfiles from '@/data/aha/profiles.json';
 import hacMembers from '@/data/hac/members.json';
 import fahBoard from '@/data/fah/board.json';
 import fahPillars from '@/data/fah/pillars.json';
+import { systems } from '@/lib/systems';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://rojasreport.com';
@@ -31,6 +32,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/timeline/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
     { url: `${baseUrl}/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
   ];
+
+  const systemPages = systems.map((s) => ({
+    url: `${baseUrl}/systems/${s.slug}/`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+  }));
 
   const stateSlugs = getAllStateSlugs();
   const statePages = stateSlugs.map(slug => ({
@@ -75,5 +83,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(fahPillars as { slug: string }[]).map(p => ({ url: `${fahBase}/pillars/${p.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
   ];
 
-  return [...staticPages, ...statePages, ...ahaPages, ...hacPages, ...fahPages];
+  return [...staticPages,
+    ...systemPages, ...statePages, ...ahaPages, ...hacPages, ...fahPages];
 }

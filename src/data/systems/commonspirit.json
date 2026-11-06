@@ -1,0 +1,376 @@
+{
+  "slug": "commonspirit",
+  "name": "CommonSpirit Health",
+  "kind": "Tax-exempt health system",
+  "taxStatus": "501(c)(3)",
+  "hq": "Chicago, Illinois",
+  "footprint": "Multi-state",
+  "ein": "47-0617373",
+  "fiscalYear": "FY2025",
+  "fiscalYearEnd": "June 30, 2025",
+  "verdict": "Lost $687 million on operations, made $944 million anyway, and paid its CEO $14.2 million. For every dollar of free care, it takes in nearly ten dollars in subsidies and write-offs.",
+  "keyFigures": [
+    {
+      "label": "Hospital facilities",
+      "value": "142",
+      "basis": "reported",
+      "source": "IRS Form 990 Schedule H Part V Section A, the 61 CommonSpirit hospital filers, FY2025: 144 hospital facility listings, 142 distinct hospitals after two listed on two returns (CHI Health St. Francis, Grand Island; St. Anthony Hospital, Pendleton). The two San Francisco hospitals sold to the University of California in August 2024 are left out.",
+      "as_of": "2025-06-30"
+    },
+    {
+      "label": "Revenue, FY2025",
+      "value": "$39.1B",
+      "basis": "reported",
+      "source": "CommonSpirit Health annual report for fiscal 2025, consolidated statements of operations (Ernst & Young LLP): total operating revenues $39,116 million",
+      "as_of": "2025-06-30"
+    },
+    {
+      "label": "Net assets",
+      "value": "$23.6B",
+      "basis": "reported",
+      "source": "CommonSpirit Health annual report for fiscal 2025, consolidated balance sheet: total net assets $23,573 million",
+      "as_of": "2025-06-30"
+    },
+    {
+      "label": "CEO compensation",
+      "value": "$14.2M",
+      "basis": "reported",
+      "source": "CommonSpirit Health Form 990 FY2025, Schedule J Part II: Wright Lassiter III, total compensation $14,175,319, of which $10,901,250 bonus and incentive",
+      "as_of": "2025-06-30"
+    },
+    {
+      "label": "Long-term debt",
+      "value": "$17.2B",
+      "basis": "reported",
+      "source": "CommonSpirit Health annual report for fiscal 2025, consolidated balance sheet: long-term debt, net of current portion, $17,154 million",
+      "as_of": "2025-06-30"
+    }
+  ],
+  "money": {
+    "asOf": "As of June 30, 2025, from the audited statements and Form 990",
+    "items": [
+      {
+        "value": "$20.5B",
+        "text": "in cash and investments on the balance sheet.",
+        "note": "Cash $2.01B, short-term $0.26B, long-term $18.20B. FY2025 annual report, consolidated balance sheet (Ernst & Young).",
+        "basis": "reported",
+        "source": "CommonSpirit Health annual report for fiscal 2025, consolidated balance sheet: cash and cash equivalents $2,010M, short-term investments $255M, long-term investments $18,195M; total $20,460M",
+        "as_of": "2025-06-30"
+      },
+      {
+        "value": "$1.94B",
+        "text": "held in Cayman Islands insurance companies it controls.",
+        "note": "First Initiatives Insurance Ltd, Grand Cayman: $1.89B in assets, $525M in income. Strategic and Physicians Insurance Ltd, Grand Cayman: $48.8M. Form 990 Schedule R, FY2025.",
+        "basis": "reported",
+        "source": "CommonSpirit Health Form 990 FY2025, Schedule R: Part I, First Initiatives Insurance Ltd (Grand Cayman, EIN 98-0203038, self-insurance), end-of-year assets $1,887,360,285 and total income $525,035,947; Part IV, Strategic and Physicians Insurance Ltd (Grand Cayman, EIN 98-1065338, captive insurance), share of end-of-year assets $48,810,524",
+        "as_of": "2025-06-30"
+      },
+      {
+        "value": "$430.9M",
+        "text": "sent abroad for investments in one year.",
+        "note": "Caribbean $339.7M, Europe $91.1M. Form 990 Schedule F, CommonSpirit Health and Dignity Health, FY2025.",
+        "basis": "reported",
+        "source": "Form 990 FY2025, Schedule F Part I, activity type Investments: CommonSpirit Health, Central America and the Caribbean $326,467,516 and Europe $91,147,050; Dignity Health, Central America and the Caribbean $13,259,856; total $430,874,422",
+        "as_of": "2025-06-30"
+      },
+      {
+        "value": "33 years",
+        "text": "of free care its cash and investments could pay for at today's level.",
+        "note": "$20.46B ÷ $616.2M of charity care a year (Schedule H 7a, all hospital filers).",
+        "basis": "estimated",
+        "source": "Rojas Report calculation: cash and investments $20,460M (annual report) divided by charity care at cost, net, $616,247,940 (Schedule H Part I Line 7a column (e), summed over the 61 hospital filers, FY2025) = 33.2",
+        "as_of": "2025-06-30"
+      }
+    ]
+  },
+  "freeCare": {
+    "amount": 616247940,
+    "label": "Free care actually delivered",
+    "basis": "reported",
+    "source": "IRS Form 990 Schedule H Part I Line 7a column (e), financial assistance at cost, net, summed over CommonSpirit's 61 hospital filers, FY2025",
+    "as_of": "2025-06-30"
+  },
+  "costReportFreeCare": {
+    "amount": 864890874,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report (HCRIS), Worksheet S-10 cost of charity care, latest report per CCN for the 128 cost-report hospitals",
+    "as_of": "2024-12-31"
+  },
+  "ledger": {
+    "caption": "Fiscal year 2025, every line sourced",
+    "groups": [
+      {
+        "name": "Federal programs",
+        "lines": [
+          {
+            "name": "The 340B program: drug discount spread (89 registrations, 811 contract pharmacy arrangements)",
+            "payer": "Drug manufacturers",
+            "basis": "estimated",
+            "amount": null,
+            "source": "HRSA 340B OPAIS covered entity export of September 29, 2026 (89 participating parent registrations, 306 child sites, 811 active contract pharmacy arrangements); spread estimate pending a method decision",
+            "as_of": "2026-09-29"
+          },
+          {
+            "name": "Graduate medical education: direct GME",
+            "payer": "Medicare",
+            "basis": "reported",
+            "amount": null,
+            "source": "CMS Medicare cost report, Worksheet E-4; pending the HCRIS download",
+            "as_of": "pending"
+          },
+          {
+            "name": "Graduate medical education: indirect (IME)",
+            "payer": "Medicare",
+            "basis": "reported",
+            "amount": 122958063,
+            "source": "CMS Hospital Provider Cost Report (CostReport_2024_Final.csv, data.cms.gov), latest report per CCN, sum of Total IME Payment over the 128 cost-report hospitals: $122,958,063",
+            "as_of": "2024-12-31"
+          },
+          {
+            "name": "Medicare DSH adjustment",
+            "payer": "Medicare",
+            "basis": "reported",
+            "amount": 108669789,
+            "source": "CMS Hospital Provider Cost Report (CostReport_2024_Final.csv, data.cms.gov), latest report per CCN, sum of Disproportionate Share Adjustment over the 128 cost-report hospitals: $108,669,789",
+            "as_of": "2024-12-31"
+          },
+          {
+            "name": "Medicare uncompensated care payments (71 hospitals)",
+            "payer": "Medicare",
+            "basis": "reported",
+            "amount": 174256404,
+            "source": "CMS FY2027 IPPS correction notice, Medicare DSH supplemental data file, Total Uncompensated Care Payment summed over the 71 CommonSpirit hospitals projected to receive DSH in FY2027: $174,256,404",
+            "as_of": "2026-09-24"
+          },
+          {
+            "name": "Medicaid DSH",
+            "payer": "Federal and state Medicaid",
+            "basis": "reported",
+            "amount": null,
+            "source": "State Medicaid DSH audit reports (medicaid.gov), 19 states; pending the download",
+            "as_of": "pending"
+          },
+          {
+            "name": "Medicare bad debt reimbursement",
+            "payer": "Medicare",
+            "basis": "reported",
+            "amount": null,
+            "source": "CMS Medicare cost report, Worksheet E Part A, reimbursable bad debts; pending the HCRIS download",
+            "as_of": "pending"
+          }
+        ]
+      },
+      {
+        "name": "Tax exemptions",
+        "lines": [
+          {
+            "name": "Federal income tax exemption (21% of $931M audited excess)",
+            "payer": "U.S. taxpayers",
+            "basis": "estimated",
+            "amount": 195510000,
+            "source": "Rojas Report estimate: excess of revenues over expenses attributable to CommonSpirit Health $944M less the $13M gain on early extinguishment of debt (FY2025 audited statements) = $931M, at the 21% federal corporate rate",
+            "as_of": "2025-06-30"
+          },
+          {
+            "name": "Tax-exempt bond financing on $4.95B of bonds (interest savings)",
+            "payer": "U.S. and state taxpayers",
+            "basis": "estimated",
+            "amount": null,
+            "source": "Form 990 FY2025 Part X Line 20, tax-exempt bond liabilities at year end: CommonSpirit Health $4,121.6M, Dignity Health $732.6M, Yavapai Community Hospital Association $94.0M; interest savings pending a sourced taxable-to-tax-exempt yield spread (MSRB EMMA)",
+            "as_of": "2025-06-30"
+          },
+          {
+            "name": "Property tax exemption ($14.8B of land and buildings; range $204.1M to $218.4M)",
+            "payer": "County and school district",
+            "basis": "estimated",
+            "amount": 204077112,
+            "source": "Rojas Report estimate: land, land improvements and buildings at gross historical cost, $14,792,897,912 (CMS cost reports, latest per hospital), times each state's published rural commercial property tax rate (Lincoln Institute of Land Policy, 50-State Property Tax Comparison Study); low case $204,077,112, high case $218,425,834",
+            "as_of": "2024-12-31"
+          },
+          {
+            "name": "State income tax exemption (California rate; sales and use tax not estimated)",
+            "payer": "State taxpayers",
+            "basis": "estimated",
+            "amount": 82300400,
+            "source": "Rojas Report estimate: the same $931M base at California's 8.84% corporation franchise tax rate (Cal. Rev. & Tax. Code section 23151), the headquarters-state rate without apportionment",
+            "as_of": "2025-06-30"
+          },
+          {
+            "name": "Charitable contribution deduction",
+            "payer": "U.S. taxpayers",
+            "basis": "estimated",
+            "amount": null,
+            "source": "Form 990 Schedule B contribution totals, all filers; pending a donor tax-rate assumption",
+            "as_of": "pending"
+          }
+        ]
+      },
+      {
+        "name": "State Medicaid financing",
+        "lines": [
+          {
+            "name": "Medicaid supplemental and state-directed payments",
+            "payer": "Federal and state Medicaid",
+            "basis": "reported",
+            "amount": null,
+            "source": "CMS state-directed payment approvals and state supplemental payment (UPL) reports, 19 states; pending the download",
+            "as_of": "pending"
+          },
+          {
+            "name": "Provider tax: net gain after tax paid",
+            "payer": "Federal Medicaid match",
+            "basis": "estimated",
+            "amount": null,
+            "source": "State hospital provider tax program reports (California Hospital Quality Assurance Fee first); pending the download",
+            "as_of": "pending"
+          }
+        ]
+      },
+      {
+        "name": "The community benefit write-off",
+        "lines": [
+          {
+            "name": "Charity care, as claimed",
+            "payer": "Patients and taxpayers",
+            "basis": "reported",
+            "amount": 616247940,
+            "source": "IRS Form 990 Schedule H Part I Line 7a column (e), financial assistance at cost, net, summed over the 61 hospital filers, FY2025: $616,247,940",
+            "as_of": "2025-06-30"
+          },
+          {
+            "name": "Medicaid shortfall claimed as community benefit",
+            "payer": "Taxpayers",
+            "basis": "reported",
+            "amount": 1999128447,
+            "source": "IRS Form 990 Schedule H Part I Lines 7b and 7c column (e), unreimbursed Medicaid and other means-tested programs, net, summed over the 61 hospital filers, FY2025: $1,999,128,447",
+            "as_of": "2025-06-30"
+          },
+          {
+            "name": "Medicare shortfall touted as community benefit",
+            "payer": "Taxpayers",
+            "basis": "reported",
+            "amount": 1065404951,
+            "source": "IRS Form 990 Schedule H Part III Line 7, Medicare surplus or shortfall, summed over the 61 hospital filers, FY2025: a shortfall of $1,065,404,951",
+            "as_of": "2025-06-30"
+          },
+          {
+            "name": "Bad debt written off",
+            "payer": "Patients and payers",
+            "basis": "reported",
+            "amount": 1008450448,
+            "source": "IRS Form 990 Schedule H Part III Line 2, bad debt expense, summed over the 61 hospital filers, FY2025: $1,008,450,448",
+            "as_of": "2025-06-30"
+          },
+          {
+            "name": "Events, education, research, sponsorships and contributions",
+            "payer": "Taxpayers",
+            "basis": "reported",
+            "amount": 579981158,
+            "source": "IRS Form 990 Schedule H Part I Line 7k column (e), total community benefit $3,195,357,545, less Lines 7a to 7c ($616,247,940 and $1,999,128,447), summed over the 61 hospital filers, FY2025: $579,981,158",
+            "as_of": "2025-06-30"
+          }
+        ]
+      }
+    ],
+    "note": "“est.” marks a figure calculated by The Rojas Report; the method is on the methodology page. A dash marks a line still being built from source filings."
+  },
+  "fairShareNote": "Free care is financial assistance at cost, net, as CommonSpirit's own hospital filers report it (Schedule H Line 7a, FY2025). The system's Medicare cost reports put it higher, at $864.9M (Worksheet S-10); on that basis the ratio is {s10ratio}. The ratio only rises as the open ledger lines fill.",
+  "pay": {
+    "rows": [
+      {
+        "name": "Wright Lassiter III, CEO",
+        "value": "$14.2M",
+        "basis": "reported",
+        "source": "CommonSpirit Health Form 990 FY2025, Schedule J Part II: $14,175,319",
+        "as_of": "2025-06-30"
+      },
+      {
+        "name": "Tammara Wilcox, SVP Payer Strategy",
+        "value": "$9.2M",
+        "basis": "reported",
+        "source": "CommonSpirit Health Form 990 FY2025, Schedule J Part II: $9,242,123",
+        "as_of": "2025-06-30"
+      },
+      {
+        "name": "Terika Richardson, COO",
+        "value": "$8.3M",
+        "basis": "reported",
+        "source": "CommonSpirit Health Form 990 FY2025, Schedule J Part II: $8,345,090",
+        "as_of": "2025-06-30"
+      }
+    ],
+    "sourceLine": "Form 990, Schedule J"
+  },
+  "lobbying": {
+    "rows": [
+      {
+        "name": "Federal lobbying, four quarters",
+        "value": "$240K",
+        "basis": "reported",
+        "source": "Senate Lobbying Disclosure Act filings, client CommonSpirit Health, registrant Cassidy & Associates: $60,000 in each of Q3 2025, Q4 2025, Q1 2026 and Q2 2026 (lda.gov)",
+        "as_of": "2026-07-17"
+      },
+      {
+        "name": "State lobbying",
+        "value": null,
+        "basis": "pending",
+        "source": "State ethics filings, 19 states; pending",
+        "as_of": "pending"
+      },
+      {
+        "name": "AHA & state association dues",
+        "value": null,
+        "basis": "pending",
+        "source": "Form 990 and association disclosures; pending",
+        "as_of": "pending"
+      }
+    ],
+    "sourceLine": "Senate LDA filings · state ethics filings · Form 990"
+  },
+  "market": {
+    "rows": [
+      {
+        "name": "CON objections filed",
+        "value": null,
+        "basis": "pending",
+        "source": "State certificate-of-need dockets; pending",
+        "as_of": "pending"
+      },
+      {
+        "name": "Practices acquired, 5 yrs",
+        "value": null,
+        "basis": "pending",
+        "source": "Press and filings; pending",
+        "as_of": "pending"
+      },
+      {
+        "name": "Aircraft registered",
+        "value": null,
+        "basis": "pending",
+        "source": "FAA aircraft registry; pending",
+        "as_of": "pending"
+      }
+    ],
+    "sourceLine": "State CON dockets · press & filings · FAA registry"
+  },
+  "buy": {
+    "text": "The full dataset for CommonSpirit Health: every subsidy line by hospital and year, plus the source documents. And a board-ready brief you can hand to a lawmaker, an attorney general or your own partners.",
+    "options": [
+      {
+        "label": "This system's dataset",
+        "price": null,
+        "primary": true
+      },
+      {
+        "label": "This system's hospitals, by state",
+        "price": null
+      },
+      {
+        "label": "Every system, all-access",
+        "price": null,
+        "perYear": true
+      }
+    ]
+  },
+  "sourcesLine": "Sources: IRS Form 990 and Schedule H, CMS Medicare cost reports (HCRIS), HRSA 340B OPAIS, CMS DSH and GME data, MSRB EMMA bond disclosures, county assessor records, state Medicaid filings."
+}

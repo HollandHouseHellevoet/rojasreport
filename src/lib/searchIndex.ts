@@ -4,6 +4,7 @@ import ahaProfiles from '@/data/aha/profiles.json';
 import hacMembers from '@/data/hac/members.json';
 import fahBoard from '@/data/fah/board.json';
 import { STATE_TILES } from '@/lib/stateMap';
+import { systems } from '@/lib/systems';
 
 export interface SearchEntry {
   title: string;
@@ -19,6 +20,9 @@ export function buildSearchIndex(): SearchEntry[] {
   for (const [abbr, , , name] of STATE_TILES) {
     const slug = conStates.get(abbr);
     out.push({ title: name, kind: 'State', href: slug ? `/states/${slug}/` : '/states/' });
+  }
+  for (const sys of systems) {
+    out.push({ title: sys.name, kind: 'Health system', href: `/systems/${sys.slug}/` });
   }
   for (const s of sections) {
     out.push({ title: s.name, kind: 'Section', href: `/${s.slug}/` });
