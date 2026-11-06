@@ -1,24 +1,24 @@
 /* Scoped styles for /academic/ (ported from academic.rojasreport.com). Every rule is under .amc */
 .amc *, .amc *::before, .amc *::after { box-sizing: border-box; margin: 0; padding: 0; }
 .amc {
-  --deep-navy: #0f1c2e;
-  --navy: #141b24;
-  --card-bg: #0f1a24;
-  --orange: #d4622a;
-  --orange-hover: #e07a3a;
-  --orange-light: #e27641;
-  --cream: #f8f5ef;
-  --cream-80: rgba(248,245,239,0.80);
-  --cream-60: rgba(248,245,239,0.60);
-  --cream-40: rgba(248,245,239,0.40);
-  --cream-25: rgba(248,245,239,0.25);
-  --cream-10: rgba(248,245,239,0.10);
-  --border: rgba(248,245,239,0.07);
+  --deep-navy: #F4EFE6;
+  --navy: #ECE5D8;
+  --card-bg: #ECE5D8;
+  --orange: #8E1B1B;
+  --orange-hover: #A32020;
+  --orange-light: #8E1B1B;
+  --cream: #1C1B19;
+  --cream-80: rgba(28,27,25,0.80);
+  --cream-60: rgba(28,27,25,0.60);
+  --cream-40: rgba(28,27,25,0.40);
+  --cream-25: rgba(28,27,25,0.25);
+  --cream-10: rgba(28,27,25,0.10);
+  --border: rgba(28,27,25,0.14);
 
-  --score-critical: #c0392b;
-  --score-high: #c0392b;
-  --score-moderate: #8a6a1a;
-  --score-low: #2e6b3e;
+  --score-critical: #8E1B1B;
+  --score-high: #8E1B1B;
+  --score-moderate: #7A5A16;
+  --score-low: #1F3A2E;
 
   --space-1: 8px;
   --space-2: 16px;
@@ -32,7 +32,7 @@
 .amc {
   background: var(--deep-navy);
   color: var(--cream);
-  font-family: 'Source Sans 3', system-ui, -apple-system, sans-serif;
+  font-family: 'EB Garamond', system-ui, -apple-system, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -62,14 +62,14 @@
   text-decoration: none;
 }
 .amc .header-logo-text {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Bodoni Moda', Georgia, serif;
   font-weight: 700;
   font-size: 1.15rem;
   color: var(--cream);
   letter-spacing: 0.02em;
 }
 .amc .header-tagline {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 600;
   font-size: 8.5px;
   color: var(--orange);
@@ -87,7 +87,7 @@
   gap: 32px;
 }
 .amc .header-nav a {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 600;
   font-size: 12.5px;
   color: var(--cream-60);
@@ -133,7 +133,7 @@
   gap: 20px;
 }
 .amc .mobile-nav a {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 600;
   font-size: 14px;
   color: var(--cream-60);
@@ -163,7 +163,7 @@
   display: inline-block;
   border: 1px solid rgba(207,86,4,0.45);
   color: var(--orange);
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -172,7 +172,7 @@
   margin-bottom: 28px;
 }
 .amc .hero h1 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Bodoni Moda', Georgia, serif;
   font-weight: 700;
   font-size: 3.5rem;
   color: var(--cream);
@@ -183,7 +183,7 @@
 }
 .amc .hero h1 span { color: var(--orange); }
 .amc .hero-body {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
   color: var(--cream-60);
@@ -212,7 +212,7 @@
   padding: 12px 24px;
   border: none;
   border-radius: 2px;
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 700;
   font-size: 12.5px;
   letter-spacing: 0.1em;
@@ -227,11 +227,11 @@
   align-items: center;
   gap: 8px;
   background: transparent;
-  border: 1px solid rgba(248,245,239,0.20);
+  border: 1px solid rgba(28,27,25,0.20);
   color: var(--cream-60);
   padding: 12px 24px;
   border-radius: 2px;
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 700;
   font-size: 12.5px;
   letter-spacing: 0.1em;
@@ -241,7 +241,7 @@
   transition: border-color 150ms ease, color 150ms ease;
 }
 .amc .btn-ghost:hover {
-  border-color: rgba(248,245,239,0.5);
+  border-color: rgba(28,27,25,0.5);
   color: var(--cream);
 }
 .amc .content-section {
@@ -260,7 +260,7 @@
   margin-bottom: 20px;
 }
 .amc .section-num {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   color: var(--orange);
@@ -276,7 +276,7 @@
   color: var(--cream-40);
 }
 .amc .section-h2 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Bodoni Moda', Georgia, serif;
   font-weight: 600;
   font-size: 2.25rem;
   color: var(--cream);
@@ -301,7 +301,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
-  background: rgba(248,245,239,0.05);
+  background: rgba(28,27,25,0.05);
 }
 .amc .card {
   background: var(--card-bg);
@@ -313,7 +313,7 @@
   border-left: none;
 }
 .amc .card h3 {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Bodoni Moda', Georgia, serif;
   font-weight: 700;
   font-size: 1.25rem;
   color: var(--cream);
@@ -337,7 +337,7 @@
   top: 20px;
   right: 20px;
   color: #fff;
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-size: 11px;
   font-weight: 700;
   padding: 3px 8px;
@@ -349,7 +349,7 @@
 .amc .card-score.moderate { background: var(--score-moderate); }
 .amc .card-score.low { background: var(--score-low); }
 .amc .card-figure {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Bodoni Moda', Georgia, serif;
   font-weight: 700;
   font-size: 2.75rem;
   line-height: 1;
@@ -357,7 +357,7 @@
   margin-bottom: 4px;
 }
 .amc .card-label {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-size: 10.5px;
   font-weight: 700;
   letter-spacing: 0.20em;
@@ -387,7 +387,7 @@
   z-index: 1;
 }
 .amc .data-table th {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.2em;
@@ -439,7 +439,7 @@
   max-width: 720px;
 }
 .amc .prose p {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.75;
@@ -448,7 +448,7 @@
 }
 .amc .prose p:last-child { margin-bottom: 0; }
 .amc .closing-line {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Bodoni Moda', Georgia, serif;
   font-style: italic;
   font-weight: 400;
   font-size: 1.375rem;
@@ -458,7 +458,7 @@
   max-width: 720px;
 }
 .amc .body-close {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
   line-height: 1.75;
@@ -470,7 +470,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
-  background: rgba(248,245,239,0.05);
+  background: rgba(28,27,25,0.05);
   margin-top: 36px;
 }
 .amc .citations-list {
@@ -522,7 +522,7 @@
   margin-bottom: 56px;
 }
 .amc .footer-wordmark {
-  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-family: 'Bodoni Moda', Georgia, serif;
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--cream);
@@ -531,7 +531,7 @@
   margin-bottom: 4px;
 }
 .amc .footer-tagline-sub {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-weight: 600;
   font-size: 8.5px;
   color: var(--orange);
@@ -548,7 +548,7 @@
   max-width: 280px;
 }
 .amc .footer-col-label {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
+  font-family: 'EB Garamond', system-ui, sans-serif;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.2em;

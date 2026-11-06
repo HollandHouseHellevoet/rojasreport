@@ -12,9 +12,9 @@ export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
       <p className="text-xs text-orange uppercase tracking-widest font-body mb-4">About This Site</p>
-      <h1 className="font-display text-4xl font-semibold text-cream mb-10">About the AHA Dossiers</h1>
+      <h1 className="font-display text-4xl text-cream mb-10">About the AHA Dossiers</h1>
 
-      <div className="space-y-8 font-body leading-relaxed" style={{ fontSize: "17px", color: "#c8b89a" }}>
+      <div className="space-y-8 font-body leading-relaxed" style={{ fontSize: "17px", color: "#3A3732" }}>
 
         <p>
           The American Hospital Association is among the twenty largest lobbying operations in Washington.
@@ -65,7 +65,7 @@ export default function AboutPage() {
           and documented conduct actually looks like in dollar terms.
         </p>
 
-        <p style={{ color: "#8a9bb0" }}>
+        <p style={{ color: "#5E5A52" }}>
           The AHA dossiers are published by{" "}
           <a
             href="https://rojasreport.com"

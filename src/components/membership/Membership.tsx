@@ -10,7 +10,7 @@ export function Hero({ eyebrow, title, lede }: { eyebrow: string; title: string;
   return (
     <section className="max-w-content mx-auto px-5 pt-20 pb-14">
       <Label>{eyebrow}</Label>
-      <h1 className="font-display text-4xl sm:text-6xl font-bold text-cream leading-[1.05] max-w-3xl [text-wrap:balance]">
+      <h1 className="font-display text-4xl sm:text-6xl text-cream leading-[1.05] max-w-3xl [text-wrap:balance]">
         {title}
       </h1>
       <p className="font-body text-lg text-cream/70 max-w-2xl mt-6 leading-relaxed">{lede}</p>
@@ -20,9 +20,9 @@ export function Hero({ eyebrow, title, lede }: { eyebrow: string; title: string;
 
 export function Block({ label, title, children }: { label: string; title: string; children: ReactNode }) {
   return (
-    <section className="max-w-content mx-auto px-5 py-14 border-t border-white/10">
+    <section className="max-w-content mx-auto px-5 py-14 border-t border-ink/10">
       <Label>{label}</Label>
-      <h2 className="font-display text-3xl font-bold text-cream mb-8 [text-wrap:balance]">{title}</h2>
+      <h2 className="font-display text-3xl text-cream mb-8 [text-wrap:balance]">{title}</h2>
       {children}
     </section>
   );
@@ -30,10 +30,10 @@ export function Block({ label, title, children }: { label: string; title: string
 
 export function Grid({ items }: { items: { title: string; body: string }[] }) {
   return (
-    <div className="grid gap-px bg-white/10 sm:grid-cols-2 border border-white/10">
+    <div className="grid gap-px bg-ink/10 sm:grid-cols-2 border border-ink/10">
       {items.map((i) => (
         <div key={i.title} className="bg-dark p-6">
-          <h3 className="font-display text-xl font-semibold text-cream mb-2">{i.title}</h3>
+          <h3 className="font-display text-xl text-cream mb-2">{i.title}</h3>
           <p className="font-body text-sm text-cream/65 leading-relaxed">{i.body}</p>
         </div>
       ))}
@@ -44,13 +44,13 @@ export function Grid({ items }: { items: { title: string; body: string }[] }) {
 export function Apply({ subject, note }: { subject: string; note: string }) {
   const href = `mailto:info@rojasreport.com?subject=${encodeURIComponent(subject)}`;
   return (
-    <section className="max-w-content mx-auto px-5 py-16 border-t border-white/10">
+    <section className="max-w-content mx-auto px-5 py-16 border-t border-ink/10">
       <Label>Apply</Label>
-      <h2 className="font-display text-3xl font-bold text-cream mb-4">Membership is by application.</h2>
+      <h2 className="font-display text-3xl text-cream mb-4">Membership is by application.</h2>
       <p className="font-body text-cream/70 max-w-2xl leading-relaxed mb-8">{note}</p>
       <a
         href={href}
-        className="inline-block bg-orange text-dark font-body text-sm font-semibold px-6 py-3 hover:opacity-90 transition-opacity"
+        className="inline-block bg-oxblood text-paper font-body text-sm font-semibold px-6 py-3 hover:opacity-90 transition-opacity"
       >
         Apply for membership →
       </a>

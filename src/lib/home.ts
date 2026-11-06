@@ -7,12 +7,19 @@ export interface Desk {
   blurb?: string;
   stat?: string;
   statLabel?: string;
+  /** Optional heading the desk is listed under on its section page. */
+  group?: string;
 }
+
+export type Band = 'green' | 'oxblood';
 
 export interface Section {
   slug: string;
   name: string;
   question: string;
+  /** Color rule from the brief: green = where the money sits, oxblood = who holds power. */
+  band: Band;
+  intro?: string;
   desks: Desk[];
 }
 
@@ -30,7 +37,7 @@ export interface Post {
   date?: string;
 }
 
-/** Latest posts from the Substack feed, fetched at build time. Returns [] if the feed can't be reached. */
+/** Latest posts from the newsletter feed, fetched at build time. Returns [] if the feed can't be reached. */
 export async function getLatestPosts(limit = 4): Promise<Post[]> {
   try {
     const controller = new AbortController();

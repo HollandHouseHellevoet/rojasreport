@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import type { Desk } from '@/lib/home';
+import type { Band, Desk } from '@/lib/home';
+import StatusLabel from '@/components/StatusLabel';
 
 function DeskLink({ desk, children, className }: { desk: Desk; children: React.ReactNode; className: string }) {
   if (!desk.href) return <div className={className}>{children}</div>;
@@ -17,43 +18,57 @@ function DeskLink({ desk, children, className }: { desk: Desk; children: React.R
   );
 }
 
-export default function DeskList({ desks, compact = false }: { desks: Desk[]; compact?: boolean }) {
-  const live = desks.filter((d) => d.status === 'live');
-  const planned = desks.filter((d) => d.status === 'planned');
+const bandText: Record<Band, string> = { green: 'text-green', oxblood: 'text-oxblood' };
+
+function Row({ d, band }: { d: Desk; band: Band }) {
+  const live = d.status === 'live';
   return (
-    <div>
-      <div className={compact ? 'space-y-3' : 'grid gap-4 sm:grid-cols-2'}>
-        {live.map((d) => (
-          <DeskLink
-            key={d.name}
-            desk={d}
-            className="group block border border-white/10 bg-navy-light/60 hover:border-orange/60 transition-colors p-4"
-          >
-            <div className="flex items-start justify-between gap-3">
-              <div className="min-w-0">
-                <p className="font-display text-lg font-semibold text-cream group-hover:text-orange transition-colors leading-snug">
-                  {d.name}
-                </p>
-                {d.blurb && <p className="font-body text-sm text-cream/60 mt-1 leading-snug">{d.blurb}</p>}
-              </div>
-              {d.stat && (
-                <div className="text-right shrink-0">
-                  <p className="font-display text-2xl font-bold text-orange leading-none">{d.stat}</p>
-                  {d.statLabel && (
-                    <p className="font-body text-[10px] uppercase tracking-wider text-cream/40 mt-1 max-w-[9rem]">{d.statLabel}</p>
-                  )}
-                </div>
-              )}
-            </div>
-          </DeskLink>
-        ))}
-      </div>
-      {planned.length > 0 && (
-        <p className="font-body text-xs text-cream/40 mt-3 leading-relaxed">
-          <span className="uppercase tracking-wider font-semibold text-cream/50">Coming: </span>
-          {planned.map((d) => d.name).join(' · ')}
+    <DeskLink
+      desk={d}
+      className={`group flex flex-wrap items-baseline justify-between gap-x-8 gap-y-2 py-5 border-b border-hairline ${live ? '' : 'cursor-default'}`}
+    >
+      <div className="min-w-0 flex-[1_1_420px]">
+        <p className={`font-display text-[24px] md:text-[26px] leading-tight ${live ? 'text-ink group-hover:text-oxblood' : 'text-muted'}`}>
+          {d.name}
+          {live && <span aria-hidden="true"> →</span>}
         </p>
+        {d.blurb && <p className={`mt-1 text-[18px] leading-[1.45] ${live ? 'text-body' : 'text-muted'}`}>{d.blurb}</p>}
+        {!live && (
+          <p className="mt-2">
+            <StatusLabel status="pending" note="In preparation" />
+          </p>
+        )}
+      </div>
+      {live && d.stat && (
+        <div className="text-right shrink-0">
+          <p className={`font-display text-[36px] leading-none ${bandText[band]}`}>{d.stat}</p>
+          {d.statLabel && <p className="italic text-[15px] text-muted mt-1 max-w-[14rem]">{d.statLabel}</p>}
+        </div>
       )}
+    </DeskLink>
+  );
+}
+
+/** Desks in a section, as ledger-style rows. Groups render as italic serif headings in the band color. */
+export default function DeskList({ desks, band = 'green' }: { desks: Desk[]; band?: Band }) {
+  const groups: { name?: string; items: Desk[] }[] = [];
+  for (const d of desks) {
+    const last = groups[groups.length - 1];
+    if (last && last.name === d.group) last.items.push(d);
+    else groups.push({ name: d.group, items: [d] });
+  }
+  return (
+    <div className="border-t border-ink">
+      {groups.map((g, i) => (
+        <div key={g.name ?? i}>
+          {g.name && (
+            <h2 className={`font-body italic text-[20px] pt-6 pb-1 ${bandText[band]}`}>{g.name}</h2>
+          )}
+          {g.items.map((d) => (
+            <Row key={d.name} d={d} band={band} />
+          ))}
+        </div>
+      ))}
     </div>
   );
 }

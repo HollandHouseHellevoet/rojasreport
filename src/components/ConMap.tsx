@@ -15,8 +15,9 @@ interface ConMapProps {
   states: MapState[];
 }
 
-const ORANGE = '#d4622a';
-const CREAM = '#f7f4ef';
+const ORANGE = '#8E1B1B';
+const GREEN = '#1F3A2E';
+const CREAM = '#1C1B19';
 
 function scoreFill(score: number, tier: string): { fill: string; opacity: number; stroke: string } {
   if (score === 0) {
@@ -25,7 +26,7 @@ function scoreFill(score: number, tier: string): { fill: string; opacity: number
   }
   if (score <= 10) {
     // Reformed / Mostly Free: cream at 40% opacity
-    return { fill: CREAM, opacity: 0.35, stroke: CREAM + '33' };
+    return { fill: GREEN, opacity: 0.35, stroke: GREEN + '66' };
   }
   // Active CON: orange at opacity scaled by score (15->20%, 100->100%)
   const opacity = 0.15 + (score / 100) * 0.85;
@@ -67,10 +68,10 @@ export default function ConMap({ states }: ConMapProps) {
           const s = stateMap.get(abbr);
           const { fill, opacity, stroke } = s
             ? scoreFill(s.score, s.tier)
-            : { fill: '#374151', opacity: 0.3, stroke: 'transparent' };
+            : { fill: '#DDD4C4', opacity: 0.3, stroke: 'transparent' };
           const x = col * step + 10;
           const y = row * step + 10;
-          const textFill = fill === 'transparent' || opacity < 0.4 ? CREAM + 'aa' : '#ffffff';
+          const textFill = fill === 'transparent' || opacity < 0.4 ? CREAM + 'aa' : '#F4EFE6';
 
           const rect = (
             <g key={abbr} role="listitem" aria-label={s ? `${s.state}: ${s.tier}, score ${s.score}` : abbr}>

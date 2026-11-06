@@ -61,7 +61,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
 
   return (
     <section
-      className="bg-navy-dark border-2 border-white/10 baseball-card relative"
+      className="bg-navy-dark border-2 border-ink/10 baseball-card relative"
       aria-label={`${state.state} intelligence summary card`}
     >
       <div className="max-w-content mx-auto px-6 py-8">
@@ -69,7 +69,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
         <div className="flex items-start justify-between gap-4 flex-wrap">
           <div>
             <IntelligencePill>Certificate of Need Intelligence</IntelligencePill>
-            <h2 className="mt-3 font-display font-bold text-cream leading-none">
+            <h2 className="mt-3 font-display text-cream leading-none">
               {state.state}
             </h2>
           </div>
@@ -84,21 +84,21 @@ export default function BaseballCard({ state }: BaseballCardProps) {
         </div>
 
         {/* Divider */}
-        <div className="mt-6 border-t border-white/10" />
+        <div className="mt-6 border-t border-ink/10" />
 
         {/* Top-line facts */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
           <div>
             <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Year Enacted</p>
-            <p className="mt-1 font-display text-xl text-cream font-bold">{yearEnacted}</p>
+            <p className="mt-1 font-display text-xl text-cream">{yearEnacted}</p>
           </div>
           <div>
             <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Services Regulated</p>
-            <p className="mt-1 font-display text-xl text-cream font-bold">{servicesCount}</p>
+            <p className="mt-1 font-display text-xl text-cream">{servicesCount}</p>
           </div>
           <div>
             <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">National Rank</p>
-            <p className="mt-1 font-display text-xl text-cream font-bold">{state.rank} of 51</p>
+            <p className="mt-1 font-display text-xl text-cream">{state.rank} of 51</p>
           </div>
         </div>
 
@@ -158,19 +158,19 @@ export default function BaseballCard({ state }: BaseballCardProps) {
           </a>
           <button
             onClick={copyShareLink}
-            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-ink/20 hover:text-cream hover:border-ink/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Share
           </button>
           <Link
             href={`/compare/?states=${state.abbreviation}`}
-            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-ink/20 hover:text-cream hover:border-ink/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Compare
           </Link>
           <button
             onClick={() => window.print()}
-            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-ink/20 hover:text-cream hover:border-ink/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Print
           </button>

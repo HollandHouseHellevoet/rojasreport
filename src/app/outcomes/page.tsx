@@ -23,7 +23,7 @@ export default function OutcomesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-navy-dark border-b border-white/10">
+      <section className="bg-navy-dark border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 pt-16 pb-12">
           <SectionHeader
             as="h1"
@@ -38,7 +38,7 @@ export default function OutcomesPage() {
       {outcomes.map((outcome, i) => (
         <section
           key={outcome.abbreviation}
-          className={`border-b border-white/10 ${i % 2 === 0 ? '' : 'bg-navy-dark'}`}
+          className={`border-b border-ink/10 ${i % 2 === 0 ? '' : 'bg-navy-dark'}`}
         >
           <div className="max-w-content mx-auto px-5 py-10">
             {/* Header */}
@@ -52,7 +52,7 @@ export default function OutcomesPage() {
                     {outcome.reform_year}
                   </span>
                 </div>
-                <h2 className="font-display text-3xl font-bold text-cream">
+                <h2 className="font-display text-3xl text-cream">
                   <Link href={`/states/${outcome.slug}/`} className="hover:text-orange transition-colors">
                     {outcome.state}
                   </Link>
@@ -61,7 +61,7 @@ export default function OutcomesPage() {
                   {outcome.description}
                 </p>
               </div>
-              <div className="flex-shrink-0 border border-white/10 p-4 text-center min-w-[140px]">
+              <div className="flex-shrink-0 border border-ink/10 p-4 text-center min-w-[140px]">
                 <div className="font-body text-xs text-cream/40 mb-1">Bill</div>
                 <div className="font-body text-sm font-semibold text-cream">{outcome.bill}</div>
                 <div className="font-body text-xs text-cream/40 mt-1">{outcome.governor_at_reform}</div>
@@ -72,7 +72,7 @@ export default function OutcomesPage() {
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
-                  <tr className="border-b border-white/20">
+                  <tr className="border-b border-ink/20">
                     <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">
                       Metric
                     </th>
@@ -89,7 +89,7 @@ export default function OutcomesPage() {
                 </thead>
                 <tbody>
                   {outcome.metrics.map((m, j) => (
-                    <tr key={j} className="border-b border-white/5">
+                    <tr key={j} className="border-b border-ink/5">
                       <td className="py-3 px-3 font-body text-sm text-cream/70 font-semibold">
                         {m.label}
                       </td>
@@ -126,7 +126,7 @@ export default function OutcomesPage() {
       {/* Bottom CTA */}
       <section className="bg-navy-dark">
         <div className="max-w-content mx-auto px-5 py-10 text-center">
-          <h2 className="font-display text-2xl font-bold text-cream">
+          <h2 className="font-display text-2xl text-cream">
             The data is clear.
           </h2>
           <p className="mt-3 font-body text-sm text-cream/50 max-w-2xl mx-auto leading-relaxed">
@@ -138,7 +138,7 @@ export default function OutcomesPage() {
             <Link href="/reform/" className="font-body text-sm font-semibold text-orange hover:text-orange-light border border-orange/30 px-6 py-3 hover:border-orange/60 transition-colors">
               View Reform Tracker
             </Link>
-            <Link href="/evidence/" className="font-body text-sm font-semibold text-cream/60 hover:text-cream border border-white/10 px-6 py-3 hover:border-white/30 transition-colors">
+            <Link href="/evidence/" className="font-body text-sm font-semibold text-cream/60 hover:text-cream border border-ink/10 px-6 py-3 hover:border-ink/30 transition-colors">
               View Research Evidence
             </Link>
           </div>

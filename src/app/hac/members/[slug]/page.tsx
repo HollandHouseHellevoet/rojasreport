@@ -29,7 +29,7 @@ function Section({ label, title, children }: { label: string; title?: string; ch
   return (
     <section className="mb-12">
       <Label className="mb-3">{label}</Label>
-      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream font-semibold mb-6">{title}</h2>}
+      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream mb-6">{title}</h2>}
       {children}
     </section>
   );
@@ -62,7 +62,7 @@ export default function MemberPage({ params }: { params: { slug: string } }) {
         <HacBreadcrumb current={m.name} />
 
         <header className="mb-12">
-          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] font-bold text-cream">{m.name}</h1>
+          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream">{m.name}</h1>
           <p className="font-display italic text-orange text-lg sm:text-xl mt-2">{m.nickname}</p>
           <p className="font-body text-cream/80 mt-4">{m.title}, {m.org}</p>
           <div className="flex flex-wrap items-center gap-3 mt-4">
@@ -139,7 +139,7 @@ export default function MemberPage({ params }: { params: { slug: string } }) {
           </ol>
         </Section>
 
-        <nav className="flex justify-between items-center pt-8 border-t border-white/10" aria-label="Member navigation">
+        <nav className="flex justify-between items-center pt-8 border-t border-ink/10" aria-label="Member navigation">
           {prev ? <Link href={`/hac/members/${prev.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors">&larr; {prev.name}</Link> : <div />}
           {next ? <Link href={`/hac/members/${next.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors text-right">{next.name} &rarr;</Link> : <div />}
         </nav>

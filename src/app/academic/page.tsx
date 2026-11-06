@@ -396,7 +396,7 @@ function BondTableSection() {
                   <td className="institution">{inst.name}</td>
                   <td>{inst.moodys}</td>
                   <td>{inst.sp}</td>
-                  <td style={inst.outlook === 'Negative' ? { color: '#c0392b', fontWeight: 600 } : undefined}>
+                  <td style={inst.outlook === 'Negative' ? { color: '#8E1B1B', fontWeight: 600 } : undefined}>
                     {inst.outlook}
                   </td>
                   <td className="mono">

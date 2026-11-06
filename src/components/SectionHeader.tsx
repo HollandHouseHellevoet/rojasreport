@@ -12,7 +12,7 @@ export default function SectionHeader({ number, label, title, subtitle, as = 'h2
     <div className="mb-6">
       <div className="flex items-baseline gap-4 mb-2 flex-wrap">
         {number && (
-          <span className="font-display text-4xl sm:text-5xl font-bold text-orange leading-none">
+          <span className="font-display text-4xl sm:text-5xl text-orange leading-none">
             {number}
           </span>
         )}

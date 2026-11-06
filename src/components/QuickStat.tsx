@@ -6,7 +6,7 @@ interface QuickStatProps {
 
 export default function QuickStat({ value, label, context }: QuickStatProps) {
   return (
-    <div className="border border-white/10 p-4">
+    <div className="border border-ink/10 p-4">
       <div className="font-display text-stat text-orange">
         {value}
       </div>

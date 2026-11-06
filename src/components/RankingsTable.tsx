@@ -76,13 +76,13 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
           value={search}
           onChange={e => setSearch(e.target.value)}
           placeholder="Search state..."
-          className="bg-navy-dark border border-white/20 text-cream px-4 py-2 font-body text-sm focus:border-orange focus:outline-none w-full sm:w-auto sm:min-w-[200px]"
+          className="bg-navy-dark border border-ink/20 text-cream px-4 py-2 font-body text-sm focus:border-orange focus:outline-none w-full sm:w-auto sm:min-w-[200px]"
           aria-label="Search states"
         />
         <select
           value={tierFilter}
           onChange={e => setTierFilter(e.target.value)}
-          className="bg-navy-dark border border-white/20 text-cream px-3 py-2 font-body text-sm focus:border-orange focus:outline-none"
+          className="bg-navy-dark border border-ink/20 text-cream px-3 py-2 font-body text-sm focus:border-orange focus:outline-none"
           aria-label="Filter by tier"
         >
           {TIER_FILTERS.map(t => <option key={t} value={t}>{t}</option>)}
@@ -96,7 +96,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
       <div className="overflow-x-auto">
         <table className="w-full text-left">
           <thead className="sticky top-0 bg-navy z-10">
-            <tr className="border-b border-white/20">
+            <tr className="border-b border-ink/20">
               {[
                 { key: 'rank' as SortKey, label: 'Rank', align: '' },
                 { key: 'state' as SortKey, label: 'State', align: '' },
@@ -119,7 +119,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
             {filtered.map((r, i) => (
               <tr
                 key={r.state}
-                className={`border-b border-white/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
+                className={`border-b border-ink/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
               >
                 <td className="py-3 px-4 font-body text-cream/50">
                   {r.rank}
@@ -134,7 +134,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
                   )}
                 </td>
                 <td className="py-3 px-4 text-right">
-                  <span className={`inline-block px-2.5 py-1 text-sm font-bold text-white ${tierBadgeBg(r.tier)}`}>
+                  <span className={`inline-block px-2.5 py-1 text-sm font-bold text-paper ${tierBadgeBg(r.tier)}`}>
                     {r.score}
                   </span>
                 </td>

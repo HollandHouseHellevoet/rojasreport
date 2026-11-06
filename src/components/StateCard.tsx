@@ -15,19 +15,19 @@ export default function StateCard({ state, abbreviation, slug, score, tier, conS
   const badgeOpacity = score === 0 ? 0.15 : 0.2 + (score / 100) * 0.8;
 
   const card = (
-    <div className="border border-white/10 p-4 hover:border-orange/40 transition-colors h-full flex flex-col">
+    <div className="border border-ink/10 p-4 hover:border-orange/40 transition-colors h-full flex flex-col">
       <div className="flex items-center justify-between mb-2">
         <span className="font-body text-xs font-semibold tracking-widest text-cream/40">
           {abbreviation}
         </span>
         <span
-          className="text-white text-xs font-bold px-2 py-0.5"
+          className="text-paper text-xs font-bold px-2 py-0.5"
           style={{ backgroundColor: `rgba(212, 98, 42, ${badgeOpacity})` }}
         >
           {score}
         </span>
       </div>
-      <h3 className="font-display text-xl font-bold text-cream leading-tight">
+      <h3 className="font-display text-xl text-cream leading-tight">
         {state}
       </h3>
       <p className="mt-1 font-body text-xs text-cream/35">

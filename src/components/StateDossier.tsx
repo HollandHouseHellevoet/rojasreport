@@ -112,7 +112,7 @@ export default function StateDossier({ state }: StateDossierProps) {
   return (
     <>
       {/* Breadcrumb */}
-      <div className="bg-navy border-b border-white/10">
+      <div className="bg-navy border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-3">
           <nav className="font-body text-xs text-cream/40" aria-label="Breadcrumb">
             <Link href="/" className="text-orange hover:text-orange-light">Home</Link>
@@ -139,7 +139,7 @@ export default function StateDossier({ state }: StateDossierProps) {
 
       {/* Section 01: Scope */}
       {(state.parsed_scope?.length || state.scope_data?.length) ? (
-        <section className="border-b border-white/10">
+        <section className="border-b border-ink/10">
           <div className="max-w-content mx-auto px-5 py-10">
             <SectionHeader
               number="01"
@@ -153,7 +153,7 @@ export default function StateDossier({ state }: StateDossierProps) {
 
       {/* Section 02: Process */}
       {processNarrative.length > 0 && (
-        <section className="bg-navy-dark border-b border-white/10">
+        <section className="bg-navy-dark border-b border-ink/10">
           <div className="max-w-content mx-auto px-5 py-10">
             <SectionHeader
               number="02"
@@ -167,7 +167,7 @@ export default function StateDossier({ state }: StateDossierProps) {
 
       {/* Section 03: Market */}
       {(state.key_systems?.length || state.market_bars?.length || insurerItems.length > 0 || marketNarrative.length > 0) && (
-        <section className="border-b border-white/10">
+        <section className="border-b border-ink/10">
           <div className="max-w-content mx-auto px-5 py-10">
             <SectionHeader
               number="03"
@@ -193,7 +193,7 @@ export default function StateDossier({ state }: StateDossierProps) {
 
       {/* Section 04: Case Law */}
       {caseItems.length > 0 && (
-        <section className="bg-navy-dark border-b border-white/10">
+        <section className="bg-navy-dark border-b border-ink/10">
           <div className="max-w-content mx-auto px-5 py-10">
             <SectionHeader
               number="04"
@@ -207,7 +207,7 @@ export default function StateDossier({ state }: StateDossierProps) {
 
       {/* Section 05: Reform */}
       {reformItems.length > 0 && (
-        <section className="border-b border-white/10">
+        <section className="border-b border-ink/10">
           <div className="max-w-content mx-auto px-5 py-10">
             <SectionHeader
               number="05"
@@ -220,7 +220,7 @@ export default function StateDossier({ state }: StateDossierProps) {
       )}
 
       {/* Download Brief */}
-      <section className="border-b border-white/10">
+      <section className="border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-6 text-center">
           <a
             href={`/briefs/${state.slug}.txt`}
@@ -234,20 +234,20 @@ export default function StateDossier({ state }: StateDossierProps) {
       </section>
 
       {/* Cross-links */}
-      <section className="bg-navy-dark border-b border-white/10">
+      <section className="bg-navy-dark border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-10">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Link href={`/compare/?states=${state.abbreviation}`} className="block border border-white/10 p-4 hover:border-orange/40 transition-colors">
+            <Link href={`/compare/?states=${state.abbreviation}`} className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
               <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream/40">Compare</span>
-              <h3 className="mt-1 font-display text-lg font-bold text-cream">Compare {state.state}</h3>
+              <h3 className="mt-1 font-display text-lg text-cream">Compare {state.state}</h3>
             </Link>
-            <Link href="/scope/" className="block border border-white/10 p-4 hover:border-orange/40 transition-colors">
+            <Link href="/scope/" className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
               <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream/40">Scope Matrix</span>
-              <h3 className="mt-1 font-display text-lg font-bold text-cream">What Requires CON?</h3>
+              <h3 className="mt-1 font-display text-lg text-cream">What Requires CON?</h3>
             </Link>
-            <Link href="/reform/" className="block border border-white/10 p-4 hover:border-orange/40 transition-colors">
+            <Link href="/reform/" className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
               <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream/40">Reform Tracker</span>
-              <h3 className="mt-1 font-display text-lg font-bold text-cream">Reform Momentum</h3>
+              <h3 className="mt-1 font-display text-lg text-cream">Reform Momentum</h3>
             </Link>
           </div>
         </div>

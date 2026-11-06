@@ -10,13 +10,13 @@ export default function Breadcrumb({ profileName }: BreadcrumbProps) {
       <Link href="/" className="hover:text-cream transition-colors">
         Home
       </Link>
-      <span className="text-border">/</span>
+      <span className="text-muted">/</span>
       <Link href="/aha/" className="hover:text-cream transition-colors">
         AHA
       </Link>
       {profileName && (
         <>
-          <span className="text-border">/</span>
+          <span className="text-muted">/</span>
           <span className="text-cream">{profileName}</span>
         </>
       )}
