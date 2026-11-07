@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PrintHeader from '@/components/PrintHeader';
 import { siteJsonLd } from '@/lib/seo';
 import './globals.css';
 
@@ -44,6 +45,7 @@ export default function RootLayout({
         </a>
         <Header />
         <main id="main" className="flex-1">
+          <PrintHeader />
           {children}
         </main>
         <Footer />

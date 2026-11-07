@@ -30,6 +30,7 @@ export default function Footer() {
             <span className={head}>The Report</span>
             <a href={NEWSLETTER_URL} className={link}>Newsletter</a>
             <a href={YOUTUBE_URL} target="_blank" rel="noopener noreferrer" className={link}>YouTube</a>
+            <Link href="/search/" className={link}>Search</Link>
             <Link href="/reports/" className={link}>Reports &amp; Data</Link>
             <Link href="/support/" className={link}>Support</Link>
             <a href={ABOUT_URL} className={link}>About</a>

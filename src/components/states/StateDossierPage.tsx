@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PrintButton from '@/components/PrintButton';
 import { stateGrade, money, margin, word, type StateDossierRecord, type Letter, type Tone } from '@/lib/stateDossiers';
 
 /** State dossier, built to docs/mockups/state-dossier.dc.html. Every figure comes from the state's data file. */
@@ -43,10 +44,8 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
             <h1 className="font-display font-normal text-[52px] md:text-[72px] lg:text-[80px] leading-[1]">{d.name}</h1>
             <p className="mt-[22px] max-w-[720px] italic text-[23px] leading-[1.45] text-body">{d.verdict}</p>
             <div className="mt-7 flex flex-wrap gap-2.5">
-              <Link href="/reports/" className={`${button} border border-ink hover:text-oxblood hover:border-oxblood`}>
-                Download the dossier (PDF)
-              </Link>
-              <a href="#buy" className={`${button} bg-green text-paper hover:bg-ink`}>
+              <PrintButton label="Download the dossier (PDF)" className={`${button} border border-ink hover:text-oxblood hover:border-oxblood`} />
+              <a href="#buy" className={`${button} no-print bg-green text-paper hover:bg-ink`}>
                 Get the state dataset
               </a>
             </div>
@@ -114,7 +113,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
       </section>
 
       {/* The systems that run it */}
-      <section className="bg-paper-2 border-y border-hairline">
+      <section id="systems" className="bg-paper-2 border-y border-hairline">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-[72px]">
           <Heading title="The systems that run it" aside={d.systems.subtitle} rule={false} size={40} />
           <div className="table-scroll">

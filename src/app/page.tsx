@@ -6,6 +6,7 @@ import driversData from '@/data/home/drivers.json';
 import mostRead from '@/data/home/mostread.json';
 import { getAllStates } from '@/lib/data';
 import { buildSearchIndex } from '@/lib/searchIndex';
+import Tiers from '@/components/support/Tiers';
 import { NEWSLETTER_URL, ABOUT_URL } from '@/lib/nav';
 import Search from '@/components/home/Search';
 import StateTileMap from '@/components/home/StateTileMap';
@@ -231,29 +232,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="flex-[1_1_460px] min-w-0">
-            <div className="grid gap-3" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))' }}>
-              {[
-                { name: 'Reader', amount: '$10', unit: 'per month', primary: false },
-                { name: 'Patron', amount: '$25', unit: 'per month', primary: true },
-                { name: 'Founder', amount: '$100', unit: 'per month', primary: false },
-                { name: 'One time', amount: 'Any', unit: 'amount', primary: false },
-              ].map((t) => (
-                <Link
-                  key={t.name}
-                  href="/support/"
-                  className={`border px-[18px] py-[22px] flex flex-col gap-1.5 ${
-                    t.primary ? 'border-paper bg-paper text-green' : 'border-green-text text-paper hover:bg-green-rule'
-                  }`}
-                >
-                  <span className={`font-meta text-[11px] uppercase tracking-[0.14em] ${t.primary ? '' : 'text-green-text'}`}>{t.name}</span>
-                  <span className="font-display text-[32px] leading-none">{t.amount}</span>
-                  <span className={`font-meta text-[12px] ${t.primary ? '' : 'text-green-text'}`}>{t.unit}</span>
-                </Link>
-              ))}
-            </div>
-            <p className="mt-5 font-meta text-[12px] leading-[1.6] text-green-text">
-              Secure checkout by Stripe. Cancel anytime. The Rojas Report is published by Rojas Media; support is not a charitable donation and is not tax-deductible.
-            </p>
+            <Tiers />
           </div>
         </div>
       </section>

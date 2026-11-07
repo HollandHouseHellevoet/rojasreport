@@ -3,6 +3,7 @@
 import { useId, useMemo, useState } from 'react';
 import Link from 'next/link';
 import type { SearchEntry } from '@/lib/searchIndex';
+import { search } from '@/lib/search';
 
 const TRY = [
   { label: 'North Carolina', href: '/states/north-carolina/' },
@@ -23,11 +24,7 @@ function Smart({ href, className, children }: { href: string; className?: string
 export default function Search({ index }: { index: SearchEntry[] }) {
   const [q, setQ] = useState('');
   const id = useId();
-  const results = useMemo(() => {
-    const t = q.trim().toLowerCase();
-    if (t.length < 2) return [];
-    return index.filter((e) => e.title.toLowerCase().includes(t) || e.kind.toLowerCase().includes(t)).slice(0, 8);
-  }, [q, index]);
+  const results = useMemo(() => search(index, q, 8), [q, index]);
 
   return (
     <section className="max-w-[880px] mx-auto px-5 md:px-8 pt-16 pb-[72px] text-center">
@@ -36,15 +33,17 @@ export default function Search({ index }: { index: SearchEntry[] }) {
       </label>
       <form
         role="search"
+        action="/search/"
+        method="get"
         onSubmit={(e) => {
-          e.preventDefault();
-          if (results[0]) window.location.href = results[0].href;
+          if (q.trim().length < 2) e.preventDefault();
         }}
         className="relative"
       >
         <div className="flex items-center gap-4 border-b-2 border-ink pb-3">
           <input
             id={id}
+            name="q"
             type="search"
             value={q}
             onChange={(e) => setQ(e.target.value)}

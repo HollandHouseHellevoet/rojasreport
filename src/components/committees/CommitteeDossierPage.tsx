@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PrintButton from '@/components/PrintButton';
 import { compact, type CommitteeRecord } from '@/lib/committees';
 import type { Tone } from '@/lib/stateDossiers';
 
@@ -58,10 +59,8 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
         <h1 className="font-display font-normal text-[52px] md:text-[68px] lg:text-[76px] leading-[1] text-oxblood">{c.name}</h1>
         <p className="mt-[22px] max-w-[780px] italic text-[23px] leading-[1.45] text-body" title={c.verdictSource}>{c.verdict}</p>
         <div className="mt-7 flex flex-wrap gap-2.5">
-          <Link href="/reports/" className={`${button} border border-ink hover:text-oxblood hover:border-oxblood`}>
-            Download the committee brief (PDF)
-          </Link>
-          <a href="#buy" className={`${button} bg-green text-paper hover:bg-ink`}>
+          <PrintButton label="Download the committee brief (PDF)" className={`${button} border border-ink hover:text-oxblood hover:border-oxblood`} />
+          <a href="#buy" className={`${button} no-print bg-green text-paper hover:bg-ink`}>
             Get the member dataset
           </a>
         </div>
@@ -157,7 +156,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
       </section>
 
       {/* Scorecard */}
-      <section className="bg-paper-2 border-y border-hairline">
+      <section id="scorecard" className="bg-paper-2 border-y border-hairline">
         <div className="max-w-content mx-auto px-5 md:px-8 py-[72px]" title={c.scorecard.source}>
           <Heading title={c.scorecard.heading} aside={c.scorecard.subtitle} rule={false} size={40} />
           <p className="mb-5 max-w-[760px] text-[18px] leading-[1.5] text-body">{c.scorecard.intro}</p>

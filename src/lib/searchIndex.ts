@@ -19,7 +19,9 @@ export function buildSearchIndex(): SearchEntry[] {
   const out: SearchEntry[] = [];
   const conStates = new Map(getAllStates().map((s) => [s.abbreviation, s.slug]));
 
+  const dossierCodes = new Set(stateDossiers.map((d) => d.code));
   for (const [abbr, , , name] of STATE_TILES) {
+    if (dossierCodes.has(abbr)) continue;
     const slug = conStates.get(abbr);
     out.push({ title: name, kind: 'State', href: slug ? `/states/${slug}/` : '/states/' });
   }
@@ -29,7 +31,12 @@ export function buildSearchIndex(): SearchEntry[] {
   }
   for (const c of committees) {
     out.push({ title: `${c.name} committee`, kind: 'Committee dossier', href: `/committees/${c.slug}/` });
+    for (const m of c.scorecard.members) {
+      out.push({ title: m.name, kind: `${m.party} · ${c.name}`, href: `/committees/${c.slug}/#scorecard` });
+    }
   }
+  out.push({ title: 'Reports and data', kind: 'Datasets', href: '/reports/' });
+  out.push({ title: 'Support the Report', kind: 'Support', href: '/support/' });
   out.push({ title: 'Methodology', kind: 'Methodology', href: '/methodology/' });
   out.push({ title: 'The Subsidy Ledger', kind: 'Methodology', href: '/methodology/subsidy-ledger/' });
   out.push({ title: 'The State Grade', kind: 'Methodology', href: '/methodology/state-grade/' });

@@ -52,20 +52,37 @@
   -webkit-overflow-scrolling: touch;
 }
 
-/* Print stylesheet */
+/* Print stylesheet: "Download (PDF)" buttons call window.print(); the browser saves the page as a PDF. */
 @media print {
-  body {
+  @page { margin: 16mm 14mm; }
+  html, body {
     background: #ffffff !important;
     color: #111 !important;
-    font-size: 11pt;
+    font-size: 10.5pt;
+    line-height: 1.45;
   }
-  header, nav, footer, button, .no-print { display: none !important; }
-  a { color: #111 !important; text-decoration: none !important; }
+  body > header, body > footer, nav, button, .no-print { display: none !important; }
+  main { display: block; }
+  a { color: #111 !important; text-decoration: none !important; border-bottom: 0 !important; }
   a::after { content: ''; }
-  section { page-break-inside: avoid; padding: 1rem 0 !important; }
-  h1, h2, h3 { color: #111 !important; page-break-after: avoid; }
-  table { page-break-inside: auto; }
+  h1 { font-size: 26pt !important; line-height: 1.05 !important; }
+  h2 { font-size: 17pt !important; line-height: 1.1 !important; }
+  h3 { font-size: 13pt !important; line-height: 1.2 !important; }
+  h1, h2, h3 { color: #111 !important; break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  /* Colored bands print on white with ink text */
+  .bg-green, .bg-oxblood, .bg-ink, .bg-paper, .bg-paper-2,
+  .bg-navy, .bg-navy-light, .bg-navy-dark, .bg-navy-row, .bg-card, .bg-card-alt, .bg-dark, .bg-darkest, .bg-redflag-bg { background: #ffffff !important; }
+  .text-paper, .text-green-text, .text-green-text-2, .text-oxblood-text, .text-ink-text, .text-ink-text-2, .text-ink-label,
+  .text-muted, .text-body, .text-oxblood, .text-green, .text-gold, .text-cream, .text-orange, .text-red-brown, .text-redflag { color: #111 !important; }
+  .border-green-rule, .border-oxblood-rule, .border-green-text, .border-hairline, .border-ink, .border-paper { border-color: #999 !important; }
+  .bg-green.text-paper, .bg-oxblood.text-paper { border-top: 1px solid #111; border-bottom: 1px solid #111; }
+  /* Tables fit the sheet */
+  .table-scroll { overflow: visible !important; }
+  table { font-size: 8.5pt !important; min-width: 0 !important; width: 100% !important; page-break-inside: auto; }
   tr { page-break-inside: avoid; page-break-after: auto; }
   thead { display: table-header-group; }
+  /* Generous screen spacing tightens on paper */
+  section > div { padding-top: 10mm !important; padding-bottom: 6mm !important; }
   .baseball-card { page-break-inside: avoid; page-break-after: always; }
 }

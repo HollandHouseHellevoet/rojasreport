@@ -109,6 +109,12 @@ export default function Header() {
           <NavLinks pathname={pathname} size="compact" />
         </nav>
         <div className="order-2 lg:order-3 flex items-center gap-5">
+          <Link href="/search/" aria-label="Search" className="text-ink hover:text-oxblood p-1">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" />
+              <path d="M20 20l-4-4" />
+            </svg>
+          </Link>
           <Link href="/reports/" className={`${label} text-[12px] text-muted hover:text-oxblood hidden sm:inline`}>
             Reports &amp; Data
           </Link>

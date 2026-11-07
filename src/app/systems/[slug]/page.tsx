@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { systems, getSystem, fairShare, millions, short, filledSentence, type Row } from '@/lib/systems';
+import PrintButton from '@/components/PrintButton';
 
 /** Health system profile, built to docs/mockups/system-profile.dc.html. Every figure comes from the system's data file. */
 
@@ -76,10 +77,8 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
             <p className="mt-5 max-w-[720px] italic text-[22px] leading-[1.45] text-body">{p.verdict}</p>
           </div>
           <div className="flex-[1_1_260px] flex flex-col gap-2.5">
-            <Link href="/reports/" className={`${button} border border-ink hover:text-oxblood hover:border-oxblood`}>
-              Download the profile (PDF)
-            </Link>
-            <a href="#buy" className={`${button} bg-green text-paper hover:bg-ink`}>
+            <PrintButton label="Download the profile (PDF)" className={`${button} border border-ink hover:text-oxblood hover:border-oxblood`} />
+            <a href="#buy" className={`${button} no-print bg-green text-paper hover:bg-ink`}>
               Get the full dataset
             </a>
           </div>
