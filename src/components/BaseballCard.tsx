@@ -89,15 +89,15 @@ export default function BaseballCard({ state }: BaseballCardProps) {
         {/* Top-line facts */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
           <div>
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Year Enacted</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">Year Enacted</p>
             <p className="mt-1 font-display text-xl text-cream">{yearEnacted}</p>
           </div>
           <div>
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Services Regulated</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">Services Regulated</p>
             <p className="mt-1 font-display text-xl text-cream">{servicesCount}</p>
           </div>
           <div>
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">National Rank</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">National Rank</p>
             <p className="mt-1 font-display text-xl text-cream">{state.rank} of 51</p>
           </div>
         </div>
@@ -107,7 +107,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
           <div className={`grid gap-6 mt-6 ${state.key_systems?.length && topInsurer ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'}`}>
             {state.key_systems && state.key_systems.length > 0 && (
               <div>
-                <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Top Systems</p>
+                <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">Top Systems</p>
                 <ul className="mt-2 space-y-1">
                   {state.key_systems.slice(0, 3).map((s, i) => (
                     <li key={i} className="flex justify-between gap-3 font-body text-sm">
@@ -120,7 +120,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
             )}
             {topInsurer && (
               <div>
-                <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Dominant Insurer</p>
+                <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">Dominant Insurer</p>
                 <p className="mt-2 font-body text-sm text-cream">{topInsurer}</p>
               </div>
             )}
@@ -130,20 +130,20 @@ export default function BaseballCard({ state }: BaseballCardProps) {
         {/* Market Concentration */}
         {hhi && (
           <div className="mt-6">
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Market Concentration</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">Market Concentration</p>
             <p className="mt-2 font-body text-sm text-cream/80">{hhi}</p>
           </div>
         )}
 
         {/* Reform Status */}
         <div className="mt-6">
-          <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Reform Status</p>
+          <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">Reform Status</p>
           <p className="mt-2 font-body text-sm text-cream/80">{reform}</p>
         </div>
 
         {/* Key Case */}
         <div className="mt-6">
-          <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Key Case</p>
+          <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream/40">Key Case</p>
           <p className="mt-2 font-body text-sm text-cream/80">{caseText}</p>
         </div>
 

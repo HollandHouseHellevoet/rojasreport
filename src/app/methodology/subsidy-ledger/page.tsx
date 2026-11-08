@@ -57,7 +57,7 @@ const groups: { name: string; lines: Line[] }[] = [
 function basisTag(b: Line['basis']) {
   if (b === 'Estimated') return <Est />;
   if (b === 'Pending method') return <Pending>Pending method</Pending>;
-  return <span className="font-meta text-[11px] uppercase tracking-[0.12em] text-muted">Reported</span>;
+  return <span className="font-meta text-[13px] uppercase tracking-[0.12em] text-muted">Reported</span>;
 }
 
 export default function SubsidyLedgerMethod() {
@@ -199,7 +199,7 @@ export default function SubsidyLedgerMethod() {
             { term: <>Years of free care <Est /></>, body: 'The estimate described above.' },
           ]}
         />
-        <p className="mt-10 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+        <p className="mt-10 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           Worked on <Link href="/systems/commonspirit/" className="text-ink border-b border-hairline hover:text-oxblood">CommonSpirit Health</Link> and{' '}
           <Link href="/states/north-carolina/" className="text-ink border-b border-hairline hover:text-oxblood">North Carolina</Link>.{' '}
           <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">All methods</Link> ·{' '}

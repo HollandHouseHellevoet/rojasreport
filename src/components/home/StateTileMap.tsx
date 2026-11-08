@@ -9,7 +9,7 @@ export default function StateTileMap({ conSlugs }: { conSlugs: Record<string, st
         {STATE_TILES.map(([id, row, col, name]) => {
           const published = PUBLISHED_DOSSIERS[id];
           const href = published ?? (conSlugs[id] ? `/states/${conSlugs[id]}/` : undefined);
-          const cls = `flex items-center justify-center font-meta text-[12px] font-semibold tracking-[0.04em] ${
+          const cls = `flex items-center justify-center font-meta text-[13px] font-semibold tracking-[0.04em] ${
             published ? 'bg-green text-paper' : 'bg-placeholder text-body'
           } ${href ? 'hover:bg-oxblood hover:text-paper' : ''}`;
           const style = { gridColumn: col, gridRow: row };

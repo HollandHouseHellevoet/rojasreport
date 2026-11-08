@@ -62,7 +62,7 @@ export default function MethodologyIndex() {
               body: 'The figure appears in a public filing exactly as shown, or is a plain sum of such figures across a system’s filers. The source names the form, the schedule and the line.',
             },
             {
-              term: <>Estimated <span className="font-meta text-[11px] uppercase tracking-[0.12em] text-oxblood">est.</span></>,
+              term: <>Estimated <span className="font-meta text-[13px] uppercase tracking-[0.12em] text-oxblood">est.</span></>,
               body: 'A Rojas Report calculation from reported inputs. The method is on one of the three pages below, and the source line shows the inputs and the arithmetic.',
             },
             {
@@ -79,7 +79,7 @@ export default function MethodologyIndex() {
             <Link key={m.href} href={m.href} className="group border border-ink p-7 flex flex-col gap-3 hover:border-oxblood">
               <h3 className="font-display text-[30px] leading-[1.1] group-hover:text-oxblood">{m.title}</h3>
               <p className={small}>{m.text}</p>
-              <p className="mt-auto pt-3 font-meta text-[12px] tracking-[0.06em] text-muted">{m.status}</p>
+              <p className="mt-auto pt-3 font-meta text-[13px] tracking-[0.06em] text-muted">{m.status}</p>
             </Link>
           ))}
         </div>
@@ -129,7 +129,7 @@ export default function MethodologyIndex() {
             },
           ]}
         />
-        <p className="mt-10 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+        <p className="mt-10 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           Questions about a figure or a method:{' '}
           <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
         </p>

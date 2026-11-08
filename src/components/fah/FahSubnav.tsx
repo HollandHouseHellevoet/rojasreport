@@ -22,7 +22,7 @@ export default function FahSubnav() {
   return (
     <div className="bg-navy-dark border-b border-ink/10 print:hidden">
       <div className="max-w-7xl mx-auto px-4 flex items-center gap-6 overflow-x-auto">
-        <Link href="/fah/" className="font-body text-[11px] font-semibold uppercase tracking-[0.15em] text-orange py-3 whitespace-nowrap">
+        <Link href="/fah/" className="font-body text-[13px] font-semibold uppercase tracking-[0.15em] text-orange py-3 whitespace-nowrap">
           Federation of American Hospitals
         </Link>
         {links.map((l) => (

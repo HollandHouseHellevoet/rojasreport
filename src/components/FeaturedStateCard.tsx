@@ -20,7 +20,7 @@ export default function FeaturedStateCard({ state, slug, score, tier, hook }: Fe
       <div className="p-5">
         <div className="flex items-start justify-between gap-3 mb-3">
           <div>
-            <p className="font-body text-[11px] font-semibold tracking-widest uppercase text-cream/40">
+            <p className="font-body text-[13px] font-semibold tracking-widest uppercase text-cream/40">
               {tier}
             </p>
             <h3 className="mt-1 font-display text-2xl text-cream leading-tight">

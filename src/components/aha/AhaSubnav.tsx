@@ -20,7 +20,7 @@ export default function AhaSubnav() {
       <div className="max-w-7xl mx-auto px-4 flex items-center gap-6 overflow-x-auto">
         <Link
           href="/aha/"
-          className="font-body text-[11px] font-semibold uppercase tracking-[0.15em] text-orange py-3 whitespace-nowrap"
+          className="font-body text-[13px] font-semibold uppercase tracking-[0.15em] text-orange py-3 whitespace-nowrap"
         >
           AHA
         </Link>

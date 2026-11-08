@@ -32,7 +32,7 @@ function Row({ d, band }: { d: Desk; band: Band }) {
           {d.name}
           {live && <span aria-hidden="true"> →</span>}
         </p>
-        {d.blurb && <p className={`mt-1 text-[18px] leading-[1.45] ${live ? 'text-body' : 'text-muted'}`}>{d.blurb}</p>}
+        {d.blurb && <p className={`mt-1 text-[19px] leading-[1.45] ${live ? 'text-body' : 'text-muted'}`}>{d.blurb}</p>}
         {!live && (
           <p className="mt-2">
             <StatusLabel status="pending" note="In preparation" />

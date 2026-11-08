@@ -23,6 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/physician-owned/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${baseUrl}/government/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${baseUrl}/lobby/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/tracker/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/reports/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/support/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/rankings/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },

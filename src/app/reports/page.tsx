@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <div className="max-w-content mx-auto px-5 md:px-8 pt-10 pb-20">
-      <nav aria-label="Breadcrumb" className="font-meta text-[12px] tracking-[0.1em] text-muted mb-7">
+      <nav aria-label="Breadcrumb" className="font-meta text-[13px] tracking-[0.1em] text-muted mb-7">
         <Link href="/" className="hover:text-oxblood">/Home</Link> <span className="text-ink">/Reports &amp; Data</span>
       </nav>
-      <p className="font-meta text-[12px] uppercase tracking-[0.14em] mb-3 text-green">Get the intelligence</p>
+      <p className="font-meta text-[13px] uppercase tracking-[0.14em] mb-3 text-green">Get the intelligence</p>
       <h1 className="font-display text-[44px] md:text-[56px] leading-[1.05] mb-5">Read it. Download it. Own the data.</h1>
       <p className="italic text-[22px] leading-[1.4] text-body max-w-[720px] mb-10">
         Every page on this site can be read free, downloaded as a PDF, and bought as the dataset behind it.

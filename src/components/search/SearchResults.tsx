@@ -69,7 +69,7 @@ function Results({ index }: { index: SearchEntry[] }) {
               <li key={r.href + r.title} className="border-b border-hairline">
                 <Smart href={r.href} className="flex flex-wrap justify-between items-baseline gap-x-6 gap-y-1 py-4 hover:text-oxblood">
                   <span className="font-display text-[22px] md:text-[24px]">{r.title}</span>
-                  <span className="font-meta text-[12px] uppercase tracking-[0.1em] text-muted">{r.kind}</span>
+                  <span className="font-meta text-[13px] uppercase tracking-[0.1em] text-muted">{r.kind}</span>
                 </Smart>
               </li>
             ))}

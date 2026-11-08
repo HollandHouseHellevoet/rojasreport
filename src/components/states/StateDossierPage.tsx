@@ -4,7 +4,7 @@ import { stateGrade, money, margin, word, type StateDossierRecord, type Letter, 
 
 /** State dossier, built to docs/mockups/state-dossier.dc.html. Every figure comes from the state's data file. */
 
-const eyebrow = 'font-meta text-[12px] uppercase tracking-[0.14em]';
+const eyebrow = 'font-meta text-[13px] uppercase tracking-[0.14em]';
 const h2 = 'font-display font-normal leading-[1.1]';
 const button = 'font-meta text-[14px] font-medium text-center px-[18px] py-3.5';
 const th = 'font-normal pt-[18px] pb-2.5 border-b border-ink';
@@ -34,7 +34,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
     <>
       {/* Title block with grade */}
       <section className="max-w-content mx-auto px-5 md:px-8 pt-10 pb-14">
-        <nav aria-label="Breadcrumb" className="font-meta text-[12px] tracking-[0.1em] text-muted mb-7">
+        <nav aria-label="Breadcrumb" className="font-meta text-[13px] tracking-[0.1em] text-muted mb-7">
           <Link href="/states/" className="text-muted hover:text-oxblood">/States</Link>{' '}
           <span className="text-ink">/{d.name}</span>
         </nav>
@@ -77,7 +77,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
               <div key={m.value} className="flex flex-col gap-2.5 border-t border-green-rule pt-5" title={m.source}>
                 <div className="font-display leading-none text-paper whitespace-nowrap" style={{ fontSize: 'clamp(44px, 4.8vw, 68px)' }}>{m.value}</div>
                 <div className="text-[19px] leading-[1.4] text-green-text-2">{m.text}</div>
-                <div className="font-meta text-[11px] leading-[1.6] text-green-text">{m.note}</div>
+                <div className="font-meta text-[13px] leading-[1.6] text-green-text">{m.note}</div>
               </div>
             ))}
           </div>
@@ -92,7 +92,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
             <article key={dr.num} className="pt-7 pb-8 md:pr-8 border-b border-hairline flex flex-col gap-3" title={dr.source}>
               <div className="font-display italic text-[18px] text-muted">
                 {dr.num} · {dr.label}{' '}
-                <span className="font-meta not-italic text-[12px] text-muted ml-1.5">{dr.weight}% of the grade</span>
+                <span className="font-meta not-italic text-[13px] text-muted ml-1.5">{dr.weight}% of the grade</span>
               </div>
               <div className="flex justify-between items-start gap-4">
                 <h3 className="font-display font-medium text-[25px] leading-[1.2]">{dr.title}</h3>
@@ -101,7 +101,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
                 </div>
               </div>
               <p className="text-[18px] leading-[1.5] text-body">{dr.body}</p>
-              <div className={`font-meta text-[12px] tracking-[0.04em] ${toneClass[dr.tone]}`}>● {dr.status}</div>
+              <div className={`font-meta text-[13px] tracking-[0.04em] ${toneClass[dr.tone]}`}>● {dr.status}</div>
               {dr.href && dr.linkText && (
                 <Link href={dr.href} className="font-meta text-[13px] font-medium hover:text-oxblood">
                   {dr.linkText} →
@@ -185,7 +185,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
                   <div className="font-display text-[23px] leading-[1.25]">{b.id} · {b.title}</div>
                   <div className="text-[17px] leading-[1.45] text-body mt-1">{b.body}</div>
                 </div>
-                <div className={`flex-[1_1_180px] md:text-right font-meta text-[12px] tracking-[0.04em] ${toneClass[b.tone]}`}>● {b.status}</div>
+                <div className={`flex-[1_1_180px] md:text-right font-meta text-[13px] tracking-[0.04em] ${toneClass[b.tone]}`}>● {b.status}</div>
               </div>
             ))}
           </div>
@@ -225,7 +225,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
             </div>
           </div>
         </div>
-        <p className="mt-12 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+        <p className="mt-12 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           {d.sourcesLine}{' '}
           <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">Methodology</Link> ·{' '}
           <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>

@@ -3,10 +3,10 @@ import type { ReactNode } from 'react';
 
 /** Shared pieces for the methodology pages (docs/BUILD_BRIEF.md section 2, rule 2: each "est." method is on the methodology page). */
 
-export const eyebrow = 'font-meta text-[12px] uppercase tracking-[0.14em]';
+export const eyebrow = 'font-meta text-[13px] uppercase tracking-[0.14em]';
 export const prose = 'text-[20px] leading-[1.55] text-body';
 export const small = 'text-[17px] leading-[1.5] text-body';
-export const th = 'font-meta text-[12px] uppercase tracking-[0.1em] text-muted font-normal text-left pt-[18px] pb-2.5 border-b border-ink';
+export const th = 'font-meta text-[13px] uppercase tracking-[0.1em] text-muted font-normal text-left pt-[18px] pb-2.5 border-b border-ink';
 export const td = 'py-3.5 border-b border-hairline align-top text-[18px] leading-[1.45]';
 
 export function MethodPage({
@@ -27,7 +27,7 @@ export function MethodPage({
   return (
     <>
       <section className="max-w-content mx-auto px-5 md:px-8 pt-10 pb-12">
-        <nav aria-label="Breadcrumb" className="font-meta text-[12px] tracking-[0.1em] text-muted mb-7">
+        <nav aria-label="Breadcrumb" className="font-meta text-[13px] tracking-[0.1em] text-muted mb-7">
           {crumb ? (
             <>
               <Link href="/methodology/" className="text-muted hover:text-oxblood">/Methodology</Link>{' '}
@@ -40,7 +40,7 @@ export function MethodPage({
         <p className={`${eyebrow} text-muted mb-3`}>{eyebrowText}</p>
         <h1 className="font-display font-normal text-[48px] md:text-[64px] lg:text-[72px] leading-[1] max-w-[900px]">{title}</h1>
         <p className="mt-[22px] max-w-[760px] italic text-[23px] leading-[1.45] text-body">{lede}</p>
-        <p className="mt-5 font-meta text-[12px] tracking-[0.06em] text-muted">{asOf}</p>
+        <p className="mt-5 font-meta text-[13px] tracking-[0.06em] text-muted">{asOf}</p>
       </section>
       {children}
     </>
@@ -69,11 +69,11 @@ export function Formula({ children }: { children: ReactNode }) {
 }
 
 export function Pending({ children = 'Pending' }: { children?: ReactNode }) {
-  return <span className="font-meta text-[11px] uppercase tracking-[0.12em] text-muted border border-hairline px-2 py-[3px] whitespace-nowrap">{children}</span>;
+  return <span className="font-meta text-[13px] uppercase tracking-[0.12em] text-muted border border-hairline px-2 py-[3px] whitespace-nowrap">{children}</span>;
 }
 
 export function Est() {
-  return <span className="font-meta text-[11px] uppercase tracking-[0.12em] text-oxblood ml-1.5">est.</span>;
+  return <span className="font-meta text-[13px] uppercase tracking-[0.12em] text-oxblood ml-1.5">est.</span>;
 }
 
 /** Numbered definition list in the reading column. */

@@ -145,7 +145,7 @@ export default function MachineScoreMethod() {
             { term: <>Start date <Pending /></>, body: 'Whether scoring begins with the 120th Congress in January 2027 or with current members’ existing records.' },
           ]}
         />
-        <p className="mt-10 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+        <p className="mt-10 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           Shown on the <Link href="/committees/senate-finance/" className="text-ink border-b border-hairline hover:text-oxblood">Senate Finance</Link> scorecard.{' '}
           <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">All methods</Link> ·{' '}
           <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>

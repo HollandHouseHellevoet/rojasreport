@@ -14,9 +14,9 @@ export default function Tiers() {
           }`;
           const inner = (
             <>
-              <span className={`font-meta text-[11px] uppercase tracking-[0.14em] ${t.primary ? '' : 'text-green-text'}`}>{t.name}</span>
+              <span className={`font-meta text-[13px] uppercase tracking-[0.14em] ${t.primary ? '' : 'text-green-text'}`}>{t.name}</span>
               <span className="font-display text-[32px] leading-none">{t.amount}</span>
-              <span className={`font-meta text-[12px] ${t.primary ? '' : 'text-green-text'}`}>{t.unit}</span>
+              <span className={`font-meta text-[14px] ${t.primary ? '' : 'text-green-text'}`}>{t.unit}</span>
             </>
           );
           return t.href ? (
@@ -30,7 +30,7 @@ export default function Tiers() {
           );
         })}
       </div>
-      <p className="mt-5 font-meta text-[12px] leading-[1.6] text-green-text">
+      <p className="mt-5 font-meta text-[14px] leading-[1.6] text-green-text">
         {checkoutOpen ? 'Secure checkout by Stripe. Cancel anytime. ' : 'Checkout opens soon. '}
         {SUPPORT_LINE}
       </p>

@@ -5,7 +5,7 @@ import type { Tone } from '@/lib/stateDossiers';
 
 /** Committee dossier, built to docs/mockups/committee-dossier.dc.html. Every figure comes from the committee's data file. */
 
-const eyebrow = 'font-meta text-[12px] uppercase tracking-[0.14em]';
+const eyebrow = 'font-meta text-[13px] uppercase tracking-[0.14em]';
 const h2 = 'font-display font-normal leading-[1.1]';
 const button = 'font-meta text-[14px] font-medium text-center px-[18px] py-3.5';
 const th = 'font-normal pt-2.5 pb-2.5 border-b border-ink';
@@ -26,7 +26,7 @@ function Heading({ title, aside, rule = true, size = 44 }: { title: string; asid
 function Pending({ label = 'pending' }: { label?: string }) {
   return (
     <span className="text-hairline" aria-label="Pending">
-      —<span className="font-meta text-[10px] uppercase tracking-[0.12em] text-muted align-middle ml-1.5">{label}</span>
+      —<span className="font-meta text-[13px] uppercase tracking-[0.12em] text-muted align-middle ml-1.5">{label}</span>
     </span>
   );
 }
@@ -51,7 +51,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
 
       {/* Title */}
       <section className="max-w-content mx-auto px-5 md:px-8 pt-12 pb-14">
-        <nav aria-label="Breadcrumb" className="font-meta text-[12px] tracking-[0.1em] text-muted mb-7">
+        <nav aria-label="Breadcrumb" className="font-meta text-[13px] tracking-[0.1em] text-muted mb-7">
           <Link href="/government/" className="text-muted hover:text-oxblood">/Government</Link>{' '}
           <span className="text-ink">/{c.name}</span>
         </nav>
@@ -100,7 +100,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
               <div key={k.title} className="flex flex-col gap-2.5 border-t border-oxblood-rule pt-5">
                 <div className="font-display text-[30px] leading-[1.1] text-paper">{k.title}</div>
                 <div className="text-[18px] leading-[1.45] text-green-text-2">{k.body}</div>
-                <div className="font-meta text-[11px] leading-[1.6] text-oxblood-text">{k.note}</div>
+                <div className="font-meta text-[13px] leading-[1.6] text-oxblood-text">{k.note}</div>
               </div>
             ))}
           </div>
@@ -113,7 +113,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
         <div className="grid gap-12" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))' }}>
           {c.whoRuns.people.map((p) => (
             <div key={p.name} className="flex gap-6 items-start" title={p.source}>
-              <div aria-hidden="true" className="flex-none w-[120px] h-[150px] bg-placeholder flex items-center justify-center font-meta text-[11px] text-muted">
+              <div aria-hidden="true" className="flex-none w-[120px] h-[150px] bg-placeholder flex items-center justify-center font-meta text-[13px] text-muted">
                 Portrait pending
               </div>
               <div>
@@ -205,7 +205,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
             <article key={d.title} className="pt-[26px] pb-[30px] md:pr-8 border-b border-hairline flex flex-col gap-2.5" title={d.source}>
               <h3 className="font-display font-medium text-[24px] leading-[1.2]">{d.title}</h3>
               <p className="text-[18px] leading-[1.5] text-body">{d.body}</p>
-              <div className={`font-meta text-[12px] tracking-[0.04em] ${toneClass[d.tone]}`}>● {d.status}</div>
+              <div className={`font-meta text-[13px] tracking-[0.04em] ${toneClass[d.tone]}`}>● {d.status}</div>
             </article>
           ))}
         </div>
@@ -235,7 +235,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
           </div>
         </div>
         <div className="max-w-content mx-auto px-5 md:px-8 pb-12">
-          <p className="font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+          <p className="font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
             {c.sourcesLine}{' '}
             <Link href="/methodology/machine-score/" className="text-ink border-b border-hairline hover:text-oxblood">How the Machine Score works</Link> ·{' '}
             <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>

@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import { NAV, NEWSLETTER_URL, YOUTUBE_URL, ABOUT_URL } from '@/lib/nav';
 
-const col = 'flex flex-col gap-2.5 font-meta text-[13px]';
-const head = 'font-meta text-[11px] uppercase tracking-[0.14em] text-ink-label';
+const col = 'flex flex-col gap-2.5 font-meta text-[14px]';
+const head = 'font-meta text-[13px] uppercase tracking-[0.14em] text-ink-label';
 const link = 'text-ink-text-2 hover:text-paper';
 
 export default function Footer() {
@@ -13,7 +13,7 @@ export default function Footer() {
           <Link href="/" className="font-display text-[28px] tracking-[0.04em] text-paper inline-block mb-3">
             THE ROJAS REPORT
           </Link>
-          <p className="font-meta text-[12px] leading-[1.7]">
+          <p className="font-meta text-[14px] leading-[1.7]">
             Every figure is sourced to public records: IRS Form 990s, Senate lobbying disclosures, FEC filings, CMS, HRSA, court records and state agencies.{' '}
             <Link href="/methodology/" className="text-paper border-b border-muted hover:border-paper">Read the methodology</Link>.
           </p>
@@ -44,7 +44,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="max-w-content mx-auto px-5 md:px-8 pb-8 font-meta text-[12px] text-ink-label">
+      <div className="max-w-content mx-auto px-5 md:px-8 pb-8 font-meta text-[13px] text-ink-label">
         &copy; 2026 Rojas Media
       </div>
     </footer>

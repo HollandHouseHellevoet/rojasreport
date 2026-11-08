@@ -22,7 +22,7 @@ export default function StatesIndex() {
             className="group flex items-baseline justify-between border border-ink/10 px-3 py-2 hover:border-orange/60 transition-colors"
           >
             <span className="font-body text-sm text-cream group-hover:text-orange transition-colors">{s.state}</span>
-            <span className="font-body text-[10px] uppercase tracking-wider text-cream/40">{s.tier}</span>
+            <span className="font-body text-[13px] uppercase tracking-wider text-cream/40">{s.tier}</span>
           </Link>
         ))}
       </div>

@@ -21,7 +21,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-const eyebrow = 'font-meta text-[12px] uppercase tracking-[0.14em]';
+const eyebrow = 'font-meta text-[13px] uppercase tracking-[0.14em]';
 const h2 = 'font-display font-normal leading-[1.1]';
 const button = 'font-meta text-[14px] font-medium text-center px-[18px] py-3.5';
 const cell = 'py-3.5 border-b border-hairline';
@@ -30,7 +30,7 @@ const cell = 'py-3.5 border-b border-hairline';
 function Dash({ className = '' }: { className?: string }) {
   return (
     <span className={`text-hairline ${className}`} aria-label="Pending">
-      —<span className="font-meta text-[10px] uppercase tracking-[0.12em] text-muted align-middle ml-2">pending</span>
+      —<span className="font-meta text-[13px] uppercase tracking-[0.12em] text-muted align-middle ml-2">pending</span>
     </span>
   );
 }
@@ -63,7 +63,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
     <>
       {/* Title block */}
       <section className="max-w-content mx-auto px-5 md:px-8 pt-10 pb-12">
-        <nav aria-label="Breadcrumb" className="font-meta text-[12px] tracking-[0.1em] text-muted mb-7">
+        <nav aria-label="Breadcrumb" className="font-meta text-[13px] tracking-[0.1em] text-muted mb-7">
           <Link href="/systems/" className="text-muted hover:text-oxblood">/Health Systems</Link>{' '}
           <Link href="/systems/" className="text-muted hover:text-oxblood">/{p.footprint}</Link>{' '}
           <span className="text-ink">/{p.name}</span>
@@ -109,7 +109,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
               <div key={m.value} className="flex flex-col gap-2.5 border-t border-green-rule pt-5" title={m.source}>
                 <div className="font-display leading-none text-paper whitespace-nowrap" style={{ fontSize: 'clamp(44px, 4.8vw, 68px)' }}>{m.value}</div>
                 <div className="text-[19px] leading-[1.4] text-green-text-2">{m.text}</div>
-                <div className="font-meta text-[11px] leading-[1.6] text-green-text">{m.note}</div>
+                <div className="font-meta text-[13px] leading-[1.6] text-green-text">{m.note}</div>
               </div>
             ))}
           </div>
@@ -147,7 +147,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
                 aria-label={`Free care delivered ${millions(p.freeCare.amount)}`}
               />
             </div>
-            <p className="font-meta text-[12px] leading-[1.6] text-muted">{note}</p>
+            <p className="font-meta text-[13px] leading-[1.6] text-muted">{note}</p>
           </div>
         </div>
       </section>
@@ -170,7 +170,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
                     <tr key={l.name}>
                       <td className={`${cell} pr-4`}>
                         {l.name}
-                        <sup className="font-meta text-[10px] text-muted ml-[3px]">{numberOf(l)}</sup>
+                        <sup className="font-meta text-[13px] text-muted ml-[3px]">{numberOf(l)}</sup>
                       </td>
                       <td className={`${cell} pr-4 italic text-muted`}>{l.payer}</td>
                       <td className={`${cell} text-right whitespace-nowrap font-display text-[20px]`} title={l.amount != null ? l.source : undefined}>
@@ -197,7 +197,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
         <p className="mt-[18px] italic text-[16px] text-muted">{p.ledger.note}</p>
         <div className="mt-10 border-t border-hairline pt-[18px]">
           <div className="font-display text-[20px] mb-3">Sources</div>
-          <ol className="pl-[22px] font-meta text-[12px] leading-[1.6] text-muted" style={{ columns: '2 320px', columnGap: 40 }}>
+          <ol className="pl-[22px] font-meta text-[13px] leading-[1.6] text-muted" style={{ columns: '2 320px', columnGap: 40 }}>
             {allLines.map((l) => (
               <li key={l.name} className="mb-1" style={{ breakInside: 'avoid' }}>{l.source}</li>
             ))}
@@ -216,7 +216,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
             <div key={title}>
               <h3 className={`${h2} text-[28px] border-b border-ink pb-3 mb-[18px]`}>{title}</h3>
               <FactRows rows={block.rows} />
-              <p className="mt-3 font-meta text-[12px] text-muted">{block.sourceLine}</p>
+              <p className="mt-3 font-meta text-[13px] text-muted">{block.sourceLine}</p>
             </div>
           ))}
         </div>
@@ -242,7 +242,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
             ))}
           </div>
         </div>
-        <p className="mt-12 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+        <p className="mt-12 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           {p.sourcesLine}{' '}
           <Link href="/methodology/subsidy-ledger/" className="text-ink border-b border-hairline hover:text-oxblood">Methodology</Link> ·{' '}
           <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>

@@ -64,7 +64,7 @@ export default function Search({ index }: { index: SearchEntry[] }) {
               <li key={r.href + r.title} className="border-b border-hairline last:border-b-0">
                 <Smart href={r.href} className="flex flex-wrap justify-between gap-x-6 gap-y-1 px-5 py-3 hover:text-oxblood">
                   <span className="text-[19px]">{r.title}</span>
-                  <span className="font-meta text-[12px] uppercase tracking-[0.1em] text-muted self-center">{r.kind}</span>
+                  <span className="font-meta text-[13px] uppercase tracking-[0.1em] text-muted self-center">{r.kind}</span>
                 </Smart>
               </li>
             ))}

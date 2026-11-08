@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 
 export function Label({ children }: { children: ReactNode }) {
   return (
-    <p className="font-body text-[11px] font-semibold tracking-[0.15em] uppercase text-orange mb-3">{children}</p>
+    <p className="font-body text-[13px] font-semibold tracking-[0.15em] uppercase text-orange mb-3">{children}</p>
   );
 }
 

@@ -15,7 +15,7 @@ const BUILD_DATE = new Date().toLocaleDateString('en-US', {
 const label = 'font-meta uppercase tracking-[0.12em]';
 
 function NavLinks({ pathname, size }: { pathname: string; size: 'home' | 'compact' }) {
-  const cls = size === 'home' ? 'text-[13px]' : 'text-[12px]';
+  const cls = size === 'home' ? 'text-[14px]' : 'text-[13px]';
   return (
     <>
       {NAV.map((item) => {
@@ -41,7 +41,7 @@ function SupportButton({ text }: { text: string }) {
   return (
     <Link
       href={SUPPORT.href}
-      className={`${label} text-[12px] tracking-[0.1em] bg-oxblood text-paper px-4 py-2.5 hover:bg-oxblood-hover`}
+      className={`${label} text-[13px] tracking-[0.1em] bg-oxblood text-paper px-4 py-2.5 hover:bg-oxblood-hover`}
     >
       {text}
     </Link>
@@ -58,7 +58,7 @@ export default function Header() {
       <header>
         {/* Utility bar */}
         <div className="border-b border-hairline">
-          <div className={`max-w-content mx-auto px-5 md:px-8 py-2.5 flex flex-wrap gap-x-6 gap-y-2 justify-between items-center ${label} text-[12px] tracking-[0.08em] text-muted`}>
+          <div className={`max-w-content mx-auto px-5 md:px-8 py-2.5 flex flex-wrap gap-x-6 gap-y-2 justify-between items-center ${label} text-[13px] tracking-[0.08em] text-muted`}>
             <span>{BUILD_DATE}</span>
             <div className="flex flex-wrap gap-x-6 gap-y-2 items-center">
               {UTILITY.map((u) =>
@@ -75,7 +75,7 @@ export default function Header() {
 
         {/* Masthead */}
         <div className="max-w-content mx-auto px-5 md:px-8 pt-12 pb-7 text-center">
-          <p className={`${label} text-[11px] tracking-[0.32em] text-muted mb-4`}>Healthcare Intelligence</p>
+          <p className={`${label} text-[13px] tracking-[0.32em] text-muted mb-4`}>Healthcare Intelligence</p>
           <Link href="/" className="inline-block">
             <h1
               className="font-display font-medium text-oxblood leading-[0.92] tracking-[0.04em]"
@@ -115,7 +115,7 @@ export default function Header() {
               <path d="M20 20l-4-4" />
             </svg>
           </Link>
-          <Link href="/reports/" className={`${label} text-[12px] text-muted hover:text-oxblood hidden sm:inline`}>
+          <Link href="/reports/" className={`${label} text-[13px] text-muted hover:text-oxblood hidden sm:inline`}>
             Reports &amp; Data
           </Link>
           <SupportButton text="Support" />

@@ -129,7 +129,7 @@ export default function StateGradeMethod() {
             ),
           }))}
         />
-        <p className="mt-10 font-meta text-[12px] leading-[1.7] text-muted max-w-[720px]">
+        <p className="mt-10 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">All methods</Link> ·{' '}
           <Link href="/methodology/subsidy-ledger/" className="text-ink border-b border-hairline hover:text-oxblood">The Subsidy Ledger</Link> ·{' '}
           <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
