@@ -17,9 +17,9 @@
       "status": "planned"
     },
     {
-      "slug": "house-ways-and-means",
+      "slug": "ways-and-means",
       "name": "House Ways and Means",
-      "status": "planned"
+      "status": "live"
     },
     {
       "slug": "house-energy-and-commerce",
@@ -169,7 +169,7 @@
     "heading": "Where the members stand",
     "subtitle": "Returning senators; the 120th Congress roster is set in January",
     "intro": "Each member’s record on the cost drivers this committee controls, and a Machine Score from 0 to 100. The score measures how independent they are from the hospital lobby. Higher is better; 100 means they have never sided with it. Hospital PAC money sits beside the score, not inside it.",
-    "note": "Records and Machine Scores load when the scored-action list is published. Hospital PAC money: FEC bulk files, 2024 and 2026 cycles, PAC contributions from hospital systems and hospital associations, through October 8, 2026.",
+    "note": "Records and Machine Scores load when the scored-action list is published. Hospital PAC money: FEC bulk files, 2024 and 2026 cycles, PAC contributions from hospital systems and hospital associations, in FEC files retrieved October 8, 2026.",
     "columns": [
       "Site-neutral pay",
       "Physician-owned hospitals",
@@ -192,7 +192,7 @@
         "hospitalMoney": {
           "value": 2500,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6OR00110",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S6OR00110",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -211,7 +211,7 @@
         "hospitalMoney": {
           "value": 10000,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S8ID00027",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S8ID00027",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -230,7 +230,7 @@
         "hospitalMoney": {
           "value": 35000,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6WY00068",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S6WY00068",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -249,7 +249,7 @@
         "hospitalMoney": {
           "value": 0,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0CO00211",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S0CO00211",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -268,7 +268,7 @@
         "hospitalMoney": {
           "value": 0,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S8WA00194",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S8WA00194",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -287,7 +287,7 @@
         "hospitalMoney": {
           "value": 1000,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0IA00028",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S0IA00028",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -306,7 +306,7 @@
         "hospitalMoney": {
           "value": 0,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6NH00091",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S6NH00091",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -325,7 +325,7 @@
         "hospitalMoney": {
           "value": 3500,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0WI00197",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S0WI00197",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -344,7 +344,7 @@
         "hospitalMoney": {
           "value": 3500,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S4OK00232",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S4OK00232",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -363,7 +363,7 @@
         "hospitalMoney": {
           "value": 12500,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0NM00058",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S0NM00058",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -382,7 +382,7 @@
         "hospitalMoney": {
           "value": 10000,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6NV00200",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S6NV00200",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -401,7 +401,7 @@
         "hospitalMoney": {
           "value": 0,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S4VT00033",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S4VT00033",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -420,7 +420,7 @@
         "hospitalMoney": {
           "value": 2500,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S4SC00240",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S4SC00240",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -439,7 +439,7 @@
         "hospitalMoney": {
           "value": 5000,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S2SD00068",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S2SD00068",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -456,9 +456,9 @@
         },
         "machineScore": null,
         "hospitalMoney": {
-          "value": 36500,
+          "value": 31500,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6VA00093",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S6VA00093",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -477,7 +477,7 @@
         "hospitalMoney": {
           "value": 0,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S0GA00559",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S0GA00559",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -496,7 +496,7 @@
         "hospitalMoney": {
           "value": 0,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S2MA00170",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S2MA00170",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -515,7 +515,7 @@
         "hospitalMoney": {
           "value": 0,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S2VT00235",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S2VT00235",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -534,7 +534,7 @@
         "hospitalMoney": {
           "value": 7500,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6RI00221",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S6RI00221",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       },
@@ -553,7 +553,7 @@
         "hospitalMoney": {
           "value": 11000,
           "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization; candidate S6IN00191",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate S6IN00191",
           "as_of": "FEC files retrieved October 8, 2026"
         }
       }

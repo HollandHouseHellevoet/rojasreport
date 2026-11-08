@@ -1,0 +1,892 @@
+{
+  "slug": "ways-and-means",
+  "name": "House Ways and Means",
+  "chamber": "House",
+  "congress": "120th Congress",
+  "verdict": "The House committee that writes Medicare’s payment rules and the tax exemption every nonprofit hospital lives on. In January it changes hands, and 14 of its 45 members are gone, including both leaders of its Health Subcommittee.",
+  "verdictSource": "Jurisdiction: House Rule X, clause 1(t), and the Health Subcommittee jurisdiction statement at waysandmeans.house.gov/subcommittees/. Change of control: NBC News projected Democratic control of the House on the night of November 3, 2026, and AP called it early November 4. Departures: see the leaving table; Health Subcommittee chairman Vern Buchanan and ranking member Lloyd Doggett both retired.",
+  "tabs": [
+    {
+      "slug": "senate-finance",
+      "name": "Senate Finance",
+      "status": "live"
+    },
+    {
+      "slug": "senate-help",
+      "name": "Senate HELP",
+      "status": "planned"
+    },
+    {
+      "slug": "ways-and-means",
+      "name": "House Ways and Means",
+      "status": "live"
+    },
+    {
+      "slug": "house-energy-and-commerce",
+      "name": "House Energy and Commerce",
+      "status": "planned"
+    }
+  ],
+  "plainEnglish": {
+    "kicker": "The oldest committee in Congress.",
+    "heading": "What this committee does, in plain English",
+    "intro": "Every tax bill starts in the House, and every one starts here. Ways and Means writes the revenue code, Social Security and the House side of Medicare. On health care, it decides what Medicare pays and who pays no tax at all.",
+    "points": [
+      {
+        "title": "It writes Medicare’s rules for the House.",
+        "body": "What Medicare pays a hospital and a physician, and why the hospital gets more for the same visit. Medicare Part A is its alone; Part B it shares with Energy and Commerce."
+      },
+      {
+        "title": "It writes the tax code.",
+        "body": "Who pays tax and who does not. That includes the exemption nonprofit hospitals hold, the bonds that finance their towers, and the premium tax credits that buy coverage."
+      },
+      {
+        "title": "Medicaid is mostly next door.",
+        "body": "Medicaid’s federal rules, including the provider taxes and directed payments that flow to hospital systems, are written by Energy and Commerce. Ways and Means reaches Medicaid where it touches Medicare or the tax code."
+      }
+    ],
+    "source": "House Rule X, clause 1(t), Rules of the House of Representatives, 119th Congress (H.Res. 5, adopted January 3, 2025): revenue measures generally; tax exempt foundations and charitable trusts; national social security except health programs supported from general revenues rather than payroll deductions. Clause 1(f)(3) gives Energy and Commerce health and health facilities except health care supported by payroll deductions: Medicare Part A is payroll-funded, Part B runs on general revenue and premiums and is shared in practice (Health Subcommittee jurisdiction statement, waysandmeans.house.gov/subcommittees/; Rules of the Committee on Ways and Means, 119th Congress). Article I, Section 7 of the Constitution: all bills for raising revenue originate in the House. Chairman-designate Neal, post-election news conference as reported by masslive, November 4, 2026: “taxes, tariffs, Social Security, Medicare, the tax side of Medicaid.”",
+    "as_of": "Rules of the House of Representatives, 119th Congress"
+  },
+  "controls": {
+    "subtitle": "The parts of its jurisdiction that set what care costs",
+    "source": "House Rule X, clause 1(t); Rules of the Committee on Ways and Means, 119th Congress (Health Subcommittee: Social Security Act titles V, XI Part B, XVIII and XIX, and tax credits and deductions for health insurance premiums and health care costs); Internal Revenue Code sections cited on each card; Public Law 119-21 (July 4, 2025), sections 71202 and 71301 to 71308 (CRS report R48633, August 18, 2025).",
+    "as_of": "119th Congress",
+    "items": [
+      {
+        "title": "Medicare",
+        "body": "What hospitals and physicians are paid under Part A and, with Energy and Commerce, Part B. That includes the higher rate a hospital gets for the same service in a building it owns.",
+        "note": "Social Security Act, Title XVIII; House Rule X, clause 1(t)(9)"
+      },
+      {
+        "title": "The tax exemption",
+        "body": "Whether nonprofit hospitals keep their federal tax exemption, and what they must report and show for it.",
+        "note": "Internal Revenue Code §501(c)(3) and §501(r); House Rule X, clause 1(t)(3) and (8)"
+      },
+      {
+        "title": "Tax-exempt bonds",
+        "body": "The cheap borrowing that finances hospital towers and acquisitions.",
+        "note": "Internal Revenue Code §145"
+      },
+      {
+        "title": "Health tax credits and accounts",
+        "body": "The premium tax credits that buy marketplace coverage, and the health savings account rules the 2025 law widened.",
+        "note": "Internal Revenue Code §36B and §223; Public Law 119-21, sections 71301 to 71308"
+      }
+    ]
+  },
+  "whoRuns": {
+    "heading": "Who runs it in 2027",
+    "subtitle": "Democrats won the House on November 3",
+    "source": "NBC News, projection the night of November 3, 2026 (article updated November 4): Democrats win control of the House of Representatives, about 255 seats; AP called the House early November 4. Chair and ranking member are expected: the 120th Congress organizes in January 2027. Neal was elected chairman in January 2019 and led the committee through the 116th and 117th Congresses (neal.house.gov/biography); Smith was selected to chair in January 2023 (waysandmeans.house.gov/about/the-chairman/).",
+    "as_of": "November 8, 2026",
+    "people": [
+      {
+        "label": "Expected chairman",
+        "name": "Richard Neal",
+        "line": "D-Massachusetts · chaired Ways and Means 2019 to 2023",
+        "text": "Has named the expired ACA premium tax credits, Medicare cuts he says endanger Massachusetts hospitals, Social Security hearings and tariffs as his first priorities.",
+        "source": "masslive (Jim Kinney, TNS) as published by CPA Practice Advisor, November 5, 2026: Neal “poised to do the job for the second time”; early priorities “restoring tax credits from the Affordable Care Act, reversing trillions of dollars in Medicare cuts that endanger Massachusetts hospitals and holding hearings on the future of Social Security”; “I would be willing to test him immediately on the tariff issue, as well.”"
+      },
+      {
+        "label": "Expected ranking member",
+        "name": "Jason Smith",
+        "line": "R-Missouri · chairman since January 2023",
+        "text": "Moves from the gavel to the minority with a thinner bench. 8 of his 25 Republican colleagues on the committee will not return.",
+        "source": "waysandmeans.house.gov/about/the-chairman/: selected to chair in January 2023. Deloitte Tax News & Views, November 4, 2026: Smith expected to become ranking member in the 120th Congress; the formal choice is made in January. Leaving table below: 8 of the 25 other Republicans on the 119th Congress roster."
+      }
+    ]
+  },
+  "leaving": {
+    "heading": "Who is leaving",
+    "asOf": "As of November 8, 2026",
+    "intro": "Both leaders of the Health Subcommittee retired. So did the Budget Committee chairman. Seven members lost an election, and two left for a Senate seat and a governor’s mansion.",
+    "introSource": "Health Subcommittee: chairman Vern Buchanan (Clerk of the House member data, leadership “Chair” on WM02) and ranking member Lloyd Doggett (doggett.house.gov/about). Budget chairman: Jodey Arrington (Clerk member data, BU00 leadership “Chair”). Lost an election: Schweikert and Feenstra (governor primaries), Larson (House primary), Fitzpatrick, Carey, Max Miller and Gomez (general). Other office: Hern (Senate), Plaskett (governor of the Virgin Islands). Two races were not called as of November 8: Murphy (NC-03) and Thompson (CA-04).",
+    "rows": [
+      {
+        "name": "Vern Buchanan",
+        "party": "R-Florida",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Chairman of the Health Subcommittee.",
+        "source": "Ballotpedia News, January 28, 2026: Buchanan announced January 27, 2026 that he would not seek reelection to FL-16 after 20 years. Health Subcommittee chairman: Clerk of the House member data (WM02, leadership “Chair”)."
+      },
+      {
+        "name": "Jodey Arrington",
+        "party": "R-Texas",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Chairman of the House Budget Committee. Sat on the Trade and Tax Subcommittees.",
+        "source": "Ballotpedia News, November 12, 2025: Arrington announced November 11, 2025 that he would not seek reelection to TX-19. Budget chairman: Clerk of the House member data (BU00, leadership “Chair”). Subcommittees: waysandmeans.house.gov/subcommittees/."
+      },
+      {
+        "name": "David Schweikert",
+        "party": "R-Arizona",
+        "why": "Ran for governor; lost the primary",
+        "tone": "red",
+        "loss": "Chairman of the Oversight Subcommittee.",
+        "source": "Fox News, July 21, 2026: AP called the Arizona Republican primary for governor for Rep. Andy Biggs; Schweikert had 17% of the vote, more than 50 points behind, with just under half the vote counted. Oversight chairman: Clerk of the House member data (WM06, leadership “Chair”)."
+      },
+      {
+        "name": "Brian Fitzpatrick",
+        "party": "R-Pennsylvania",
+        "why": "Defeated in the general election",
+        "tone": "red",
+        "loss": "Health Subcommittee member. Seat won by Democrat Bob Harvie.",
+        "source": "NBC10 Philadelphia results page, updated 1:00 a.m. November 4, 2026: Harvie 52.7% (188,087) to Fitzpatrick 47.3% (168,531) in PA-01 at 98.5% counted; NBC News projected the race. Health Subcommittee: waysandmeans.house.gov/subcommittees/."
+      },
+      {
+        "name": "Randy Feenstra",
+        "party": "R-Iowa",
+        "why": "Ran for governor; lost the primary",
+        "tone": "red",
+        "loss": "Sat on the Social Security, Work and Welfare and Tax Subcommittees.",
+        "source": "Iowa Public Radio, June 2, 2026 primary results: Feenstra lost the Republican primary for governor to Zach Lahn, 37.8% to 37.0%, and conceded that night. Subcommittees: waysandmeans.house.gov/subcommittees/."
+      },
+      {
+        "name": "Mike Carey",
+        "party": "R-Ohio",
+        "why": "Defeated in the general election",
+        "tone": "red",
+        "loss": "Seat won by Democrat Don Leonard.",
+        "source": "WOSU, November 3, 2026: AP called OH-15 for Democrat Don Leonard over Carey, about 52% to 45% with 85% reporting."
+      },
+      {
+        "name": "Max Miller",
+        "party": "R-Ohio",
+        "why": "Defeated in the general election",
+        "tone": "red",
+        "loss": "Seat won by Democrat Brian Poindexter.",
+        "source": "Ashland Source, November 4, 2026: Poindexter 54.93% (180,614) to Miller 45.07% (148,177) in OH-07, final unofficial Ohio Secretary of State totals."
+      },
+      {
+        "name": "Kevin Hern",
+        "party": "R-Oklahoma",
+        "why": "Elected to the Senate",
+        "tone": "gold",
+        "loss": "Health Subcommittee member. Takes the Oklahoma seat Markwayne Mullin vacated.",
+        "source": "AP race call, 9:36 p.m. EST November 3, 2026, as reported by KTAR News and OKC Fox: Hern defeated Democrat N’Kiyla Jasmine Thomas for the U.S. Senate seat Markwayne Mullin vacated. Health Subcommittee: waysandmeans.house.gov/subcommittees/."
+      },
+      {
+        "name": "Lloyd Doggett",
+        "party": "D-Texas",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Ranking member of the Health Subcommittee. Did not run after Texas redrew his district; the new seat went to Democrat Greg Casar.",
+        "source": "KUT, November 3, 2026: AP called the redrawn TX-37 for Greg Casar over Republican Lauren Peña; Doggett did not run after courts upheld the new Texas map (retirement pledge reported by Ballotpedia News, August 25, 2025). Health Subcommittee ranking member: doggett.house.gov/about."
+      },
+      {
+        "name": "Danny Davis",
+        "party": "D-Illinois",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Health Subcommittee member. Seat won by Democrat La Shawn Ford.",
+        "source": "Roll Call, July 31, 2025: Davis announced he would not seek a 16th term and endorsed La Shawn Ford; NBC Chicago live results, November 4, 2026: Ford won IL-07, 89.2% to 10.8%, over Chad Koppie. Health Subcommittee: waysandmeans.house.gov/subcommittees/."
+      },
+      {
+        "name": "Dwight Evans",
+        "party": "D-Pennsylvania",
+        "why": "Retired",
+        "tone": "grey",
+        "loss": "Health Subcommittee member. Seat won by Democrat Chris Rabb.",
+        "source": "evans.house.gov release, June 30, 2025: Evans announced he would not seek reelection and would serve the full term ending January 3, 2027; CBS Philadelphia, November 3, 2026: Chris Rabb won PA-03 over independent Dennis Mahoney. Health Subcommittee: waysandmeans.house.gov/subcommittees/."
+      },
+      {
+        "name": "John Larson",
+        "party": "D-Connecticut",
+        "why": "Lost his primary",
+        "tone": "red",
+        "loss": "Lost to former Hartford mayor Luke Bronin, 53.5% to 34.7% when AP called the race.",
+        "source": "CT Mirror, August 11, 2026: AP called the CT-01 Democratic primary for Luke Bronin over Larson, 53.5% to 34.7%."
+      },
+      {
+        "name": "Jimmy Gomez",
+        "party": "D-California",
+        "why": "Defeated in the general election",
+        "tone": "red",
+        "loss": "Lost an all-Democratic general election to Angela Gonzales-Torres.",
+        "source": "Jewish Insider, November 4, 2026, with NBC Los Angeles results: Gonzales-Torres 61.9% to Gomez 38.1% in CA-34 with 92.3% counted, NBC projection."
+      },
+      {
+        "name": "Stacey Plaskett",
+        "party": "D-Virgin Islands",
+        "why": "Elected governor",
+        "tone": "gold",
+        "loss": "The first woman elected governor of the U.S. Virgin Islands.",
+        "source": "TheGrio, November 3, 2026: Plaskett and running mate Milton Potter elected with 62.8%, the first woman to hold the office. The Green Papers, Virgin Islands 2026: the delegate seat was open because the incumbent ran for governor."
+      }
+    ]
+  },
+  "scorecard": {
+    "heading": "Where the members stand",
+    "subtitle": "Members returning to the House; the 120th Congress roster is set in January",
+    "intro": "Each member’s record on the cost drivers this committee controls, and a Machine Score from 0 to 100. The score measures how independent they are from the hospital lobby. Higher is better; 100 means they have never sided with it. Hospital PAC money sits beside the score, not inside it.",
+    "note": "Records and Machine Scores load when the scored-action list is published. Hospital PAC money: FEC bulk files, 2024 and 2026 cycles, PAC contributions from hospital systems and hospital associations, in FEC files retrieved October 8, 2026. 2 races were not called as of November 8, 2026; those members are listed until the result is known.",
+    "columns": [
+      "Site-neutral pay",
+      "Physician-owned hospitals",
+      "Price transparency",
+      "Nonprofit tax exemption"
+    ],
+    "members": [
+      {
+        "slug": "richard-neal",
+        "name": "Richard Neal",
+        "party": "D-Mass.",
+        "role": "Expected chairman",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 65000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H8MA02041",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "jason-smith",
+        "name": "Jason Smith",
+        "party": "R-Mo.",
+        "role": "Expected ranking member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 60000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H4MO08162",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "mike-thompson",
+        "name": "Mike Thompson",
+        "party": "D-Calif.",
+        "role": "Tax Subcommittee ranking member · race not called as of November 8",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 27500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H8CA01109",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "linda-sanchez",
+        "name": "Linda Sánchez",
+        "party": "D-Calif.",
+        "role": "Trade Subcommittee ranking member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 40000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H2CA39078",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "terri-sewell",
+        "name": "Terri Sewell",
+        "party": "D-Ala.",
+        "role": "Oversight Subcommittee ranking member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 55000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0AL07086",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "suzan-delbene",
+        "name": "Suzan DelBene",
+        "party": "D-Wash.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 40000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0WA08046",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "judy-chu",
+        "name": "Judy Chu",
+        "party": "D-Calif.",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 12500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0CA32101",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "gwen-moore",
+        "name": "Gwen Moore",
+        "party": "D-Wis.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 11500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H4WI04183",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "brendan-boyle",
+        "name": "Brendan Boyle",
+        "party": "D-Pa.",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 25500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H4PA13199",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "don-beyer",
+        "name": "Don Beyer",
+        "party": "D-Va.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 15500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H4VA08224",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "brad-schneider",
+        "name": "Brad Schneider",
+        "party": "D-Ill.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 23000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H2IL10068",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "jimmy-panetta",
+        "name": "Jimmy Panetta",
+        "party": "D-Calif.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 19500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H6CA20152",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "steven-horsford",
+        "name": "Steven Horsford",
+        "party": "D-Nev.",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 43000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H2NV04011",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "tom-suozzi",
+        "name": "Tom Suozzi",
+        "party": "D-N.Y.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 28500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H6NY03247",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "adrian-smith",
+        "name": "Adrian Smith",
+        "party": "R-Neb.",
+        "role": "Trade Subcommittee chairman",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 25500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H6NE03115",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "mike-kelly",
+        "name": "Mike Kelly",
+        "party": "R-Pa.",
+        "role": "Tax Subcommittee chairman",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 17500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0PA03271",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "darin-lahood",
+        "name": "Darin LaHood",
+        "party": "R-Ill.",
+        "role": "Work and Welfare Subcommittee chairman",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 25500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H6IL18088",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "ron-estes",
+        "name": "Ron Estes",
+        "party": "R-Kan.",
+        "role": "Social Security Subcommittee chairman",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 10000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H8KS04112",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "lloyd-smucker",
+        "name": "Lloyd Smucker",
+        "party": "R-Pa.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 24000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H6PA16320",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "carol-miller",
+        "name": "Carol Miller",
+        "party": "R-W.Va.",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 42000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H8WV03097",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "greg-murphy",
+        "name": "Greg Murphy",
+        "party": "R-N.C.",
+        "role": "Health Subcommittee member · race not called as of November 8",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 28000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0NC03172",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "david-kustoff",
+        "name": "David Kustoff",
+        "party": "R-Tenn.",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 54000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H2TN07103",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "greg-steube",
+        "name": "Greg Steube",
+        "party": "R-Fla.",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 17000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H8FL17053",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "claudia-tenney",
+        "name": "Claudia Tenney",
+        "party": "R-N.Y.",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 12000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H4NY22051",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "michelle-fischbach",
+        "name": "Michelle Fischbach",
+        "party": "R-Minn.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 20000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0MN07091",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "blake-moore",
+        "name": "Blake Moore",
+        "party": "R-Utah",
+        "role": "Health Subcommittee member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 28500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0UT01205",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "beth-van-duyne",
+        "name": "Beth Van Duyne",
+        "party": "R-Texas",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 25500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0TX24209",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "nicole-malliotakis",
+        "name": "Nicole Malliotakis",
+        "party": "R-N.Y.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 21500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0NY11078",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "rudy-yakym",
+        "name": "Rudy Yakym",
+        "party": "R-Ind.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 12000,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H2IN02295",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "aaron-bean",
+        "name": "Aaron Bean",
+        "party": "R-Fla.",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 25500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H2FL04211",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      },
+      {
+        "slug": "nathaniel-moran",
+        "name": "Nathaniel Moran",
+        "party": "R-Texas",
+        "role": "Member",
+        "records": {
+          "siteNeutral": null,
+          "physicianOwned": null,
+          "priceTransparency": null,
+          "taxExemption": null
+        },
+        "machineScore": null,
+        "hospitalMoney": {
+          "value": 17500,
+          "basis": "reported",
+          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H2TX01112",
+          "as_of": "FEC files retrieved October 8, 2026"
+        }
+      }
+    ],
+    "source": "Roster: Clerk of the House, MemberData.xml, published November 3, 2026 (committee code WM00, 26 Republicans and 19 Democrats), and waysandmeans.house.gov/members/. Roles: Clerk subcommittee leadership and doggett.house.gov. Election outcomes: AP calls and state election authorities as reported by the outlets cited in the leaving table.",
+    "as_of": "Roster as of November 3, 2026; outcomes as of November 8, 2026"
+  },
+  "docket": {
+    "heading": "What is on the docket",
+    "subtitle": "The fights this committee will decide in 2027",
+    "items": [
+      {
+        "title": "The 2027 Medicare physician cut",
+        "body": "Physicians take a 2.3% Medicare pay cut on January 1 because the one-year 2.5% raise in the 2025 law expires. A budget-neutrality fix cleared this committee 44 to 0 in May. An inflation update has 69 cosponsors and no markup.",
+        "status": "IN PLAY · Cut takes effect January 1",
+        "tone": "gold",
+        "source": "CMS CY2027 Physician Fee Schedule final rule fact sheet, November 4, 2026: conversion factor $32.63 for non-qualifying participants, down from $33.40 (2.31%); the 2.5% increase for 2026 under Public Law 119-21, section 71202, expires. H.R. 8163 (Murphy), Provider Reimbursement Stability Act, ordered reported 44-0 at the May 21, 2026 markup (waysandmeans.house.gov markup page). H.R. 9693 (Joyce), Patients First Act, annual update of MEI minus one point, 69 cosponsors as of November 5, 2026 (AMA), referred to Energy and Commerce and Ways and Means, no markup."
+      },
+      {
+        "title": "The nonprofit hospital tax exemption",
+        "body": "A bill making big hospitals disclose their 340B program revenue cleared the committee 25 to 15 in July and never reached the floor. It dies with this Congress. The incoming chairman names hospitals as something to protect, not to examine.",
+        "status": "STALLED · Dies in January unless the House votes",
+        "tone": "red",
+        "source": "H.R. 9504 (Murphy), Tax Exempt Hospital Transparency Act, ordered reported 25-15 on July 1, 2026 as amended by a Smith substitute (Votes of the Committee, waysandmeans.house.gov; Polsinelli in The National Law Review, June 4, 2026, on the committee’s discussion draft: expanded Form 990 Schedule H reporting for 501(r) hospitals, including 340B program revenue; AAMC Washington Highlights, July 2, 2026, on the reported bill; the bill does not change the 501(r) requirements themselves); House floor action NOT FOUND as of November 8, 2026. H.R. 3019 (Spartz), Holding Nonprofit Hospitals Accountable Act, community benefit equal to 100% of tax exemptions, in committee with no action. Neal priorities: masslive via CPA Practice Advisor, November 5, 2026 (“Medicare cuts that endanger Massachusetts hospitals”)."
+      },
+      {
+        "title": "Site-neutral payment",
+        "body": "Medicare still pays a hospital more than an independent office for the same visit. CMS is closing the gap one service at a time by rule: drug administration in 2026, imaging in 2027. A bill in this committee to narrow the loophole has no cosponsors and no hearing.",
+        "status": "IN PLAY · Moving by rule, not by law",
+        "tone": "gold",
+        "source": "CMS CY2027 OPPS final rule (CMS-1850-F) fact sheet, November 4, 2026: imaging without contrast at excepted off-campus departments paid at the physician fee schedule equivalent rate from January 1, 2027, rural sole community hospitals exempt, CMS estimate $260 million in 2027; drug administration policy from the CY2026 rule continues. Consolidated Appropriations Act, 2026, section 6225: off-campus departments bill under their own NPI from January 1, 2028 (American Action Forum, January 29, 2026). H.R. 3023 (Spartz), Preventing Hospital Overbilling of Medicare Act, referred to Energy and Commerce and Ways and Means April 24, 2025, no cosponsors on govinfo, no action."
+      },
+      {
+        "title": "Physician-owned hospitals",
+        "body": "A member of this committee wrote the bill to repeal the 2010 ban on new physician-owned hospitals. It has sat in committee since June 2025 without a hearing.",
+        "status": "UNADDRESSED · No hearing, no markup",
+        "tone": "red",
+        "source": "H.R. 4002 (Van Duyne, R-Texas, a Ways and Means member), Patient Access to Higher Quality Health Care Act of 2025, introduced June 12, 2025, repeals section 6001 and section 10601 of the Affordable Care Act and section 1106 of the Health Care and Education Reconciliation Act; referred to Energy and Commerce and, in addition, Ways and Means (govinfo BILLS-119hr4002ih); committee action NOT FOUND as of November 8, 2026. H.R. 2191 (Griffith), Physician-Led and Rural Access to Quality Care Act, rural exception, 22 cosponsors as of May 29, 2025 (AMA)."
+      },
+      {
+        "title": "The 340B drug payment cut",
+        "body": "From January 1, Medicare pays hospitals 28% below average sales price for drugs bought through the 340B program. CMS made the $4.35 billion cut by rule. Hospitals want Congress to undo it. The committee has not scheduled a vote.",
+        "status": "FINAL RULE · Hospitals seeking relief",
+        "tone": "gold",
+        "source": "CMS CY2027 OPPS final rule (CMS-1850-F) fact sheet, November 4, 2026: 340B-acquired drugs paid at ASP minus 28% in CY2027 (proposed minus 33.4%), CMS estimate $4.35 billion less in Medicare drug payments and $1.1 billion less in beneficiary cost sharing, budget neutral through higher non-drug payments; remedy offset rises from 0.5% to 2% a year until $7.8 billion is recovered, estimated CY2031. AHA statement, November 4, 2026. No committee action identified as of November 8, 2026."
+      },
+      {
+        "title": "The ACA premium tax credits",
+        "body": "The enhanced credits expired December 31, 2025. The House passed a three-year extension after a discharge petition; it is not law. The incoming chairman lists restoring them first among his priorities.",
+        "status": "NEW MAJORITY PRIORITY",
+        "tone": "grey",
+        "source": "Deloitte Tax News & Views, November 4, 2026: enhanced ACA premium tax credit expired December 31, 2025; House-passed three-year extension, H.R. 1834, advanced via discharge petition. masslive via CPA Practice Advisor, November 5, 2026: Neal’s early priorities begin with “restoring tax credits from the Affordable Care Act.” Presidential term runs to January 2029."
+      }
+    ]
+  },
+  "staff": {
+    "heading": "Work for a member of this committee?",
+    "text": "Every health system in your member’s district and state, with its subsidies, reserves, executive pay and offshore holdings, sourced to the filing. Ready for a hearing.",
+    "options": [
+      {
+        "label": "Committee member dataset",
+        "price": null,
+        "primary": true,
+        "href": "/reports/"
+      },
+      {
+        "label": "Request a briefing for staff",
+        "price": "Contact →",
+        "primary": false,
+        "href": "https://read.rojasreport.com/about"
+      }
+    ]
+  },
+  "sourcesLine": "Sources: Clerk of the House member data (November 3, 2026); the Committee on Ways and Means and its Democratic members’ sites; Rules of the House of Representatives, 119th Congress; AP race calls as reported by NBC News, CBS News, public radio and local outlets; CMS CY2027 Physician Fee Schedule and OPPS final rules (November 4, 2026); bill texts on govinfo; Public Laws 119-21 and 119-75; FEC bulk data."
+}

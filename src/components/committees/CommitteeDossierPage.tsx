@@ -135,7 +135,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
           <table className="w-full min-w-[640px] border-collapse text-[19px]">
             <thead>
               <tr className="text-left italic text-[16px] text-muted">
-                <th className={`${th} pr-4`}>Senator</th>
+                <th className={`${th} pr-4`}>{c.chamber === 'Senate' ? 'Senator' : 'Member'}</th>
                 <th className={`${th} pr-4`}>Why</th>
                 <th className={th}>What goes with them</th>
               </tr>

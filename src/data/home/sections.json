@@ -165,9 +165,11 @@
       {
         "group": "Congress",
         "name": "Ways & Means",
-        "href": "https://waysandmeans.rojasreport.com",
+        "href": "/committees/ways-and-means/",
         "status": "live",
-        "blurb": "Every member's healthcare record, votes and money."
+        "blurb": "The House committee that writes Medicare’s payment rules and the hospital tax exemption changes hands in January. The second committee dossier.",
+        "stat": "14",
+        "statLabel": "of 45 members gone in January"
       },
       {
         "group": "Congress",

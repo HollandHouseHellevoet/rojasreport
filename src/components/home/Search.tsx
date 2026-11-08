@@ -8,7 +8,7 @@ import { search } from '@/lib/search';
 const TRY = [
   { label: 'North Carolina', href: '/states/north-carolina/' },
   { label: 'American Hospital Association', href: '/aha/' },
-  { label: 'Ways & Means', href: 'https://waysandmeans.rojasreport.com' },
+  { label: 'Ways and Means', href: '/committees/ways-and-means/' },
   { label: 'Physician-owned hospitals', href: '/physician-owned/' },
 ];
 

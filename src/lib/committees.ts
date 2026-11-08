@@ -1,4 +1,5 @@
 import senateFinance from '@/data/committees/senate-finance.json';
+import waysAndMeans from '@/data/committees/ways-and-means.json';
 import type { Basis } from '@/lib/systems';
 import type { Tone } from '@/lib/stateDossiers';
 
@@ -86,7 +87,7 @@ export interface CommitteeRecord {
   sourcesLine: string;
 }
 
-export const committees: CommitteeRecord[] = [senateFinance as CommitteeRecord];
+export const committees: CommitteeRecord[] = [senateFinance as CommitteeRecord, waysAndMeans as CommitteeRecord];
 
 export function getCommittee(slug: string): CommitteeRecord | undefined {
   return committees.find((c) => c.slug === slug);
