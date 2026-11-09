@@ -55,7 +55,7 @@ export default function HomePage() {
 
       {/* I. The cost drivers */}
       <section id="drivers" className="max-w-content mx-auto px-5 md:px-8 pb-[88px]">
-        <div className="flex flex-wrap justify-between items-baseline gap-3 border-t border-ink pt-5 mb-2">
+        <div className="flex flex-wrap justify-between items-baseline gap-3 border-t border-ink pt-5 mb-4">
           <h2 className={`${h2} text-[34px] md:text-[46px]`}>Six reasons your care costs what it does</h2>
           <span className={secLabel}>I · The Cost Drivers</span>
         </div>
@@ -95,7 +95,7 @@ export default function HomePage() {
       {/* II. Where the fights stand */}
       <section className="bg-paper-2 border-y border-hairline">
         <div className="max-w-content mx-auto px-5 md:px-8 py-[72px]">
-          <div className="flex flex-wrap justify-between items-baseline gap-3 mb-2">
+          <div className="flex flex-wrap justify-between items-baseline gap-3 mb-4">
             <h2 className={`${h2} text-[34px] md:text-[46px]`}>Where the fights stand</h2>
             <span className={secLabel}>II · The Tracker · As of {fights.asOf}</span>
           </div>

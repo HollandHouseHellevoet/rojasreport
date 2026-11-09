@@ -47,6 +47,16 @@
   a { transition: color 120ms ease; }
 }
 
+/* Section headings: heavier Bodoni cut so the thin strokes hold up on screen
+   (Dutch 2026-11-09, option B). The home search label matches. Page titles (h1) and the italic cover headline keep the default cut. */
+h2.font-display:not(.italic),
+label.font-display,
+.amc .section-h2 {
+  font-weight: 600;
+  font-variation-settings: 'opsz' 14;
+  letter-spacing: -0.005em;
+}
+
 /* Thin rule between sections */
 .section-rule {
   border-top: 1px solid #cfc6b6;
