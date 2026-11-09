@@ -18,9 +18,9 @@ export default function HacSubnav() {
         : pathname.startsWith(href.replace(/\/$/, ""));
 
   return (
-    <div className="bg-navy-dark border-b border-white/10 print:hidden">
+    <div className="bg-navy-dark border-b border-ink/10 print:hidden">
       <div className="max-w-7xl mx-auto px-4 flex items-center gap-6 overflow-x-auto">
-        <Link href="/hac/" className="font-body text-[11px] font-semibold uppercase tracking-[0.15em] text-orange py-3 whitespace-nowrap">
+        <Link href="/hac/" className="font-body text-[13px] font-semibold uppercase tracking-[0.15em] text-orange py-3 whitespace-nowrap">
           Healthcare Advisory Committee
         </Link>
         {links.map((l) => (
@@ -28,7 +28,7 @@ export default function HacSubnav() {
             key={l.href}
             href={l.href}
             className={`font-body text-sm py-3 whitespace-nowrap border-b-2 transition-colors ${
-              active(l.href) ? "text-cream border-orange" : "text-cream/60 border-transparent hover:text-cream"
+              active(l.href) ? "text-cream border-orange" : "text-cream border-transparent hover:text-cream"
             }`}
           >
             {l.label}

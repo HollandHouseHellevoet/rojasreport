@@ -24,7 +24,7 @@ export default function TimelinePage() {
 
       <div className="relative mt-12 max-w-3xl mx-auto">
         {/* Vertical line */}
-        <div className="absolute left-6 top-0 bottom-0 w-px bg-white/10" aria-hidden="true" />
+        <div className="absolute left-6 top-0 bottom-0 w-px bg-ink/10" aria-hidden="true" />
 
         <ol className="space-y-0">
           {timeline.map((entry, i) => {
@@ -37,22 +37,22 @@ export default function TimelinePage() {
                   className={`absolute left-4 top-1 w-5 h-5 rounded-full border-2 ${
                     isKeyYear
                       ? 'bg-orange border-orange'
-                      : 'bg-navy border-white/30'
+                      : 'bg-navy border-ink/30'
                   }`}
                   aria-hidden="true"
                 />
 
                 {/* Year */}
                 <time
-                  className={`block font-display text-2xl font-bold ${
-                    isKeyYear ? 'text-orange' : 'text-cream/70'
+                  className={`block font-display text-2xl ${
+                    isKeyYear ? 'text-orange' : 'text-cream'
                   }`}
                 >
                   {entry.year}
                 </time>
 
                 {/* Event */}
-                <p className="mt-2 font-body text-sm text-cream/60 leading-relaxed max-w-2xl">
+                <p className="mt-2 font-body text-sm text-cream leading-relaxed max-w-2xl">
                   {entry.event}
                 </p>
               </li>
@@ -64,10 +64,10 @@ export default function TimelinePage() {
       {/* Closing */}
       <div className="mt-16 max-w-3xl mx-auto text-center">
         <blockquote className="pl-5 border-l-[3px] border-orange text-left">
-          <p className="font-display text-xl text-cream/80 italic">
+          <p className="font-prose text-xl text-cream italic">
             They didn&apos;t prove waste. They proved access.
           </p>
-          <cite className="block mt-2 font-body text-xs text-cream/40 not-italic">
+          <cite className="block mt-2 font-body text-xs text-cream not-italic">
             The Rojas Report, on Roemer&apos;s Law
           </cite>
         </blockquote>

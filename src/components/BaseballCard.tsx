@@ -61,7 +61,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
 
   return (
     <section
-      className="bg-navy-dark border-2 border-white/10 baseball-card relative"
+      className="bg-navy-dark border-2 border-ink/10 baseball-card relative"
       aria-label={`${state.state} intelligence summary card`}
     >
       <div className="max-w-content mx-auto px-6 py-8">
@@ -69,36 +69,36 @@ export default function BaseballCard({ state }: BaseballCardProps) {
         <div className="flex items-start justify-between gap-4 flex-wrap">
           <div>
             <IntelligencePill>Certificate of Need Intelligence</IntelligencePill>
-            <h2 className="mt-3 font-display font-bold text-cream leading-none">
+            <h2 className="mt-3 font-display text-cream leading-none">
               {state.state}
             </h2>
           </div>
           <div className="text-right">
             <div className="font-display text-stat text-orange leading-none">
-              {state.score}<span className="text-cream/30 text-2xl">/100</span>
+              {state.score}<span className="text-cream text-2xl">/100</span>
             </div>
-            <p className="mt-1 font-body text-xs font-semibold text-cream/60 tracking-wide uppercase">
+            <p className="mt-1 font-body text-xs font-semibold text-cream tracking-wide uppercase">
               {state.tier}
             </p>
           </div>
         </div>
 
         {/* Divider */}
-        <div className="mt-6 border-t border-white/10" />
+        <div className="mt-6 border-t border-ink/10" />
 
         {/* Top-line facts */}
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
           <div>
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Year Enacted</p>
-            <p className="mt-1 font-display text-xl text-cream font-bold">{yearEnacted}</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">Year Enacted</p>
+            <p className="mt-1 font-tight font-semibold tabular-nums text-xl text-cream">{yearEnacted}</p>
           </div>
           <div>
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Services Regulated</p>
-            <p className="mt-1 font-display text-xl text-cream font-bold">{servicesCount}</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">Services Regulated</p>
+            <p className="mt-1 font-tight font-semibold tabular-nums text-xl text-cream">{servicesCount}</p>
           </div>
           <div>
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">National Rank</p>
-            <p className="mt-1 font-display text-xl text-cream font-bold">{state.rank} of 51</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">National Rank</p>
+            <p className="mt-1 font-tight font-semibold tabular-nums text-xl text-cream">{state.rank} of 51</p>
           </div>
         </div>
 
@@ -107,7 +107,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
           <div className={`grid gap-6 mt-6 ${state.key_systems?.length && topInsurer ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1'}`}>
             {state.key_systems && state.key_systems.length > 0 && (
               <div>
-                <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Top Systems</p>
+                <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">Top Systems</p>
                 <ul className="mt-2 space-y-1">
                   {state.key_systems.slice(0, 3).map((s, i) => (
                     <li key={i} className="flex justify-between gap-3 font-body text-sm">
@@ -120,7 +120,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
             )}
             {topInsurer && (
               <div>
-                <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Dominant Insurer</p>
+                <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">Dominant Insurer</p>
                 <p className="mt-2 font-body text-sm text-cream">{topInsurer}</p>
               </div>
             )}
@@ -130,21 +130,21 @@ export default function BaseballCard({ state }: BaseballCardProps) {
         {/* Market Concentration */}
         {hhi && (
           <div className="mt-6">
-            <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Market Concentration</p>
-            <p className="mt-2 font-body text-sm text-cream/80">{hhi}</p>
+            <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">Market Concentration</p>
+            <p className="mt-2 font-body text-sm text-cream">{hhi}</p>
           </div>
         )}
 
         {/* Reform Status */}
         <div className="mt-6">
-          <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Reform Status</p>
-          <p className="mt-2 font-body text-sm text-cream/80">{reform}</p>
+          <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">Reform Status</p>
+          <p className="mt-2 font-body text-sm text-cream">{reform}</p>
         </div>
 
         {/* Key Case */}
         <div className="mt-6">
-          <p className="font-body text-[11px] font-semibold uppercase tracking-wider text-cream/40">Key Case</p>
-          <p className="mt-2 font-body text-sm text-cream/80">{caseText}</p>
+          <p className="font-body text-[13px] font-semibold uppercase tracking-wider text-cream">Key Case</p>
+          <p className="mt-2 font-body text-sm text-cream">{caseText}</p>
         </div>
 
         {/* Actions: 2x2 on mobile, inline on desktop */}
@@ -158,19 +158,19 @@ export default function BaseballCard({ state }: BaseballCardProps) {
           </a>
           <button
             onClick={copyShareLink}
-            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream border border-ink/20 hover:text-cream hover:border-ink/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Share
           </button>
           <Link
             href={`/compare/?states=${state.abbreviation}`}
-            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream border border-ink/20 hover:text-cream hover:border-ink/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Compare
           </Link>
           <button
             onClick={() => window.print()}
-            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream/70 border border-white/20 hover:text-cream hover:border-white/40 px-4 py-2.5 transition-colors rounded-sm"
+            className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream border border-ink/20 hover:text-cream hover:border-ink/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Print
           </button>

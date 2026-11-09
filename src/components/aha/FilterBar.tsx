@@ -15,7 +15,7 @@ export default function FilterBar({ roleFilter, sortBy, onRoleChange, onSortChan
   ];
 
   const btnBase = "font-body px-4 py-1.5 text-sm rounded-full border transition-colors";
-  const active = "bg-orange text-navy border-orange font-semibold";
+  const active = "bg-oxblood text-paper border-orange font-semibold";
   const inactive = "bg-transparent text-cream border-cream/30 hover:border-orange hover:text-orange";
 
   return (

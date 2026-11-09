@@ -24,7 +24,7 @@ export default function ScopeChecklist({ parsedScope, rawScope }: ScopeChecklist
             <span className="mt-0.5 w-4 h-4 flex-shrink-0 flex items-center justify-center bg-orange/20 text-orange text-xs font-bold">
               &#x2713;
             </span>
-            <span className="font-body text-sm text-cream/70 leading-relaxed">
+            <span className="font-body text-sm text-cream leading-relaxed">
               {item}
             </span>
           </li>

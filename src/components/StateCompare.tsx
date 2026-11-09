@@ -144,7 +144,7 @@ export default function StateCompare({ allStates }: StateCompareProps) {
             key={i}
             value={selected[i]}
             onChange={e => handleSelect(i, e.target.value)}
-            className="bg-navy-dark border border-white/20 text-cream text-sm px-3 py-2 font-body focus:border-orange focus:outline-none min-w-[180px]"
+            className="bg-navy-dark border border-ink/20 text-cream text-sm px-3 py-2 font-body focus:border-orange focus:outline-none min-w-[180px]"
             aria-label={`Select state ${i + 1}`}
           >
             <option value="">Select state {i + 1}...</option>
@@ -160,8 +160,8 @@ export default function StateCompare({ allStates }: StateCompareProps) {
         <div className="overflow-x-auto">
           <table className="w-full text-left border-collapse">
             <thead className="sticky top-0 bg-navy z-10">
-              <tr className="border-b border-white/20">
-                <th scope="col" className="py-4 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream/40 min-w-[160px]">
+              <tr className="border-b border-ink/20">
+                <th scope="col" className="py-4 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream min-w-[160px]">
                   Dimension
                 </th>
                 {selectedStates.map(s => (
@@ -169,7 +169,7 @@ export default function StateCompare({ allStates }: StateCompareProps) {
                     <Link href={`/states/${s.slug}/`} className="hover:text-orange transition-colors">
                       {s.state}
                     </Link>
-                    <span className="block font-body text-xs text-cream/40 font-normal mt-0.5">
+                    <span className="block font-body text-xs text-cream font-normal mt-0.5">
                       {s.score}/100 &middot; {s.tier}
                     </span>
                   </th>
@@ -178,12 +178,12 @@ export default function StateCompare({ allStates }: StateCompareProps) {
             </thead>
             <tbody>
               {COMPARE_ROWS.map((row, i) => (
-                <tr key={row.label} className={`border-b border-white/5 ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}>
-                  <td className="py-4 px-4 font-body text-sm font-semibold text-cream/60 align-top">
+                <tr key={row.label} className={`border-b border-ink/5 ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}>
+                  <td className="py-4 px-4 font-body text-sm font-semibold text-cream align-top">
                     {row.label}
                   </td>
                   {selectedStates.map(s => (
-                    <td key={s.slug} className="py-4 px-4 font-body text-base text-cream/80 align-top max-w-[320px] leading-relaxed">
+                    <td key={s.slug} className="py-4 px-4 font-body text-base text-cream align-top max-w-[320px] leading-relaxed">
                       {row.getValue(s)}
                     </td>
                   ))}
@@ -193,8 +193,8 @@ export default function StateCompare({ allStates }: StateCompareProps) {
           </table>
         </div>
       ) : (
-        <div className="border border-white/10 p-10 text-center">
-          <p className="font-body text-cream/40">
+        <div className="border border-ink/10 p-10 text-center">
+          <p className="font-body text-cream">
             Select up to 3 states above to compare their CON profiles side by side.
           </p>
         </div>

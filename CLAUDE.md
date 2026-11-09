@@ -2,13 +2,19 @@
 
 Next 14 static export, React 18, Tailwind v3. Code in `src/app`, alias `@/*` to `./src/*`. Build: `npm run build`, output in `out/`. Netlify project "therojasreport"; pull requests get a deploy preview.
 
+## Redesign (branch `redesign`, November 2026)
+
+The controlling document for the site is `docs/BUILD_BRIEF.md` (Dutch Rojas, November 6, 2026). The Machine Score spec is `docs/MACHINE_SCORE_DRAFT.md`. The approved mockups are the four artboards in `docs/mockups/` (home, health system profile, state dossier, committee dossier); where a mockup and the brief disagree, the brief wins. Build from these, not from the old look (navy, orange, Cormorant) or old plans. Hard rules in the brief: no invented numbers, every figure labeled reported or estimated with a source and an as-of date, client work stays out, never "donate," membership by application and never say anyone is excluded.
+
 ## Who merges
 
 Dutch Rojas merges and deploys. Never merge, never deploy, never enable auto-merge. Open a pull request and send the deploy-preview link.
 
 ## Site structure
 
-Six sections, each a landing page that groups desks: `/washington/`, `/lobby/`, `/systems/`, `/fights/`, `/states/`, `/physicians/`. Desks keep flat, permanent URLs (`/aha/`, `/con/`, `/academic/`). The desk list and each desk's live or planned status is `src/data/home/sections.json`; the home-page Fights tracker is `src/data/home/fights.json`; helpers in `src/lib/home.ts`.
+Seven sections (docs/DECISIONS.md decision 5), each a landing page that groups desks: `/drivers/`, `/states/`, `/systems/`, `/carriers/`, `/physician-owned/`, `/government/`, `/lobby/`. Reports & Data (`/reports/`) and Support (`/support/`) sit in the utility bar. The nav is `src/lib/nav.ts`; the shell is `src/components/Header.tsx` (one header site-wide: ink utility bar, boxed mark, section nav; Alliance-style layout Dutch chose 2026-11-09) and `Footer.tsx`. Desks keep flat, permanent URLs (`/aha/`, `/con/`, `/academic/`, `/fah/`, `/hac/`). The desk list, each desk's live or planned status and each section's band color is `src/data/home/sections.json`; the home-page Fights tracker is `src/data/home/fights.json`; helpers in `src/lib/home.ts`. The retired section URLs redirect in `public/_redirects`.
+
+Design tokens are in `tailwind.config.ts` (the brief's names: paper, paper-2, ink, oxblood, green, muted, body, hairline, gold). The legacy names (navy, cream, orange, ...) are aliases so desks built before the redesign render inside the shell; new code uses the brief's names only. Desks rebuilt into the brief's templates drop the aliases as they go.
 
 Four page templates cover every desk: person dossier (model: `/aha/profiles/`), institution dossier, roster, fight page.
 

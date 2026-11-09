@@ -12,11 +12,11 @@ export default function SectionHeader({ number, label, title, subtitle, as = 'h2
     <div className="mb-6">
       <div className="flex items-baseline gap-4 mb-2 flex-wrap">
         {number && (
-          <span className="font-display text-4xl sm:text-5xl font-bold text-orange leading-none">
+          <span className="font-display text-4xl sm:text-5xl text-orange leading-none">
             {number}
           </span>
         )}
-        <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream/40">
+        <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream">
           {label}
         </span>
       </div>
@@ -24,7 +24,7 @@ export default function SectionHeader({ number, label, title, subtitle, as = 'h2
         {title}
       </Heading>
       {subtitle && (
-        <p className="mt-2 font-body text-cream/50 leading-relaxed max-w-[720px]">
+        <p className="mt-2 font-body text-cream leading-relaxed max-w-[720px]">
           {subtitle}
         </p>
       )}

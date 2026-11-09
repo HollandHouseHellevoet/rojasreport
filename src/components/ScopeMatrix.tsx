@@ -83,18 +83,18 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
         <select
           value={tierFilter}
           onChange={(e) => setTierFilter(e.target.value)}
-          className="bg-navy-dark border border-white/20 text-cream px-3 py-2 font-body focus:border-orange focus:outline-none"
+          className="bg-navy-dark border border-ink/20 text-cream px-3 py-2 font-body focus:border-orange focus:outline-none"
           aria-label="Filter by tier"
         >
           {TIER_OPTIONS.map(t => <option key={t} value={t}>{t}</option>)}
         </select>
-        <div className="flex border border-white/20">
+        <div className="flex border border-ink/20">
           {(['score', 'total', 'state'] as const).map(s => (
             <button
               key={s}
               onClick={() => setSortBy(s)}
               className={`px-3 py-2 font-body text-sm font-semibold capitalize transition-colors ${
-                sortBy === s ? 'bg-orange text-white' : 'text-cream/60 hover:text-cream'
+                sortBy === s ? 'bg-oxblood text-paper' : 'text-cream hover:text-cream'
               }`}
             >
               {s === 'total' ? 'Total' : s === 'score' ? 'Score' : 'A-Z'}
@@ -109,7 +109,7 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
             Clear filter: {COLUMN_LABELS[categoryFilter] || categoryFilter} &times;
           </button>
         )}
-        <span className="self-center font-body text-sm text-cream/30">
+        <span className="self-center font-body text-sm text-cream">
           {filtered.length} state{filtered.length !== 1 ? 's' : ''}
         </span>
       </div>
@@ -121,13 +121,13 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
             <tr>
               <th
                 scope="col"
-                className="sticky left-0 bg-navy z-20 py-3 px-4 font-body text-sm font-bold text-cream/50 text-left align-bottom border-b border-white/20 min-w-[160px]"
+                className="sticky left-0 bg-navy z-20 py-3 px-4 font-body text-sm font-bold text-cream text-left align-bottom border-b border-ink/20 min-w-[160px]"
               >
                 State
               </th>
               <th
                 scope="col"
-                className="py-3 px-2 font-body text-sm font-bold text-cream/50 text-center align-bottom border-b border-white/20 min-w-[50px]"
+                className="py-3 px-2 font-body text-sm font-bold text-cream text-center align-bottom border-b border-ink/20 min-w-[50px]"
               >
                 Score
               </th>
@@ -137,13 +137,13 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
                   <th
                     key={cat}
                     scope="col"
-                    className={`relative py-3 px-1 border-b border-white/20 min-w-[48px] cursor-pointer select-none align-bottom ${isActive ? 'bg-orange/10' : ''}`}
+                    className={`relative py-3 px-1 border-b border-ink/20 min-w-[48px] cursor-pointer select-none align-bottom ${isActive ? 'bg-orange/10' : ''}`}
                     onClick={() => handleColumnClick(cat)}
                     title={`Click to filter: ${COLUMN_LABELS[cat] || cat}`}
                   >
                     <div className="h-[100px] flex items-end justify-center">
                       <span
-                        className={`block font-body text-xs font-bold tracking-wide whitespace-nowrap origin-bottom-left ${isActive ? 'text-orange' : 'text-cream/40'}`}
+                        className={`block font-body text-xs font-bold tracking-wide whitespace-nowrap origin-bottom-left ${isActive ? 'text-orange' : 'text-cream'}`}
                         style={{ transform: 'rotate(-45deg)', transformOrigin: 'center' }}
                       >
                         {COLUMN_LABELS[cat] || cat}
@@ -154,12 +154,12 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
               })}
               <th
                 scope="col"
-                className="py-3 px-2 font-body text-sm font-bold text-cream/50 text-center align-bottom border-b border-white/20 min-w-[50px] cursor-pointer"
+                className="py-3 px-2 font-body text-sm font-bold text-cream text-center align-bottom border-b border-ink/20 min-w-[50px] cursor-pointer"
                 onClick={() => setSortBy('total')}
               >
                 <div className="h-[100px] flex items-end justify-center">
                   <span
-                    className={`block font-body text-xs font-bold tracking-wide whitespace-nowrap ${sortBy === 'total' ? 'text-orange' : 'text-cream/40'}`}
+                    className={`block font-body text-xs font-bold tracking-wide whitespace-nowrap ${sortBy === 'total' ? 'text-orange' : 'text-cream'}`}
                     style={{ transform: 'rotate(-45deg)', transformOrigin: 'center' }}
                   >
                     Total
@@ -174,10 +174,10 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
               return (
                 <tr
                   key={row.abbreviation}
-                  className={`border-b border-white/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
+                  className={`border-b border-ink/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
                   style={{ height: '48px' }}
                 >
-                  <td className="sticky left-0 bg-navy z-10 py-2 px-4 border-r border-white/5">
+                  <td className="sticky left-0 bg-navy z-10 py-2 px-4 border-r border-ink/5">
                     <Link
                       href={`/states/${row.slug}/`}
                       className="font-body text-base font-bold text-cream hover:text-orange transition-colors"
@@ -186,7 +186,7 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
                     </Link>
                   </td>
                   <td className="py-2 px-2 text-center">
-                    <span className="font-body text-base font-bold text-cream/60">
+                    <span className="font-body text-base font-bold text-cream">
                       {row.score}
                     </span>
                   </td>
@@ -200,7 +200,7 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
                         aria-label={`${row.state} ${regulated ? 'regulates' : 'does not regulate'} ${COLUMN_LABELS[cat]}`}
                       >
                         <div
-                          className={`mx-auto w-7 h-7 rounded-sm ${regulated ? 'bg-orange' : 'bg-white/5'}`}
+                          className={`mx-auto w-7 h-7 rounded-sm ${regulated ? 'bg-orange' : 'bg-ink/5'}`}
                         />
                       </td>
                     );
@@ -209,7 +209,7 @@ export default function ScopeMatrix({ rows, categories }: ScopeMatrixProps) {
                     <span className="font-body text-base font-bold text-orange">
                       {total}
                     </span>
-                    <span className="font-body text-xs text-cream/30">/9</span>
+                    <span className="font-body text-xs text-cream">/9</span>
                   </td>
                 </tr>
               );

@@ -81,25 +81,25 @@ export default function PatternAnalysis() {
     <article className="py-12 sm:py-20 px-4">
       <div className="max-w-5xl mx-auto">
         <Label className="mb-3">Washington · {committee.name}</Label>
-        <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] font-bold text-cream mb-4">Pattern analysis</h1>
-        <p className="font-display text-xl sm:text-2xl text-cream/70 mb-2">Who the committee serves</p>
+        <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream mb-4">Pattern analysis</h1>
+        <p className="font-tight font-bold tracking-[-0.015em] text-[20px] sm:text-[22px] text-cream mb-2">Who the committee serves</p>
         <p className="font-body text-sm text-muted mb-12">Record as of {fmtDate(committee.asOf)}</p>
 
         <section className="mb-16" aria-label="Sector representation">
           <Label className="mb-3">01 · Sector representation</Label>
-          <h2 className="font-display text-2xl sm:text-[32px] text-cream font-semibold mb-8">All {committee.memberCount} members mapped</h2>
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-8">All {committee.memberCount} members mapped</h2>
           <div className="space-y-6">
             {sectorMap.map((g) => (
               <div key={g.sector} className="bg-navy-light border-t-2 border-orange p-5 sm:p-6">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="font-body text-sm font-semibold text-orange uppercase tracking-wider">{g.sector}</h3>
-                  <span className="font-display text-2xl font-bold text-cream">{g.members.length}</span>
+                  <span className="font-display text-2xl text-cream">{g.members.length}</span>
                 </div>
                 <div className="space-y-2">
                   {g.members.map((m) => (
                     <div key={m.slug} className="flex items-center justify-between gap-4">
                       <Link href={`/hac/members/${m.slug}/`} className="font-body text-sm text-cream hover:text-orange transition-colors">{m.name}</Link>
-                      <span className="font-body text-xs text-cream/50 text-right">{m.org}</span>
+                      <span className="font-body text-xs text-cream text-right">{m.org}</span>
                     </div>
                   ))}
                 </div>
@@ -110,12 +110,12 @@ export default function PatternAnalysis() {
 
         <section className="mb-16" aria-label="Focus areas">
           <Label className="mb-3">02 · Focus areas</Label>
-          <h2 className="font-display text-2xl sm:text-[32px] text-cream font-semibold mb-8">Who benefits from each stated focus area</h2>
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-8">Who benefits from each stated focus area</h2>
           <div className="space-y-4">
             {focusAreas.map((f) => (
-              <div key={f.area} className="bg-navy-dark border border-white/10 p-5 sm:p-6">
-                <h3 className="font-display text-xl text-orange font-semibold mb-2">{f.area}</h3>
-                <p className="font-body text-sm text-cream/75 leading-relaxed">{f.beneficiaries}</p>
+              <div key={f.area} className="bg-navy-dark border border-ink/10 p-5 sm:p-6">
+                <h3 className="font-tight font-bold tracking-[-0.015em] text-[20px] text-orange mb-2">{f.area}</h3>
+                <p className="font-body text-sm text-cream leading-relaxed">{f.beneficiaries}</p>
               </div>
             ))}
           </div>
@@ -123,11 +123,11 @@ export default function PatternAnalysis() {
 
         <section className="mb-16" aria-label="Structural gaps">
           <Label className="mb-3">03 · Structural gaps</Label>
-          <h2 className="font-display text-2xl sm:text-[32px] text-cream font-semibold mb-8">Who is not at the table</h2>
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-8">Who is not at the table</h2>
           <div className="bg-navy-light border-l-4 border-orange p-6 sm:p-8">
             <ul className="space-y-3">
               {committee.notAtTable.map((item) => (
-                <li key={item} className="font-body text-sm text-cream/80 flex items-start gap-3"><span className="text-orange mt-0.5 text-lg">&times;</span>{item}</li>
+                <li key={item} className="font-body text-sm text-cream flex items-start gap-3"><span className="text-orange mt-0.5 text-lg">&times;</span>{item}</li>
               ))}
             </ul>
           </div>
@@ -135,12 +135,12 @@ export default function PatternAnalysis() {
 
         <section id="poh" className="mb-16" aria-label="Physician-owned hospitals">
           <Label className="mb-3">04 · Physician-owned hospitals</Label>
-          <h2 className="font-display text-2xl sm:text-[32px] text-cream font-semibold mb-8">Members with a direct stake in the ban</h2>
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-8">Members with a direct stake in the ban</h2>
           <div className="space-y-4">
             {pohMembers.map((p) => (
               <div key={p.slug} className="bg-navy-light border-l-4 border-orange p-5 sm:p-6">
                 <Link href={`/hac/members/${p.slug}/`} className="font-body text-orange hover:text-orange-light font-semibold transition-colors">{p.name}</Link>
-                <p className="font-body text-sm text-cream/75 mt-2 leading-relaxed">{p.detail}</p>
+                <p className="font-body text-sm text-cream mt-2 leading-relaxed">{p.detail}</p>
               </div>
             ))}
           </div>
@@ -148,12 +148,12 @@ export default function PatternAnalysis() {
 
         <section className="mb-16" aria-label="The dominant gravity">
           <Label className="mb-3">05 · The dominant gravity</Label>
-          <h2 className="font-display text-2xl sm:text-[32px] text-cream font-semibold mb-8">Structural conclusion</h2>
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-8">Structural conclusion</h2>
           <div className="bg-navy-dark border border-orange/30 p-6 sm:p-8 space-y-4">
-            <p className="font-body text-cream/85 leading-relaxed">The center of gravity is Medicare Advantage and value-based care. At least 10 of 18 members have a direct financial interest in Medicare Advantage rates, value-based contracts, or the claims infrastructure that processes them.</p>
-            <p className="font-body text-cream/85 leading-relaxed">The hospital bloc (Gassen, Laraway, Liljenquist) runs systems with more than $45 billion in combined revenue. The 2027 AHA chairman sits beside the CFO of Cleveland Clinic and the chief strategist of Intermountain. All three systems benefit from the Section 6001 ban on physician-owned hospitals.</p>
-            <p className="font-body text-cream/85 leading-relaxed">The value-based care corridor (Bessler, Carmouche, Fields) runs companies whose revenue depends on Medicare Advantage risk adjustment and CMS payment innovation. Bessler&apos;s company was founded by Rubicon Founders investors, among them the current and a former head of the CMS Innovation Center.</p>
-            <p className="font-body text-cream/85 leading-relaxed">No member represents independent physician practice. No member represents physician-owned hospitals. No member has publicly backed Section 6001 reform. The charter names &ldquo;Medicare Advantage sustainability&rdquo; as a priority, and the roster is built to sustain it.</p>
+            <p className="font-body text-cream leading-relaxed">The center of gravity is Medicare Advantage and value-based care. At least 10 of 18 members have a direct financial interest in Medicare Advantage rates, value-based contracts, or the claims infrastructure that processes them.</p>
+            <p className="font-body text-cream leading-relaxed">The hospital bloc (Gassen, Laraway, Liljenquist) runs systems with more than $45 billion in combined revenue. The 2027 AHA chairman sits beside the CFO of Cleveland Clinic and the chief strategist of Intermountain. All three systems benefit from the Section 6001 ban on physician-owned hospitals.</p>
+            <p className="font-body text-cream leading-relaxed">The value-based care corridor (Bessler, Carmouche, Fields) runs companies whose revenue depends on Medicare Advantage risk adjustment and CMS payment innovation. Bessler&apos;s company was founded by Rubicon Founders investors, among them the current and a former head of the CMS Innovation Center.</p>
+            <p className="font-body text-cream leading-relaxed">No member represents independent physician practice. No member represents physician-owned hospitals. No member has publicly backed Section 6001 reform. The charter names &ldquo;Medicare Advantage sustainability&rdquo; as a priority, and the roster is built to sustain it.</p>
           </div>
         </section>
 

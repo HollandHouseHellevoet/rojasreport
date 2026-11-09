@@ -12,9 +12,9 @@ export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
       <p className="text-xs text-orange uppercase tracking-widest font-body mb-4">About This Site</p>
-      <h1 className="font-display text-4xl font-semibold text-cream mb-10">About the AHA Dossiers</h1>
+      <h1 className="font-display text-[40px] md:text-[44px] text-cream mb-10">About the AHA Dossiers</h1>
 
-      <div className="space-y-8 font-body leading-relaxed" style={{ fontSize: "17px", color: "#c8b89a" }}>
+      <div className="space-y-8 font-body leading-relaxed" style={{ fontSize: "17px", color: "#1C1B19" }}>
 
         <p>
           The American Hospital Association is among the twenty largest lobbying operations in Washington.
@@ -35,7 +35,7 @@ export default function AboutPage() {
 
         <div className="border-l-4 border-orange pl-6 py-2 my-8"
           style={{ backgroundColor: "rgba(212,98,42,0.06)" }}>
-          <p className="font-display italic text-cream" style={{ fontSize: "1.25rem" }}>
+          <p className="font-prose italic text-cream" style={{ fontSize: "1.25rem" }}>
             {CURRENT_COUNT} individuals. Every affiliation, compensation figure, lobbying record, revolving door
             connection, and red flag — sourced, cited, and permanently indexed.
           </p>
@@ -65,7 +65,7 @@ export default function AboutPage() {
           and documented conduct actually looks like in dollar terms.
         </p>
 
-        <p style={{ color: "#8a9bb0" }}>
+        <p style={{ color: "#1C1B19" }}>
           The AHA dossiers are published by{" "}
           <a
             href="https://rojasreport.com"

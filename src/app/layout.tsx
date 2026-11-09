@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
-import Nav from '@/components/Nav';
+import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import PrintHeader from '@/components/PrintHeader';
 import { siteJsonLd } from '@/lib/seo';
 import './globals.css';
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s | The Rojas Report',
   },
   description:
-    'Healthcare intelligence: who writes the rules, who buys the outcome, who gets paid, and where every fight over American healthcare stands. Sourced to public records.',
+    'Why healthcare costs what it does, who profits, and how physicians take it back. Every figure sourced to public records.',
   metadataBase: new URL('https://rojasreport.com'),
   openGraph: {
     images: [{ url: '/og/home.svg', width: 1200, height: 630 }],
@@ -30,20 +31,21 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,wght@0,400..700;1,400..700&family=Inter+Tight:wght@600..800&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="bg-navy text-cream font-body antialiased min-h-screen flex flex-col">
+      <body className="bg-paper text-ink font-body antialiased min-h-screen flex flex-col">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
-        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-orange focus:text-white focus:px-4 focus:py-2">
+        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-oxblood focus:text-paper focus:px-4 focus:py-2">
           Skip to content
         </a>
-        <Nav />
+        <Header />
         <main id="main" className="flex-1">
+          <PrintHeader />
           {children}
         </main>
         <Footer />

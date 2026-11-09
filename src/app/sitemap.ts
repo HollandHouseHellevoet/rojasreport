@@ -4,6 +4,9 @@ import ahaProfiles from '@/data/aha/profiles.json';
 import hacMembers from '@/data/hac/members.json';
 import fahBoard from '@/data/fah/board.json';
 import fahPillars from '@/data/fah/pillars.json';
+import { systems } from '@/lib/systems';
+import { stateDossiers } from '@/lib/stateDossiers';
+import { committees } from '@/lib/committees';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://rojasreport.com';
@@ -13,12 +16,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 1.0 },
     { url: `${baseUrl}/con/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${baseUrl}/academic/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${baseUrl}/washington/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/lobby/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/systems/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/fights/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/drivers/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${baseUrl}/states/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
-    { url: `${baseUrl}/physicians/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/systems/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/carriers/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 },
+    { url: `${baseUrl}/physician-owned/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/government/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/lobby/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/tracker/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/reports/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/support/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
     { url: `${baseUrl}/rankings/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
     { url: `${baseUrl}/scope/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/compare/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
@@ -26,16 +33,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/reform/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
     { url: `${baseUrl}/outcomes/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
     { url: `${baseUrl}/timeline/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
-    { url: `${baseUrl}/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
+    { url: `${baseUrl}/methodology/subsidy-ledger/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology/state-grade/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/methodology/machine-score/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
+    { url: `${baseUrl}/con/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
   ];
+
+  const systemPages = systems.map((s) => ({
+    url: `${baseUrl}/systems/${s.slug}/`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.9,
+  }));
 
   const stateSlugs = getAllStateSlugs();
   const statePages = stateSlugs.map(slug => ({
     url: `${baseUrl}/states/${slug}/`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
-    priority: 0.8,
+    priority: stateDossiers.some((d) => d.slug === slug) ? 0.9 : 0.8,
   }));
+  const committeePages = committees.map((c) => ({ url: `${baseUrl}/committees/${c.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 }));
+  // CON desk pages for states whose /states/ URL carries the dossier.
+  const conStatePages = stateDossiers
+    .filter((d) => stateSlugs.includes(d.slug))
+    .map((d) => ({ url: `${baseUrl}/con/${d.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 }));
 
   const ahaBase = 'https://rojasreport.com/aha';
   const ahaPages = [
@@ -72,5 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...(fahPillars as { slug: string }[]).map(p => ({ url: `${fahBase}/pillars/${p.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
   ];
 
-  return [...staticPages, ...statePages, ...ahaPages, ...hacPages, ...fahPages];
+  return [...staticPages,
+    ...systemPages, ...statePages,
+    ...conStatePages, ...committeePages, ...ahaPages, ...hacPages, ...fahPages];
 }

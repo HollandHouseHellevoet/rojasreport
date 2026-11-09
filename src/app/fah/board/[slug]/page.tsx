@@ -31,7 +31,7 @@ function Section({ label, title, children }: { label: string; title?: string; ch
   return (
     <section className="mb-12">
       <Label className="mb-3">{label}</Label>
-      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream font-semibold mb-6">{title}</h2>}
+      {title && <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-6">{title}</h2>}
       {children}
     </section>
   );
@@ -41,7 +41,7 @@ function Bullets({ items }: { items: string[] }) {
   return (
     <ul className="space-y-3">
       {items.map((b, i) => (
-        <li key={i} className="font-body text-sm text-cream/85 flex items-start gap-2"><span className="text-orange mt-0.5">&bull;</span><span>{b}</span></li>
+        <li key={i} className="font-body text-sm text-cream flex items-start gap-2"><span className="text-orange mt-0.5">&bull;</span><span>{b}</span></li>
       ))}
     </ul>
   );
@@ -73,36 +73,36 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
         <FahBreadcrumb trail={[{ href: "/fah/#board", label: "Board" }]} current={m.name} />
 
         <header className="mb-10">
-          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] font-bold text-cream">{m.name}</h1>
-          <p className="font-display italic text-orange text-lg sm:text-xl mt-2">{m.nickname}</p>
-          <p className="font-body text-cream/80 mt-4">{m.title}, {m.company}{m.ticker ? ` (${m.ticker})` : ""}</p>
+          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream">{m.name}</h1>
+          <p className="italic text-orange text-lg sm:text-xl mt-2">{m.nickname}</p>
+          <p className="font-body text-cream mt-4">{m.title}, {m.company}{m.ticker ? ` (${m.ticker})` : ""}</p>
           <div className="flex flex-wrap items-center gap-3 mt-4">
             <span className="inline-block px-3 py-1 text-xs font-body border border-orange/40 text-orange rounded-full">{m.fahRole}</span>
-            <span className="inline-block px-3 py-1 text-xs font-body border border-cream/20 text-cream/70 rounded-full">{m.sector}</span>
-            {m.owner && <span className="font-body text-sm text-cream/50">{m.owner}</span>}
+            <span className="inline-block px-3 py-1 text-xs font-body border border-cream/20 text-cream rounded-full">{m.sector}</span>
+            {m.owner && <span className="font-body text-sm text-cream">{m.owner}</span>}
           </div>
-          <p className="font-body text-muted mt-3" style={{ fontSize: "12px" }}>Last verified {fmtDate(m.lastVerified)}</p>
+          <p className="font-body text-muted mt-3" style={{ fontSize: "13px" }}>Last verified {fmtDate(m.lastVerified)}</p>
           <div className="w-16 h-0.5 bg-orange mt-8" />
         </header>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12 bg-navy-dark border-y border-white/10 py-8 px-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-12 bg-navy-dark border-y border-ink/10 py-8 px-4">
           {m.keyStats.map((s) => (
             <div key={s.label} className="text-center">
-              <p className="font-display text-3xl sm:text-4xl font-bold text-orange">{s.value}</p>
-              <p className="font-body text-xs sm:text-sm text-cream/70 mt-1">{s.label}</p>
+              <p className="font-display text-3xl sm:text-4xl text-orange">{s.value}</p>
+              <p className="font-body text-xs sm:text-sm text-cream mt-1">{s.label}</p>
             </div>
           ))}
         </div>
 
         <Section label="Overview">
-          <p className="font-body text-cream/85 leading-relaxed">{m.overview}</p>
+          <p className="font-body text-cream leading-relaxed">{m.overview}</p>
         </Section>
 
         {m.developments.length > 0 && (
           <Section label="Since April 2026" title="What has changed">
             <ul className="space-y-3">
               {m.developments.map((d) => (
-                <li key={d.url + d.date} className="font-body text-sm text-cream/85 flex items-start gap-3">
+                <li key={d.url + d.date} className="font-body text-sm text-cream flex items-start gap-3">
                   <span className="text-orange whitespace-nowrap">{fmtDate(d.date)}</span>
                   <span>
                     {d.text}{" "}
@@ -158,7 +158,7 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
 
         <Section label="Physician-owned hospitals">
           <div className="bg-navy-dark border border-orange/20 p-6 sm:p-8">
-            <p className="font-body text-cream/85 leading-relaxed">{m.pohRelevance}</p>
+            <p className="font-body text-cream leading-relaxed">{m.pohRelevance}</p>
           </div>
         </Section>
 
@@ -166,9 +166,9 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
           <SourceList sources={m.sources} />
         </Section>
 
-        <nav className="flex justify-between items-center pt-8 border-t border-white/10" aria-label="Board navigation">
-          {prev ? <Link href={`/fah/board/${prev.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors">&larr; {prev.name}</Link> : <div />}
-          {next ? <Link href={`/fah/board/${next.slug}/`} className="font-body text-sm text-cream/60 hover:text-orange transition-colors text-right">{next.name} &rarr;</Link> : <div />}
+        <nav className="flex justify-between items-center pt-8 border-t border-ink/10" aria-label="Board navigation">
+          {prev ? <Link href={`/fah/board/${prev.slug}/`} className="font-body text-sm text-cream hover:text-orange transition-colors">&larr; {prev.name}</Link> : <div />}
+          {next ? <Link href={`/fah/board/${next.slug}/`} className="font-body text-sm text-cream hover:text-orange transition-colors text-right">{next.name} &rarr;</Link> : <div />}
         </nav>
       </div>
     </article>

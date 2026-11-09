@@ -16,7 +16,7 @@ export default function ClassificationBadge({ tier, score, size = 'md' }: Classi
 
   return (
     <span
-      className={`inline-flex items-center gap-1.5 font-body font-bold tracking-wider uppercase text-white ${bg} ${sizeClasses[size]}`}
+      className={`inline-flex items-center gap-1.5 font-body font-bold tracking-wider uppercase text-paper ${bg} ${sizeClasses[size]}`}
     >
       <span>{score}/100</span>
       <span className="opacity-60">|</span>

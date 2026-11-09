@@ -2,61 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Base type and page ground, from docs/BUILD_BRIEF.md section 3. */
 @layer base {
   ::selection {
-    background-color: #d4622a;
-    color: #f7f4ef;
+    background-color: #8e1b1b;
+    color: #f4efe6;
+  }
+
+  html {
+    background-color: #f4efe6;
   }
 
   body {
-    font-size: 18px;
-    line-height: 1.7;
-    background-color: #0f1c2e;
-    background-image:
-      linear-gradient(rgba(255, 255, 255, 0.012) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(255, 255, 255, 0.012) 1px, transparent 1px);
-    background-size: 48px 48px;
-    background-position: center center;
+    font-size: 17px;
+    line-height: 1.55;
+    background-color: #f4efe6;
+    color: #1c1b19;
+    font-family: Inter, system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
   }
 
-  h1 { font-size: 3rem; line-height: 1.1; }
-  h2 { font-size: 2.25rem; line-height: 1.15; }
-  h3 { font-size: 1.5rem; line-height: 1.25; }
+  /* Alliance-style type (Dutch 2026-11-09): Inter Tight for every heading, heavy and tight. */
+  h1, h2 {
+    font-family: "Inter Tight", Inter, system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+  }
+  h1 { font-weight: 800; letter-spacing: -0.035em; }
+  h3, h4 {
+    font-family: "Inter Tight", Inter, system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
+  h1 { font-size: 3.25rem; line-height: 1.05; }
+  h2 { font-size: 2.5rem; line-height: 1.1; }
+  h3 { font-size: 1.5rem; line-height: 1.2; }
 
   @media (max-width: 640px) {
-    body { font-size: 16px; }
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.75rem; }
-    h3 { font-size: 1.25rem; }
+    h1 { font-size: 2.25rem; }
+    h2 { font-size: 2rem; }
+    h3 { font-size: 1.375rem; }
   }
 
-  table { font-size: 1rem; }
+  table { font-size: 1rem; font-variant-numeric: tabular-nums; }
+
+  a { transition: color 120ms ease; }
 }
 
-/* Section divider utility */
+/* Display type is Inter Tight now. Old headings carry font-normal or font-medium from the Bodoni era;
+   this rule (unlayered, after the utilities) makes every display heading bold and tight. */
+.font-display { font-weight: 700; letter-spacing: -0.03em; font-style: normal; }
+h1.font-display { font-weight: 800; letter-spacing: -0.035em; }
+.amc .section-h2 { letter-spacing: -0.03em; }
+/* No italic labels or ledes in the Alliance-style layout; long-form prose keeps its italics. */
+.italic:not(.font-prose) { font-style: normal; }
+
+/* Thin rule between sections */
 .section-rule {
-  border-top: 1px solid rgba(247, 244, 239, 0.08);
+  border-top: 1px solid #cfc6b6;
 }
 
-/* Print stylesheet */
+/* Wide tables scroll inside their own box on phones */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Print stylesheet: "Download (PDF)" buttons call window.print(); the browser saves the page as a PDF. */
 @media print {
-  body {
+  @page { margin: 16mm 14mm; }
+  html, body {
     background: #ffffff !important;
     color: #111 !important;
-    background-image: none !important;
-    font-size: 11pt;
+    font-size: 10.5pt;
+    line-height: 1.45;
   }
-  nav, footer, button, .no-print { display: none !important; }
-  a { color: #111 !important; text-decoration: none !important; }
+  body > header, body > footer, nav, button, .no-print { display: none !important; }
+  main { display: block; }
+  a { color: #111 !important; text-decoration: none !important; border-bottom: 0 !important; }
   a::after { content: ''; }
-  .bg-navy, .bg-navy-dark, .bg-navy-light, .bg-navy-row { background: #fff !important; }
-  .text-cream, .text-cream\/90, .text-cream\/80, .text-cream\/70, .text-cream\/60, .text-cream\/55, .text-cream\/50, .text-cream\/45, .text-cream\/40, .text-cream\/30 { color: #111 !important; }
-  .text-orange { color: #d4622a !important; }
-  .border-white\/10, .border-white\/20, .border-white\/5 { border-color: #ccc !important; }
-  section { page-break-inside: avoid; padding: 1rem 0 !important; }
-  h1, h2, h3 { color: #111 !important; page-break-after: avoid; }
-  table { page-break-inside: auto; }
+  h1 { font-size: 26pt !important; line-height: 1.05 !important; }
+  h2 { font-size: 17pt !important; line-height: 1.1 !important; }
+  h3 { font-size: 13pt !important; line-height: 1.2 !important; }
+  h1, h2, h3 { color: #111 !important; break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  /* Colored bands print on white with ink text */
+  .bg-green, .bg-oxblood, .bg-ink, .bg-paper, .bg-paper-2,
+  .bg-navy, .bg-navy-light, .bg-navy-dark, .bg-navy-row, .bg-card, .bg-card-alt, .bg-dark, .bg-darkest, .bg-redflag-bg { background: #ffffff !important; }
+  .text-paper, .text-green-text, .text-green-text-2, .text-oxblood-text, .text-ink-text, .text-ink-text-2, .text-ink-label,
+  .text-muted, .text-body, .text-oxblood, .text-green, .text-gold, .text-cream, .text-orange, .text-red-brown, .text-redflag { color: #111 !important; }
+  .border-green-rule, .border-oxblood-rule, .border-green-text, .border-hairline, .border-ink, .border-paper { border-color: #999 !important; }
+  .bg-green.text-paper, .bg-oxblood.text-paper { border-top: 1px solid #111; border-bottom: 1px solid #111; }
+  /* Tables fit the sheet */
+  .table-scroll { overflow: visible !important; }
+  table { font-size: 8.5pt !important; min-width: 0 !important; width: 100% !important; page-break-inside: auto; }
   tr { page-break-inside: avoid; page-break-after: auto; }
   thead { display: table-header-group; }
+  /* Generous screen spacing tightens on paper */
+  section > div { padding-top: 10mm !important; padding-bottom: 6mm !important; }
   .baseball-card { page-break-inside: avoid; page-break-after: always; }
 }

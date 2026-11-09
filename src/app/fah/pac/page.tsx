@@ -19,7 +19,7 @@ function Section({ label, title, children }: { label: string; title?: string; ch
   return (
     <section className="mb-14">
       <Label className="mb-3">{label}</Label>
-      {title && <h2 className="font-display text-2xl sm:text-[28px] text-cream font-semibold mb-6">{title}</h2>}
+      {title && <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-6">{title}</h2>}
       {children}
     </section>
   );
@@ -35,13 +35,13 @@ export default function PacPage() {
         <FahBreadcrumb current="PAC" />
         <header className="mb-10">
           <Label className="mb-3">PAC</Label>
-          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] font-bold text-cream mb-4">{P.name}</h1>
-          <p className="font-body text-lg text-cream/80 max-w-2xl">{P.narrative}</p>
+          <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream mb-4">{P.name}</h1>
+          <p className="font-body text-lg text-cream max-w-2xl">{P.narrative}</p>
           <p className="font-body text-sm text-muted mt-3">FEC committee {P.fecId}. Record as of {fmtDate(org.asOf)}.</p>
           <div className="w-16 h-0.5 bg-orange mt-8" />
         </header>
 
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-14 bg-navy-dark border-y border-white/10 py-8 px-4">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-14 bg-navy-dark border-y border-ink/10 py-8 px-4">
           {[
             [c26.receipts, "Raised, 2025-26 cycle"],
             [c26.contributions, "Given to candidates and committees"],
@@ -49,8 +49,8 @@ export default function PacPage() {
             [`${c26.demShare} / ${c26.repShare}`, "Democratic / Republican share"],
           ].map(([v, l]) => (
             <div key={l} className="text-center">
-              <p className="font-display text-2xl sm:text-3xl font-bold text-orange">{v}</p>
-              <p className="font-body text-xs sm:text-sm text-cream/70 mt-1">{l}</p>
+              <p className="font-display text-2xl sm:text-3xl text-orange">{v}</p>
+              <p className="font-body text-xs sm:text-sm text-cream mt-1">{l}</p>
             </div>
           ))}
         </div>
@@ -76,7 +76,7 @@ export default function PacPage() {
         )}
 
         <Section label="03 · The full picture" title="The PAC beside the dark money">
-          <p className="font-body text-cream/85 leading-relaxed">{org.pahcf.narrative}</p>
+          <p className="font-body text-cream leading-relaxed">{org.pahcf.narrative}</p>
         </Section>
 
         <Section label="Sources">

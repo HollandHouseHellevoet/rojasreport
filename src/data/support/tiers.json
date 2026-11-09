@@ -1,0 +1,9 @@
+{
+  "note": "Stripe Payment Links from docs/BUILD_BRIEF.md section 7. Paste each tier's live link into href; null renders the tier without a checkout link. Stripe product descriptions say support or subscription.",
+  "tiers": [
+    { "id": "reader", "name": "Reader", "amount": "$10", "unit": "per month", "primary": false, "href": null },
+    { "id": "patron", "name": "Patron", "amount": "$25", "unit": "per month", "primary": true, "href": null },
+    { "id": "founder", "name": "Founder", "amount": "$100", "unit": "per month", "primary": false, "href": null },
+    { "id": "one-time", "name": "One time", "amount": "Any", "unit": "amount", "primary": false, "href": null }
+  ]
+}

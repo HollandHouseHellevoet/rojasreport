@@ -1,0 +1,7 @@
+# Section URLs retired in the November 2026 redesign
+/washington   /government/       301
+/washington/* /government/:splat 301
+/fights       /drivers/          301
+/fights/*     /drivers/:splat    301
+/physicians   /physician-owned/  301
+/physicians/* /physician-owned/:splat 301

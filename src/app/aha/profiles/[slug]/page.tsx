@@ -70,7 +70,7 @@ function Section({ title, items }: { title: string; items: string[] }) {
   if (!items || items.length === 0) return null;
   return (
     <details className="border border-border mb-3 group" open>
-      <summary className="px-4 py-3 cursor-pointer flex justify-between items-center font-body font-semibold text-cream hover:text-orange transition-colors list-none" style={{ fontSize: "14px" }}>
+      <summary className="px-4 py-3 cursor-pointer flex justify-between items-center font-body font-semibold text-cream hover:text-orange transition-colors list-none" style={{ fontSize: "16px" }}>
         {title}
         <svg className="w-4 h-4 text-muted group-open:rotate-180 transition-transform flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M19 9l-7 7-7-7" />
@@ -80,14 +80,14 @@ function Section({ title, items }: { title: string; items: string[] }) {
         {items.length > 0 ? (
           <ul className="space-y-2 mt-2">
             {items.map((item, i) => (
-              <li key={i} className="font-body text-cream leading-relaxed flex gap-2" style={{ fontSize: "15px" }}>
+              <li key={i} className="font-body text-cream leading-relaxed flex gap-2" style={{ fontSize: "16px" }}>
                 <span className="text-orange mt-0.5 flex-shrink-0">&#8226;</span>
                 {item}
               </li>
             ))}
           </ul>
         ) : (
-          <p className="font-body text-muted italic mt-2" style={{ fontSize: "14px" }}>
+          <p className="font-body text-muted italic mt-2" style={{ fontSize: "16px" }}>
             Not located in available sources.
           </p>
         )}
@@ -155,11 +155,11 @@ export default async function ProfilePage({
         <div className="mb-12 border-b border-border pb-10">
           <div className="flex items-start justify-between flex-wrap gap-4">
             <div>
-              <h1 className="font-display font-semibold text-cream mb-2" style={{ fontSize: "48px" }}>
+              <h1 className="font-display text-cream mb-2" style={{ fontSize: "48px" }}>
                 {profile.name || profile.slug}
               </h1>
               {profile.aha_position && (
-                <p className="font-body text-orange uppercase tracking-widest font-semibold mb-2" style={{ fontSize: "12px", letterSpacing: "0.15em" }}>
+                <p className="font-body text-orange uppercase tracking-widest font-semibold mb-2" style={{ fontSize: "13px", letterSpacing: "0.15em" }}>
                   {profile.status === "former" ? "Former AHA leadership · " : ""}
                   {profile.aha_position}
                 </p>
@@ -170,12 +170,12 @@ export default async function ProfilePage({
                 {profile.organization}
               </p>
               {profile.lastVerified && (
-                <p className="font-body text-muted mt-2" style={{ fontSize: "12px" }}>
+                <p className="font-body text-muted mt-2" style={{ fontSize: "13px" }}>
                   Last verified {new Date(profile.lastVerified + "T12:00:00Z").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric", timeZone: "UTC" })}
                 </p>
               )}
             </div>
-            <span className="bg-orange/15 border border-orange text-orange font-body font-semibold px-5 py-2.5 rounded-full" style={{ fontSize: "15px" }}>
+            <span className="bg-orange/15 border border-orange text-orange font-body font-semibold px-5 py-2.5 rounded-full" style={{ fontSize: "16px" }}>
               {profile.redFlagCount} Red Flags
             </span>
           </div>
@@ -190,7 +190,7 @@ export default async function ProfilePage({
             <Section title="Litigation and Scrutiny" items={profile.litigation} />
             {profile.redFlags.length > 0 && (
               <div className="mt-8 mb-8">
-                <h2 className="font-display font-semibold mb-4" style={{ fontSize: "28px", color: "#d4622a" }}>
+                <h2 className="font-tight font-bold tracking-[-0.015em] mb-4" style={{ fontSize: "24px", color: "#8E1B1B" }}>
                   Red Flags
                 </h2>
                 {profile.redFlags.map((flag, i) => (
@@ -199,18 +199,18 @@ export default async function ProfilePage({
               </div>
             )}
             {profile.patternSummary && (
-              <div className="mt-8 border-l-4 border-orange px-6 py-6" style={{ backgroundColor: "#162636" }}>
-                <p className="font-body text-orange uppercase tracking-widest font-semibold mb-3" style={{ fontSize: "11px", letterSpacing: "0.15em" }}>
+              <div className="mt-8 border-l-4 border-orange px-6 py-6" style={{ backgroundColor: "#ECE5D8" }}>
+                <p className="font-body text-orange uppercase tracking-widest font-semibold mb-3" style={{ fontSize: "13px", letterSpacing: "0.15em" }}>
                   Pattern Summary
                 </p>
-                <p className="font-display italic text-cream leading-relaxed" style={{ fontSize: "24px" }}>
+                <p className="font-prose italic text-cream leading-relaxed" style={{ fontSize: "24px" }}>
                   {profile.patternSummary}
                 </p>
               </div>
             )}
             {profile.sources.length > 0 && (
               <div className="mt-10">
-                <h2 className="font-display text-xl font-semibold text-cream mb-4">Sources and Citations</h2>
+                <h2 className="font-tight font-bold tracking-[-0.015em] text-[20px] text-cream mb-4">Sources and Citations</h2>
                 <ol className="space-y-2">
                   {profile.sources.map((url, i) => (
                     <li key={i} className="flex gap-2">
@@ -229,7 +229,7 @@ export default async function ProfilePage({
               <ShareDossierClient name={profile.name} slug={profile.slug} tweetText={tweetText} />
               {related.length > 0 && (
                 <div className="bg-card border border-border p-4">
-                  <h3 className="font-body text-muted uppercase tracking-widest mb-3" style={{ fontSize: "11px", letterSpacing: "0.15em" }}>
+                  <h3 className="font-body text-muted uppercase tracking-widest mb-3" style={{ fontSize: "13px", letterSpacing: "0.15em" }}>
                     Related Profiles
                   </h3>
                   <ul className="space-y-4">
@@ -237,7 +237,7 @@ export default async function ProfilePage({
                       <li key={r.slug}>
                         <Link href={`/aha/profiles/${r.slug}/`} className="block group">
                           <p className="font-body text-sm text-cream font-semibold group-hover:text-orange transition-colors">{r.name || r.slug}</p>
-                          <p className="font-body text-muted mt-0.5" style={{ fontSize: "12px" }}>{r.redFlagCount} flags</p>
+                          <p className="font-body text-muted mt-0.5" style={{ fontSize: "13px" }}>{r.redFlagCount} flags</p>
                         </Link>
                       </li>
                     ))}

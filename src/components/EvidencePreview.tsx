@@ -23,17 +23,17 @@ export default function EvidencePreview() {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
       {findings.map((f) => (
-        <div key={f.stat} className="border border-white/10 p-5">
+        <div key={f.stat} className="border border-ink/10 p-5">
           <div className="font-display text-stat text-orange">
             {f.stat}
           </div>
           <p className="mt-1 font-body text-sm font-semibold text-cream">
             {f.label}
           </p>
-          <p className="mt-1 font-body text-sm text-cream/50 leading-relaxed">
+          <p className="mt-1 font-body text-sm text-cream leading-relaxed">
             {f.context}
           </p>
-          <p className="mt-3 font-body text-xs text-cream/30">
+          <p className="mt-3 font-body text-xs text-cream">
             {f.source}
           </p>
         </div>

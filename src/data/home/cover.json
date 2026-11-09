@@ -1,10 +1,20 @@
 {
-  "_howTo": "This is the home page cover story. To rotate it, change these fields and publish. image can be a full URL or a path under /public.",
+  "_howTo": "This is the home page cover story. To rotate it, change these fields and publish. image is a path under /public or a full URL; leave it empty to show no picture. stats are up to three big figures from the story itself (value + label); leave the list empty to hide them.",
   "kicker": "The Lobby",
   "headline": "Who Controls American Hospital Policy",
-  "dek": "The American Hospital Association seats a new board on January 1 under a new CEO. Thirty-two people, their pay, their lobbying and their red flags, sourced to public filings.",
+  "dek": "A new AHA board takes its seats on January 1 under a new CEO. We profiled all 32 people: their pay, their lobbying and their red flags, every line sourced to public filings.",
   "href": "/aha/",
   "cta": "Read the AHA dossiers",
-  "image": "https://images.unsplash.com/photo-1501466044931-62695aada8e9?w=1800&q=80",
-  "date": "November 4, 2026"
+  "image": "",
+  "date": "November 4, 2026",
+  "stats": [
+    {
+      "value": "32",
+      "label": "Board members profiled"
+    },
+    {
+      "value": "Jan. 1",
+      "label": "New board seated"
+    }
+  ]
 }
