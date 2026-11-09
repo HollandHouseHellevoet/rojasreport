@@ -1,0 +1,58 @@
+{
+ "desk": "Ways & Means",
+ "builtOn": "2026-11-09",
+ "congress": "119th (2025 to 2026)",
+ "factStatusCounts": {
+  "VERIFIED": 1189,
+  "NOT FOUND": 136,
+  "CHANGED": 77
+ },
+ "headline": {
+  "members": {
+   "field": "committeeMembers",
+   "value": 45,
+   "status": "VERIFIED",
+   "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+   "asOf": "2026-11-03",
+   "old": 45
+  },
+  "republicans": {
+   "field": "republicans",
+   "value": 26,
+   "status": "VERIFIED",
+   "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+   "asOf": "2026-11-03",
+   "old": 26
+  },
+  "democrats": {
+   "field": "democrats",
+   "value": 19,
+   "status": "VERIFIED",
+   "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+   "asOf": "2026-11-03",
+   "old": 19
+  },
+  "healthcareMoney2024": {
+   "field": "healthcarePacMoney2024cycle",
+   "value": 10058350,
+   "status": "CHANGED",
+   "source": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+   "sourceLabel": "FEC bulk data (pas2, cm, cn, ccl), 2024 and 2026 cycles, files retrieved November 8, 2026",
+   "asOf": "2026-11-08",
+   "old": 10996000,
+   "note": "Old: 'Healthcare Money, 2024 cycle contributions' $11.0M on an unreproducible OpenSecrets-labelled basis. New: healthcare PAC contributions (24K) to the 45 members' House committees, 2023 to 2024 cycle, FEC bulk data."
+  },
+  "healthcareMoney2026": {
+   "field": "healthcarePacMoney2026cycle",
+   "value": 9340175,
+   "status": "VERIFIED",
+   "source": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+   "sourceLabel": "FEC bulk data (pas2, cm, cn, ccl), 2024 and 2026 cycles, files retrieved November 8, 2026",
+   "asOf": "FEC files of November 8, 2026; latest transaction 2026-10-14",
+   "note": "New figure; the old site had no 2026-cycle data."
+  }
+ }
+}

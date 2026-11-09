@@ -1,0 +1,3863 @@
+{
+ "source": "https://www.govinfo.gov/bulkdata/BILLSTATUS",
+ "sourceLabel": "GPO govinfo bulk data, bill status XML (Library of Congress data)",
+ "retrieved": "2026-11-09",
+ "count": 89,
+ "bills": [
+  {
+   "congress": 119,
+   "type": "HJRES",
+   "number": 25,
+   "label": "H.J.Res. 25",
+   "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
+   "introducedDate": "2025-01-21",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Carey, Mike [R-OH-15]",
+    "bioguideId": "C001126",
+    "party": "R",
+    "state": "OH"
+   },
+   "latestAction": {
+    "date": "2025-04-10",
+    "text": "Became Public Law No: 119-5."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-5"
+   ],
+   "updateDate": "2026-07-10T15:43:34Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-joint-resolution/25",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HJRES 25 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hjres/BILLSTATUS-119hjres25.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 1,
+   "label": "H.R. 1",
+   "title": "An act to provide for reconciliation pursuant to title II of H. Con. Res. 14.",
+   "introducedDate": "2025-05-20",
+   "policyArea": "Economics and Public Finance",
+   "sponsor": {
+    "name": "Rep. Arrington, Jodey C. [R-TX-19]",
+    "bioguideId": "A000375",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2025-07-04",
+    "text": "Became Public Law No: 119-21."
+   },
+   "committees": [
+    {
+     "name": "Budget Committee",
+     "chamber": "House",
+     "systemCode": "hsbu00",
+     "activities": [
+      "Unknown",
+      "Unknown",
+      "Reported Original Measure"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [
+    "Public Law 119-21"
+   ],
+   "updateDate": "2026-05-08T14:41:30Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/1",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 1 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 227,
+   "label": "H.R. 227",
+   "title": "Clergy Act",
+   "introducedDate": "2025-01-07",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Fong, Vince [R-CA-20]",
+    "bioguideId": "F000480",
+    "party": "R",
+    "state": "CA"
+   },
+   "latestAction": {
+    "date": "2026-10-20",
+    "text": "Became Public Law No: 119-125."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-125"
+   ],
+   "updateDate": "2026-10-29T16:28:12Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/227",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 227 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr227.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 247,
+   "label": "H.R. 247",
+   "title": "Health Care Affordability Act of 2025",
+   "introducedDate": "2025-01-09",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Underwood, Lauren [D-IL-14]",
+    "bioguideId": "U000040",
+    "party": "D",
+    "state": "IL"
+   },
+   "latestAction": {
+    "date": "2025-01-09",
+    "text": "Referred to the House Committee on Ways and Means."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-15T20:41:07Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/247",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 247 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr247.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 498,
+   "label": "H.R. 498",
+   "title": "Do No Harm in Medicaid Act",
+   "introducedDate": "2025-01-16",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Crenshaw, Dan [R-TX-2]",
+    "bioguideId": "C001120",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2025-12-18",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Unknown",
+      "Unknown",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [],
+   "updateDate": "2026-01-22T09:06:06Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/498",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 498 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr498.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 517,
+   "label": "H.R. 517",
+   "title": "Filing Relief for Natural Disasters Act",
+   "introducedDate": "2025-01-16",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Kustoff, David [R-TN-8]",
+    "bioguideId": "K000392",
+    "party": "R",
+    "state": "TN"
+   },
+   "latestAction": {
+    "date": "2025-07-24",
+    "text": "Became Public Law No: 119-29."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-29"
+   ],
+   "updateDate": "2026-07-11T15:53:21Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/517",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 517 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr517.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 804,
+   "label": "H.R. 804",
+   "title": "Rural Small Business Resilience Act",
+   "introducedDate": "2025-01-28",
+   "policyArea": "Commerce",
+   "sponsor": {
+    "name": "Rep. Morrison, Kelly [D-MN-3]",
+    "bioguideId": "M001234",
+    "party": "D",
+    "state": "MN"
+   },
+   "latestAction": {
+    "date": "2025-02-26",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Small Business and Entrepreneurship."
+   },
+   "committees": [
+    {
+     "name": "Small Business and Entrepreneurship Committee",
+     "chamber": "Senate",
+     "systemCode": "sssb00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Small Business Committee",
+     "chamber": "House",
+     "systemCode": "hssm00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [],
+   "updateDate": "2026-09-08T18:08:35Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/804",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 804 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr804.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 842,
+   "label": "H.R. 842",
+   "title": "Nancy Gardner Sewell Medicare Multi-Cancer Early Detection Screening Coverage Act",
+   "introducedDate": "2025-01-31",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Arrington, Jodey C. [R-TX-19]",
+    "bioguideId": "A000375",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2025-10-03",
+    "text": "Reported (Amended) by the Committee on Ways and Means. H. Rept. 119-333, Part I."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-07-18T00:00:19Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/842",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 842 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr842.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 997,
+   "label": "H.R. 997",
+   "title": "National Taxpayer Advocate Enhancement Act of 2025",
+   "introducedDate": "2025-02-05",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Feenstra, Randy [R-IA-4]",
+    "bioguideId": "F000446",
+    "party": "R",
+    "state": "IA"
+   },
+   "latestAction": {
+    "date": "2026-10-14",
+    "text": "Message on Senate action sent to the House."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-15T10:56:21Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/997",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 997 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr997.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 998,
+   "label": "H.R. 998",
+   "title": "Internal Revenue Service Math and Taxpayer Help Act",
+   "introducedDate": "2025-02-05",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Feenstra, Randy [R-IA-4]",
+    "bioguideId": "F000446",
+    "party": "R",
+    "state": "IA"
+   },
+   "latestAction": {
+    "date": "2025-11-25",
+    "text": "Became Public Law No: 119-39."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-39"
+   ],
+   "updateDate": "2026-07-11T22:08:22Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/998",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 998 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr998.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 1152,
+   "label": "H.R. 1152",
+   "title": "Electronic Filing and Payment Fairness Act",
+   "introducedDate": "2025-02-10",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. LaHood, Darin [R-IL-16]",
+    "bioguideId": "L000585",
+    "party": "R",
+    "state": "IL"
+   },
+   "latestAction": {
+    "date": "2025-04-01",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-07-10T16:53:22Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/1152",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 1152 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1152.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 1155,
+   "label": "H.R. 1155",
+   "title": "Recovery of Stolen Checks Act",
+   "introducedDate": "2025-02-10",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+    "bioguideId": "M000317",
+    "party": "R",
+    "state": "NY"
+   },
+   "latestAction": {
+    "date": "2025-04-01",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-07-10T16:53:23Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/1155",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 1155 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1155.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 1156,
+   "label": "H.R. 1156",
+   "title": "Pandemic Unemployment Fraud Enforcement Act",
+   "introducedDate": "2025-02-10",
+   "policyArea": "Labor and Employment",
+   "sponsor": {
+    "name": "Rep. Smith, Jason [R-MO-8]",
+    "bioguideId": "S001195",
+    "party": "R",
+    "state": "MO"
+   },
+   "latestAction": {
+    "date": "2025-03-13",
+    "text": "Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 29."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-07-23T23:06:19Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/1156",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 1156 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1156.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 1491,
+   "label": "H.R. 1491",
+   "title": "Disaster Related Extension of Deadlines Act",
+   "introducedDate": "2025-02-21",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Murphy, Gregory F. [R-NC-3]",
+    "bioguideId": "M001210",
+    "party": "R",
+    "state": "NC"
+   },
+   "latestAction": {
+    "date": "2025-12-26",
+    "text": "Became Public Law No: 119-64."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-64"
+   ],
+   "updateDate": "2026-07-10T20:28:21Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/1491",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 1491 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1491.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 1503,
+   "label": "H.R. 1503",
+   "title": "Stop Forced Organ Harvesting Act of 2025",
+   "introducedDate": "2025-02-21",
+   "policyArea": "International Affairs",
+   "sponsor": {
+    "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+    "bioguideId": "S000522",
+    "party": "R",
+    "state": "NJ"
+   },
+   "latestAction": {
+    "date": "2025-05-08",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Foreign Relations."
+   },
+   "committees": [
+    {
+     "name": "Judiciary Committee",
+     "chamber": "House",
+     "systemCode": "hsju00",
+     "activities": [
+      "Bills of Interest - Exchange of Letters",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Foreign Relations Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfr00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Foreign Affairs Committee",
+     "chamber": "House",
+     "systemCode": "hsfa00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [],
+   "updateDate": "2026-07-10T20:23:19Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/1503",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 1503 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1503.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 1968,
+   "label": "H.R. 1968",
+   "title": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+   "introducedDate": "2025-03-10",
+   "policyArea": "Economics and Public Finance",
+   "sponsor": {
+    "name": "Rep. Cole, Tom [R-OK-4]",
+    "bioguideId": "C001053",
+    "party": "R",
+    "state": "OK"
+   },
+   "latestAction": {
+    "date": "2025-03-15",
+    "text": "Became Public Law No: 119-4."
+   },
+   "committees": [
+    {
+     "name": "Appropriations Committee",
+     "chamber": "House",
+     "systemCode": "hsap00",
+     "activities": [
+      "Unknown",
+      "Unknown",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Budget Committee",
+     "chamber": "House",
+     "systemCode": "hsbu00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [
+    "Public Law 119-4"
+   ],
+   "updateDate": "2026-09-08T19:31:27Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/1968",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 1968 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr1968.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 2347,
+   "label": "H.R. 2347",
+   "title": "Survivor Justice Tax Prevention Act",
+   "introducedDate": "2025-03-25",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Smucker, Lloyd [R-PA-11]",
+    "bioguideId": "S001199",
+    "party": "R",
+    "state": "PA"
+   },
+   "latestAction": {
+    "date": "2026-09-30",
+    "text": "Cloture motion on the motion to proceed to the measure presented in Senate. (CR S5241)"
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-02T19:59:31Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/2347",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 2347 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2347.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 2483,
+   "label": "H.R. 2483",
+   "title": "SUPPORT for Patients and Communities Reauthorization Act of 2025",
+   "introducedDate": "2025-03-31",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Guthrie, Brett [R-KY-2]",
+    "bioguideId": "G000558",
+    "party": "R",
+    "state": "KY"
+   },
+   "latestAction": {
+    "date": "2025-12-01",
+    "text": "Became Public Law No: 119-44."
+   },
+   "committees": [
+    {
+     "name": "Health, Education, Labor, and Pensions Committee",
+     "chamber": "Senate",
+     "systemCode": "sshr00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Financial Services Committee",
+     "chamber": "House",
+     "systemCode": "hsba00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Judiciary Committee",
+     "chamber": "House",
+     "systemCode": "hsju00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Education and Workforce Committee",
+     "chamber": "House",
+     "systemCode": "hsed00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [
+    "Public Law 119-44"
+   ],
+   "updateDate": "2026-07-30T19:35:55Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/2483",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 2483 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2483.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 2493,
+   "label": "H.R. 2493",
+   "title": "Improving Care in Rural America Reauthorization Act of 2025",
+   "introducedDate": "2025-03-31",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Carter, Earl L. \"Buddy\" [R-GA-1]",
+    "bioguideId": "C001103",
+    "party": "R",
+    "state": "GA"
+   },
+   "latestAction": {
+    "date": "2026-04-22",
+    "text": "Received in the Senate. Read twice. Placed on Senate Legislative Calendar under General Orders. Calendar No. 377."
+   },
+   "committees": [
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [],
+   "updateDate": "2026-09-19T23:18:42Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/2493",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 2493 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2493.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 2716,
+   "label": "H.R. 2716",
+   "title": "Ending Improper Payments to Deceased People Act",
+   "introducedDate": "2025-04-08",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Higgins, Clay [R-LA-3]",
+    "bioguideId": "H001077",
+    "party": "R",
+    "state": "LA"
+   },
+   "latestAction": {
+    "date": "2026-01-07",
+    "text": "Placed on the Union Calendar, Calendar No. 371."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-07-27T16:23:02Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/2716",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 2716 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr2716.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 3108,
+   "label": "H.R. 3108",
+   "title": "RPM Access Act",
+   "introducedDate": "2025-04-30",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Kustoff, David [R-TN-8]",
+    "bioguideId": "K000392",
+    "party": "R",
+    "state": "TN"
+   },
+   "latestAction": {
+    "date": "2026-07-15",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 39 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:34:25Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/3108",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 3108 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3108.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 3164,
+   "label": "H.R. 3164",
+   "title": "Ensuring Community Access to Pharmacist Services Act",
+   "introducedDate": "2025-05-01",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Smith, Adrian [R-NE-3]",
+    "bioguideId": "S001172",
+    "party": "R",
+    "state": "NE"
+   },
+   "latestAction": {
+    "date": "2026-05-21",
+    "text": "Ordered to be Reported in the Nature of a Substitute by Voice Vote."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-11-03T09:06:36Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/3164",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 3164 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3164.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 3514,
+   "label": "H.R. 3514",
+   "title": "Improving Seniors\u2019 Timely Access to Care Act of 2025",
+   "introducedDate": "2025-05-20",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Kelly, Mike [R-PA-16]",
+    "bioguideId": "K000376",
+    "party": "R",
+    "state": "PA"
+   },
+   "latestAction": {
+    "date": "2026-07-15",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-20T08:05:18Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/3514",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 3514 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr3514.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 4093,
+   "label": "H.R. 4093",
+   "title": "Apples to Apples Comparison Act of 2025",
+   "introducedDate": "2025-06-24",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Bean, Aaron [R-FL-4]",
+    "bioguideId": "B001314",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 15."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-23T21:05:09Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/4093",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 4093 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4093.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 4242,
+   "label": "H.R. 4242",
+   "title": "Innovate Less Lethal to De-Escalate Tax Modernization Act",
+   "introducedDate": "2025-06-27",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Schweikert, David [R-AZ-1]",
+    "bioguideId": "S001183",
+    "party": "R",
+    "state": "AZ"
+   },
+   "latestAction": {
+    "date": "2026-02-02",
+    "text": "Placed on the Union Calendar, Calendar No. 407."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-07-18T00:01:19Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/4242",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 4242 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4242.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 4313,
+   "label": "H.R. 4313",
+   "title": "Hospital Inpatient Services Modernization Act",
+   "introducedDate": "2025-07-10",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Buchanan, Vern [R-FL-16]",
+    "bioguideId": "B001260",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2025-12-02",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-02-05T17:34:22Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/4313",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 4313 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4313.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 4930,
+   "label": "H.R. 4930",
+   "title": "To expand the sharing of information with respect to suspected violations of intellectual property rights in trade.",
+   "introducedDate": "2025-08-08",
+   "policyArea": "Foreign Trade and International Finance",
+   "sponsor": {
+    "name": "Rep. Moore, Blake D. [R-UT-1]",
+    "bioguideId": "M001213",
+    "party": "R",
+    "state": "UT"
+   },
+   "latestAction": {
+    "date": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:24:18Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/4930",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 4930 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4930.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 4993,
+   "label": "H.R. 4993",
+   "title": "Joe Fiandra Access to Home Infusion Act of 2025",
+   "introducedDate": "2025-08-19",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Fitzpatrick, Brian K. [R-PA-1]",
+    "bioguideId": "F000466",
+    "party": "R",
+    "state": "PA"
+   },
+   "latestAction": {
+    "date": "2025-12-10",
+    "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 41 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-07-29T15:53:21Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/4993",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 4993 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr4993.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5284,
+   "label": "H.R. 5284",
+   "title": "Claiming Age Clarity Act",
+   "introducedDate": "2025-09-10",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Smucker, Lloyd [R-PA-11]",
+    "bioguideId": "S001199",
+    "party": "R",
+    "state": "PA"
+   },
+   "latestAction": {
+    "date": "2026-10-14",
+    "text": "Message on Senate action sent to the House."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-15T14:37:26Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5284",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5284 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5284.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5334,
+   "label": "H.R. 5334",
+   "title": "Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+   "introducedDate": "2025-09-11",
+   "policyArea": "International Affairs",
+   "sponsor": {
+    "name": "Rep. Panetta, Jimmy [D-CA-19]",
+    "bioguideId": "P000613",
+    "party": "D",
+    "state": "CA"
+   },
+   "latestAction": {
+    "date": "2026-09-18",
+    "text": "Became Public Law No: 119-111."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-111"
+   ],
+   "updateDate": "2026-11-04T17:28:27Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5334",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5334 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5334.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5343,
+   "label": "H.R. 5343",
+   "title": "Ensuring Patient Access to Critical Breakthrough Products Act",
+   "introducedDate": "2025-09-15",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Moore, Blake D. [R-UT-1]",
+    "bioguideId": "M001213",
+    "party": "R",
+    "state": "UT"
+   },
+   "latestAction": {
+    "date": "2025-09-17",
+    "text": "Ordered to be Reported in the Nature of a Substitute (Amended) by the Yeas and Nays: 37 - 3."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-23T08:06:03Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5343",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5343 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5343.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5345,
+   "label": "H.R. 5345",
+   "title": "Improving Social Security\u2019s Service to Victims of Identity Theft Act",
+   "introducedDate": "2025-09-15",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Kustoff, David [R-TN-8]",
+    "bioguideId": "K000392",
+    "party": "R",
+    "state": "TN"
+   },
+   "latestAction": {
+    "date": "2026-10-07",
+    "text": "Became Public Law No: 119-119."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-119"
+   ],
+   "updateDate": "2026-10-14T18:19:52Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5345",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5345 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5345.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5346,
+   "label": "H.R. 5346",
+   "title": "Fair and Accountable IRS Reviews Act",
+   "introducedDate": "2025-09-15",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Grothman, Glenn [R-WI-6]",
+    "bioguideId": "G000576",
+    "party": "R",
+    "state": "WI"
+   },
+   "latestAction": {
+    "date": "2025-12-02",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:07Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5346",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5346 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5346.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5347,
+   "label": "H.R. 5347",
+   "title": "Health Care Efficiency Through Flexibility Act",
+   "introducedDate": "2025-09-15",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Buchanan, Vern [R-FL-16]",
+    "bioguideId": "B001260",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-07-13",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:40:15Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5347",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5347 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5347.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5348,
+   "label": "H.R. 5348",
+   "title": "Social Security Child Protection Act of 2025",
+   "introducedDate": "2025-09-15",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Smucker, Lloyd [R-PA-11]",
+    "bioguideId": "S001199",
+    "party": "R",
+    "state": "PA"
+   },
+   "latestAction": {
+    "date": "2025-12-02",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-02-04T05:06:23Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5348",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5348 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5348.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5349,
+   "label": "H.R. 5349",
+   "title": "TAS Act",
+   "introducedDate": "2025-09-15",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Moran, Nathaniel [R-TX-1]",
+    "bioguideId": "M001224",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2026-09-30",
+    "text": "Passed Senate with an amendment and an amendment to the Title by Unanimous Consent."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-11-02T14:51:43Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5349",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5349 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5349.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5366,
+   "label": "H.R. 5366",
+   "title": "Doug LaMalfa Federal Disaster Tax Relief Certainty Act",
+   "introducedDate": "2025-09-15",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Steube, W. Gregory [R-FL-17]",
+    "bioguideId": "S001214",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-09-11",
+    "text": "Became Public Law No: 119-108."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-108"
+   ],
+   "updateDate": "2026-09-21T17:56:36Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5366",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5366 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5366.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5371,
+   "label": "H.R. 5371",
+   "title": "Continuing Appropriations, Agriculture, Legislative Branch, Military Construction and Veterans Affairs, and Extensions Act, 2026",
+   "introducedDate": "2025-09-16",
+   "policyArea": "Economics and Public Finance",
+   "sponsor": {
+    "name": "Rep. Cole, Tom [R-OK-4]",
+    "bioguideId": "C001053",
+    "party": "R",
+    "state": "OK"
+   },
+   "latestAction": {
+    "date": "2025-11-12",
+    "text": "Became Public Law No: 119-37."
+   },
+   "committees": [
+    {
+     "name": "Appropriations Committee",
+     "chamber": "House",
+     "systemCode": "hsap00",
+     "activities": [
+      "Unknown",
+      "Unknown",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Budget Committee",
+     "chamber": "House",
+     "systemCode": "hsbu00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [
+    "Public Law 119-37"
+   ],
+   "updateDate": "2026-09-16T17:49:32Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5371",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5371 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5371.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5439,
+   "label": "H.R. 5439",
+   "title": "Medically Tailored Home-Delivered Meals Program Pilot Act",
+   "introducedDate": "2025-09-17",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. McGovern, James P. [D-MA-2]",
+    "bioguideId": "M000312",
+    "party": "D",
+    "state": "MA"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 39 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-23T21:07:40Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5439",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5439 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5439.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 5450,
+   "label": "H.R. 5450",
+   "title": "Continuing Appropriations and Extensions and Other Matters Act, 2026",
+   "introducedDate": "2025-09-18",
+   "policyArea": "Economics and Public Finance",
+   "sponsor": {
+    "name": "Rep. DeLauro, Rosa L. [D-CT-3]",
+    "bioguideId": "D000216",
+    "party": "D",
+    "state": "CT"
+   },
+   "latestAction": {
+    "date": "2025-09-18",
+    "text": "Referred to the Committee on Appropriations, and in addition to the Committees on Ways and Means, and the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned."
+   },
+   "committees": [
+    {
+     "name": "Budget Committee",
+     "chamber": "House",
+     "systemCode": "hsbu00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Appropriations Committee",
+     "chamber": "House",
+     "systemCode": "hsap00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-08T19:31:27Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/5450",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 5450 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5450.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6130,
+   "label": "H.R. 6130",
+   "title": "ASAP Act",
+   "introducedDate": "2025-11-19",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Buchanan, Vern [R-FL-16]",
+    "bioguideId": "B001260",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 40 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-30T08:06:33Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6130",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6130 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6130.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6431,
+   "label": "H.R. 6431",
+   "title": "New Opportunities for Business Ownership and Self-Sufficiency Act",
+   "introducedDate": "2025-12-04",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Carey, Mike [R-OH-15]",
+    "bioguideId": "C001126",
+    "party": "R",
+    "state": "OH"
+   },
+   "latestAction": {
+    "date": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:23:05Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6431",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6431 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6431.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6495,
+   "label": "H.R. 6495",
+   "title": "Taxpayer Notification and Privacy Act",
+   "introducedDate": "2025-12-05",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Steube, W. Gregory [R-FL-17]",
+    "bioguideId": "S001214",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:23:08Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6495",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6495 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6495.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6500,
+   "label": "H.R. 6500",
+   "title": "Continuing Appropriations and Extensions Act, 2027",
+   "introducedDate": "2025-12-09",
+   "policyArea": "Economics and Public Finance",
+   "sponsor": {
+    "name": "Rep. Smith, Jason [R-MO-8]",
+    "bioguideId": "S001195",
+    "party": "R",
+    "state": "MO"
+   },
+   "latestAction": {
+    "date": "2026-09-02",
+    "text": "Became Public Law No: 119-103."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-103"
+   ],
+   "updateDate": "2026-10-16T15:52:27Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6500",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6500 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6500.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6504,
+   "label": "H.R. 6504",
+   "title": "Haiti Economic Lift Program Extension Act",
+   "introducedDate": "2025-12-09",
+   "policyArea": "Foreign Trade and International Finance",
+   "sponsor": {
+    "name": "Rep. Murphy, Gregory F. [R-NC-3]",
+    "bioguideId": "M001210",
+    "party": "R",
+    "state": "NC"
+   },
+   "latestAction": {
+    "date": "2026-01-13",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-06-11T05:06:22Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6504",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6504 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6504.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6506,
+   "label": "H.R. 6506",
+   "title": "Taxpayer Due Process Enhancement Act",
+   "introducedDate": "2025-12-09",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Moran, Nathaniel [R-TX-1]",
+    "bioguideId": "M001224",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2026-05-20",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:41:11Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6506",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6506 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6506.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6703,
+   "label": "H.R. 6703",
+   "title": "Lower Health Care Premiums for All Americans Act",
+   "introducedDate": "2025-12-15",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Miller-Meeks, Mariannette [R-IA-1]",
+    "bioguideId": "M001215",
+    "party": "R",
+    "state": "IA"
+   },
+   "latestAction": {
+    "date": "2025-12-18",
+    "text": "Received in the Senate."
+   },
+   "committees": [
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Unknown",
+      "Unknown",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Education and Workforce Committee",
+     "chamber": "House",
+     "systemCode": "hsed00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-04-08T16:50:52Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6703",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6703 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6703.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6903,
+   "label": "H.R. 6903",
+   "title": "Ensuring Children Receive Support Act",
+   "introducedDate": "2025-12-18",
+   "policyArea": "Families",
+   "sponsor": {
+    "name": "Rep. Van Duyne, Beth [R-TX-24]",
+    "bioguideId": "V000134",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Foreign Affairs Committee",
+     "chamber": "House",
+     "systemCode": "hsfa00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:24:15Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6903",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6903 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6903.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6945,
+   "label": "H.R. 6945",
+   "title": "Supporting Pregnant and Parenting Women and Families Act",
+   "introducedDate": "2026-01-06",
+   "policyArea": "Families",
+   "sponsor": {
+    "name": "Rep. Fischbach, Michelle [R-MN-7]",
+    "bioguideId": "F000470",
+    "party": "R",
+    "state": "MN"
+   },
+   "latestAction": {
+    "date": "2026-01-26",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Unknown",
+      "Unknown",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-06-11T05:06:24Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6945",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6945 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6945.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 6956,
+   "label": "H.R. 6956",
+   "title": "BARCODE Efficiency Act",
+   "introducedDate": "2026-01-07",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Schneider, Bradley Scott [D-IL-10]",
+    "bioguideId": "S001190",
+    "party": "D",
+    "state": "IL"
+   },
+   "latestAction": {
+    "date": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:23:36Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/6956",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 6956 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr6956.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7148,
+   "label": "H.R. 7148",
+   "title": "Consolidated Appropriations Act, 2026",
+   "introducedDate": "2026-01-20",
+   "policyArea": "Economics and Public Finance",
+   "sponsor": {
+    "name": "Rep. Cole, Tom [R-OK-4]",
+    "bioguideId": "C001053",
+    "party": "R",
+    "state": "OK"
+   },
+   "latestAction": {
+    "date": "2026-02-03",
+    "text": "Became Public Law No: 119-75."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Budget Committee",
+     "chamber": "House",
+     "systemCode": "hsbu00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Appropriations Committee",
+     "chamber": "House",
+     "systemCode": "hsap00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [
+    "Public Law 119-75"
+   ],
+   "updateDate": "2026-09-08T19:31:27Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7148",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7148 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7148.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7343,
+   "label": "H.R. 7343",
+   "title": "Foster Youth Workforce Opportunity Act",
+   "introducedDate": "2026-02-04",
+   "policyArea": "Labor and Employment",
+   "sponsor": {
+    "name": "Rep. Miller, Max L. [R-OH-7]",
+    "bioguideId": "M001222",
+    "party": "R",
+    "state": "OH"
+   },
+   "latestAction": {
+    "date": "2026-05-11",
+    "text": "Placed on the Union Calendar, Calendar No. 556."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:32:56Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7343",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7343 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7343.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7432,
+   "label": "H.R. 7432",
+   "title": "Fostering the Future Act",
+   "introducedDate": "2026-02-09",
+   "policyArea": "Families",
+   "sponsor": {
+    "name": "Rep. LaHood, Darin [R-IL-16]",
+    "bioguideId": "L000585",
+    "party": "R",
+    "state": "IL"
+   },
+   "latestAction": {
+    "date": "2026-05-20",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Financial Services Committee",
+     "chamber": "House",
+     "systemCode": "hsba00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:40:44Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7432",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7432 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7432.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7463,
+   "label": "H.R. 7463",
+   "title": "Foster Youth Postsecondary Education Access and Success Act",
+   "introducedDate": "2026-02-10",
+   "policyArea": "Families",
+   "sponsor": {
+    "name": "Rep. Chu, Judy [D-CA-28]",
+    "bioguideId": "C001080",
+    "party": "D",
+    "state": "CA"
+   },
+   "latestAction": {
+    "date": "2026-05-07",
+    "text": "Placed on the Union Calendar, Calendar No. 555."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:32:56Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7463",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7463 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7463.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7529,
+   "label": "H.R. 7529",
+   "title": "Fresh Starts for Foster Youth Act",
+   "introducedDate": "2026-02-12",
+   "policyArea": "Families",
+   "sponsor": {
+    "name": "Rep. Davis, Danny K. [D-IL-7]",
+    "bioguideId": "D000096",
+    "party": "D",
+    "state": "IL"
+   },
+   "latestAction": {
+    "date": "2026-05-11",
+    "text": "Placed on the Union Calendar, Calendar No. 557."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:32:56Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7529",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7529 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7529.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7655,
+   "label": "H.R. 7655",
+   "title": "Support for Expectant and Parenting Foster Youth Act",
+   "introducedDate": "2026-02-24",
+   "policyArea": "Families",
+   "sponsor": {
+    "name": "Rep. Yakym, Rudy [R-IN-2]",
+    "bioguideId": "Y000067",
+    "party": "R",
+    "state": "IN"
+   },
+   "latestAction": {
+    "date": "2026-05-11",
+    "text": "Placed on the Union Calendar, Calendar No. 558."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-28T18:21:55Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7655",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7655 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7655.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7959,
+   "label": "H.R. 7959",
+   "title": "IRS Whistleblower Program Improvement Act",
+   "introducedDate": "2026-03-17",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Kelly, Mike [R-PA-16]",
+    "bioguideId": "K000376",
+    "party": "R",
+    "state": "PA"
+   },
+   "latestAction": {
+    "date": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:10Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7959",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7959 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7959.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7971,
+   "label": "H.R. 7971",
+   "title": "Taxpayer Experience Improvement Act",
+   "introducedDate": "2026-03-18",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Schweikert, David [R-AZ-1]",
+    "bioguideId": "S001183",
+    "party": "R",
+    "state": "AZ"
+   },
+   "latestAction": {
+    "date": "2026-04-28",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-28T19:47:38Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7971",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7971 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7971.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7972,
+   "label": "H.R. 7972",
+   "title": "Taxpayer Workforce Modernization Act",
+   "introducedDate": "2026-03-18",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Schweikert, David [R-AZ-1]",
+    "bioguideId": "S001183",
+    "party": "R",
+    "state": "AZ"
+   },
+   "latestAction": {
+    "date": "2026-09-08",
+    "text": "Placed on the Union Calendar, Calendar No. 706."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:08Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7972",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7972 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7972.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 7995,
+   "label": "H.R. 7995",
+   "title": "CONNECT Act",
+   "introducedDate": "2026-03-19",
+   "policyArea": "Families",
+   "sponsor": {
+    "name": "Rep. Moore, Gwen [D-WI-4]",
+    "bioguideId": "M001160",
+    "party": "D",
+    "state": "WI"
+   },
+   "latestAction": {
+    "date": "2026-05-11",
+    "text": "Placed on the Union Calendar, Calendar No. 559."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:32:56Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/7995",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 7995 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr7995.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 8163,
+   "label": "H.R. 8163",
+   "title": "Provider Reimbursement Stability Act of 2026",
+   "introducedDate": "2026-03-30",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Murphy, Gregory F. [R-NC-3]",
+    "bioguideId": "M001210",
+    "party": "R",
+    "state": "NC"
+   },
+   "latestAction": {
+    "date": "2026-05-21",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 44 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-30T08:06:22Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/8163",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 8163 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8163.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 8871,
+   "label": "H.R. 8871",
+   "title": "DME Scammer Prevention Act of 2026",
+   "introducedDate": "2026-05-19",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Bean, Aaron [R-FL-4]",
+    "bioguideId": "B001314",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-05-21",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 19."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:40:50Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/8871",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 8871 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8871.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 8872,
+   "label": "H.R. 8872",
+   "title": "Preventing Waste, Fraud, and Abuse in TANF Act",
+   "introducedDate": "2026-05-19",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Carey, Mike [R-OH-15]",
+    "bioguideId": "C001126",
+    "party": "R",
+    "state": "OH"
+   },
+   "latestAction": {
+    "date": "2026-06-03",
+    "text": "POSTPONED PROCEEDINGS - Pursuant to clause 1(c) of rule XIX, the Chair announced further proceedings on H.R. 8872 is postponed."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:41:23Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/8872",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 8872 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8872.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 8873,
+   "label": "H.R. 8873",
+   "title": "Recover COVID Unemployment Fraud in Banks Act",
+   "introducedDate": "2026-05-19",
+   "policyArea": "Finance and Financial Sector",
+   "sponsor": {
+    "name": "Rep. Van Duyne, Beth [R-TX-24]",
+    "bioguideId": "V000134",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2026-07-13",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:40:59Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/8873",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 8873 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8873.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 8875,
+   "label": "H.R. 8875",
+   "title": "Improving Home Dialysis Act of 2026",
+   "introducedDate": "2026-05-19",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Miller, Carol D. [R-WV-1]",
+    "bioguideId": "M001205",
+    "party": "R",
+    "state": "WV"
+   },
+   "latestAction": {
+    "date": "2026-05-21",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 28 - 13."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:40:39Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/8875",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 8875 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8875.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 8883,
+   "label": "H.R. 8883",
+   "title": "Protecting Seniors and Stopping Fraudsters Act",
+   "introducedDate": "2026-05-19",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Van Duyne, Beth [R-TX-24]",
+    "bioguideId": "V000134",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2026-05-21",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 27 - 16."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:40:42Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/8883",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 8883 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8883.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 8884,
+   "label": "H.R. 8884",
+   "title": "Removing Barriers to Work for Disabled Americans Act",
+   "introducedDate": "2026-05-19",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Scott, Austin [R-GA-8]",
+    "bioguideId": "S001189",
+    "party": "R",
+    "state": "GA"
+   },
+   "latestAction": {
+    "date": "2026-07-23",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-19T23:40:43Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/8884",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 8884 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr8884.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9468,
+   "label": "H.R. 9468",
+   "title": "STAR Act",
+   "introducedDate": "2026-06-25",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Hern, Kevin [R-OK-1]",
+    "bioguideId": "H001082",
+    "party": "R",
+    "state": "OK"
+   },
+   "latestAction": {
+    "date": "2026-07-15",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 40 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-11-03T09:06:37Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9468",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9468 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9468.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9496,
+   "label": "H.R. 9496",
+   "title": "End Tax Penalties on American Hostages Act",
+   "introducedDate": "2026-06-29",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Tenney, Claudia [R-NY-24]",
+    "bioguideId": "T000478",
+    "party": "R",
+    "state": "NY"
+   },
+   "latestAction": {
+    "date": "2026-10-14",
+    "text": "Message on Senate action sent to the House."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Discharged From",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:08Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9496",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9496 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9496.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9498,
+   "label": "H.R. 9498",
+   "title": "Taxpayer Advocate Participation Act",
+   "introducedDate": "2026-06-29",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Steube, W. Gregory [R-FL-17]",
+    "bioguideId": "S001214",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:08Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9498",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9498 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9498.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9499,
+   "label": "H.R. 9499",
+   "title": "Protecting Taxpayers from Ghost Preparers Act",
+   "introducedDate": "2026-06-29",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+    "bioguideId": "M000317",
+    "party": "R",
+    "state": "NY"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:10Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9499",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9499 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9499.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9500,
+   "label": "H.R. 9500",
+   "title": "Tax Relief for Fraud Victims Act",
+   "introducedDate": "2026-06-29",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Miller, Max L. [R-OH-7]",
+    "bioguideId": "M001222",
+    "party": "R",
+    "state": "OH"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Received in the Senate and Read twice and referred to the Committee on Finance."
+   },
+   "committees": [
+    {
+     "name": "Finance Committee",
+     "chamber": "Senate",
+     "systemCode": "ssfi00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-23T15:42:16Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9500",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9500 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9500.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9501,
+   "label": "H.R. 9501",
+   "title": "AI Tax Integrity Act of 2026",
+   "introducedDate": "2026-06-29",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Buchanan, Vern [R-FL-16]",
+    "bioguideId": "B001260",
+    "party": "R",
+    "state": "FL"
+   },
+   "latestAction": {
+    "date": "2026-09-08",
+    "text": "Placed on the Union Calendar, Calendar No. 701."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:10Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9501",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9501 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9501.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9504,
+   "label": "H.R. 9504",
+   "title": "Tax Exempt Hospital Transparency Act",
+   "introducedDate": "2026-06-29",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Murphy, Gregory F. [R-NC-3]",
+    "bioguideId": "M001210",
+    "party": "R",
+    "state": "NC"
+   },
+   "latestAction": {
+    "date": "2026-07-01",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 15."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-07T15:39:52Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9504",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9504 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9504.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9641,
+   "label": "H.R. 9641",
+   "title": "Essential Caregivers Act of 2026",
+   "introducedDate": "2026-07-13",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Tenney, Claudia [R-NY-24]",
+    "bioguideId": "T000478",
+    "party": "R",
+    "state": "NY"
+   },
+   "latestAction": {
+    "date": "2026-07-15",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 38 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-11-06T09:06:34Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9641",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9641 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9641.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9642,
+   "label": "H.R. 9642",
+   "title": "Medicare Access to Rural Anesthesiology Act",
+   "introducedDate": "2026-07-13",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Moolenaar, John R. [R-MI-2]",
+    "bioguideId": "M001194",
+    "party": "R",
+    "state": "MI"
+   },
+   "latestAction": {
+    "date": "2026-07-15",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 41 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-09T22:43:55Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9642",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9642 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9642.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9644,
+   "label": "H.R. 9644",
+   "title": "Medicare Advantage MLR Transparency Act",
+   "introducedDate": "2026-07-13",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Moran, Nathaniel [R-TX-1]",
+    "bioguideId": "M001224",
+    "party": "R",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2026-07-15",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 42 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-02T22:43:49Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9644",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9644 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9644.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9645,
+   "label": "H.R. 9645",
+   "title": "Health Care Price Certainty for All Americans Act",
+   "introducedDate": "2026-07-13",
+   "policyArea": "Health",
+   "sponsor": {
+    "name": "Rep. Smith, Jason [R-MO-8]",
+    "bioguideId": "S001195",
+    "party": "R",
+    "state": "MO"
+   },
+   "latestAction": {
+    "date": "2026-07-15",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 15."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Education and Workforce Committee",
+     "chamber": "House",
+     "systemCode": "hsed00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-08-26T17:39:10Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9645",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9645 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9645.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9721,
+   "label": "H.R. 9721",
+   "title": "Fiscal Sponsorship Transparency Act of 2026",
+   "introducedDate": "2026-07-16",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Smucker, Lloyd [R-PA-11]",
+    "bioguideId": "S001199",
+    "party": "R",
+    "state": "PA"
+   },
+   "latestAction": {
+    "date": "2026-07-22",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 23 - 15."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:05Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9721",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9721 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9721.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9722,
+   "label": "H.R. 9722",
+   "title": "Fair Treatment of Religious Organizations Act of 2026",
+   "introducedDate": "2026-07-16",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Moore, Blake D. [R-UT-1]",
+    "bioguideId": "M001213",
+    "party": "R",
+    "state": "UT"
+   },
+   "latestAction": {
+    "date": "2026-08-27",
+    "text": "Placed on the Union Calendar, Calendar No. 680."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:07Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9722",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9722 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9722.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9770,
+   "label": "H.R. 9770",
+   "title": "Continuing Appropriations Act, 2027",
+   "introducedDate": "2026-07-18",
+   "policyArea": "Economics and Public Finance",
+   "sponsor": {
+    "name": "Rep. Cole, Tom [R-OK-4]",
+    "bioguideId": "C001053",
+    "party": "R",
+    "state": "OK"
+   },
+   "latestAction": {
+    "date": "2026-07-22",
+    "text": "Received in the Senate."
+   },
+   "committees": [
+    {
+     "name": "Budget Committee",
+     "chamber": "House",
+     "systemCode": "hsbu00",
+     "activities": [
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Appropriations Committee",
+     "chamber": "House",
+     "systemCode": "hsap00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": false,
+   "laws": [],
+   "updateDate": "2026-09-08T19:31:27Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9770",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9770 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9770.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9771,
+   "label": "H.R. 9771",
+   "title": "Stopping Foreign Influence in Elections Act of 2026",
+   "introducedDate": "2026-07-18",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Malliotakis, Nicole [R-NY-11]",
+    "bioguideId": "M000317",
+    "party": "R",
+    "state": "NY"
+   },
+   "latestAction": {
+    "date": "2026-08-27",
+    "text": "Placed on the Union Calendar, Calendar No. 669."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:07Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9771",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9771 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9771.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 9772,
+   "label": "H.R. 9772",
+   "title": "Foreign Funding Transparency Act",
+   "introducedDate": "2026-07-18",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Schweikert, David [R-AZ-1]",
+    "bioguideId": "S001183",
+    "party": "R",
+    "state": "AZ"
+   },
+   "latestAction": {
+    "date": "2026-08-27",
+    "text": "Placed on the Union Calendar, Calendar No. 666."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-31T02:42:06Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/9772",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 9772 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr9772.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 10334,
+   "label": "H.R. 10334",
+   "title": "EFIN Verification Act of 2026",
+   "introducedDate": "2026-09-10",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Estes, Ron [R-KS-4]",
+    "bioguideId": "E000298",
+    "party": "R",
+    "state": "KS"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 40 - 0."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-28T20:06:25Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/10334",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 10334 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10334.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 10346,
+   "label": "H.R. 10346",
+   "title": "Stop China\u2019s Exploitation of Congolese Children and Adult Forced Labor through Cobalt Mining Act",
+   "introducedDate": "2026-09-10",
+   "policyArea": "Foreign Trade and International Finance",
+   "sponsor": {
+    "name": "Rep. Smith, Christopher H. [R-NJ-4]",
+    "bioguideId": "S000522",
+    "party": "R",
+    "state": "NJ"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 32 - 8."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-28T15:28:32Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/10346",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 10346 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10346.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 10356,
+   "label": "H.R. 10356",
+   "title": "Empowering Moms Act",
+   "introducedDate": "2026-09-14",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Fischbach, Michelle [R-MN-7]",
+    "bioguideId": "F000470",
+    "party": "R",
+    "state": "MN"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 13."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    },
+    {
+     "name": "Energy and Commerce Committee",
+     "chamber": "House",
+     "systemCode": "hsif00",
+     "activities": [
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-22T18:45:35Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/10356",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 10356 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10356.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HR",
+   "number": 10357,
+   "label": "H.R. 10357",
+   "title": "Digital Asset Tax Certainty Act",
+   "introducedDate": "2026-09-14",
+   "policyArea": "Taxation",
+   "sponsor": {
+    "name": "Rep. Smith, Jason [R-MO-8]",
+    "bioguideId": "S001195",
+    "party": "R",
+    "state": "MO"
+   },
+   "latestAction": {
+    "date": "2026-09-16",
+    "text": "Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 38 - 5."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-10-28T20:09:02Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-bill/10357",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HR 10357 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr10357.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HRES",
+   "number": 127,
+   "label": "H.Res. 127",
+   "title": "Of inquiry requesting the President and directing the Secretary of the Treasury to transmit, respectively, certain documents to the House of Representatives relating to the Department of Government Efficiency's access to the Treasury payment systems and confidential taxpayer information.",
+   "introducedDate": "2025-02-12",
+   "policyArea": "Finance and Financial Sector",
+   "sponsor": {
+    "name": "Rep. Doggett, Lloyd [D-TX-37]",
+    "bioguideId": "D000399",
+    "party": "D",
+    "state": "TX"
+   },
+   "latestAction": {
+    "date": "2025-03-18",
+    "text": "Placed on the House Calendar, Calendar No. 10."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2026-09-25T16:50:07Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-resolution/127",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HRES 127 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres127.xml"
+  },
+  {
+   "congress": 119,
+   "type": "HRES",
+   "number": 195,
+   "label": "H.Res. 195",
+   "title": "Of inquiry requesting the President of the United States to furnish certain information to the House of Representatives relating to the operations of the Social Security Administration after January 20, 2025, including information on the Department of Government Efficiency's access to the Social Security Administration and to information in the possession of such Administration.",
+   "introducedDate": "2025-03-05",
+   "policyArea": "Social Welfare",
+   "sponsor": {
+    "name": "Rep. Larson, John B. [D-CT-1]",
+    "bioguideId": "L000557",
+    "party": "D",
+    "state": "CT"
+   },
+   "latestAction": {
+    "date": "2025-03-21",
+    "text": "Placed on the House Calendar, Calendar No. 11."
+   },
+   "committees": [
+    {
+     "name": "Ways and Means Committee",
+     "chamber": "House",
+     "systemCode": "hswm00",
+     "activities": [
+      "Reported By",
+      "Markup By",
+      "Referred To"
+     ]
+    }
+   ],
+   "waysAndMeansReferred": true,
+   "laws": [],
+   "updateDate": "2025-10-09T00:11:24Z",
+   "source": "https://www.congress.gov/bill/119th-congress/house-resolution/195",
+   "sourceLabel": "Congress.gov / GPO govinfo bill status, HRES 195 (119th Congress)",
+   "govinfoXml": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hres/BILLSTATUS-119hres195.xml"
+  }
+ ]
+}

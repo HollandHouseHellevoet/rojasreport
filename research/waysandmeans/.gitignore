@@ -1,0 +1,10 @@
+# FEC bulk downloads: too large for GitHub, reproducible from the URLs in raw/fec/README.md
+raw/fec/*.zip
+raw/fec/pas224/
+raw/fec/pas226/
+raw/fec/cm24/
+raw/fec/cm26/
+raw/fec/cn24/
+raw/fec/cn26/
+raw/fec/ccl24/
+raw/fec/ccl26/

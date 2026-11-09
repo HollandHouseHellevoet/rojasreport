@@ -1,0 +1,1325 @@
+{
+ "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+ "sourceLabel": "Clerk of the House, Member Data (XML)",
+ "publishDate": "November 3, 2026",
+ "congress": "119",
+ "session": "2",
+ "committeeNames": {
+  "WM00": "Committee on Ways and Means",
+  "WM01": "Social Security",
+  "WM02": "Health",
+  "WM03": "Work and Welfare",
+  "WM04": "Trade",
+  "WM05": "Tax",
+  "WM06": "Oversight"
+ },
+ "count": 45,
+ "members": [
+  {
+   "bioguideId": "S001195",
+   "lastName": "Smith",
+   "firstName": "Jason",
+   "officialName": "Jason Smith",
+   "party": "R",
+   "state": "MO",
+   "district": "8th",
+   "stateDistrict": "MO08",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 1,
+   "committeeLeadership": "Chair",
+   "subcommittees": []
+  },
+  {
+   "bioguideId": "B001260",
+   "lastName": "Buchanan",
+   "firstName": "Vern",
+   "officialName": "Vern Buchanan",
+   "party": "R",
+   "state": "FL",
+   "district": "16th",
+   "stateDistrict": "FL16",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 2,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 1,
+     "leadership": "Chair"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 2,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001172",
+   "lastName": "Smith",
+   "firstName": "Adrian",
+   "officialName": "Adrian Smith",
+   "party": "R",
+   "state": "NE",
+   "district": "3rd",
+   "stateDistrict": "NE03",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 3,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 2,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 1,
+     "leadership": "Chair"
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000376",
+   "lastName": "Kelly",
+   "firstName": "Mike",
+   "officialName": "Mike Kelly",
+   "party": "R",
+   "state": "PA",
+   "district": "16th",
+   "stateDistrict": "PA16",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 4,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 3,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 1,
+     "leadership": "Chair"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001183",
+   "lastName": "Schweikert",
+   "firstName": "David",
+   "officialName": "David Schweikert",
+   "party": "R",
+   "state": "AZ",
+   "district": "1st",
+   "stateDistrict": "AZ01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 5,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 2,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 1,
+     "leadership": "Chair"
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000585",
+   "lastName": "LaHood",
+   "firstName": "Darin",
+   "officialName": "Darin LaHood",
+   "party": "R",
+   "state": "IL",
+   "district": "16th",
+   "stateDistrict": "IL16",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 6,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 1,
+     "leadership": "Chair"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 3,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "A000375",
+   "lastName": "Arrington",
+   "firstName": "Jodey",
+   "officialName": "Jodey C. Arrington",
+   "party": "R",
+   "state": "TX",
+   "district": "19th",
+   "stateDistrict": "TX19",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 7,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 4,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 3,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000298",
+   "lastName": "Estes",
+   "firstName": "Ron",
+   "officialName": "Ron Estes",
+   "party": "R",
+   "state": "KS",
+   "district": "4th",
+   "stateDistrict": "KS04",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 8,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 1,
+     "leadership": "Chair"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 5,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001199",
+   "lastName": "Smucker",
+   "firstName": "Lloyd",
+   "officialName": "Lloyd Smucker",
+   "party": "R",
+   "state": "PA",
+   "district": "11th",
+   "stateDistrict": "PA11",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 9,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 6,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 6,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 6,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001082",
+   "lastName": "Hern",
+   "firstName": "Kevin",
+   "officialName": "Kevin Hern",
+   "party": "R",
+   "state": "OK",
+   "district": "1st",
+   "stateDistrict": "OK01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 10,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 5,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 4,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001205",
+   "lastName": "Miller",
+   "firstName": "Carol",
+   "officialName": "Carol D. Miller",
+   "party": "R",
+   "state": "WV",
+   "district": "1st",
+   "stateDistrict": "WV01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 11,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 6,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 5,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001210",
+   "lastName": "Murphy",
+   "firstName": "Gregory",
+   "officialName": "Gregory F. Murphy",
+   "party": "R",
+   "state": "NC",
+   "district": "3rd",
+   "stateDistrict": "NC03",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 12,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 4,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 7,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000392",
+   "lastName": "Kustoff",
+   "firstName": "David",
+   "officialName": "David Kustoff",
+   "party": "R",
+   "state": "TN",
+   "district": "8th",
+   "stateDistrict": "TN08",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 13,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 10,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 7,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000466",
+   "lastName": "Fitzpatrick",
+   "firstName": "Brian",
+   "officialName": "Brian K. Fitzpatrick",
+   "party": "R",
+   "state": "PA",
+   "district": "1st",
+   "stateDistrict": "PA01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 14,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 7,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 11,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001214",
+   "lastName": "Steube",
+   "firstName": "W.",
+   "officialName": "W. Gregory Steube",
+   "party": "R",
+   "state": "FL",
+   "district": "17th",
+   "stateDistrict": "FL17",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 15,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 11,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 8,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000478",
+   "lastName": "Tenney",
+   "firstName": "Claudia",
+   "officialName": "Claudia Tenney",
+   "party": "R",
+   "state": "NY",
+   "district": "24th",
+   "stateDistrict": "NY24",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 16,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 8,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 10,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000470",
+   "lastName": "Fischbach",
+   "firstName": "Michelle",
+   "officialName": "Michelle Fischbach",
+   "party": "R",
+   "state": "MN",
+   "district": "7th",
+   "stateDistrict": "MN07",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 17,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 9,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 2,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001213",
+   "lastName": "Moore",
+   "firstName": "Blake",
+   "officialName": "Blake D. Moore",
+   "party": "R",
+   "state": "UT",
+   "district": "1st",
+   "stateDistrict": "UT01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 18,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 7,
+     "leadership": null
+    },
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 9,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 11,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "V000134",
+   "lastName": "Van Duyne",
+   "firstName": "Beth",
+   "officialName": "Beth Van Duyne",
+   "party": "R",
+   "state": "TX",
+   "district": "24th",
+   "stateDistrict": "TX24",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 19,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 7,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 12,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 8,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 3,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000446",
+   "lastName": "Feenstra",
+   "firstName": "Randy",
+   "officialName": "Randy Feenstra",
+   "party": "R",
+   "state": "IA",
+   "district": "4th",
+   "stateDistrict": "IA04",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 20,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 3,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 8,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 9,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "M000317",
+   "lastName": "Malliotakis",
+   "firstName": "Nicole",
+   "officialName": "Nicole Malliotakis",
+   "party": "R",
+   "state": "NY",
+   "district": "11th",
+   "stateDistrict": "NY11",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 21,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 10,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 4,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001126",
+   "lastName": "Carey",
+   "firstName": "Mike",
+   "officialName": "Mike Carey",
+   "party": "R",
+   "state": "OH",
+   "district": "15th",
+   "stateDistrict": "OH15",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 22,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 2,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 2,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "Y000067",
+   "lastName": "Yakym",
+   "firstName": "Rudy",
+   "officialName": "Rudy Yakym III",
+   "party": "R",
+   "state": "IN",
+   "district": "2nd",
+   "stateDistrict": "IN02",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 23,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 8,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 3,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 5,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001222",
+   "lastName": "Miller",
+   "firstName": "Max",
+   "officialName": "Max L. Miller",
+   "party": "R",
+   "state": "OH",
+   "district": "7th",
+   "stateDistrict": "OH07",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 24,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 4,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 6,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001314",
+   "lastName": "Bean",
+   "firstName": "Aaron",
+   "officialName": "Aaron Bean",
+   "party": "R",
+   "state": "FL",
+   "district": "4th",
+   "stateDistrict": "FL04",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 25,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 4,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 5,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 7,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001224",
+   "lastName": "Moran",
+   "firstName": "Nathaniel",
+   "officialName": "Nathaniel Moran",
+   "party": "R",
+   "state": "TX",
+   "district": "1st",
+   "stateDistrict": "TX01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 26,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 5,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 6,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 8,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "N000015",
+   "lastName": "Neal",
+   "firstName": "Richard",
+   "officialName": "Richard E. Neal",
+   "party": "D",
+   "state": "MA",
+   "district": "1st",
+   "stateDistrict": "MA01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 1,
+   "committeeLeadership": null,
+   "subcommittees": []
+  },
+  {
+   "bioguideId": "D000399",
+   "lastName": "Doggett",
+   "firstName": "Lloyd",
+   "officialName": "Lloyd Doggett",
+   "party": "D",
+   "state": "TX",
+   "district": "37th",
+   "stateDistrict": "TX37",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 2,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 1,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 7,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 5,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000460",
+   "lastName": "Thompson",
+   "firstName": "Mike",
+   "officialName": "Mike Thompson",
+   "party": "D",
+   "state": "CA",
+   "district": "4th",
+   "stateDistrict": "CA04",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 3,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 2,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 1,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000557",
+   "lastName": "Larson",
+   "firstName": "John",
+   "officialName": "John B. Larson",
+   "party": "D",
+   "state": "CT",
+   "district": "1st",
+   "stateDistrict": "CT01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 4,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 1,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 8,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000096",
+   "lastName": "Davis",
+   "firstName": "Danny",
+   "officialName": "Danny K. Davis",
+   "party": "D",
+   "state": "IL",
+   "district": "7th",
+   "stateDistrict": "IL07",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 5,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 5,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 1,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001156",
+   "lastName": "S\u00e1nchez",
+   "firstName": "Linda",
+   "officialName": "Linda T. S\u00e1nchez",
+   "party": "D",
+   "state": "CA",
+   "district": "38th",
+   "stateDistrict": "CA38",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 6,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 8,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 1,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001185",
+   "lastName": "Sewell",
+   "firstName": "Terri",
+   "officialName": "Terri A. Sewell",
+   "party": "D",
+   "state": "AL",
+   "district": "7th",
+   "stateDistrict": "AL07",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 7,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 4,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 5,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 1,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000617",
+   "lastName": "DelBene",
+   "firstName": "Suzan",
+   "officialName": "Suzan K. DelBene",
+   "party": "D",
+   "state": "WA",
+   "district": "1st",
+   "stateDistrict": "WA01",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 8,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 3,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 2,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 3,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001080",
+   "lastName": "Chu",
+   "firstName": "Judy",
+   "officialName": "Judy Chu",
+   "party": "D",
+   "state": "CA",
+   "district": "28th",
+   "stateDistrict": "CA28",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 9,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 3,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 2,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 2,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001160",
+   "lastName": "Moore",
+   "firstName": "Gwen",
+   "officialName": "Gwen Moore",
+   "party": "D",
+   "state": "WI",
+   "district": "4th",
+   "stateDistrict": "WI04",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 10,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 2,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 3,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 3,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001296",
+   "lastName": "Boyle",
+   "firstName": "Brendan",
+   "officialName": "Brendan F. Boyle",
+   "party": "D",
+   "state": "PA",
+   "district": "2nd",
+   "stateDistrict": "PA02",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 11,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 7,
+     "leadership": null
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 9,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001292",
+   "lastName": "Beyer",
+   "firstName": "Donald",
+   "officialName": "Donald S. Beyer, Jr.",
+   "party": "D",
+   "state": "VA",
+   "district": "8th",
+   "stateDistrict": "VA08",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 12,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 4,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 6,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000296",
+   "lastName": "Evans",
+   "firstName": "Dwight",
+   "officialName": "Dwight Evans",
+   "party": "D",
+   "state": "PA",
+   "district": "3rd",
+   "stateDistrict": "PA03",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 13,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 4,
+     "leadership": null
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 4,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001190",
+   "lastName": "Schneider",
+   "firstName": "Bradley",
+   "officialName": "Bradley Scott Schneider",
+   "party": "D",
+   "state": "IL",
+   "district": "10th",
+   "stateDistrict": "IL10",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 14,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 6,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 4,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000613",
+   "lastName": "Panetta",
+   "firstName": "Jimmy",
+   "officialName": "Jimmy Panetta",
+   "party": "D",
+   "state": "CA",
+   "district": "19th",
+   "stateDistrict": "CA19",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 15,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 2,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "G000585",
+   "lastName": "Gomez",
+   "firstName": "Jimmy",
+   "officialName": "Jimmy Gomez",
+   "party": "D",
+   "state": "CA",
+   "district": "34th",
+   "stateDistrict": "CA34",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 16,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 5,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 5,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001066",
+   "lastName": "Horsford",
+   "firstName": "Steven",
+   "officialName": "Steven Horsford",
+   "party": "D",
+   "state": "NV",
+   "district": "4th",
+   "stateDistrict": "NV04",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 17,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 3,
+     "leadership": null
+    },
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 6,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000610",
+   "lastName": "Plaskett",
+   "firstName": "Stacey",
+   "officialName": "Stacey E. Plaskett",
+   "party": "D",
+   "state": "VI",
+   "district": "Delegate",
+   "stateDistrict": "VI00",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 18,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 5,
+     "leadership": null
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 7,
+     "leadership": null
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001201",
+   "lastName": "Suozzi",
+   "firstName": "Thomas",
+   "officialName": "Thomas R. Suozzi",
+   "party": "D",
+   "state": "NY",
+   "district": "3rd",
+   "stateDistrict": "NY03",
+   "electedDate": "November  5, 2024",
+   "swornDate": "January  3, 2025",
+   "committeeRank": 19,
+   "committeeLeadership": null,
+   "subcommittees": [
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 8,
+     "leadership": null
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 4,
+     "leadership": null
+    }
+   ]
+  }
+ ]
+}

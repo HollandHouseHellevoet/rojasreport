@@ -1,0 +1,72 @@
+{
+    "committee": {
+        "bills": {
+            "count": 98993,
+            "url": "https://api.congress.gov/v3/committee/house/hswm00/bills?format=json"
+        },
+        "committeeWebsiteUrl": "https://waysandmeans.house.gov/",
+        "communications": {
+            "count": 2676,
+            "url": "https://api.congress.gov/v3/committee/house/hswm00/house-communication?format=json"
+        },
+        "history": [
+            {
+                "committeeTypeCode": "Standing",
+                "establishingAuthority": "3 House Journal 104",
+                "libraryOfCongressName": "Ways and Means",
+                "locLinkedDataId": "n79017982",
+                "naraId": "10676918",
+                "officialName": "Committee on Ways and Means",
+                "startDate": "1789-07-24T04:56:00Z",
+                "superintendentDocumentNumber": "Y 4.W 36:",
+                "updateDate": "2024-08-13T16:23:08Z"
+            }
+        ],
+        "isCurrent": true,
+        "reports": {
+            "count": 592,
+            "url": "https://api.congress.gov/v3/committee/house/hswm00/reports?format=json"
+        },
+        "subcommittees": [
+            {
+                "name": "Trade Subcommittee",
+                "systemCode": "hswm04",
+                "url": "https://api.congress.gov/v3/committee/house/hswm04?format=json"
+            },
+            {
+                "name": "Oversight Subcommittee",
+                "systemCode": "hswm06",
+                "url": "https://api.congress.gov/v3/committee/house/hswm06?format=json"
+            },
+            {
+                "name": "Tax Subcommittee",
+                "systemCode": "hswm05",
+                "url": "https://api.congress.gov/v3/committee/house/hswm05?format=json"
+            },
+            {
+                "name": "Social Security Subcommittee",
+                "systemCode": "hswm01",
+                "url": "https://api.congress.gov/v3/committee/house/hswm01?format=json"
+            },
+            {
+                "name": "Work and Welfare Subcommittee",
+                "systemCode": "hswm03",
+                "url": "https://api.congress.gov/v3/committee/house/hswm03?format=json"
+            },
+            {
+                "name": "Health Subcommittee",
+                "systemCode": "hswm02",
+                "url": "https://api.congress.gov/v3/committee/house/hswm02?format=json"
+            }
+        ],
+        "systemCode": "hswm00",
+        "type": "Standing",
+        "updateDate": "2018-11-08T23:12:55Z"
+    },
+    "request": {
+        "chamber": "house",
+        "contentType": "application/json",
+        "format": "json",
+        "systemCode": "hswm00"
+    }
+}
