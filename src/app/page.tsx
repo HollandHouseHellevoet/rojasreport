@@ -7,10 +7,10 @@ import mostRead from '@/data/home/mostread.json';
 import { getAllStates } from '@/lib/data';
 import { buildSearchIndex } from '@/lib/searchIndex';
 import Tiers from '@/components/support/Tiers';
-import { NEWSLETTER_URL, ABOUT_URL } from '@/lib/nav';
 import Search from '@/components/home/Search';
 import StateTileMap from '@/components/home/StateTileMap';
 import FightsTable from '@/components/home/FightsTable';
+import GetIntelligence from '@/components/home/GetIntelligence';
 
 /**
  * Home page, Alliance-style layout (Dutch 2026-11-09, from the canvas mockup Esrvzn1CvPb4JDf3WNb4PB):
@@ -207,40 +207,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* V. Get the intelligence: tinted cards */}
-      <section id="reports" className="pb-20 md:pb-[104px]">
-        <div className={wrap}>
-          <div className="border-t border-hairline pt-20 md:pt-[88px]">
-            <SectionHead
-              label="IV · Get the intelligence"
-              labelClass="text-oxblood"
-              title="Read it. Download it. Own the data."
-              lede="Everything on this site is free to read. The reports and datasets are for the people who need the detail."
-              link={{ href: ABOUT_URL, text: 'Request custom data' }}
-            />
-          </div>
-          <div className="grid gap-6 grid-cols-1 md:grid-cols-3">
-            <article className="bg-paper-2 p-8 flex flex-col gap-4">
-              <div className="border-t-2 border-ink pt-5"><span className={`${tag} border-ink`}>Free</span></div>
-              <h3 className="font-tight font-bold text-[26px] leading-[1.15] tracking-[-0.02em]">The Reader</h3>
-              <p className="text-[16px] leading-[1.55] flex-grow">Every article, every cost-driver brief, every state dossier and the weekly newsletter.</p>
-              <a href={NEWSLETTER_URL} className={`${textlink} self-start hover:text-oxblood`}>Subscribe free <Arrow /></a>
-            </article>
-            <article className="bg-paper-2 p-8 flex flex-col gap-4">
-              <div className="border-t-2 border-ink pt-5"><span className={`${tag} border-ink`}>Reports &amp; datasets</span></div>
-              <h3 className="font-tight font-bold text-[26px] leading-[1.15] tracking-[-0.02em]">Physician-Owned Hospitals</h3>
-              <p className="text-[16px] leading-[1.55] flex-grow">Every POH in the country, with ownership, contacts and state context. $300 per state, or $3,500 a year for all access.</p>
-              <Link href="/reports/" className={`${textlink} self-start hover:text-oxblood`}>Browse reports <Arrow /></Link>
-            </article>
-            <article className="bg-ink text-paper p-8 flex flex-col gap-4">
-              <div className="border-t-2 border-oxblood-rule pt-5"><span className={`${tag} border-ink-text`}>Membership · 100 seats</span></div>
-              <h3 className="font-tight font-bold text-[26px] leading-[1.15] tracking-[-0.02em]">The Builders Table</h3>
-              <p className="text-[16px] leading-[1.55] flex-grow text-ink-text-2">For physician owners, operators, founders and investors. $25,000 a year, by application.</p>
-              <a href={ABOUT_URL} className={`${textlink} self-start text-paper`}>Apply <Arrow /></a>
-            </article>
-          </div>
-        </div>
-      </section>
+      {/* V. Get the intelligence */}
+      <GetIntelligence label="IV · Get the intelligence" />
 
       {/* VI. Support: oxblood band */}
       <section id="support" className={`bg-oxblood text-paper ${band}`}>
