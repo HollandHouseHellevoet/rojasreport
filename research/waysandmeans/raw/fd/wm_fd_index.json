@@ -1,0 +1,2651 @@
+{
+ "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+ "sourceLabel": "Clerk of the House, Financial Disclosure Reports index (2025FD.zip, 2026FD.zip)",
+ "members": [
+  {
+   "bioguideId": "S001195",
+   "name": "Jason Smith",
+   "stateDistrict": "MO08",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10078389",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078389.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/15/2026",
+     "docId": "30028029",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30028029.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10078389",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078389.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001260",
+   "name": "Vern Buchanan",
+   "stateDistrict": "FL16",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10078132",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078132.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10078132",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078132.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001172",
+   "name": "Adrian Smith",
+   "stateDistrict": "NE03",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "6/12/2026",
+     "docId": "10076487",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076487.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/13/2025",
+     "docId": "8220764",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220764.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/24/2025",
+     "docId": "9115549",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115549.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/14/2025",
+     "docId": "8221238",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221238.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/12/2026",
+     "docId": "30027635",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027635.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/27/2026",
+     "docId": "20035067",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035067.pdf"
+    }
+   ],
+   "ptrCount": 4,
+   "ptrCount2025": 3,
+   "ptrCount2026": 1,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "6/12/2026",
+     "docId": "10076487",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076487.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000376",
+   "name": "Mike Kelly",
+   "stateDistrict": "PA16",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10075845",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075845.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/9/2025",
+     "docId": "20026550",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026550.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/14/2025",
+     "docId": "20026792",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026792.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/9/2025",
+     "docId": "20030639",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/12/2025",
+     "docId": "20030892",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030892.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/9/2025",
+     "docId": "20032254",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032254.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/11/2025",
+     "docId": "20033447",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/9/2025",
+     "docId": "20033615",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033615.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/20/2026",
+     "docId": "30027057",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027057.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/8/2026",
+     "docId": "20033763",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033763.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "2/12/2026",
+     "docId": "20033991",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033991.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/12/2026",
+     "docId": "20034168",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034168.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/7/2026",
+     "docId": "20034302",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034302.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/20/2026",
+     "docId": "20034607",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034607.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/11/2026",
+     "docId": "20034767",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034767.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/8/2026",
+     "docId": "20034947",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034947.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/12/2026",
+     "docId": "20035203",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/12/2026",
+     "docId": "20035209",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035209.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/8/2026",
+     "docId": "20035403",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035403.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/14/2026",
+     "docId": "20035652",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035652.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "11/4/2026",
+     "docId": "20035765",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035765.pdf"
+    }
+   ],
+   "ptrCount": 19,
+   "ptrCount2025": 7,
+   "ptrCount2026": 12,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10075845",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075845.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001183",
+   "name": "David Schweikert",
+   "stateDistrict": "AZ01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10077931",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077931.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/13/2026",
+     "docId": "30027807",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027807.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10077931",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077931.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000585",
+   "name": "Darin LaHood",
+   "stateDistrict": "IL16",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/15/2026",
+     "docId": "10076177",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076177.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/15/2026",
+     "docId": "10076177",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076177.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "A000375",
+   "name": "Jodey C. Arrington",
+   "stateDistrict": "TX19",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "10/27/2026",
+     "docId": "10083130",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10083130.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10078577",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078577.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/15/2026",
+     "docId": "30028142",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30028142.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/27/2026",
+     "docId": "20035714",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035714.pdf"
+    }
+   ],
+   "ptrCount": 1,
+   "ptrCount2025": 0,
+   "ptrCount2026": 1,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "10/27/2026",
+     "docId": "10083130",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10083130.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10078577",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078577.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000298",
+   "name": "Ron Estes",
+   "stateDistrict": "KS04",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/10/2026",
+     "docId": "10076698",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076698.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/5/2026",
+     "docId": "30027312",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027312.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/10/2026",
+     "docId": "10076698",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076698.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001199",
+   "name": "Lloyd Smucker",
+   "stateDistrict": "PA11",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/11/2026",
+     "docId": "10077933",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077933.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/13/2026",
+     "docId": "30027809",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027809.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/30/2026",
+     "docId": "20019182",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20019182.pdf"
+    }
+   ],
+   "ptrCount": 1,
+   "ptrCount2025": 0,
+   "ptrCount2026": 1,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/11/2026",
+     "docId": "10077933",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077933.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001082",
+   "name": "Kevin Hern",
+   "stateDistrict": "OK01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "6/25/2026",
+     "docId": "10075834",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075834.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/15/2025",
+     "docId": "20026597",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/14/2025",
+     "docId": "20026794",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026794.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/23/2025",
+     "docId": "20030185",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030185.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/13/2025",
+     "docId": "20030339",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030339.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/16/2025",
+     "docId": "20032284",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/16/2025",
+     "docId": "20033458",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/18/2026",
+     "docId": "30027043",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027043.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/22/2026",
+     "docId": "20033829",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033829.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "2/18/2026",
+     "docId": "20034012",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034012.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/6/2026",
+     "docId": "20034128",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034128.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/3/2026",
+     "docId": "20034262",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/5/2026",
+     "docId": "20034461",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034461.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/2/2026",
+     "docId": "20034695",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034695.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/16/2026",
+     "docId": "20035013",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035013.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/10/2026",
+     "docId": "20035134",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/12/2026",
+     "docId": "20035196",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035196.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/1/2026",
+     "docId": "20035326",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/25/2026",
+     "docId": "20035491",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/13/2026",
+     "docId": "20035588",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/28/2026",
+     "docId": "20035710",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+    }
+   ],
+   "ptrCount": 19,
+   "ptrCount2025": 6,
+   "ptrCount2026": 13,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "6/25/2026",
+     "docId": "10075834",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075834.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001205",
+   "name": "Carol D. Miller",
+   "stateDistrict": "WV01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10076025",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076025.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/11/2025",
+     "docId": "20029135",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/22/2026",
+     "docId": "30027078",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027078.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/13/2026",
+     "docId": "20033779",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033779.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/30/2026",
+     "docId": "20035734",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035734.pdf"
+    }
+   ],
+   "ptrCount": 3,
+   "ptrCount2025": 1,
+   "ptrCount2026": 2,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10076025",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076025.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001210",
+   "name": "Gregory F. Murphy",
+   "stateDistrict": "NC03",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "10/13/2026",
+     "docId": "10083062",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10083062.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/11/2026",
+     "docId": "10075847",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075847.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "10/13/2026",
+     "docId": "10083062",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10083062.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/11/2026",
+     "docId": "10075847",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075847.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000392",
+   "name": "David Kustoff",
+   "stateDistrict": "TN08",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10076393",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076393.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/30/2026",
+     "docId": "30027233",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027233.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10076393",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076393.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000466",
+   "name": "Brian K. Fitzpatrick",
+   "stateDistrict": "PA01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/15/2026",
+     "docId": "10074614",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074614.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/15/2026",
+     "docId": "10074614",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074614.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001214",
+   "name": "W. Gregory Steube",
+   "stateDistrict": "FL17",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/12/2026",
+     "docId": "10075309",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075309.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/4/2025",
+     "docId": "20024927",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20024927.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/16/2025",
+     "docId": "20030673",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030673.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/8/2026",
+     "docId": "30026907",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30026907.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/14/2026",
+     "docId": "20034345",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034345.pdf"
+    }
+   ],
+   "ptrCount": 3,
+   "ptrCount2025": 2,
+   "ptrCount2026": 1,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/12/2026",
+     "docId": "10075309",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075309.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000478",
+   "name": "Claudia Tenney",
+   "stateDistrict": "NY24",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/12/2026",
+     "docId": "10076400",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076400.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/29/2026",
+     "docId": "30027215",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027215.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/12/2026",
+     "docId": "10076400",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076400.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000470",
+   "name": "Michelle Fischbach",
+   "stateDistrict": "MN07",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "6/5/2026",
+     "docId": "10077470",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077470.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/15/2026",
+     "docId": "30028046",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30028046.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "6/5/2026",
+     "docId": "10077470",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077470.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001213",
+   "name": "Blake D. Moore",
+   "stateDistrict": "UT01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/7/2026",
+     "docId": "10074823",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074823.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/1/2026",
+     "docId": "30026768",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30026768.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/7/2026",
+     "docId": "10074823",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074823.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "V000134",
+   "name": "Beth Van Duyne",
+   "stateDistrict": "TX24",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10081582",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081582.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/29/2026",
+     "docId": "9115792",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9115792.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10081582",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081582.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000446",
+   "name": "Randy Feenstra",
+   "stateDistrict": "IA04",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/3/2026",
+     "docId": "10076528",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076528.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/1/2026",
+     "docId": "30027255",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027255.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/3/2026",
+     "docId": "10076528",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076528.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M000317",
+   "name": "Nicole Malliotakis",
+   "stateDistrict": "NY11",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/7/2026",
+     "docId": "10076820",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076820.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/19/2025",
+     "docId": "8221276",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221276.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/7/2026",
+     "docId": "8221287",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221287.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/6/2026",
+     "docId": "30027353",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027353.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/14/2026",
+     "docId": "9116217",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116217.pdf"
+    }
+   ],
+   "ptrCount": 3,
+   "ptrCount2025": 2,
+   "ptrCount2026": 1,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/7/2026",
+     "docId": "10076820",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076820.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001126",
+   "name": "Mike Carey",
+   "stateDistrict": "OH15",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "8/18/2026",
+     "docId": "10081686",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081686.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10081577",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081577.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/15/2026",
+     "docId": "9115739",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9115739.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "8/18/2026",
+     "docId": "10081686",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081686.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10081577",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081577.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "Y000067",
+   "name": "Rudy Yakym III",
+   "stateDistrict": "IN02",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10075193",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075193.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/28/2025",
+     "docId": "20026666",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026666.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/8/2025",
+     "docId": "20030311",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030311.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/18/2025",
+     "docId": "20030933",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030933.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/23/2025",
+     "docId": "20033684",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033684.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/6/2026",
+     "docId": "30026870",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30026870.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/6/2026",
+     "docId": "20034298",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034298.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/13/2026",
+     "docId": "20034984",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034984.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/20/2026",
+     "docId": "20035691",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035691.pdf"
+    }
+   ],
+   "ptrCount": 7,
+   "ptrCount2025": 4,
+   "ptrCount2026": 3,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10075193",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075193.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001222",
+   "name": "Max L. Miller",
+   "stateDistrict": "OH07",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "4/2/2026",
+     "docId": "10075002",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075002.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "C",
+     "filingDate": "4/2/2026",
+     "docId": "10074998",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074998.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/10/2026",
+     "docId": "10076162",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076162.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/31/2025",
+     "docId": "20026684",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026684.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/24/2025",
+     "docId": "20027838",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027838.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/27/2025",
+     "docId": "20029035",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029035.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/28/2025",
+     "docId": "20030236",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030236.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/22/2025",
+     "docId": "20030401",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030401.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/1/2025",
+     "docId": "20030585",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030585.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/27/2025",
+     "docId": "20030742",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/28/2025",
+     "docId": "20030989",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030989.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/28/2025",
+     "docId": "20032187",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032187.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/24/2026",
+     "docId": "30027126",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027126.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/29/2026",
+     "docId": "20033881",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033881.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/30/2026",
+     "docId": "20034247",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034247.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/28/2026",
+     "docId": "20034419",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034419.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/29/2026",
+     "docId": "20034651",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034651.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/1/2026",
+     "docId": "20034869",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034869.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/26/2026",
+     "docId": "20035075",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035075.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/27/2026",
+     "docId": "20035528",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035528.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/27/2026",
+     "docId": "20035715",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035715.pdf"
+    }
+   ],
+   "ptrCount": 17,
+   "ptrCount2025": 9,
+   "ptrCount2026": 8,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "4/2/2026",
+     "docId": "10075002",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075002.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/10/2026",
+     "docId": "10076162",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076162.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001314",
+   "name": "Aaron Bean",
+   "stateDistrict": "FL04",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10078008",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078008.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10078008",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078008.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001224",
+   "name": "Nathaniel Moran",
+   "stateDistrict": "TX01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/7/2026",
+     "docId": "10076305",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076305.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/28/2026",
+     "docId": "30027168",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027168.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/7/2026",
+     "docId": "10076305",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076305.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "N000015",
+   "name": "Richard E. Neal",
+   "stateDistrict": "MA01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/15/2026",
+     "docId": "10077376",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077376.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/15/2026",
+     "docId": "10077376",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077376.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000399",
+   "name": "Lloyd Doggett",
+   "stateDistrict": "TX37",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "7/13/2026",
+     "docId": "10074933",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074933.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/8/2025",
+     "docId": "20026535",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026535.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/10/2025",
+     "docId": "20027935",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027935.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/7/2025",
+     "docId": "20029088",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029088.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/5/2025",
+     "docId": "20030285",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030285.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "6/4/2025",
+     "docId": "20030454",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030454.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/7/2025",
+     "docId": "20030618",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030618.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/4/2025",
+     "docId": "20030820",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030820.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/15/2026",
+     "docId": "30027005",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027005.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/2/2026",
+     "docId": "20033713",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033713.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/5/2026",
+     "docId": "20034132",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034132.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/6/2026",
+     "docId": "20034292",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034292.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/6/2026",
+     "docId": "20034486",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034486.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/4/2026",
+     "docId": "20034712",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034712.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/6/2026",
+     "docId": "20034923",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/5/2026",
+     "docId": "20035136",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/8/2026",
+     "docId": "20035401",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035401.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/5/2026",
+     "docId": "20035580",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
+    }
+   ],
+   "ptrCount": 16,
+   "ptrCount2025": 7,
+   "ptrCount2026": 9,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "7/13/2026",
+     "docId": "10074933",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074933.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000460",
+   "name": "Mike Thompson",
+   "stateDistrict": "CA04",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "C",
+     "filingDate": "6/20/2025",
+     "docId": "10071614",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071614.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "9116168",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116168.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "C",
+     "filingDate": "8/10/2026",
+     "docId": "10075612",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075612.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "X",
+     "filingDate": "5/6/2026",
+     "docId": "30027290",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30027290.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "9116168",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116168.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000557",
+   "name": "John B. Larson",
+   "stateDistrict": "CT01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10074715",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074715.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10074715",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074715.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000096",
+   "name": "Danny K. Davis",
+   "stateDistrict": "IL07",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "7/15/2026",
+     "docId": "9116220",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116220.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "6/4/2026",
+     "docId": "9115939",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9115939.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "C",
+     "filingDate": "1/7/2026",
+     "docId": "10072595",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072595.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "10/6/2025",
+     "docId": "30025458",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30025458.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "C",
+     "filingDate": "10/9/2025",
+     "docId": "10071721",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071721.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "D",
+     "filingDate": "8/1/2025",
+     "docId": "40004811",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/40004811.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "7/8/2025",
+     "docId": "30025252",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30025252.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "C",
+     "filingDate": "8/14/2026",
+     "docId": "10075597",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075597.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "X",
+     "filingDate": "4/28/2026",
+     "docId": "30026970",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30026970.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "W",
+     "filingDate": "5/8/2026",
+     "docId": "8099",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/8099.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "7/15/2026",
+     "docId": "9116220",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116220.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001156",
+   "name": "Linda T. S\u00e1nchez",
+   "stateDistrict": "CA38",
+   "filings": [],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": []
+  },
+  {
+   "bioguideId": "S001185",
+   "name": "Terri A. Sewell",
+   "stateDistrict": "AL07",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "9/25/2026",
+     "docId": "10082953",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10082953.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10081495",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081495.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/12/2025",
+     "docId": "20030235",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030235.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "6/8/2026",
+     "docId": "9116094",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116094.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/21/2026",
+     "docId": "20034384",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf"
+    }
+   ],
+   "ptrCount": 2,
+   "ptrCount2025": 1,
+   "ptrCount2026": 1,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "9/25/2026",
+     "docId": "10082953",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10082953.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10081495",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081495.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000617",
+   "name": "Suzan K. DelBene",
+   "stateDistrict": "WA01",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10076133",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076133.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/9/2025",
+     "docId": "20026602",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026602.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/25/2025",
+     "docId": "20027807",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027807.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/26/2025",
+     "docId": "20027999",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027999.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/10/2025",
+     "docId": "20029070",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029070.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/7/2025",
+     "docId": "20030289",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030289.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "6/8/2025",
+     "docId": "20030444",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030444.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "6/24/2025",
+     "docId": "20030541",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/17/2025",
+     "docId": "20030619",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030619.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/9/2025",
+     "docId": "20030826",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030826.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/29/2025",
+     "docId": "20030955",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030955.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "9/28/2025",
+     "docId": "20032102",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032102.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/13/2025",
+     "docId": "20032245",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032245.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/30/2025",
+     "docId": "20033335",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033335.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/12/2025",
+     "docId": "20033431",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033431.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/8/2025",
+     "docId": "20033587",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033587.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/12/2026",
+     "docId": "20033766",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033766.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/23/2026",
+     "docId": "20033835",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033835.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/12/2026",
+     "docId": "20034155",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034155.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/28/2026",
+     "docId": "20034400",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034400.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/8/2026",
+     "docId": "20034466",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034466.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/26/2026",
+     "docId": "20034615",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034615.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/11/2026",
+     "docId": "20034727",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/11/2026",
+     "docId": "20035175",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/21/2026",
+     "docId": "20035274",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/14/2026",
+     "docId": "20035400",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035400.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/30/2026",
+     "docId": "20035498",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/14/2026",
+     "docId": "20035627",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/28/2026",
+     "docId": "20035689",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf"
+    }
+   ],
+   "ptrCount": 28,
+   "ptrCount2025": 15,
+   "ptrCount2026": 13,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10076133",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076133.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001080",
+   "name": "Judy Chu",
+   "stateDistrict": "CA28",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "5/14/2026",
+     "docId": "10078299",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078299.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10077247",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077247.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/30/2025",
+     "docId": "20031001",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031001.pdf"
+    }
+   ],
+   "ptrCount": 1,
+   "ptrCount2025": 1,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "5/14/2026",
+     "docId": "10078299",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078299.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10077247",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077247.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001160",
+   "name": "Gwen Moore",
+   "stateDistrict": "WI04",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/12/2026",
+     "docId": "9116164",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116164.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/12/2026",
+     "docId": "9116164",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116164.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001296",
+   "name": "Brendan F. Boyle",
+   "stateDistrict": "PA02",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/3/2026",
+     "docId": "10081432",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081432.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "6/4/2026",
+     "docId": "9115911",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9115911.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/3/2026",
+     "docId": "10081432",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081432.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001292",
+   "name": "Donald S. Beyer, Jr.",
+   "stateDistrict": "VA08",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "7/8/2026",
+     "docId": "10081234",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081234.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "4/12/2026",
+     "docId": "10075444",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075444.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/6/2025",
+     "docId": "20026517",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/8/2025",
+     "docId": "20027932",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027932.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/2/2025",
+     "docId": "20030262",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030262.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/2/2025",
+     "docId": "20030746",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030746.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/2/2025",
+     "docId": "20032200",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032200.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/2/2025",
+     "docId": "20033325",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/2/2026",
+     "docId": "20033714",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033714.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/31/2026",
+     "docId": "20033903",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033903.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/1/2026",
+     "docId": "20034085",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034085.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/1/2026",
+     "docId": "20034891",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034891.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/1/2026",
+     "docId": "20035106",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035106.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/1/2026",
+     "docId": "20035349",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035349.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/1/2026",
+     "docId": "20035555",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035555.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "11/1/2026",
+     "docId": "20035743",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035743.pdf"
+    }
+   ],
+   "ptrCount": 14,
+   "ptrCount2025": 6,
+   "ptrCount2026": 8,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "A",
+     "filingDate": "7/8/2026",
+     "docId": "10081234",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081234.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "4/12/2026",
+     "docId": "10075444",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075444.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000296",
+   "name": "Dwight Evans",
+   "stateDistrict": "PA03",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10077377",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077377.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/2/2025",
+     "docId": "20029062",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029062.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/17/2025",
+     "docId": "20030179",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030179.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/30/2025",
+     "docId": "20033370",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033370.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/19/2025",
+     "docId": "20033667",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033667.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/20/2026",
+     "docId": "20034379",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034379.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/15/2026",
+     "docId": "20034556",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034556.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/24/2026",
+     "docId": "20034851",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034851.pdf"
+    }
+   ],
+   "ptrCount": 7,
+   "ptrCount2025": 4,
+   "ptrCount2026": 3,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "5/14/2026",
+     "docId": "10077377",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077377.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001190",
+   "name": "Bradley Scott Schneider",
+   "stateDistrict": "IL10",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/12/2026",
+     "docId": "10075108",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075108.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/5/2025",
+     "docId": "20027911",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027911.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/1/2025",
+     "docId": "20030591",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030591.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/2/2025",
+     "docId": "20030594",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030594.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/4/2026",
+     "docId": "30026849",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30026849.pdf"
+    }
+   ],
+   "ptrCount": 3,
+   "ptrCount2025": 3,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/12/2026",
+     "docId": "10075108",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075108.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000613",
+   "name": "Jimmy Panetta",
+   "stateDistrict": "CA19",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10074944",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074944.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "4/1/2026",
+     "docId": "30026811",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30026811.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10074944",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074944.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "G000585",
+   "name": "Jimmy Gomez",
+   "stateDistrict": "CA34",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10076526",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076526.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/1/2026",
+     "docId": "30027253",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027253.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10076526",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076526.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001066",
+   "name": "Steven Horsford",
+   "stateDistrict": "NV04",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/10/2026",
+     "docId": "10077978",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077978.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/13/2026",
+     "docId": "30027832",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027832.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/10/2026",
+     "docId": "10077978",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077978.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000610",
+   "name": "Stacey E. Plaskett",
+   "stateDistrict": "VI00",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/31/2026",
+     "docId": "10082756",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10082756.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "6/8/2026",
+     "docId": "9116055",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116055.pdf"
+    }
+   ],
+   "ptrCount": 0,
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/31/2026",
+     "docId": "10082756",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10082756.pdf"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001201",
+   "name": "Thomas R. Suozzi",
+   "stateDistrict": "NY03",
+   "filings": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10077078",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077078.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/21/2025",
+     "docId": "20030188",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030188.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/13/2025",
+     "docId": "20030307",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030307.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/21/2025",
+     "docId": "20033321",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/3/2025",
+     "docId": "20033394",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033394.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/1/2025",
+     "docId": "20033565",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033565.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "X",
+     "filingDate": "5/12/2026",
+     "docId": "30027597",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027597.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/17/2026",
+     "docId": "20034188",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034188.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/8/2026",
+     "docId": "20034503",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034503.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/9/2026",
+     "docId": "20034747",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034747.pdf"
+    }
+   ],
+   "ptrCount": 8,
+   "ptrCount2025": 5,
+   "ptrCount2026": 3,
+   "annualReports": [
+    {
+     "year": "2025",
+     "filingType": "O",
+     "filingDate": "8/13/2026",
+     "docId": "10077078",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077078.pdf"
+    }
+   ]
+  }
+ ]
+}

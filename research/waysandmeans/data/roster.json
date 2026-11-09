@@ -1,0 +1,4590 @@
+{
+ "committee": "House Committee on Ways and Means",
+ "congress": "119th Congress (2025 to 2026)",
+ "asOf": "Clerk member data published November 3, 2026",
+ "sources": [
+  {
+   "url": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "label": "Clerk of the House, Member Data XML, published November 3, 2026"
+  },
+  {
+   "url": "https://waysandmeans.house.gov/members/",
+   "label": "Committee on Ways and Means, Full Committee membership page, retrieved November 9, 2026"
+  },
+  {
+   "url": "https://waysandmeans.house.gov/subcommittees/",
+   "label": "Committee on Ways and Means, Subcommittees page, retrieved November 8, 2026"
+  },
+  {
+   "url": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+   "label": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress"
+  },
+  {
+   "url": "https://api.congress.gov/v3/member/congress/119",
+   "label": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026"
+  }
+ ],
+ "counts": {
+  "members": 45,
+  "republicans": 26,
+  "democrats": 19,
+  "healthSubcommittee": 19
+ },
+ "leadership": {
+  "chair": "Jason Smith (R-MO)",
+  "rankingMember": "Richard E. Neal (D-MA)",
+  "viceChair": null,
+  "viceRankingMember": "Gwen Moore (D-WI)",
+  "source": [
+   "https://waysandmeans.house.gov/members/",
+   "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  ],
+  "note": "The committee's membership page lists a Chairman and a Ranking Member only."
+ },
+ "subcommitteeLeaders": [
+  {
+   "code": "WM02",
+   "name": "Health",
+   "chair": "Vern Buchanan",
+   "rankingMember": "Lloyd Doggett",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM01",
+   "name": "Social Security",
+   "chair": "Ron Estes",
+   "rankingMember": "John B. Larson",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM03",
+   "name": "Work and Welfare",
+   "chair": "Darin LaHood",
+   "rankingMember": "Danny K. Davis",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM04",
+   "name": "Trade",
+   "chair": "Adrian Smith",
+   "rankingMember": "Linda T. Sánchez",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM05",
+   "name": "Tax",
+   "chair": "Mike Kelly",
+   "rankingMember": "Mike Thompson",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM06",
+   "name": "Oversight",
+   "chair": "David Schweikert",
+   "rankingMember": "Terri A. Sewell",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  }
+ ],
+ "membersNoLongerOnCommittee": [],
+ "members": [
+  {
+   "bioguideId": "S001195",
+   "slug": "jason-smith",
+   "name": "Jason Smith",
+   "firstName": "Jason",
+   "lastName": "Smith",
+   "party": "R",
+   "state": "MO",
+   "district": "8th",
+   "stateDistrict": "MO08",
+   "committeeRank": 1,
+   "fullCommitteeRole": "Chair",
+   "subcommittees": [],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2013,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "MO08",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "MO-08"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001195",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001195"
+    },
+    {
+     "field": "role",
+     "value": "Chair",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "Chair"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2013,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2013,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Chairman of the Ways and Means Committee. Previously chaired the Budget Committee. Focused on tax policy and healthcare cost reduction through market-based reforms. Represents rural southeastern Missouri.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001260",
+   "slug": "vern-buchanan",
+   "name": "Vern Buchanan",
+   "firstName": "Vern",
+   "lastName": "Buchanan",
+   "party": "R",
+   "state": "FL",
+   "district": "16th",
+   "stateDistrict": "FL16",
+   "committeeRank": 2,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 1,
+     "role": "Chair"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 2,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2007,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "FL16",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "FL-16"
+    },
+    {
+     "field": "bioguideId",
+     "value": "B001260",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "B001260"
+    },
+    {
+     "field": "role",
+     "value": "Health Subcommittee Chair",
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "Vice Chair",
+     "note": "The committee's membership page lists only a Chairman and a Ranking Member; no vice chair is listed. The Clerk's file shows Buchanan as Health Subcommittee Chair."
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2007,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2007,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Senior member and Vice Chair. Strong advocate for Medicare reform and prescription drug pricing transparency. Has pushed legislation on surprise medical billing and mental health parity.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001172",
+   "slug": "adrian-smith",
+   "name": "Adrian Smith",
+   "firstName": "Adrian",
+   "lastName": "Smith",
+   "party": "R",
+   "state": "NE",
+   "district": "3rd",
+   "stateDistrict": "NE03",
+   "committeeRank": 3,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 2,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 1,
+     "role": "Chair"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2007,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "NE03",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "NE-03"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001172",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001172"
+    },
+    {
+     "field": "role",
+     "value": "Trade Subcommittee Chair",
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "Health Subcommittee Chair",
+     "note": "The Clerk's file shows Adrian Smith as Trade Subcommittee Chair and a Health Subcommittee member; Buchanan chairs Health."
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2007,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2007,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Chairs the Health Subcommittee. Leads healthcare policy for the committee including Medicare physician payment reform, telehealth expansion, and rural healthcare access. Represents rural western Nebraska.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000376",
+   "slug": "mike-kelly",
+   "name": "Mike Kelly",
+   "firstName": "Mike",
+   "lastName": "Kelly",
+   "party": "R",
+   "state": "PA",
+   "district": "16th",
+   "stateDistrict": "PA16",
+   "committeeRank": 4,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 3,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 1,
+     "role": "Chair"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2011,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "PA16",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "PA-16"
+    },
+    {
+     "field": "bioguideId",
+     "value": "K000376",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "K000376"
+    },
+    {
+     "field": "role",
+     "value": "Tax Subcommittee Chair",
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2011,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2011,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Senior committee member focused on employer-sponsored health insurance, health savings accounts, and reducing regulatory burden on healthcare providers.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001183",
+   "slug": "david-schweikert",
+   "name": "David Schweikert",
+   "firstName": "David",
+   "lastName": "Schweikert",
+   "party": "R",
+   "state": "AZ",
+   "district": "1st",
+   "stateDistrict": "AZ01",
+   "committeeRank": 5,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 2,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 1,
+     "role": "Chair"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2011,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "AZ01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "AZ-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001183",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001183"
+    },
+    {
+     "field": "role",
+     "value": "Oversight Subcommittee Chair",
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2011,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2011,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Advocates for healthcare innovation and technology-driven solutions. Strong proponent of price transparency and health data interoperability. Known for floor speeches on healthcare cost drivers.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000585",
+   "slug": "darin-lahood",
+   "name": "Darin LaHood",
+   "firstName": "Darin",
+   "lastName": "LaHood",
+   "party": "R",
+   "state": "IL",
+   "district": "16th",
+   "stateDistrict": "IL16",
+   "committeeRank": 6,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 1,
+     "role": "Chair"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 3,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2015,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "IL16",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "IL-16"
+    },
+    {
+     "field": "bioguideId",
+     "value": "L000585",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "L000585"
+    },
+    {
+     "field": "role",
+     "value": "Work and Welfare Subcommittee Chair",
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2015,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2015,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Focused on rural healthcare access, mental health funding, and substance abuse treatment programs. Co-chair of the Congressional Mental Health Caucus.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "A000375",
+   "slug": "jodey-arrington",
+   "name": "Jodey C. Arrington",
+   "firstName": "Jodey",
+   "lastName": "Arrington",
+   "party": "R",
+   "state": "TX",
+   "district": "19th",
+   "stateDistrict": "TX19",
+   "committeeRank": 7,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 4,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 3,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "TX19",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "TX-19"
+    },
+    {
+     "field": "bioguideId",
+     "value": "A000375",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "A000375"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Previously chaired the Budget Committee. Focused on Medicare solvency, Medicaid reform, and reducing federal healthcare spending. Represents Lubbock and west Texas.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000298",
+   "slug": "ron-estes",
+   "name": "Ron Estes",
+   "firstName": "Ron",
+   "lastName": "Estes",
+   "party": "R",
+   "state": "KS",
+   "district": "4th",
+   "stateDistrict": "KS04",
+   "committeeRank": 8,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 1,
+     "role": "Chair"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 5,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "KS04",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "KS-04"
+    },
+    {
+     "field": "bioguideId",
+     "value": "E000298",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "E000298"
+    },
+    {
+     "field": "role",
+     "value": "Social Security Subcommittee Chair",
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Kansas State Treasurer. Focused on health savings accounts, association health plans, and small business healthcare affordability.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001199",
+   "slug": "lloyd-smucker",
+   "name": "Lloyd Smucker",
+   "firstName": "Lloyd",
+   "lastName": "Smucker",
+   "party": "R",
+   "state": "PA",
+   "district": "11th",
+   "stateDistrict": "PA11",
+   "committeeRank": 9,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 6,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 6,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 6,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "PA11",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "PA-11"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001199",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001199"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Focused on healthcare workforce development, site-neutral payment policies, and reducing hospital consolidation's impact on costs in Pennsylvania.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001082",
+   "slug": "kevin-hern",
+   "name": "Kevin Hern",
+   "firstName": "Kevin",
+   "lastName": "Hern",
+   "party": "R",
+   "state": "OK",
+   "district": "1st",
+   "stateDistrict": "OK01",
+   "committeeRank": 10,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 5,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 4,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2018,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "OK01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "OK-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "H001082",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "H001082"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2018,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2018,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former McDonald's franchise owner. Chair of the Republican Study Committee. Focused on free-market healthcare reforms, opposing single-payer systems, and expanding health savings accounts.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001205",
+   "slug": "carol-miller",
+   "name": "Carol D. Miller",
+   "firstName": "Carol",
+   "lastName": "Miller",
+   "party": "R",
+   "state": "WV",
+   "district": "1st",
+   "stateDistrict": "WV01",
+   "committeeRank": 11,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 6,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 5,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2019,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "WV01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "WV-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "M001205",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "M001205"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2019,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2019,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Represents southern West Virginia, an area heavily impacted by the opioid crisis. Advocate for substance abuse treatment funding, rural hospital preservation, and Medicaid work requirements.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001210",
+   "slug": "greg-murphy",
+   "name": "Gregory F. Murphy",
+   "firstName": "Gregory",
+   "lastName": "Murphy",
+   "party": "R",
+   "state": "NC",
+   "district": "3rd",
+   "stateDistrict": "NC03",
+   "committeeRank": 12,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 4,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 7,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2019,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "NC03",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "NC-03"
+    },
+    {
+     "field": "bioguideId",
+     "value": "M001210",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "M001210"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2019,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2019,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Practicing physician (urologist) and only MD on the Republican side of the committee. Brings clinical perspective to healthcare policy. Advocate for physician payment reform and reducing administrative burden.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000392",
+   "slug": "david-kustoff",
+   "name": "David Kustoff",
+   "firstName": "David",
+   "lastName": "Kustoff",
+   "party": "R",
+   "state": "TN",
+   "district": "8th",
+   "stateDistrict": "TN08",
+   "committeeRank": 13,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 10,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 7,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "TN08",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "TN-08"
+    },
+    {
+     "field": "bioguideId",
+     "value": "K000392",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "K000392"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former U.S. Attorney. Focused on combating healthcare fraud, opioid enforcement, and healthcare tax policy. Represents western Tennessee.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000466",
+   "slug": "brian-fitzpatrick",
+   "name": "Brian K. Fitzpatrick",
+   "firstName": "Brian",
+   "lastName": "Fitzpatrick",
+   "party": "R",
+   "state": "PA",
+   "district": "1st",
+   "stateDistrict": "PA01",
+   "committeeRank": 14,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 7,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 11,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "PA01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "PA-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "F000466",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "F000466"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Co-chair of the Problem Solvers Caucus. One of the most bipartisan Republicans. Supports surprise billing protections, mental health funding, and bipartisan drug pricing negotiations.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001214",
+   "slug": "greg-steube",
+   "name": "W. Gregory Steube",
+   "firstName": "W.",
+   "lastName": "Steube",
+   "party": "R",
+   "state": "FL",
+   "district": "17th",
+   "stateDistrict": "FL17",
+   "committeeRank": 15,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 11,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 8,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2019,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "FL17",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "FL-17"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001214",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001214"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2019,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2019,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Army veteran focused on veterans' healthcare access, opposing vaccine mandates, and reducing FDA regulatory barriers. Represents southwestern Florida.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000478",
+   "slug": "claudia-tenney",
+   "name": "Claudia Tenney",
+   "firstName": "Claudia",
+   "lastName": "Tenney",
+   "party": "R",
+   "state": "NY",
+   "district": "24th",
+   "stateDistrict": "NY24",
+   "committeeRank": 16,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 8,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 10,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "NY24",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "NY-24"
+    },
+    {
+     "field": "bioguideId",
+     "value": "T000478",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "T000478"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Focused on healthcare affordability in upstate New York, opposing hospital monopolies, and supporting community health centers and rural clinics.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000470",
+   "slug": "michelle-fischbach",
+   "name": "Michelle Fischbach",
+   "firstName": "Michelle",
+   "lastName": "Fischbach",
+   "party": "R",
+   "state": "MN",
+   "district": "7th",
+   "stateDistrict": "MN07",
+   "committeeRank": 17,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 9,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 2,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2021,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "MN07",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "MN-07"
+    },
+    {
+     "field": "bioguideId",
+     "value": "F000470",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "F000470"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2021,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2021,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Minnesota Lieutenant Governor. Focused on rural healthcare, agricultural worker health, and mental health access in underserved communities.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001213",
+   "slug": "blake-moore",
+   "name": "Blake D. Moore",
+   "firstName": "Blake",
+   "lastName": "Moore",
+   "party": "R",
+   "state": "UT",
+   "district": "1st",
+   "stateDistrict": "UT01",
+   "committeeRank": 18,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 7,
+     "role": "Member"
+    },
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 9,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 11,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2021,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "UT01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "UT-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "M001213",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "M001213"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2021,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2021,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Vice Chair of the Republican Conference. Focused on healthcare innovation, health data interoperability, and expanding telehealth access.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "V000134",
+   "slug": "beth-van-duyne",
+   "name": "Beth Van Duyne",
+   "firstName": "Beth",
+   "lastName": "Van Duyne",
+   "party": "R",
+   "state": "TX",
+   "district": "24th",
+   "stateDistrict": "TX24",
+   "committeeRank": 19,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 7,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 12,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 8,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 3,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2021,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "TX24",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "TX-24"
+    },
+    {
+     "field": "bioguideId",
+     "value": "V000134",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "V000134"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2021,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2021,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Irving, TX mayor. Focused on healthcare price transparency, reducing surprise billing, and healthcare tax deductions for families.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000446",
+   "slug": "randy-feenstra",
+   "name": "Randy Feenstra",
+   "firstName": "Randy",
+   "lastName": "Feenstra",
+   "party": "R",
+   "state": "IA",
+   "district": "4th",
+   "stateDistrict": "IA04",
+   "committeeRank": 20,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 3,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 8,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 9,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2021,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "IA04",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "IA-04"
+    },
+    {
+     "field": "bioguideId",
+     "value": "F000446",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "F000446"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2021,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2021,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Iowa state senator. Focused on rural hospital viability, telehealth for agricultural communities, and reducing prescription drug costs.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "M000317",
+   "slug": "nicole-malliotakis",
+   "name": "Nicole Malliotakis",
+   "firstName": "Nicole",
+   "lastName": "Malliotakis",
+   "party": "R",
+   "state": "NY",
+   "district": "11th",
+   "stateDistrict": "NY11",
+   "committeeRank": 21,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 10,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 4,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2021,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "NY11",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "NY-11"
+    },
+    {
+     "field": "bioguideId",
+     "value": "M000317",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "M000317"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2021,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2021,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Represents Staten Island and southern Brooklyn. Focused on Medicare Part B costs, prescription drug affordability, and healthcare access in urban communities.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001126",
+   "slug": "mike-carey",
+   "name": "Mike Carey",
+   "firstName": "Mike",
+   "lastName": "Carey",
+   "party": "R",
+   "state": "OH",
+   "district": "15th",
+   "stateDistrict": "OH15",
+   "committeeRank": 22,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 2,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 2,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2021,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "OH15",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "OH-15"
+    },
+    {
+     "field": "bioguideId",
+     "value": "C001126",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "C001126"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2021,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2021,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Energy industry background. Focused on healthcare tax policy, employer-sponsored coverage, and reducing ACA marketplace costs.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "Y000067",
+   "slug": "rudy-yakym",
+   "name": "Rudy Yakym III",
+   "firstName": "Rudy",
+   "lastName": "Yakym",
+   "party": "R",
+   "state": "IN",
+   "district": "2nd",
+   "stateDistrict": "IN02",
+   "committeeRank": 23,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 8,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 3,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 5,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2022,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "IN02",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "IN-02"
+    },
+    {
+     "field": "bioguideId",
+     "value": "Y000067",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "Y000067"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2022,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2022,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Business executive background. Focused on healthcare competition, price transparency, and reducing healthcare regulatory burden for employers.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001222",
+   "slug": "max-miller",
+   "name": "Max L. Miller",
+   "firstName": "Max",
+   "lastName": "Miller",
+   "party": "R",
+   "state": "OH",
+   "district": "7th",
+   "stateDistrict": "OH07",
+   "committeeRank": 24,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 4,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 6,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2023,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "OH07",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "OH-07"
+    },
+    {
+     "field": "bioguideId",
+     "value": "M001222",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "M001222"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2023,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2023,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former White House advisor. Focused on veterans' healthcare, mental health services for first responders, and healthcare innovation policy.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001314",
+   "slug": "aaron-bean",
+   "name": "Aaron Bean",
+   "firstName": "Aaron",
+   "lastName": "Bean",
+   "party": "R",
+   "state": "FL",
+   "district": "4th",
+   "stateDistrict": "FL04",
+   "committeeRank": 25,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 4,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 5,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 7,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2023,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "FL04",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "FL-04"
+    },
+    {
+     "field": "bioguideId",
+     "value": "B001314",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "B001314"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2023,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2023,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Florida state senator. Focused on Medicaid reform, healthcare workforce shortages, and reducing hospital pricing opacity in northeast Florida.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001224",
+   "slug": "nathaniel-moran",
+   "name": "Nathaniel Moran",
+   "firstName": "Nathaniel",
+   "lastName": "Moran",
+   "party": "R",
+   "state": "TX",
+   "district": "1st",
+   "stateDistrict": "TX01",
+   "committeeRank": 26,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 5,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 6,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 8,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2023,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "R",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "R"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "TX01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "TX-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "M001224",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "M001224"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2023,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2023,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former county judge. Focused on rural healthcare access in east Texas, community health centers, and Medicaid managed care reform.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "N000015",
+   "slug": "richard-neal",
+   "name": "Richard E. Neal",
+   "firstName": "Richard",
+   "lastName": "Neal",
+   "party": "D",
+   "state": "MA",
+   "district": "1st",
+   "stateDistrict": "MA01",
+   "committeeRank": 1,
+   "fullCommitteeRole": "Ranking Member",
+   "subcommittees": [],
+   "viceRankingMember": false,
+   "firstHouseTerm": 1989,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "MA01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "MA-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "N000015",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "N000015"
+    },
+    {
+     "field": "role",
+     "value": "Ranking Member",
+     "status": "VERIFIED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03",
+     "old": "Ranking Member"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 1989,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 1989,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Ranking Member and former Chairman of Ways and Means. Led passage of ACA premium subsidies and drug pricing provisions. Senior voice on Medicare and Medicaid policy.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000399",
+   "slug": "lloyd-doggett",
+   "name": "Lloyd Doggett",
+   "firstName": "Lloyd",
+   "lastName": "Doggett",
+   "party": "D",
+   "state": "TX",
+   "district": "37th",
+   "stateDistrict": "TX37",
+   "committeeRank": 2,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 1,
+     "role": "Ranking Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 7,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 5,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 1995,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "TX37",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "TX-37"
+    },
+    {
+     "field": "bioguideId",
+     "value": "D000399",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D000399"
+    },
+    {
+     "field": "role",
+     "value": "Health Subcommittee Ranking Member",
+     "status": "VERIFIED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03",
+     "old": "Health Subcommittee Ranking Member"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 1995,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 1995,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Ranking Member of the Health Subcommittee. Leading voice on drug pricing reform, Medicare negotiation, and pharmaceutical industry oversight. Longest-serving Democrat on the committee.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000460",
+   "slug": "mike-thompson",
+   "name": "Mike Thompson",
+   "firstName": "Mike",
+   "lastName": "Thompson",
+   "party": "D",
+   "state": "CA",
+   "district": "4th",
+   "stateDistrict": "CA04",
+   "committeeRank": 3,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 2,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 1,
+     "role": "Ranking Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 1999,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "CA04",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "CA-04"
+    },
+    {
+     "field": "bioguideId",
+     "value": "T000460",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "T000460"
+    },
+    {
+     "field": "role",
+     "value": "Tax Subcommittee Ranking Member",
+     "status": "CHANGED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 1999,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 1999,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Vietnam veteran. Focused on veterans' healthcare, ACA marketplace improvements, and mental health parity. Senior member with deep healthcare policy expertise.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000557",
+   "slug": "john-larson",
+   "name": "John B. Larson",
+   "firstName": "John",
+   "lastName": "Larson",
+   "party": "D",
+   "state": "CT",
+   "district": "1st",
+   "stateDistrict": "CT01",
+   "committeeRank": 4,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 1,
+     "role": "Ranking Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 8,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 1999,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "CT01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "CT-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "L000557",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "L000557"
+    },
+    {
+     "field": "role",
+     "value": "Social Security Subcommittee Ranking Member",
+     "status": "CHANGED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 1999,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 1999,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Champion of Social Security expansion. Focused on Medicare solvency, prescription drug costs, and healthcare coverage for seniors. Author of Social Security 2100 Act.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000096",
+   "slug": "danny-davis",
+   "name": "Danny K. Davis",
+   "firstName": "Danny",
+   "lastName": "Davis",
+   "party": "D",
+   "state": "IL",
+   "district": "7th",
+   "stateDistrict": "IL07",
+   "committeeRank": 5,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 5,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 1,
+     "role": "Ranking Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 1997,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "IL07",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "IL-07"
+    },
+    {
+     "field": "bioguideId",
+     "value": "D000096",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D000096"
+    },
+    {
+     "field": "role",
+     "value": "Work and Welfare Subcommittee Ranking Member",
+     "status": "CHANGED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 1997,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 1997,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Represents Chicago's West Side. Focused on health equity, Medicaid expansion, community health centers, and addressing healthcare disparities in underserved communities.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001156",
+   "slug": "linda-sanchez",
+   "name": "Linda T. Sánchez",
+   "firstName": "Linda",
+   "lastName": "Sánchez",
+   "party": "D",
+   "state": "CA",
+   "district": "38th",
+   "stateDistrict": "CA38",
+   "committeeRank": 6,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 8,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 1,
+     "role": "Ranking Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2003,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "CA38",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "CA-38"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001156",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001156"
+    },
+    {
+     "field": "role",
+     "value": "Trade Subcommittee Ranking Member",
+     "status": "CHANGED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2003,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2003,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Focused on healthcare access for working families, children's health insurance, and mental health services. Advocate for expanding Medicaid and CHIP.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001185",
+   "slug": "terri-sewell",
+   "name": "Terri A. Sewell",
+   "firstName": "Terri",
+   "lastName": "Sewell",
+   "party": "D",
+   "state": "AL",
+   "district": "7th",
+   "stateDistrict": "AL07",
+   "committeeRank": 7,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 4,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 5,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 1,
+     "role": "Ranking Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2011,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "AL07",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "AL-07"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001185",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001185"
+    },
+    {
+     "field": "role",
+     "value": "Oversight Subcommittee Ranking Member",
+     "status": "CHANGED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2011,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2011,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Focused on rural healthcare access in Alabama's Black Belt, Medicaid expansion, and maternal health. Advocates for closing the coverage gap in non-expansion states.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000617",
+   "slug": "suzan-delbene",
+   "name": "Suzan K. DelBene",
+   "firstName": "Suzan",
+   "lastName": "DelBene",
+   "party": "D",
+   "state": "WA",
+   "district": "1st",
+   "stateDistrict": "WA01",
+   "committeeRank": 8,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 3,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 2,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 3,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2012,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "WA01",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "WA-01"
+    },
+    {
+     "field": "bioguideId",
+     "value": "D000617",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D000617"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2012,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2012,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Chair of the New Democrat Coalition. Tech industry background. Focused on health IT, telehealth expansion, and ACA marketplace stability.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001080",
+   "slug": "judy-chu",
+   "name": "Judy Chu",
+   "firstName": "Judy",
+   "lastName": "Chu",
+   "party": "D",
+   "state": "CA",
+   "district": "28th",
+   "stateDistrict": "CA28",
+   "committeeRank": 9,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 3,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 2,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 2,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2009,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "CA28",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "CA-28"
+    },
+    {
+     "field": "bioguideId",
+     "value": "C001080",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "C001080"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2009,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2009,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Chair of the Congressional Asian Pacific American Caucus. Focused on mental health funding, health equity for AAPI communities, and reducing healthcare costs.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001160",
+   "slug": "gwen-moore",
+   "name": "Gwen Moore",
+   "firstName": "Gwen",
+   "lastName": "Moore",
+   "party": "D",
+   "state": "WI",
+   "district": "4th",
+   "stateDistrict": "WI04",
+   "committeeRank": 10,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 2,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 3,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 3,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": true,
+   "firstHouseTerm": 2005,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "WI04",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "WI-04"
+    },
+    {
+     "field": "bioguideId",
+     "value": "M001160",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "M001160"
+    },
+    {
+     "field": "role",
+     "value": "Committee Vice Ranking Member",
+     "status": "CHANGED",
+     "source": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0",
+     "sourceLabel": "Ranking Member Neal, release of January 8, 2025: Democratic subcommittee assignments for the 119th Congress",
+     "asOf": "2026-11-03"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2005,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2005,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Represents Milwaukee. Focused on Medicaid, maternal health, health equity, and addressing healthcare costs for low-income families.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001296",
+   "slug": "brendan-boyle",
+   "name": "Brendan F. Boyle",
+   "firstName": "Brendan",
+   "lastName": "Boyle",
+   "party": "D",
+   "state": "PA",
+   "district": "2nd",
+   "stateDistrict": "PA02",
+   "committeeRank": 11,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 7,
+     "role": "Member"
+    },
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 9,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2015,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "PA02",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "PA-02"
+    },
+    {
+     "field": "bioguideId",
+     "value": "B001296",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "B001296"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2015,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2015,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Ranking Member of the Budget Committee. Focused on Medicare and Social Security solvency, healthcare costs, and ACA protections for pre-existing conditions.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001292",
+   "slug": "don-beyer",
+   "name": "Donald S. Beyer, Jr.",
+   "firstName": "Donald",
+   "lastName": "Beyer",
+   "party": "D",
+   "state": "VA",
+   "district": "8th",
+   "stateDistrict": "VA08",
+   "committeeRank": 12,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 4,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 6,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2015,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "VA08",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "VA-08"
+    },
+    {
+     "field": "bioguideId",
+     "value": "B001292",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "B001292"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2015,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2015,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Ambassador to Switzerland. Business owner focused on healthcare tax policy, ACA improvements, and healthcare cost transparency.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000296",
+   "slug": "dwight-evans",
+   "name": "Dwight Evans",
+   "firstName": "Dwight",
+   "lastName": "Evans",
+   "party": "D",
+   "state": "PA",
+   "district": "3rd",
+   "stateDistrict": "PA03",
+   "committeeRank": 13,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 4,
+     "role": "Member"
+    },
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 4,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2016,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "PA03",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "PA-03"
+    },
+    {
+     "field": "bioguideId",
+     "value": "E000296",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "E000296"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2016,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2016,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Veteran Philadelphia legislator. Focused on community health centers, health equity, food-as-medicine programs, and addressing healthcare deserts in urban areas.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001190",
+   "slug": "brad-schneider",
+   "name": "Bradley Scott Schneider",
+   "firstName": "Bradley",
+   "lastName": "Schneider",
+   "party": "D",
+   "state": "IL",
+   "district": "10th",
+   "stateDistrict": "IL10",
+   "committeeRank": 14,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 6,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 4,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2013,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "IL10",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "IL-10"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001190",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001190"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "CHANGED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2013,
+     "status": "CHANGED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term; the old site's year differs"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Business consultant background. Focused on ACA protections, prescription drug affordability, and mental health parity in insurance coverage.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000613",
+   "slug": "jimmy-panetta",
+   "name": "Jimmy Panetta",
+   "firstName": "Jimmy",
+   "lastName": "Panetta",
+   "party": "D",
+   "state": "CA",
+   "district": "19th",
+   "stateDistrict": "CA19",
+   "committeeRank": 15,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM04",
+     "name": "Trade",
+     "rank": 2,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "CA19",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "CA-19"
+    },
+    {
+     "field": "bioguideId",
+     "value": "P000613",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "P000613"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Son of former Defense Secretary Leon Panetta. Focused on veterans' healthcare, agricultural worker health, and expanding community health center funding on the Central Coast.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "G000585",
+   "slug": "jimmy-gomez",
+   "name": "Jimmy Gomez",
+   "firstName": "Jimmy",
+   "lastName": "Gomez",
+   "party": "D",
+   "state": "CA",
+   "district": "34th",
+   "stateDistrict": "CA34",
+   "committeeRank": 16,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM03",
+     "name": "Work and Welfare",
+     "rank": 5,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 5,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "CA34",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "CA-34"
+    },
+    {
+     "field": "bioguideId",
+     "value": "G000585",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "G000585"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Represents downtown Los Angeles. Focused on Medicaid, maternal health, environmental health impacts, and healthcare access for immigrant communities.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001066",
+   "slug": "steven-horsford",
+   "name": "Steven Horsford",
+   "firstName": "Steven",
+   "lastName": "Horsford",
+   "party": "D",
+   "state": "NV",
+   "district": "4th",
+   "stateDistrict": "NV04",
+   "committeeRank": 17,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 3,
+     "role": "Member"
+    },
+    {
+     "code": "WM02",
+     "name": "Health",
+     "rank": 6,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2013,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "NV04",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "NV-04"
+    },
+    {
+     "field": "bioguideId",
+     "value": "H001066",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "H001066"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2013,
+     "status": "CHANGED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2019,
+     "note": "Congress.gov term start year of the member's first House term; the old site's year differs"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Chair of the Congressional Black Caucus. Focused on health equity, Medicaid expansion, hospital workforce shortages, and healthcare access in rural Nevada.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000610",
+   "slug": "stacey-plaskett",
+   "name": "Stacey E. Plaskett",
+   "firstName": "Stacey",
+   "lastName": "Plaskett",
+   "party": "D",
+   "state": "VI",
+   "district": "Delegate",
+   "stateDistrict": "VI00",
+   "committeeRank": 18,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM01",
+     "name": "Social Security",
+     "rank": 5,
+     "role": "Member"
+    },
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 7,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2015,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "VI00",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "VI-AL"
+    },
+    {
+     "field": "bioguideId",
+     "value": "P000610",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "P000610"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2015,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2015,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Delegate from the U.S. Virgin Islands. Focused on healthcare access in territories, Medicaid funding parity, and disaster healthcare preparedness.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001201",
+   "slug": "tom-suozzi",
+   "name": "Thomas R. Suozzi",
+   "firstName": "Thomas",
+   "lastName": "Suozzi",
+   "party": "D",
+   "state": "NY",
+   "district": "3rd",
+   "stateDistrict": "NY03",
+   "committeeRank": 19,
+   "fullCommitteeRole": null,
+   "subcommittees": [
+    {
+     "code": "WM05",
+     "name": "Tax",
+     "rank": 8,
+     "role": "Member"
+    },
+    {
+     "code": "WM06",
+     "name": "Oversight",
+     "rank": 4,
+     "role": "Member"
+    }
+   ],
+   "viceRankingMember": false,
+   "firstHouseTerm": 2017,
+   "facts": [
+    {
+     "field": "onCommittee",
+     "value": true,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": true
+    },
+    {
+     "field": "party",
+     "value": "D",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "D"
+    },
+    {
+     "field": "stateDistrict",
+     "value": "NY03",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "NY-03"
+    },
+    {
+     "field": "bioguideId",
+     "value": "S001201",
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": "S001201"
+    },
+    {
+     "field": "healthSubcommittee",
+     "value": false,
+     "status": "VERIFIED",
+     "source": "https://clerk.house.gov/xml/lists/MemberData.xml",
+     "sourceLabel": "Clerk of the House, Member Data XML, published November 3, 2026",
+     "asOf": "2026-11-03",
+     "old": false
+    },
+    {
+     "field": "firstHouseTerm",
+     "value": 2017,
+     "status": "VERIFIED",
+     "source": "https://api.congress.gov/v3/member/congress/119",
+     "sourceLabel": "Congress.gov API, member list for the 119th Congress (terms), retrieved November 9, 2026",
+     "asOf": "2026-11-09",
+     "old": 2017,
+     "note": "Congress.gov term start year of the member's first House term"
+    },
+    {
+     "field": "bio",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://bioguide.congress.gov/",
+     "sourceLabel": "Biographical Directory of the United States Congress",
+     "asOf": "2026-11-08",
+     "old": "Former Nassau County Executive. Focused on healthcare costs on Long Island, SALT deductions impacting healthcare affordability, and Medicare prescription drug negotiations.",
+     "note": "The old bio paragraph is unsourced prose. bioguide.congress.gov answers automated requests with a Cloudflare challenge; no replacement text was pulled."
+    }
+   ]
+  }
+ ]
+}

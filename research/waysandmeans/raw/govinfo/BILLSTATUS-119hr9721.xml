@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>9721</number>
+    <updateDate>2026-10-31T02:42:05Z</updateDate>
+    <updateDateIncludingText>2026-10-31T02:42:05Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-07-16</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/9721</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 116 (Thursday, July 16, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. SMUCKER:H.R. 9721.Congress has the power to enact this legislation pursuantto the following:Article I, Section VIII[Page H4623]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Markup By</name>
+            <date>2026-07-22T20:45:04Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2026-07-16T13:05:50Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <relatedBills>
+      <item>
+        <title>Fiscal Sponsorship Transparency Act of 2026</title>
+        <congress>119</congress>
+        <number>5083</number>
+        <type>S</type>
+        <latestAction>
+          <actionDate>2026-07-22</actionDate>
+          <text>Read twice and referred to the Committee on Finance.</text>
+        </latestAction>
+        <relationshipDetails>
+          <item>
+            <type>Related bill</type>
+            <identifiedBy>CRS</identifiedBy>
+          </item>
+        </relationshipDetails>
+      </item>
+    </relatedBills>
+    <actions>
+      <item>
+        <actionDate>2026-07-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 23 - 15.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-07-22</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-07-16</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-07-16</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-07-16</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>S001199</bioguideId>
+        <fullName>Rep. Smucker, Lloyd [R-PA-11]</fullName>
+        <firstName>Lloyd</firstName>
+        <lastName>Smucker</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>11</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-10-05T18:31:00Z</pubDate>
+        <title>H.R. 9721, Fiscal Sponsorship Transparency Act of 2026</title>
+        <url>https://www.cbo.gov/publication/62834</url>
+        <description>As ordered reported by the House Committee on Ways and Means on July 22, 2026</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Administrative law and regulatory procedures</name>
+          <updateDate>2026-08-20T13:56:03Z</updateDate>
+        </item>
+        <item>
+          <name>Charitable contributions</name>
+          <updateDate>2026-08-20T13:55:57Z</updateDate>
+        </item>
+        <item>
+          <name>Department of the Treasury</name>
+          <updateDate>2026-08-20T13:56:11Z</updateDate>
+        </item>
+        <item>
+          <name>Tax administration and collection, taxpayers</name>
+          <updateDate>2026-08-20T13:56:19Z</updateDate>
+        </item>
+        <item>
+          <name>Tax-exempt organizations</name>
+          <updateDate>2026-08-20T13:55:51Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Taxation</name>
+        <updateDate>2026-07-29T21:22:17Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-07-16</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-09-22T13:07:33Z</updateDate>
+        <text><![CDATA[<p><strong>Fiscal Sponsorship Transparency Act of 2026</strong></p><p>This bill requires certain charitable organizations to report to the Internal Revenue Service (IRS) information related to fiscal sponsorship arrangements. The bill also imposes excise taxes on improper conduit arrangements and disallows a federal tax deduction for contributions under such arrangements.</p><p>The bill defines a <em>fiscal sponsorship arrangement</em> as an arrangement between a charitable organization required to file an annual information return with the IRS (Form 990) and a person that is not tax-exempt under which the organization (1) agrees (for consideration) to receive and administer contributions on behalf of the person, or (2) publicly solicits and agrees to receive and administer contributions for a specific project that furthers the organization’s tax-exempt purpose. The organization must retain discretion and control over the contributions, and the arrangement must be terminable by either party.</p><p>The bill requires tax-exempt charitable organizations to report information related to fiscal sponsorship arrangements, including&nbsp;the</p><ul><li>names of the parties (other than individuals) to such arrangement,</li><li>aggregate amounts transferred or made available for a specific project, and</li><li>principal officer within the organization managing the arrangement.</li></ul><p>The bill imposes excise taxes on the organization and certain organization managers for amounts transferred under a similar arrangement&nbsp;if the organization fails to exercise discretion and control over the use of such funds.&nbsp;The bill defines this as an <em>improper conduit arrangement.</em></p><p>Finally, the bill disallows a tax deduction for contributions or gifts made under an improper conduit arrangement.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Fiscal Sponsorship Transparency Act of 2026</title>
+    <titles>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the Internal Revenue Code of 1986 to require reporting by certain charitable organizations relating to fiscal sponsorship arrangements, and for other purposes.</title>
+        <updateDate>2026-07-18T13:46:31Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Fiscal Sponsorship Transparency Act of 2026</title>
+        <updateDate>2026-07-17T15:24:30Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Fiscal Sponsorship Transparency Act of 2026</title>
+        <updateDate>2026-07-17T15:23:24Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-07-16T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr9721ih/xml/BILLS-119hr9721ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-07-22</actionDate>
+      <text>Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 23 - 15.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

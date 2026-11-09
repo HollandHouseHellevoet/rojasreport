@@ -1,0 +1,3907 @@
+{
+ "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+ "sourceLabel": "Clerk of the House, periodic transaction reports (PTR PDFs)",
+ "retrieved": "2026-11-08",
+ "method": "Every periodic transaction report listed for a member in the Clerk's 2025 and 2026 indexes was downloaded and read with pypdf; rows with a ticker were parsed, and healthcare issuers flagged by ticker list and name. Scanned filings have no text layer and are marked NOT FOUND.",
+ "totals": {
+  "ptrs": 156,
+  "readable": 150,
+  "unreadable": 6,
+  "transactionsExtracted": 310,
+  "healthcareTransactions": 53
+ },
+ "oldSiteTradesCheck": {
+  "rows": 77,
+  "byOutcome": [
+   {
+    "status": "NOT FOUND",
+    "why": "member filed no PTR in the filing year per the Clerk's index",
+    "count": 28
+   },
+   {
+    "status": "NOT FOUND",
+    "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass",
+    "count": 25
+   },
+   {
+    "status": "NOT FOUND",
+    "why": "member filed no PTR in 2025 or 2026",
+    "count": 18
+   },
+   {
+    "status": "NOT FOUND",
+    "why": "no matching row in the member's PTRs",
+    "count": 6
+   }
+  ]
+ },
+ "members": [
+  {
+   "bioguideId": "S001195",
+   "name": "Jason Smith",
+   "slug": "jason-smith",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2024-03-19",
+     "ticker": "MOH",
+     "company": "Molina Healthcare",
+     "type": "Sale (Full)",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-09-30",
+     "ticker": "ELV",
+     "company": "Elevance Health",
+     "type": "Purchase",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-07-03",
+     "ticker": "CNC",
+     "company": "Centene Corp",
+     "type": "Sale",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001260",
+   "name": "Vern Buchanan",
+   "slug": "vern-buchanan",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-12-30",
+     "ticker": "BMY",
+     "company": "Bristol-Myers Squibb",
+     "type": "Sale",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2025-12-18",
+     "ticker": "ELV",
+     "company": "Elevance Health",
+     "type": "Sale (Partial)",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-07-05",
+     "ticker": "MCK",
+     "company": "McKesson Corp",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001172",
+   "name": "Adrian Smith",
+   "slug": "adrian-smith",
+   "ptrCount2025": 3,
+   "ptrCount2026": 1,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/13/2025",
+     "docId": "8220764",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220764.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/24/2025",
+     "docId": "9115549",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/9115549.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/14/2025",
+     "docId": "8221238",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221238.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/27/2026",
+     "docId": "20035067",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035067.pdf"
+    }
+   ],
+   "unreadablePtrs": 3,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2023-12-30",
+     "ticker": "HUM",
+     "company": "Humana Inc",
+     "type": "Sale",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-12-17",
+     "ticker": "UNH",
+     "company": "UnitedHealth Group",
+     "type": "Sale (Partial)",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-06-26",
+     "ticker": "MDT",
+     "company": "Medtronic",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 4,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 3; 2026: 1"
+    },
+    {
+     "field": "ptrTransactions",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8220764.pdf",
+     "sourceLabel": "Clerk of the House PTR (scanned paper filing)",
+     "asOf": "2026-11-08",
+     "note": "3 PTR(s) are scanned images without a text layer; transactions not extracted"
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000376",
+   "name": "Mike Kelly",
+   "slug": "mike-kelly",
+   "ptrCount2025": 7,
+   "ptrCount2026": 12,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/9/2025",
+     "docId": "20026550",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026550.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/14/2025",
+     "docId": "20026792",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026792.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/9/2025",
+     "docId": "20030639",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030639.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/12/2025",
+     "docId": "20030892",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030892.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/9/2025",
+     "docId": "20032254",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032254.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/11/2025",
+     "docId": "20033447",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033447.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/9/2025",
+     "docId": "20033615",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033615.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/8/2026",
+     "docId": "20033763",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033763.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "2/12/2026",
+     "docId": "20033991",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033991.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/12/2026",
+     "docId": "20034168",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034168.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/7/2026",
+     "docId": "20034302",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034302.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/20/2026",
+     "docId": "20034607",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034607.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/11/2026",
+     "docId": "20034767",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034767.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/8/2026",
+     "docId": "20034947",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034947.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/12/2026",
+     "docId": "20035203",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/12/2026",
+     "docId": "20035209",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035209.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/8/2026",
+     "docId": "20035403",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035403.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/14/2026",
+     "docId": "20035652",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035652.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "11/4/2026",
+     "docId": "20035765",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035765.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [
+    {
+     "member": "Mike Kelly",
+     "bioguideId": "K000376",
+     "year": "2026",
+     "docId": "20034767",
+     "owner": "Spouse",
+     "asset": "Bristol-Myers Squibb Company Common Stock",
+     "ticker": "BMY",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "05/07/2026",
+     "notificationDate": "06/10/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034767.pdf"
+    },
+    {
+     "member": "Mike Kelly",
+     "bioguideId": "K000376",
+     "year": "2026",
+     "docId": "20035203",
+     "owner": "Spouse",
+     "asset": "Abbott Laboratories Common Stock",
+     "ticker": "ABT",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "07/17/2026",
+     "notificationDate": "08/12/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035203.pdf"
+    }
+   ],
+   "allTransactionsExtracted": 8,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2024-03-09",
+     "ticker": "MRK",
+     "company": "Merck & Co",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 19,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 7; 2026: 12"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 2,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001183",
+   "name": "David Schweikert",
+   "slug": "david-schweikert",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-10-19",
+     "ticker": "GILD",
+     "company": "Gilead Sciences",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2025-04-19",
+     "ticker": "AZN",
+     "company": "AstraZeneca",
+     "type": "Sale (Full)",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2025-01-10",
+     "ticker": "ILMN",
+     "company": "Illumina Inc",
+     "type": "Sale (Partial)",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2023-09-12",
+     "ticker": "MRK",
+     "company": "Merck & Co",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000585",
+   "name": "Darin LaHood",
+   "slug": "darin-lahood",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-03-28",
+     "ticker": "VRTX",
+     "company": "Vertex Pharmaceuticals",
+     "type": "Sale",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-04-16",
+     "ticker": "MCK",
+     "company": "McKesson Corp",
+     "type": "Sale (Full)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-03-18",
+     "ticker": "BNTX",
+     "company": "BioNTech SE",
+     "type": "Purchase",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "A000375",
+   "name": "Jodey C. Arrington",
+   "slug": "jodey-arrington",
+   "ptrCount2025": 0,
+   "ptrCount2026": 1,
+   "ptrs": [
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/27/2026",
+     "docId": "20035714",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035714.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 1,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 1"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000298",
+   "name": "Ron Estes",
+   "slug": "ron-estes",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-09-04",
+     "ticker": "CYH",
+     "company": "Community Health Systems",
+     "type": "Purchase",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2025-06-16",
+     "ticker": "MOH",
+     "company": "Molina Healthcare",
+     "type": "Sale (Full)",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-06-08",
+     "ticker": "VRTX",
+     "company": "Vertex Pharmaceuticals",
+     "type": "Sale",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001199",
+   "name": "Lloyd Smucker",
+   "slug": "lloyd-smucker",
+   "ptrCount2025": 0,
+   "ptrCount2026": 1,
+   "ptrs": [
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/30/2026",
+     "docId": "20019182",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20019182.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 8,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 1,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 1"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001082",
+   "name": "Kevin Hern",
+   "slug": "kevin-hern",
+   "ptrCount2025": 6,
+   "ptrCount2026": 13,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/15/2025",
+     "docId": "20026597",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/14/2025",
+     "docId": "20026794",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026794.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/23/2025",
+     "docId": "20030185",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030185.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/13/2025",
+     "docId": "20030339",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030339.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/16/2025",
+     "docId": "20032284",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/16/2025",
+     "docId": "20033458",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/22/2026",
+     "docId": "20033829",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033829.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "2/18/2026",
+     "docId": "20034012",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034012.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/6/2026",
+     "docId": "20034128",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034128.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/3/2026",
+     "docId": "20034262",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/5/2026",
+     "docId": "20034461",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034461.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/2/2026",
+     "docId": "20034695",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034695.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/16/2026",
+     "docId": "20035013",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035013.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/10/2026",
+     "docId": "20035134",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/12/2026",
+     "docId": "20035196",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035196.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/1/2026",
+     "docId": "20035326",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/25/2026",
+     "docId": "20035491",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/13/2026",
+     "docId": "20035588",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/28/2026",
+     "docId": "20035710",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035710.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2025",
+     "docId": "20026597",
+     "owner": "Self",
+     "asset": "Rebalance position toward original allocation JT DexCom, Inc. - Common Stock",
+     "ticker": "DXCM",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "12/31/2024",
+     "notificationDate": "01/02/2025",
+     "amount": "$50,001-$100,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2025",
+     "docId": "20026597",
+     "owner": "Self",
+     "asset": "sell to close JT Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "12/31/2024",
+     "notificationDate": "01/02/2025",
+     "amount": "$100,001-$250,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026597.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2025",
+     "docId": "20032284",
+     "owner": "Self",
+     "asset": "Hern Family Foundation JT Masimo Corporation - Common Stock",
+     "ticker": "MASI",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/26/2025",
+     "notificationDate": "09/29/2025",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032284.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2025",
+     "docId": "20033458",
+     "owner": "Self",
+     "asset": "note redeemed/called by the issuer JT Boston Scientific Corporation Common Stock",
+     "ticker": "BSX",
+     "assetType": "ST",
+     "transaction": "Sale (Partial)",
+     "transactionDate": "10/28/2025",
+     "notificationDate": "10/29/2025",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033458.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20033829",
+     "owner": "Joint",
+     "asset": "UnitedHealth Group Incorporated Common Stock",
+     "ticker": "UNH",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "12/23/2025",
+     "notificationDate": "12/24/2025",
+     "amount": "$250,001-$500,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033829.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20034128",
+     "owner": "Joint",
+     "asset": "Waters Corporation Common Stock",
+     "ticker": "WAT",
+     "assetType": "ST",
+     "transaction": "Exchange",
+     "transactionDate": "02/09/2026",
+     "notificationDate": "03/01/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034128.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20034262",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT Becton, Dickinson and Company Common Stock",
+     "ticker": "BDX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/17/2026",
+     "notificationDate": "03/31/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20034262",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust DC Exact Sciences Corporation - Common Stock",
+     "ticker": "EXAS",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/24/2026",
+     "notificationDate": "03/31/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20034262",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT IQVIA Holdings, Inc. Common Stock",
+     "ticker": "IQV",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/16/2026",
+     "notificationDate": "03/31/2026",
+     "amount": "$50,001-$100,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20034262",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT Medtronic plc. Ordinary Shares",
+     "ticker": "MDT",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/20/2026",
+     "notificationDate": "03/31/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034262.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035134",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT Organon & Co. Common Stock",
+     "ticker": "OGN",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/05/2026",
+     "notificationDate": "08/05/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035134.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035196",
+     "owner": "Joint",
+     "asset": "Organon & Co. Common Stock",
+     "ticker": "OGN",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/05/2026",
+     "notificationDate": "08/05/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035196.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035326",
+     "owner": "Self",
+     "asset": "Kevin Hern Traditional IRA Biogen Inc. - Common Stock",
+     "ticker": "BIIB",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/18/2026",
+     "notificationDate": "08/27/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035326",
+     "owner": "Self",
+     "asset": "Hern Family Foundation JT Medtronic plc. Ordinary Shares",
+     "ticker": "MDT",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/24/2026",
+     "notificationDate": "08/27/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035326",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT Waters Corporation Common Stock",
+     "ticker": "WAT",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/13/2026",
+     "notificationDate": "08/27/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035326.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT Boston Scientific Corporation Common Stock",
+     "ticker": "BSX",
+     "assetType": "ST",
+     "transaction": "Sale (Partial)",
+     "transactionDate": "09/04/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$50,001-$100,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust DC Boston Scientific Corporation Common Stock",
+     "ticker": "BSX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/03/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Gabrielle Ashtyn Hern Trust DC Boston Scientific Corporation Common Stock",
+     "ticker": "BSX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/03/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Dependent child",
+     "asset": "Boston Scientific Corporation Common Stock",
+     "ticker": "BSX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/03/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Kaden Everett Hern Trust JT Boston Scientific Corporation Common Stock",
+     "ticker": "BSX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/09/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$50,001-$100,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT Boston Scientific Corporation Common Stock",
+     "ticker": "BSX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/31/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Kevin Hern Traditional IRA JT Danaher Corporation Common Stock",
+     "ticker": "DHR",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/31/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Foundation JT Danaher Corporation Common Stock",
+     "ticker": "DHR",
+     "assetType": "ST",
+     "transaction": "Sale (Partial)",
+     "transactionDate": "09/02/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust DC IQVIA Holdings, Inc. Common Stock",
+     "ticker": "IQV",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/08/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Gabrielle Ashtyn Hern Trust JT IQVIA Holdings, Inc. Common Stock",
+     "ticker": "IQV",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/14/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Foundation DC IQVIA Holdings, Inc. Common Stock",
+     "ticker": "IQV",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/03/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust Novartis AG Common Stock",
+     "ticker": "NVS",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/27/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Kevin Hern Traditional IRA Novo Nordisk A/S Common Stock",
+     "ticker": "NVO",
+     "assetType": "ST",
+     "transaction": "Sale (Partial)",
+     "transactionDate": "08/31/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Kevin Hern Traditional IRA Novo Nordisk A/S Common Stock",
+     "ticker": "NVO",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/10/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust STERIS plc",
+     "ticker": "STE",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/15/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035491",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT UnitedHealth Group Incorporated Common Stock",
+     "ticker": "UNH",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/10/2026",
+     "notificationDate": "09/15/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035491.pdf"
+    },
+    {
+     "member": "Kevin Hern",
+     "bioguideId": "H001082",
+     "year": "2026",
+     "docId": "20035588",
+     "owner": "Self",
+     "asset": "Hern Family Revocable Trust JT UnitedHealth Group Incorporated Common Stock",
+     "ticker": "UNH",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "09/23/2026",
+     "notificationDate": "10/02/2026",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035588.pdf"
+    }
+   ],
+   "allTransactionsExtracted": 190,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2024-12-28",
+     "ticker": "CYH",
+     "company": "Community Health Systems",
+     "type": "Purchase",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2024-04-18",
+     "ticker": "MDT",
+     "company": "Medtronic",
+     "type": "Sale (Full)",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2024-02-03",
+     "ticker": "UNH",
+     "company": "UnitedHealth Group",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-12-18",
+     "ticker": "VRTX",
+     "company": "Vertex Pharmaceuticals",
+     "type": "Sale",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 19,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 6; 2026: 13"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 32,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001205",
+   "name": "Carol D. Miller",
+   "slug": "carol-miller",
+   "ptrCount2025": 1,
+   "ptrCount2026": 2,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/11/2025",
+     "docId": "20029135",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/13/2026",
+     "docId": "20033779",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033779.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/30/2026",
+     "docId": "20035734",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035734.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [
+    {
+     "member": "Carol D. Miller",
+     "bioguideId": "M001205",
+     "year": "2025",
+     "docId": "20029135",
+     "owner": "Self",
+     "asset": "Matt Miller Investment Management Account Gilead Sciences, Inc. - Common Stock",
+     "ticker": "GILD",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "03/10/2025",
+     "notificationDate": "04/11/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf"
+    },
+    {
+     "member": "Carol D. Miller",
+     "bioguideId": "M001205",
+     "year": "2025",
+     "docId": "20029135",
+     "owner": "Self",
+     "asset": "Matt Miller Investment Management Account Pfizer, Inc. Common Stock",
+     "ticker": "PFE",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/10/2025",
+     "notificationDate": "04/11/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf"
+    },
+    {
+     "member": "Carol D. Miller",
+     "bioguideId": "M001205",
+     "year": "2025",
+     "docId": "20029135",
+     "owner": "Self",
+     "asset": "New Quest Diagnostics Incorporated Common Stock",
+     "ticker": "DGX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/10/2025",
+     "notificationDate": "04/11/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029135.pdf"
+    },
+    {
+     "member": "Carol D. Miller",
+     "bioguideId": "M001205",
+     "year": "2026",
+     "docId": "20033779",
+     "owner": "Spouse",
+     "asset": "Pfizer, Inc. Common Stock",
+     "ticker": "PFE",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/10/2025",
+     "notificationDate": "04/11/2025",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033779.pdf"
+    },
+    {
+     "member": "Carol D. Miller",
+     "bioguideId": "M001205",
+     "year": "2026",
+     "docId": "20033779",
+     "owner": "Self",
+     "asset": "United Bank Brokerage Account 2000134517SP Quest Diagnostics Incorporated Common Stock",
+     "ticker": "DGX",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/10/2025",
+     "notificationDate": "04/11/2025",
+     "amount": "$15,001-$50,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033779.pdf"
+    }
+   ],
+   "allTransactionsExtracted": 18,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 3,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 1; 2026: 2"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 5,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001210",
+   "name": "Gregory F. Murphy",
+   "slug": "greg-murphy",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-11-12",
+     "ticker": "CVS",
+     "company": "CVS Health",
+     "type": "Sale (Partial)",
+     "amount": "$500,001–$1,000,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2025-05-03",
+     "ticker": "UNH",
+     "company": "UnitedHealth Group",
+     "type": "Sale",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "K000392",
+   "name": "David Kustoff",
+   "slug": "david-kustoff",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-05-03",
+     "ticker": "CI",
+     "company": "Cigna Group",
+     "type": "Purchase",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-08-27",
+     "ticker": "JNJ",
+     "company": "Johnson & Johnson",
+     "type": "Sale (Partial)",
+     "amount": "$1,000,001–$5,000,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-08-04",
+     "ticker": "CYH",
+     "company": "Community Health Systems",
+     "type": "Purchase",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000466",
+   "name": "Brian K. Fitzpatrick",
+   "slug": "brian-fitzpatrick",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-03-07",
+     "ticker": "MCK",
+     "company": "McKesson Corp",
+     "type": "Sale",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2023-09-21",
+     "ticker": "ISRG",
+     "company": "Intuitive Surgical",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001214",
+   "name": "W. Gregory Steube",
+   "slug": "greg-steube",
+   "ptrCount2025": 2,
+   "ptrCount2026": 1,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/4/2025",
+     "docId": "20024927",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20024927.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/16/2025",
+     "docId": "20030673",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030673.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/14/2026",
+     "docId": "20034345",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034345.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 2,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 3,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 2; 2026: 1"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000478",
+   "name": "Claudia Tenney",
+   "slug": "claudia-tenney",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-12-27",
+     "ticker": "SYK",
+     "company": "Stryker Corp",
+     "type": "Sale",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-11-06",
+     "ticker": "ELV",
+     "company": "Elevance Health",
+     "type": "Sale",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-12-06",
+     "ticker": "UNH",
+     "company": "UnitedHealth Group",
+     "type": "Sale",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-06-03",
+     "ticker": "VRTX",
+     "company": "Vertex Pharmaceuticals",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000470",
+   "name": "Michelle Fischbach",
+   "slug": "michelle-fischbach",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001213",
+   "name": "Blake D. Moore",
+   "slug": "blake-moore",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "V000134",
+   "name": "Beth Van Duyne",
+   "slug": "beth-van-duyne",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-05-05",
+     "ticker": "MDT",
+     "company": "Medtronic",
+     "type": "Sale (Partial)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-07-18",
+     "ticker": "MRK",
+     "company": "Merck & Co",
+     "type": "Purchase",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "F000446",
+   "name": "Randy Feenstra",
+   "slug": "randy-feenstra",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-11-16",
+     "ticker": "BMY",
+     "company": "Bristol-Myers Squibb",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-04-19",
+     "ticker": "NVO",
+     "company": "Novo Nordisk",
+     "type": "Sale",
+     "amount": "$500,001–$1,000,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-09-15",
+     "ticker": "TDOC",
+     "company": "Teladoc Health",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M000317",
+   "name": "Nicole Malliotakis",
+   "slug": "nicole-malliotakis",
+   "ptrCount2025": 2,
+   "ptrCount2026": 1,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/19/2025",
+     "docId": "8221276",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221276.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/7/2026",
+     "docId": "8221287",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221287.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/14/2026",
+     "docId": "9116217",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/9116217.pdf"
+    }
+   ],
+   "unreadablePtrs": 3,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-06-28",
+     "ticker": "REGN",
+     "company": "Regeneron Pharmaceuticals",
+     "type": "Purchase",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "no matching row in the member's PTRs"
+    },
+    {
+     "transactionDate": "2024-04-27",
+     "ticker": "CVS",
+     "company": "CVS Health",
+     "type": "Sale",
+     "amount": "$100,001–$250,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2024-04-18",
+     "ticker": "CI",
+     "company": "Cigna Group",
+     "type": "Sale (Full)",
+     "amount": "$100,001–$250,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-10-28",
+     "ticker": "ABT",
+     "company": "Abbott Laboratories",
+     "type": "Sale",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-06-14",
+     "ticker": "ELV",
+     "company": "Elevance Health",
+     "type": "Sale (Partial)",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-02-11",
+     "ticker": "MRK",
+     "company": "Merck & Co",
+     "type": "Sale (Full)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 3,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 2; 2026: 1"
+    },
+    {
+     "field": "ptrTransactions",
+     "value": null,
+     "status": "NOT FOUND",
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/8221276.pdf",
+     "sourceLabel": "Clerk of the House PTR (scanned paper filing)",
+     "asOf": "2026-11-08",
+     "note": "3 PTR(s) are scanned images without a text layer; transactions not extracted"
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001126",
+   "name": "Mike Carey",
+   "slug": "mike-carey",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "Y000067",
+   "name": "Rudy Yakym III",
+   "slug": "rudy-yakym",
+   "ptrCount2025": 4,
+   "ptrCount2026": 3,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/28/2025",
+     "docId": "20026666",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026666.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/8/2025",
+     "docId": "20030311",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030311.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/18/2025",
+     "docId": "20030933",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030933.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/23/2025",
+     "docId": "20033684",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033684.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/6/2026",
+     "docId": "20034298",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034298.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/13/2026",
+     "docId": "20034984",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034984.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/20/2026",
+     "docId": "20035691",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035691.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-05-25",
+     "ticker": "BSX",
+     "company": "Boston Scientific",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "no matching row in the member's PTRs"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 7,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 4; 2026: 3"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001222",
+   "name": "Max L. Miller",
+   "slug": "max-miller",
+   "ptrCount2025": 9,
+   "ptrCount2026": 8,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/31/2025",
+     "docId": "20026684",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026684.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/24/2025",
+     "docId": "20027838",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027838.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/27/2025",
+     "docId": "20029035",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029035.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/28/2025",
+     "docId": "20030236",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030236.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/22/2025",
+     "docId": "20030401",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030401.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/1/2025",
+     "docId": "20030585",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030585.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/27/2025",
+     "docId": "20030742",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030742.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/28/2025",
+     "docId": "20030989",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030989.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/28/2025",
+     "docId": "20032187",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032187.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/29/2026",
+     "docId": "20033881",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033881.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/30/2026",
+     "docId": "20034247",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034247.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/28/2026",
+     "docId": "20034419",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034419.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/29/2026",
+     "docId": "20034651",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034651.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/1/2026",
+     "docId": "20034869",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034869.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/26/2026",
+     "docId": "20035075",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035075.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/27/2026",
+     "docId": "20035528",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035528.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/27/2026",
+     "docId": "20035715",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035715.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 17,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 9; 2026: 8"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001314",
+   "name": "Aaron Bean",
+   "slug": "aaron-bean",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001224",
+   "name": "Nathaniel Moran",
+   "slug": "nathaniel-moran",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "N000015",
+   "name": "Richard E. Neal",
+   "slug": "richard-neal",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-11-15",
+     "ticker": "CNC",
+     "company": "Centene Corp",
+     "type": "Sale (Full)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2023-04-22",
+     "ticker": "GILD",
+     "company": "Gilead Sciences",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-02-07",
+     "ticker": "THC",
+     "company": "Tenet Healthcare",
+     "type": "Sale (Full)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000399",
+   "name": "Lloyd Doggett",
+   "slug": "lloyd-doggett",
+   "ptrCount2025": 7,
+   "ptrCount2026": 9,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/8/2025",
+     "docId": "20026535",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026535.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/10/2025",
+     "docId": "20027935",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027935.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/7/2025",
+     "docId": "20029088",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029088.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/5/2025",
+     "docId": "20030285",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030285.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "6/4/2025",
+     "docId": "20030454",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030454.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/7/2025",
+     "docId": "20030618",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030618.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/4/2025",
+     "docId": "20030820",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030820.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/2/2026",
+     "docId": "20033713",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033713.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/5/2026",
+     "docId": "20034132",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034132.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/6/2026",
+     "docId": "20034292",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034292.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/6/2026",
+     "docId": "20034486",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034486.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/4/2026",
+     "docId": "20034712",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034712.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/6/2026",
+     "docId": "20034923",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/5/2026",
+     "docId": "20035136",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035136.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/8/2026",
+     "docId": "20035401",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035401.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/5/2026",
+     "docId": "20035580",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [
+    {
+     "member": "Lloyd Doggett",
+     "bioguideId": "D000399",
+     "year": "2025",
+     "docId": "20026535",
+     "owner": "Self",
+     "asset": "Reinvest Shares Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "12/10/2024",
+     "notificationDate": "01/06/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026535.pdf"
+    },
+    {
+     "member": "Lloyd Doggett",
+     "bioguideId": "D000399",
+     "year": "2025",
+     "docId": "20029088",
+     "owner": "Self",
+     "asset": "Reinvest shares Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "03/04/2025",
+     "notificationDate": "04/04/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029088.pdf"
+    },
+    {
+     "member": "Lloyd Doggett",
+     "bioguideId": "D000399",
+     "year": "2025",
+     "docId": "20030618",
+     "owner": "Self",
+     "asset": "Reinvest Shares Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "06/10/2025",
+     "notificationDate": "07/05/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030618.pdf"
+    },
+    {
+     "member": "Lloyd Doggett",
+     "bioguideId": "D000399",
+     "year": "2026",
+     "docId": "20033713",
+     "owner": "Self",
+     "asset": "Automatic reinvestment of dividends earned. Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "12/09/2025",
+     "notificationDate": "01/02/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033713.pdf"
+    },
+    {
+     "member": "Lloyd Doggett",
+     "bioguideId": "D000399",
+     "year": "2026",
+     "docId": "20034292",
+     "owner": "Self",
+     "asset": "Automatic reinvestment of dividends earned. Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "03/10/2026",
+     "notificationDate": "04/04/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034292.pdf"
+    },
+    {
+     "member": "Lloyd Doggett",
+     "bioguideId": "D000399",
+     "year": "2026",
+     "docId": "20034923",
+     "owner": "Self",
+     "asset": "Automatic reinvestment of dividends earned. Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "06/09/2026",
+     "notificationDate": "07/06/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034923.pdf"
+    },
+    {
+     "member": "Lloyd Doggett",
+     "bioguideId": "D000399",
+     "year": "2026",
+     "docId": "20035580",
+     "owner": "Self",
+     "asset": "Automatic reinvestment of dividends earned. Johnson & Johnson Common Stock",
+     "ticker": "JNJ",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "09/08/2026",
+     "notificationDate": "10/05/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035580.pdf"
+    }
+   ],
+   "allTransactionsExtracted": 39,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 16,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 7; 2026: 9"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 7,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "T000460",
+   "name": "Mike Thompson",
+   "slug": "mike-thompson",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "L000557",
+   "name": "John B. Larson",
+   "slug": "john-larson",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2024-06-05",
+     "ticker": "AZN",
+     "company": "AstraZeneca",
+     "type": "Sale",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-12-06",
+     "ticker": "CVS",
+     "company": "CVS Health",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-07-06",
+     "ticker": "MRK",
+     "company": "Merck & Co",
+     "type": "Sale",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-03-14",
+     "ticker": "ELV",
+     "company": "Elevance Health",
+     "type": "Purchase",
+     "amount": "$1,000,001–$5,000,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000096",
+   "name": "Danny K. Davis",
+   "slug": "danny-davis",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001156",
+   "name": "Linda T. Sánchez",
+   "slug": "linda-sanchez",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2024-06-09",
+     "ticker": "ELV",
+     "company": "Elevance Health",
+     "type": "Sale (Partial)",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-10-03",
+     "ticker": "CI",
+     "company": "Cigna Group",
+     "type": "Sale (Partial)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001185",
+   "name": "Terri A. Sewell",
+   "slug": "terri-sewell",
+   "ptrCount2025": 1,
+   "ptrCount2026": 1,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/12/2025",
+     "docId": "20030235",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030235.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/21/2026",
+     "docId": "20034384",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [
+    {
+     "member": "Terri A. Sewell",
+     "bioguideId": "S001185",
+     "year": "2026",
+     "docId": "20034384",
+     "owner": "Self",
+     "asset": "GE HealthCare Technologies Inc. - Common Stock",
+     "ticker": "GEHC",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "03/25/2026",
+     "notificationDate": "03/26/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034384.pdf"
+    }
+   ],
+   "allTransactionsExtracted": 4,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-03-20",
+     "ticker": "MOH",
+     "company": "Molina Healthcare",
+     "type": "Sale",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "no matching row in the member's PTRs"
+    },
+    {
+     "transactionDate": "2024-11-15",
+     "ticker": "CERN",
+     "company": "Cerner Corp",
+     "type": "Purchase",
+     "amount": "$100,001–$250,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2024-08-22",
+     "ticker": "ILMN",
+     "company": "Illumina Inc",
+     "type": "Purchase",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2023-03-20",
+     "ticker": "CNC",
+     "company": "Centene Corp",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 2,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 1; 2026: 1"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 1,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "D000617",
+   "name": "Suzan K. DelBene",
+   "slug": "suzan-delbene",
+   "ptrCount2025": 15,
+   "ptrCount2026": 13,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/9/2025",
+     "docId": "20026602",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026602.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "2/25/2025",
+     "docId": "20027807",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027807.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/26/2025",
+     "docId": "20027999",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027999.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/10/2025",
+     "docId": "20029070",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029070.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/7/2025",
+     "docId": "20030289",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030289.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "6/8/2025",
+     "docId": "20030444",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030444.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "6/24/2025",
+     "docId": "20030541",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030541.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/17/2025",
+     "docId": "20030619",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030619.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/9/2025",
+     "docId": "20030826",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030826.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/29/2025",
+     "docId": "20030955",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030955.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "9/28/2025",
+     "docId": "20032102",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032102.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/13/2025",
+     "docId": "20032245",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032245.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/30/2025",
+     "docId": "20033335",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033335.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/12/2025",
+     "docId": "20033431",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033431.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/8/2025",
+     "docId": "20033587",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033587.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/12/2026",
+     "docId": "20033766",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033766.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/23/2026",
+     "docId": "20033835",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033835.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/12/2026",
+     "docId": "20034155",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034155.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/28/2026",
+     "docId": "20034400",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034400.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/8/2026",
+     "docId": "20034466",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034466.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/26/2026",
+     "docId": "20034615",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034615.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/11/2026",
+     "docId": "20034727",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034727.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/11/2026",
+     "docId": "20035175",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035175.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/21/2026",
+     "docId": "20035274",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035274.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/14/2026",
+     "docId": "20035400",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035400.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/30/2026",
+     "docId": "20035498",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035498.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/14/2026",
+     "docId": "20035627",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035627.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/28/2026",
+     "docId": "20035689",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035689.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-07-15",
+     "ticker": "NVO",
+     "company": "Novo Nordisk",
+     "type": "Sale (Full)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "no matching row in the member's PTRs"
+    },
+    {
+     "transactionDate": "2024-12-06",
+     "ticker": "REGN",
+     "company": "Regeneron Pharmaceuticals",
+     "type": "Purchase",
+     "amount": "$15,001–$50,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-06-10",
+     "ticker": "UNH",
+     "company": "UnitedHealth Group",
+     "type": "Sale (Full)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 28,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 15; 2026: 13"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "C001080",
+   "name": "Judy Chu",
+   "slug": "judy-chu",
+   "ptrCount2025": 1,
+   "ptrCount2026": 0,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/30/2025",
+     "docId": "20031001",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031001.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [
+    {
+     "member": "Judy Chu",
+     "bioguideId": "C001080",
+     "year": "2025",
+     "docId": "20031001",
+     "owner": "Spouse",
+     "asset": "Astrana Health Inc. - Common Stock",
+     "ticker": "ASTH",
+     "assetType": "ST",
+     "transaction": "Purchase",
+     "transactionDate": "08/19/2025",
+     "notificationDate": "08/19/2025",
+     "amount": "$100,001-$250,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031001.pdf"
+    },
+    {
+     "member": "Judy Chu",
+     "bioguideId": "C001080",
+     "year": "2025",
+     "docId": "20031001",
+     "owner": "Self",
+     "asset": "Stock is solely owned by spouse. SP Astrana Health Inc. - Common Stock",
+     "ticker": "ASTH",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "08/19/2025",
+     "notificationDate": "08/19/2025",
+     "amount": "$100,001-$250,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20031001.pdf"
+    }
+   ],
+   "allTransactionsExtracted": 2,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2023-06-01",
+     "ticker": "GILD",
+     "company": "Gilead Sciences",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 1,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 1; 2026: 0"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 2,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "M001160",
+   "name": "Gwen Moore",
+   "slug": "gwen-moore",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001296",
+   "name": "Brendan F. Boyle",
+   "slug": "brendan-boyle",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-01-27",
+     "ticker": "ABT",
+     "company": "Abbott Laboratories",
+     "type": "Sale",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    },
+    {
+     "transactionDate": "2024-06-22",
+     "ticker": "NVO",
+     "company": "Novo Nordisk",
+     "type": "Sale (Partial)",
+     "amount": "$100,001–$250,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    },
+    {
+     "transactionDate": "2024-05-13",
+     "ticker": "BMY",
+     "company": "Bristol-Myers Squibb",
+     "type": "Sale (Full)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "B001292",
+   "name": "Donald S. Beyer, Jr.",
+   "slug": "don-beyer",
+   "ptrCount2025": 6,
+   "ptrCount2026": 8,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "1/6/2025",
+     "docId": "20026517",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20026517.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/8/2025",
+     "docId": "20027932",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027932.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "5/2/2025",
+     "docId": "20030262",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030262.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/2/2025",
+     "docId": "20030746",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030746.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/2/2025",
+     "docId": "20032200",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20032200.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/2/2025",
+     "docId": "20033325",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033325.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/2/2026",
+     "docId": "20033714",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033714.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "1/31/2026",
+     "docId": "20033903",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20033903.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/1/2026",
+     "docId": "20034085",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034085.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "7/1/2026",
+     "docId": "20034891",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034891.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "8/1/2026",
+     "docId": "20035106",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035106.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "9/1/2026",
+     "docId": "20035349",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035349.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "10/1/2026",
+     "docId": "20035555",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035555.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "11/1/2026",
+     "docId": "20035743",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035743.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 14,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 6; 2026: 8"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "E000296",
+   "name": "Dwight Evans",
+   "slug": "dwight-evans",
+   "ptrCount2025": 4,
+   "ptrCount2026": 3,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/2/2025",
+     "docId": "20029062",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20029062.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/17/2025",
+     "docId": "20030179",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030179.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/30/2025",
+     "docId": "20033370",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033370.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/19/2025",
+     "docId": "20033667",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033667.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "4/20/2026",
+     "docId": "20034379",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034379.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/15/2026",
+     "docId": "20034556",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034556.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/24/2026",
+     "docId": "20034851",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034851.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [
+    {
+     "member": "Dwight Evans",
+     "bioguideId": "E000296",
+     "year": "2025",
+     "docId": "20030179",
+     "owner": "Self",
+     "asset": "AbbVie Inc. Common Stock",
+     "ticker": "ABBV",
+     "assetType": "ST",
+     "transaction": "Sale (Partial)",
+     "transactionDate": "04/03/2025",
+     "notificationDate": "04/16/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030179.pdf"
+    },
+    {
+     "member": "Dwight Evans",
+     "bioguideId": "E000296",
+     "year": "2025",
+     "docId": "20033667",
+     "owner": "Self",
+     "asset": "PERSHING LLC CVS Health Corporation Common Stock",
+     "ticker": "CVS",
+     "assetType": "ST",
+     "transaction": "Sale",
+     "transactionDate": "11/21/2025",
+     "notificationDate": "12/05/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033667.pdf"
+    },
+    {
+     "member": "Dwight Evans",
+     "bioguideId": "E000296",
+     "year": "2026",
+     "docId": "20034556",
+     "owner": "Self",
+     "asset": "CETERA 2000152177 CVS Health Corporation Common Stock",
+     "ticker": "CVS",
+     "assetType": "ST",
+     "transaction": "Sale (Partial)",
+     "transactionDate": "11/21/2025",
+     "notificationDate": "12/05/2025",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034556.pdf"
+    },
+    {
+     "member": "Dwight Evans",
+     "bioguideId": "E000296",
+     "year": "2026",
+     "docId": "20034556",
+     "owner": "Self",
+     "asset": "CETERA Thermo Fisher Scientific Inc Common Stock",
+     "ticker": "TMO",
+     "assetType": "ST",
+     "transaction": "Sale (Partial)",
+     "transactionDate": "05/07/2026",
+     "notificationDate": "05/14/2026",
+     "amount": "$1,001-$15,000",
+     "healthcare": true,
+     "source": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034556.pdf"
+    }
+   ],
+   "allTransactionsExtracted": 30,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-06-23",
+     "ticker": "MDT",
+     "company": "Medtronic",
+     "type": "Sale (Partial)",
+     "amount": "$100,001–$250,000",
+     "status": "NOT FOUND",
+     "why": "no matching row in the member's PTRs"
+    },
+    {
+     "transactionDate": "2024-04-26",
+     "ticker": "CERN",
+     "company": "Cerner Corp",
+     "type": "Sale (Partial)",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-02-06",
+     "ticker": "HUM",
+     "company": "Humana Inc",
+     "type": "Sale",
+     "amount": "$500,001–$1,000,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-02-04",
+     "ticker": "MOH",
+     "company": "Molina Healthcare",
+     "type": "Sale (Partial)",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 7,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 4; 2026: 3"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 4,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001190",
+   "name": "Bradley Scott Schneider",
+   "slug": "brad-schneider",
+   "ptrCount2025": 3,
+   "ptrCount2026": 0,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "3/5/2025",
+     "docId": "20027911",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20027911.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/1/2025",
+     "docId": "20030591",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030591.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "7/2/2025",
+     "docId": "20030594",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030594.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-07-18",
+     "ticker": "HUM",
+     "company": "Humana Inc",
+     "type": "Sale",
+     "amount": "$1,000,001–$5,000,000",
+     "status": "NOT FOUND",
+     "why": "no matching row in the member's PTRs"
+    },
+    {
+     "transactionDate": "2024-01-29",
+     "ticker": "THC",
+     "company": "Tenet Healthcare",
+     "type": "Sale (Full)",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    },
+    {
+     "transactionDate": "2023-02-10",
+     "ticker": "LLY",
+     "company": "Eli Lilly & Co",
+     "type": "Sale",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 3,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 3; 2026: 0"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000613",
+   "name": "Jimmy Panetta",
+   "slug": "jimmy-panetta",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "G000585",
+   "name": "Jimmy Gomez",
+   "slug": "jimmy-gomez",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2023-01-27",
+     "ticker": "AMGN",
+     "company": "Amgen Inc",
+     "type": "Sale (Partial)",
+     "amount": "$250,001–$500,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in the filing year per the Clerk's index"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "H001066",
+   "name": "Steven Horsford",
+   "slug": "steven-horsford",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "P000610",
+   "name": "Stacey E. Plaskett",
+   "slug": "stacey-plaskett",
+   "ptrCount2025": 0,
+   "ptrCount2026": 0,
+   "ptrs": [],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 0,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2025-04-30",
+     "ticker": "ELV",
+     "company": "Elevance Health",
+     "type": "Purchase",
+     "amount": "$1,001–$15,000",
+     "status": "NOT FOUND",
+     "why": "member filed no PTR in 2025 or 2026"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 0; 2026: 0"
+    }
+   ]
+  },
+  {
+   "bioguideId": "S001201",
+   "name": "Thomas R. Suozzi",
+   "slug": "tom-suozzi",
+   "ptrCount2025": 5,
+   "ptrCount2026": 3,
+   "ptrs": [
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "4/21/2025",
+     "docId": "20030188",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030188.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "8/13/2025",
+     "docId": "20030307",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20030307.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "10/21/2025",
+     "docId": "20033321",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033321.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "11/3/2025",
+     "docId": "20033394",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033394.pdf"
+    },
+    {
+     "year": "2025",
+     "filingType": "P",
+     "filingDate": "12/1/2025",
+     "docId": "20033565",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2025/20033565.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "3/17/2026",
+     "docId": "20034188",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034188.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "5/8/2026",
+     "docId": "20034503",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034503.pdf"
+    },
+    {
+     "year": "2026",
+     "filingType": "P",
+     "filingDate": "6/9/2026",
+     "docId": "20034747",
+     "pdf": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20034747.pdf"
+    }
+   ],
+   "unreadablePtrs": 0,
+   "healthcareTransactions": [],
+   "allTransactionsExtracted": 9,
+   "oldSiteTrades": [
+    {
+     "transactionDate": "2024-09-14",
+     "ticker": "CERN",
+     "company": "Cerner Corp",
+     "type": "Sale (Partial)",
+     "amount": "$50,001–$100,000",
+     "status": "NOT FOUND",
+     "why": "pre-2025 filing; PTR exists for that year but rows were not extracted in this pass"
+    }
+   ],
+   "facts": [
+    {
+     "field": "ptrCount2025_2026",
+     "value": 8,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House, financial disclosure index 2025FD and 2026FD (retrieved November 8, 2026)",
+     "asOf": "2026-11-06",
+     "note": "2025: 5; 2026: 3"
+    },
+    {
+     "field": "healthcareTransactions2025_2026",
+     "value": 0,
+     "status": "VERIFIED",
+     "source": "https://disclosures-clerk.house.gov/FinancialDisclosure",
+     "sourceLabel": "Clerk of the House PTR PDFs listed in the 2025 and 2026 indexes",
+     "asOf": "2026-11-08"
+    }
+   ]
+  }
+ ]
+}

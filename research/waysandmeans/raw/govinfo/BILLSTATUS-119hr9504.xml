@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<billStatus>
+  <version>3.0.0</version>
+  <bill>
+    <number>9504</number>
+    <updateDate>2026-10-07T15:39:52Z</updateDate>
+    <updateDateIncludingText>2026-10-07T15:39:52Z</updateDateIncludingText>
+    <originChamber>House</originChamber>
+    <originChamberCode>H</originChamberCode>
+    <type>HR</type>
+    <introducedDate>2026-06-29</introducedDate>
+    <congress>119</congress>
+    <legislationUrl>https://www.congress.gov/bill/119th-congress/house-bill/9504</legislationUrl>
+    <constitutionalAuthorityStatementText><![CDATA[<pre>[Congressional Record Volume 172, Number 108 (Monday, June 29, 2026)][House]From the Congressional Record Online through the Government Publishing Office [<a href="https://www.gpo.gov">www.gpo.gov</a>]By Mr. MURPHY:H.R. 9504.Congress has the power to enact this legislation pursuantto the following:Article I, Section 8[Page H4317]</pre>]]></constitutionalAuthorityStatementText>
+    <committees>
+      <item>
+        <systemCode>hswm00</systemCode>
+        <name>Ways and Means Committee</name>
+        <chamber>House</chamber>
+        <type>Standing</type>
+        <activities>
+          <item>
+            <name>Markup By</name>
+            <date>2026-07-01T16:08:00Z</date>
+          </item>
+          <item>
+            <name>Referred To</name>
+            <date>2026-06-29T16:05:20Z</date>
+          </item>
+        </activities>
+      </item>
+    </committees>
+    <actions>
+      <item>
+        <actionDate>2026-07-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 15.</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-07-01</actionDate>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+        <sourceSystem>
+          <code>1</code>
+          <name>House committee actions</name>
+        </sourceSystem>
+        <text>Committee Consideration and Mark-up Session Held</text>
+        <type>Committee</type>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <text>Referred to the House Committee on Ways and Means.</text>
+        <type>IntroReferral</type>
+        <actionCode>H11100</actionCode>
+        <sourceSystem>
+          <code>2</code>
+          <name>House floor actions</name>
+        </sourceSystem>
+        <committees>
+          <item>
+            <systemCode>hswm00</systemCode>
+            <name>Ways and Means Committee</name>
+          </item>
+        </committees>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>Intro-H</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+      <item>
+        <actionDate>2026-06-29</actionDate>
+        <text>Introduced in House</text>
+        <type>IntroReferral</type>
+        <actionCode>1000</actionCode>
+        <sourceSystem>
+          <code>9</code>
+          <name>Library of Congress</name>
+        </sourceSystem>
+      </item>
+    </actions>
+    <sponsors>
+      <item>
+        <bioguideId>M001210</bioguideId>
+        <fullName>Rep. Murphy, Gregory F. [R-NC-3]</fullName>
+        <firstName>Gregory</firstName>
+        <lastName>Murphy</lastName>
+        <party>R</party>
+        <state>NC</state>
+        <middleName>F.</middleName>
+        <district>3</district>
+        <isByRequest>N</isByRequest>
+      </item>
+    </sponsors>
+    <cosponsors>
+      <item>
+        <bioguideId>S001199</bioguideId>
+        <fullName>Rep. Smucker, Lloyd [R-PA-11]</fullName>
+        <firstName>Lloyd</firstName>
+        <lastName>Smucker</lastName>
+        <party>R</party>
+        <state>PA</state>
+        <district>11</district>
+        <sponsorshipDate>2026-06-29</sponsorshipDate>
+        <isOriginalCosponsor>True</isOriginalCosponsor>
+      </item>
+    </cosponsors>
+    <cboCostEstimates>
+      <item>
+        <pubDate>2026-08-20T21:22:00Z</pubDate>
+        <title>H.R. 9504, Tax Exempt Hospital Transparency Act</title>
+        <url>https://www.cbo.gov/publication/62716</url>
+        <description>As ordered reported by the House Committee on Ways and Means on July 1, 2026</description>
+      </item>
+    </cboCostEstimates>
+    <policyArea>
+      <name>Taxation</name>
+    </policyArea>
+    <subjects>
+      <legislativeSubjects>
+        <item>
+          <name>Accounting and auditing</name>
+          <updateDate>2026-10-07T15:39:35Z</updateDate>
+        </item>
+        <item>
+          <name>Business records</name>
+          <updateDate>2026-10-07T15:39:28Z</updateDate>
+        </item>
+        <item>
+          <name>Congressional oversight</name>
+          <updateDate>2026-10-07T15:39:52Z</updateDate>
+        </item>
+        <item>
+          <name>Government studies and investigations</name>
+          <updateDate>2026-10-07T15:39:45Z</updateDate>
+        </item>
+        <item>
+          <name>Health facilities and institutions</name>
+          <updateDate>2026-10-07T15:39:14Z</updateDate>
+        </item>
+        <item>
+          <name>Tax-exempt organizations</name>
+          <updateDate>2026-10-07T15:39:22Z</updateDate>
+        </item>
+      </legislativeSubjects>
+      <policyArea>
+        <name>Taxation</name>
+        <updateDate>2026-07-07T17:13:18Z</updateDate>
+      </policyArea>
+    </subjects>
+    <summaries>
+      <summary>
+        <versionCode>00</versionCode>
+        <actionDate>2026-06-29</actionDate>
+        <actionDesc>Introduced in House</actionDesc>
+        <updateDate>2026-07-21T15:42:02Z</updateDate>
+        <text><![CDATA[<p><strong>Tax Exempt Hospital Transparency Act</strong></p><p>This bill requires tax-exempt hospital organizations to report additional information to the Internal Revenue Service.</p><p>The bill defines a <em>tax-exempt hospital organization</em> as an organization that is licensed or recognized as a hospital and is required to</p><ul><li>conduct a community health needs assessment and adopt a strategy to meet the needs identified in the assessment,</li><li>have a written financial assistance policy,</li><li>limit charges for emergency and medically necessary care provided to individuals eligible for financial assistance and prohibit the use of gross charges,</li><li>meet certain billing and collection requirements, and</li><li>file IRS Form 990 (Return of Organization Exempt From Income Tax).</li></ul><p>Under the bill, a tax-exempt hospital organization must include with Form 990 certain identifying information and</p><ul><li>a description of how the organization addresses the needs identified in the most recent community health needs assessment,  the needs not addressed, and the reasons why needs are not being addressed;</li><li>audited financial statements;</li><li>the value (at cost) of the financial assistance provided; and</li><li>the numbers of completed financial assistance applications received, granted, and denied during the tax year.</li></ul><p>Further information reporting requirements are imposed on certain large or high-revenue tax-exempt hospital organizations.</p><p>Finally, the bill requires the Government Accountability Office to (1) study and report the costs associated with the additional information reporting requirements, and (2) estimate the amount of tax revenue that would be generated from the 25 tax-exempt hospital organizations with the highest gross revenue if such organizations were not exempt from tax.</p>]]></text>
+      </summary>
+    </summaries>
+    <title>Tax Exempt Hospital Transparency Act</title>
+    <titles>
+      <item>
+        <titleType>Display Title</titleType>
+        <titleTypeCode>45</titleTypeCode>
+        <title>Tax Exempt Hospital Transparency Act</title>
+        <updateDate>2026-06-30T08:23:22Z</updateDate>
+      </item>
+      <item>
+        <titleType>Short Title(s) as Introduced</titleType>
+        <titleTypeCode>101</titleTypeCode>
+        <title>Tax Exempt Hospital Transparency Act</title>
+        <updateDate>2026-06-30T08:23:21Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+      <item>
+        <titleType>Official Title as Introduced</titleType>
+        <titleTypeCode>6</titleTypeCode>
+        <title>To amend the Internal Revenue Code of 1986 to establish additional reporting requirements for hospital organizations, and for other purposes.</title>
+        <updateDate>2026-06-30T08:18:32Z</updateDate>
+        <billTextVersionName>Introduced in House</billTextVersionName>
+        <billTextVersionCode>IH</billTextVersionCode>
+      </item>
+    </titles>
+    <textVersions>
+      <item>
+        <type>Introduced in House</type>
+        <date>2026-06-29T04:00:00Z</date>
+        <formats>
+          <item>
+            <url>https://www.govinfo.gov/content/pkg/BILLS-119hr9504ih/xml/BILLS-119hr9504ih.xml</url>
+          </item>
+        </formats>
+      </item>
+    </textVersions>
+    <latestAction>
+      <actionDate>2026-07-01</actionDate>
+      <text>Ordered to be Reported in the Nature of a Substitute by the Yeas and Nays: 25 - 15.</text>
+    </latestAction>
+  </bill>
+  <dublinCore xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:format>text/xml</dc:format>
+    <dc:language>EN</dc:language>
+    <dc:rights>Pursuant to Title 17 Section 105 of the United States Code, this file is not subject to copyright protection and is in the public domain.</dc:rights>
+    <dc:contributor>Congressional Research Service, Library of Congress</dc:contributor>
+    <dc:description>This file contains bill summaries and statuses for federal legislation. A bill summary describes the most significant provisions of a piece of legislation and details the effects the legislative text may have on current law and federal programs. Bill summaries are authored by the Congressional Research Service (CRS) of the Library of Congress. As stated in Public Law 91-510 (2 USC 166 (d)(6)), one of the duties of CRS is "to prepare summaries and digests of bills and resolutions of a public general nature introduced in the Senate or House of Representatives". For more information, refer to the User Guide that accompanies this file.</dc:description>
+  </dublinCore>
+</billStatus>

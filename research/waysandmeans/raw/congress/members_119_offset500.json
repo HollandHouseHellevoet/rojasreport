@@ -1,0 +1,1293 @@
+{
+    "members": [
+        {
+            "bioguideId": "H001061",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/h001061_200.jpg"
+            },
+            "district": null,
+            "name": "Hoeven, John",
+            "partyName": "Republican",
+            "state": "North Dakota",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2011
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:11Z",
+            "url": "https://api.congress.gov/v3/member/H001061?format=json"
+        },
+        {
+            "bioguideId": "H001042",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/h001042_200.jpg"
+            },
+            "district": null,
+            "name": "Hirono, Mazie K.",
+            "partyName": "Democratic",
+            "state": "Hawaii",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2013,
+                        "startYear": 2007
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:11Z",
+            "url": "https://api.congress.gov/v3/member/H001042?format=json"
+        },
+        {
+            "bioguideId": "H001046",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/h001046_200.jpg"
+            },
+            "district": null,
+            "name": "Heinrich, Martin",
+            "partyName": "Democratic",
+            "state": "New Mexico",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2013,
+                        "startYear": 2009
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:11Z",
+            "url": "https://api.congress.gov/v3/member/H001046?format=json"
+        },
+        {
+            "bioguideId": "G000608",
+            "depiction": {
+                "attribution": "Official U.S. Senate Photo",
+                "imageUrl": "https://www.congress.gov/img/member/6ab6df93aeae0a5cbbfbea84_200.jpg"
+            },
+            "district": null,
+            "name": "Graham, Darline",
+            "partyName": "Republican",
+            "state": "South Carolina",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2026
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:10Z",
+            "url": "https://api.congress.gov/v3/member/G000608?format=json"
+        },
+        {
+            "bioguideId": "F000479",
+            "depiction": {
+                "attribution": "Official U.S. Senate Photo",
+                "imageUrl": "https://www.congress.gov/img/member/f000479_200.jpg"
+            },
+            "district": null,
+            "name": "Fetterman, John",
+            "partyName": "Democratic",
+            "state": "Pennsylvania",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2023
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:10Z",
+            "url": "https://api.congress.gov/v3/member/F000479?format=json"
+        },
+        {
+            "bioguideId": "H000601",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/h000601_200.jpg"
+            },
+            "district": null,
+            "name": "Hagerty, Bill",
+            "partyName": "Republican",
+            "state": "Tennessee",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:10Z",
+            "url": "https://api.congress.gov/v3/member/H000601?format=json"
+        },
+        {
+            "bioguideId": "G000574",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/c6870f487cf4bc9a568d8afbe61d754b_200.jpg"
+            },
+            "district": null,
+            "name": "Gallego, Ruben",
+            "partyName": "Democratic",
+            "state": "Arizona",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2015
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2025
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:10Z",
+            "url": "https://api.congress.gov/v3/member/G000574?format=json"
+        },
+        {
+            "bioguideId": "F000463",
+            "depiction": {
+                "attribution": "Official U.S. Senate Photo",
+                "imageUrl": "https://www.congress.gov/img/member/669ec7925d19788d1f2034a1_200.jpg"
+            },
+            "district": null,
+            "name": "Fischer, Deb",
+            "partyName": "Republican",
+            "state": "Nebraska",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:10Z",
+            "url": "https://api.congress.gov/v3/member/F000463?format=json"
+        },
+        {
+            "bioguideId": "G000555",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/g000555_200.jpg"
+            },
+            "district": null,
+            "name": "Gillibrand, Kirsten E.",
+            "partyName": "Democratic",
+            "state": "New York",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2009,
+                        "startYear": 2007
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2009
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:10Z",
+            "url": "https://api.congress.gov/v3/member/G000555?format=json"
+        },
+        {
+            "bioguideId": "G000386",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/b5b30dc4407d5ae57f15105d15cfec1e_200.jpg"
+            },
+            "district": null,
+            "name": "Grassley, Chuck",
+            "partyName": "Republican",
+            "state": "Iowa",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1981,
+                        "startYear": 1975
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 1981
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:10Z",
+            "url": "https://api.congress.gov/v3/member/G000386?format=json"
+        },
+        {
+            "bioguideId": "C001114",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/1b9d1007d6895a37da28a67cd8149803_200.jpg"
+            },
+            "district": null,
+            "name": "Curtis, John R.",
+            "partyName": "Republican",
+            "state": "Utah",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2017
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2025
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:09Z",
+            "url": "https://api.congress.gov/v3/member/C001114?format=json"
+        },
+        {
+            "bioguideId": "E000295",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/e000295_200.jpg"
+            },
+            "district": null,
+            "name": "Ernst, Joni",
+            "partyName": "Republican",
+            "state": "Iowa",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2015
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:09Z",
+            "url": "https://api.congress.gov/v3/member/E000295?format=json"
+        },
+        {
+            "bioguideId": "C001098",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001098_200.jpg"
+            },
+            "district": null,
+            "name": "Cruz, Ted",
+            "partyName": "Republican",
+            "state": "Texas",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:09Z",
+            "url": "https://api.congress.gov/v3/member/C001098?format=json"
+        },
+        {
+            "bioguideId": "D000618",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/d000618_200.jpg"
+            },
+            "district": null,
+            "name": "Daines, Steve",
+            "partyName": "Republican",
+            "state": "Montana",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2015,
+                        "startYear": 2013
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2015
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:09Z",
+            "url": "https://api.congress.gov/v3/member/D000618?format=json"
+        },
+        {
+            "bioguideId": "D000622",
+            "depiction": {
+                "attribution": "Courtesy U.S. Senate Historical Office",
+                "imageUrl": "https://www.congress.gov/img/member/d000622_200.jpg"
+            },
+            "district": null,
+            "name": "Duckworth, Tammy",
+            "partyName": "Democratic",
+            "state": "Illinois",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2017,
+                        "startYear": 2013
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2017
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:09Z",
+            "url": "https://api.congress.gov/v3/member/D000622?format=json"
+        },
+        {
+            "bioguideId": "D000563",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/d000563_200.jpg"
+            },
+            "district": null,
+            "name": "Durbin, Richard J.",
+            "partyName": "Democratic",
+            "state": "Illinois",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1997,
+                        "startYear": 1983
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 1997
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:09Z",
+            "url": "https://api.congress.gov/v3/member/D000563?format=json"
+        },
+        {
+            "bioguideId": "C000880",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c000880_200.jpg"
+            },
+            "district": null,
+            "name": "Crapo, Mike",
+            "partyName": "Republican",
+            "state": "Idaho",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1999,
+                        "startYear": 1993
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 1999
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:09Z",
+            "url": "https://api.congress.gov/v3/member/C000880?format=json"
+        },
+        {
+            "bioguideId": "C001113",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001113_200.jpg"
+            },
+            "district": null,
+            "name": "Cortez Masto, Catherine",
+            "partyName": "Democratic",
+            "state": "Nevada",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2017
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:08Z",
+            "url": "https://api.congress.gov/v3/member/C001113?format=json"
+        },
+        {
+            "bioguideId": "C001096",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/c001096_200.jpg"
+            },
+            "district": null,
+            "name": "Cramer, Kevin",
+            "partyName": "Republican",
+            "state": "North Dakota",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2019,
+                        "startYear": 2013
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2019
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:08Z",
+            "url": "https://api.congress.gov/v3/member/C001096?format=json"
+        },
+        {
+            "bioguideId": "C001095",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001095_200.jpg"
+            },
+            "district": null,
+            "name": "Cotton, Tom",
+            "partyName": "Republican",
+            "state": "Arkansas",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2015,
+                        "startYear": 2013
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2015
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:08Z",
+            "url": "https://api.congress.gov/v3/member/C001095?format=json"
+        },
+        {
+            "bioguideId": "C001088",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001088_200.jpg"
+            },
+            "district": null,
+            "name": "Coons, Christopher A.",
+            "partyName": "Democratic",
+            "state": "Delaware",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2010
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:08Z",
+            "url": "https://api.congress.gov/v3/member/C001088?format=json"
+        },
+        {
+            "bioguideId": "C001075",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001075_200.jpg"
+            },
+            "district": null,
+            "name": "Cassidy, Bill",
+            "partyName": "Republican",
+            "state": "Louisiana",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2015,
+                        "startYear": 2009
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2015
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:08Z",
+            "url": "https://api.congress.gov/v3/member/C001075?format=json"
+        },
+        {
+            "bioguideId": "C001035",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001035_200.jpg"
+            },
+            "district": null,
+            "name": "Collins, Susan M.",
+            "partyName": "Republican",
+            "state": "Maine",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 1997
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:08Z",
+            "url": "https://api.congress.gov/v3/member/C001035?format=json"
+        },
+        {
+            "bioguideId": "C001056",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001056_200.jpg"
+            },
+            "district": null,
+            "name": "Cornyn, John",
+            "partyName": "Republican",
+            "state": "Texas",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2002
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:08Z",
+            "url": "https://api.congress.gov/v3/member/C001056?format=json"
+        },
+        {
+            "bioguideId": "B001319",
+            "depiction": {
+                "attribution": "<p>Official U.S. Senate Photo</p>",
+                "imageUrl": "https://www.congress.gov/img/member/b001319_200.jpg"
+            },
+            "district": null,
+            "name": "Britt, Katie Boyd",
+            "partyName": "Republican",
+            "state": "Alabama",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2023
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/B001319?format=json"
+        },
+        {
+            "bioguideId": "B001305",
+            "depiction": {
+                "attribution": "Official U.S. Senate Photo",
+                "imageUrl": "https://www.congress.gov/img/member/b001305_200.jpg"
+            },
+            "district": null,
+            "name": "Budd, Ted",
+            "partyName": "Republican",
+            "state": "North Carolina",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2023,
+                        "startYear": 2017
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2023
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/B001305?format=json"
+        },
+        {
+            "bioguideId": "B001303",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/b001303_200.jpg"
+            },
+            "district": null,
+            "name": "Blunt Rochester, Lisa",
+            "partyName": "Democratic",
+            "state": "Delaware",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2017
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2025
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/B001303?format=json"
+        },
+        {
+            "bioguideId": "B001288",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/b001288_200.jpg"
+            },
+            "district": null,
+            "name": "Booker, Cory A.",
+            "partyName": "Democratic",
+            "state": "New Jersey",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/B001288?format=json"
+        },
+        {
+            "bioguideId": "B001277",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/b001277_200.jpg"
+            },
+            "district": null,
+            "name": "Blumenthal, Richard",
+            "partyName": "Democratic",
+            "state": "Connecticut",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2011
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/B001277?format=json"
+        },
+        {
+            "bioguideId": "B001236",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/b001236_200.jpg"
+            },
+            "district": null,
+            "name": "Boozman, John",
+            "partyName": "Republican",
+            "state": "Arkansas",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2011,
+                        "startYear": 2001
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2011
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/B001236?format=json"
+        },
+        {
+            "bioguideId": "C001047",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c001047_200.jpg"
+            },
+            "district": null,
+            "name": "Capito, Shelley Moore",
+            "partyName": "Republican",
+            "state": "West Virginia",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2015,
+                        "startYear": 2001
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2015
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/C001047?format=json"
+        },
+        {
+            "bioguideId": "C000127",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/c000127_200.jpg"
+            },
+            "district": null,
+            "name": "Cantwell, Maria",
+            "partyName": "Democratic",
+            "state": "Washington",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 1995,
+                        "startYear": 1993
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2001
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:07Z",
+            "url": "https://api.congress.gov/v3/member/C000127?format=json"
+        },
+        {
+            "bioguideId": "A000383",
+            "district": null,
+            "name": "Armstrong, Alan",
+            "partyName": "Republican",
+            "state": "Oklahoma",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2026
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:06Z",
+            "url": "https://api.congress.gov/v3/member/A000383?format=json"
+        },
+        {
+            "bioguideId": "A000382",
+            "depiction": {
+                "imageUrl": "https://www.congress.gov/img/member/67acdbbf044eb506e25958f2_200.jpg"
+            },
+            "district": null,
+            "name": "Alsobrooks, Angela D.",
+            "partyName": "Democratic",
+            "state": "Maryland",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2025
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:06Z",
+            "url": "https://api.congress.gov/v3/member/A000382?format=json"
+        },
+        {
+            "bioguideId": "B001299",
+            "depiction": {
+                "attribution": "Official U.S. Senate Photo",
+                "imageUrl": "https://www.congress.gov/img/member/677d83cbfdb6cf36bbb64998_200.jpg"
+            },
+            "district": null,
+            "name": "Banks, Jim",
+            "partyName": "Republican",
+            "state": "Indiana",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2017
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2025
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:06Z",
+            "url": "https://api.congress.gov/v3/member/B001299?format=json"
+        },
+        {
+            "bioguideId": "B001261",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/b001261_200.jpg"
+            },
+            "district": null,
+            "name": "Barrasso, John",
+            "partyName": "Republican",
+            "state": "Wyoming",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2007
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:06Z",
+            "url": "https://api.congress.gov/v3/member/B001261?format=json"
+        },
+        {
+            "bioguideId": "B001267",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/b001267_200.jpg"
+            },
+            "district": null,
+            "name": "Bennet, Michael F.",
+            "partyName": "Democratic",
+            "state": "Colorado",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2009
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:06Z",
+            "url": "https://api.congress.gov/v3/member/B001267?format=json"
+        },
+        {
+            "bioguideId": "B001230",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/b001230_200.jpg"
+            },
+            "district": null,
+            "name": "Baldwin, Tammy",
+            "partyName": "Democratic",
+            "state": "Wisconsin",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2013,
+                        "startYear": 1999
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:06Z",
+            "url": "https://api.congress.gov/v3/member/B001230?format=json"
+        },
+        {
+            "bioguideId": "B001243",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/b001243_200.jpg"
+            },
+            "district": null,
+            "name": "Blackburn, Marsha",
+            "partyName": "Republican",
+            "state": "Tennessee",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2019,
+                        "startYear": 2003
+                    },
+                    {
+                        "chamber": "Senate",
+                        "startYear": 2019
+                    }
+                ]
+            },
+            "updateDate": "2026-11-01T11:31:06Z",
+            "url": "https://api.congress.gov/v3/member/B001243?format=json"
+        },
+        {
+            "bioguideId": "G000359",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/29c09ee2f48f20442f562980da6579ba_200.jpg"
+            },
+            "district": null,
+            "name": "Graham, Lindsey",
+            "partyName": "Republican",
+            "state": "South Carolina",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2003,
+                        "startYear": 1995
+                    },
+                    {
+                        "chamber": "Senate",
+                        "endYear": 2026,
+                        "startYear": 2003
+                    }
+                ]
+            },
+            "updateDate": "2026-09-21T20:00:32Z",
+            "url": "https://api.congress.gov/v3/member/G000359?format=json"
+        },
+        {
+            "bioguideId": "S001157",
+            "depiction": {
+                "attribution": "Congressional Pictorial Directory",
+                "imageUrl": "https://www.congress.gov/img/member/116_rp_ga_13_scott_david_200.jpg"
+            },
+            "district": 13,
+            "name": "Scott, David",
+            "partyName": "Democratic",
+            "state": "Georgia",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2026,
+                        "startYear": 2003
+                    }
+                ]
+            },
+            "updateDate": "2026-04-23T10:59:01Z",
+            "url": "https://api.congress.gov/v3/member/S001157?format=json"
+        },
+        {
+            "bioguideId": "C001127",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/c001127_200.jpg"
+            },
+            "district": 20,
+            "name": "Cherfilus-McCormick, Sheila",
+            "partyName": "Democratic",
+            "state": "Florida",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2026,
+                        "startYear": 2022
+                    }
+                ]
+            },
+            "updateDate": "2026-04-22T11:18:26Z",
+            "url": "https://api.congress.gov/v3/member/C001127?format=json"
+        },
+        {
+            "bioguideId": "G000594",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/g000594_200.jpg"
+            },
+            "district": 23,
+            "name": "Gonzales, Tony",
+            "partyName": "Republican",
+            "state": "Texas",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2026,
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2026-04-15T19:41:13Z",
+            "url": "https://api.congress.gov/v3/member/G000594?format=json"
+        },
+        {
+            "bioguideId": "S001193",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/s001193_200.jpg"
+            },
+            "district": 14,
+            "name": "Swalwell, Eric",
+            "partyName": "Democratic",
+            "state": "California",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2026,
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-04-15T11:45:35Z",
+            "url": "https://api.congress.gov/v3/member/S001193?format=json"
+        },
+        {
+            "bioguideId": "M001190",
+            "depiction": {
+                "attribution": "<p>Official U.S. Senate Photo</p>",
+                "imageUrl": "https://www.congress.gov/img/member/m001190_200.jpg"
+            },
+            "district": null,
+            "name": "Mullin, Markwayne",
+            "partyName": "Republican",
+            "state": "Oklahoma",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2023,
+                        "startYear": 2013
+                    },
+                    {
+                        "chamber": "Senate",
+                        "endYear": 2026,
+                        "startYear": 2023
+                    }
+                ]
+            },
+            "updateDate": "2026-03-24T12:44:29Z",
+            "url": "https://api.congress.gov/v3/member/M001190?format=json"
+        },
+        {
+            "bioguideId": "L000578",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/l000578_200.jpg"
+            },
+            "district": 1,
+            "name": "LaMalfa, Doug",
+            "partyName": "Republican",
+            "state": "California",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2026,
+                        "startYear": 2013
+                    }
+                ]
+            },
+            "updateDate": "2026-01-06T15:36:36Z",
+            "url": "https://api.congress.gov/v3/member/L000578?format=json"
+        },
+        {
+            "bioguideId": "G000596",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/g000596_200.jpg"
+            },
+            "district": 14,
+            "name": "Greene, Marjorie Taylor",
+            "partyName": "Republican",
+            "state": "Georgia",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2026,
+                        "startYear": 2021
+                    }
+                ]
+            },
+            "updateDate": "2026-01-06T12:37:11Z",
+            "url": "https://api.congress.gov/v3/member/G000596?format=json"
+        },
+        {
+            "bioguideId": "S001207",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/s001207_200.jpg"
+            },
+            "district": 11,
+            "name": "Sherrill, Mikie",
+            "partyName": "Democratic",
+            "state": "New Jersey",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2019
+                    }
+                ]
+            },
+            "updateDate": "2025-11-24T18:44:44Z",
+            "url": "https://api.congress.gov/v3/member/S001207?format=json"
+        },
+        {
+            "bioguideId": "W000823",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/w000823_200.jpg"
+            },
+            "district": 6,
+            "name": "Waltz, Michael",
+            "partyName": "Republican",
+            "state": "Florida",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2019
+                    }
+                ]
+            },
+            "updateDate": "2025-09-19T22:03:47Z",
+            "url": "https://api.congress.gov/v3/member/W000823?format=json"
+        },
+        {
+            "bioguideId": "G000590",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/g000590_200.jpg"
+            },
+            "district": 7,
+            "name": "Green, Mark E.",
+            "partyName": "Republican",
+            "state": "Tennessee",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2019
+                    }
+                ]
+            },
+            "updateDate": "2025-09-04T15:55:30Z",
+            "url": "https://api.congress.gov/v3/member/G000590?format=json"
+        },
+        {
+            "bioguideId": "C001078",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/c001078_200.jpg"
+            },
+            "district": 11,
+            "name": "Connolly, Gerald E.",
+            "partyName": "Democratic",
+            "state": "Virginia",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2009
+                    }
+                ]
+            },
+            "updateDate": "2025-05-21T13:36:20Z",
+            "url": "https://api.congress.gov/v3/member/C001078?format=json"
+        },
+        {
+            "bioguideId": "G000551",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/g000551_200.jpg"
+            },
+            "district": 7,
+            "name": "Grijalva, Raúl M.",
+            "partyName": "Democratic",
+            "state": "Arizona",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2003
+                    }
+                ]
+            },
+            "updateDate": "2025-03-28T15:05:08Z",
+            "url": "https://api.congress.gov/v3/member/G000551?format=json"
+        },
+        {
+            "bioguideId": "T000489",
+            "depiction": {
+                "attribution": "Image courtesy of the Member",
+                "imageUrl": "https://www.congress.gov/img/member/67745fdc0b34857ecc90919d_200.jpg"
+            },
+            "district": 18,
+            "name": "Turner, Sylvester",
+            "partyName": "Democratic",
+            "state": "Texas",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "House of Representatives",
+                        "endYear": 2025,
+                        "startYear": 2025
+                    }
+                ]
+            },
+            "updateDate": "2025-03-05T16:51:50Z",
+            "url": "https://api.congress.gov/v3/member/T000489?format=json"
+        },
+        {
+            "bioguideId": "R000595",
+            "depiction": {
+                "attribution": "<a href=\"http://www.senate.gov/artandhistory/history/common/generic/Photo_Collection_of_the_Senate_Historical_Office.htm\">Courtesy U.S. Senate Historical Office</a>",
+                "imageUrl": "https://www.congress.gov/img/member/r000595_200.jpg"
+            },
+            "district": null,
+            "name": "Rubio, Marco",
+            "partyName": "Republican",
+            "state": "Florida",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "endYear": 2025,
+                        "startYear": 2011
+                    }
+                ]
+            },
+            "updateDate": "2025-01-21T16:11:29Z",
+            "url": "https://api.congress.gov/v3/member/R000595?format=json"
+        },
+        {
+            "bioguideId": "V000137",
+            "depiction": {
+                "attribution": "Official U.S. Senate Photo",
+                "imageUrl": "https://www.congress.gov/img/member/v000137_200.jpg"
+            },
+            "district": null,
+            "name": "Vance, J. D.",
+            "partyName": "Republican",
+            "state": "Ohio",
+            "terms": {
+                "item": [
+                    {
+                        "chamber": "Senate",
+                        "endYear": 2025,
+                        "startYear": 2023
+                    }
+                ]
+            },
+            "updateDate": "2025-01-10T15:23:00Z",
+            "url": "https://api.congress.gov/v3/member/V000137?format=json"
+        }
+    ],
+    "pagination": {
+        "count": 555,
+        "prev": "https://api.congress.gov/v3/member/congress/119?offset=250&limit=250&format=json"
+    },
+    "request": {
+        "contentType": "application/json",
+        "format": "json"
+    }
+}
