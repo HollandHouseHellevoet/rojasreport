@@ -19,7 +19,7 @@ export default function StatesIndex() {
           <Link
             key={s.slug}
             href={`/states/${s.slug}/`}
-            className="group flex items-baseline justify-between border border-ink/10 px-3 py-2 hover:border-orange/60 transition-colors"
+            className="group flex flex-wrap items-baseline justify-between gap-x-2 border border-ink/10 px-3 py-2 hover:border-orange/60 transition-colors"
           >
             <span className="font-body text-sm text-cream group-hover:text-orange transition-colors">{s.state}</span>
             <span className="font-body text-[13px] uppercase tracking-wider text-cream">{s.tier}</span>

@@ -22,11 +22,13 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  /* Type decision B: Bodoni for page and section headings; Inter Tight for the titles under them. */
+  /* Alliance-style type (Dutch 2026-11-09): Inter Tight for every heading, heavy and tight. */
   h1, h2 {
-    font-family: "Bodoni Moda", Didot, Georgia, serif;
-    font-weight: 400;
+    font-family: "Inter Tight", Inter, system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.03em;
   }
+  h1 { font-weight: 800; letter-spacing: -0.035em; }
   h3, h4 {
     font-family: "Inter Tight", Inter, system-ui, sans-serif;
     font-weight: 700;
@@ -47,15 +49,13 @@
   a { transition: color 120ms ease; }
 }
 
-/* Section headings: heavier Bodoni cut so the thin strokes hold up on screen
-   (Dutch 2026-11-09, option B). The home search label matches. Page titles (h1) and the italic cover headline keep the default cut. */
-h2.font-display:not(.italic),
-label.font-display,
-.amc .section-h2 {
-  font-weight: 600;
-  font-variation-settings: 'opsz' 14;
-  letter-spacing: -0.005em;
-}
+/* Display type is Inter Tight now. Old headings carry font-normal or font-medium from the Bodoni era;
+   this rule (unlayered, after the utilities) makes every display heading bold and tight. */
+.font-display { font-weight: 700; letter-spacing: -0.03em; font-style: normal; }
+h1.font-display { font-weight: 800; letter-spacing: -0.035em; }
+.amc .section-h2 { letter-spacing: -0.03em; }
+/* No italic labels or ledes in the Alliance-style layout; long-form prose keeps its italics. */
+.italic:not(.font-prose) { font-style: normal; }
 
 /* Thin rule between sections */
 .section-rule {

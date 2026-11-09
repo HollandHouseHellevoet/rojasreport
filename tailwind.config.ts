@@ -75,7 +75,7 @@ const config: Config = {
         "tier-most-restrictive": "#5E1010",
       },
       fontFamily: {
-        display: ['"Bodoni Moda"', "Didot", "Georgia", "serif"],
+        display: ['"Inter Tight"', "Inter", "system-ui", "sans-serif"],
         // Type decision B: Inter for body, data and labels; Inter Tight for card and table titles;
         // Bodoni only for the masthead, section headings at 40px and up, and big numbers;
         // EB Garamond only for long-form prose.

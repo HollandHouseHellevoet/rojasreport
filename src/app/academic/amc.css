@@ -62,7 +62,7 @@
   text-decoration: none;
 }
 .amc .header-logo-text {
-  font-family: 'Bodoni Moda', Georgia, serif;
+  font-family: 'Inter Tight', Inter, system-ui, sans-serif;
   font-weight: 700;
   font-size: 1.15rem;
   color: var(--cream);
@@ -172,7 +172,7 @@
   margin-bottom: 28px;
 }
 .amc .hero h1 {
-  font-family: 'Bodoni Moda', Georgia, serif;
+  font-family: 'Inter Tight', Inter, system-ui, sans-serif;
   font-weight: 700;
   font-size: 3.5rem;
   color: var(--cream);
@@ -276,7 +276,7 @@
   color: var(--cream);
 }
 .amc .section-h2 {
-  font-family: 'Bodoni Moda', Georgia, serif;
+  font-family: 'Inter Tight', Inter, system-ui, sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
   color: var(--cream);
@@ -349,7 +349,7 @@
 .amc .card-score.moderate { background: var(--score-moderate); }
 .amc .card-score.low { background: var(--score-low); }
 .amc .card-figure {
-  font-family: 'Bodoni Moda', Georgia, serif;
+  font-family: 'Inter Tight', Inter, system-ui, sans-serif;
   font-weight: 700;
   font-size: 2.75rem;
   line-height: 1;
@@ -449,7 +449,7 @@
 .amc .prose p:last-child { margin-bottom: 0; }
 .amc .closing-line {
   font-family: 'Inter Tight', Inter, system-ui, sans-serif; font-weight: 600; letter-spacing: -0.01em;
-  font-style: italic;
+  font-style: normal;
   font-weight: 400;
   font-size: 1.375rem;
   line-height: 1.5;
@@ -522,7 +522,7 @@
   margin-bottom: 56px;
 }
 .amc .footer-wordmark {
-  font-family: 'Bodoni Moda', Georgia, serif;
+  font-family: 'Inter Tight', Inter, system-ui, sans-serif;
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--cream);
@@ -586,7 +586,7 @@
 .amc .footer-built {
   font-size: 13px;
   color: var(--cream);
-  font-style: italic;
+  font-style: normal;
 }
 @media (max-width: 900px) {
 .amc .header-inner { padding: 0 24px; height: 56px; }
