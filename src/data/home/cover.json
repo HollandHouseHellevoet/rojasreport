@@ -1,10 +1,20 @@
 {
-  "_howTo": "This is the home page cover story. To rotate it, change these fields and publish. image is a path under /public or a full URL; leave it empty to show the [Cover portrait] placeholder from the mockup.",
+  "_howTo": "This is the home page cover story. To rotate it, change these fields and publish. image is a path under /public or a full URL; leave it empty to show no picture. stats are up to three big figures from the story itself (value + label); leave the list empty to hide them.",
   "kicker": "The Lobby",
   "headline": "Who Controls American Hospital Policy",
   "dek": "A new AHA board takes its seats on January 1 under a new CEO. We profiled all 32 people: their pay, their lobbying and their red flags, every line sourced to public filings.",
   "href": "/aha/",
   "cta": "Read the AHA dossiers",
   "image": "",
-  "date": "November 4, 2026"
+  "date": "November 4, 2026",
+  "stats": [
+    {
+      "value": "32",
+      "label": "Board members profiled"
+    },
+    {
+      "value": "Jan. 1",
+      "label": "New board seated"
+    }
+  ]
 }

@@ -10,22 +10,35 @@ import Tiers from '@/components/support/Tiers';
 import { NEWSLETTER_URL, ABOUT_URL } from '@/lib/nav';
 import Search from '@/components/home/Search';
 import StateTileMap from '@/components/home/StateTileMap';
-import PendingChip from '@/components/PendingChip';
 import FightsTable from '@/components/home/FightsTable';
 
-/** Home page, built to docs/mockups/home.dc.html. Every figure comes from a data file. */
+/**
+ * Home page, Alliance-style layout (Dutch 2026-11-09, from the canvas mockup Esrvzn1CvPb4JDf3WNb4PB):
+ * bold Inter Tight headlines, full-width ink / green / oxblood bands, number tiles, tinted cards.
+ * Every figure comes from a data file.
+ */
 
 export const metadata: Metadata = {
   title: { absolute: 'The Rojas Report | Healthcare Intelligence' },
   alternates: { canonical: 'https://rojasreport.com/' },
 };
 
-const eyebrow = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em] text-ink';
-const secLabel = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em] text-oxblood';
-const h2 = 'font-display font-normal leading-[1.1]';
-const kicker = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em]';
-const lead = 'max-w-[720px] text-[17px] leading-[1.5]';
-const action = 'font-meta text-[15px] font-medium text-ink underline underline-offset-[3px] decoration-hairline';
+const wrap = 'max-w-content mx-auto px-4 md:px-8';
+const band = 'py-20 md:py-[104px]';
+const eyebrow = 'font-tight text-[13px] font-semibold uppercase tracking-[0.14em]';
+const h2 = 'font-tight font-bold leading-[1.04] tracking-[-0.03em] text-[34px] md:text-[54px]';
+const lede = 'mt-5 text-[19px] leading-[1.5]';
+const tag = 'inline-block font-tight text-[13px] font-bold uppercase tracking-[0.12em] leading-none px-2 py-[5px] border';
+const textlink = 'inline-flex items-center gap-1.5 font-tight font-semibold text-[15px] border-b-[1.5px] border-current pb-0.5 hover:gap-2.5 transition-[gap]';
+const btn = 'inline-flex items-center gap-2.5 min-h-[48px] px-[22px] font-tight font-semibold text-[15px] leading-none border-[1.5px]';
+
+function Arrow({ size = 14 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true" className="shrink-0">
+      <path d="M2 8h11M9 4l4 4-4 4" />
+    </svg>
+  );
+}
 
 function Smart({ href, className, children }: { href: string; className?: string; children: React.ReactNode }) {
   return href.startsWith('http') ? (
@@ -35,130 +48,158 @@ function Smart({ href, className, children }: { href: string; className?: string
   );
 }
 
-// Status labels: dot plus text, never color alone (brief, section 3).
-const STATUS: Record<string, { text: string; color: string }> = {
-  'lobby-holding': { text: 'Lobby holding', color: 'text-oxblood' },
-  'in-play': { text: 'In play', color: 'text-gold' },
-  'on-paper': { text: 'On paper', color: 'text-gold' },
-  'in-court': { text: 'In court', color: 'text-gold' },
-  'reform-moving': { text: 'Reform moving', color: 'text-green' },
-  pending: { text: 'Pending', color: 'text-muted' },
+// Status labels: dot plus text, never color alone (brief, section 3). Dot colors are the light shades that read on the ink band.
+const STATUS: Record<string, { text: string; dot: string }> = {
+  'lobby-holding': { text: 'Lobby holding', dot: '#D9827F' },
+  'in-play': { text: 'In play', dot: '#D8B45A' },
+  'on-paper': { text: 'On paper', dot: '#D8B45A' },
+  'in-court': { text: 'In court', dot: '#D8B45A' },
+  'reform-moving': { text: 'Reform moving', dot: '#8FBF9F' },
+  pending: { text: 'Pending', dot: '#C9BFA9' },
 };
+
+function SectionHead({ label, labelClass, title, lede: text, link, dark = false }: {
+  label: string; labelClass: string; title: string; lede: string; link?: { href: string; text: string }; dark?: boolean;
+}) {
+  return (
+    <div className="flex flex-wrap justify-between items-end gap-6 mb-12 md:mb-14">
+      <div className="max-w-[760px]">
+        <div className={`${eyebrow} ${labelClass} mb-4`}>{label}</div>
+        <h2 className={h2}>{title}</h2>
+        <p className={`${lede} ${dark ? 'text-ink-text-2' : ''}`}>{text}</p>
+      </div>
+      {link && (
+        <Smart href={link.href} className={`${textlink} ${dark ? 'text-paper' : 'text-ink hover:text-oxblood'}`}>
+          {link.text} <Arrow />
+        </Smart>
+      )}
+    </div>
+  );
+}
 
 export default function HomePage() {
   const index = buildSearchIndex();
   const conSlugs = Object.fromEntries(getAllStates().map((s) => [s.abbreviation, s.slug]));
+  const stats = (cover as { stats?: { value: string; label: string }[] }).stats ?? [];
 
   return (
     <>
       <Search index={index} />
 
-      {/* I. The cost drivers */}
-      <section id="drivers" className="max-w-content mx-auto px-5 md:px-8 pb-[88px]">
-        <div className="flex flex-wrap justify-between items-baseline gap-3 border-t border-ink pt-5 mb-4">
-          <h2 className={`${h2} text-[34px] md:text-[46px]`}>Six reasons your care costs what it does</h2>
-          <span className={secLabel}>I · The Cost Drivers</span>
-        </div>
-        <p className={`${lead} mb-10`}>
-          None of these are accidents. Each one is a rule, a subsidy or a payment formula, and each one has a sponsor. Read the brief, download the one-pager, or buy the underlying data.
-        </p>
-        <div className="grid border-t-2 border-ink" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
-          {driversData.drivers.map((d) => {
-            const s = STATUS[d.status] ?? STATUS.pending;
-            const pending = d.figure.basis === 'pending' || !d.figure.value;
-            return (
-              <article key={d.numeral} className="pt-8 pb-9 md:pr-8 border-b border-ink flex flex-col gap-3.5">
-                <div className={kicker}>{d.numeral} · {d.label}</div>
-                <h3 className="font-tight font-bold tracking-[-0.015em] text-[24px] leading-[1.2]">{d.title}</h3>
-                {pending ? (
-                  <div className="min-h-[68px] flex items-center"><PendingChip label="Figure pending" size="card" /></div>
-                ) : (
-                  <div className="font-display text-[60px] md:text-[68px] leading-none text-oxblood" title={d.figure.source ?? undefined}>
-                    {d.figure.value}
+      {/* I. The cost drivers: ink band, number tiles */}
+      <section id="drivers" className={`bg-ink text-paper ${band}`}>
+        <div className={wrap}>
+          <SectionHead
+            dark
+            label="I · The cost drivers"
+            labelClass="text-ink-text"
+            title="Six reasons your care costs what it does."
+            lede="None of these are accidents. Each one is a rule, a subsidy or a payment formula, and each one has a sponsor."
+            link={{ href: '/drivers/', text: 'All six briefs' }}
+          />
+          <div className="grid gap-x-6 gap-y-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            {driversData.drivers.map((d) => {
+              const s = STATUS[d.status] ?? STATUS.pending;
+              const pending = d.figure.basis === 'pending' || !d.figure.value;
+              return (
+                <article key={d.numeral} className="border-t-2 border-oxblood-rule pt-6 flex flex-col gap-3.5">
+                  <div className={`${eyebrow} tracking-[0.12em] text-ink-text`}>{d.numeral} · {d.label}</div>
+                  {pending ? (
+                    <div className="min-h-[66px] flex items-center">
+                      <span className={`${tag} border-[1.5px] border-ink-text text-ink-text-2 py-1.5 px-2.5`} aria-label="Figure pending">Figure pending</span>
+                    </div>
+                  ) : (
+                    <div className="font-tight font-extrabold text-[64px] md:text-[72px] leading-[0.92] tracking-[-0.045em] tabular-nums text-paper" title={d.figure.source ?? undefined}>
+                      {d.figure.value}
+                    </div>
+                  )}
+                  <h3 className="font-tight font-bold text-[22px] leading-[1.2] tracking-[-0.015em] text-paper">{d.title}</h3>
+                  <p className="text-[16px] leading-[1.55] text-ink-text-2">{d.text}</p>
+                  <div className="text-[14px] font-semibold flex items-center gap-2 flex-wrap">
+                    <span aria-hidden="true" className="w-[9px] h-[9px] rounded-full inline-block" style={{ background: s.dot }} />
+                    {s.text} <span className="font-normal text-ink-text">· {d.statusNote}</span>
                   </div>
-                )}
-                <p className="text-[17px] leading-[1.5]">{d.text}</p>
-                <div className="font-meta text-[14px] font-semibold">
-                  <span aria-hidden="true" className={s.color}>●</span> {s.text} · <span className="font-normal">{d.statusNote}</span>
-                </div>
-                <div className={`flex flex-wrap gap-x-5 gap-y-1.5 ${action} mt-1`}>
-                  <Smart href={d.href} className="hover:text-oxblood">Read the brief →</Smart>
-                  <Link href="/reports/" className="hover:text-oxblood">Download PDF</Link>
-                  <Link href="/reports/" className="text-green hover:text-oxblood">Get the data</Link>
-                </div>
-              </article>
-            );
-          })}
-        </div>
-      </section>
-
-      {/* II. Where the fights stand */}
-      <section className="bg-paper-2 border-y border-hairline">
-        <div className="max-w-content mx-auto px-5 md:px-8 py-[72px]">
-          <div className="flex flex-wrap justify-between items-baseline gap-3 mb-4">
-            <h2 className={`${h2} text-[34px] md:text-[46px]`}>Where the fights stand</h2>
-            <span className={secLabel}>II · The Tracker · As of {fights.asOf}</span>
+                  <div className="flex flex-wrap gap-x-5 gap-y-2 mt-1 items-center">
+                    <Smart href={d.href} className={`${textlink} text-paper`}>Read the brief <Arrow /></Smart>
+                    <Link href="/reports/" className="text-[15px] text-ink-text-2 underline underline-offset-[3px] decoration-green-rule hover:text-paper">Download PDF</Link>
+                    <Link href="/reports/" className="text-[15px] text-ink-text-2 underline underline-offset-[3px] decoration-green-rule hover:text-paper">Get the data</Link>
+                  </div>
+                </article>
+              );
+            })}
           </div>
-          <p className={`${lead} mb-8`}>
-            Each rule the hospital lobby is fighting, where it stands, and who is winning. The five that matter most this week.
-          </p>
-          <FightsTable rows={fights.rows} limit={5} />
-          <p className="font-meta text-[15px] font-semibold mt-6">
-            <Link href="/tracker/" className="border-b-2 border-ink pb-0.5 hover:text-oxblood hover:border-oxblood">
-              All {fights.rows.length} fights in the tracker →
-            </Link>
-          </p>
         </div>
       </section>
 
-      {/* III. States */}
-      <section id="states" className="max-w-content mx-auto px-5 md:px-8 py-[88px]">
-        <div className="flex flex-wrap gap-14 items-center">
-          <div className="flex-[1_1_340px] min-w-0">
-            <div className={`${secLabel} !text-green mb-4`}>III · The State Dossiers</div>
-            <h2 className={`${h2} text-[34px] md:text-[46px] mb-5`}>Where it costs you</h2>
-            <p className="text-[19px] leading-[1.5] text-body mb-6">
-              Every state, graded. Its CON law, its tax-exempt systems, its subsidies, its attorney general, and the lawmakers who decide. Pick a state.
+      {/* II. The tracker */}
+      <section className={band}>
+        <div className={wrap}>
+          <SectionHead
+            label={`II · The tracker · As of ${fights.asOf}`}
+            labelClass="text-oxblood"
+            title="Where the fights stand."
+            lede="Each rule the hospital lobby is fighting, where it stands, and who is winning. The five that matter most this week."
+            link={{ href: '/tracker/', text: `All ${fights.rows.length} fights` }}
+          />
+          <FightsTable rows={fights.rows} limit={5} />
+        </div>
+      </section>
+
+      {/* III. States: green band */}
+      <section id="states" className={`bg-green text-paper ${band}`}>
+        <div className={`${wrap} grid gap-12 lg:gap-16 items-center grid-cols-1 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]`}>
+          <div>
+            <div className={`${eyebrow} text-green-text mb-4`}>III · The state dossiers</div>
+            <h2 className={h2}>Where it costs you.</h2>
+            <p className={`${lede} text-green-text-2 max-w-[520px] mb-8`}>
+              Every state, graded. Its CON law, its tax-exempt systems, its subsidies, its attorney general, and the lawmakers who decide.
             </p>
-            <div className="flex flex-col gap-2.5 font-meta text-[14px] text-body">
-              <span className="flex items-center gap-2.5"><span className="w-4 h-4 bg-green inline-block" aria-hidden="true" />Dossier published</span>
-              <span className="flex items-center gap-2.5"><span className="w-4 h-4 bg-placeholder inline-block" aria-hidden="true" />In preparation</span>
+            <Link href="/states/" className={`${btn} bg-paper text-green border-paper hover:bg-paper-2`}>Pick a state <Arrow size={16} /></Link>
+            <div className="flex flex-wrap gap-6 mt-8 text-[14px] font-semibold">
+              <span className="flex items-center gap-2"><span aria-hidden="true" className="w-3.5 h-3.5 bg-paper inline-block" />Dossier published</span>
+              <span className="flex items-center gap-2"><span aria-hidden="true" className="w-3.5 h-3.5 bg-[#2A4A3B] border border-green-rule inline-block" />In preparation</span>
             </div>
           </div>
-          <div className="flex-[1_1_560px] min-w-0">
-            <StateTileMap conSlugs={conSlugs} />
+          <div className="min-w-0">
+            <StateTileMap conSlugs={conSlugs} onDark />
           </div>
         </div>
       </section>
 
       {/* IV. This week's cover + most read */}
-      <section className="border-t border-ink">
-        <div className="max-w-content mx-auto px-5 md:px-8 pt-[72px] pb-[88px] flex flex-wrap gap-16">
-          <article className="flex-[999_1_560px] min-w-0">
-            <div className={`${secLabel} mb-4`}>
-              This Week&apos;s Cover · {cover.kicker} · {cover.date}
-            </div>
-            <h2 className="font-display font-normal italic text-[40px] md:text-[56px] leading-[1.05] mb-5">{cover.headline}</h2>
-            <p className="text-[17px] leading-[1.5] mb-7">{cover.dek}</p>
-            {cover.image ? (
+      <section className={band}>
+        <div className={`${wrap} grid gap-12 grid-cols-1 lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)]`}>
+          <article className="bg-paper-2 border-t-4 border-oxblood p-7 md:p-10 flex flex-col gap-5">
+            <div className={`${eyebrow} text-oxblood`}>This week&apos;s cover · {cover.kicker} · {cover.date}</div>
+            <h2 className="font-tight font-extrabold text-[34px] md:text-[52px] leading-[1.02] tracking-[-0.035em]">{cover.headline}.</h2>
+            <p className="text-[18px] leading-[1.55]">{cover.dek}</p>
+            {cover.image && (
               // eslint-disable-next-line @next/next/no-img-element
-              <img src={cover.image} alt="" className="w-full h-[320px] object-cover grayscale border-4 border-oxblood mb-6" />
-            ) : (
-              <div className="bg-paper-2 border-4 border-oxblood h-[320px] flex items-center justify-center font-meta text-[13px] font-semibold tracking-[0.1em] uppercase mb-6">
-                [Cover portrait]
+              <img src={cover.image} alt="" className="w-full h-[320px] object-cover grayscale border-4 border-oxblood" />
+            )}
+            {stats.length > 0 && (
+              <div className="flex flex-wrap gap-6 my-1">
+                {stats.map((st) => (
+                  <div key={st.label} className="border-t-2 border-ink pt-3 min-w-[140px]">
+                    <div className="font-tight font-extrabold text-[48px] leading-none tracking-[-0.04em]">{st.value}</div>
+                    <div className="text-[14px] font-semibold mt-1.5">{st.label}</div>
+                  </div>
+                ))}
               </div>
             )}
-            <Smart href={cover.href} className="font-meta text-[15px] font-semibold border-b-2 border-ink pb-0.5 hover:text-oxblood hover:border-oxblood">
-              {cover.cta} →
-            </Smart>
+            <div>
+              <Smart href={cover.href} className={`${btn} bg-oxblood text-paper border-oxblood hover:bg-oxblood-hover`}>{cover.cta} <Arrow size={16} /></Smart>
+            </div>
           </article>
-          <aside className="flex-[1_1_300px] min-w-0">
-            <div className={`${eyebrow} border-b-2 border-ink pb-3`}>Most-read dossiers</div>
+          <aside>
+            <div className={`${eyebrow} pb-3.5 border-b-2 border-ink`}>Most-read dossiers</div>
             <ol className="list-none m-0 p-0">
               {mostRead.map((m, i) => (
-                <li key={m.href} className="flex gap-4 py-[18px] border-b border-hairline">
-                  <span className="font-display text-[34px] text-oxblood w-8 shrink-0 leading-none">{i + 1}</span>
-                  <Smart href={m.href} className="font-tight font-semibold tracking-[-0.01em] text-[19px] leading-[1.3] hover:text-oxblood">{m.title}</Smart>
+                <li key={m.href} className="border-b border-hairline">
+                  <Smart href={m.href} className="flex gap-5 py-5 items-baseline group">
+                    <span className="font-tight font-extrabold text-[28px] tracking-[-0.03em] text-oxblood w-7 shrink-0 leading-none">{i + 1}</span>
+                    <span className="font-tight font-bold text-[19px] leading-[1.25] tracking-[-0.01em] group-hover:text-oxblood">{m.title}</span>
+                  </Smart>
                 </li>
               ))}
             </ol>
@@ -166,85 +207,86 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* V. Get the intelligence */}
-      <section id="reports" className="bg-paper-2 border-y border-hairline">
-        <div className="max-w-content mx-auto px-5 md:px-8 py-20">
-          <div className="text-center mb-12">
-            <div className={`${secLabel} mb-3.5`}>IV · Get the Intelligence</div>
-            <h2 className={`${h2} text-[34px] md:text-[46px]`}>Read it. Download it. Own the data.</h2>
-            <p className="mx-auto max-w-[640px] mt-4 text-[19px] leading-[1.5] text-body">
-              Everything on this site is free to read. The reports and datasets are for the people who need the detail.
-            </p>
+      {/* V. Get the intelligence: tinted cards */}
+      <section id="reports" className="pb-20 md:pb-[104px]">
+        <div className={wrap}>
+          <div className="border-t border-hairline pt-20 md:pt-[88px]">
+            <SectionHead
+              label="IV · Get the intelligence"
+              labelClass="text-oxblood"
+              title="Read it. Download it. Own the data."
+              lede="Everything on this site is free to read. The reports and datasets are for the people who need the detail."
+              link={{ href: ABOUT_URL, text: 'Request custom data' }}
+            />
           </div>
-          <div className="grid gap-x-10 border-t-2 border-ink" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
-            <div className="pt-7 pb-8 border-b border-ink flex flex-col gap-3">
-              <div className={`${eyebrow} !text-green`}>Free</div>
-              <h3 className="font-tight font-bold tracking-[-0.015em] text-[26px]">The Reader</h3>
-              <p className="text-[17px] leading-[1.5] text-body">Every article, every cost-driver brief, every state dossier and the weekly newsletter.</p>
-              <a href={NEWSLETTER_URL} className={`${action} mt-auto hover:text-oxblood`}>Subscribe free →</a>
-            </div>
-            <div className="pt-7 pb-8 border-b border-ink flex flex-col gap-3">
-              <div className={eyebrow}>Reports &amp; datasets</div>
-              <h3 className="font-tight font-bold tracking-[-0.015em] text-[26px]">Physician-Owned Hospitals</h3>
-              <p className="text-[17px] leading-[1.5] text-body">Every POH in the country, with ownership, contacts and state context. $300 per state, or $3,500 a year for all access.</p>
-              <Link href="/reports/" className={`${action} mt-auto text-green hover:text-oxblood`}>Browse reports →</Link>
-            </div>
-            <div className="pt-7 pb-8 border-b border-ink flex flex-col gap-3">
-              <div className={eyebrow}>Membership · 100 seats</div>
-              <h3 className="font-tight font-bold tracking-[-0.015em] text-[26px]">The Builders Table</h3>
-              <p className="text-[17px] leading-[1.5] text-body">For physician owners, operators, founders and investors. $25,000 a year, by application.</p>
-              <a href={ABOUT_URL} className={`${action} mt-auto hover:text-oxblood`}>Apply →</a>
-            </div>
+          <div className="grid gap-6 grid-cols-1 md:grid-cols-3">
+            <article className="bg-paper-2 p-8 flex flex-col gap-4">
+              <div className="border-t-2 border-ink pt-5"><span className={`${tag} border-ink`}>Free</span></div>
+              <h3 className="font-tight font-bold text-[26px] leading-[1.15] tracking-[-0.02em]">The Reader</h3>
+              <p className="text-[16px] leading-[1.55] flex-grow">Every article, every cost-driver brief, every state dossier and the weekly newsletter.</p>
+              <a href={NEWSLETTER_URL} className={`${textlink} self-start hover:text-oxblood`}>Subscribe free <Arrow /></a>
+            </article>
+            <article className="bg-paper-2 p-8 flex flex-col gap-4">
+              <div className="border-t-2 border-ink pt-5"><span className={`${tag} border-ink`}>Reports &amp; datasets</span></div>
+              <h3 className="font-tight font-bold text-[26px] leading-[1.15] tracking-[-0.02em]">Physician-Owned Hospitals</h3>
+              <p className="text-[16px] leading-[1.55] flex-grow">Every POH in the country, with ownership, contacts and state context. $300 per state, or $3,500 a year for all access.</p>
+              <Link href="/reports/" className={`${textlink} self-start hover:text-oxblood`}>Browse reports <Arrow /></Link>
+            </article>
+            <article className="bg-ink text-paper p-8 flex flex-col gap-4">
+              <div className="border-t-2 border-oxblood-rule pt-5"><span className={`${tag} border-ink-text`}>Membership · 100 seats</span></div>
+              <h3 className="font-tight font-bold text-[26px] leading-[1.15] tracking-[-0.02em]">The Builders Table</h3>
+              <p className="text-[16px] leading-[1.55] flex-grow text-ink-text-2">For physician owners, operators, founders and investors. $25,000 a year, by application.</p>
+              <a href={ABOUT_URL} className={`${textlink} self-start text-paper`}>Apply <Arrow /></a>
+            </article>
           </div>
-          <p className="mt-8 text-center font-meta text-[15px]">
-            Need something specific? <a href={ABOUT_URL} className="font-semibold text-ink border-b border-ink hover:text-oxblood hover:border-oxblood">Request custom data</a>
-          </p>
         </div>
       </section>
 
-      {/* VI. Support */}
-      <section id="support" className="bg-green text-paper">
-        <div className="max-w-content mx-auto px-5 md:px-8 py-[88px] flex flex-wrap gap-14 items-center">
-          <div className="flex-[1_1_380px] min-w-0">
-            <div className="font-meta text-[13px] uppercase tracking-[0.14em] text-green-text mb-4">V · Support the Report</div>
-            <h2 className={`${h2} text-[40px] md:text-[48px] leading-[1.08] mb-5`}>Keep the record open.</h2>
-            <p className="text-[19px] leading-[1.5] text-green-text-2">
+      {/* VI. Support: oxblood band */}
+      <section id="support" className={`bg-oxblood text-paper ${band}`}>
+        <div className={`${wrap} grid gap-12 items-start grid-cols-1 lg:grid-cols-2`}>
+          <div>
+            <div className={`${eyebrow} text-oxblood-text mb-4`}>V · Support the Report</div>
+            <h2 className="font-tight font-extrabold text-[40px] md:text-[68px] leading-none tracking-[-0.035em]">Keep the record open.</h2>
+            <p className={`${lede} mt-6 max-w-[520px]`}>
               Reader-supported intelligence on why healthcare costs what it does. Your support funds the data, the filings and the reporting that keeps every dossier free to read.
             </p>
           </div>
-          <div className="flex-[1_1_460px] min-w-0">
-            <Tiers />
-          </div>
+          <Tiers tone="oxblood" />
         </div>
       </section>
 
-      {/* VII. Build */}
-      <section className="max-w-content mx-auto px-5 md:px-8 py-20">
-        <div className="flex flex-wrap justify-between items-baseline gap-3 border-t border-ink pt-5 mb-8">
-          <h2 className={`${h2} text-[34px] md:text-[46px]`}>Don&apos;t just read about it. Build.</h2>
-          <span className={secLabel}>VI · For Physicians</span>
-        </div>
-        <p className={`${lead} -mt-3 mb-10`}>
-          Three companies built for physicians who want to own what they run.
-        </p>
-        <div className="grid gap-x-10 border-t-2 border-ink" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
-          {[
-            { name: 'MedMerge', href: 'https://medmerge.co', blurb: "Own your group's benefits instead of renting them from a carrier." },
-            { name: 'Cornerstone Indemnity', href: '', blurb: 'Physician-owned malpractice coverage. Keep the underwriting profit.' },
-            { name: 'PhyCap Fund', href: 'https://www.phycapfund.com', blurb: 'Capital for physician-led companies.' },
-          ].map((c) =>
-            c.href ? (
-              <a key={c.name} href={c.href} className="group flex flex-col gap-2 pt-6 pb-7 border-b border-ink">
-                <span className="font-tight font-bold tracking-[-0.015em] text-[24px] group-hover:text-oxblood">{c.name}</span>
-                <span className="text-[17px] leading-[1.45] text-body">{c.blurb}</span>
-              </a>
-            ) : (
-              <div key={c.name} className="flex flex-col gap-2 pt-6 pb-7 border-b border-ink">
-                <span className="font-tight font-bold tracking-[-0.015em] text-[24px]">{c.name}</span>
-                <span className="text-[17px] leading-[1.45] text-body">{c.blurb}</span>
-              </div>
-            ),
-          )}
+      {/* VII. For physicians */}
+      <section className={band}>
+        <div className={wrap}>
+          <div className="max-w-[760px] mb-12">
+            <div className={`${eyebrow} text-green mb-4`}>VI · For physicians</div>
+            <h2 className={h2}>Don&apos;t just read about it. Build.</h2>
+            <p className={lede}>Three companies built for physicians who want to own what they run.</p>
+          </div>
+          <div className="grid gap-x-6 grid-cols-1 md:grid-cols-3">
+            {[
+              { name: 'MedMerge', href: 'https://medmerge.co', blurb: "Own your group's benefits instead of renting them from a carrier." },
+              { name: 'Cornerstone Indemnity', href: '', blurb: 'Physician-owned malpractice coverage. Keep the underwriting profit.' },
+              { name: 'PhyCap Fund', href: 'https://www.phycapfund.com', blurb: 'Capital for physician-led companies.' },
+            ].map((c) => {
+              const inner = (
+                <>
+                  <span className="flex flex-col gap-2">
+                    <span className="font-tight font-bold text-[26px] leading-[1.1] tracking-[-0.02em] group-hover:text-oxblood">{c.name}</span>
+                    <span className="text-[17px] leading-[1.45]">{c.blurb}</span>
+                  </span>
+                  {c.href && <span className="mt-1.5 group-hover:text-oxblood"><Arrow size={22} /></span>}
+                </>
+              );
+              const cls = 'group flex justify-between gap-6 items-start border-t-2 border-ink py-6';
+              return c.href ? (
+                <a key={c.name} href={c.href} className={cls}>{inner}</a>
+              ) : (
+                <div key={c.name} className={cls}>{inner}</div>
+              );
+            })}
+          </div>
         </div>
       </section>
     </>

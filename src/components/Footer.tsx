@@ -2,15 +2,15 @@ import Link from 'next/link';
 import { NAV, NEWSLETTER_URL, YOUTUBE_URL, ABOUT_URL } from '@/lib/nav';
 
 const col = 'flex flex-col gap-2 font-meta text-[15px]';
-const head = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em] text-ink-text-2';
+const head = 'font-tight text-[13px] font-bold uppercase tracking-[0.12em] text-ink-text';
 const link = 'text-ink-text-2 hover:text-paper';
 
 export default function Footer() {
   return (
     <footer className="bg-ink text-ink-text print:hidden">
-      <div className="max-w-content mx-auto px-5 md:px-8 pt-14 pb-10 flex flex-wrap gap-12 justify-between">
+      <div className="max-w-content mx-auto px-5 md:px-8 pt-[72px] pb-12 flex flex-wrap gap-12 justify-between">
         <div className="flex-[1_1_320px] min-w-0">
-          <Link href="/" className="font-display text-[28px] tracking-[0.04em] text-paper inline-block mb-3">
+          <Link href="/" aria-label="The Rojas Report home" className="inline-block mb-5 bg-paper text-ink font-tight font-extrabold text-[14px] tracking-[0.02em] leading-none px-3 py-2.5">
             THE ROJAS REPORT
           </Link>
           <p className="font-meta text-[15px] leading-[1.6] text-ink-text-2">
@@ -44,9 +44,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="max-w-content mx-auto px-5 md:px-8 pb-8 font-meta text-[13px] text-ink-label">
+      <div className="max-w-content mx-auto px-5 md:px-8 pb-8"><div className="border-t border-[#3A3833] pt-6 font-meta text-[14px] text-ink-text">
         &copy; 2026 Rojas Media
-      </div>
+      </div></div>
     </footer>
   );
 }

@@ -27,7 +27,7 @@ function Smart({ href, className, children }: { href: string; className?: string
 /** The fights tracker table. Home shows the first five rows; /tracker/ shows them all. */
 export default function FightsTable({ rows, limit }: { rows: FightRow[]; limit?: number }) {
   const shown = limit ? rows.slice(0, limit) : rows;
-  const th = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em] text-ink text-left py-3 border-b border-ink';
+  const th = 'font-tight text-[13px] font-semibold uppercase tracking-[0.12em] text-ink text-left py-4 border-b border-ink';
   return (
     <div className="table-scroll">
       <table className="w-full min-w-[640px] border-collapse border-t-2 border-ink text-[17px] leading-[1.45]">
@@ -43,14 +43,14 @@ export default function FightsTable({ rows, limit }: { rows: FightRow[]; limit?:
             const w = WINNING[r.tone] ?? WINNING.pending;
             return (
               <tr key={r.issue} className="align-top">
-                <td className="py-4 pr-6 border-b border-hairline">
-                  <Smart href={r.href} className="font-tight font-semibold tracking-[-0.01em] text-[18px] hover:text-oxblood">{r.issue}</Smart>
+                <td className="py-[22px] pr-6 border-b border-hairline">
+                  <Smart href={r.href} className="font-tight font-bold tracking-[-0.01em] text-[19px] leading-[1.25] hover:text-oxblood">{r.issue}</Smart>
                 </td>
-                <td className="py-4 pr-6 border-b border-hairline">
+                <td className="py-[22px] pr-6 border-b border-hairline">
                   <span className="font-semibold text-[15px]"><span aria-hidden="true" className={w.color}>●</span> {r.status}</span>
                   <span className={`block font-meta text-[14px] font-semibold mt-1 ${w.color}`}>{w.text}</span>
                 </td>
-                <td className="py-4 border-b border-hairline"><span className="font-semibold">{r.date}</span> · {r.note}</td>
+                <td className="py-[22px] border-b border-hairline"><span className="font-semibold">{r.date}</span> · {r.note}</td>
               </tr>
             );
           })}
