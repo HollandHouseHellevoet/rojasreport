@@ -24,6 +24,7 @@ const config: Config = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/lib/conTiers.ts",
   ],
   theme: {
     extend: {
@@ -73,6 +74,13 @@ const config: Config = {
         "tier-restrictive": "#B35A58",
         "tier-highly-restrictive": oxblood,
         "tier-most-restrictive": "#5E1010",
+        // States index map: single-hue oxblood ramp for CON tiers, freest (1) to most restrictive (5).
+        // 1-3 carry ink text, 4-5 paper text (all AA). No-CON states are outlined, not filled.
+        "con-ramp-1": "#F2DDD7",
+        "con-ramp-2": "#E3B2A8",
+        "con-ramp-3": "#CB7A6F",
+        "con-ramp-4": "#A33A31",
+        "con-ramp-5": "#6E1414",
       },
       fontFamily: {
         display: ['"Inter Tight"', "Inter", "system-ui", "sans-serif"],
