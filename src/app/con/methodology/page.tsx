@@ -49,7 +49,7 @@ export default function MethodologyPage() {
             title="Classification Framework"
             subtitle="How the CON desk scores, classifies and tracks certificate of need laws across 51 jurisdictions."
           />
-          <p className="mt-4 font-body text-sm text-cream/60">
+          <p className="mt-4 font-body text-sm text-cream">
             This page covers the certificate of need desk only. The site-wide methods (the subsidy ledger, the state grade and the Machine Score) are at{' '}
             <a href="/methodology/" className="text-cream border-b border-cream/40">rojasreport.com/methodology</a>.
           </p>
@@ -69,15 +69,15 @@ export default function MethodologyPage() {
               <div key={tier.name} className="border border-ink/10 p-5">
                 <div className="flex items-center gap-3 mb-3">
                   <div className="w-4 h-4 rounded-sm" style={{ backgroundColor: tier.color }} />
-                  <h3 className="font-display text-lg text-cream">{tier.name}</h3>
+                  <h3 className="font-tight font-bold tracking-[-0.015em] text-[18px] text-cream">{tier.name}</h3>
                 </div>
-                <p className="font-body text-xs font-semibold text-cream/40 mb-2">
+                <p className="font-body text-xs font-semibold text-cream mb-2">
                   Score: {tier.score_range} &middot; {tier.count} jurisdictions
                 </p>
-                <p className="font-body text-sm text-cream/60 leading-relaxed">
+                <p className="font-body text-sm text-cream leading-relaxed">
                   {tier.description}
                 </p>
-                <p className="mt-3 font-body text-xs text-cream/30">
+                <p className="mt-3 font-body text-xs text-cream">
                   {tier.states.join(', ')}
                 </p>
               </div>
@@ -95,10 +95,10 @@ export default function MethodologyPage() {
             title="Cicero Institute Scoring (0-100)"
           />
           <div className="max-w-3xl">
-            <p className="font-body text-sm text-cream/60 leading-relaxed mb-6">
+            <p className="font-body text-sm text-cream leading-relaxed mb-6">
               {scoring.note}
             </p>
-            <h3 className="font-body text-xs font-bold tracking-widest uppercase text-cream/40 mb-4">
+            <h3 className="font-body text-xs font-bold tracking-widest uppercase text-cream mb-4">
               Scoring Dimensions
             </h3>
             <ol className="space-y-3">
@@ -107,11 +107,11 @@ export default function MethodologyPage() {
                   <span className="flex-shrink-0 w-6 h-6 flex items-center justify-center bg-orange/20 text-orange text-xs font-bold">
                     {i + 1}
                   </span>
-                  <span className="font-body text-sm text-cream/70">{dim}</span>
+                  <span className="font-body text-sm text-cream">{dim}</span>
                 </li>
               ))}
             </ol>
-            <p className="mt-6 font-body text-xs text-cream/30">
+            <p className="mt-6 font-body text-xs text-cream">
               Source: {scoring.source}. Scale: {scoring.scale}.
             </p>
           </div>
@@ -127,7 +127,7 @@ export default function MethodologyPage() {
             title="5-Point Momentum Scoring"
           />
           <div className="max-w-3xl">
-            <p className="font-body text-sm text-cream/60 leading-relaxed mb-6">
+            <p className="font-body text-sm text-cream leading-relaxed mb-6">
               Each CON state is evaluated on five binary dimensions. A state earns 1 point
               for each dimension it satisfies, producing a score from 0 to 5.
             </p>
@@ -139,27 +139,27 @@ export default function MethodologyPage() {
                     <span className="w-2.5 h-2.5 rounded-full bg-orange" />
                     <h4 className="font-body text-sm font-semibold text-cream">{dim.label}</h4>
                   </div>
-                  <p className="font-body text-sm text-cream/50 ml-5">{dim.description}</p>
+                  <p className="font-body text-sm text-cream ml-5">{dim.description}</p>
                 </div>
               ))}
             </div>
 
-            <h3 className="font-body text-xs font-bold tracking-widest uppercase text-cream/40 mb-4">
+            <h3 className="font-body text-xs font-bold tracking-widest uppercase text-cream mb-4">
               Signal Thresholds
             </h3>
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead>
                   <tr className="border-b border-ink/20">
-                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Score</th>
-                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Signal</th>
-                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Meaning</th>
+                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream">Score</th>
+                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream">Signal</th>
+                    <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream">Meaning</th>
                   </tr>
                 </thead>
                 <tbody>
                   {momentum.thresholds.map((t: MomentumThreshold) => (
                     <tr key={t.range} className="border-b border-ink/5">
-                      <td className="py-3 px-3 font-body text-sm text-cream/70 font-semibold">{t.range}</td>
+                      <td className="py-3 px-3 font-body text-sm text-cream font-semibold">{t.range}</td>
                       <td className="py-3 px-3">
                         <span className={`px-2 py-0.5 text-xs font-bold ${
                           t.signal === 'Green' ? 'bg-tier-free text-paper' :
@@ -169,7 +169,7 @@ export default function MethodologyPage() {
                           {t.signal}
                         </span>
                       </td>
-                      <td className="py-3 px-3 font-body text-sm text-cream/50">{t.meaning}</td>
+                      <td className="py-3 px-3 font-body text-sm text-cream">{t.meaning}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -205,7 +205,7 @@ export default function MethodologyPage() {
                   <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange flex-shrink-0" />
                   <div>
                     <span className="font-body text-sm font-semibold text-cream">{s.name}</span>
-                    <span className="font-body text-sm text-cream/50">: {s.desc}</span>
+                    <span className="font-body text-sm text-cream">: {s.desc}</span>
                   </div>
                 </li>
               ))}

@@ -45,14 +45,14 @@ export default function TimelinePage() {
                 {/* Year */}
                 <time
                   className={`block font-display text-2xl ${
-                    isKeyYear ? 'text-orange' : 'text-cream/70'
+                    isKeyYear ? 'text-orange' : 'text-cream'
                   }`}
                 >
                   {entry.year}
                 </time>
 
                 {/* Event */}
-                <p className="mt-2 font-body text-sm text-cream/60 leading-relaxed max-w-2xl">
+                <p className="mt-2 font-body text-sm text-cream leading-relaxed max-w-2xl">
                   {entry.event}
                 </p>
               </li>
@@ -64,10 +64,10 @@ export default function TimelinePage() {
       {/* Closing */}
       <div className="mt-16 max-w-3xl mx-auto text-center">
         <blockquote className="pl-5 border-l-[3px] border-orange text-left">
-          <p className="font-display text-xl text-cream/80 italic">
+          <p className="font-prose text-xl text-cream italic">
             They didn&apos;t prove waste. They proved access.
           </p>
-          <cite className="block mt-2 font-body text-xs text-cream/40 not-italic">
+          <cite className="block mt-2 font-body text-xs text-cream not-italic">
             The Rojas Report, on Roemer&apos;s Law
           </cite>
         </blockquote>

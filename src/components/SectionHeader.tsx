@@ -16,7 +16,7 @@ export default function SectionHeader({ number, label, title, subtitle, as = 'h2
             {number}
           </span>
         )}
-        <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream/40">
+        <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream">
           {label}
         </span>
       </div>
@@ -24,7 +24,7 @@ export default function SectionHeader({ number, label, title, subtitle, as = 'h2
         {title}
       </Heading>
       {subtitle && (
-        <p className="mt-2 font-body text-cream/50 leading-relaxed max-w-[720px]">
+        <p className="mt-2 font-body text-cream leading-relaxed max-w-[720px]">
           {subtitle}
         </p>
       )}

@@ -77,7 +77,7 @@ export default function MethodologyIndex() {
         <div className="grid gap-6" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
           {methods.map((m) => (
             <Link key={m.href} href={m.href} className="group border border-ink p-7 flex flex-col gap-3 hover:border-oxblood">
-              <h3 className="font-display text-[30px] leading-[1.1] group-hover:text-oxblood">{m.title}</h3>
+              <h3 className="font-tight font-bold tracking-[-0.015em] text-[24px] leading-[1.1] group-hover:text-oxblood">{m.title}</h3>
               <p className={small}>{m.text}</p>
               <p className="mt-auto pt-3 font-meta text-[13px] tracking-[0.06em] text-muted">{m.status}</p>
             </Link>

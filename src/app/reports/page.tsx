@@ -16,7 +16,7 @@ export default function Page() {
       </nav>
       <p className="font-meta text-[13px] uppercase tracking-[0.14em] mb-3 text-green">Get the intelligence</p>
       <h1 className="font-display text-[44px] md:text-[56px] leading-[1.05] mb-5">Read it. Download it. Own the data.</h1>
-      <p className="italic text-[22px] leading-[1.4] text-body max-w-[720px] mb-10">
+      <p className="text-[20px] leading-[1.4] text-body max-w-[720px] mb-10">
         Every page on this site can be read free, downloaded as a PDF, and bought as the dataset behind it.
       </p>
       <div className="border-t border-ink">
@@ -27,8 +27,8 @@ export default function Page() {
           { name: 'Committee member datasets', blurb: 'Positions, scored actions and hospital money for every member.' },
         ].map((p) => (
           <div key={p.name} className="py-5 border-b border-hairline">
-            <p className="font-display text-[24px] md:text-[26px] leading-tight text-muted">{p.name}</p>
-            <p className="mt-1 text-[18px] leading-[1.45] text-muted">{p.blurb}</p>
+            <p className="font-tight font-bold tracking-[-0.015em] text-[22px] md:text-[24px] leading-tight text-muted">{p.name}</p>
+            <p className="mt-1 text-[17px] leading-[1.45] text-muted">{p.blurb}</p>
             <p className="mt-2"><StatusLabel status="pending" note="In preparation" /></p>
           </div>
         ))}

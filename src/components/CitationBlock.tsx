@@ -6,11 +6,11 @@ interface CitationBlockProps {
 export default function CitationBlock({ sources, lastUpdated }: CitationBlockProps) {
   return (
     <div className="border-t border-ink/10 pt-6 mt-12">
-      <p className="text-xs font-body text-cream/30 leading-relaxed">
+      <p className="text-xs font-body text-cream leading-relaxed">
         {sources}
       </p>
       {lastUpdated && (
-        <p className="mt-2 text-xs font-body text-cream/20">
+        <p className="mt-2 text-xs font-body text-cream">
           Last updated: {lastUpdated}
         </p>
       )}

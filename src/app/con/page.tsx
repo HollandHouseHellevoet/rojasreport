@@ -70,7 +70,7 @@ export default function ConHomePage() {
           <h2 className="font-display text-orange leading-tight tracking-tight max-w-4xl">
             The Architecture of a Healthcare Monopoly
           </h2>
-          <p className="mt-4 font-body text-cream/50 leading-relaxed max-w-prose">
+          <p className="mt-4 font-body text-cream leading-relaxed max-w-prose">
             In 35 jurisdictions, it is illegal to open a hospital, surgery center, or imaging
             facility without government permission. Your competitors sit on the board that
             decides. This is how the monopoly was built.
@@ -86,7 +86,7 @@ export default function ConHomePage() {
               href={`https://x.com/intent/tweet?text=${SHARE_TEXT}`}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block font-body text-sm font-semibold text-cream/60 border border-ink/20 px-5 py-2.5 hover:text-cream hover:border-ink/40 transition-colors rounded-sm"
+              className="inline-block font-body text-sm font-semibold text-cream border border-ink/20 px-5 py-2.5 hover:text-cream hover:border-ink/40 transition-colors rounded-sm"
             >
               Post to X
             </a>
@@ -115,14 +115,14 @@ export default function ConHomePage() {
                 <div className="font-display text-stat text-orange leading-none">
                   {step.num}
                 </div>
-                <p className="mt-3 font-body text-cream/70 leading-relaxed">
+                <p className="mt-3 font-body text-cream leading-relaxed">
                   {step.text}
                 </p>
               </div>
             ))}
           </div>
           <blockquote className="mt-8 pl-5 border-l-2 border-orange max-w-prose">
-            <p className="font-display text-2xl text-cream/80 italic leading-relaxed">
+            <p className="font-prose text-2xl text-cream italic leading-relaxed">
               It&apos;s like asking McDonald&apos;s for permission to open a Burger King.
             </p>
           </blockquote>
@@ -190,10 +190,10 @@ export default function ConHomePage() {
           {/* All 36, sorted most restrictive first */}
           <div className="mt-10 pt-8 border-t border-ink/5">
             <div className="flex items-baseline justify-between mb-4 flex-wrap gap-2">
-              <h3 className="font-display text-xl text-cream">
+              <h3 className="font-tight font-bold tracking-[-0.015em] text-[20px] text-cream">
                 All 36 States
               </h3>
-              <p className="font-body text-sm text-cream/40">
+              <p className="font-body text-sm text-cream">
                 Sorted by restrictiveness (most to least)
               </p>
             </div>
@@ -230,7 +230,7 @@ export default function ConHomePage() {
           <h2 className="font-display text-cream">
             No other publisher has built this.
           </h2>
-          <p className="mt-2 font-body text-cream/45 max-w-prose mx-auto leading-relaxed">
+          <p className="mt-2 font-body text-cream max-w-prose mx-auto leading-relaxed">
             Not KFF. Not Mercatus. Not Cicero. Not the AHA. The definitive Certificate
             of Need intelligence platform. Free, fully indexable, built for physicians,
             executives, and lawmakers.

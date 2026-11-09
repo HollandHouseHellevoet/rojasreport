@@ -12,9 +12,10 @@ const paper2 = "#ECE5D8";
 const ink = "#1C1B19";
 const oxblood = "#8E1B1B";
 const green = "#1F3A2E";
-const muted = "#5E5A52";
-const body = "#3A3732";
-const hairline = "#CFC6B6";
+// Type decision B (Dutch, 2026-11-09): every text tone on paper is full ink; rules a shade darker.
+const muted = ink;
+const body = ink;
+const hairline = "#B9AD93";
 const gold = "#7A5A16";
 const placeholder = "#DDD4C4";
 
@@ -75,17 +76,22 @@ const config: Config = {
       },
       fontFamily: {
         display: ['"Bodoni Moda"', "Didot", "Georgia", "serif"],
-        body: ['"EB Garamond"', "Garamond", "Georgia", "serif"],
+        // Type decision B: Inter for body, data and labels; Inter Tight for card and table titles;
+        // Bodoni only for the masthead, section headings at 40px and up, and big numbers;
+        // EB Garamond only for long-form prose.
+        body: ["Inter", "system-ui", "-apple-system", "sans-serif"],
+        tight: ['"Inter Tight"', "Inter", "system-ui", "sans-serif"],
+        prose: ['"EB Garamond"', "Garamond", "Georgia", "serif"],
         meta: ["Inter", "system-ui", "-apple-system", "sans-serif"],
         sans: ["Inter", "system-ui", "-apple-system", "sans-serif"],
       },
       fontSize: {
-        // Garamond runs small; these keep the desks readable at the brief's 18px body.
-        xs: ["0.8125rem", { lineHeight: "1.4" }],
-        sm: ["0.9375rem", { lineHeight: "1.45" }],
-        base: ["1.125rem", { lineHeight: "1.55" }],
-        lg: ["1.25rem", { lineHeight: "1.5" }],
-        xl: ["1.4375rem", { lineHeight: "1.4" }],
+        // Inter sizes from type decision B: 17px body, 13px floor.
+        xs: ["0.8125rem", { lineHeight: "1.45" }],
+        sm: ["0.9375rem", { lineHeight: "1.5" }],
+        base: ["1.0625rem", { lineHeight: "1.55" }],
+        lg: ["1.1875rem", { lineHeight: "1.5" }],
+        xl: ["1.375rem", { lineHeight: "1.4" }],
         stat: ["3rem", { lineHeight: "1.05", fontWeight: "400" }],
       },
       maxWidth: {

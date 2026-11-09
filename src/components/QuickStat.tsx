@@ -14,7 +14,7 @@ export default function QuickStat({ value, label, context }: QuickStatProps) {
         {label}
       </div>
       {context && (
-        <div className="mt-1 font-body text-sm text-cream/50">
+        <div className="mt-1 font-body text-sm text-cream">
           {context}
         </div>
       )}

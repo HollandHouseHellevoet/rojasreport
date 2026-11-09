@@ -87,10 +87,10 @@ export default function SubsidyLedgerMethod() {
 
       <Band tone="oxblood">
         <h2 className="font-display font-normal leading-[1.1] text-[32px] md:text-[40px] text-paper mb-6">The Fair Share Test</h2>
-        <p className="font-display text-[26px] md:text-[32px] leading-[1.3] text-paper max-w-[900px]">
+        <p className="font-tight font-semibold tracking-[-0.01em] text-[22px] md:text-[26px] leading-[1.35] text-paper max-w-[900px]">
           Ratio = the filled ledger lines, added up, divided by free care actually delivered.
         </p>
-        <div className="mt-8 grid gap-8 text-oxblood-text text-[18px] leading-[1.5]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
+        <div className="mt-8 grid gap-8 text-oxblood-text text-[17px] leading-[1.5]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
           <p className="border-t border-oxblood-rule pt-4">The result reads &ldquo;$X in subsidies and write-offs for every $1 of free care a patient actually received.&rdquo;</p>
           <p className="border-t border-oxblood-rule pt-4">Only filled lines count. The ratio is marked &ldquo;at least&rdquo; with the number of lines filled, because every open line can only raise it.</p>
           <p className="border-t border-oxblood-rule pt-4">The note gives a second ratio using the Worksheet S-10 cost of charity care from the Medicare cost reports.</p>
@@ -103,7 +103,7 @@ export default function SubsidyLedgerMethod() {
         </p>
         {groups.map((g) => (
           <div key={g.name} className="table-scroll max-w-[1100px] mt-8">
-            <h3 className="font-display italic text-[24px] text-oxblood mb-1">{g.name}</h3>
+            <h3 className="font-tight font-bold tracking-[-0.015em] text-[22px] text-oxblood mb-1">{g.name}</h3>
             <table className="w-full border-collapse">
               <thead>
                 <tr>

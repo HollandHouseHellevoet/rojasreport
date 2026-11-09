@@ -62,7 +62,7 @@ export default function EvidencePage() {
                 <div className="font-display text-4xl text-orange mb-3">
                   {step.step}
                 </div>
-                <p className="font-body text-sm text-cream/70 leading-relaxed">
+                <p className="font-body text-sm text-cream leading-relaxed">
                   {step.text}
                 </p>
               </div>
@@ -70,7 +70,7 @@ export default function EvidencePage() {
           </div>
           {evidence.blockquotes?.[0] && (
             <blockquote className="mt-8 pl-5 border-l-[3px] border-orange">
-              <p className="font-display text-xl md:text-2xl text-cream/80 italic">
+              <p className="font-prose text-xl md:text-2xl text-cream italic">
                 {evidence.blockquotes[0].text}
               </p>
             </blockquote>
@@ -87,18 +87,18 @@ export default function EvidencePage() {
               label="The Origin Story"
               title="How We Got Here"
             />
-            <div className="max-w-3xl space-y-5 font-body text-cream/60 leading-relaxed">
+            <div className="max-w-3xl space-y-5 font-body text-cream leading-relaxed">
               {storyParagraphs.map((p: string, i: number) => (
                 <p key={i}>{p}</p>
               ))}
             </div>
             {evidence.blockquotes?.[1] && (
               <blockquote className="mt-8 pl-5 border-l-[3px] border-orange max-w-3xl">
-                <p className="font-display text-lg text-cream/80 italic">
+                <p className="font-prose text-lg text-cream italic">
                   {evidence.blockquotes[1].text}
                 </p>
                 {evidence.blockquotes[1].source && (
-                  <cite className="block mt-2 font-body text-xs text-cream/40 not-italic">
+                  <cite className="block mt-2 font-body text-xs text-cream not-italic">
                     {evidence.blockquotes[1].source}
                   </cite>
                 )}
@@ -126,7 +126,7 @@ export default function EvidencePage() {
               { finding: 'Rural areas see 92-112% increase in ASCs after CON repeal.', source: 'Journal of Health Economics' },
             ].map((item, i) => (
               <div key={i} className="border border-ink/10 p-5">
-                <p className="font-body text-sm text-cream/70 leading-relaxed">
+                <p className="font-body text-sm text-cream leading-relaxed">
                   {item.finding}
                 </p>
                 <p className="mt-3 font-body text-xs text-orange">
@@ -162,17 +162,17 @@ export default function EvidencePage() {
                   className="block border border-ink/10 p-5 hover:border-orange/40 transition-colors"
                 >
                   <div className="flex items-center justify-between mb-2">
-                    <span className="font-body text-xs font-bold tracking-widest uppercase text-cream/40">
+                    <span className="font-body text-xs font-bold tracking-widest uppercase text-cream">
                       {p.status}
                     </span>
                     <span className="font-body text-xs font-bold text-orange">
                       {p.score}/100
                     </span>
                   </div>
-                  <h3 className="font-display text-lg text-cream">
+                  <h3 className="font-tight font-bold tracking-[-0.015em] text-[18px] text-cream">
                     {p.state}
                   </h3>
-                  <p className="mt-2 font-body text-sm text-cream/50 leading-relaxed">
+                  <p className="mt-2 font-body text-sm text-cream leading-relaxed">
                     {p.description}
                   </p>
                 </a>

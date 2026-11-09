@@ -9,13 +9,13 @@ export default function Tiers() {
     <div>
       <div className="grid gap-3" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))' }}>
         {tiers.map((t) => {
-          const cls = `border px-[18px] py-[22px] flex flex-col gap-1.5 ${
+          const cls = `border-[1.5px] px-[18px] py-[20px] flex flex-col gap-1.5 ${
             t.primary ? 'border-paper bg-paper text-green' : 'border-green-text text-paper'
           }`;
           const inner = (
             <>
-              <span className={`font-meta text-[13px] uppercase tracking-[0.14em] ${t.primary ? '' : 'text-green-text'}`}>{t.name}</span>
-              <span className="font-display text-[32px] leading-none">{t.amount}</span>
+              <span className={`font-meta text-[13px] font-semibold uppercase tracking-[0.1em] ${t.primary ? '' : 'text-paper'}`}>{t.name}</span>
+              <span className="font-display text-[40px] leading-none">{t.amount}</span>
               <span className={`font-meta text-[14px] ${t.primary ? '' : 'text-green-text'}`}>{t.unit}</span>
             </>
           );

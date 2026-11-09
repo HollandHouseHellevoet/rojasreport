@@ -62,7 +62,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
   }
 
   const SortIcon = ({ active, asc }: { active: boolean; asc: boolean }) => (
-    <span className={`ml-1 inline-block ${active ? 'text-orange' : 'text-cream/20'}`}>
+    <span className={`ml-1 inline-block ${active ? 'text-orange' : 'text-cream'}`}>
       {asc ? '\u25B2' : '\u25BC'}
     </span>
   );
@@ -87,7 +87,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
         >
           {TIER_FILTERS.map(t => <option key={t} value={t}>{t}</option>)}
         </select>
-        <span className="self-center font-body text-sm text-cream/30">
+        <span className="self-center font-body text-sm text-cream">
           {filtered.length} jurisdiction{filtered.length !== 1 ? 's' : ''}
         </span>
       </div>
@@ -106,7 +106,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
                 <th
                   key={col.key}
                   scope="col"
-                  className={`py-3 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream/40 cursor-pointer hover:text-cream/60 select-none ${col.align}`}
+                  className={`py-3 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream cursor-pointer hover:text-cream select-none ${col.align}`}
                   onClick={() => handleSort(col.key)}
                 >
                   {col.label}
@@ -121,7 +121,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
                 key={r.state}
                 className={`border-b border-ink/5 hover:bg-orange/5 transition-colors ${i % 2 === 1 ? 'bg-navy-row/30' : ''}`}
               >
-                <td className="py-3 px-4 font-body text-cream/50">
+                <td className="py-3 px-4 font-body text-cream">
                   {r.rank}
                 </td>
                 <td className="py-3 px-4 font-body font-semibold">
@@ -130,7 +130,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
                       {r.state}
                     </Link>
                   ) : (
-                    <span className="text-cream/60">{r.state}</span>
+                    <span className="text-cream">{r.state}</span>
                   )}
                 </td>
                 <td className="py-3 px-4 text-right">
@@ -138,7 +138,7 @@ export default function RankingsTable({ rows }: RankingsTableProps) {
                     {r.score}
                   </span>
                 </td>
-                <td className="py-3 px-4 font-body text-sm text-cream/50">
+                <td className="py-3 px-4 font-body text-sm text-cream">
                   {r.tier}
                 </td>
               </tr>

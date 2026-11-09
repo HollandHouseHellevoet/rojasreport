@@ -20,10 +20,10 @@ export default function FeaturedStateCard({ state, slug, score, tier, hook }: Fe
       <div className="p-5">
         <div className="flex items-start justify-between gap-3 mb-3">
           <div>
-            <p className="font-body text-[13px] font-semibold tracking-widest uppercase text-cream/40">
+            <p className="font-body text-[13px] font-semibold tracking-widest uppercase text-cream">
               {tier}
             </p>
-            <h3 className="mt-1 font-display text-2xl text-cream leading-tight">
+            <h3 className="mt-1 font-tight font-bold tracking-[-0.015em] text-[22px] text-cream leading-tight">
               {state}
             </h3>
           </div>
@@ -34,7 +34,7 @@ export default function FeaturedStateCard({ state, slug, score, tier, hook }: Fe
             {score}
           </span>
         </div>
-        <p className="font-body text-sm text-cream/70 leading-relaxed">
+        <p className="font-body text-sm text-cream leading-relaxed">
           {hook}
         </p>
         <p className="mt-4 font-body text-sm font-semibold text-orange">

@@ -12,9 +12,9 @@ const STYLE: Record<Status, { text: string; color: string }> = {
 export default function StatusLabel({ status, note }: { status: Status; note?: string }) {
   const s = STYLE[status];
   return (
-    <span className={`font-meta text-[13px] tracking-[0.02em] ${s.color}`}>
-      <span aria-hidden="true">●</span> {s.text}
-      {note && <span className="text-muted"> · {note}</span>}
+    <span className="font-meta text-[14px] font-semibold text-ink">
+      <span aria-hidden="true" className={s.color}>●</span> {s.text}
+      {note && <span className="font-normal"> · {note}</span>}
     </span>
   );
 }

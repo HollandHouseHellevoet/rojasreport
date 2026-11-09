@@ -84,20 +84,20 @@ export default function ConMap({ states }: ConMapProps) {
                 className="hover:brightness-125 cursor-pointer transition-all"
               />
               <text
-                x={x + cellSize / 2} y={y + cellSize / 2 - 4}
+                x={x + cellSize / 2} y={y + cellSize / 2 - 7}
                 textAnchor="middle" dominantBaseline="middle"
                 fill={textFill}
-                className="text-[11px] font-bold pointer-events-none"
+                className="text-[15px] font-bold pointer-events-none"
                 fontFamily="system-ui, sans-serif"
               >
                 {abbr}
               </text>
               {s && s.score > 0 && (
                 <text
-                  x={x + cellSize / 2} y={y + cellSize / 2 + 10}
+                  x={x + cellSize / 2} y={y + cellSize / 2 + 11}
                   textAnchor="middle" dominantBaseline="middle"
-                  fill={textFill} opacity={0.7}
-                  className="text-[9px] pointer-events-none"
+                  fill={textFill}
+                  className="text-[13px] pointer-events-none"
                   fontFamily="system-ui, sans-serif"
                 >
                   {s.score}
@@ -114,11 +114,11 @@ export default function ConMap({ states }: ConMapProps) {
       </svg>
       {/* Gradient legend */}
       <div className="flex items-center justify-center gap-3 mt-4">
-        <span className="font-body text-xs text-cream/50">Free Market</span>
+        <span className="font-body text-xs text-cream">Free Market</span>
         <div className="w-48 h-3 rounded-full" style={{
           background: `linear-gradient(to right, ${CREAM}33, ${ORANGE}33, ${ORANGE}88, ${ORANGE})`
         }} />
-        <span className="font-body text-xs text-cream/50">Most Restrictive</span>
+        <span className="font-body text-xs text-cream">Most Restrictive</span>
       </div>
     </div>
   );

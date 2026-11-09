@@ -18,7 +18,7 @@ export default function TrackerPage() {
       </nav>
       <p className="font-meta text-[13px] uppercase tracking-[0.14em] mb-3 text-oxblood">The Tracker · As of {fights.asOf}</p>
       <h1 className="font-display text-[44px] md:text-[56px] leading-[1.05] mb-5">Where the fights stand</h1>
-      <p className="italic text-[22px] leading-[1.4] text-body max-w-[720px] mb-10">
+      <p className="text-[20px] leading-[1.4] text-body max-w-[720px] mb-10">
         Every rule the hospital lobby is fighting, where it stands, and who is winning. Updated as rules land.
       </p>
       <FightsTable rows={fights.rows} />

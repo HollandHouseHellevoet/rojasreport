@@ -68,7 +68,7 @@ function YesNo({ filled }: { filled: boolean }) {
   return filled ? (
     <span className="font-body text-sm font-semibold text-orange">Yes</span>
   ) : (
-    <span className="font-body text-sm text-cream/30">No</span>
+    <span className="font-body text-sm text-cream">No</span>
   );
 }
 
@@ -102,17 +102,17 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
         <div className="border-l-4 border-l-cream bg-navy-dark/40 p-4">
           <div className="font-display text-stat text-cream leading-none">{greenCount}</div>
           <div className="mt-2 font-body text-sm font-semibold text-cream">Reform Likely</div>
-          <div className="font-body text-xs text-cream/40 mt-0.5">Score 4-5</div>
+          <div className="font-body text-xs text-cream mt-0.5">Score 4-5</div>
         </div>
         <div className="border-l-4 border-l-orange bg-navy-dark/40 p-4">
           <div className="font-display text-stat text-orange leading-none">{yellowCount}</div>
           <div className="mt-2 font-body text-sm font-semibold text-cream">Reform Possible</div>
-          <div className="font-body text-xs text-cream/40 mt-0.5">Score 2-3</div>
+          <div className="font-body text-xs text-cream mt-0.5">Score 2-3</div>
         </div>
         <div className="border-l-4 border-l-red-brown bg-navy-dark/40 p-4">
           <div className="font-display text-stat text-red-brown leading-none">{redCount}</div>
           <div className="mt-2 font-body text-sm font-semibold text-cream">Reform Stalled</div>
-          <div className="font-body text-xs text-cream/40 mt-0.5">Score 0-1</div>
+          <div className="font-body text-xs text-cream mt-0.5">Score 0-1</div>
         </div>
       </div>
 
@@ -132,14 +132,14 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
               key={s}
               onClick={() => setSortBy(s)}
               className={`px-3 py-2 font-body text-sm font-semibold capitalize transition-colors ${
-                sortBy === s ? 'bg-oxblood text-paper' : 'text-cream/60 hover:text-cream'
+                sortBy === s ? 'bg-oxblood text-paper' : 'text-cream hover:text-cream'
               }`}
             >
               {s}
             </button>
           ))}
         </div>
-        <span className="self-center font-body text-sm text-cream/30">
+        <span className="self-center font-body text-sm text-cream">
           {filtered.length} state{filtered.length !== 1 ? 's' : ''}
         </span>
       </div>
@@ -158,26 +158,26 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
                   <Link href={`/states/${e.slug}/`} className="font-body text-base font-bold text-cream hover:text-orange transition-colors">
                     {e.state}
                   </Link>
-                  <p className="font-body text-xs text-cream/30">{e.tier}</p>
+                  <p className="font-body text-xs text-cream">{e.tier}</p>
                 </div>
                 <div className="text-right">
                   <MomentumBadge momentum={e.momentum} score={e.momentum_score} />
-                  <p className="mt-1 font-body text-xs text-cream/40">Score: {e.score}</p>
+                  <p className="mt-1 font-body text-xs text-cream">Score: {e.score}</p>
                 </div>
               </div>
               {e.current_bill && e.current_bill !== 'N/A' && (
                 <p className="mt-3 font-body text-sm">
-                  <span className="text-cream/40">Bill: </span>
+                  <span className="text-cream">Bill: </span>
                   <span className="text-cream font-semibold">{e.current_bill}</span>
                 </p>
               )}
-              <p className="mt-1 font-body text-sm text-cream/50">{e.bill_status}</p>
+              <p className="mt-1 font-body text-sm text-cream">{e.bill_status}</p>
               <div className="mt-3 grid grid-cols-2 gap-x-3 gap-y-1 font-body text-xs">
-                <div><span className="text-cream/40">Bill: </span><YesNo filled={!!e.bill_introduced} /></div>
-                <div><span className="text-cream/40">Cmte: </span><YesNo filled={!!e.committee_assigned} /></div>
-                <div><span className="text-cream/40">Hearing: </span><YesNo filled={!!e.hearing_held} /></div>
-                <div><span className="text-cream/40">Gov: </span><YesNo filled={!!e.governor_supports} /></div>
-                <div><span className="text-cream/40">Prior: </span><YesNo filled={!!e.reformed_before} /></div>
+                <div><span className="text-cream">Bill: </span><YesNo filled={!!e.bill_introduced} /></div>
+                <div><span className="text-cream">Cmte: </span><YesNo filled={!!e.committee_assigned} /></div>
+                <div><span className="text-cream">Hearing: </span><YesNo filled={!!e.hearing_held} /></div>
+                <div><span className="text-cream">Gov: </span><YesNo filled={!!e.governor_supports} /></div>
+                <div><span className="text-cream">Prior: </span><YesNo filled={!!e.reformed_before} /></div>
               </div>
             </div>
           );
@@ -189,16 +189,16 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
         <table className="w-full text-left border-collapse min-w-[980px]">
           <thead className="sticky top-0 bg-navy z-10">
             <tr className="border-b border-ink/20">
-              <th scope="col" className="py-3 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream/40">State</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">CON</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Momentum</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Bill Introduced</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Committee Assigned</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Hearing Held</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Governor Support</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40 text-center">Prior Reform</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Current Bill</th>
-              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream/40">Status</th>
+              <th scope="col" className="py-3 px-4 font-body text-xs font-bold tracking-widest uppercase text-cream">State</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream text-center">CON</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream">Momentum</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream text-center">Bill Introduced</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream text-center">Committee Assigned</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream text-center">Hearing Held</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream text-center">Governor Support</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream text-center">Prior Reform</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream">Current Bill</th>
+              <th scope="col" className="py-3 px-3 font-body text-xs font-bold tracking-widest uppercase text-cream">Status</th>
             </tr>
           </thead>
           <tbody>
@@ -213,17 +213,17 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
                     <Link href={`/states/${e.slug}/`} className="font-body text-base font-bold text-cream hover:text-orange transition-colors">
                       {e.state}
                     </Link>
-                    <span className="block font-body text-xs text-cream/30">{e.tier}</span>
+                    <span className="block font-body text-xs text-cream">{e.tier}</span>
                   </td>
-                  <td className="py-3 px-3 text-center font-body text-sm font-bold text-cream/60">{e.score}</td>
+                  <td className="py-3 px-3 text-center font-body text-sm font-bold text-cream">{e.score}</td>
                   <td className="py-3 px-3"><MomentumBadge momentum={e.momentum} score={e.momentum_score} /></td>
                   <td className="py-3 px-3 text-center"><YesNo filled={!!e.bill_introduced} /></td>
                   <td className="py-3 px-3 text-center"><YesNo filled={!!e.committee_assigned} /></td>
                   <td className="py-3 px-3 text-center"><YesNo filled={!!e.hearing_held} /></td>
                   <td className="py-3 px-3 text-center"><YesNo filled={!!e.governor_supports} /></td>
                   <td className="py-3 px-3 text-center"><YesNo filled={!!e.reformed_before} /></td>
-                  <td className="py-3 px-3 font-body text-sm text-cream/60">{e.current_bill || 'N/A'}</td>
-                  <td className="py-3 px-3 font-body text-sm text-cream/40 max-w-[220px]">{e.bill_status}</td>
+                  <td className="py-3 px-3 font-body text-sm text-cream">{e.current_bill || 'N/A'}</td>
+                  <td className="py-3 px-3 font-body text-sm text-cream max-w-[220px]">{e.bill_status}</td>
                 </tr>
               );
             })}
@@ -233,8 +233,8 @@ export default function ReformTracker({ entries }: ReformTrackerProps) {
 
       {/* Methodology note */}
       <div className="mt-8 border-t border-ink/10 pt-6">
-        <p className="font-body text-sm text-cream/40 leading-relaxed max-w-prose">
-          <strong className="text-cream/60">Methodology:</strong> Each state is scored 0-5 across five dimensions:
+        <p className="font-body text-sm text-cream leading-relaxed max-w-prose">
+          <strong className="text-cream">Methodology:</strong> Each state is scored 0-5 across five dimensions:
           (1) reform bill introduced in current session, (2) bill has committee assignment,
           (3) hearing or floor vote held, (4) governor publicly supports reform,
           (5) state has reformed before. Score 4-5 = reform likely. Score 2-3 = reform possible.

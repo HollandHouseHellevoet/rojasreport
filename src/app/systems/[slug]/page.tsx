@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import PendingChip from '@/components/PendingChip';
 import { Fragment } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -21,7 +22,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   };
 }
 
-const eyebrow = 'font-meta text-[13px] uppercase tracking-[0.14em]';
+const eyebrow = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em]';
 const h2 = 'font-display font-normal leading-[1.1]';
 const button = 'font-meta text-[14px] font-medium text-center px-[18px] py-3.5';
 const cell = 'py-3.5 border-b border-hairline';
@@ -29,15 +30,15 @@ const cell = 'py-3.5 border-b border-hairline';
 /** A dash for a pending figure, marked so it is never read as a zero. */
 function Dash({ className = '' }: { className?: string }) {
   return (
-    <span className={`text-hairline ${className}`} aria-label="Pending">
-      —<span className="font-meta text-[13px] uppercase tracking-[0.12em] text-muted align-middle ml-2">pending</span>
+    <span className={`align-middle ${className}`}>
+      <PendingChip />
     </span>
   );
 }
 
 function FactRows({ rows }: { rows: Row[] }) {
   return (
-    <div className="flex flex-col text-[18px]">
+    <div className="flex flex-col text-[17px]">
       {rows.map((r) => (
         <div key={r.name} className="flex justify-between gap-3 py-2.5 border-b border-hairline">
           <span>{r.name}</span>
@@ -74,7 +75,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
               {p.kind} · {p.taxStatus} · {p.hq}
             </p>
             <h1 className="font-display font-normal text-[44px] md:text-[64px] lg:text-[72px] leading-[1]">{p.name}</h1>
-            <p className="mt-5 max-w-[720px] italic text-[22px] leading-[1.45] text-body">{p.verdict}</p>
+            <p className="mt-5 max-w-[720px] text-[20px] leading-[1.45] text-body">{p.verdict}</p>
           </div>
           <div className="flex-[1_1_260px] flex flex-col gap-2.5">
             <PrintButton label="Download the profile (PDF)" className={`${button} border border-ink hover:text-oxblood hover:border-oxblood`} />
@@ -102,13 +103,13 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
         <div className="max-w-content mx-auto px-5 md:px-8 pt-[72px] pb-16">
           <div className="flex flex-wrap justify-between items-baseline gap-3 mb-10">
             <h2 className={`${h2} text-[34px] md:text-[40px] text-paper`}>Where the money sits</h2>
-            <span className="italic text-[18px] text-green-text">{p.money.asOf}</span>
+            <span className="italic text-[17px] text-green-text">{p.money.asOf}</span>
           </div>
           <div className="grid gap-10" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))' }}>
             {p.money.items.map((m) => (
               <div key={m.value} className="flex flex-col gap-2.5 border-t border-green-rule pt-5" title={m.source}>
                 <div className="font-display leading-none text-paper whitespace-nowrap" style={{ fontSize: 'clamp(44px, 4.8vw, 68px)' }}>{m.value}</div>
-                <div className="text-[19px] leading-[1.4] text-green-text-2">{m.text}</div>
+                <div className="text-[17px] leading-[1.4] text-green-text-2">{m.text}</div>
                 <div className="font-meta text-[13px] leading-[1.6] text-green-text">{m.note}</div>
               </div>
             ))}
@@ -123,7 +124,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
             <div className={`${eyebrow} text-oxblood mb-3.5`}>The Fair Share Test</div>
             <div className="font-display text-[84px] md:text-[120px] leading-[0.95] text-oxblood">{ratio}</div>
             <div className="italic text-[17px] text-muted mt-2.5">{filledSentence(fs.filled, fs.lines)}</div>
-            <p className="mt-4 text-[22px] leading-[1.4]">
+            <p className="mt-4 text-[20px] leading-[1.4]">
               in subsidies and write-offs for every <strong className="font-semibold">$1</strong> of free care a patient actually received.
             </p>
           </div>
@@ -156,15 +157,15 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
       <section className="max-w-[1000px] mx-auto px-5 md:px-8 pt-10 pb-[88px]">
         <div className="flex flex-wrap justify-between items-baseline gap-3 border-t border-ink pt-5 mb-2">
           <h2 className={`${h2} text-[34px] md:text-[44px]`}>The Subsidy Ledger</h2>
-          <span className="italic text-[18px] text-muted">{p.ledger.caption}</span>
+          <span className="italic text-[17px] text-muted">{p.ledger.caption}</span>
         </div>
         <div className="table-scroll">
-          <table className="w-full min-w-[600px] border-collapse text-[19px]">
+          <table className="w-full min-w-[600px] border-collapse text-[17px]">
             <tbody>
               {p.ledger.groups.map((g) => (
                 <Fragment key={g.name}>
                   <tr>
-                    <td colSpan={3} className="pt-8 pb-1.5 font-display italic text-[22px] text-oxblood border-b border-ink">{g.name}</td>
+                    <td colSpan={3} className="pt-8 pb-1.5 font-tight font-bold tracking-[-0.015em] text-[20px] text-oxblood border-b border-ink">{g.name}</td>
                   </tr>
                   {g.lines.map((l) => (
                     <tr key={l.name}>
@@ -173,7 +174,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
                         <sup className="font-meta text-[13px] text-muted ml-[3px]">{numberOf(l)}</sup>
                       </td>
                       <td className={`${cell} pr-4 italic text-muted`}>{l.payer}</td>
-                      <td className={`${cell} text-right whitespace-nowrap font-display text-[20px]`} title={l.amount != null ? l.source : undefined}>
+                      <td className={`${cell} text-right whitespace-nowrap font-tight font-semibold tabular-nums text-[18px]`} title={l.amount != null ? l.source : undefined}>
                         {l.amount != null ? millions(l.amount) : <Dash />}
                         {l.amount != null && l.basis === 'estimated' && (
                           <span className="font-body italic text-[14px] text-gold ml-1.5">est.</span>
@@ -184,7 +185,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
                 </Fragment>
               ))}
               <tr>
-                <td colSpan={2} className="py-[22px] pr-4 border-t-2 border-ink font-display text-[22px]">Total subsidies and write-offs</td>
+                <td colSpan={2} className="py-[22px] pr-4 border-t-2 border-ink font-tight font-bold tracking-[-0.015em] text-[20px]">Total subsidies and write-offs</td>
                 <td className="py-[22px] border-t-2 border-ink text-right whitespace-nowrap font-display text-[30px] text-oxblood">{millions(fs.total)}+</td>
               </tr>
               <tr>
@@ -196,7 +197,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
         </div>
         <p className="mt-[18px] italic text-[16px] text-muted">{p.ledger.note}</p>
         <div className="mt-10 border-t border-hairline pt-[18px]">
-          <div className="font-display text-[20px] mb-3">Sources</div>
+          <div className="font-tight font-bold tracking-[-0.015em] text-[18px] mb-3">Sources</div>
           <ol className="pl-[22px] font-meta text-[13px] leading-[1.6] text-muted" style={{ columns: '2 320px', columnGap: 40 }}>
             {allLines.map((l) => (
               <li key={l.name} className="mb-1" style={{ breakInside: 'avoid' }}>{l.source}</li>
@@ -227,7 +228,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
         <div className="flex flex-wrap gap-12 items-center border-t border-ink pt-10">
           <div className="flex-[999_1_520px] min-w-0">
             <h2 className={`${h2} text-[34px] md:text-[40px] mb-3.5`}>Take the numbers with you.</h2>
-            <p className="text-[20px] leading-[1.5] text-body">{p.buy.text}</p>
+            <p className="text-[19px] leading-[1.5] text-body">{p.buy.text}</p>
           </div>
           <div className="flex-[1_1_300px] flex flex-col gap-2.5 font-meta text-[14px] font-medium">
             {p.buy.options.map((o) => (

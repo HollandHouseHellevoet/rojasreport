@@ -29,7 +29,7 @@ export default function AhaSubnav() {
             key={l.href}
             href={l.href}
             className={`font-body text-sm py-3 whitespace-nowrap border-b-2 transition-colors ${
-              active(l.href) ? "text-cream border-orange" : "text-cream/60 border-transparent hover:text-cream"
+              active(l.href) ? "text-cream border-orange" : "text-cream border-transparent hover:text-cream"
             }`}
           >
             {l.label}

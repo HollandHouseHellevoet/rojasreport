@@ -36,16 +36,16 @@ const sections = [
 ];
 
 const mdComponents = {
-  h1: (props: React.ComponentProps<"h3">) => <h3 className="font-display text-cream mt-8 mb-3" style={{ fontSize: "1.6rem" }} {...props} />,
-  h2: (props: React.ComponentProps<"h3">) => <h3 className="font-display text-cream mt-8 mb-3" style={{ fontSize: "1.6rem" }} {...props} />,
-  h3: (props: React.ComponentProps<"h3">) => <h3 className="font-display text-cream mt-8 mb-3" style={{ fontSize: "1.45rem" }} {...props} />,
-  h4: (props: React.ComponentProps<"h4">) => <h4 className="font-body font-semibold text-orange mt-6 mb-2" style={{ fontSize: "15px" }} {...props} />,
-  p: (props: React.ComponentProps<"p">) => <p className="font-body text-cream leading-relaxed mb-4" style={{ fontSize: "15px" }} {...props} />,
+  h1: (props: React.ComponentProps<"h3">) => <h3 className="font-tight font-bold tracking-[-0.015em] text-cream mt-8 mb-3" style={{ fontSize: "1.375rem" }} {...props} />,
+  h2: (props: React.ComponentProps<"h3">) => <h3 className="font-tight font-bold tracking-[-0.015em] text-cream mt-8 mb-3" style={{ fontSize: "1.375rem" }} {...props} />,
+  h3: (props: React.ComponentProps<"h3">) => <h3 className="font-tight font-bold tracking-[-0.015em] text-cream mt-8 mb-3" style={{ fontSize: "1.25rem" }} {...props} />,
+  h4: (props: React.ComponentProps<"h4">) => <h4 className="font-body font-semibold text-orange mt-6 mb-2" style={{ fontSize: "16px" }} {...props} />,
+  p: (props: React.ComponentProps<"p">) => <p className="font-prose text-cream leading-relaxed mb-4" style={{ fontSize: "19px" }} {...props} />,
   ul: (props: React.ComponentProps<"ul">) => <ul className="space-y-2 mb-5 pl-1" {...props} />,
-  ol: (props: React.ComponentProps<"ol">) => <ol className="list-decimal space-y-2 mb-5 pl-6 font-body text-cream" style={{ fontSize: "15px" }} {...props} />,
+  ol: (props: React.ComponentProps<"ol">) => <ol className="list-decimal space-y-2 mb-5 pl-6 font-prose text-cream" style={{ fontSize: "19px" }} {...props} />,
   li: ({ children, ...props }: React.ComponentProps<"li">) => (
-    <li className="font-body text-cream leading-relaxed flex gap-3" style={{ fontSize: "15px" }} {...props}>
-      <span className="text-orange flex-shrink-0 mt-1" style={{ fontSize: "10px" }}>&#9658;</span>
+    <li className="font-prose text-cream leading-relaxed flex gap-3" style={{ fontSize: "19px" }} {...props}>
+      <span className="text-orange flex-shrink-0 mt-1" style={{ fontSize: "13px" }}>&#9658;</span>
       <span className="min-w-0">{children}</span>
     </li>
   ),
@@ -53,10 +53,10 @@ const mdComponents = {
   a: (props: React.ComponentProps<"a">) => <a className="text-orange hover:underline break-words" target="_blank" rel="noopener noreferrer" {...props} />,
   table: (props: React.ComponentProps<"table">) => (
     <div className="overflow-x-auto mb-6 border border-border">
-      <table className="w-full text-left font-body" style={{ fontSize: "14px" }} {...props} />
+      <table className="w-full text-left font-body" style={{ fontSize: "16px" }} {...props} />
     </div>
   ),
-  th: (props: React.ComponentProps<"th">) => <th className="px-3 py-2 text-orange uppercase tracking-wide border-b border-border align-bottom" style={{ fontSize: "11px", backgroundColor: "#ECE5D8" }} {...props} />,
+  th: (props: React.ComponentProps<"th">) => <th className="px-3 py-2 text-orange uppercase tracking-wide border-b border-border align-bottom" style={{ fontSize: "13px", backgroundColor: "#ECE5D8" }} {...props} />,
   td: (props: React.ComponentProps<"td">) => <td className="px-3 py-2 text-cream border-b border-border align-top" {...props} />,
   hr: () => <div className="border-t border-border my-6" />,
   blockquote: (props: React.ComponentProps<"blockquote">) => <blockquote className="border-l-4 border-orange pl-4 my-4 italic text-muted" {...props} />,
@@ -104,7 +104,7 @@ export default function PowerMapPage() {
                 <p className="font-display" style={{ fontSize: "clamp(1.5rem,2.5vw,2.2rem)", color: "#8E1B1B" }}>
                   {stat.value}
                 </p>
-                <p className="font-body text-muted uppercase tracking-widest mt-1" style={{ fontSize: "10px", letterSpacing: "0.12em" }}>
+                <p className="font-body text-muted uppercase tracking-widest mt-1" style={{ fontSize: "13px", letterSpacing: "0.12em" }}>
                   {stat.label}
                 </p>
               </div>
@@ -116,13 +116,13 @@ export default function PowerMapPage() {
         <div className="flex gap-12">
           <aside className="hidden lg:block w-56 flex-shrink-0">
             <nav className="sticky top-24">
-              <p className="font-body text-muted uppercase tracking-widest mb-4" style={{ fontSize: "11px", letterSpacing: "0.15em" }}>Contents</p>
+              <p className="font-body text-muted uppercase tracking-widest mb-4" style={{ fontSize: "13px", letterSpacing: "0.15em" }}>Contents</p>
               <ul className="space-y-1">
                 {sections.map((s, i) => (
                   <li key={s.id}>
                     <a href={`#${s.id}`} className={`block font-body text-sm py-2 border-l-2 pl-3 transition-colors ${
                         activeSection === s.id ? "border-orange text-cream" : "border-border text-muted hover:text-cream hover:border-orange/50"}`}>
-                      <span className="text-orange mr-2" style={{ fontSize: "11px" }}>{String(i + 1).padStart(2, "0")}</span>
+                      <span className="text-orange mr-2" style={{ fontSize: "13px" }}>{String(i + 1).padStart(2, "0")}</span>
                       {s.label}
                     </a>
                   </li>
@@ -140,7 +140,7 @@ export default function PowerMapPage() {
               return (
                 <section key={section.id} id={section.id} className="mb-20 scroll-mt-24">
                   <div className="flex items-center justify-between mb-2">
-                    <span className="font-body text-orange uppercase tracking-widest font-semibold" style={{ fontSize: "11px", letterSpacing: "0.15em" }}>
+                    <span className="font-body text-orange uppercase tracking-widest font-semibold" style={{ fontSize: "13px", letterSpacing: "0.15em" }}>
                       {String(i + 1).padStart(2, "0")}
                     </span>
                     <ShareFinding sectionName={section.label} />
@@ -148,8 +148,8 @@ export default function PowerMapPage() {
                   <h2 className="font-display text-cream mb-5" style={{ fontSize: isBottomLine ? "2.4rem" : "2rem" }}>
                     {section.label}
                   </h2>
-                  {meta?.verdict && <p className="font-display italic leading-snug mb-6"
-                    style={{ fontSize: "1.2rem", color: "#3A3732", borderLeft: "3px solid #8E1B1B", paddingLeft: "1rem" }}>
+                  {meta?.verdict && <p className="font-prose italic leading-snug mb-6"
+                    style={{ fontSize: "1.2rem", color: "#1C1B19", borderLeft: "3px solid #8E1B1B", paddingLeft: "1rem" }}>
                     {meta?.verdict}
                   </p>}
                   {stats.length > 0 && (
@@ -157,7 +157,7 @@ export default function PowerMapPage() {
                       {stats.map((stat) => (
                         <div key={stat.label} className="border border-orange/30 px-4 py-3" style={{ backgroundColor: "rgba(212,98,42,0.07)" }}>
                           <p className="font-display" style={{ fontSize: "1.5rem", color: "#8E1B1B" }}>{stat.value}</p>
-                          <p className="font-body text-muted uppercase tracking-wide" style={{ fontSize: "10px", letterSpacing: "0.1em" }}>{stat.label}</p>
+                          <p className="font-body text-muted uppercase tracking-wide" style={{ fontSize: "13px", letterSpacing: "0.1em" }}>{stat.label}</p>
                         </div>
                       ))}
                     </div>
@@ -169,7 +169,7 @@ export default function PowerMapPage() {
                   </div>
                   {isBottomLine && meta?.pullQuote && (
                     <blockquote className="border-l-4 border-orange px-6 py-6 mt-6" style={{ backgroundColor: "#ECE5D8" }}>
-                      <p className="font-display italic text-cream leading-relaxed" style={{ fontSize: "1.35rem" }}>
+                      <p className="font-prose italic text-cream leading-relaxed" style={{ fontSize: "1.35rem" }}>
                         {meta.pullQuote}
                       </p>
                     </blockquote>

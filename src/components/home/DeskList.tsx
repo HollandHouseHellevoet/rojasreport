@@ -28,11 +28,11 @@ function Row({ d, band }: { d: Desk; band: Band }) {
       className={`group flex flex-wrap items-baseline justify-between gap-x-8 gap-y-2 py-5 border-b border-hairline ${live ? '' : 'cursor-default'}`}
     >
       <div className="min-w-0 flex-[1_1_420px]">
-        <p className={`font-display text-[24px] md:text-[26px] leading-tight ${live ? 'text-ink group-hover:text-oxblood' : 'text-muted'}`}>
+        <p className={`font-tight font-bold tracking-[-0.015em] text-[22px] md:text-[24px] leading-tight ${live ? 'text-ink group-hover:text-oxblood' : 'text-muted'}`}>
           {d.name}
           {live && <span aria-hidden="true"> →</span>}
         </p>
-        {d.blurb && <p className={`mt-1 text-[19px] leading-[1.45] ${live ? 'text-body' : 'text-muted'}`}>{d.blurb}</p>}
+        {d.blurb && <p className={`mt-1 text-[17px] leading-[1.45] ${live ? 'text-body' : 'text-muted'}`}>{d.blurb}</p>}
         {!live && (
           <p className="mt-2">
             <StatusLabel status="pending" note="In preparation" />
@@ -62,7 +62,7 @@ export default function DeskList({ desks, band = 'green' }: { desks: Desk[]; ban
       {groups.map((g, i) => (
         <div key={g.name ?? i}>
           {g.name && (
-            <h2 className={`font-body italic text-[20px] pt-6 pb-1 ${bandText[band]}`}>{g.name}</h2>
+            <h2 className={`font-body italic text-[19px] pt-6 pb-1 ${bandText[band]}`}>{g.name}</h2>
           )}
           {g.items.map((d) => (
             <Row key={d.name} d={d} band={band} />

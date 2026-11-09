@@ -60,7 +60,7 @@ export default function StateGradeMethod() {
           {drivers.map((d) => (
             <div key={d.n} className="border-t border-green-rule pt-4">
               <div className="flex justify-between items-baseline gap-4">
-                <h3 className="font-display text-[26px] leading-[1.15] text-paper"><span className="text-green-text mr-2">{d.n}.</span>{d.title}</h3>
+                <h3 className="font-tight font-bold tracking-[-0.015em] text-[24px] leading-[1.15] text-paper"><span className="text-green-text mr-2">{d.n}.</span>{d.title}</h3>
                 <span className="font-display text-[34px] leading-none text-paper whitespace-nowrap">{d.weight}%</span>
               </div>
               
@@ -85,10 +85,10 @@ export default function StateGradeMethod() {
           const sum = graded.reduce((s, x) => s + x.weight * pts[x.grade as string], 0);
           return (
             <div key={d.slug} className="max-w-[860px] mb-10">
-              <h3 className="font-display text-[28px] mb-3">
+              <h3 className="font-tight font-bold tracking-[-0.015em] text-[24px] mb-3">
                 <Link href={`/states/${d.slug}/`} className="hover:text-oxblood">{d.name}</Link>:{' '}
                 <span className={g.letter === 'A' || g.letter === 'B' ? 'text-green' : g.letter === 'C' ? 'text-gold' : 'text-oxblood'}>{g.letter ?? '—'}</span>
-                {g.provisional && <span className="italic text-[18px] text-muted ml-3">provisional, {word(g.graded)} of {word(g.total)} drivers</span>}
+                {g.provisional && <span className="italic text-[17px] text-muted ml-3">provisional, {word(g.graded)} of {word(g.total)} drivers</span>}
               </h3>
               <div className="table-scroll">
                 <table className="w-full border-collapse">

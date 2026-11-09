@@ -3,7 +3,7 @@ export const metadata = { title: "Privacy Policy", alternates: { canonical: "htt
 export default function PrivacyPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-20 text-muted">
-      <h1 className="font-display text-4xl text-cream mb-6">Privacy Policy</h1>
+      <h1 className="font-display text-[40px] md:text-[44px] text-cream mb-6">Privacy Policy</h1>
       <p className="font-body text-sm text-muted mb-10">Effective: April 2026</p>
 
       <section className="mb-8">

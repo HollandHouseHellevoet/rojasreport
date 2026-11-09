@@ -18,13 +18,13 @@ export default function CrossLink({ href, label, title, description, external }:
       className="block border border-ink/10 p-5 hover:border-orange/40 transition-colors"
       {...extraProps}
     >
-      <span className="text-xs font-body font-semibold tracking-widest uppercase text-cream/40">
+      <span className="text-xs font-body font-semibold tracking-widest uppercase text-cream">
         {label}
       </span>
-      <h3 className="mt-2 font-display text-lg text-cream">
+      <h3 className="mt-2 font-tight font-bold tracking-[-0.015em] text-[18px] text-cream">
         {title}
       </h3>
-      <p className="mt-1 font-body text-sm text-cream/50">
+      <p className="mt-1 font-body text-sm text-cream">
         {description}
       </p>
     </El>

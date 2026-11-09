@@ -21,7 +21,7 @@ export default function RedFlagCallout({ text }: RedFlagCalloutProps) {
         <line x1="12" y1="9" x2="12" y2="13" />
         <line x1="12" y1="17" x2="12.01" y2="17" />
       </svg>
-      <p className="font-body text-cream leading-relaxed" style={{ fontSize: "15px" }}>{text}</p>
+      <p className="font-body text-cream leading-relaxed" style={{ fontSize: "16px" }}>{text}</p>
     </div>
   );
 }

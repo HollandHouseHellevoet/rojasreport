@@ -15,7 +15,7 @@ const BUILD_DATE = new Date().toLocaleDateString('en-US', {
 const label = 'font-meta uppercase tracking-[0.12em]';
 
 function NavLinks({ pathname, size }: { pathname: string; size: 'home' | 'compact' }) {
-  const cls = size === 'home' ? 'text-[14px]' : 'text-[13px]';
+  const cls = size === 'home' ? 'text-[14px] font-semibold tracking-[0.08em]' : 'text-[13px] font-semibold tracking-[0.08em]';
   return (
     <>
       {NAV.map((item) => {
@@ -58,7 +58,7 @@ export default function Header() {
       <header>
         {/* Utility bar */}
         <div className="border-b border-hairline">
-          <div className={`max-w-content mx-auto px-5 md:px-8 py-2.5 flex flex-wrap gap-x-6 gap-y-2 justify-between items-center ${label} text-[13px] tracking-[0.08em] text-muted`}>
+          <div className={`max-w-content mx-auto px-5 md:px-8 py-2.5 flex flex-wrap gap-x-6 gap-y-2 justify-between items-center ${label} text-[13px] font-medium tracking-[0.06em] text-ink`}>
             <span>{BUILD_DATE}</span>
             <div className="flex flex-wrap gap-x-6 gap-y-2 items-center">
               {UTILITY.map((u) =>
@@ -75,7 +75,7 @@ export default function Header() {
 
         {/* Masthead */}
         <div className="max-w-content mx-auto px-5 md:px-8 pt-12 pb-7 text-center">
-          <p className={`${label} text-[13px] tracking-[0.32em] text-muted mb-4`}>Healthcare Intelligence</p>
+          <p className={`${label} text-[13px] font-semibold tracking-[0.18em] text-ink mb-4`}>Healthcare Intelligence</p>
           <Link href="/" className="inline-block">
             <h1
               className="font-display font-medium text-oxblood leading-[0.92] tracking-[0.04em]"
@@ -84,7 +84,7 @@ export default function Header() {
               THE ROJAS<br />REPORT
             </h1>
           </Link>
-          <p className="mt-6 mx-auto max-w-[640px] italic text-[22px] leading-[1.4] text-body">
+          <p className="mt-6 mx-auto max-w-[640px] font-prose italic text-[22px] leading-[1.4] text-ink">
             Why healthcare costs what it does, who profits, and how physicians take it back.
           </p>
         </div>

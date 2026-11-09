@@ -22,7 +22,7 @@ export default function PillarsPage() {
         <FahBreadcrumb current="Eight pillars" />
         <Label className="mb-3">The fights</Label>
         <h1 className="font-display text-4xl sm:text-[56px] leading-[1.1] text-cream mb-4">The eight pillars</h1>
-        <p className="font-body text-lg text-cream/80 max-w-2xl mb-2">{DESC}</p>
+        <p className="font-body text-lg text-cream max-w-2xl mb-2">{DESC}</p>
         <p className="font-body text-sm text-muted mb-12">Record as of {fmtDate(org.asOf)}</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {pillars.map((p) => (
@@ -31,10 +31,10 @@ export default function PillarsPage() {
                 <Label>Pillar {p.number}</Label>
                 <ThreatTag level={p.threat} />
               </div>
-              <h2 className="font-display text-2xl text-cream mb-1">{p.title}</h2>
-              <p className="font-body text-xs text-cream/50 uppercase tracking-wider mb-4">{p.subtitle}</p>
-              <p className="font-body text-sm text-cream/80 mb-2"><span className="text-orange font-semibold">FAH position:</span> {p.fahPosition}</p>
-              {p.status2026[0] && <p className="font-body text-sm text-cream/70"><span className="text-orange font-semibold">Now:</span> {p.status2026[0].text}</p>}
+              <h2 className="font-tight font-bold tracking-[-0.015em] text-[22px] text-cream mb-1">{p.title}</h2>
+              <p className="font-body text-xs text-cream uppercase tracking-wider mb-4">{p.subtitle}</p>
+              <p className="font-body text-sm text-cream mb-2"><span className="text-orange font-semibold">FAH position:</span> {p.fahPosition}</p>
+              {p.status2026[0] && <p className="font-body text-sm text-cream"><span className="text-orange font-semibold">Now:</span> {p.status2026[0].text}</p>}
             </Link>
           ))}
         </div>

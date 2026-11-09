@@ -28,7 +28,7 @@ function highlightStats(text: string): React.ReactNode {
 export default function SmartText({ text }: { text: string }) {
   if (isAttribution(text)) {
     return (
-      <cite className="block font-body text-sm text-cream/40 not-italic mt-1">
+      <cite className="block font-body text-sm text-cream not-italic mt-1">
         {text}
       </cite>
     );
@@ -38,7 +38,7 @@ export default function SmartText({ text }: { text: string }) {
     const cleaned = text.replace(/^[""\u201c\u201d]+|[""\u201c\u201d]+$/g, '');
     return (
       <blockquote className="pl-5 border-l-2 border-orange my-4">
-        <p className="font-display text-xl text-cream/80 italic leading-relaxed">
+        <p className="font-prose text-xl text-cream italic leading-relaxed">
           {cleaned}
         </p>
       </blockquote>
@@ -46,7 +46,7 @@ export default function SmartText({ text }: { text: string }) {
   }
 
   return (
-    <p className="font-body text-cream/55 leading-relaxed">
+    <p className="font-body text-cream leading-relaxed">
       {highlightStats(text)}
     </p>
   );

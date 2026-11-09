@@ -30,10 +30,10 @@ export default function EvidencePreview() {
           <p className="mt-1 font-body text-sm font-semibold text-cream">
             {f.label}
           </p>
-          <p className="mt-1 font-body text-sm text-cream/50 leading-relaxed">
+          <p className="mt-1 font-body text-sm text-cream leading-relaxed">
             {f.context}
           </p>
-          <p className="mt-3 font-body text-xs text-cream/30">
+          <p className="mt-3 font-body text-xs text-cream">
             {f.source}
           </p>
         </div>

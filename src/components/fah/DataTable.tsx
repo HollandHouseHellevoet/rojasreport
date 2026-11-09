@@ -15,7 +15,7 @@ export default function DataTable({ headers, rows, label }: { headers: string[];
           {rows.map((r, i) => (
             <tr key={i} className="border-b border-ink/5 align-top">
               {r.map((c, j) => (
-                <td key={j} className={`font-body text-sm py-3 pr-4 ${j === 0 ? "text-cream" : "text-cream/75"}`}>{c}</td>
+                <td key={j} className={`font-body text-sm py-3 pr-4 ${j === 0 ? "text-cream" : "text-cream"}`}>{c}</td>
               ))}
             </tr>
           ))}

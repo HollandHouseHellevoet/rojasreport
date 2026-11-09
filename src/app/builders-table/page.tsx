@@ -39,11 +39,11 @@ export default function BuildersTablePage() {
             { title: 'Early look', body: 'Rojas Report investigations 48 hours before they publish.' },
           ]}
         />
-        <p className="font-body text-cream/70 mt-6 max-w-2xl">Warm introductions to other members, at Dutch&apos;s discretion.</p>
+        <p className="font-body text-cream mt-6 max-w-2xl">Warm introductions to other members, at Dutch&apos;s discretion.</p>
       </Block>
 
       <Block label="Terms" title="$25,000 a year. 100 seats.">
-        <p className="font-body text-cream/70 max-w-2xl leading-relaxed">
+        <p className="font-body text-cream max-w-2xl leading-relaxed">
           One price and one table. A practice owner and a fund partner sit side by side, and that is the point. Membership is annual and capped at 100 members.
         </p>
       </Block>

@@ -58,10 +58,10 @@ export default function MachineScoreMethod() {
 
       <Band tone="oxblood">
         <h2 className="font-display font-normal leading-[1.1] text-[32px] md:text-[40px] text-paper mb-6">The anchor: what counts as the lobby&rsquo;s side</h2>
-        <p className="font-display text-[26px] md:text-[32px] leading-[1.3] text-paper max-w-[900px]">
+        <p className="font-tight font-semibold tracking-[-0.01em] text-[22px] md:text-[26px] leading-[1.35] text-paper max-w-[900px]">
           Each action is judged against the published position of the American Hospital Association or the Federation of American Hospitals. The position is on that specific bill, amendment, rule or letter.
         </p>
-        <div className="mt-8 grid gap-8 text-oxblood-text text-[18px] leading-[1.5]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
+        <div className="mt-8 grid gap-8 text-oxblood-text text-[17px] leading-[1.5]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
           <p className="border-t border-oxblood-rule pt-4">The position comes from the lobby&rsquo;s own letters, key-vote alerts, testimony or press releases. We never decide what is pro-hospital; the AHA and FAH told everyone in writing.</p>
           <p className="border-t border-oxblood-rule pt-4">If neither group took a public position on an action, that action is not scored.</p>
           <p className="border-t border-oxblood-rule pt-4">Every scored action links to the vote, bill or letter and to the AHA or FAH document that states the lobby&rsquo;s position.</p>
@@ -87,16 +87,16 @@ export default function MachineScoreMethod() {
             <tbody>{weights.map(([a, w]) => (<tr key={a}><td className={`${td} pr-4`}>{a}</td><td className={`${td} text-right font-display text-[26px]`}>{w}</td></tr>))}</tbody>
           </table>
           <div className={`${small} space-y-4`}>
-            <p><span className="font-display text-[22px]">Recency.</span> Actions from the last three Congresses, six years, count in full. Older actions count half.</p>
-            <p><span className="font-display text-[22px]">Minimum record.</span> A member needs at least five scored actions. Below that the member shows &ldquo;Insufficient record,&rdquo; not a number.</p>
-            <p><span className="font-display text-[22px]">Money.</span> Hospital-industry PAC and executive contributions from FEC filings sit beside the score on every member&rsquo;s entry. They are not inside it. The score rests only on what the member did, judged against what the lobby asked for in writing.</p>
+            <p><span className="font-tight font-bold tracking-[-0.015em] text-[20px]">Recency.</span> Actions from the last three Congresses, six years, count in full. Older actions count half.</p>
+            <p><span className="font-tight font-bold tracking-[-0.015em] text-[20px]">Minimum record.</span> A member needs at least five scored actions. Below that the member shows &ldquo;Insufficient record,&rdquo; not a number.</p>
+            <p><span className="font-tight font-bold tracking-[-0.015em] text-[20px]">Money.</span> Hospital-industry PAC and executive contributions from FEC filings sit beside the score on every member&rsquo;s entry. They are not inside it. The score rests only on what the member did, judged against what the lobby asked for in writing.</p>
           </div>
         </div>
       </Section>
 
       <Section title="The formula">
         <Formula>Score = 100 × weighted actions against the lobby&rsquo;s position ÷ all weighted scored actions.</Formula>
-        <h3 className="font-display text-[24px] mt-8 mb-2">Worked example, hypothetical</h3>
+        <h3 className="font-tight font-bold tracking-[-0.015em] text-[22px] mt-8 mb-2">Worked example, hypothetical</h3>
         <div className="table-scroll max-w-[860px]">
           <table className="w-full border-collapse">
             <thead><tr><th className={th}>Actions</th><th className={th}>Count × weight</th><th className={`${th} text-right`}>Scored</th><th className={`${th} text-right`}>Against the lobby</th></tr></thead>

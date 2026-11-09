@@ -46,13 +46,13 @@ export default function PartnersPage() {
           <table className="w-full min-w-[620px] font-body text-sm">
             <thead>
               <tr className="border-b border-ink/10 text-left">
-                <th className="p-4 font-semibold text-cream/60"></th>
+                <th className="p-4 font-semibold text-cream"></th>
                 <th className="p-4">
-                  <span className="block font-display text-xl text-cream">Standard</span>
+                  <span className="block font-tight font-bold tracking-[-0.015em] text-[20px] text-cream">Standard</span>
                   <span className="block text-orange font-semibold mt-1">$75,000 a year</span>
                 </th>
                 <th className="p-4">
-                  <span className="block font-display text-xl text-cream">Plus</span>
+                  <span className="block font-tight font-bold tracking-[-0.015em] text-[20px] text-cream">Plus</span>
                   <span className="block text-orange font-semibold mt-1">$150,000 a year</span>
                 </th>
               </tr>
@@ -60,7 +60,7 @@ export default function PartnersPage() {
             <tbody>
               {ROWS.map(([label, std, plus]) => (
                 <tr key={label} className="border-b border-ink/10 last:border-0">
-                  <td className="p-4 text-cream/80">{label}</td>
+                  <td className="p-4 text-cream">{label}</td>
                   <td className="p-4 text-cream tabular-nums">{std}</td>
                   <td className="p-4 text-cream tabular-nums">{plus}</td>
                 </tr>
@@ -68,10 +68,10 @@ export default function PartnersPage() {
             </tbody>
           </table>
         </div>
-        <p className="font-body text-cream/60 text-sm mt-6 max-w-2xl leading-relaxed">
+        <p className="font-body text-cream text-sm mt-6 max-w-2xl leading-relaxed">
           Annual, paid in advance. Briefings and calls are off the record. Custom research, strategy and exclusive work are available separately.
         </p>
-        <p className="font-body text-cream/60 text-sm mt-3 max-w-2xl leading-relaxed">
+        <p className="font-body text-cream text-sm mt-3 max-w-2xl leading-relaxed">
           Rojas Intelligence Partners is sold by Rojas Intelligence, a brand of Rojas Media.
         </p>
       </Block>

@@ -28,7 +28,7 @@ export default function Search({ index }: { index: SearchEntry[] }) {
 
   return (
     <section className="max-w-[880px] mx-auto px-5 md:px-8 pt-16 pb-[72px] text-center">
-      <label htmlFor={id} className="block font-display text-[30px] md:text-[34px] mb-7">
+      <label htmlFor={id} className="block font-display text-[32px] md:text-[40px] mb-7">
         Follow the money in healthcare.
       </label>
       <form
@@ -40,7 +40,7 @@ export default function Search({ index }: { index: SearchEntry[] }) {
         }}
         className="relative"
       >
-        <div className="flex items-center gap-4 border-b-2 border-ink pb-3">
+        <div className="flex items-center gap-4 border-b-[3px] border-ink pb-3">
           <input
             id={id}
             name="q"
@@ -49,7 +49,7 @@ export default function Search({ index }: { index: SearchEntry[] }) {
             onChange={(e) => setQ(e.target.value)}
             placeholder="Search a health system, hospital, lawmaker or state"
             autoComplete="off"
-            className="flex-1 min-w-0 bg-transparent border-0 outline-none font-body text-[20px] md:text-[24px] text-ink placeholder:text-[#6B665D] py-2"
+            className="flex-1 min-w-0 bg-transparent border-0 outline-none font-body text-[18px] md:text-[22px] text-ink placeholder:text-ink placeholder:opacity-100 py-2"
           />
           <button type="submit" aria-label="Search" className="p-2.5 min-w-[44px] min-h-[44px] text-ink hover:text-oxblood">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
@@ -63,7 +63,7 @@ export default function Search({ index }: { index: SearchEntry[] }) {
             {results.map((r) => (
               <li key={r.href + r.title} className="border-b border-hairline last:border-b-0">
                 <Smart href={r.href} className="flex flex-wrap justify-between gap-x-6 gap-y-1 px-5 py-3 hover:text-oxblood">
-                  <span className="text-[19px]">{r.title}</span>
+                  <span className="text-[17px]">{r.title}</span>
                   <span className="font-meta text-[13px] uppercase tracking-[0.1em] text-muted self-center">{r.kind}</span>
                 </Smart>
               </li>
@@ -71,10 +71,10 @@ export default function Search({ index }: { index: SearchEntry[] }) {
           </ul>
         )}
       </form>
-      <div className="mt-4 font-meta text-[13px] text-muted flex flex-wrap gap-x-5 gap-y-2 justify-center">
+      <div className="mt-4 font-meta text-[14px] flex flex-wrap gap-x-5 gap-y-2 justify-center">
         <span>Try:</span>
         {TRY.map((t) => (
-          <Smart key={t.label} href={t.href} className="text-muted border-b border-hairline hover:text-oxblood">{t.label}</Smart>
+          <Smart key={t.label} href={t.href} className="font-medium border-b border-hairline hover:text-oxblood">{t.label}</Smart>
         ))}
       </div>
     </section>

@@ -18,7 +18,7 @@ export default function HacPage() {
           <h1 className="font-display text-5xl sm:text-[64px] leading-[1.05] text-cream mb-6 [text-wrap:balance]">
             The {committee.name}
           </h1>
-          <p className="font-body text-lg sm:text-xl text-cream/80 max-w-2xl mx-auto mb-4">
+          <p className="font-body text-lg sm:text-xl text-cream max-w-2xl mx-auto mb-4">
             {committee.memberCount} members picked from {committee.nominations} nominations to advise HHS and CMS. None has a stated interest in expanding physician ownership.
           </p>
           <p className="font-body text-sm text-muted mb-10">Record as of {fmtDate(committee.asOf)}</p>
@@ -38,7 +38,7 @@ export default function HacPage() {
           {STATS.map((s) => (
             <div key={s.label} className="text-center">
               <p className="font-display text-4xl sm:text-5xl text-orange">{s.number}</p>
-              <p className="font-body text-sm text-cream/70 mt-2">{s.label}</p>
+              <p className="font-body text-sm text-cream mt-2">{s.label}</p>
             </div>
           ))}
         </div>
@@ -66,12 +66,12 @@ export default function HacPage() {
 
           <div className="bg-navy-dark border border-orange/30 p-6 sm:p-8 mb-12">
             <Label className="mb-2">Next meeting · {fmtDate(committee.nextMeeting.date)}</Label>
-            <p className="font-body text-cream/85 leading-relaxed">{committee.nextMeeting.text}{" "}
+            <p className="font-body text-cream leading-relaxed">{committee.nextMeeting.text}{" "}
               <a href={committee.nextMeeting.url} target="_blank" rel="noopener noreferrer" className="text-orange hover:text-orange-light underline underline-offset-2">Agenda</a>
             </p>
           </div>
 
-          <h3 className="font-display text-2xl text-cream mb-4">Meetings</h3>
+          <h3 className="font-tight font-bold tracking-[-0.015em] text-[22px] text-cream mb-4">Meetings</h3>
           <div className="overflow-x-auto mb-12">
             <table className="w-full text-left" aria-label="Meetings">
               <thead>
@@ -85,15 +85,15 @@ export default function HacPage() {
                 {committee.meetings.map((m) => (
                   <tr key={m.date + m.label} className="border-b border-ink/5 align-top">
                     <td className="font-body text-sm text-cream whitespace-nowrap py-3 pr-4">{fmtDate(m.date)}</td>
-                    <td className="font-body text-sm text-cream/80 py-3 pr-4"><a href={m.url} target="_blank" rel="noopener noreferrer" className="hover:text-orange underline underline-offset-2">{m.label}</a></td>
-                    <td className="font-body text-sm text-cream/70 py-3">{m.text}</td>
+                    <td className="font-body text-sm text-cream py-3 pr-4"><a href={m.url} target="_blank" rel="noopener noreferrer" className="hover:text-orange underline underline-offset-2">{m.label}</a></td>
+                    <td className="font-body text-sm text-cream py-3">{m.text}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
 
-          <h3 className="font-display text-2xl text-cream mb-4">Working groups</h3>
+          <h3 className="font-tight font-bold tracking-[-0.015em] text-[22px] text-cream mb-4">Working groups</h3>
           <div className="overflow-x-auto mb-12">
             <table className="w-full text-left" aria-label="Working groups">
               <thead>
@@ -108,15 +108,15 @@ export default function HacPage() {
                   <tr key={g.name} className="border-b border-ink/5">
                     <td className="font-body text-sm text-cream py-3 pr-4">{g.name}</td>
                     <td className="font-body text-sm text-orange font-semibold py-3 pr-4">{g.lead}</td>
-                    <td className="font-body text-sm text-cream/70 py-3">{g.members}</td>
+                    <td className="font-body text-sm text-cream py-3">{g.members}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="font-body text-sm text-cream/70 mb-12">{committee.workProducts}</p>
+          <p className="font-body text-sm text-cream mb-12">{committee.workProducts}</p>
 
-          <h3 className="font-display text-2xl text-cream mb-4">Roster</h3>
+          <h3 className="font-tight font-bold tracking-[-0.015em] text-[22px] text-cream mb-4">Roster</h3>
           <div className="overflow-x-auto">
             <table className="w-full text-left" aria-label="Full roster">
               <thead>
@@ -129,12 +129,12 @@ export default function HacPage() {
               <tbody>
                 {members.map((m, i) => (
                   <tr key={m.slug} className="border-b border-ink/5 hover:bg-navy-light/50 transition-colors">
-                    <td className="font-body text-sm text-cream/50 py-3 pr-4">{String(i + 1).padStart(2, "0")}</td>
+                    <td className="font-body text-sm text-cream py-3 pr-4">{String(i + 1).padStart(2, "0")}</td>
                     <td className="font-body text-sm text-cream py-3 pr-4 font-semibold">
                       <Link href={`/hac/members/${m.slug}/`} className="hover:text-orange transition-colors">{m.name}</Link>
                     </td>
-                    <td className="font-body text-sm text-cream/70 py-3 pr-4 hidden sm:table-cell">{m.title}</td>
-                    <td className="font-body text-sm text-cream/70 py-3 pr-4 hidden md:table-cell">{m.org}</td>
+                    <td className="font-body text-sm text-cream py-3 pr-4 hidden sm:table-cell">{m.title}</td>
+                    <td className="font-body text-sm text-cream py-3 pr-4 hidden md:table-cell">{m.org}</td>
                     <td className="font-body text-xs text-orange py-3">{m.sector}</td>
                   </tr>
                 ))}
@@ -151,9 +151,9 @@ export default function HacPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {members.map((m) => (
               <Link key={m.slug} href={`/hac/members/${m.slug}/`} className="bg-navy-light border-t-2 border-orange p-6 block hover:-translate-y-1 hover:shadow-lg transition-transform" aria-label={`Dossier: ${m.name}`}>
-                <h3 className="font-display text-xl text-cream">{m.name}</h3>
-                <p className="font-display italic text-orange text-sm mt-1">{m.nickname}</p>
-                <p className="font-body text-sm text-cream/70 mt-3">{m.title}, {m.org}</p>
+                <h3 className="font-tight font-bold tracking-[-0.015em] text-[20px] text-cream">{m.name}</h3>
+                <p className="italic text-orange text-sm mt-1">{m.nickname}</p>
+                <p className="font-body text-sm text-cream mt-3">{m.title}, {m.org}</p>
                 <span className="inline-block mt-3 px-3 py-1 text-xs font-body border border-orange/40 text-orange rounded-full">{m.sector}</span>
                 <p className="font-body text-sm text-orange mt-4">{m.redFlags.length} red flag{m.redFlags.length === 1 ? "" : "s"} &rarr;</p>
               </Link>
@@ -180,17 +180,17 @@ export default function HacPage() {
                   <tr key={r.sector} className="border-b border-ink/5">
                     <td className="font-body text-sm text-cream py-3 pr-4">{r.sector}</td>
                     <td className="font-body text-sm text-orange font-semibold py-3 pr-4">{r.count}</td>
-                    <td className="font-body text-sm text-cream/70 py-3">{r.members}</td>
+                    <td className="font-body text-sm text-cream py-3">{r.members}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
           <div className="bg-navy-light p-6 sm:p-8 border-l-4 border-orange mb-10">
-            <h3 className="font-display text-2xl text-cream mb-4">Who is not at the table</h3>
+            <h3 className="font-tight font-bold tracking-[-0.015em] text-[22px] text-cream mb-4">Who is not at the table</h3>
             <ul className="space-y-2">
               {committee.notAtTable.map((item) => (
-                <li key={item} className="font-body text-sm text-cream/80 flex items-start gap-2">
+                <li key={item} className="font-body text-sm text-cream flex items-start gap-2">
                   <span className="text-orange mt-1">&bull;</span>{item}
                 </li>
               ))}
@@ -208,7 +208,7 @@ export default function HacPage() {
           <h2 className="font-display text-3xl sm:text-[42px] text-cream mb-10">Who has objected</h2>
           <ul className="space-y-4">
             {committee.scrutiny.map((s) => (
-              <li key={s.url + s.date} className="font-body text-sm text-cream/85 flex items-start gap-3">
+              <li key={s.url + s.date} className="font-body text-sm text-cream flex items-start gap-3">
                 <span className="text-orange whitespace-nowrap">{fmtDate(s.date)}</span>
                 <span>{s.text}{" "}<a href={s.url} target="_blank" rel="noopener noreferrer" className="text-muted hover:text-orange underline underline-offset-2">source</a></span>
               </li>
@@ -222,13 +222,13 @@ export default function HacPage() {
           <Label className="mb-3">05 · The thesis</Label>
           <h2 className="font-display text-3xl sm:text-[42px] text-cream mb-10">The structural conclusion</h2>
           <blockquote className="border-l-4 border-orange pl-6 sm:pl-8">
-            <p className="font-display text-xl sm:text-2xl text-cream/90 italic leading-relaxed">&ldquo;{committee.thesis}&rdquo;</p>
+            <p className="font-prose text-xl sm:text-2xl text-cream italic leading-relaxed">&ldquo;{committee.thesis}&rdquo;</p>
             <footer className="mt-6"><p className="font-body text-sm text-orange">{committee.thesisDate}</p></footer>
           </blockquote>
-          <h3 className="font-display text-xl text-cream mt-16 mb-4">Sources</h3>
+          <h3 className="font-tight font-bold tracking-[-0.015em] text-[20px] text-cream mt-16 mb-4">Sources</h3>
           <ol className="space-y-2 list-decimal list-inside">
             {committee.sources.map((src) => (
-              <li key={src.url} className="font-body text-sm text-cream/70"><a href={src.url} target="_blank" rel="noopener noreferrer" className="text-orange hover:text-orange-light underline underline-offset-2">{src.label}</a></li>
+              <li key={src.url} className="font-body text-sm text-cream"><a href={src.url} target="_blank" rel="noopener noreferrer" className="text-orange hover:text-orange-light underline underline-offset-2">{src.label}</a></li>
             ))}
           </ol>
         </div>

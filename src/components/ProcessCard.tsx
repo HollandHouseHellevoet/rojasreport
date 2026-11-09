@@ -9,7 +9,7 @@ export default function ProcessCard({ items }: ProcessCardProps) {
     <div className="border-l-2 border-orange p-5">
       <div className="space-y-3">
         {items.map((item, i) => (
-          <p key={i} className="font-body text-sm text-cream/60 leading-relaxed">
+          <p key={i} className="font-body text-sm text-cream leading-relaxed">
             {item}
           </p>
         ))}

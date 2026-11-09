@@ -120,7 +120,7 @@ export default function HomePage() {
                 >
                   {stat.value}
                 </div>
-                <div className="font-body text-cream uppercase tracking-widest" style={{ fontSize: "12px" }}>
+                <div className="font-body text-cream uppercase tracking-widest" style={{ fontSize: "13px" }}>
                   {stat.label}
                 </div>
               </div>
@@ -133,14 +133,14 @@ export default function HomePage() {
       <section id="database" className="max-w-7xl mx-auto px-4 py-16 scroll-mt-20">
         <div className="mb-8">
           <div className="flex items-baseline gap-3 mb-2">
-            <span className="font-body text-orange uppercase tracking-widest font-semibold" style={{ fontSize: "11px" }}>
+            <span className="font-body text-orange uppercase tracking-widest font-semibold" style={{ fontSize: "13px" }}>
               01
             </span>
-            <span className="font-body text-cream uppercase tracking-widest font-semibold" style={{ fontSize: "11px" }}>
+            <span className="font-body text-cream uppercase tracking-widest font-semibold" style={{ fontSize: "13px" }}>
               The Intelligence Database
             </span>
           </div>
-          <h2 className="font-display text-3xl text-cream">
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream">
             {CURRENT_COUNT} Individuals. Every Conflict on Record.
           </h2>
           <p className="font-body text-muted text-sm mt-2">
@@ -168,14 +168,14 @@ export default function HomePage() {
       <section className="border-y border-border" style={{ backgroundColor: "#ECE5D8" }}>
         <div className="max-w-7xl mx-auto px-4 py-16">
           <div className="flex items-baseline gap-3 mb-2">
-            <span className="font-body text-orange uppercase tracking-widest font-semibold" style={{ fontSize: "11px" }}>
+            <span className="font-body text-orange uppercase tracking-widest font-semibold" style={{ fontSize: "13px" }}>
               02
             </span>
-            <span className="font-body text-cream uppercase tracking-widest font-semibold" style={{ fontSize: "11px" }}>
+            <span className="font-body text-cream uppercase tracking-widest font-semibold" style={{ fontSize: "13px" }}>
               Power Map
             </span>
           </div>
-          <h2 className="font-display text-3xl text-cream mb-4">
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-4">
             The AHA Power Map
           </h2>
           <p className="font-body text-muted text-sm mb-8 max-w-xl">
@@ -216,7 +216,7 @@ export default function HomePage() {
           <span className="inline-block border border-orange text-orange font-body text-xs uppercase tracking-widest px-3 py-1 mb-8">
             Rojas Intelligence
           </span>
-          <h2 className="font-display text-3xl md:text-4xl text-cream mb-6">
+          <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-6">
             No spin. Just the data that moves markets.
           </h2>
           <p className="font-body text-muted leading-relaxed mb-10 max-w-xl mx-auto">

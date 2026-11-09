@@ -21,7 +21,7 @@ export default function FahPage() {
           <h1 className="font-display text-5xl sm:text-[64px] leading-[1.05] text-cream mb-6 [text-wrap:balance]">
             The {org.name}
           </h1>
-          <p className="font-body text-lg sm:text-xl text-cream/80 max-w-2xl mx-auto mb-4">{org.tagline}</p>
+          <p className="font-body text-lg sm:text-xl text-cream max-w-2xl mx-auto mb-4">{org.tagline}</p>
           <p className="font-body text-sm text-muted mb-10">Record as of {fmtDate(org.asOf)}</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/fah/#board" className="inline-flex items-center justify-center px-6 py-3 bg-oxblood text-paper font-body font-semibold text-sm hover:bg-orange-light transition-colors">
@@ -39,7 +39,7 @@ export default function FahPage() {
           {org.keyStats.map((s) => (
             <div key={s.label} className="text-center">
               <p className="font-display text-4xl sm:text-5xl text-orange">{s.value}</p>
-              <p className="font-body text-sm text-cream/70 mt-2">{s.label}</p>
+              <p className="font-body text-sm text-cream mt-2">{s.label}</p>
             </div>
           ))}
         </div>
@@ -49,7 +49,7 @@ export default function FahPage() {
         <div className="max-w-5xl mx-auto">
           <Label className="mb-3">01 · Threat assessment</Label>
           <h2 className="font-display text-3xl sm:text-[42px] text-cream mb-4">Where FAH stands on the eight fights</h2>
-          <p className="font-body text-cream/75 max-w-2xl mb-10">
+          <p className="font-body text-cream max-w-2xl mb-10">
             FAH&apos;s documented position on the eight policy areas that decide whether physician-owned hospitals and independent physicians can compete.
           </p>
           <DataTable
@@ -68,7 +68,7 @@ export default function FahPage() {
         <div className="max-w-6xl mx-auto">
           <Label className="mb-3">02 · The board</Label>
           <h2 className="font-display text-3xl sm:text-[42px] text-cream mb-4">Who runs the for-profit hospital lobby</h2>
-          <p className="font-body text-cream/75 max-w-2xl mb-10">{org.board.note}</p>
+          <p className="font-body text-cream max-w-2xl mb-10">{org.board.note}</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
             {officers.map(([role, o]) => (
               <div key={role} className="bg-navy-light p-6 border-t-2 border-orange">
@@ -76,7 +76,7 @@ export default function FahPage() {
                 <p className="font-body text-cream font-semibold">
                   {o.slug ? <Link href={`/fah/board/${o.slug}/`} className="hover:text-orange transition-colors">{o.name}</Link> : o.name}
                 </p>
-                <p className="font-body text-sm text-cream/60">{o.company}</p>
+                <p className="font-body text-sm text-cream">{o.company}</p>
               </div>
             ))}
           </div>
@@ -84,14 +84,14 @@ export default function FahPage() {
             {board.map((m) => (
               <Link key={m.slug} href={`/fah/board/${m.slug}/`} className="block bg-navy-light border border-ink/10 hover:border-orange p-6 transition-colors">
                 <Label className="mb-2">{m.fahRole}</Label>
-                <h3 className="font-display text-2xl text-cream mb-1">{m.name}</h3>
-                <p className="font-display italic text-orange text-sm mb-3">{m.nickname}</p>
-                <p className="font-body text-sm text-cream/70">{m.title}, {m.company}</p>
+                <h3 className="font-tight font-bold tracking-[-0.015em] text-[22px] text-cream mb-1">{m.name}</h3>
+                <p className="italic text-orange text-sm mb-3">{m.nickname}</p>
+                <p className="font-body text-sm text-cream">{m.title}, {m.company}</p>
                 <div className="grid grid-cols-2 gap-3 mt-4">
                   {m.keyStats.slice(0, 2).map((s) => (
                     <div key={s.label}>
                       <p className="font-display text-xl text-orange">{s.value}</p>
-                      <p className="font-body text-xs text-cream/60 leading-tight">{s.label}</p>
+                      <p className="font-body text-xs text-cream leading-tight">{s.label}</p>
                     </div>
                   ))}
                 </div>
@@ -106,7 +106,7 @@ export default function FahPage() {
         <div className="max-w-5xl mx-auto">
           <Label className="mb-3">03 · The machine</Label>
           <h2 className="font-display text-3xl sm:text-[42px] text-cream mb-4">Lobbying, PAC and dark money</h2>
-          <p className="font-body text-cream/75 max-w-2xl mb-8">{org.lobbying.narrative}</p>
+          <p className="font-body text-cream max-w-2xl mb-8">{org.lobbying.narrative}</p>
           <div className="flex flex-wrap gap-4">
             <Link href="/fah/lobbying/" className="inline-flex items-center px-5 py-2.5 border border-cream/30 text-cream font-body font-semibold text-sm hover:border-orange hover:text-orange transition-colors">Lobbying &rarr;</Link>
             <Link href="/fah/pac/" className="inline-flex items-center px-5 py-2.5 border border-cream/30 text-cream font-body font-semibold text-sm hover:border-orange hover:text-orange transition-colors">PAC &rarr;</Link>
@@ -121,7 +121,7 @@ export default function FahPage() {
             <h2 className="font-display text-3xl sm:text-[42px] text-cream mb-8">What has changed</h2>
             <ul className="space-y-3">
               {org.developments.map((d) => (
-                <li key={d.url + d.date} className="font-body text-sm text-cream/85 flex items-start gap-3">
+                <li key={d.url + d.date} className="font-body text-sm text-cream flex items-start gap-3">
                   <span className="text-orange whitespace-nowrap">{fmtDate(d.date)}</span>
                   <span>
                     {d.text}{" "}
@@ -138,7 +138,7 @@ export default function FahPage() {
         <div className="max-w-4xl mx-auto">
           <Label className="mb-3">05 · Bottom line</Label>
           <div className="bg-navy-dark border border-orange/30 p-6 sm:p-8 mb-12">
-            <p className="font-body text-cream/90 text-lg leading-relaxed">{org.bottomLine}</p>
+            <p className="font-body text-cream text-lg leading-relaxed">{org.bottomLine}</p>
           </div>
           <Label className="mb-3">Sources</Label>
           <SourceList sources={org.sources} />

@@ -12,9 +12,9 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://rojasreport.com/support/' },
 };
 
-const eyebrow = 'font-meta text-[13px] uppercase tracking-[0.14em]';
+const eyebrow = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em]';
 const h2 = 'font-display font-normal leading-[1.1]';
-const prose = 'text-[19px] leading-[1.55] text-body';
+const prose = 'text-[17px] leading-[1.55] text-body';
 const link = 'text-ink border-b border-hairline hover:text-oxblood hover:border-oxblood';
 
 export default function Page() {
@@ -35,7 +35,7 @@ export default function Page() {
         <div className="max-w-content mx-auto px-5 md:px-8 py-[72px] md:py-[88px] flex flex-wrap gap-14 items-center">
           <div className="flex-[1_1_380px] min-w-0">
             <h2 className={`${h2} text-[36px] md:text-[44px] mb-5`}>{checkoutOpen ? 'Choose a level.' : 'Four levels.'}</h2>
-            <p className="text-[20px] leading-[1.5] text-green-text-2">
+            <p className="text-[19px] leading-[1.5] text-green-text-2">
               Monthly support at any level, or a one-time amount you set. Every level reads the same site. Every page is free to read.
             </p>
           </div>
@@ -48,7 +48,7 @@ export default function Page() {
       <section className="max-w-content mx-auto px-5 md:px-8 py-20">
         <div className="border-t border-ink pt-5 mb-10 flex flex-wrap justify-between items-baseline gap-3">
           <h2 className={`${h2} text-[34px] md:text-[40px]`}>What support pays for</h2>
-          <span className="italic text-[18px] text-muted">Three costs behind every dossier</span>
+          <span className="italic text-[17px] text-muted">Three costs behind every dossier</span>
         </div>
         <div className="grid gap-10" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
           {[
@@ -66,7 +66,7 @@ export default function Page() {
             },
           ].map((c) => (
             <div key={c.title} className="flex flex-col gap-2.5">
-              <h3 className="font-display font-normal text-[26px]">{c.title}</h3>
+              <h3 className="font-tight font-bold tracking-[-0.015em] text-[24px]">{c.title}</h3>
               <p className={prose}>{c.body}</p>
             </div>
           ))}

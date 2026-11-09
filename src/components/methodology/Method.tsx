@@ -3,11 +3,11 @@ import type { ReactNode } from 'react';
 
 /** Shared pieces for the methodology pages (docs/BUILD_BRIEF.md section 2, rule 2: each "est." method is on the methodology page). */
 
-export const eyebrow = 'font-meta text-[13px] uppercase tracking-[0.14em]';
-export const prose = 'text-[20px] leading-[1.55] text-body';
+export const eyebrow = 'font-meta text-[13px] font-semibold uppercase tracking-[0.1em]';
+export const prose = 'text-[19px] leading-[1.55] text-body';
 export const small = 'text-[17px] leading-[1.5] text-body';
 export const th = 'font-meta text-[13px] uppercase tracking-[0.1em] text-muted font-normal text-left pt-[18px] pb-2.5 border-b border-ink';
-export const td = 'py-3.5 border-b border-hairline align-top text-[18px] leading-[1.45]';
+export const td = 'py-3.5 border-b border-hairline align-top text-[17px] leading-[1.45]';
 
 export function MethodPage({
   crumb,
@@ -52,7 +52,7 @@ export function Section({ title, aside, children, id }: { title: string; aside?:
     <section id={id} className="max-w-content mx-auto px-5 md:px-8 pb-16">
       <div className="flex flex-wrap justify-between items-baseline gap-3 border-t border-ink pt-5 mb-7">
         <h2 className="font-display font-normal leading-[1.1] text-[32px] md:text-[40px]">{title}</h2>
-        {aside && <span className="italic text-[18px] text-muted">{aside}</span>}
+        {aside && <span className="italic text-[17px] text-muted">{aside}</span>}
       </div>
       {children}
     </section>
@@ -63,13 +63,13 @@ export function Section({ title, aside, children, id }: { title: string; aside?:
 export function Formula({ children }: { children: ReactNode }) {
   return (
     <div className="border-l-[3px] border-oxblood pl-6 py-1 my-8 max-w-[860px]">
-      <p className="font-display text-[24px] md:text-[30px] leading-[1.3]">{children}</p>
+      <p className="font-tight font-semibold tracking-[-0.01em] text-[22px] md:text-[26px] leading-[1.35]">{children}</p>
     </div>
   );
 }
 
 export function Pending({ children = 'Pending' }: { children?: ReactNode }) {
-  return <span className="font-meta text-[13px] uppercase tracking-[0.12em] text-muted border border-hairline px-2 py-[3px] whitespace-nowrap">{children}</span>;
+  return <span className="inline-block font-meta text-[13px] font-semibold uppercase tracking-[0.08em] text-ink border border-ink rounded-[3px] px-1.5 py-[1px] whitespace-nowrap">{children}</span>;
 }
 
 export function Est() {
@@ -82,7 +82,7 @@ export function Defs({ items }: { items: { term: ReactNode; body: ReactNode }[] 
     <dl className="max-w-[860px]">
       {items.map((it, i) => (
         <div key={i} className="grid gap-2 md:gap-8 md:grid-cols-[220px_1fr] py-5 border-b border-hairline">
-          <dt className="font-display text-[22px] leading-[1.25]">{it.term}</dt>
+          <dt className="font-tight font-bold tracking-[-0.015em] text-[20px] leading-[1.25]">{it.term}</dt>
           <dd className={small}>{it.body}</dd>
         </div>
       ))}

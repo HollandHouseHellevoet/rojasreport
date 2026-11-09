@@ -17,7 +17,7 @@ export default function StateCard({ state, abbreviation, slug, score, tier, conS
   const card = (
     <div className="border border-ink/10 p-4 hover:border-orange/40 transition-colors h-full flex flex-col">
       <div className="flex items-center justify-between mb-2">
-        <span className="font-body text-xs font-semibold tracking-widest text-cream/40">
+        <span className="font-body text-xs font-semibold tracking-widest text-cream">
           {abbreviation}
         </span>
         <span
@@ -27,14 +27,14 @@ export default function StateCard({ state, abbreviation, slug, score, tier, conS
           {score}
         </span>
       </div>
-      <h3 className="font-display text-xl text-cream leading-tight">
+      <h3 className="font-tight font-bold tracking-[-0.015em] text-[20px] text-cream leading-tight">
         {state}
       </h3>
-      <p className="mt-1 font-body text-xs text-cream/35">
+      <p className="mt-1 font-body text-xs text-cream">
         {tier}
       </p>
       {teaser && (
-        <p className="mt-2 font-body text-sm text-cream/45 leading-snug line-clamp-2 flex-1">
+        <p className="mt-2 font-body text-sm text-cream leading-snug line-clamp-2 flex-1">
           {teaser}
         </p>
       )}

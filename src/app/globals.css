@@ -14,29 +14,35 @@
   }
 
   body {
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.55;
     background-color: #f4efe6;
     color: #1c1b19;
-    font-family: "EB Garamond", Garamond, Georgia, serif;
+    font-family: Inter, system-ui, -apple-system, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3, h4 {
+  /* Type decision B: Bodoni for page and section headings; Inter Tight for the titles under them. */
+  h1, h2 {
     font-family: "Bodoni Moda", Didot, Georgia, serif;
     font-weight: 400;
   }
+  h3, h4 {
+    font-family: "Inter Tight", Inter, system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+  }
   h1 { font-size: 3.25rem; line-height: 1.05; }
-  h2 { font-size: 2.375rem; line-height: 1.1; }
-  h3 { font-size: 1.625rem; line-height: 1.2; }
+  h2 { font-size: 2.5rem; line-height: 1.1; }
+  h3 { font-size: 1.5rem; line-height: 1.2; }
 
   @media (max-width: 640px) {
     h1 { font-size: 2.25rem; }
-    h2 { font-size: 1.75rem; }
+    h2 { font-size: 2rem; }
     h3 { font-size: 1.375rem; }
   }
 
-  table { font-size: 1.0625rem; }
+  table { font-size: 1rem; font-variant-numeric: tabular-nums; }
 
   a { transition: color 120ms ease; }
 }
