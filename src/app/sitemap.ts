@@ -7,6 +7,7 @@ import fahPillars from '@/data/fah/pillars.json';
 import { systems } from '@/lib/systems';
 import { stateDossiers } from '@/lib/stateDossiers';
 import { committees } from '@/lib/committees';
+import { WM_BASE, wmMembers, wmVotes } from '@/lib/wm';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://rojasreport.com';
@@ -55,6 +56,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: stateDossiers.some((d) => d.slug === slug) ? 0.9 : 0.8,
   }));
   const committeePages = committees.map((c) => ({ url: `${baseUrl}/committees/${c.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 }));
+  // Ways & Means desk: members index, member dossiers, key votes.
+  const wmPages = [
+    { url: `${baseUrl}${WM_BASE}/members/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}${WM_BASE}/votes/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 },
+    ...wmMembers.map((m) => ({ url: `${baseUrl}${WM_BASE}/members/${m.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.7 })),
+    ...wmVotes.map((v) => ({ url: `${baseUrl}${WM_BASE}/votes/${v.id}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 })),
+  ];
   // CON desk pages for states whose /states/ URL carries the dossier.
   const conStatePages = stateDossiers
     .filter((d) => stateSlugs.includes(d.slug))
@@ -97,5 +105,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticPages,
     ...systemPages, ...statePages,
-    ...conStatePages, ...committeePages, ...ahaPages, ...hacPages, ...fahPages];
+    ...conStatePages, ...committeePages, ...wmPages, ...ahaPages, ...hacPages, ...fahPages];
 }

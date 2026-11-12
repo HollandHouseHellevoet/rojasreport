@@ -1,0 +1,4594 @@
+[
+ {
+  "id": "2025-70",
+  "year": "2025",
+  "rollCall": 70,
+  "date": "2025-03-11",
+  "legisNum": "H R 1968",
+  "question": "On Passage",
+  "description": "Full-Year Continuing Appropriations and Extensions Act, 2025",
+  "why": "Full-year CR for FY2025 with Medicare telehealth and other health extenders",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 217,
+   "nay-total": 213,
+   "present-total": 0,
+   "not-voting-total": 2
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 216,
+    "nay": 1,
+    "present": 0,
+    "notVoting": 1
+   },
+   "Democratic": {
+    "yea": 1,
+    "nay": 212,
+    "present": 0,
+    "notVoting": 1
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 26,
+   "Nay": 18
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll070.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 70 (2025)"
+ },
+ {
+  "id": "2025-145",
+  "year": "2025",
+  "rollCall": 145,
+  "date": "2025-05-22",
+  "legisNum": "H R 1",
+  "question": "On Passage",
+  "description": "One Big Beautiful Act",
+  "why": "One Big Beautiful Bill Act, House passage (Medicaid, ACA and HSA provisions; rural hospital fund)",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 215,
+   "nay-total": 214,
+   "present-total": 1,
+   "not-voting-total": 2
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 215,
+    "nay": 2,
+    "present": 1,
+    "notVoting": 2
+   },
+   "Democratic": {
+    "yea": 0,
+    "nay": 212,
+    "present": 0,
+    "notVoting": 0
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 25,
+   "Nay": 18,
+   "Not Voting": 1
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Not Voting",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll145.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 145 (2025)"
+ },
+ {
+  "id": "2025-151",
+  "year": "2025",
+  "rollCall": 151,
+  "date": "2025-06-04",
+  "legisNum": "H R 2483",
+  "question": "On Passage",
+  "description": "SUPPORT for Patients and Communities Reauthorization Act",
+  "why": "SUPPORT for Patients and Communities Reauthorization Act (opioid programs)",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 366,
+   "nay-total": 57,
+   "present-total": 0,
+   "not-voting-total": 9
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 188,
+    "nay": 27,
+    "present": 0,
+    "notVoting": 5
+   },
+   "Democratic": {
+    "yea": 178,
+    "nay": 30,
+    "present": 0,
+    "notVoting": 4
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 42,
+   "Nay": 2
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll151.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 151 (2025)"
+ },
+ {
+  "id": "2025-190",
+  "year": "2025",
+  "rollCall": 190,
+  "date": "2025-07-03",
+  "legisNum": "H R 1",
+  "question": "On Motion to Concur in the Senate Amendment",
+  "description": "One Big Beautiful Bill Act",
+  "why": "One Big Beautiful Bill Act, final passage (concur in Senate amendment); became Public Law 119-21",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 218,
+   "nay-total": 214,
+   "present-total": 0,
+   "not-voting-total": 0
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 218,
+    "nay": 2,
+    "present": 0,
+    "notVoting": 0
+   },
+   "Democratic": {
+    "yea": 0,
+    "nay": 212,
+    "present": 0,
+    "notVoting": 0
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Aye": 25,
+   "No": 19
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "No",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "No",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "No",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "No",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "No",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "No",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "No",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "No",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "No",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "No",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "No",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "No",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "No",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "No",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "No",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "No",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "No",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "No",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "No",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Aye",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll190.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 190 (2025)"
+ },
+ {
+  "id": "2025-281",
+  "year": "2025",
+  "rollCall": 281,
+  "date": "2025-09-19",
+  "legisNum": "H R 5371",
+  "question": "On Passage",
+  "description": "Continuing Appropriations and Extensions Act, 2026",
+  "why": "Continuing Appropriations and Extensions Act, 2026, House passage (health extenders)",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 217,
+   "nay-total": 212,
+   "present-total": 0,
+   "not-voting-total": 3
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 216,
+    "nay": 2,
+    "present": 0,
+    "notVoting": 1
+   },
+   "Democratic": {
+    "yea": 1,
+    "nay": 210,
+    "present": 0,
+    "notVoting": 2
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 26,
+   "Nay": 18
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll281.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 281 (2025)"
+ },
+ {
+  "id": "2025-285",
+  "year": "2025",
+  "rollCall": 285,
+  "date": "2025-11-12",
+  "legisNum": "H R 5371",
+  "question": "On Motion to Concur in the Senate Amendment",
+  "description": "Continuing Appropriations and Extensions Act, 2026",
+  "why": "Continuing Appropriations and Extensions Act, 2026, final passage ending the shutdown; became Public Law 119-37",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 222,
+   "nay-total": 209,
+   "present-total": 0,
+   "not-voting-total": 2
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 216,
+    "nay": 2,
+    "present": 0,
+    "notVoting": 1
+   },
+   "Democratic": {
+    "yea": 6,
+    "nay": 207,
+    "present": 0,
+    "notVoting": 1
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 26,
+   "Nay": 18
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll285.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 285 (2025)"
+ },
+ {
+  "id": "2025-349",
+  "year": "2025",
+  "rollCall": 349,
+  "date": "2025-12-17",
+  "legisNum": "H R 6703",
+  "question": "On Passage",
+  "description": "Lower Health Care Premiums for All Americans Act",
+  "why": "Lower Health Care Premiums for All Americans Act",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 216,
+   "nay-total": 211,
+   "present-total": 0,
+   "not-voting-total": 6
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 216,
+    "nay": 1,
+    "present": 0,
+    "notVoting": 3
+   },
+   "Democratic": {
+    "yea": 0,
+    "nay": 210,
+    "present": 0,
+    "notVoting": 3
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 25,
+   "Nay": 18,
+   "Not Voting": 1
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Not Voting",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll349.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 349 (2025)"
+ },
+ {
+  "id": "2025-362",
+  "year": "2025",
+  "rollCall": 362,
+  "date": "2025-12-18",
+  "legisNum": "H R 498",
+  "question": "On Passage",
+  "description": "Do No Harm in Medicaid Act",
+  "why": "Do No Harm in Medicaid Act",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 215,
+   "nay-total": 201,
+   "present-total": 0,
+   "not-voting-total": 17
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 211,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 9
+   },
+   "Democratic": {
+    "yea": 4,
+    "nay": 201,
+    "present": 0,
+    "notVoting": 8
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 24,
+   "Nay": 17,
+   "Not Voting": 3
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Not Voting",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Not Voting",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Not Voting",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2025/roll362.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 362 (2025)"
+ },
+ {
+  "id": "2026-45",
+  "year": "2026",
+  "rollCall": 45,
+  "date": "2026-01-22",
+  "legisNum": "H R 7148",
+  "question": "On Passage",
+  "description": "Consolidated Appropriations Act, 2026",
+  "why": "Consolidated Appropriations Act, 2026, House passage",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 341,
+   "nay-total": 88,
+   "present-total": 0,
+   "not-voting-total": 2
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 192,
+    "nay": 24,
+    "present": 0,
+    "notVoting": 2
+   },
+   "Democratic": {
+    "yea": 149,
+    "nay": 64,
+    "present": 0,
+    "notVoting": 0
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 36,
+   "Nay": 8
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2026/roll045.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 45 (2026)"
+ },
+ {
+  "id": "2026-53",
+  "year": "2026",
+  "rollCall": 53,
+  "date": "2026-02-03",
+  "legisNum": "H R 7148",
+  "question": "On Motion to Concur in the Senate Amendments",
+  "description": "Consolidated Appropriations Act, 2026",
+  "why": "Consolidated Appropriations Act, 2026, final passage; became Public Law 119-75",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 217,
+   "nay-total": 214,
+   "present-total": 0,
+   "not-voting-total": 1
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 196,
+    "nay": 21,
+    "present": 0,
+    "notVoting": 1
+   },
+   "Democratic": {
+    "yea": 21,
+    "nay": 193,
+    "present": 0,
+    "notVoting": 0
+   },
+   "Independent": {
+    "yea": 0,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 25,
+   "Nay": 19
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2026/roll053.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 53 (2026)"
+ },
+ {
+  "id": "2026-128",
+  "year": "2026",
+  "rollCall": 128,
+  "date": "2026-04-21",
+  "legisNum": "H R 2493",
+  "question": "On Motion to Suspend the Rules and Pass",
+  "description": "Improving Care in Rural America Reauthorization Act",
+  "why": "Improving Care in Rural America Reauthorization Act",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 406,
+   "nay-total": 4,
+   "present-total": 0,
+   "not-voting-total": 20
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 198,
+    "nay": 4,
+    "present": 0,
+    "notVoting": 14
+   },
+   "Democratic": {
+    "yea": 207,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 6
+   },
+   "Independent": {
+    "yea": 1,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 44
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2026/roll128.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 128 (2026)"
+ },
+ {
+  "id": "2026-272",
+  "year": "2026",
+  "rollCall": 272,
+  "date": "2026-07-21",
+  "legisNum": "H R 9770",
+  "question": "On Passage",
+  "description": "Making continuing appropriations for fiscal year 2027, and for other purposes",
+  "why": "Continuing appropriations for FY2027 (H.R. 9770), House passage",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 220,
+   "nay-total": 205,
+   "present-total": 0,
+   "not-voting-total": 6
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 213,
+    "nay": 1,
+    "present": 0,
+    "notVoting": 4
+   },
+   "Democratic": {
+    "yea": 6,
+    "nay": 204,
+    "present": 0,
+    "notVoting": 2
+   },
+   "Independent": {
+    "yea": 1,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 26,
+   "Nay": 18
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2026/roll272.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 272 (2026)"
+ },
+ {
+  "id": "2026-286",
+  "year": "2026",
+  "rollCall": 286,
+  "date": "2026-09-01",
+  "legisNum": "H R 6500",
+  "question": "On Motion to Suspend the Rules and Concur in the Senate Amendments",
+  "description": "AGOA Extension Act",
+  "why": "H.R. 6500 as the vehicle for the Continuing Appropriations and Extensions Act, 2027; became Public Law 119-103",
+  "result": "Passed",
+  "totals": {
+   "yea-total": 370,
+   "nay-total": 48,
+   "present-total": 0,
+   "not-voting-total": 14
+  },
+  "byParty": {
+   "Republican": {
+    "yea": 193,
+    "nay": 19,
+    "present": 0,
+    "notVoting": 6
+   },
+   "Democratic": {
+    "yea": 176,
+    "nay": 29,
+    "present": 0,
+    "notVoting": 8
+   },
+   "Independent": {
+    "yea": 1,
+    "nay": 0,
+    "present": 0,
+    "notVoting": 0
+   }
+  },
+  "waysAndMeansTally": {
+   "Yea": 38,
+   "Nay": 5,
+   "Not Voting": 1
+  },
+  "positions": [
+   {
+    "bioguideId": "A000375",
+    "name": "Jodey Arrington",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jodey-arrington"
+   },
+   {
+    "bioguideId": "B001314",
+    "name": "Aaron Bean",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "aaron-bean"
+   },
+   {
+    "bioguideId": "B001292",
+    "name": "Don Beyer",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "don-beyer"
+   },
+   {
+    "bioguideId": "B001296",
+    "name": "Brendan Boyle",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "brendan-boyle"
+   },
+   {
+    "bioguideId": "B001260",
+    "name": "Vern Buchanan",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "vern-buchanan"
+   },
+   {
+    "bioguideId": "C001126",
+    "name": "Mike Carey",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-carey"
+   },
+   {
+    "bioguideId": "C001080",
+    "name": "Judy Chu",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "judy-chu"
+   },
+   {
+    "bioguideId": "D000096",
+    "name": "Danny Davis",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "danny-davis"
+   },
+   {
+    "bioguideId": "D000617",
+    "name": "Suzan DelBene",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "suzan-delbene"
+   },
+   {
+    "bioguideId": "D000399",
+    "name": "Lloyd Doggett",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "lloyd-doggett"
+   },
+   {
+    "bioguideId": "E000298",
+    "name": "Ron Estes",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "ron-estes"
+   },
+   {
+    "bioguideId": "E000296",
+    "name": "Dwight Evans",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "dwight-evans"
+   },
+   {
+    "bioguideId": "F000446",
+    "name": "Randy Feenstra",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "randy-feenstra"
+   },
+   {
+    "bioguideId": "F000470",
+    "name": "Michelle Fischbach",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "michelle-fischbach"
+   },
+   {
+    "bioguideId": "F000466",
+    "name": "Brian Fitzpatrick",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "brian-fitzpatrick"
+   },
+   {
+    "bioguideId": "G000585",
+    "name": "Jimmy Gomez",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "jimmy-gomez"
+   },
+   {
+    "bioguideId": "H001082",
+    "name": "Kevin Hern",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "kevin-hern"
+   },
+   {
+    "bioguideId": "H001066",
+    "name": "Steven Horsford",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "steven-horsford"
+   },
+   {
+    "bioguideId": "K000376",
+    "name": "Mike Kelly",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "mike-kelly"
+   },
+   {
+    "bioguideId": "K000392",
+    "name": "David Kustoff",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "david-kustoff"
+   },
+   {
+    "bioguideId": "L000585",
+    "name": "Darin LaHood",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "darin-lahood"
+   },
+   {
+    "bioguideId": "L000557",
+    "name": "John Larson",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "john-larson"
+   },
+   {
+    "bioguideId": "M000317",
+    "name": "Nicole Malliotakis",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nicole-malliotakis"
+   },
+   {
+    "bioguideId": "M001222",
+    "name": "Max Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "max-miller"
+   },
+   {
+    "bioguideId": "M001205",
+    "name": "Carol Miller",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "carol-miller"
+   },
+   {
+    "bioguideId": "M001213",
+    "name": "Blake Moore",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "blake-moore"
+   },
+   {
+    "bioguideId": "M001160",
+    "name": "Gwen Moore",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "gwen-moore"
+   },
+   {
+    "bioguideId": "M001224",
+    "name": "Nathaniel Moran",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "nathaniel-moran"
+   },
+   {
+    "bioguideId": "M001210",
+    "name": "Greg Murphy",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "greg-murphy"
+   },
+   {
+    "bioguideId": "N000015",
+    "name": "Richard Neal",
+    "party": "D",
+    "vote": "Not Voting",
+    "slug": "richard-neal"
+   },
+   {
+    "bioguideId": "P000613",
+    "name": "Jimmy Panetta",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "jimmy-panetta"
+   },
+   {
+    "bioguideId": "S001156",
+    "name": "Linda Sánchez",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "linda-sanchez"
+   },
+   {
+    "bioguideId": "S001190",
+    "name": "Brad Schneider",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "brad-schneider"
+   },
+   {
+    "bioguideId": "S001183",
+    "name": "David Schweikert",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "david-schweikert"
+   },
+   {
+    "bioguideId": "S001185",
+    "name": "Terri Sewell",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "terri-sewell"
+   },
+   {
+    "bioguideId": "S001195",
+    "name": "Jason Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "jason-smith"
+   },
+   {
+    "bioguideId": "S001172",
+    "name": "Adrian Smith",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "adrian-smith"
+   },
+   {
+    "bioguideId": "S001199",
+    "name": "Lloyd Smucker",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "lloyd-smucker"
+   },
+   {
+    "bioguideId": "S001214",
+    "name": "Greg Steube",
+    "party": "R",
+    "vote": "Nay",
+    "slug": "greg-steube"
+   },
+   {
+    "bioguideId": "S001201",
+    "name": "Tom Suozzi",
+    "party": "D",
+    "vote": "Yea",
+    "slug": "tom-suozzi"
+   },
+   {
+    "bioguideId": "T000478",
+    "name": "Claudia Tenney",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "claudia-tenney"
+   },
+   {
+    "bioguideId": "T000460",
+    "name": "Mike Thompson",
+    "party": "D",
+    "vote": "Nay",
+    "slug": "mike-thompson"
+   },
+   {
+    "bioguideId": "V000134",
+    "name": "Beth Van Duyne",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "beth-van-duyne"
+   },
+   {
+    "bioguideId": "Y000067",
+    "name": "Rudy Yakym",
+    "party": "R",
+    "vote": "Yea",
+    "slug": "rudy-yakym"
+   }
+  ],
+  "source": "https://clerk.house.gov/evs/2026/roll286.xml",
+  "sourceLabel": "Clerk of the House, Roll Call 286 (2026)"
+ }
+]
