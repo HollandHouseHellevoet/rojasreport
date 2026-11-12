@@ -3,7 +3,7 @@
   "name": "House Ways and Means",
   "chamber": "House",
   "congress": "120th Congress",
-  "verdict": "The House committee that writes Medicare’s payment rules and the tax exemption every nonprofit hospital lives on. In January it changes hands, and 14 of its 45 members are gone, including both leaders of its Health Subcommittee.",
+  "verdict": "The House committee that writes Medicare’s payment rules and the tax exemption every nonprofit hospital lives on. In January it changes hands, and 15 of its 45 members are gone, including both leaders of its Health Subcommittee.",
   "verdictSource": "Jurisdiction: House Rule X, clause 1(t), and the Health Subcommittee jurisdiction statement at waysandmeans.house.gov/subcommittees/. Change of control: NBC News projected Democratic control of the House on the night of November 3, 2026, and AP called it early November 4. Departures: see the leaving table; Health Subcommittee chairman Vern Buchanan and ranking member Lloyd Doggett both retired.",
   "tabs": [
     {
@@ -92,16 +92,16 @@
         "label": "Expected ranking member",
         "name": "Jason Smith",
         "line": "R-Missouri · chairman since January 2023",
-        "text": "Moves from the gavel to the minority with a thinner bench. 8 of his 25 Republican colleagues on the committee will not return.",
+        "text": "Moves from the gavel to the minority with a thinner bench. 9 of his 25 Republican colleagues on the committee will not return.",
         "source": "waysandmeans.house.gov/about/the-chairman/: selected to chair in January 2023. Deloitte Tax News & Views, November 4, 2026: Smith expected to become ranking member in the 120th Congress; the formal choice is made in January. Leaving table below: 8 of the 25 other Republicans on the 119th Congress roster."
       }
     ]
   },
   "leaving": {
     "heading": "Who is leaving",
-    "asOf": "As of November 8, 2026",
-    "intro": "Both leaders of the Health Subcommittee retired. So did the Budget Committee chairman. Seven members lost an election, and two left for a Senate seat and a governor’s mansion.",
-    "introSource": "Health Subcommittee: chairman Vern Buchanan (Clerk of the House member data, leadership “Chair” on WM02) and ranking member Lloyd Doggett (doggett.house.gov/about). Budget chairman: Jodey Arrington (Clerk member data, BU00 leadership “Chair”). Lost an election: Schweikert and Feenstra (governor primaries), Larson (House primary), Fitzpatrick, Carey, Max Miller and Gomez (general). Other office: Hern (Senate), Plaskett (governor of the Virgin Islands). Two races were not called as of November 8: Murphy (NC-03) and Thompson (CA-04).",
+    "asOf": "As of November 12, 2026",
+    "intro": "Both leaders of the Health Subcommittee retired. So did the Budget Committee chairman. Eight members lost an election, and two left for a Senate seat and a governor’s mansion.",
+    "introSource": "Health Subcommittee: chairman Vern Buchanan (Clerk of the House member data, leadership “Chair” on WM02) and ranking member Lloyd Doggett (doggett.house.gov/about). Budget chairman: Jodey Arrington (Clerk member data, BU00 leadership “Chair”). Lost an election: Schweikert and Feenstra (governor primaries), Larson (House primary), Fitzpatrick, Carey, Max Miller, Murphy and Gomez (general). Other office: Hern (Senate), Plaskett (governor of the Virgin Islands). Murphy conceded NC-03 on November 11 (Carolina Journal, unofficial State Board of Elections results). Thompson (CA-04) was not called as of November 12.",
     "rows": [
       {
         "name": "Vern Buchanan",
@@ -149,7 +149,7 @@
         "why": "Defeated in the general election",
         "tone": "red",
         "loss": "Seat won by Democrat Don Leonard.",
-        "source": "WOSU, November 3, 2026: AP called OH-15 for Democrat Don Leonard over Carey, about 52% to 45% with 85% reporting."
+        "source": "WOSU, November 3, 2026 (wosu.org, \"Democrat Don Leonard unseats Republican U.S. Rep. Mike Carey in stunning upset\"): the AP projected Leonard the winner of OH-15; unofficial Ohio Secretary of State returns showed Leonard 52% to Carey 45% with 85% of precincts reporting."
       },
       {
         "name": "Max Miller",
@@ -158,6 +158,14 @@
         "tone": "red",
         "loss": "Seat won by Democrat Brian Poindexter.",
         "source": "Ashland Source, November 4, 2026: Poindexter 54.93% (180,614) to Miller 45.07% (148,177) in OH-07, final unofficial Ohio Secretary of State totals."
+      },
+      {
+        "name": "Greg Murphy",
+        "party": "R-North Carolina",
+        "why": "Defeated in the general election",
+        "tone": "red",
+        "loss": "Health Subcommittee member. Seat won by Democrat Raymond Smith by 293 votes.",
+        "source": "Carolina Journal, November 11, 2026: Smith 118,488 (49.43%) to Murphy 118,195 (49.31%) in NC-03, unofficial State Board of Elections results after provisional and cured absentee ballots; Murphy conceded November 11."
       },
       {
         "name": "Kevin Hern",
@@ -189,7 +197,7 @@
         "why": "Retired",
         "tone": "grey",
         "loss": "Health Subcommittee member. Seat won by Democrat Chris Rabb.",
-        "source": "evans.house.gov release, June 30, 2025: Evans announced he would not seek reelection and would serve the full term ending January 3, 2027; CBS Philadelphia, November 3, 2026: Chris Rabb won PA-03 over independent Dennis Mahoney. Health Subcommittee: waysandmeans.house.gov/subcommittees/."
+        "source": "evans.house.gov release, June 30, 2025: Evans announced he would not seek reelection and would serve the full term ending January 3, 2027; WTOP (Associated Press), November 2026, \"Democrat Chris Rabb wins election to U.S. House in Pennsylvania's 3rd Congressional District\": Rabb won PA-03 over independent Dennis Mahoney. Health Subcommittee: waysandmeans.house.gov/subcommittees/."
       },
       {
         "name": "John Larson",
@@ -197,7 +205,7 @@
         "why": "Lost his primary",
         "tone": "red",
         "loss": "Lost to former Hartford mayor Luke Bronin, 53.5% to 34.7% when AP called the race.",
-        "source": "CT Mirror, August 11, 2026: AP called the CT-01 Democratic primary for Luke Bronin over Larson, 53.5% to 34.7%."
+        "source": "CT News Junkie, August 11, 2026 (ctnewsjunkie.com, \"Bronin Wins 1st Congressional District Primary\"): Bronin 53.5% to Larson 34.7% in unofficial results of the CT-01 Democratic primary; the AP called the race for Bronin that night."
       },
       {
         "name": "Jimmy Gomez",
@@ -221,7 +229,7 @@
     "heading": "Where the members stand",
     "subtitle": "Members returning to the House; the 120th Congress roster is set in January",
     "intro": "Each member’s record on the cost drivers this committee controls, and a Machine Score from 0 to 100. The score measures how independent they are from the hospital lobby. Higher is better; 100 means they have never sided with it. Hospital PAC money sits beside the score, not inside it.",
-    "note": "Records and Machine Scores load when the scored-action list is published. Hospital PAC money: FEC bulk files, 2024 and 2026 cycles, PAC contributions from hospital systems and hospital associations, in FEC files retrieved October 8, 2026. 2 races were not called as of November 8, 2026; those members are listed until the result is known.",
+    "note": "Records and Machine Scores load when the scored-action list is published. Hospital PAC money: FEC bulk files, 2024 and 2026 cycles, PAC contributions from hospital systems and hospital associations, in FEC files retrieved October 8, 2026. 1 race (CA-04) was not called as of November 12, 2026; that member is listed until the result is known.",
     "columns": [
       "Site-neutral pay",
       "Physician-owned hospitals",
@@ -271,7 +279,7 @@
         "slug": "mike-thompson",
         "name": "Mike Thompson",
         "party": "D-Calif.",
-        "role": "Tax Subcommittee ranking member · race not called as of November 8",
+        "role": "Tax Subcommittee ranking member · race not called as of November 12",
         "records": {
           "siteNeutral": null,
           "physicianOwned": null,
@@ -610,25 +618,6 @@
         }
       },
       {
-        "slug": "greg-murphy",
-        "name": "Greg Murphy",
-        "party": "R-N.C.",
-        "role": "Health Subcommittee member · race not called as of November 8",
-        "records": {
-          "siteNeutral": null,
-          "physicianOwned": null,
-          "priceTransparency": null,
-          "taxExemption": null
-        },
-        "machineScore": null,
-        "hospitalMoney": {
-          "value": 28000,
-          "basis": "reported",
-          "source": "FEC bulk data (contributions from committees to candidates, pas2, joined to the committee master, cm), 2024 and 2026 cycles through the files retrieved October 8, 2026; contributor PACs classified hospital system or hospital association by connected organization (the American Society of Health-System Pharmacists PAC, a pharmacist society, excluded); candidate H0NC03172",
-          "as_of": "FEC files retrieved October 8, 2026"
-        }
-      },
-      {
         "slug": "david-kustoff",
         "name": "David Kustoff",
         "party": "R-Tenn.",
@@ -820,7 +809,7 @@
       }
     ],
     "source": "Roster: Clerk of the House, MemberData.xml, published November 3, 2026 (committee code WM00, 26 Republicans and 19 Democrats), and waysandmeans.house.gov/members/. Roles: Clerk subcommittee leadership and doggett.house.gov. Election outcomes: AP calls and state election authorities as reported by the outlets cited in the leaving table.",
-    "as_of": "Roster as of November 3, 2026; outcomes as of November 8, 2026"
+    "as_of": "Roster as of November 3, 2026; outcomes as of November 12, 2026"
   },
   "docket": {
     "heading": "What is on the docket",

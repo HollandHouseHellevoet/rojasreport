@@ -28,7 +28,26 @@ function Pending({ label = 'pending' }: { label?: string }) {
   return <PendingChip label={label.charAt(0).toUpperCase() + label.slice(1)} />;
 }
 
-export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
+/** Member dossiers and key votes, where a committee has them (Ways and Means). */
+export interface CommitteeDesk {
+  base: string;
+  memberSlugs: string[];
+  members: number;
+  votes: number;
+  notReturning: number;
+}
+
+function MemberName({ name, slug, desk }: { name: string; slug?: string; desk?: CommitteeDesk }) {
+  const cls = 'font-tight font-bold tracking-[-0.015em] text-[18px]';
+  if (desk && slug && desk.memberSlugs.includes(slug)) {
+    return <Link href={`${desk.base}/members/${slug}/`} className={`${cls} hover:text-oxblood underline-offset-[3px] hover:underline`}>{name}</Link>;
+  }
+  return <span className={cls}>{name}</span>;
+}
+
+const slugOf = (name: string) => name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
+
+export default function CommitteeDossierPage({ c, desk }: { c: CommitteeRecord; desk?: CommitteeDesk }) {
   return (
     <>
       {/* Committee switcher */}
@@ -141,7 +160,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
               {c.leaving.rows.map((r) => (
                 <tr key={r.name} title={r.source}>
                   <td className={`${td} pr-4 whitespace-nowrap`}>
-                    <span className="font-tight font-bold tracking-[-0.015em] text-[18px]">{r.name}</span> <span className="text-muted">{r.party}</span>
+                    <MemberName name={r.name} slug={slugOf(r.name)} desk={desk} /> <span className="text-muted">{r.party}</span>
                   </td>
                   <td className={`${td} pr-4 ${toneClass[r.tone]}`}>{r.why}</td>
                   <td className={`${td} text-body`}>{r.loss}</td>
@@ -173,7 +192,7 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
                 {c.scorecard.members.map((m) => (
                   <tr key={m.slug}>
                     <td className={`${td} pr-4`}>
-                      <span className="font-tight font-bold tracking-[-0.015em] text-[18px]">{m.name}</span> <span className="text-muted">{m.party}</span>
+                      <MemberName name={m.name} slug={m.slug} desk={desk} /> <span className="text-muted">{m.party}</span>
                       <div className="italic text-[15px] text-muted">{m.role}</div>
                     </td>
                     {Object.values(m.records).map((v, i) => (
@@ -193,6 +212,29 @@ export default function CommitteeDossierPage({ c }: { c: CommitteeRecord }) {
           <p className="mt-4 italic text-[16px] text-muted">{c.scorecard.note}</p>
         </div>
       </section>
+
+      {/* Member dossiers and key votes */}
+      {desk && (
+        <section className="bg-ink text-paper">
+          <div className="max-w-content mx-auto px-5 md:px-8 py-16 md:py-20 grid gap-10 grid-cols-1 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] items-center">
+            <div>
+              <p className="font-tight text-[13px] font-semibold uppercase tracking-[0.14em] text-ink-text mb-4">Every member, every vote</p>
+              <h2 className="font-tight font-bold leading-[1.04] tracking-[-0.03em] text-[30px] md:text-[44px]">Follow the money to each seat.</h2>
+              <p className="mt-4 text-[17px] leading-[1.55] text-ink-text-2">A dossier for each of the {desk.members} members: healthcare PAC money, {desk.votes} key health votes, stock trades and the 2026 result.</p>
+            </div>
+            <div className="grid gap-4 grid-cols-1 sm:grid-cols-2">
+              <Link href={`${desk.base}/members/`} className="group border-t-2 border-oxblood-rule pt-5 pb-2">
+                <span className="block font-tight font-extrabold text-[52px] leading-none tracking-[-0.04em]">{desk.members}</span>
+                <span className="mt-2 flex items-center gap-2 font-tight font-bold text-[20px] group-hover:underline underline-offset-4">Member dossiers <span aria-hidden="true">→</span></span>
+              </Link>
+              <Link href={`${desk.base}/votes/`} className="group border-t-2 border-oxblood-rule pt-5 pb-2">
+                <span className="block font-tight font-extrabold text-[52px] leading-none tracking-[-0.04em]">{desk.votes}</span>
+                <span className="mt-2 flex items-center gap-2 font-tight font-bold text-[20px] group-hover:underline underline-offset-4">Key health votes <span aria-hidden="true">→</span></span>
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Docket */}
       <section className="max-w-content mx-auto px-5 md:px-8 py-20">

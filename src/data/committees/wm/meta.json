@@ -1,0 +1,434 @@
+{
+ "asOf": "2026-11-12",
+ "counts": {
+  "members": 45,
+  "republicans": 26,
+  "democrats": 19,
+  "healthSubcommittee": 19
+ },
+ "leadership": {
+  "chair": "Jason Smith (R-MO)",
+  "rankingMember": "Richard E. Neal (D-MA)",
+  "viceChair": null,
+  "viceRankingMember": "Gwen Moore (D-WI)",
+  "source": [
+   "https://waysandmeans.house.gov/members/",
+   "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  ],
+  "note": "The committee's membership page lists a Chairman and a Ranking Member only."
+ },
+ "subcommitteeLeaders": [
+  {
+   "code": "WM02",
+   "name": "Health",
+   "chair": "Vern Buchanan",
+   "rankingMember": "Lloyd Doggett",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM01",
+   "name": "Social Security",
+   "chair": "Ron Estes",
+   "rankingMember": "John B. Larson",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM03",
+   "name": "Work and Welfare",
+   "chair": "Darin LaHood",
+   "rankingMember": "Danny K. Davis",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM04",
+   "name": "Trade",
+   "chair": "Adrian Smith",
+   "rankingMember": "Linda T. Sánchez",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM05",
+   "name": "Tax",
+   "chair": "Mike Kelly",
+   "rankingMember": "Mike Thompson",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  },
+  {
+   "code": "WM06",
+   "name": "Oversight",
+   "chair": "David Schweikert",
+   "rankingMember": "Terri A. Sewell",
+   "chairSource": "https://clerk.house.gov/xml/lists/MemberData.xml",
+   "rankingSource": "https://democrats-waysandmeans.house.gov/media-center/press-releases/ranking-member-neal-announces-ways-and-means-democrats-subcommittee-0"
+  }
+ ],
+ "houseControl": {
+  "fact": "NBC News projects Democrats win control of the House. Democrats held 252 seats to 162 for Republicans with 21 uncalled; 218 are needed.",
+  "source": "https://www.nbcnews.com/politics/2026-elections/house-results",
+  "sourceLabel": "NBC News, U.S. House Elections 2026 Live Results: Democrats Win Control (updated Nov. 9, 8:06 AM ET)",
+  "date": "2026-11-09",
+  "status": "VERIFIED"
+ },
+ "expectedLeaders": [
+  {
+   "name": "Richard Neal",
+   "role": "Expected chairman, Committee on Ways and Means, 120th Congress",
+   "fact": "Neal is poised to chair Ways and Means a second time after the election of a new Democratic House majority; he called it a rare opportunity.",
+   "source": "https://www.yahoo.com/news/politics/articles/not-bad-portfolio-ways-means-205223478.html",
+   "sourceLabel": "MassLive via Yahoo News, 'Not a bad portfolio': Ways & Means chairmanship puts Neal at center of Social Security, taxes, tariffs, retirement, IRS",
+   "date": "2026-11-04",
+   "status": "VERIFIED"
+  },
+  {
+   "name": "Jason Smith",
+   "role": "Expected ranking member, Committee on Ways and Means, 120th Congress",
+   "fact": "Bloomberg Tax reported before the election that if Democrats win the House, Smith and Neal would swap titles; Democrats won. No formal GOP conference vote yet.",
+   "source": "https://news.bloombergtax.com/daily-tax-report/powerful-tax-writing-panels-to-lose-experience-after-midterms",
+   "sourceLabel": "Bloomberg Tax, Powerful Tax-Writing Panels to Lose Experience After Midterms",
+   "date": "2026-03-20",
+   "status": "VERIFIED"
+  }
+ ],
+ "money": {
+  "2026": {
+   "committeeTotal": 9340175,
+   "latestTransactionDate": "2026-10-14",
+   "pacsMatched": 231,
+   "topPacs": [
+    {
+     "pacId": "C00106146",
+     "pac": "AMERICAN HOSPITAL ASSOCIATION PAC",
+     "sector": "Hospitals & Nursing Homes",
+     "amount": 240000
+    },
+    {
+     "pacId": "C00197228",
+     "pac": "ELEVANCE HEALTH, INC. POLITICAL ACTION COMMITTEE (ELEVANCE HEALTH PAC)",
+     "sector": "Insurance",
+     "amount": 225500
+    },
+    {
+     "pacId": "C00343137",
+     "pac": "POLITICAL ACTION COMMITTEE OF THE AMERICAN ASSOCIATION OF ORTHOPAEDIC SURGEONS--PAC OF AAOS",
+     "sector": "Health Professionals",
+     "amount": 198500
+    },
+    {
+     "pacId": "C00359539",
+     "pac": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION POLITICAL ACTION COMMITTEE (SKINPAC)",
+     "sector": "Health Professionals",
+     "amount": 198000
+    },
+    {
+     "pacId": "C00016683",
+     "pac": "PFIZER INC. PAC",
+     "sector": "Pharmaceuticals",
+     "amount": 161000
+    },
+    {
+     "pacId": "C00140061",
+     "pac": "NATIONAL EMERGENCY MEDICINE POLITICAL ACTION COMMITTEE / AMERICAN COLLEGE OF EMERGENCY PHYSICIANS",
+     "sector": "Health Professionals",
+     "amount": 158500
+    },
+    {
+     "pacId": "C00271007",
+     "pac": "HUMANA INC. POLITICAL ACTION COMMITTEE",
+     "sector": "Health Services/HMOs",
+     "amount": 157000
+    },
+    {
+     "pacId": "C00274431",
+     "pac": "UNITEDHEALTH GROUP INCORPORATED PAC (UNITEDHEALTH GROUP PAC)",
+     "sector": "Health Services/HMOs",
+     "amount": 155500
+    },
+    {
+     "pacId": "C00251876",
+     "pac": "AMGEN INC. POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 154500
+    },
+    {
+     "pacId": "C00085316",
+     "pac": "THE CIGNA GROUP EMPLOYEE POLITICAL ACTION COMMITTEE",
+     "sector": "Insurance",
+     "amount": 153500
+    },
+    {
+     "pacId": "C00340943",
+     "pac": "DAVITA INC. POLITICAL ACTION COMMITTEE (DAPAC)",
+     "sector": "Health Services/HMOs",
+     "amount": 148500
+    },
+    {
+     "pacId": "C00536573",
+     "pac": "ABBVIE POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 148000
+    },
+    {
+     "pacId": "C00000422",
+     "pac": "AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE",
+     "sector": "Health Professionals",
+     "amount": 145750
+    },
+    {
+     "pacId": "C00255752",
+     "pac": "AMERICAN SOCIETY OF ANESTHESIOLOGISTS POLITICAL ACTION COMMITTEE (ASA PAC)",
+     "sector": "Health Professionals",
+     "amount": 144500
+    },
+    {
+     "pacId": "C00040279",
+     "pac": "ABBOTT LABORATORIES EMPLOYEE POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 138000
+    },
+    {
+     "pacId": "C00010983",
+     "pac": "JOHNSON & JOHNSON POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 134000
+    },
+    {
+     "pacId": "C00343459",
+     "pac": "AMERICAN COLLEGE OF RADIOLOGY ASSOCIATION PAC",
+     "sector": "Health Professionals",
+     "amount": 132500
+    },
+    {
+     "pacId": "C00082792",
+     "pac": "ELI LILLY AND COMPANY POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 132000
+    },
+    {
+     "pacId": "C00382424",
+     "pac": "AMERICAN COLLEGE OF SURGEONS PROFESSIONAL ASSOCIATION PAC",
+     "sector": "Health Professionals",
+     "amount": 131500
+    },
+    {
+     "pacId": "C00012880",
+     "pac": "AMERICAN PHYSICAL THERAPY ASSOCIATION PHYSICAL THERAPY POLITICAL ACTION COMMITTEE (PT-PAC)",
+     "sector": "Health Professionals",
+     "amount": 130500
+    },
+    {
+     "pacId": "C00375360",
+     "pac": "AMERICAN COLLEGE OF CARDIOLOGY PAC (HEARTPAC)",
+     "sector": "Health Professionals",
+     "amount": 119500
+    },
+    {
+     "pacId": "C00401299",
+     "pac": "FRESENIUS MEDICAL CARE HOLDINGS, INC. POLITICAL ACTION COMMITTEE",
+     "sector": "Health Services/HMOs",
+     "amount": 118500
+    },
+    {
+     "pacId": "C00384818",
+     "pac": "CVS HEALTH PAC",
+     "sector": "Pharmaceuticals",
+     "amount": 118500
+    },
+    {
+     "pacId": "C00097485",
+     "pac": "MERCK & CO., INC., EMPLOYEES POLITICAL ACTION COMMITTEE (MERCK PAC)",
+     "sector": "Pharmaceuticals",
+     "amount": 117000
+    },
+    {
+     "pacId": "C00000729",
+     "pac": "AMERICAN DENTAL ASSOCIATION POLITICAL ACTION COMMITTEE",
+     "sector": "Health Professionals",
+     "amount": 115500
+    }
+   ]
+  },
+  "2024": {
+   "committeeTotal": 10058350,
+   "latestTransactionDate": "2024-12-31",
+   "pacsMatched": 238,
+   "topPacs": [
+    {
+     "pacId": "C00106146",
+     "pac": "AMERICAN HOSPITAL ASSOCIATION PAC",
+     "sector": "Hospitals & Nursing Homes",
+     "amount": 340000
+    },
+    {
+     "pacId": "C00343137",
+     "pac": "POLITICAL ACTION COMMITTEE OF THE AMERICAN ASSOCIATION OF ORTHOPAEDIC SURGEONS--PAC OF AAOS",
+     "sector": "Health Professionals",
+     "amount": 230500
+    },
+    {
+     "pacId": "C00000729",
+     "pac": "AMERICAN DENTAL ASSOCIATION POLITICAL ACTION COMMITTEE",
+     "sector": "Health Professionals",
+     "amount": 229500
+    },
+    {
+     "pacId": "C00359539",
+     "pac": "AMERICAN ACADEMY OF DERMATOLOGY ASSOCIATION POLITICAL ACTION COMMITTEE (SKINPAC)",
+     "sector": "Health Professionals",
+     "amount": 229000
+    },
+    {
+     "pacId": "C00197228",
+     "pac": "ELEVANCE HEALTH, INC. POLITICAL ACTION COMMITTEE (ELEVANCE HEALTH PAC)",
+     "sector": "Insurance",
+     "amount": 223500
+    },
+    {
+     "pacId": "C00000422",
+     "pac": "AMERICAN MEDICAL ASSOCIATION POLITICAL ACTION COMMITTEE",
+     "sector": "Health Professionals",
+     "amount": 222250
+    },
+    {
+     "pacId": "C00140061",
+     "pac": "NATIONAL EMERGENCY MEDICINE POLITICAL ACTION COMMITTEE / AMERICAN COLLEGE OF EMERGENCY PHYSICIANS",
+     "sector": "Health Professionals",
+     "amount": 190500
+    },
+    {
+     "pacId": "C00255752",
+     "pac": "AMERICAN SOCIETY OF ANESTHESIOLOGISTS POLITICAL ACTION COMMITTEE (ASA PAC)",
+     "sector": "Health Professionals",
+     "amount": 190000
+    },
+    {
+     "pacId": "C00085316",
+     "pac": "THE CIGNA GROUP EMPLOYEE POLITICAL ACTION COMMITTEE",
+     "sector": "Insurance",
+     "amount": 189000
+    },
+    {
+     "pacId": "C00251876",
+     "pac": "AMGEN INC. POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 175000
+    },
+    {
+     "pacId": "C00274431",
+     "pac": "UNITEDHEALTH GROUP INCORPORATED PAC (UNITEDHEALTH GROUP PAC)",
+     "sector": "Health Services/HMOs",
+     "amount": 173500
+    },
+    {
+     "pacId": "C00536573",
+     "pac": "ABBVIE POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 170000
+    },
+    {
+     "pacId": "C00384818",
+     "pac": "CVS HEALTH PAC",
+     "sector": "Pharmaceuticals",
+     "amount": 166000
+    },
+    {
+     "pacId": "C00024968",
+     "pac": "AMERICAN OPTOMETRIC ASSOCIATION POLITICAL ACTION COMMITTEE",
+     "sector": "Health Professionals",
+     "amount": 164000
+    },
+    {
+     "pacId": "C00343459",
+     "pac": "AMERICAN COLLEGE OF RADIOLOGY ASSOCIATION PAC",
+     "sector": "Health Professionals",
+     "amount": 162000
+    },
+    {
+     "pacId": "C00546119",
+     "pac": "SELECT MEDICAL CORPORATION PAC",
+     "sector": "Hospitals & Nursing Homes",
+     "amount": 161500
+    },
+    {
+     "pacId": "C00271007",
+     "pac": "HUMANA INC. POLITICAL ACTION COMMITTEE",
+     "sector": "Health Services/HMOs",
+     "amount": 155000
+    },
+    {
+     "pacId": "C00016683",
+     "pac": "PFIZER INC. PAC",
+     "sector": "Pharmaceuticals",
+     "amount": 151500
+    },
+    {
+     "pacId": "C00340943",
+     "pac": "DAVITA INC. POLITICAL ACTION COMMITTEE (DAPAC)",
+     "sector": "Health Services/HMOs",
+     "amount": 147000
+    },
+    {
+     "pacId": "C00040279",
+     "pac": "ABBOTT LABORATORIES EMPLOYEE POLITICAL ACTION COMMITTEE",
+     "sector": "Pharmaceuticals",
+     "amount": 138500
+    },
+    {
+     "pacId": "C00113803",
+     "pac": "AMERICAN OSTEOPATHIC INFORMATION ASSOCIATION - OSTEOPATHIC POLITICAL ACTION COMMITTEE",
+     "sector": "Health Professionals",
+     "amount": 137000
+    },
+    {
+     "pacId": "C00196246",
+     "pac": "AMERICAN ACADEMY OF OPHTHALMOLOGY INC POLITICAL COMMITTEE (OPHTHPAC)",
+     "sector": "Health Professionals",
+     "amount": 130000
+    },
+    {
+     "pacId": "C00283135",
+     "pac": "NATIONAL ASSOCIATION OF BENEFITS AND INSURANCE PROFESSIONALS PAC (NABIP PAC)",
+     "sector": "Insurance",
+     "amount": 124000
+    },
+    {
+     "pacId": "C00375360",
+     "pac": "AMERICAN COLLEGE OF CARDIOLOGY PAC (HEARTPAC)",
+     "sector": "Health Professionals",
+     "amount": 113500
+    },
+    {
+     "pacId": "C00035675",
+     "pac": "BRISTOL-MYERS SQUIBB COMPANY POLITICAL ACTION COMMITTEE (BMS PAC)",
+     "sector": "Pharmaceuticals",
+     "amount": 111000
+    }
+   ]
+  }
+ },
+ "moneyBasis": "PAC contributions to each member's House campaign committee (transaction type 24K) from PACs classified as healthcare by name and connected organization. Individual contributions are not included. Sector labels are the Rojas Report's own.",
+ "moneySource": "FEC bulk data (pas2, cm, cn, ccl), 2024 and 2026 cycles, files retrieved November 8, 2026",
+ "moneySourceUrl": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
+ "votesSource": "Clerk of the House, roll-call vote XML",
+ "votesScanned": {
+  "2025": 362,
+  "2026": 314
+ },
+ "votesFilter": "roll calls whose bill number or description matches health terms (see scripts/parse_rollcalls.py)",
+ "healthVotesMatched": 58,
+ "tradesTotals": {
+  "ptrs": 156,
+  "readable": 150,
+  "unreadable": 6,
+  "transactionsExtracted": 310,
+  "healthcareTransactions": 53
+ },
+ "notReturning": 15,
+ "notCalled": [
+  "Mike Thompson"
+ ]
+}
