@@ -5,3 +5,7 @@
 /fights/*     /drivers/:splat    301
 /physicians   /physician-owned/  301
 /physicians/* /physician-owned/:splat 301
+
+# The old CON site. Its hostname resolves here once conlaws.rojasreport.com is a domain alias of this site.
+https://conlaws.rojasreport.com/*  https://rojasreport.com/con/  301!
+http://conlaws.rojasreport.com/*   https://rojasreport.com/con/  301!
