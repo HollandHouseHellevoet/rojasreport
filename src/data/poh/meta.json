@@ -1,0 +1,602 @@
+{
+ "asOf": "2026-11-13",
+ "headline": {
+  "value": "250+",
+  "text": "It is estimated that more than 250 acute care hospitals are owned, in part or fully, by physicians.",
+  "source": "https://www.federalregister.gov/documents/2026/04/14/2026-07203/medicare-program-hospital-inpatient-prospective-payment-systems-for-acute-care-hospitals-ipps-and",
+  "sourceLabel": "Centers for Medicare & Medicaid Services, FY 2027 IPPS proposed rule, 91 Fed. Reg. 19312, 19668 (April 14, 2026), citing Blumenthal et al., BMJ 2015",
+  "asOf": "2026-04-14"
+ },
+ "tracked": 176,
+ "startingList": 189,
+ "byStatus": {
+  "Physician-owned": 14,
+  "Joint venture": 82,
+  "Sold or acquired": 46,
+  "Closed": 19,
+  "Under development": 1,
+  "NOT FOUND": 14
+ },
+ "statesCount": 30,
+ "states": [
+  {
+   "code": "AL",
+   "name": "Alabama",
+   "slug": "al",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 0,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Highly Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/alabama/"
+  },
+  {
+   "code": "AZ",
+   "name": "Arizona",
+   "slug": "az",
+   "total": 6,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 3,
+    "Sold or acquired": 2,
+    "Closed": 1,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "AR",
+   "name": "Arkansas",
+   "slug": "ar",
+   "total": 4,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 1,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 1
+   },
+   "conTier": "Mostly Free",
+   "conStatus": "Limited",
+   "statePage": "/states/arkansas/"
+  },
+  {
+   "code": "CA",
+   "name": "California",
+   "slug": "ca",
+   "total": 8,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 2,
+    "Sold or acquired": 3,
+    "Closed": 1,
+    "Under development": 0,
+    "NOT FOUND": 1
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "CO",
+   "name": "Colorado",
+   "slug": "co",
+   "total": 3,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 2,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 1
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "FL",
+   "name": "Florida",
+   "slug": "fl",
+   "total": 2,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 2,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Mostly Free",
+   "conStatus": "Repealed",
+   "statePage": "/states/florida/"
+  },
+  {
+   "code": "GA",
+   "name": "Georgia",
+   "slug": "ga",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Most Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/georgia/"
+  },
+  {
+   "code": "ID",
+   "name": "Idaho",
+   "slug": "id",
+   "total": 3,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 3,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "IN",
+   "name": "Indiana",
+   "slug": "in",
+   "total": 8,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 6,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Mostly Free",
+   "conStatus": "Limited",
+   "statePage": null
+  },
+  {
+   "code": "KS",
+   "name": "Kansas",
+   "slug": "ks",
+   "total": 10,
+   "byStatus": {
+    "Physician-owned": 2,
+    "Joint venture": 5,
+    "Sold or acquired": 2,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 1
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "LA",
+   "name": "Louisiana",
+   "slug": "la",
+   "total": 20,
+   "byStatus": {
+    "Physician-owned": 3,
+    "Joint venture": 8,
+    "Sold or acquired": 5,
+    "Closed": 2,
+    "Under development": 0,
+    "NOT FOUND": 2
+   },
+   "conTier": "Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/louisiana/"
+  },
+  {
+   "code": "MI",
+   "name": "Michigan",
+   "slug": "mi",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/michigan/"
+  },
+  {
+   "code": "MO",
+   "name": "Missouri",
+   "slug": "mo",
+   "total": 2,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 0,
+    "Closed": 2,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Highly Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/missouri/"
+  },
+  {
+   "code": "MT",
+   "name": "Montana",
+   "slug": "mt",
+   "total": 2,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 2,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Mostly Free",
+   "conStatus": "Limited",
+   "statePage": "/states/montana/"
+  },
+  {
+   "code": "NE",
+   "name": "Nebraska",
+   "slug": "ne",
+   "total": 4,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 1,
+    "Sold or acquired": 2,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Moderate",
+   "conStatus": "Yes",
+   "statePage": "/states/nebraska/"
+  },
+  {
+   "code": "NV",
+   "name": "Nevada",
+   "slug": "nv",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Most Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/nevada/"
+  },
+  {
+   "code": "NM",
+   "name": "New Mexico",
+   "slug": "nm",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "NC",
+   "name": "North Carolina",
+   "slug": "nc",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 1,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Most Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/north-carolina/"
+  },
+  {
+   "code": "OH",
+   "name": "Ohio",
+   "slug": "oh",
+   "total": 8,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 3,
+    "Sold or acquired": 1,
+    "Closed": 2,
+    "Under development": 0,
+    "NOT FOUND": 1
+   },
+   "conTier": "Mostly Free",
+   "conStatus": "Repealed",
+   "statePage": null
+  },
+  {
+   "code": "OK",
+   "name": "Oklahoma",
+   "slug": "ok",
+   "total": 17,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 10,
+    "Sold or acquired": 4,
+    "Closed": 1,
+    "Under development": 0,
+    "NOT FOUND": 1
+   },
+   "conTier": "Mostly Free",
+   "conStatus": "Limited",
+   "statePage": "/states/oklahoma/"
+  },
+  {
+   "code": "OR",
+   "name": "Oregon",
+   "slug": "or",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/oregon/"
+  },
+  {
+   "code": "PA",
+   "name": "Pennsylvania",
+   "slug": "pa",
+   "total": 4,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 3,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "SC",
+   "name": "South Carolina",
+   "slug": "sc",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Moderate",
+   "conStatus": "Repealing",
+   "statePage": null
+  },
+  {
+   "code": "SD",
+   "name": "South Dakota",
+   "slug": "sd",
+   "total": 9,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 4,
+    "Sold or acquired": 5,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "TN",
+   "name": "Tennessee",
+   "slug": "tn",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 1,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Highly Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/tennessee/"
+  },
+  {
+   "code": "TX",
+   "name": "Texas",
+   "slug": "tx",
+   "total": 50,
+   "byStatus": {
+    "Physician-owned": 1,
+    "Joint venture": 24,
+    "Sold or acquired": 9,
+    "Closed": 10,
+    "Under development": 1,
+    "NOT FOUND": 5
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "UT",
+   "name": "Utah",
+   "slug": "ut",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 1,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  },
+  {
+   "code": "WV",
+   "name": "West Virginia",
+   "slug": "wv",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 1,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Most Restrictive",
+   "conStatus": "Yes",
+   "statePage": "/states/west-virginia/"
+  },
+  {
+   "code": "WI",
+   "name": "Wisconsin",
+   "slug": "wi",
+   "total": 4,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 4,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 0
+   },
+   "conTier": "Mostly Free",
+   "conStatus": "Limited",
+   "statePage": "/states/wisconsin/"
+  },
+  {
+   "code": "WY",
+   "name": "Wyoming",
+   "slug": "wy",
+   "total": 1,
+   "byStatus": {
+    "Physician-owned": 0,
+    "Joint venture": 0,
+    "Sold or acquired": 0,
+    "Closed": 0,
+    "Under development": 0,
+    "NOT FOUND": 1
+   },
+   "conTier": "Free Market",
+   "conStatus": "No",
+   "statePage": null
+  }
+ ],
+ "dropped": [
+  {
+   "name": "Arise Austin Medical Center",
+   "state": "TX",
+   "reason": "Same hospital as Arise Austin Medical Center (CCN 450871)."
+  },
+  {
+   "name": "Baylor Scott & White Medical Center - Uptown",
+   "state": "TX",
+   "reason": "Same hospital as Baylor Scott & White Medical Center - Uptown (MSH Partners, LLC) (CCN 450422)."
+  },
+  {
+   "name": "Guadalupe Regional Medical Center",
+   "state": "TX",
+   "reason": "County-owned; no source shows it was ever physician-owned."
+  },
+  {
+   "name": "Texas Health Center for Diagnostics & Surgery Plano",
+   "state": "TX",
+   "reason": "Same hospital as Texas Health Center for Diagnostics & Surgery Plano (Physicians Medical Center, LLC) (CCN 450891)."
+  },
+  {
+   "name": "The Hospital at Westlake Medical Center",
+   "state": "TX",
+   "reason": "Same hospital as The Hospital at Westlake Medical Center (Westlake Surgical, L.P.) (CCN 670006)."
+  },
+  {
+   "name": "Doctors' Hospital of Slidell",
+   "state": "LA",
+   "reason": "Same hospital as Sterling Surgical Hospital (Doctors' Hospital of Slidell, L.L.C.) (CCN 190256)."
+  },
+  {
+   "name": "McBride Orthopedic Hospital",
+   "state": "OK",
+   "reason": "Same hospital as McBride Orthopedic Hospital (McBride Clinic Orthopedic Hospital LLC) (CCN 370222)."
+  },
+  {
+   "name": "Arizona Orthopedic Surgical Hospital",
+   "state": "AZ",
+   "reason": "Same hospital as Arizona Specialty Hospital (formerly OASIS Hospital) (CCN 030112)."
+  },
+  {
+   "name": "Ascension St. Vincent Heart Center",
+   "state": "IN",
+   "reason": "Same hospital as Ascension St. Vincent Heart Center (St. Vincent Heart Center of Indiana LLC) (CCN 150153)."
+  },
+  {
+   "name": "Physicians Regional Medical Center - Pine Ridge",
+   "state": "FL",
+   "reason": "Same hospital as Physicians Regional Medical Center - Collier Boulevard (campus of Naples HMA, LLC) (CCN 100286)."
+  },
+  {
+   "name": "MercyOne Des Moines Surgical Care",
+   "state": "IA",
+   "reason": "A MercyOne surgical clinic, not a licensed hospital; CMS lists no separate hospital at the site."
+  },
+  {
+   "name": "Michigan Heart & Vascular Institute",
+   "state": "MI",
+   "reason": "A 33-physician cardiology practice, not a licensed hospital; CMS lists no hospital under the name."
+  },
+  {
+   "name": "Elliot One-Day Surgery Center",
+   "state": "NH",
+   "reason": "An ambulatory surgery center run by Elliot Health System, not a hospital; not in CMS hospital data."
+  }
+ ],
+ "latestSourceDate": "2026-11-13 (accessed; notice undated)",
+ "method": "Each hospital on the March 2026 Rojas Report list was re-checked in November 2026 against CMS Hospital All Owners and enrollment data (September 29, 2026 release), CMS Provider of Services and Hospital General Information files, hospital websites, SEC and SEDAR filings, court records and news. One dated source is cited per hospital."
+}
