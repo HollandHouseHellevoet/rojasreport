@@ -10,7 +10,6 @@ interface FeaturedStateCardProps {
 
 export default function FeaturedStateCard({ state, slug, score, tier, hook }: FeaturedStateCardProps) {
   // Score-based orange opacity
-  const badgeOpacity = 0.4 + (score / 100) * 0.6;
 
   return (
     <Link
@@ -29,7 +28,7 @@ export default function FeaturedStateCard({ state, slug, score, tier, hook }: Fe
           </div>
           <span
             className="font-display text-3xl text-paper px-3 py-1 rounded-sm leading-none"
-            style={{ backgroundColor: `rgba(212, 98, 42, ${badgeOpacity})` }}
+            style={{ backgroundColor: '#8E1B1B' }}
           >
             {score}
           </span>

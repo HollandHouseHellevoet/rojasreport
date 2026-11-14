@@ -5,3 +5,10 @@
 /fights/*     /drivers/:splat    301
 /physicians   /physician-owned/  301
 /physicians/* /physician-owned/:splat 301
+
+# The old CON site (conlaws.rojasreport.com, a domain alias of this site since November 14, 2026).
+# Its front page goes to the CON desk; every other path keeps its path, since the CON routes live on here.
+https://conlaws.rojasreport.com/   https://rojasreport.com/con/    301!
+http://conlaws.rojasreport.com/    https://rojasreport.com/con/    301!
+https://conlaws.rojasreport.com/*  https://rojasreport.com/:splat  301!
+http://conlaws.rojasreport.com/*   https://rojasreport.com/:splat  301!

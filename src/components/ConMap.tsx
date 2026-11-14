@@ -61,7 +61,7 @@ export default function ConMap({ states }: ConMapProps) {
       <svg
         viewBox={`0 0 ${width} ${height}`}
         className="w-full max-w-4xl mx-auto"
-        role="img"
+        role="group"
         aria-label="US map showing CON law restrictiveness by state"
       >
         {Object.entries(STATE_GRID).map(([abbr, [col, row]]) => {
@@ -74,7 +74,7 @@ export default function ConMap({ states }: ConMapProps) {
           const textFill = fill === 'transparent' || opacity < 0.4 ? CREAM + 'aa' : '#F4EFE6';
 
           const rect = (
-            <g key={abbr} role="listitem" aria-label={s ? `${s.state}: ${s.tier}, score ${s.score}` : abbr}>
+            <g key={abbr} role="img" aria-label={s ? `${s.state}: ${s.tier}, score ${s.score}` : abbr}>
               <rect
                 x={x} y={y}
                 width={cellSize} height={cellSize}

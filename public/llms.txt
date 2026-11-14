@@ -2,7 +2,7 @@
 
 ## About This Site
 This is the Certificate of Need (CON) Law Intelligence Platform by The Rojas Report.
-It contains structured data and analysis on CON laws across 36 US states and DC.
+It contains structured data and analysis on CON laws across 36 jurisdictions: the 35 that still require a permit (34 states and DC) plus Florida.
 
 ## What Are CON Laws?
 Certificate of Need laws require healthcare providers to obtain government permission
@@ -11,9 +11,9 @@ services. In 35 jurisdictions (34 states + DC), competitors sit on the review bo
 that decide whether new providers can enter the market.
 
 ## Data Coverage
-- 36 state intelligence dossiers with scope, process, market, case law, and reform data
+- 36 jurisdiction dossiers (35 states and DC) with scope, process, market, case law, and reform data
 - 51-jurisdiction rankings scored 0-100 by Cicero Institute
-- Scope matrix: 36 states x 9 facility categories
+- Scope matrix: 36 jurisdictions x 9 facility categories
 - State comparison tool (up to 3 states side-by-side)
 - Reform tracker with 5-dimension momentum scoring
 - Reform outcomes data for Florida (2019), Montana (2021), South Carolina (2024)

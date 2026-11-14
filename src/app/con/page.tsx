@@ -78,7 +78,7 @@ export default function ConHomePage() {
           <div className="mt-6 flex flex-wrap gap-3">
             <a
               href="#mechanism"
-              className="inline-block font-body text-sm font-semibold text-cream bg-orange hover:bg-orange-light px-5 py-2.5 transition-colors rounded-sm"
+              className="inline-block font-body text-sm font-semibold text-paper bg-oxblood hover:bg-oxblood-hover px-5 py-2.5 transition-colors rounded-sm"
             >
               Read the Investigation &rarr;
             </a>

@@ -40,7 +40,7 @@ const mdComponents = {
   h2: (props: React.ComponentProps<"h3">) => <h3 className="font-tight font-bold tracking-[-0.015em] text-cream mt-8 mb-3" style={{ fontSize: "1.375rem" }} {...props} />,
   h3: (props: React.ComponentProps<"h3">) => <h3 className="font-tight font-bold tracking-[-0.015em] text-cream mt-8 mb-3" style={{ fontSize: "1.25rem" }} {...props} />,
   h4: (props: React.ComponentProps<"h4">) => <h4 className="font-body font-semibold text-orange mt-6 mb-2" style={{ fontSize: "16px" }} {...props} />,
-  p: (props: React.ComponentProps<"p">) => <p className="font-prose text-cream leading-relaxed mb-4" style={{ fontSize: "19px" }} {...props} />,
+  p: (props: React.ComponentProps<"p">) => <p className="font-prose text-cream leading-relaxed mb-4 [overflow-wrap:anywhere]" style={{ fontSize: "19px" }} {...props} />,
   ul: (props: React.ComponentProps<"ul">) => <ul className="space-y-2 mb-5 pl-1" {...props} />,
   ol: (props: React.ComponentProps<"ol">) => <ol className="list-decimal space-y-2 mb-5 pl-6 font-prose text-cream" style={{ fontSize: "19px" }} {...props} />,
   li: ({ children, ...props }: React.ComponentProps<"li">) => (

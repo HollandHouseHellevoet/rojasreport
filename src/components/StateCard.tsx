@@ -12,7 +12,6 @@ interface StateCardProps {
 
 export default function StateCard({ state, abbreviation, slug, score, tier, conStatus, teaser }: StateCardProps) {
   const hasProfile = conStatus !== 'No';
-  const badgeOpacity = score === 0 ? 0.15 : 0.2 + (score / 100) * 0.8;
 
   const card = (
     <div className="border border-ink/10 p-4 hover:border-orange/40 transition-colors h-full flex flex-col">
@@ -22,7 +21,7 @@ export default function StateCard({ state, abbreviation, slug, score, tier, conS
         </span>
         <span
           className="text-paper text-xs font-bold px-2 py-0.5"
-          style={{ backgroundColor: `rgba(212, 98, 42, ${badgeOpacity})` }}
+          style={{ backgroundColor: '#8E1B1B' }}
         >
           {score}
         </span>
