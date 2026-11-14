@@ -92,6 +92,7 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | Q8 | Lighthouse accessibility | Lighthouse run on every template; each scores 95+; results in `docs/lighthouse.md`; add to CI if feasible | none | IN PROGRESS. 13 templates run on the PR 8 branch: 10 at 100, 3 at 96. `docs/lighthouse.md` and CI still to do |
 | Q9 | "Sign in" in utility bar | Brief and site match D-7 | D-7 | BLOCKED (D-7) |
 | Q10 | Remove businesses tied to Dutch Rojas | Built site has zero mentions of MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives or the Alliance; home "Build" section and NC "Practicing here?" links gone | D-12 | IN PR (PR 10) |
+| Q11 | "Physician" in site copy | Built site uses "doctor" only inside proper names and source URLs | none | IN PR (PR 11) |
 
 ---
 
@@ -221,4 +222,5 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-14 | Q1 | PR 8 | IN PR | conlaws.rojasreport.com added as a domain alias with Dutch's OK; DNS record live; redirect rule in PR 8 |
 | 2026-11-14 | Roadmap | this PR | IN PR | ROADMAP.md added; statuses set to the state of PRs 7 and 8 |
 | 2026-11-14 | Q10 | PR 10 | IN PR | Home "Build" section and NC practicing links removed (D-12) |
+| 2026-11-14 | Q11 | PR 11 | IN PR | Three "doctor" uses on the Allina AHA profile changed to "physician" |
 | 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |
