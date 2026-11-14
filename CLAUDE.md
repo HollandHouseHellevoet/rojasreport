@@ -28,7 +28,7 @@ Four page templates cover every desk: person dossier (model: `/aha/profiles/`), 
 
 ## Copy rules
 
-- "Physicians," never "doctors."
+- "Physicians," never "doctors." (Decision 12; the roadmap matches.)
 - "340B" is the drug pricing program. Write "the 340B program" wherever it could be misread.
 - No em dashes anywhere.
 - "Provider" is not a word for physicians or hospitals. Say which one. (Legal terms of art such as "provider-based department" stay.)
@@ -43,6 +43,7 @@ Four page templates cover every desk: person dossier (model: `/aha/profiles/`), 
 - Work built for clients (sites, portals, analyses) is the client's and is never reproduced. The public data behind it can always be used.
 - No consulting client of Rojas Media is named on the site. The gate list lives outside this repo.
 - Companies Dutch has exited are not named.
+- No other business tied to Dutch Rojas is mentioned: MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives, the Alliance, or any other. Rojas Media appears only as the publisher (decision 11).
 
 ## Hidden pages
 
