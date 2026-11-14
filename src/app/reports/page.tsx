@@ -21,17 +21,24 @@ export default function Page() {
       </p>
       <div className="border-t border-ink">
         {[
-          { name: 'Physician-owned hospitals', blurb: 'Every physician-owned hospital in the country, with ownership, contacts and state context. $300 per state, or $3,500 a year for all access.' },
+          { name: 'Physician-owned hospitals', blurb: 'Every hospital on the Rojas Report list, with its owner and a dated source. Free to read.', href: '/poh/hospitals/' },
           { name: 'Health system datasets', blurb: 'The subsidy ledger and key figures behind each profile.' },
           { name: 'State datasets', blurb: 'Every figure on a state dossier, with its source.' },
           { name: 'Committee member datasets', blurb: 'Positions, scored actions and hospital money for every member.' },
-        ].map((p) => (
-          <div key={p.name} className="py-5 border-b border-hairline">
-            <p className="font-tight font-bold tracking-[-0.015em] text-[22px] md:text-[24px] leading-tight text-muted">{p.name}</p>
-            <p className="mt-1 text-[17px] leading-[1.45] text-muted">{p.blurb}</p>
-            <p className="mt-2"><StatusLabel status="pending" note="In preparation" /></p>
-          </div>
-        ))}
+        ].map((p: { name: string; blurb: string; href?: string }) =>
+          p.href ? (
+            <Link key={p.name} href={p.href} className="group block py-5 border-b border-hairline">
+              <p className="font-tight font-bold tracking-[-0.015em] text-[22px] md:text-[24px] leading-tight group-hover:text-oxblood">{p.name} <span aria-hidden="true">→</span></p>
+              <p className="mt-1 text-[17px] leading-[1.45]">{p.blurb}</p>
+            </Link>
+          ) : (
+            <div key={p.name} className="py-5 border-b border-hairline">
+              <p className="font-tight font-bold tracking-[-0.015em] text-[22px] md:text-[24px] leading-tight text-muted">{p.name}</p>
+              <p className="mt-1 text-[17px] leading-[1.45] text-muted">{p.blurb}</p>
+              <p className="mt-2"><StatusLabel status="pending" note="In preparation" /></p>
+            </div>
+          ),
+        )}
       </div>
     </div>
   );

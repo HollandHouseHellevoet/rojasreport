@@ -8,6 +8,7 @@ import { systems } from '@/lib/systems';
 import { stateDossiers } from '@/lib/stateDossiers';
 import { committees } from '@/lib/committees';
 import { WM_BASE, wmMembers, wmVotes } from '@/lib/wm';
+import { POH_BASE, pohStates } from '@/lib/poh';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://rojasreport.com';
@@ -56,6 +57,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: stateDossiers.some((d) => d.slug === slug) ? 0.9 : 0.8,
   }));
   const committeePages = committees.map((c) => ({ url: `${baseUrl}/committees/${c.slug}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 }));
+  // Physician-owned hospitals desk.
+  const pohPages = [
+    { url: `${baseUrl}${POH_BASE}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}${POH_BASE}/hospitals/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}${POH_BASE}/states/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}${POH_BASE}/investigation/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}${POH_BASE}/evidence/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    ...pohStates.map((s) => ({ url: `${baseUrl}${POH_BASE}/states/${s.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
+  ];
   // Ways & Means desk: members index, member dossiers, key votes.
   const wmPages = [
     { url: `${baseUrl}${WM_BASE}/members/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
@@ -105,5 +115,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [...staticPages,
     ...systemPages, ...statePages,
-    ...conStatePages, ...committeePages, ...wmPages, ...ahaPages, ...hacPages, ...fahPages];
+    ...conStatePages, ...committeePages, ...wmPages, ...pohPages, ...ahaPages, ...hacPages, ...fahPages];
 }
