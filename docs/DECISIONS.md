@@ -28,3 +28,17 @@ One session per phase, sequential, a deploy preview and Dutch's review at the en
 | 5. Drivers and methodology | Six driver briefs. Subsidy ledger, state grade and Machine Score methodology pages. | Every home card has a page |
 | 6. Relaunch gate | Store, Support page, PDFs per page, search index. Fresh-agent fact-check of every live page, Lighthouse accessibility ≥ 95, Stripe end to end in test mode. | Dutch merges and relaunches |
 | 7. Rolling | Systems to 100, states to 51, Carriers template, Physician-Owned directories, member pages and the Machine Score, Lobby expansion, subdomain redirects. | One desk at a time |
+
+## 2026-11-09
+
+6. **Alliance-style look.** The site takes the tafhc.com layout in the Rojas palette: Inter Tight headlines, no Bodoni, full-width ink, green and oxblood bands, number tiles, a boxed "THE ROJAS REPORT" mark in an ink utility bar. Live with PR 3.
+
+## 2026-11-13
+
+7. **Physician-owned hospitals list is free.** Every hospital on the list is free to read at `/poh/hospitals/`. The $300-a-state and $3,500-a-year offers are withdrawn (PR 7). This replaces the paid POH dataset in decision 5.
+8. **CON count.** 35 jurisdictions: 34 states and D.C. The CON desk tracks 36 jurisdictions, the 35 plus Florida.
+9. **Roadmap.** `docs/ROADMAP.md` is the build map: one packet per branch and PR, the fact-check gate on every PR with figures, and a decisions register for calls only Dutch makes.
+
+## 2026-11-14
+
+10. **conlaws.rojasreport.com** is a domain alias of the main Netlify site (D-5). The redirect target is open as D-11.
