@@ -30,7 +30,7 @@ Status values: `READY` · `IN PROGRESS` · `IN PR` · `DONE` · `BLOCKED (D-x)`.
 - Election-dependent facts (member status, races) update only on an AP call or an official canvass. Never on unofficial returns alone.
 
 **Editorial (house style for all copy Claude Code writes)**
-- "Physician" or "doctor." Never "provider."
+- "Physician." Never "doctor" or "provider." (Dutch, 2026-11-14)
 - No "should." No em dashes.
 - Free-market lens. The critique lands on consolidation, monopoly, subsidy, and rule capture. Never on profit, investment, or business as such.
 - "340B" always means the Section 340B drug pricing program. Write "the 340B program" where a reader could misread it as a dollar figure. Coverage points at the hospital-side spread, not at drugmakers.
@@ -38,7 +38,7 @@ Status values: `READY` · `IN PROGRESS` · `IN PR` · `DONE` · `BLOCKED (D-x)`.
 - A reduction in projected growth is not a "cut."
 - Charity care is counted as a subsidy.
 - Never state publicly that any person or institution is excluded from membership or purchase.
-- Do not reference PhyCap Fund anywhere.
+- Do not mention any other business tied to Dutch Rojas: MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives, the Alliance, or any other. Rojas Media appears only as the publisher. (Dutch, 2026-11-14)
 
 **Build**
 - Next.js SSG on Netlify. Structure first, visual design later. Reuse live templates before building new ones.
@@ -72,8 +72,8 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | D-8 | Go-ahead to open /builders-table application | M-3 | OPEN |
 | D-9 | Canonical list of the top 100 health systems (which list, which metric, which year) | P2-1 batches past the 84 on hand | OPEN |
 | D-10 | CON count | Q2 | DECIDED 2026-11-13: 35 jurisdictions (34 states and D.C.) |
-| D-11 | conlaws redirect target: every path to `/con/` (Q1 as written) or keep each path (old CON routes still live here); see Intake | Q1 | OPEN |
-| D-12 | PhyCap Fund on the home page "Build" row: remove now under the standing rule; see Intake | Intake fix | OPEN |
+| D-11 | conlaws redirect target: every path to `/con/` (Q1 as written) or keep each path (old CON routes still live here); see Intake | Q1 | DECIDED 2026-11-14: Dutch left it to Claude Code. Keep each path; only the front page goes to `/con/` (PR 8) |
+| D-12 | PhyCap Fund on the home page "Build" row: remove now under the standing rule; see Intake | Q10 | DECIDED 2026-11-14: remove every business tied to Dutch Rojas, not just PhyCap Fund (Q10, PR 10) |
 
 ---
 
@@ -82,7 +82,7 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | ID | Task | Done when | Depends | Status |
 |---|---|---|---|---|
 | Q0 | Merge PR 7 (physician-owned hospitals, 176 hospitals, 30 states). Switch on POH redirects. | PR 7 merged; every old poh URL 301s to its new path; redirect map in `docs/redirects.md` | none | IN PR (PR 7). Redirects ready on `RojasReportIntelligence` branch `claude/poh-redirect` |
-| Q1 | conlaws.rojasreport.com redirect | DNS record added in Netlify; every old conlaws path 301s to `/con/`; spot-check 10 old links | D-5 | IN PR (PR 8). Alias and DNS record live 2026-11-14 (wildcard cert covers it). Target per D-11 |
+| Q1 | conlaws.rojasreport.com redirect | DNS record added in Netlify; the conlaws front page 301s to `/con/` and every other old path 301s to the same path here (D-11); spot-check 10 old links | D-5 | IN PR (PR 8). Alias and DNS record live 2026-11-14 (wildcard cert covers it). Path-preserving per D-11 |
 | Q2 | CON count reconciliation | All copy says 35 jurisdictions (34 states and D.C.). Grep the repo for "36" near CON terms, including section index tables and llms.txt. Reconcile with the "36 states have CON pages" figure: document which pages cover states with no current CON law (repeal history) and label them that way. Confirm D.C. status: it has CON but appears on the "no page" list. | PR 8 | IN PR (PR 8), partial. D.C. has a page (`data/states/washington-dc.json`); the audit's no-page list wrongly included it. Labelling still to do |
 | Q3 | Build-time source check | Build step fails on any figure missing `value`, `basis`, `source`, or `as_of`. Run once in report mode first, fix every violation, then switch to fail mode. | none | IN PR (PR 8), partial. Covers figures in the brief's format (99 today, all pass); desk data with its own source fields not yet covered (Intake) |
 | Q4 | AHA pages at 375px | Main AHA page has zero horizontal overflow at 375px; power map table scrolls inside its own container | wait for the other session's AHA commits | IN PR (PR 8). Fixed on its own branch; the other session's edits are untouched |
@@ -91,6 +91,7 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | Q7 | Retire old subdomain projects | Calendar note in `docs/redirects.md`: retire each Netlify/GitHub Pages project 30 to 60 days after its redirect goes live (waysandmeans, poh, fah). Dutch does the retirement. | Q0 | READY |
 | Q8 | Lighthouse accessibility | Lighthouse run on every template; each scores 95+; results in `docs/lighthouse.md`; add to CI if feasible | none | IN PROGRESS. 13 templates run on the PR 8 branch: 10 at 100, 3 at 96. `docs/lighthouse.md` and CI still to do |
 | Q9 | "Sign in" in utility bar | Brief and site match D-7 | D-7 | BLOCKED (D-7) |
+| Q10 | Remove businesses tied to Dutch Rojas | Built site has zero mentions of MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives or the Alliance; home "Build" section and NC "Practicing here?" links gone | D-12 | IN PR (PR 10) |
 
 ---
 
@@ -199,9 +200,9 @@ Add rows here. Dutch triages them into a phase.
 
 | Date | Found during | Gap | Proposed size |
 |---|---|---|---|
-| 2026-11-14 | Roadmap review | The home page "Build" row lists PhyCap Fund with a link. The standing rule says never reference it. The November 9 stack review had said keep it. Needs D-12. | XS |
-| 2026-11-14 | Roadmap review | Copy rule conflict: this file says "Physician" or "doctor"; CLAUDE.md says "physicians, never doctors." One rule needs to win, and CLAUDE.md updated to match. | XS |
-| 2026-11-14 | Q1 | Q1 as written sends every old conlaws path to `/con/`. Old CON routes (`/states/[state]`, `/rankings`, `/scope`, `/compare`) still live at the same paths here, so PR 8 keeps each path and sends only the front page to `/con/`. Needs D-11. | XS |
+| 2026-11-14 | Roadmap review | The home page "Build" row lists PhyCap Fund with a link. The standing rule says never reference it. The November 9 stack review had said keep it. Resolved by D-12: all removed (Q10, PR 10). | XS |
+| 2026-11-14 | Roadmap review | Copy rule conflict: this file says "Physician" or "doctor"; CLAUDE.md says "physicians, never doctors." Resolved 2026-11-14: "physician," never "doctor"; this file now matches CLAUDE.md. | XS |
+| 2026-11-14 | Q1 | Q1 as written sends every old conlaws path to `/con/`. Old CON routes (`/states/[state]`, `/rankings`, `/scope`, `/compare`) still live at the same paths here, so PR 8 keeps each path and sends only the front page to `/con/`. Resolved by D-11: keep each path. | XS |
 | 2026-11-14 | Q2 | The November 13 audit listed D.C. among states with no page. D.C. has one; the no-page list is 15 states. Audit and P2-2 inputs corrected. | done |
 | 2026-11-14 | Q3 | Desk data with its own source fields (Ways and Means `src/data/committees/wm`, POH `src/data/poh`, AHA, FAH, HAC) is not covered by the source check. Extend the check, or move those files to the four-field shape. | 1 session |
 | 2026-11-14 | Q4 | Uncommitted edits from a November 9 session sit in the main checkout (AHA pages, `fights.json`, `data/states/*`, `StateDossier`, `BaseballCard`, `rankings`). Some duplicate fixes now in PR 8. Commit or discard them, then delete. | XS |
@@ -219,3 +220,5 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-13 | Q3, Q4, Q8 (partial) | PR 8 | IN PR | Source check in prebuild; AHA newsletter link and phone overflow fixed; CON desk Lighthouse 89 to 100 |
 | 2026-11-14 | Q1 | PR 8 | IN PR | conlaws.rojasreport.com added as a domain alias with Dutch's OK; DNS record live; redirect rule in PR 8 |
 | 2026-11-14 | Roadmap | this PR | IN PR | ROADMAP.md added; statuses set to the state of PRs 7 and 8 |
+| 2026-11-14 | Q10 | PR 10 | IN PR | Home "Build" section and NC practicing links removed (D-12) |
+| 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |

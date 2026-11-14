@@ -41,4 +41,7 @@ One session per phase, sequential, a deploy preview and Dutch's review at the en
 
 ## 2026-11-14
 
-10. **conlaws.rojasreport.com** is a domain alias of the main Netlify site (D-5). The redirect target is open as D-11.
+10. **conlaws.rojasreport.com** is a domain alias of the main Netlify site (D-5).
+11. **No other businesses.** The site never mentions a business tied to Dutch Rojas (MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives, the Alliance or any other). Rojas Media appears only as the publisher. Replaces the November 9 call to keep PhyCap Fund (D-12, Q10).
+12. **Physician.** Write "physician," never "doctor" or "provider." The CLAUDE.md rule stands; the roadmap now matches.
+13. **conlaws paths.** Dutch left D-11 to Claude Code. Every old conlaws path keeps its path on rojasreport.com; only the front page goes to `/con/`.
