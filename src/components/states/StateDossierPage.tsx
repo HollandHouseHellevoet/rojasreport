@@ -196,6 +196,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
       {/* Practicing here / buy */}
       <section id="buy" className="max-w-content mx-auto px-5 md:px-8 py-20">
         <div className="grid gap-14" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }}>
+          {d.practicing && (
           <div>
             <h2 className={`${h2} text-[30px] md:text-[36px] mb-3.5`}>{d.practicing.heading}</h2>
             <p className="text-[17px] leading-[1.5] text-body mb-[18px]">{d.practicing.text}</p>
@@ -209,6 +210,7 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
               )}
             </div>
           </div>
+          )}
           <div>
             <h2 className={`${h2} text-[30px] md:text-[36px] mb-3.5`}>{d.buy.heading}</h2>
             <p className="text-[17px] leading-[1.5] text-body mb-[18px]">{d.buy.text}</p>

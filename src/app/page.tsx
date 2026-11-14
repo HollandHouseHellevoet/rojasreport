@@ -223,40 +223,6 @@ export default function HomePage() {
           <Tiers tone="oxblood" />
         </div>
       </section>
-
-      {/* VII. For physicians */}
-      <section className={band}>
-        <div className={wrap}>
-          <div className="max-w-[760px] mb-12">
-            <div className={`${eyebrow} text-green mb-4`}>VI · For physicians</div>
-            <h2 className={h2}>Don&apos;t just read about it. Build.</h2>
-            <p className={lede}>Three companies built for physicians who want to own what they run.</p>
-          </div>
-          <div className="grid gap-x-6 grid-cols-1 md:grid-cols-3">
-            {[
-              { name: 'MedMerge', href: 'https://medmerge.co', blurb: "Own your group's benefits instead of renting them from a carrier." },
-              { name: 'Cornerstone Indemnity', href: '', blurb: 'Physician-owned malpractice coverage. Keep the underwriting profit.' },
-              { name: 'PhyCap Fund', href: 'https://www.phycapfund.com', blurb: 'Capital for physician-led companies.' },
-            ].map((c) => {
-              const inner = (
-                <>
-                  <span className="flex flex-col gap-2">
-                    <span className="font-tight font-bold text-[26px] leading-[1.1] tracking-[-0.02em] group-hover:text-oxblood">{c.name}</span>
-                    <span className="text-[17px] leading-[1.45]">{c.blurb}</span>
-                  </span>
-                  {c.href && <span className="mt-1.5 group-hover:text-oxblood"><Arrow size={22} /></span>}
-                </>
-              );
-              const cls = 'group flex justify-between gap-6 items-start border-t-2 border-ink py-6';
-              return c.href ? (
-                <a key={c.name} href={c.href} className={cls}>{inner}</a>
-              ) : (
-                <div key={c.name} className={cls}>{inner}</div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
     </>
   );
 }
