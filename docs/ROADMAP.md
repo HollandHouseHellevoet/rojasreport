@@ -91,8 +91,8 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | Q7 | Retire old subdomain projects | Calendar note in `docs/redirects.md`: retire each Netlify/GitHub Pages project 30 to 60 days after its redirect goes live (waysandmeans, poh, fah). Dutch does the retirement. | Q0 | READY |
 | Q8 | Lighthouse accessibility | Lighthouse run on every template; each scores 95+; results in `docs/lighthouse.md`; add to CI if feasible | none | IN PROGRESS. 13 templates run on the PR 8 branch: 10 at 100, 3 at 96. `docs/lighthouse.md` and CI still to do |
 | Q9 | "Sign in" in utility bar | Brief and site match D-7 | D-7 | BLOCKED (D-7) |
-| Q10 | Remove businesses tied to Dutch Rojas | Built site has zero mentions of MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives or the Alliance; home "Build" section and NC "Practicing here?" links gone | D-12 | IN PR (PR 10) |
-| Q11 | "Physician" in site copy | Built site uses "doctor" only inside proper names and source URLs | none | IN PR (PR 11) |
+| Q10 | Remove businesses tied to Dutch Rojas | Built site has zero mentions of MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives or the Alliance; home "Build" section and NC "Practicing here?" links gone | D-12 | DONE (PR 10, merged 2026-11-14) |
+| Q11 | "Physician" in site copy | Built site uses "doctor" only inside proper names and source URLs | none | DONE (PR 11, merged 2026-11-14) |
 
 ---
 
@@ -201,7 +201,7 @@ Add rows here. Dutch triages them into a phase.
 
 | Date | Found during | Gap | Proposed size |
 |---|---|---|---|
-| 2026-11-14 | Roadmap review | The home page "Build" row lists PhyCap Fund with a link. The standing rule says never reference it. The November 9 stack review had said keep it. Resolved by D-12: all removed (Q10, PR 10). | XS |
+| 2026-11-14 | Roadmap review | The home page "Build" row lists PhyCap Fund with a link. The standing rule says never reference it. The November 9 stack review had said keep it. Resolved by D-12: all removed (Q10, PR 10, live 2026-11-14). | XS |
 | 2026-11-14 | Roadmap review | Copy rule conflict: this file says "Physician" or "doctor"; CLAUDE.md says "physicians, never doctors." Resolved 2026-11-14: "physician," never "doctor"; this file now matches CLAUDE.md. | XS |
 | 2026-11-14 | Q1 | Q1 as written sends every old conlaws path to `/con/`. Old CON routes (`/states/[state]`, `/rankings`, `/scope`, `/compare`) still live at the same paths here, so PR 8 keeps each path and sends only the front page to `/con/`. Resolved by D-11: keep each path. | XS |
 | 2026-11-14 | Q2 | The November 13 audit listed D.C. among states with no page. D.C. has one; the no-page list is 15 states. Audit and P2-2 inputs corrected. | done |
@@ -221,6 +221,6 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-13 | Q3, Q4, Q8 (partial) | PR 8 | IN PR | Source check in prebuild; AHA newsletter link and phone overflow fixed; CON desk Lighthouse 89 to 100 |
 | 2026-11-14 | Q1 | PR 8 | IN PR | conlaws.rojasreport.com added as a domain alias with Dutch's OK; DNS record live; redirect rule in PR 8 |
 | 2026-11-14 | Roadmap | this PR | IN PR | ROADMAP.md added; statuses set to the state of PRs 7 and 8 |
-| 2026-11-14 | Q10 | PR 10 | IN PR | Home "Build" section and NC practicing links removed (D-12) |
-| 2026-11-14 | Q11 | PR 11 | IN PR | Three "doctor" uses on the Allina AHA profile changed to "physician" |
+| 2026-11-14 | Q10 | PR 10 | DONE | Home "Build" section and NC practicing links removed (D-12) |
+| 2026-11-14 | Q11 | PR 11 | DONE | Three "doctor" uses on the Allina AHA profile changed to "physician" |
 | 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |
