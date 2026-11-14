@@ -89,7 +89,7 @@ export interface StateDossierRecord {
     pac: Sourced & { text: string };
   };
   bills: Sourced & { subtitle: string; rows: Bill[] };
-  practicing: { heading: string; text: string; links: { name: string; href: string | null }[] };
+  practicing?: { heading: string; text: string; links: { name: string; href: string | null }[] };
   buy: { heading: string; text: string; options: { label: string; price: string | null; perYear: boolean; primary: boolean }[] };
   sourcesLine: string;
 }
