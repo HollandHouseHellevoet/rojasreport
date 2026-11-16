@@ -14,7 +14,7 @@ export const metadata: Metadata = makeMetadata({
 function DirectionIcon({ direction }: { direction: string }) {
   if (direction === 'positive') return <span className="text-tier-free text-lg">&#x2191;</span>;
   if (direction === 'negative') return <span className="text-tier-most-restrictive text-lg">&#x2193;</span>;
-  return <span className="text-cream text-lg">&#x2014;</span>;
+  return <span className="text-cream text-lg">&ndash;</span>;
 }
 
 export default function OutcomesPage() {

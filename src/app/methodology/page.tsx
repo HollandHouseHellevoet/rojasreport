@@ -66,7 +66,7 @@ export default function MethodologyIndex() {
               body: 'An Alliance calculation from reported inputs. The method is on one of the three pages below, and the source line shows the inputs and the arithmetic.',
             },
             {
-              term: <>Pending <span className="font-display text-[22px] text-muted">&mdash;</span></>,
+              term: <>Pending <span className="font-display text-[22px] text-muted">&ndash;</span></>,
               body: 'A line still being built from source filings. It shows as a dash, never as a guess, and it is left out of every total until it is filled.',
             },
           ]}
