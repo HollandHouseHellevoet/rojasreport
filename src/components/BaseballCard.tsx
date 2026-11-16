@@ -163,7 +163,7 @@ export default function BaseballCard({ state }: BaseballCardProps) {
             Share
           </button>
           <Link
-            href={`/compare/?states=${state.abbreviation}`}
+            href={`/con/compare/?states=${state.abbreviation}`}
             className="inline-flex items-center justify-center gap-2 font-body text-sm font-semibold text-cream border border-ink/20 hover:text-cream hover:border-ink/40 px-4 py-2.5 transition-colors rounded-sm"
           >
             Compare
