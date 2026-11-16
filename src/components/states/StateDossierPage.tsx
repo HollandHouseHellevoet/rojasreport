@@ -218,11 +218,11 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
               {d.buy.options.map((o) => (
                 <Link
                   key={o.label}
-                  href="/reports/"
+                  href="/contact/"
                   className={`flex justify-between gap-4 px-5 py-4 ${o.primary ? 'bg-green text-paper hover:bg-ink' : 'border border-ink hover:text-oxblood hover:border-oxblood'}`}
                 >
                   <span>{o.label}</span>
-                  <span className="whitespace-nowrap">{o.price ? `${o.price}${o.perYear ? '/yr' : ''}` : 'Price pending'}</span>
+                  <span className="whitespace-nowrap">Request</span>
                 </Link>
               ))}
             </div>

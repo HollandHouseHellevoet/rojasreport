@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: ILLINOIS
-  The Rojas Report | conlaws.rojasreport.com/states/illinois/
+  The Alliance for Healthcare Competition | tafhc.org/states/illinois/
 ==============================================================================
 
   State:    Illinois (IL)
@@ -72,7 +72,7 @@ protect incumbents from competition, but potentially to punish those who
 challenge the system itself.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/illinois/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/illinois/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

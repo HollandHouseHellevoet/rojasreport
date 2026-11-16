@@ -7,7 +7,7 @@ import SectionHeader from '@/components/SectionHeader';
 export const metadata: Metadata = makeMetadata({
   title: 'CON Repeal Outcomes | What Happens After Reform',
   description: 'Before-and-after data from states that reformed their Certificate of Need laws. Florida (2019), Montana (2021), South Carolina (2024). New facilities, rural access, cost trends.',
-  path: '/outcomes/',
+  path: '/con/outcomes/',
   ogImage: '/og/outcomes.svg',
 });
 
@@ -135,10 +135,10 @@ export default function OutcomesPage() {
             its CON law has reversed course.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-4">
-            <Link href="/reform/" className="font-body text-sm font-semibold text-orange hover:text-orange-light border border-orange/30 px-6 py-3 hover:border-orange/60 transition-colors">
+            <Link href="/con/reform/" className="font-body text-sm font-semibold text-orange hover:text-orange-light border border-orange/30 px-6 py-3 hover:border-orange/60 transition-colors">
               View Reform Tracker
             </Link>
-            <Link href="/evidence/" className="font-body text-sm font-semibold text-cream hover:text-cream border border-ink/10 px-6 py-3 hover:border-ink/30 transition-colors">
+            <Link href="/con/evidence/" className="font-body text-sm font-semibold text-cream hover:text-cream border border-ink/10 px-6 py-3 hover:border-ink/30 transition-colors">
               View Research Evidence
             </Link>
           </div>

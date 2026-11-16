@@ -1,4 +1,5 @@
 import { sections } from '@/lib/home';
+import { insights } from '@/lib/insights';
 import { getAllStates } from '@/lib/data';
 import ahaProfiles from '@/data/aha/profiles.json';
 import hacMembers from '@/data/hac/members.json';
@@ -35,7 +36,23 @@ export function buildSearchIndex(): SearchEntry[] {
       out.push({ title: m.name, kind: `${m.party} · ${c.name}`, href: `/committees/${c.slug}/#scorecard` });
     }
   }
-  out.push({ title: 'Reports and data', kind: 'Datasets', href: '/reports/' });
+  out.push({ title: 'Our fights', kind: 'Fight', href: '/fights/' });
+  out.push({ title: 'Site-neutral payment', kind: 'Fight', href: '/fights/site-neutral/' });
+  out.push({ title: '340B reform', kind: 'Fight', href: '/fights/340b/' });
+  out.push({ title: 'Physician ownership and Section 6001', kind: 'Fight', href: '/fights/physician-ownership/' });
+  out.push({ title: 'The Tracker: where the fights stand', kind: 'Tracker', href: '/tracker/' });
+  out.push({ title: 'Research', kind: 'Section', href: '/research/' });
+  out.push({ title: 'Insights: reports, briefs and data', kind: 'Insights', href: '/insights/' });
+  for (const i of insights) out.push({ title: i.title, kind: `${i.format} · ${i.issue}`, href: `/insights/${i.slug}/` });
+  out.push({ title: 'How we win', kind: 'The Alliance', href: '/how-we-win/' });
+  out.push({ title: 'About the Alliance', kind: 'The Alliance', href: '/about/' });
+  out.push({ title: 'For independent physicians', kind: 'Membership', href: '/physicians/' });
+  out.push({ title: 'The Council', kind: 'Membership', href: '/physicians/council/' });
+  out.push({ title: 'For partners', kind: 'Partners', href: '/partners/' });
+  out.push({ title: 'Newsroom', kind: 'The Alliance', href: '/newsroom/' });
+  out.push({ title: 'Contact', kind: 'The Alliance', href: '/contact/' });
+  out.push({ title: 'Corrections', kind: 'The Alliance', href: '/corrections/' });
+  out.push({ title: 'The founder’s column', kind: 'The Alliance', href: '/founder/' });
   out.push({ title: 'Join the Alliance', kind: 'Membership', href: '/physicians/join/' });
   out.push({ title: 'Give to the Alliance', kind: 'Membership', href: '/give/' });
   out.push({ title: 'Methodology', kind: 'Methodology', href: '/methodology/' });

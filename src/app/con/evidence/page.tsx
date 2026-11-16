@@ -7,7 +7,7 @@ import QuickStat from '@/components/QuickStat';
 export const metadata: Metadata = makeMetadata({
   title: 'The Evidence Against CON Laws | Research',
   description: 'FTC, DOJ, Mercatus Center, and academic research findings on how Certificate of Need laws reduce competition, raise costs, and harm patients.',
-  path: '/evidence/',
+  path: '/con/evidence/',
   ogImage: '/og/evidence.svg',
 });
 

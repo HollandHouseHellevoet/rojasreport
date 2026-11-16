@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: HAWAII
-  The Rojas Report | conlaws.rojasreport.com/states/hawaii/
+  The Alliance for Healthcare Competition | tafhc.org/states/hawaii/
 ==============================================================================
 
   State:    Hawaii (HI)
@@ -52,7 +52,7 @@ incumbent providers.
 repealed and remains one of the strictest in the nation.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/hawaii/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/hawaii/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

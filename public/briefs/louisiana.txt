@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: LOUISIANA
-  The Rojas Report | conlaws.rojasreport.com/states/louisiana/
+  The Alliance for Healthcare Competition | tafhc.org/states/louisiana/
 ==============================================================================
 
   State:    Louisiana (LA)
@@ -49,7 +49,7 @@ Orleans and Baton Rouge.
   Blocked: Sivad Home and Community Services
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/louisiana/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/louisiana/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

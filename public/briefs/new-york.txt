@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: NEW YORK
-  The Rojas Report | conlaws.rojasreport.com/states/new-york/
+  The Alliance for Healthcare Competition | tafhc.org/states/new-york/
 ==============================================================================
 
   State:    New York (NY)
@@ -75,7 +75,7 @@ ensured that patients would continue to have fewer choices and be forced to
 seek care in higher-cost hospital settings, benefiting the incumbent systems.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/new-york/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/new-york/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

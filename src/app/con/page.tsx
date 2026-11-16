@@ -141,7 +141,7 @@ export default function ConHomePage() {
           <EvidencePreview />
           <div className="mt-6">
             <Link
-              href="/evidence/"
+              href="/con/evidence/"
               className="font-body text-sm font-semibold text-orange hover:text-orange-light transition-colors"
             >
               Read the full investigation &rarr;
@@ -215,7 +215,7 @@ export default function ConHomePage() {
 
           <div className="mt-8 text-center">
             <Link
-              href="/rankings/"
+              href="/con/rankings/"
               className="inline-block font-body text-sm font-semibold text-orange hover:text-orange-light transition-colors"
             >
               View Full 51-Jurisdiction Rankings &rarr;

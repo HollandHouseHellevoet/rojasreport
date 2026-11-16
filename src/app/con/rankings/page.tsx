@@ -7,7 +7,7 @@ import RankingsTable from '@/components/RankingsTable';
 export const metadata: Metadata = makeMetadata({
   title: 'CON Law Rankings | 50-State Certificate of Need Index | The Alliance for Healthcare Competition',
   description: 'All 51 jurisdictions ranked by CON law restrictiveness. Scores from 0 (free market) to 100 (most restrictive). Click any state for the full intelligence dossier.',
-  path: '/rankings/',
+  path: '/con/rankings/',
   ogImage: '/og/rankings.svg',
 });
 

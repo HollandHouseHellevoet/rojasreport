@@ -9,6 +9,7 @@ import { stateDossiers } from '@/lib/stateDossiers';
 import { committees } from '@/lib/committees';
 import { WM_BASE, wmMembers, wmVotes } from '@/lib/wm';
 import { POH_BASE, pohStates } from '@/lib/poh';
+import { insights } from '@/lib/insights';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://tafhc.org';
@@ -16,6 +17,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages = [
     { url: `${baseUrl}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 1.0 },
+    // The Alliance pages (November 2026 merge). Thanks pages and Reports & Data are noindex and stay out.
+    { url: `${baseUrl}/fights/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 1.0 },
+    { url: `${baseUrl}/fights/site-neutral/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/fights/340b/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/fights/physician-ownership/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/research/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
+    { url: `${baseUrl}/insights/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    ...insights.map((i) => ({ url: `${baseUrl}/insights/${i.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 })),
+    { url: `${baseUrl}/how-we-win/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/physicians/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/physicians/join/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/physicians/council/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
+    { url: `${baseUrl}/give/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/partners/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/about/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/founder/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.5 },
+    { url: `${baseUrl}/newsroom/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.5 },
+    { url: `${baseUrl}/contact/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.4 },
+    { url: `${baseUrl}/corrections/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.4 },
+    { url: `${baseUrl}/privacy/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.2 },
+    { url: `${baseUrl}/terms/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.2 },
     { url: `${baseUrl}/con/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${baseUrl}/academic/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
     { url: `${baseUrl}/drivers/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
@@ -26,15 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/government/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${baseUrl}/lobby/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${baseUrl}/tracker/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
-    { url: `${baseUrl}/reports/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/support/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.6 },
-    { url: `${baseUrl}/rankings/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
-    { url: `${baseUrl}/scope/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${baseUrl}/compare/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
-    { url: `${baseUrl}/evidence/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/reform/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
-    { url: `${baseUrl}/outcomes/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/timeline/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
+    { url: `${baseUrl}/con/rankings/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.9 },
+    { url: `${baseUrl}/con/scope/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/con/compare/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
+    { url: `${baseUrl}/con/evidence/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/con/reform/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
+    { url: `${baseUrl}/con/outcomes/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 },
+    { url: `${baseUrl}/con/timeline/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
     { url: `${baseUrl}/methodology/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.6 },
     { url: `${baseUrl}/methodology/subsidy-ledger/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },
     { url: `${baseUrl}/methodology/state-grade/`, lastModified: now, changeFrequency: 'yearly' as const, priority: 0.5 },

@@ -1,4 +1,4 @@
-/* Scoped styles for /academic/ (ported from academic.rojasreport.com). Every rule is under .amc */
+/* Scoped styles for /academic/ (ported from the former academic subdomain). Every rule is under .amc */
 .amc *, .amc *::before, .amc *::after { box-sizing: border-box; margin: 0; padding: 0; }
 .amc {
   --deep-navy: #F4EFE6;

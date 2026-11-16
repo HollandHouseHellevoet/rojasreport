@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: DELAWARE
-  The Rojas Report | conlaws.rojasreport.com/states/delaware/
+  The Alliance for Healthcare Competition | tafhc.org/states/delaware/
 ==============================================================================
 
   State:    Delaware (DE)
@@ -53,7 +53,7 @@ systems, even a moderate regulatory barrier locks in the existing market
 structure.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/delaware/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/delaware/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================
