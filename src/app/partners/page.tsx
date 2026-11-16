@@ -1,86 +1,71 @@
 import type { Metadata } from 'next';
-import { Hero, Block, Grid, Apply, Independence } from '@/components/membership/Membership';
+import { Band, Hero, SectionHead } from '@/components/alliance/ui';
+import { Field, Form } from '@/components/alliance/Form';
+import SentNotice from '@/components/alliance/SentNotice';
+import JsonLd from '@/components/alliance/JsonLd';
+import JoinBand from '@/components/JoinBand';
+import { breadcrumbsJsonLd, makeMetadata } from '@/lib/seo';
 
-// Dormant: not linked from the site, not in the sitemap, not indexed.
-export const metadata: Metadata = {
-  title: 'Rojas Intelligence Partners',
-  description: "The Rojas Report's intelligence, briefed to your team, on your issues, before it's public.",
-  robots: { index: false, follow: false, nocache: true },
-};
+// Partner is by application only, no public price (Dutch, November 16, 2026). This page replaces the Rojas
+// Intelligence Partners page that lived at this address; nothing is sold here.
+export const metadata: Metadata = makeMetadata({
+  title: 'For Partners',
+  description: 'Employers, payers, manufacturers, physician-owned hospitals, REITs and ASC developers share one interest with independent physicians: competition. Partnership is by application.',
+  path: '/partners/',
+});
 
-const ROWS: [string, string, string][] = [
-  ['Private quarterly briefing for your team, live with Dutch (90 min)', '4 a year', '4 a year + 2 on demand'],
-  ['Issue lanes tracked, with alerts when anything moves', '3', '6'],
-  ["Custom data pulls (a system's pay, a committee's votes, a lobbying map)", '8 a year', '20 a year'],
-  ['Early look at investigations before publication', '72 hours', '2 weeks'],
-  ['Monthly Partners call, off the record', 'Included', 'Included'],
-  ['Named analyst contact, two-business-day response', 'Included', 'Included'],
-  ['Seats at a Builders Table cigar dinner', '1 a year', '2 a year'],
+const groups = [
+  { id: 'employers', h: 'Employers and employer coalitions', p: 'Self-funded employers pay the hospital bill as priced. Site-neutral payment removes the facility fee from the price of office-level care; 340B reporting shows what the rest of the bill contains. Neither touches a benefit. The Alliance brings the physicians who can say so in every district.' },
+  { id: 'payers', h: 'Payers and manufacturers', p: 'Payers pay hospital rates for office-level care. Manufacturers sell at 340B prices and watch the discount stop short of the patient. The Alliance puts a physician ally in the hearing room beside them, on the record, with sourced data.' },
+  { id: 'owners', h: 'Physician-owned hospitals, REITs and ASC developers', p: 'The owners and builders of physician-led facilities compete against Section 6001 and the rules that could reach the surgery center next. The Alliance carries the repeal bill and the statute that would put physician ownership beyond a rulemaking.' },
+  { id: 'societies', h: 'Medical societies', p: 'Specialty and state societies carry the physicians. The Alliance carries the fights. A society that joins keeps its own voice and adds a lobbying operation that works on the three rules its members name first.' },
 ];
 
-export default function PartnersPage() {
+export default function Page() {
   return (
     <>
-      <Hero
-        eyebrow="Rojas Intelligence Partners · by application"
-        title="The intelligence, briefed to your team, before it's public."
-        lede="A standing briefing on the fights that move your organization's money: who is moving, where the money is, and what happens next."
-      />
+      <JsonLd data={breadcrumbsJsonLd([{ name: 'For Partners', path: '/partners/' }])} />
+      <Hero eyebrow="For partners" title="The parties who pay for care and the physicians who deliver it share one interest." text="Competition. Partners do not need to agree on everything to agree on this. The Alliance gives employers, payers, manufacturers, physician-owned hospitals, REITs and ASC developers a confidential path to its leadership. Partnership is by application." primary={{ label: 'Apply to partner', href: '#apply' }} />
 
-      <Block label="Who it serves" title="Institutions with money on the line">
-        <Grid
-          items={[
-            { title: 'Pharmaceutical manufacturers', body: 'The 340B program, site-neutral payment, drug pricing and state contract-pharmacy bills.' },
-            { title: 'Payers and PBMs', body: 'Hospital pricing, consolidation, price transparency and provider-tax fights.' },
-            { title: 'Self-insured employers and benefit consultants', body: 'What hospitals charge, where to steer, and how to contract directly.' },
-            { title: 'Investors', body: 'Which rules change which markets, before they change.' },
-            { title: 'Law and lobbying firms', body: 'Players, money and status on every fight your clients care about.' },
-            { title: 'Physician groups and MSOs', body: 'CON, the physician-owned hospital ban, Stark, and how to compete with the systems.' },
-            { title: 'Device and diagnostics companies', body: 'Site-neutral payment, outpatient migration and facility fees.' },
-          ]}
-        />
-      </Block>
-
-      <Block label="Membership" title="Two levels">
-        <div className="overflow-x-auto border border-ink/10">
-          <table className="w-full min-w-[620px] font-body text-sm">
-            <thead>
-              <tr className="border-b border-ink/10 text-left">
-                <th className="p-4 font-semibold text-cream"></th>
-                <th className="p-4">
-                  <span className="block font-tight font-bold tracking-[-0.015em] text-[20px] text-cream">Standard</span>
-                  <span className="block text-orange font-semibold mt-1">$75,000 a year</span>
-                </th>
-                <th className="p-4">
-                  <span className="block font-tight font-bold tracking-[-0.015em] text-[20px] text-cream">Plus</span>
-                  <span className="block text-orange font-semibold mt-1">$150,000 a year</span>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {ROWS.map(([label, std, plus]) => (
-                <tr key={label} className="border-b border-ink/10 last:border-0">
-                  <td className="p-4 text-cream">{label}</td>
-                  <td className="p-4 text-cream tabular-nums">{std}</td>
-                  <td className="p-4 text-cream tabular-nums">{plus}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+      <Band label="Who partners with the Alliance">
+        <SectionHead eyebrow="Who partners with the Alliance" title="Four kinds of partner. One ask." text="Partnership is by application and its terms are set with leadership. The Alliance publishes no partner names, tiers, titles or logos." />
+        <div className="grid gap-10 md:grid-cols-2">
+          {groups.map((g) => (
+            <section key={g.id} id={g.id} className="flex flex-col gap-3.5 pt-5 border-t-2 border-ink" aria-labelledby={`${g.id}-h`}>
+              <h3 id={`${g.id}-h`} className="font-tight font-bold text-[22px] leading-[1.15] tracking-[-0.02em]">{g.h}</h3>
+              <p className="text-[15px] leading-[1.55]">{g.p}</p>
+            </section>
+          ))}
         </div>
-        <p className="font-body text-cream text-sm mt-6 max-w-2xl leading-relaxed">
-          Annual, paid in advance. Briefings and calls are off the record. Custom research, strategy and exclusive work are available separately.
-        </p>
-        <p className="font-body text-cream text-sm mt-3 max-w-2xl leading-relaxed">
-          Rojas Intelligence Partners is sold by Rojas Intelligence, a brand of Rojas Media.
-        </p>
-      </Block>
+      </Band>
 
-      <Apply
-        subject="Rojas Intelligence Partners application"
-        note="Tell us about your organization and the issues that matter most to it. Seats are limited, and every application is reviewed personally."
-      />
-      <Independence />
+      <Band dark id="apply" label="Apply to partner">
+        <div className="grid gap-10 lg:grid-cols-12">
+          <div className="lg:col-span-4 flex flex-col gap-5 self-start">
+            <p className="font-tight text-[13px] font-semibold uppercase tracking-[0.14em] text-ink-text">Apply to partner</p>
+            <h2 className="font-tight font-bold leading-[1.05] tracking-[-0.03em] text-[32px] md:text-[44px]">Reach leadership directly.</h2>
+            <p className="text-ink-text-2 text-[16px] leading-[1.55]">The application goes to the Alliance’s leadership, not to a sales queue. Expect a direct reply within two business days. Nothing you send is published or shared.</p>
+          </div>
+          <div className="lg:col-span-7 lg:col-start-6">
+            <SentNotice messages={{ partner: 'Thank you. Your application went to leadership and will be treated as confidential. Expect a direct reply within two business days.' }} />
+            <Form name="partner-application" subject="TAFHC Partner Application" action="/partners/?sent=partner#apply" submit="Send to leadership" note="Confidential. Not shared outside the Alliance’s leadership." dark>
+              <Field label="Name" id="p-name"><input id="p-name" name="name" type="text" required autoComplete="name" /></Field>
+              <Field label="Organization" id="p-org"><input id="p-org" name="organization" type="text" required autoComplete="organization" /></Field>
+              <Field label="Sector" id="p-sector">
+                <select id="p-sector" name="sector" required defaultValue="">
+                  <option value="">Choose one</option>
+                  <option>Employer</option><option>Employer coalition</option><option>Payer</option><option>Manufacturer</option><option>Physician-owned hospital</option><option>REIT</option><option>ASC developer</option><option>Medical society</option><option>Other</option>
+                </select>
+              </Field>
+              <Field label="Email" id="p-email"><input id="p-email" name="email" type="email" required autoComplete="email" /></Field>
+              <Field label="Phone" id="p-phone"><input id="p-phone" name="phone" type="tel" autoComplete="tel" /></Field>
+              <Field label="Message" id="p-msg" full><textarea id="p-msg" name="message" rows={5} required /></Field>
+            </Form>
+          </div>
+        </div>
+      </Band>
+
+      <JoinBand partner />
     </>
   );
 }
