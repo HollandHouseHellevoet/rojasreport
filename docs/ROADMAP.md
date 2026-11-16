@@ -84,7 +84,7 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | Q0 | Merge PR 7 (physician-owned hospitals, 176 hospitals, 30 states). Switch on POH redirects. | PR 7 merged; every old poh URL 301s to its new path; redirect map in `docs/redirects.md` | none | DONE 2026-11-16. PR 7 merged; old poh URLs 301 (RojasReportIntelligence PRs 3 and 4); map in `docs/redirects.md` |
 | Q1 | conlaws.rojasreport.com redirect | DNS record added in Netlify; the conlaws front page 301s to `/con/` and every other old path 301s to the same path here (D-11); spot-check 10 old links | D-5 | IN PR (PR 8). Alias and DNS record live 2026-11-14 (wildcard cert covers it). Path-preserving per D-11 |
 | Q2 | CON count reconciliation | All copy says 35 jurisdictions (34 states and D.C.). Grep the repo for "36" near CON terms, including section index tables and llms.txt. Reconcile with the "36 states have CON pages" figure: document which pages cover states with no current CON law (repeal history) and label them that way. Confirm D.C. status: it has CON but appears on the "no page" list. | PR 8 | IN PR (PR 8), partial. D.C. has a page (`data/states/washington-dc.json`); the audit's no-page list wrongly included it. Labelling still to do |
-| Q3 | Build-time source check | Build step fails on any figure missing `value`, `basis`, `source`, or `as_of`. Run once in report mode first, fix every violation, then switch to fail mode. | none | IN PR (PR 8), partial. Covers figures in the brief's format (99 today, all pass); desk data with its own source fields not yet covered (Intake) |
+| Q3 | Build-time source check | Build step fails on any figure missing `value`, `basis`, `source`, or `as_of`. Run once in report mode first, fix every violation, then switch to fail mode. | none | DONE 2026-11-16. `check-sources.mjs` covers figures in the brief's format (99); `check-desks.mjs` covers Ways and Means and physician-owned hospitals data (2,261 checks: a dated source on every record, page counts equal records). Both run in prebuild |
 | Q4 | AHA pages at 375px | Main AHA page has zero horizontal overflow at 375px; power map table scrolls inside its own container | wait for the other session's AHA commits | IN PR (PR 8). Fixed on its own branch; the other session's edits are untouched |
 | Q5 | Mike Thompson (CA-04) status | Member page and committee page reflect the AP call, with date. Until the call, page reads "not called" with the as-of date. | AP call | WAITING (not called as of 2026-11-13) |
 | Q6 | Greg Murphy (NC-03) status | Status confirmed against the official canvass; member and committee pages updated with as-of date | canvass result | WAITING (pages show his November 11 concession on unofficial returns) |
@@ -210,6 +210,7 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-14 | Audit | Branch `claude/physicians-about` (another session) built `/physicians/` and an About page; no PR was opened. Review and PR, or close. | XS |
 
 ---
+| 2026-11-16 | Q3 | This roadmap predates the merger into the Alliance at tafhc.org (PR 13). Several items conflict with the merger decisions: the "no other businesses" rule names the Alliance, the Machine Score waits, three fights only, Reports & Data off at launch, Support becomes Alliance giving. The roadmap needs one pass to match the merger plan before Phase 1 work starts. | S |
 
 ## 11. Log
 
@@ -226,4 +227,5 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-16 | PRs 7, 8, 9 | PRs 7, 8, 9 | DONE | Merged by Dutch's go-ahead; POH desk, quick fixes and roadmap live; all 240 conlaws paths load |
 | 2026-11-16 | Q0 | this PR | DONE | Old poh URLs 301 (RojasReportIntelligence PRs 3 and 4, rules forced); all 38 old pages checked |
 | 2026-11-16 | Q7 | this PR | DONE | Retirement windows for each old project in `docs/redirects.md` |
+| 2026-11-16 | Q3 | this PR | DONE | Desk data gate added; one undated POH source (Nix, San Antonio Report) dated October 24, 2024 |
 | 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |

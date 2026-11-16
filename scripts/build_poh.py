@@ -54,6 +54,9 @@ OVERRIDES = {
         'fact': 'CMS shows its Medicare agreement ended July 1, 2015. A burst pipe flooded the building on August 19, 2025. No source confirms it closed.',
         'source': POS_URL, 'sourceLabel': POS, 'sourceDate': '2026-09-30',
     },
+    'Nix Health Care System': {
+        'sourceLabel': 'San Antonio Report, October 24, 2024', 'sourceDate': '2024-10-24',
+    },
     'The Heart Hospital Baylor Plano': {
         'owner': 'Baylor Scott & White (Baylor Regional Medical Center at Plano, 51%) with physician partners',
         'fact': 'CMS lists Baylor Regional Medical Center at Plano at 51% since February 1, 2025, beside physician partners.',
@@ -185,7 +188,7 @@ def main():
         'states': states,
         'dropped': dropped,
         'latestSourceDate': dates[-1] if dates else None,
-        'method': 'Each hospital on the March 2026 Rojas Report list was re-checked in November 2026 against CMS Hospital All Owners and enrollment data (September 29, 2026 release), CMS Provider of Services and Hospital General Information files, hospital websites, SEC and SEDAR filings, court records and news. One dated source is cited per hospital.',
+        'method': 'Each hospital on the March 2026 list was re-checked in November 2026 against CMS Hospital All Owners and enrollment data (September 29, 2026 release), CMS Provider of Services and Hospital General Information files, hospital websites, SEC and SEDAR filings, court records and news. One dated source is cited per hospital.',
     }
 
     os.makedirs(OUT, exist_ok=True)
