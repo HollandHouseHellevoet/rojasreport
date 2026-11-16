@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getOutcomes } from '@/lib/data';
+import { getOutcomes, getAllStateSlugs } from '@/lib/data';
+import { stateDossiers } from '@/lib/stateDossiers';
 import { makeMetadata } from '@/lib/seo';
 import SectionHeader from '@/components/SectionHeader';
 
@@ -19,6 +20,8 @@ function DirectionIcon({ direction }: { direction: string }) {
 
 export default function OutcomesPage() {
   const outcomes = getOutcomes();
+  // Link a state's name only when /states/[slug]/ is built (same list as generateStaticParams there).
+  const statePages = new Set([...getAllStateSlugs(), ...stateDossiers.map((d) => d.slug)]);
 
   return (
     <>
@@ -53,9 +56,13 @@ export default function OutcomesPage() {
                   </span>
                 </div>
                 <h2 className="font-display text-[32px] md:text-[40px] text-cream">
-                  <Link href={`/states/${outcome.slug}/`} className="hover:text-orange transition-colors">
-                    {outcome.state}
-                  </Link>
+                  {statePages.has(outcome.slug) ? (
+                    <Link href={`/states/${outcome.slug}/`} className="hover:text-orange transition-colors">
+                      {outcome.state}
+                    </Link>
+                  ) : (
+                    outcome.state
+                  )}
                 </h2>
                 <p className="mt-2 font-body text-sm text-cream leading-relaxed max-w-2xl">
                   {outcome.description}
