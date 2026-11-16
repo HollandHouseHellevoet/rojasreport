@@ -36,10 +36,10 @@ export default function GetIntelligence({ label = 'Get the intelligence' }: { la
             <a href={NEWSLETTER_URL} className={`${textlink} self-start hover:text-oxblood`}>Subscribe free <Arrow /></a>
           </article>
           <article className="bg-paper-2 p-8 flex flex-col gap-4">
-            <div className="border-t-2 border-ink pt-5"><span className={`${tag} border-ink`}>Reports &amp; datasets</span></div>
+            <div className="border-t-2 border-ink pt-5"><span className={`${tag} border-ink`}>Free · The list</span></div>
             <h3 className="font-tight font-bold text-[26px] leading-[1.15] tracking-[-0.02em]">Physician-Owned Hospitals</h3>
-            <p className="text-[16px] leading-[1.55] flex-grow">Every POH in the country, with ownership, contacts and state context. $300 per state, or $3,500 a year for all access.</p>
-            <Link href="/reports/" className={`${textlink} self-start hover:text-oxblood`}>Browse reports <Arrow /></Link>
+            <p className="text-[16px] leading-[1.55] flex-grow">Every hospital on the Rojas Report list, re-checked in November 2026, with its owner and a dated source.</p>
+            <Link href="/poh/hospitals/" className={`${textlink} self-start hover:text-oxblood`}>See the list <Arrow /></Link>
           </article>
           <article className="bg-ink text-paper p-8 flex flex-col gap-4">
             <div className="border-t-2 border-oxblood-rule pt-5"><span className={`${tag} border-ink-text`}>Membership · 100 seats</span></div>

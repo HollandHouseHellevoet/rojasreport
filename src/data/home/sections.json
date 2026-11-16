@@ -141,9 +141,9 @@
     "desks": [
       {
         "name": "Physician-owned hospitals",
-        "href": "https://poh.rojasreport.com",
+        "href": "/poh/",
         "status": "live",
-        "blurb": "Every physician-owned hospital in the country, with ownership and state context."
+        "blurb": "Every hospital on the Rojas Report list, re-checked in November 2026: who still owns it, who bought it, and which closed."
       },
       {
         "name": "Ambulatory surgery centers",
