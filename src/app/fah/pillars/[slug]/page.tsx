@@ -17,13 +17,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!p) return {};
   const title = `${p.title}: Where FAH Stands (Pillar ${p.number})`;
   const description = `${p.fahPosition} ${p.status2026[0]?.text || ""}`.slice(0, 155);
-  const url = `https://rojasreport.com/fah/pillars/${p.slug}/`;
+  const url = `https://tafhc.org/fah/pillars/${p.slug}/`;
   return {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: "The Rojas Report", type: "article" },
-    twitter: { card: "summary_large_image", title, description, site: "@TheRojasReport" },
+    openGraph: { title, description, url, siteName: "The Alliance for Healthcare Competition", type: "article" },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 

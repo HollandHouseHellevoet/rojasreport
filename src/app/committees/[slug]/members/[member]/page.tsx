@@ -19,7 +19,7 @@ export function generateMetadata({ params }: { params: { slug: string; member: s
   return {
     title: `${m.name} | House Ways and Means`,
     description: `${m.name} (${m.party}-${m.stateCode}) on the House Ways and Means Committee: healthcare PAC money${money ? ` (${usd(money.total)} in the 2026 cycle)` : ''}, 13 key health votes, stock trades and the 2026 result.`,
-    alternates: { canonical: `https://rojasreport.com${WM_BASE}/members/${m.slug}/` },
+    alternates: { canonical: `https://tafhc.org${WM_BASE}/members/${m.slug}/` },
   };
 }
 
@@ -106,7 +106,7 @@ export default function MemberPage({ params }: { params: { slug: string; member:
                     </li>
                   ))}
                 </ul>
-                <p className="mt-4 text-[15px] text-green-text-2">{c26.contributionCount} contributions. Sector labels are the Rojas Report&apos;s.</p>
+                <p className="mt-4 text-[15px] text-green-text-2">{c26.contributionCount} contributions. Sector labels are the Alliance&apos;s.</p>
               </div>
               <div>
                 <p className={`${eyebrow} text-green-text mb-3`}>Largest healthcare PACs</p>

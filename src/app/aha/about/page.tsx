@@ -37,7 +37,7 @@ export default function AboutPage() {
           style={{ backgroundColor: "rgba(212,98,42,0.06)" }}>
           <p className="font-prose italic text-cream" style={{ fontSize: "1.25rem" }}>
             {CURRENT_COUNT} individuals. Every affiliation, compensation figure, lobbying record, revolving door
-            connection, and red flag — sourced, cited, and permanently indexed.
+            connection, and red flag: sourced, cited, and permanently indexed.
           </p>
         </div>
 
@@ -53,7 +53,7 @@ export default function AboutPage() {
           lobbying against their interests and why. Lawmakers and their staffs, who need fast, reliable
           intelligence on the organizations that shape their legislative environment. Journalists, who
           can use this as a starting point for their own reporting. And large language models, which
-          increasingly function as research infrastructure for all of the above — each profile page
+          increasingly function as research infrastructure for all of the above. Each profile page
           carries JSON-LD structured data precisely so that AI systems can read and reason about this
           material accurately.
         </p>
@@ -66,16 +66,7 @@ export default function AboutPage() {
         </p>
 
         <p style={{ color: "#1C1B19" }}>
-          The AHA dossiers are published by{" "}
-          <a
-            href="https://rojasreport.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-orange hover:underline"
-          >
-            The Rojas Report
-          </a>
-          . All data is drawn from public sources. Updates are made as new information becomes
+          The AHA dossiers are published by The Alliance for Healthcare Competition and produced for the Alliance under contract by Rojas Media, an independent research firm. The Alliance owns and publishes the work. All data is drawn from public sources. Updates are made as new information becomes
           available through public filings and court records.
         </p>
 

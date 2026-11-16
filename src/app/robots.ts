@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://rojasreport.com/sitemap.xml',
+    sitemap: 'https://tafhc.org/sitemap.xml',
   };
 }

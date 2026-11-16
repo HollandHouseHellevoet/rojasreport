@@ -1,4 +1,4 @@
-export const metadata = { title: "Privacy Policy", alternates: { canonical: "https://rojasreport.com/privacy/" } };
+export const metadata = { title: "Privacy Policy", alternates: { canonical: "https://tafhc.org/privacy/" } };
 
 export default function PrivacyPage() {
   return (
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
 
       <section className="mb-8">
         <h2 className="font-body text-lg font-semibold text-cream mb-2">Contact</h2>
-        <p className="font-body leading-relaxed">Questions: <a href="mailto:info@rojasreport.com" className="text-orange hover:underline">info@rojasreport.com</a></p>
+        <p className="font-body leading-relaxed">Questions: <a href="mailto:info@tafhc.org" className="text-orange hover:underline">info@tafhc.org</a></p>
       </section>
     </div>
   );

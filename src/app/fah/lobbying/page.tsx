@@ -10,9 +10,9 @@ const DESC = "How the Federation of American Hospitals lobbies: annual spending 
 export const metadata: Metadata = {
   title: "FAH Lobbying: The Machine",
   description: DESC,
-  alternates: { canonical: "https://rojasreport.com/fah/lobbying/" },
-  openGraph: { title: "FAH Lobbying | The Rojas Report", description: DESC, url: "https://rojasreport.com/fah/lobbying/", siteName: "The Rojas Report", type: "article" },
-  twitter: { card: "summary_large_image", title: "FAH Lobbying | The Rojas Report", description: DESC, site: "@TheRojasReport" },
+  alternates: { canonical: "https://tafhc.org/fah/lobbying/" },
+  openGraph: { title: "FAH Lobbying | The Alliance for Healthcare Competition", description: DESC, url: "https://tafhc.org/fah/lobbying/", siteName: "The Alliance for Healthcare Competition", type: "article" },
+  twitter: { card: "summary_large_image", title: "FAH Lobbying | The Alliance for Healthcare Competition", description: DESC },
 };
 
 function Section({ label, title, children }: { label: string; title?: string; children: React.ReactNode }) {

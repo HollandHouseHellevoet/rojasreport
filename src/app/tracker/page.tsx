@@ -6,7 +6,7 @@ import FightsTable from '@/components/home/FightsTable';
 export const metadata: Metadata = {
   title: 'The Tracker: where the fights stand',
   description: 'Every rule the hospital lobby is fighting, where it stands, and who is winning. Updated as rules land.',
-  alternates: { canonical: 'https://rojasreport.com/tracker/' },
+  alternates: { canonical: 'https://tafhc.org/tracker/' },
 };
 
 /** The full fights tracker. The home page shows the first five rows of the same file. */

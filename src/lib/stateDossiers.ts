@@ -134,7 +134,7 @@ export function money(n: number): string {
 /** Total margin as the cost report defines it: net income over net patient revenue plus other income. */
 export function margin(r: SystemRow): string {
   const base = r.netPatientRevenue + r.otherIncome;
-  if (base === 0) return '—';
+  if (base === 0) return '–';
   return `${((r.netIncome / base) * 100).toFixed(1)}%`;
 }
 

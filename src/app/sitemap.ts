@@ -11,7 +11,7 @@ import { WM_BASE, wmMembers, wmVotes } from '@/lib/wm';
 import { POH_BASE, pohStates } from '@/lib/poh';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://rojasreport.com';
+  const baseUrl = 'https://tafhc.org';
   const now = new Date().toISOString();
 
   const staticPages = [
@@ -78,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     .filter((d) => stateSlugs.includes(d.slug))
     .map((d) => ({ url: `${baseUrl}/con/${d.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 }));
 
-  const ahaBase = 'https://rojasreport.com/aha';
+  const ahaBase = 'https://tafhc.org/aha';
   const ahaPages = [
     { url: `${ahaBase}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${ahaBase}/powermap/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.8 },
@@ -91,7 +91,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const hacBase = 'https://rojasreport.com/hac';
+  const hacBase = 'https://tafhc.org/hac';
   const hacPages = [
     { url: `${hacBase}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${hacBase}/pattern-analysis/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },
@@ -103,7 +103,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
   ];
 
-  const fahBase = 'https://rojasreport.com/fah';
+  const fahBase = 'https://tafhc.org/fah';
   const fahPages = [
     { url: `${fahBase}/`, lastModified: now, changeFrequency: 'weekly' as const, priority: 0.9 },
     { url: `${fahBase}/pillars/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.8 },

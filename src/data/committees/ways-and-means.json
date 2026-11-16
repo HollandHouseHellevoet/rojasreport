@@ -873,7 +873,7 @@
         "label": "Request a briefing for staff",
         "price": "Contact →",
         "primary": false,
-        "href": "https://read.rojasreport.com/about"
+        "href": "/corrections/"
       }
     ]
   },

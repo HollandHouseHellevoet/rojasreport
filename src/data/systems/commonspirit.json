@@ -78,7 +78,7 @@
         "text": "of free care its cash and investments could pay for at today's level.",
         "note": "$20.46B ÷ $616.2M of charity care a year (Schedule H 7a, all hospital filers).",
         "basis": "estimated",
-        "source": "Rojas Report calculation: cash and investments $20,460M (annual report) divided by charity care at cost, net, $616,247,940 (Schedule H Part I Line 7a column (e), summed over the 61 hospital filers, FY2025) = 33.2",
+        "source": "Alliance calculation (subsidy ledger method, /methodology/subsidy-ledger/): cash and investments $20,460M (annual report) divided by charity care at cost, net, $616,247,940 (Schedule H Part I Line 7a column (e), summed over the 61 hospital filers, FY2025) = 33.2",
         "as_of": "2025-06-30"
       }
     ]
@@ -168,7 +168,7 @@
             "payer": "U.S. taxpayers",
             "basis": "estimated",
             "amount": 195510000,
-            "source": "Rojas Report estimate: excess of revenues over expenses attributable to CommonSpirit Health $944M less the $13M gain on early extinguishment of debt (FY2025 audited statements) = $931M, at the 21% federal corporate rate",
+            "source": "Alliance estimate (subsidy ledger method, /methodology/subsidy-ledger/): excess of revenues over expenses attributable to CommonSpirit Health $944M less the $13M gain on early extinguishment of debt (FY2025 audited statements) = $931M, at the 21% federal corporate rate",
             "as_of": "2025-06-30"
           },
           {
@@ -184,7 +184,7 @@
             "payer": "County and school district",
             "basis": "estimated",
             "amount": 204077112,
-            "source": "Rojas Report estimate: land, land improvements and buildings at gross historical cost, $14,792,897,912 (CMS cost reports, latest per hospital), times each state's published rural commercial property tax rate (Lincoln Institute of Land Policy, 50-State Property Tax Comparison Study); low case $204,077,112, high case $218,425,834",
+            "source": "Alliance estimate (subsidy ledger method, /methodology/subsidy-ledger/): land, land improvements and buildings at gross historical cost, $14,792,897,912 (CMS cost reports, latest per hospital), times each state's published rural commercial property tax rate (Lincoln Institute of Land Policy, 50-State Property Tax Comparison Study); low case $204,077,112, high case $218,425,834",
             "as_of": "2024-12-31"
           },
           {
@@ -192,7 +192,7 @@
             "payer": "State taxpayers",
             "basis": "estimated",
             "amount": 82300400,
-            "source": "Rojas Report estimate: the same $931M base at California's 8.84% corporation franchise tax rate (Cal. Rev. & Tax. Code section 23151), the headquarters-state rate without apportionment",
+            "source": "Alliance estimate (subsidy ledger method, /methodology/subsidy-ledger/): the same $931M base at California's 8.84% corporation franchise tax rate (Cal. Rev. & Tax. Code section 23151), the headquarters-state rate without apportionment",
             "as_of": "2025-06-30"
           },
           {
@@ -272,7 +272,7 @@
         ]
       }
     ],
-    "note": "“est.” marks a figure calculated by The Rojas Report; the method is on the methodology page. A dash marks a line still being built from source filings."
+    "note": "“est.” marks a figure calculated by the Alliance; the method is on the methodology page. A dash marks a line still being built from source filings."
   },
   "fairShareNote": "Free care is financial assistance at cost, net, as CommonSpirit's own hospital filers report it (Schedule H Line 7a, FY2025). The system's Medicare cost reports put it higher, at $864.9M (Worksheet S-10); on that basis the ratio is {s10ratio}. The ratio only rises as the open ledger lines fill.",
   "pay": {

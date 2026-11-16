@@ -7,8 +7,8 @@ import { MethodPage, Section, Formula, Defs, Band, Pending, prose, small, th, td
 
 export const metadata: Metadata = {
   title: 'The State Grade | Methodology',
-  description: 'How The Rojas Report grades a state: six cost drivers, one letter each, weighted into a single grade. The weights, the cutoffs and what makes a grade provisional.',
-  alternates: { canonical: 'https://rojasreport.com/methodology/state-grade/' },
+  description: 'How the Alliance grades a state: six cost drivers, one letter each, weighted into a single grade. The weights, the cutoffs and what makes a grade provisional.',
+  alternates: { canonical: 'https://tafhc.org/methodology/state-grade/' },
 };
 
 const drivers = [
@@ -87,7 +87,7 @@ export default function StateGradeMethod() {
             <div key={d.slug} className="max-w-[860px] mb-10">
               <h3 className="font-tight font-bold tracking-[-0.015em] text-[24px] mb-3">
                 <Link href={`/states/${d.slug}/`} className="hover:text-oxblood">{d.name}</Link>:{' '}
-                <span className={g.letter === 'A' || g.letter === 'B' ? 'text-green' : g.letter === 'C' ? 'text-gold' : 'text-oxblood'}>{g.letter ?? '—'}</span>
+                <span className={g.letter === 'A' || g.letter === 'B' ? 'text-green' : g.letter === 'C' ? 'text-gold' : 'text-oxblood'}>{g.letter ?? '–'}</span>
                 {g.provisional && <span className="italic text-[17px] text-muted ml-3">provisional, {word(g.graded)} of {word(g.total)} drivers</span>}
               </h3>
               <div className="table-scroll">
@@ -100,9 +100,9 @@ export default function StateGradeMethod() {
                       <tr key={x.num} className={x.grade ? '' : 'text-muted'}>
                         <td className={`${td} pr-4`}>{x.num}. {x.title}</td>
                         <td className={`${td} font-display text-[22px]`}>{x.grade ?? <Pending>Not graded</Pending>}</td>
-                        <td className={`${td} text-right`}>{x.grade ? pts[x.grade] : '—'}</td>
+                        <td className={`${td} text-right`}>{x.grade ? pts[x.grade] : '–'}</td>
                         <td className={`${td} text-right`}>{x.grade ? `${x.weight}%` : <span className="line-through">{x.weight}%</span>}</td>
-                        <td className={`${td} text-right`}>{x.grade ? (x.weight * pts[x.grade]).toFixed(1) : '—'}</td>
+                        <td className={`${td} text-right`}>{x.grade ? (x.weight * pts[x.grade]).toFixed(1) : '–'}</td>
                       </tr>
                     ))}
                     <tr className="border-t-2 border-ink">
@@ -132,7 +132,7 @@ export default function StateGradeMethod() {
         <p className="mt-10 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">All methods</Link> ·{' '}
           <Link href="/methodology/subsidy-ledger/" className="text-ink border-b border-hairline hover:text-oxblood">The Subsidy Ledger</Link> ·{' '}
-          <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
+          <a href="/corrections/" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
         </p>
       </Section>
     </MethodPage>

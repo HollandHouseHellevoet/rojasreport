@@ -277,7 +277,7 @@ export default function CommitteeDossierPage({ c, desk }: { c: CommitteeRecord; 
           <p className="font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
             {c.sourcesLine}{' '}
             <Link href="/methodology/machine-score/" className="text-ink border-b border-hairline hover:text-oxblood">How the Machine Score works</Link> ·{' '}
-            <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
+            <a href="/corrections/" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
           </p>
         </div>
       </section>

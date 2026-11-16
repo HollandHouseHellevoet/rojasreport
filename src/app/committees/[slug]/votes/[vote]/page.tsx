@@ -18,7 +18,7 @@ export function generateMetadata({ params }: { params: { slug: string; vote: str
   return {
     title: `${billNumber(v.legisNum)}, roll call ${v.rollCall} | House Ways and Means`,
     description: `${v.description}: how the House and each Ways and Means member voted on ${longDate(v.date)}.`,
-    alternates: { canonical: `https://rojasreport.com${WM_BASE}/votes/${v.id}/` },
+    alternates: { canonical: `https://tafhc.org${WM_BASE}/votes/${v.id}/` },
   };
 }
 

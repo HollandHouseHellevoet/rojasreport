@@ -16,7 +16,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${c.name} | Government`,
     description: c.verdict,
-    alternates: { canonical: `https://rojasreport.com/committees/${c.slug}/` },
+    alternates: { canonical: `https://tafhc.org/committees/${c.slug}/` },
   };
 }
 

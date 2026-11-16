@@ -18,7 +18,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${p.name} | Health Systems`,
     description: p.verdict,
-    alternates: { canonical: `https://rojasreport.com/systems/${p.slug}/` },
+    alternates: { canonical: `https://tafhc.org/systems/${p.slug}/` },
   };
 }
 
@@ -246,7 +246,7 @@ export default function SystemProfilePage({ params }: { params: { slug: string }
         <p className="mt-12 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           {p.sourcesLine}{' '}
           <Link href="/methodology/subsidy-ledger/" className="text-ink border-b border-hairline hover:text-oxblood">Methodology</Link> ·{' '}
-          <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
+          <a href="/corrections/" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
         </p>
       </section>
     </>

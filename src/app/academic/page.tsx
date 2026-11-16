@@ -6,21 +6,20 @@ const DESC = 'Academic medical centers borrowed at scale for forty years on a cr
 export const metadata: Metadata = {
   title: 'The AMC Debt Trap',
   description: DESC,
-  alternates: { canonical: 'https://rojasreport.com/academic/' },
+  alternates: { canonical: 'https://tafhc.org/academic/' },
   openGraph: {
-    title: 'The AMC Debt Trap | The Rojas Report',
+    title: 'The AMC Debt Trap | The Alliance for Healthcare Competition',
     description: DESC,
-    url: 'https://rojasreport.com/academic/',
-    siteName: 'The Rojas Report',
+    url: 'https://tafhc.org/academic/',
+    siteName: 'The Alliance for Healthcare Competition',
     type: 'article',
-    images: [{ url: 'https://rojasreport.com/academic/og-image.png', width: 1200, height: 630 }],
+    images: [{ url: 'https://tafhc.org/academic/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The AMC Debt Trap | The Rojas Report',
+    title: 'The AMC Debt Trap | The Alliance for Healthcare Competition',
     description: DESC,
-    images: ['https://rojasreport.com/academic/og-image.png'],
-    site: '@TheRojasReport',
+    images: ['https://tafhc.org/academic/og-image.png'],
   },
 };
 
@@ -34,43 +33,14 @@ const JSON_LD = {
   '@context': 'https://schema.org',
   '@graph': [
     {
-      '@type': 'Organization',
-      name: 'Rojas Media LLC',
-      url: 'https://rojasreport.com',
-      sameAs: [
-        'https://x.com/TheRojasReport',
-        'https://www.linkedin.com/company/the-rojas-report/',
-      ],
-      founder: { '@type': 'Person', name: 'Dutch Rojas' },
-    },
-    {
-      '@type': 'Person',
-      name: 'Dutch Rojas',
-      jobTitle: 'Founder',
-      affiliation: { '@type': 'Organization', name: 'Rojas Media LLC' },
-      sameAs: [
-        'https://x.com/dutchrojas',
-        'https://www.linkedin.com/in/dutchrojas',
-        'https://www.youtube.com/@DutchRojas',
-        'https://read.rojasreport.com/',
-        'https://rojasreport.com/about',
-      ],
-    },
-    {
-      '@type': 'WebSite',
-      name: 'The AMC Debt Trap',
-      url: 'https://rojasreport.com/academic/',
-      publisher: { '@type': 'Organization', name: 'Rojas Media LLC' },
-    },
-    {
       '@type': 'Article',
       headline: 'The AMC Debt Trap: The Most Protected Are the Most Exposed',
       datePublished: '2026-04-02',
       dateModified: '2026-11-04',
-      author: { '@type': 'Person', name: 'Dutch Rojas' },
-      publisher: { '@type': 'Organization', name: 'Rojas Media LLC' },
-      url: 'https://rojasreport.com/academic/',
-      image: 'https://rojasreport.com/academic/og-image.png',
+      author: { '@type': 'Organization', name: 'The Alliance for Healthcare Competition', url: 'https://tafhc.org' },
+      publisher: { '@id': 'https://tafhc.org/#org' },
+      url: 'https://tafhc.org/academic/',
+      image: 'https://tafhc.org/academic/og-image.png',
     },
   ],
 };
@@ -78,7 +48,7 @@ const JSON_LD = {
 
 function HeroSection() {
   const tweetText = encodeURIComponent(
-    'The AMC Debt Trap: Six institutions issued $5.5B in new debt while operating at or below 2% margin. The most protected are the most exposed. https://rojasreport.com/academic'
+    'The AMC Debt Trap: Six institutions issued $5.5B in new debt while operating at or below 2% margin. The most protected are the most exposed. https://tafhc.org/academic/'
   );
   return (
     <section className="hero" id="thesis">
@@ -93,7 +63,7 @@ function HeroSection() {
         <p className="hero-body">
           Academic medical centers borrowed at scale for forty years on a credential
           scarcity argument that no longer holds. The debt remains. The institutions
-          that issued it will be the last to admit the collateral is obsolete — and
+          that issued it will be the last to admit the collateral is obsolete, and
           the first to ask for a bailout.
         </p>
         <div className="hero-btns">
@@ -375,7 +345,7 @@ function BondTableSection() {
           <span className="section-num">05</span>
           <span className="section-label">The Data</span>
         </div>
-        <h2 className="section-h2">Bond Ratings — All 25 Academic Medical Centers</h2>
+        <h2 className="section-h2">Bond Ratings: All 25 Academic Medical Centers</h2>
         <div className="orange-rule" />
 
         <div className="table-wrap">
@@ -484,7 +454,7 @@ function ScenariosSection() {
           <div className="card">
             <span className="card-score critical">CRITICAL</span>
             <h3>Collapse and Redistribution</h3>
-            <div className="card-status">Tail Risk — Growing</div>
+            <div className="card-status">Tail Risk: Growing</div>
             <p>
               A credit event at one or two major AMCs cascades into a broader
               repricing of the sector. New issuance becomes prohibitively expensive.
@@ -511,7 +481,7 @@ function WhoPaysSection() {
         <div className="orange-rule" />
         <div className="prose">
           <p>
-            The debt was issued to bondholders — pension funds, municipal bond
+            The debt was issued to bondholders: pension funds, municipal bond
             funds, and retail investors in tax-advantaged accounts. If the
             institutions restructure, those investors take haircuts. If the federal
             government intervenes, taxpayers absorb the cost through program
@@ -548,19 +518,19 @@ function CitationsSection() {
         <ol className="citations-list">
           <li>
             <div>
-              <a href="https://emma.msrb.org" target="_blank" rel="noopener noreferrer" className="citation-title">EMMA / MSRB — Electronic Municipal Market Access</a>
+              <a href="https://emma.msrb.org" target="_blank" rel="noopener noreferrer" className="citation-title">EMMA / MSRB: Electronic Municipal Market Access</a>
               <a href="https://emma.msrb.org" target="_blank" rel="noopener noreferrer" className="citation-url">emma.msrb.org</a>
             </div>
           </li>
           <li>
             <div>
-              <a href="https://www.moodys.com" target="_blank" rel="noopener noreferrer" className="citation-title">Moody&apos;s Investors Service — Healthcare Sector Reports</a>
+              <a href="https://www.moodys.com" target="_blank" rel="noopener noreferrer" className="citation-title">Moody&apos;s Investors Service: Healthcare Sector Reports</a>
               <a href="https://www.moodys.com" target="_blank" rel="noopener noreferrer" className="citation-url">moodys.com</a>
             </div>
           </li>
           <li>
             <div>
-              <a href="https://www.spglobal.com/ratings" target="_blank" rel="noopener noreferrer" className="citation-title">S&amp;P Global Ratings — Healthcare Issuers</a>
+              <a href="https://www.spglobal.com/ratings" target="_blank" rel="noopener noreferrer" className="citation-title">S&amp;P Global Ratings: Healthcare Issuers</a>
               <a href="https://www.spglobal.com/ratings" target="_blank" rel="noopener noreferrer" className="citation-url">spglobal.com/ratings</a>
             </div>
           </li>
@@ -578,25 +548,25 @@ function CitationsSection() {
           </li>
           <li>
             <div>
-              <a href="https://officeofbudget.od.nih.gov" target="_blank" rel="noopener noreferrer" className="citation-title">NIH Office of Budget — Indirect Cost Recovery Data</a>
+              <a href="https://officeofbudget.od.nih.gov" target="_blank" rel="noopener noreferrer" className="citation-title">NIH Office of Budget: Indirect Cost Recovery Data</a>
               <a href="https://officeofbudget.od.nih.gov" target="_blank" rel="noopener noreferrer" className="citation-url">officeofbudget.od.nih.gov</a>
             </div>
           </li>
           <li>
             <div>
-              <a href="https://www.beckershospitalreview.com" target="_blank" rel="noopener noreferrer" className="citation-title">Becker&apos;s Hospital Review — Rating Actions &amp; Financial Reports</a>
+              <a href="https://www.beckershospitalreview.com" target="_blank" rel="noopener noreferrer" className="citation-title">Becker&apos;s Hospital Review: Rating Actions &amp; Financial Reports</a>
               <a href="https://www.beckershospitalreview.com" target="_blank" rel="noopener noreferrer" className="citation-url">beckershospitalreview.com</a>
             </div>
           </li>
           <li>
             <div>
-              <a href="https://www.bondbuyer.com" target="_blank" rel="noopener noreferrer" className="citation-title">The Bond Buyer — Municipal Bond Issuance Reporting</a>
+              <a href="https://www.bondbuyer.com" target="_blank" rel="noopener noreferrer" className="citation-title">The Bond Buyer: Municipal Bond Issuance Reporting</a>
               <a href="https://www.bondbuyer.com" target="_blank" rel="noopener noreferrer" className="citation-url">bondbuyer.com</a>
             </div>
           </li>
         </ol>
         <p className="table-caption" style={{ marginTop: '24px' }}>
-          Dutch Rojas &middot; Rojas Media LLC &middot; Last updated November 4, 2026
+          The Alliance for Healthcare Competition &middot; Last updated November 4, 2026
         </p>
       </div>
     </section>

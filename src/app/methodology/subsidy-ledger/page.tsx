@@ -6,8 +6,8 @@ import { MethodPage, Section, Formula, Defs, Band, Pending, Est, prose, small, t
 
 export const metadata: Metadata = {
   title: 'The Subsidy Ledger | Methodology',
-  description: 'How The Rojas Report builds the subsidy ledger for a hospital system. Which lines count, where each comes from, and how every estimate is calculated.',
-  alternates: { canonical: 'https://rojasreport.com/methodology/subsidy-ledger/' },
+  description: 'How the Alliance builds the subsidy ledger for a hospital system. Which lines count, where each comes from, and how every estimate is calculated.',
+  alternates: { canonical: 'https://tafhc.org/methodology/subsidy-ledger/' },
 };
 
 type Line = { name: string; payer: string; from: string; basis: 'Reported' | 'Estimated' | 'Pending method' };
@@ -203,7 +203,7 @@ export default function SubsidyLedgerMethod() {
           Worked on <Link href="/systems/commonspirit/" className="text-ink border-b border-hairline hover:text-oxblood">CommonSpirit Health</Link> and{' '}
           <Link href="/states/north-carolina/" className="text-ink border-b border-hairline hover:text-oxblood">North Carolina</Link>.{' '}
           <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">All methods</Link> ·{' '}
-          <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
+          <a href="/corrections/" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
         </p>
       </Section>
     </MethodPage>

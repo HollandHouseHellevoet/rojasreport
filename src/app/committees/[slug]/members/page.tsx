@@ -15,7 +15,7 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'Members | House Ways and Means',
   description: 'All 45 members of the House Ways and Means Committee: roles, healthcare PAC money, key health votes and who is not coming back in 2027.',
-  alternates: { canonical: `https://rojasreport.com${WM_BASE}/members/` },
+  alternates: { canonical: `https://tafhc.org${WM_BASE}/members/` },
 };
 
 export default function MembersIndex({ params }: { params: { slug: string } }) {

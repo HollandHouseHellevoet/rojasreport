@@ -4,7 +4,7 @@ import SectionPage from '@/components/home/SectionPage';
 export const metadata: Metadata = {
   title: 'Health Systems',
   description: 'Where the money sits: the top 100 nonprofit health systems and academic medical centers.',
-  alternates: { canonical: 'https://rojasreport.com/systems/' },
+  alternates: { canonical: 'https://tafhc.org/systems/' },
 };
 
 export default function Page() {

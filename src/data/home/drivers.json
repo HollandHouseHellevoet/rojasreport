@@ -26,7 +26,7 @@
       "numeral": "III",
       "label": "Certificate of Need",
       "title": "Permission to compete, granted by your competitors",
-      "figure": { "value": "34 states", "basis": "reported", "source": "Rojas Report CON desk, 35 jurisdictions (34 states and the District of Columbia), data/overview.json", "as_of": "2026-11-06" },
+      "figure": { "value": "34 states", "basis": "reported", "source": "Alliance CON desk, 35 jurisdictions (34 states and the District of Columbia), data/overview.json", "as_of": "2026-11-06" },
       "text": "And the District still require a state board's approval to open or expand a facility, with incumbents allowed to object.",
       "status": "in-play",
       "statusNote": "State by state, 2026 sessions",

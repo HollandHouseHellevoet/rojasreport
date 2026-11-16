@@ -36,7 +36,8 @@ export function buildSearchIndex(): SearchEntry[] {
     }
   }
   out.push({ title: 'Reports and data', kind: 'Datasets', href: '/reports/' });
-  out.push({ title: 'Support the Report', kind: 'Support', href: '/support/' });
+  out.push({ title: 'Join the Alliance', kind: 'Membership', href: '/physicians/join/' });
+  out.push({ title: 'Give to the Alliance', kind: 'Membership', href: '/give/' });
   out.push({ title: 'Methodology', kind: 'Methodology', href: '/methodology/' });
   out.push({ title: 'The Subsidy Ledger', kind: 'Methodology', href: '/methodology/subsidy-ledger/' });
   out.push({ title: 'The State Grade', kind: 'Methodology', href: '/methodology/state-grade/' });

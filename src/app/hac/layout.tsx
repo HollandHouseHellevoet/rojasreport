@@ -7,32 +7,31 @@ const DESCRIPTION = `${committee.memberCount} members picked from ${committee.no
 export const metadata: Metadata = {
   title: "The Healthcare Advisory Committee: Who Advises HHS and CMS",
   description: DESCRIPTION,
-  alternates: { canonical: "https://rojasreport.com/hac/" },
+  alternates: { canonical: "https://tafhc.org/hac/" },
   openGraph: {
-    title: "The Healthcare Advisory Committee | The Rojas Report",
+    title: "The Healthcare Advisory Committee | The Alliance for Healthcare Competition",
     description: DESCRIPTION,
-    url: "https://rojasreport.com/hac/",
-    siteName: "The Rojas Report",
-    images: [{ url: "https://rojasreport.com/og-default.png", width: 1200, height: 630, alt: "The Rojas Report" }],
+    url: "https://tafhc.org/hac/",
+    siteName: "The Alliance for Healthcare Competition",
+    images: [{ url: "https://tafhc.org/og-default.png", width: 1200, height: 630, alt: "The Alliance for Healthcare Competition" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Healthcare Advisory Committee | The Rojas Report",
+    title: "The Healthcare Advisory Committee | The Alliance for Healthcare Competition",
     description: DESCRIPTION,
-    images: ["https://rojasreport.com/og-default.png"],
-    site: "@TheRojasReport",
+    images: ["https://tafhc.org/og-default.png"],
   },
 };
 
 const collectionJsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "Healthcare Advisory Committee | The Rojas Report",
-  url: "https://rojasreport.com/hac/",
+  name: "Healthcare Advisory Committee | The Alliance for Healthcare Competition",
+  url: "https://tafhc.org/hac/",
   description: DESCRIPTION,
-  publisher: { "@type": "Organization", name: "The Rojas Report", url: "https://rojasreport.com", founder: { "@type": "Person", name: "Dutch Rojas" } },
+  publisher: { "@type": "Organization", name: "The Alliance for Healthcare Competition", url: "https://tafhc.org" },
 };
 
 const itemListJsonLd = {
@@ -40,7 +39,7 @@ const itemListJsonLd = {
   "@type": "ItemList",
   name: "Healthcare Advisory Committee member dossiers",
   numberOfItems: members.length,
-  itemListElement: members.map((m, i) => ({ "@type": "ListItem", position: i + 1, name: m.name, url: `https://rojasreport.com/hac/members/${m.slug}/` })),
+  itemListElement: members.map((m, i) => ({ "@type": "ListItem", position: i + 1, name: m.name, url: `https://tafhc.org/hac/members/${m.slug}/` })),
 };
 
 export default function HacLayout({ children }: { children: React.ReactNode }) {

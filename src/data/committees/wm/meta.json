@@ -410,7 +410,7 @@
    ]
   }
  },
- "moneyBasis": "PAC contributions to each member's House campaign committee (transaction type 24K) from PACs classified as healthcare by name and connected organization. Individual contributions are not included. Sector labels are the Rojas Report's own.",
+ "moneyBasis": "PAC contributions to each member's House campaign committee (transaction type 24K) from PACs classified as healthcare by name and connected organization. Individual contributions are not included. Sector labels are the Alliance's own.",
  "moneySource": "FEC bulk data (pas2, cm, cn, ccl), 2024 and 2026 cycles, files retrieved November 8, 2026",
  "moneySourceUrl": "https://www.fec.gov/data/browse-data/?tab=bulk-data",
  "votesSource": "Clerk of the House, roll-call vote XML",

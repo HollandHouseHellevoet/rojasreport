@@ -15,7 +15,7 @@ export function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'Key health votes | House Ways and Means',
   description: 'The 13 key health votes on the House floor in 2025 and 2026, and how each Ways and Means member voted.',
-  alternates: { canonical: `https://rojasreport.com${WM_BASE}/votes/` },
+  alternates: { canonical: `https://tafhc.org${WM_BASE}/votes/` },
 };
 
 function tally(t: Record<string, number>) {

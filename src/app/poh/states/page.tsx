@@ -8,7 +8,7 @@ import { wrap, eyebrow, th, td, Crumbs, Source } from '@/components/poh/ui';
 export const metadata: Metadata = {
   title: 'Physician-owned hospitals by state | Physician-Owned',
   description: `Physician-owned hospitals in ${pohMeta.statesCount} states: how many are left, how many were sold, how many closed.`,
-  alternates: { canonical: `https://rojasreport.com${POH_BASE}/states/` },
+  alternates: { canonical: `https://tafhc.org${POH_BASE}/states/` },
 };
 
 export default function StatesIndex() {
@@ -53,7 +53,7 @@ export default function StatesIndex() {
               </tbody>
             </table>
           </div>
-          <Source>Hospital statuses: {pohMeta.method} CON law: the Rojas Report CON rankings.</Source>
+          <Source>Hospital statuses: {pohMeta.method} CON law: the Alliance CON rankings.</Source>
         </div>
       </section>
     </>

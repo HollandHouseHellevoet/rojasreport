@@ -6,11 +6,10 @@ import driversData from '@/data/home/drivers.json';
 import mostRead from '@/data/home/mostread.json';
 import { getAllStates } from '@/lib/data';
 import { buildSearchIndex } from '@/lib/searchIndex';
-import Tiers from '@/components/support/Tiers';
 import Search from '@/components/home/Search';
 import StateTileMap from '@/components/home/StateTileMap';
 import FightsTable from '@/components/home/FightsTable';
-import GetIntelligence from '@/components/home/GetIntelligence';
+import JoinBand from '@/components/JoinBand';
 
 /**
  * Home page, Alliance-style layout (Dutch 2026-11-09, from the canvas mockup Esrvzn1CvPb4JDf3WNb4PB):
@@ -19,8 +18,7 @@ import GetIntelligence from '@/components/home/GetIntelligence';
  */
 
 export const metadata: Metadata = {
-  title: { absolute: 'The Rojas Report | Healthcare Intelligence' },
-  alternates: { canonical: 'https://rojasreport.com/' },
+  alternates: { canonical: 'https://tafhc.org/' },
 };
 
 const wrap = 'max-w-content mx-auto px-4 md:px-8';
@@ -207,22 +205,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* V. Get the intelligence */}
-      <GetIntelligence label="IV · Get the intelligence" />
-
-      {/* VI. Support: oxblood band */}
-      <section id="support" className={`bg-oxblood text-paper ${band}`}>
-        <div className={`${wrap} grid gap-12 items-start grid-cols-1 lg:grid-cols-2`}>
-          <div>
-            <div className={`${eyebrow} text-oxblood-text mb-4`}>V · Support the Report</div>
-            <h2 className="font-tight font-extrabold text-[40px] md:text-[68px] leading-none tracking-[-0.035em]">Keep the record open.</h2>
-            <p className={`${lede} mt-6 max-w-[520px]`}>
-              Reader-supported intelligence on why healthcare costs what it does. Your support funds the data, the filings and the reporting that keeps every dossier free to read.
-            </p>
-          </div>
-          <Tiers tone="oxblood" />
-        </div>
-      </section>
+      {/* V. Join */}
+      <JoinBand />
     </>
   );
 }

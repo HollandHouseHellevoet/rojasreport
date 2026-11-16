@@ -8,7 +8,7 @@ import { wrap, eyebrow, h2, th, td, Crumbs, Source } from '@/components/poh/ui';
 export const metadata: Metadata = {
   title: 'Physician-owned hospitals | Physician-Owned',
   description: 'Physician-owned hospitals in America: how many are left, who bought the rest, and the law that froze them in 2010. Every hospital re-verified in November 2026.',
-  alternates: { canonical: `https://rojasreport.com${POH_BASE}/` },
+  alternates: { canonical: `https://tafhc.org${POH_BASE}/` },
 };
 
 const big = 'font-tight font-extrabold text-[44px] md:text-[64px] leading-none tracking-[-0.04em] tabular-nums';
@@ -45,7 +45,7 @@ export default function PohHome() {
           </div>
         </div>
         <p className="mt-8 text-[17px] leading-[1.55] max-w-[860px]">
-          These four figures cover {STATUS_ORDER.slice(0, 4).reduce((a, s) => a + (by[s] ?? 0), 0)} of the {pohMeta.tracked} hospitals on the Rojas Report list. The rest are under development or not confirmed. Each was re-checked in November 2026.
+          These four figures cover {STATUS_ORDER.slice(0, 4).reduce((a, s) => a + (by[s] ?? 0), 0)} of the {pohMeta.tracked} hospitals on the Alliance list. The rest are under development or not confirmed. Each was re-checked in November 2026.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link href={`${POH_BASE}/hospitals/`} className="inline-flex items-center gap-2.5 min-h-[48px] px-[22px] font-tight font-semibold text-[15px] border-[1.5px] bg-oxblood text-paper border-oxblood hover:bg-oxblood-hover">Every hospital →</Link>

@@ -145,7 +145,7 @@ export default function EvidencePage() {
             number="05"
             label="Featured Investigations"
             title="Deep-Dive State Profiles"
-            subtitle="These states have been fully investigated by The Rojas Report."
+            subtitle="These states have been fully investigated by the Alliance."
           />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {(evidence.featured_state_profiles || []).slice(0, 6).map((p: {

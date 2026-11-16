@@ -68,7 +68,7 @@ export default function TimelinePage() {
             They didn&apos;t prove waste. They proved access.
           </p>
           <cite className="block mt-2 font-body text-xs text-cream not-italic">
-            The Rojas Report, on Roemer&apos;s Law
+            On Roemer&apos;s Law
           </cite>
         </blockquote>
       </div>
