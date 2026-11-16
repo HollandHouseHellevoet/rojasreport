@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: 'Reports & Data',
   description: 'Read it, download it, own the data: reports and datasets behind every page.',
   alternates: { canonical: 'https://tafhc.org/reports/' },
+  // Held off the public site (Dutch, November 16, 2026, D7): not indexed, not in the sitemap, unlinked.
+  robots: { index: false, follow: false },
 };
 
 export default function Page() {

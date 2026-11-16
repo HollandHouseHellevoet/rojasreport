@@ -54,3 +54,22 @@ export function rowsFor(slug: FightSlug) {
 export function fightName(slug: FightSlug | 'research') {
   return FIGHTS.find((f) => f.slug === slug)?.name ?? 'Research';
 }
+
+/** Research pages tagged to each fight (MERGER_PLAN.md, section 3.3). Only pages that exist and carry the fight's figures. */
+export const RESEARCH_LINKS: Record<FightSlug, { title: string; href: string; text: string }[]> = {
+  'site-neutral': [
+    { title: 'Where the hospital lobby stands', href: '/aha/powermap/#lobbying-footprint', text: 'The American Hospital Association’s positions on every site-neutral rule, dated.' },
+    { title: 'House Ways and Means', href: '/committees/ways-and-means/', text: 'The members with jurisdiction over Medicare payment, their votes and their hospital money.' },
+    { title: 'Senate Finance', href: '/committees/senate-finance/', text: 'Where S. 1629 sits. The members, their votes and their hospital money.' },
+  ],
+  '340b': [
+    { title: 'Where the hospital lobby stands', href: '/aha/powermap/#lobbying-footprint', text: 'The hospital lobby’s positions on the 340B payment cut and the rebate pilot.' },
+    { title: 'House Ways and Means', href: '/committees/ways-and-means/', text: 'The committee that ordered H.R. 9504 reported, 25 to 15, on July 1, 2026.' },
+    { title: 'Health systems', href: '/systems/', text: 'Subsidy ledgers for the systems that buy at 340B prices, read from their own filings.' },
+  ],
+  'physician-ownership': [
+    { title: 'The physician-owned hospital desk', href: '/poh/', text: 'Every physician-owned hospital the Alliance tracks, by state, with its owner and a dated source.' },
+    { title: 'Physician-owned hospitals by state', href: '/poh/states/', text: 'Which states have them, which do not, and the certificate-of-need status of each.' },
+    { title: 'The Healthcare Advisory Committee', href: '/hac/', text: '18 members. None on record for physician ownership.' },
+  ],
+};

@@ -4,7 +4,7 @@ import { Band, Breadcrumb, InsightCard, SectionHead, Sources, Stat, StatBand, Ta
 import StatusTracker from '@/components/alliance/StatusTracker';
 import JsonLd from '@/components/alliance/JsonLd';
 import JoinBand from '@/components/JoinBand';
-import { FIGHTS, rowsFor, type FightSlug } from '@/lib/fights';
+import { FIGHTS, RESEARCH_LINKS, rowsFor, type FightSlug } from '@/lib/fights';
 import { insightsFor } from '@/lib/insights';
 import { breadcrumbsJsonLd } from '@/lib/seo';
 import { fmtDate } from '@/components/alliance/ui';
@@ -111,9 +111,21 @@ export default function FightPage({
         )}
       </Band>
 
+      <Band id="research" label="From the research">
+        <SectionHead eyebrow="04" title="From the research" text="The dossiers and desks that carry this fight’s figures. Research, sourced to public filings; the Alliance owns and publishes it." link={{ label: 'All the research', href: '/research/' }} />
+        <div className="grid gap-8 md:grid-cols-3">
+          {RESEARCH_LINKS[slug].map((r) => (
+            <Link key={r.href} href={r.href} className="group flex flex-col gap-3 pt-5 border-t-2 border-ink">
+              <span className="font-tight font-bold text-[20px] leading-[1.15] tracking-[-0.02em] group-hover:text-oxblood">{r.title}</span>
+              <span className="text-[15px] leading-[1.55]">{r.text}</span>
+            </Link>
+          ))}
+        </div>
+      </Band>
+
       {related.length > 0 && (
         <Band id="related" label="Related insights">
-          <SectionHead eyebrow="04" title="Related insights" link={{ label: `All ${issue} insights`, href: `/insights/?issue=${slug}` }} />
+          <SectionHead eyebrow="05" title="Related insights" link={{ label: `All ${issue} insights`, href: `/insights/?issue=${slug}` }} />
           <div className="grid gap-8 md:grid-cols-3">
             {related.map((i) => (
               <InsightCard key={i.slug} title={i.title} format={i.format} issue={i.issue} date={i.date} readTime={i.readTime} href={`/insights/${i.slug}/`} summary={i.summary} />
