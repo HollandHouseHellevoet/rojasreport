@@ -533,6 +533,22 @@ http://waysandmeans.rojasreport.com/bill/hr-4822-118  https://tafhc.org/committe
 https://waysandmeans.rojasreport.com/bill/hr-247-119  https://tafhc.org/committees/ways-and-means/votes/  301!
 http://waysandmeans.rojasreport.com/bill/hr-247-119  https://tafhc.org/committees/ways-and-means/votes/  301!
 
+# --- catch-alls for each retired subdomain: anything the rows above did not name lands on its desk ---
+https://conlaws.rojasreport.com/*  https://tafhc.org/:splat  301!
+http://conlaws.rojasreport.com/*  https://tafhc.org/:splat  301!
+https://aha.rojasreport.com/*  https://tafhc.org/aha/:splat  301!
+http://aha.rojasreport.com/*  https://tafhc.org/aha/:splat  301!
+https://hac.rojasreport.com/*  https://tafhc.org/hac/:splat  301!
+http://hac.rojasreport.com/*  https://tafhc.org/hac/:splat  301!
+https://fah.rojasreport.com/*  https://tafhc.org/fah/:splat  301!
+http://fah.rojasreport.com/*  https://tafhc.org/fah/:splat  301!
+https://poh.rojasreport.com/*  https://tafhc.org/poh/:splat  301!
+http://poh.rojasreport.com/*  https://tafhc.org/poh/:splat  301!
+https://academic.rojasreport.com/*  https://tafhc.org/academic/  301!
+http://academic.rojasreport.com/*  https://tafhc.org/academic/  301!
+https://waysandmeans.rojasreport.com/*  https://tafhc.org/committees/ways-and-means/:splat  301!
+http://waysandmeans.rojasreport.com/*  https://tafhc.org/committees/ways-and-means/:splat  301!
+
 # --- rojasreport.com apex: path rules (host alias on the same project). Path-identical rows collapse to one splat rule at the end.
 https://rojasreport.com/reports/  https://tafhc.org/research/  301!
 https://rojasreport.com/support/  https://tafhc.org/give/  301!
