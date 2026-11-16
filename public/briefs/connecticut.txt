@@ -56,7 +56,7 @@ landscape.
   In a clear example of CON laws restricting access to care, Norwalk Hospital
 was denied a certificate to offer elective angioplasty (PCI) services. The
 state's rationale was the hospital's lack of an on-site cardiac surgery
-backup—a requirement that protects incumbent hospitals with full-service
+backup, a requirement that protects incumbent hospitals with full-service
 cardiac programs. This decision forced patients in the Norwalk area to travel
 farther for a common, life-saving procedure, prioritizing market stability
 over patient convenience and access.
