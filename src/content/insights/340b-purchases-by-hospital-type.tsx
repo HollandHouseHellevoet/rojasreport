@@ -25,7 +25,7 @@ export const meta: InsightMeta = {
   sources: [
     { label: 'Health Resources and Services Administration, Office of Pharmacy Affairs, 340B covered-entity purchases, calendar year 2025: $100.0 billion in total; $79.2 billion at disproportionate share hospitals; 87 percent at hospitals of all categories.', url: HRSA25 },
     { label: 'Health Resources and Services Administration, 340B covered-entity purchases, calendar year 2024: $81.4 billion in total; disproportionate share hospitals $64.1 billion; rural referral centers $1,843,455,444; critical access hospitals $1,185,097,145; sole community hospitals $549,703,626. Shares in the table are computed from these totals.', url: 'https://www.hrsa.gov/opa/updates/2024-340b-covered-entity-purchases' },
-    { label: 'Congressional Budget Office, Growth in the 340B Drug Pricing Program, September 9, 2025 (publication 61730): purchases $6.6 billion in 2010 and $43.9 billion in 2021, $38.2 billion of it at hospitals; cancer drugs 41 percent of 2021 purchases, 99 percent of them at hospitals; contract pharmacy arrangements from about 2,000 in 2010 to nearly 130,000 in 2021; about two-thirds of growth from structural factors.', url: 'https://www.cbo.gov/publication/61730' },
+    { label: 'Congressional Budget Office, Growth in the 340B Drug Pricing Program, September 9, 2025 (publication 60661): purchases $6.6 billion in 2010 and $43.9 billion in 2021, $38.2 billion of it at hospitals; cancer drugs 41 percent of 2021 purchases, 99 percent of them at hospitals; contract pharmacy arrangements from about 2,000 in 2010 to nearly 130,000 in 2021; about two-thirds of growth from structural factors.', url: 'https://www.cbo.gov/publication/60661' },
     { label: 'U.S. Government Accountability Office, GAO-26-108784, testimony before the Senate Committee on Health, Education, Labor, and Pensions, October 23, 2025: about 14,000 covered entities and more than 55,000 sites in 2023, up from about 20,000 sites in 2013; the program does not require that the discounts reach patients; 15 of 20 recommendations since 2011 remain open.', url: 'https://www.gao.gov/products/gao-26-108784' },
     { label: '42 U.S.C. § 256b (section 340B of the Public Health Service Act). The statute sets no limit on what a covered entity charges a commercial payer or a patient, and does not address how the revenue is used.', url: 'https://www.law.cornell.edu/uscode/text/42/256b' },
     { label: 'Wang Y., Perkins J., Whaley C. M., Bai G., Sharp Rise in Urban Hospitals With Rural Status in Medicare, 2017 to 23, Health Affairs, August 2025, doi:10.1377/hlthaff.2025.00019: 3 hospitals in 2017, 425 in 2023; the rural status lowers the 340B eligibility threshold to 8 percent from 11.75 percent.', url: 'https://doi.org/10.1377/hlthaff.2025.00019' },
@@ -85,7 +85,7 @@ export function Body() {
       <h2>What the money does</h2>
       <p><strong>Nothing in the law ties the purchase to the patient.</strong> The statute sets no limit on what a covered entity charges a commercial payer or a patient.<S n={5} /></p>
       <blockquote>
-        <p>The program “does not require that the discounts reach patients.”</p>
+        <p>The program does not “require that these drug discounts be passed on to patients.”</p>
         <cite>Government Accountability Office, testimony to the Senate, October 2025<S n={4} /></cite>
       </blockquote>
       <p>The fullest public accounting is one state’s. Minnesota, one of nine states with a hospital reporting law, published its covered entities’ 2024 figures.<S n={11} /></p>
@@ -101,7 +101,7 @@ export function Body() {
 
       <h2>What is not tracked</h2>
       <p><strong>No federal report states how any hospital uses its 340B revenue, because no law requires one.</strong> HRSA finalized 172 audits in fiscal 2024 on a $12.2 million appropriation, and 64 percent of them had adverse findings.<S n={9} /> Fifteen of GAO’s 20 recommendations since 2011 remain open.<S n={4} /></p>
-      <p>The first federal disclosure requirement cleared a committee in July 2026. H.R. 9504, the Tax-Exempt Hospital Transparency Act, covers tax-exempt hospitals above $100 million in revenue or 100 beds. They would report their 340B patients by insurance type and their aggregate net 340B payment. Ways and Means ordered it reported on July 1, 2026, 25 to 15. It awaits floor action.<S n={10} /></p>
+      <p>The first federal disclosure requirement cleared a committee in July 2026. H.R. 9504, the Tax-Exempt Hospital Transparency Act, covers tax-exempt hospitals with net patient revenue above $100 million. They would report their 340B patients by insurance type and their aggregate net 340B payment. Ways and Means ordered it reported on July 1, 2026, 25 to 15. It awaits floor action.<S n={10} /></p>
 
       <h2>What the Alliance asks</h2>
       <p><strong>Two things the data make obvious.</strong></p>

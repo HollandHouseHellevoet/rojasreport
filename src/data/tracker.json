@@ -81,7 +81,7 @@
       "date": "2026-07-01",
       "as_of": "2026-11-09",
       "source": "https://www.congress.gov/bill/119th-congress/house-bill/9504",
-      "note": "Introduced June 29, 2026 and referred to the Committee on Ways and Means. Ordered reported on July 1, 2026 by a vote of 25 to 15. It awaits floor action as of November 2026. The bill requires 340B reporting from tax-exempt hospitals above $100 million in revenue or 100 beds.",
+      "note": "Introduced June 29, 2026 and referred to the Committee on Ways and Means. Ordered reported on July 1, 2026 by a vote of 25 to 15. It awaits floor action as of November 2026. The bill requires 340B reporting from tax-exempt hospitals above $100 million in revenue.",
       "primary": true
     },
     {
@@ -108,7 +108,7 @@
       "direction": "open",
       "date": "2026-10-09",
       "as_of": "2026-11-06",
-      "source": "https://www.aha.org/lawsuit/2026-10-09-aha-lawsuit-340b-rebate-model",
+      "source": "https://www.aha.org/legal-documents/2026-10-09-aha-files-340b-complaint-declaratory-and-injunctive-relief-against-hhs-hrsa",
       "note": "The hospital association sued on October 9, 2026 to stop the revised pilot set to start January 1, 2027.",
       "href": "/aha/powermap/#lobbying-footprint"
     },
@@ -178,7 +178,7 @@
       "direction": "open",
       "date": "2026-01-01",
       "as_of": "2026-11-06",
-      "source": "https://tafhc.org/con/reform/",
+      "source": "https://www.ncsl.org/health/certificate-of-need-state-laws",
       "note": "Where repeal and reform stand in every CON state. Research only: the Alliance is not lobbying on this issue.",
       "href": "/con/reform/"
     }

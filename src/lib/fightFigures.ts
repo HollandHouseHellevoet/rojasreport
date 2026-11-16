@@ -7,7 +7,7 @@ import poh from '@/data/poh/meta.json';
  */
 export const POH_COUNT = {
   value: poh.headline.value,
-  label: 'Physician-owned hospitals in the United States, the estimate CMS cites',
+  label: 'Physician-owned hospitals in the United States, the estimate CMS cited in its April 2026 proposed rule',
   source: 'CMS, FY 2027 IPPS proposed rule, 91 Fed. Reg. 19312, 19668 (April 14, 2026)',
   url: poh.headline.source,
   asOf: poh.headline.asOf,

@@ -7,7 +7,7 @@ import { makeMetadata } from '@/lib/seo';
 // accountability. Every figure is quoted as its source prints it.
 const sources = [
   { id: 'hrsa', text: 'Health Resources and Services Administration, Office of Pharmacy Affairs, 340B covered-entity purchase data, calendar year 2025 ($100.0B total; $79.2B at disproportionate share hospitals).', url: 'https://www.hrsa.gov/opa/updates/2025-340b-covered-entity-purchases' },
-  { id: 'cbo', text: 'Congressional Budget Office, Growth in the 340B Drug Pricing Program, September 9, 2025.', url: 'https://www.cbo.gov/publication/61730' },
+  { id: 'cbo', text: 'Congressional Budget Office, Growth in the 340B Drug Pricing Program, September 9, 2025.', url: 'https://www.cbo.gov/publication/60661' },
   { id: 'gao', text: 'U.S. Government Accountability Office, GAO-26-108784, testimony before the Senate Committee on Health, Education, Labor, and Pensions, October 23, 2025.', url: 'https://www.gao.gov/products/gao-26-108784' },
   { id: 'statute', text: '42 U.S.C. § 256b (section 340B of the Public Health Service Act).', url: 'https://www.law.cornell.edu/uscode/text/42/256b' },
   { id: 'bai', text: 'Robinson S. W., Whaley C. M., Dhruva S. S., “Hospital Prices for Physician-Administered Drugs for Patients with Private Insurance,” New England Journal of Medicine 390:338 to 345 (Jan. 25, 2024): median markup to private insurers on 340B drugs of 3.08 times acquisition cost; top quartile above 6.38 times; 340B-eligible hospitals retained 64.3 percent of insurer drug spending.', url: 'https://doi.org/10.1056/NEJMsa2306609' },
@@ -33,7 +33,7 @@ export default function Page() {
       slug="340b"
       title="340B Reform"
       stake="$100 billion in drugs bought at 340B prices, and no requirement to say where the discount went. Require every hospital in the program to report it, and make the discount reach the patient’s bill."
-      core={{ value: '$100.0B', label: 'Drugs bought at 340B prices in 2025, up from $6.6B in 2010', source: 'HRSA, 2025 covered-entity purchases; CBO, 2025', url: 'https://www.cbo.gov/publication/61730' }}
+      core={{ value: '$100.0B', label: 'Drugs bought at 340B prices in 2025, up from $6.6B in 2010', source: 'HRSA, 2025 covered-entity purchases; CBO, 2025', url: 'https://www.cbo.gov/publication/60661' }}
       takeaways={[
         'Drugs bought at 340B prices reached $100.0 billion in 2025, from $6.6 billion in 2010. Disproportionate share hospitals bought $79.2 billion of it.',
         'The statute names no purpose for the discount, no limit on what a hospital may charge, and no duty to report where the money goes.',
@@ -55,10 +55,10 @@ export default function Page() {
             <li>Contains no requirement to report where the money goes.</li>
           </ul>
           <blockquote>
-            <p>The program “does not require that the discounts reach patients.”</p>
+            <p>The program does not “require that these drug discounts be passed on to patients.”</p>
             <cite>Government Accountability Office, testimony to the Senate, October 2025<F id="gao" /></cite>
           </blockquote>
-          <p><strong>Those are the government’s own findings.</strong> The Government Accountability Office told the Senate in October 2025 that the program “does not dictate how covered entities use the revenue.”<F id="gao" /> The purpose often attributed to the program, stretching scarce federal resources, comes from a 1992 committee report on a similar bill, not from the statute.<F id="gao" /> The Congressional Budget Office reported in 2025 that it “cannot assess how participants use net revenues or which patients benefit from them.”<F id="cbo" /> Nothing in the law limits what a covered entity charges a commercial payer or a patient.<F id="statute" /></p>
+          <p><strong>Those are the government’s own findings.</strong> The Government Accountability Office told the Senate in October 2025 that the program does not dictate how covered entities use the revenue.<F id="gao" /> The purpose often attributed to the program, stretching scarce federal resources, comes from a 1992 committee report on a similar bill, not from the statute.<F id="gao" /> The Congressional Budget Office reported in 2025 that it “cannot assess how participants use net revenues or which patients benefit from them.”<F id="cbo" /> Nothing in the law limits what a covered entity charges a commercial payer or a patient.<F id="statute" /></p>
 
           <h3>How a discount becomes a margin</h3>
           <p><strong>Purchases at 340B prices grew from $6.6 billion in 2010 to $43.9 billion in 2021, with hospitals accounting for 87 percent of the 2021 total.</strong><F id="cbo" /> They reached $100.0 billion in 2025.<F id="hrsa" /> Disproportionate share hospitals, which qualify through their share of Medicaid and low-income Medicare patients, bought $79.2 billion of it.<F id="hrsa" /> The Congressional Budget Office’s model attributes about two-thirds of the growth to structural factors, clinic acquisitions, expanded eligibility and contract pharmacies, rather than to drug prices.<F id="cbo" /></p>
@@ -85,7 +85,7 @@ export default function Page() {
             b={{ value: '130,000', label: 'Contract pharmacy arrangements in 2021' }}
             caption="CBO’s figures: about 2,000 in 2010 and nearly 130,000 in 2021, after agency guidance. The statute does not address them."
             source="Congressional Budget Office, Growth in the 340B Drug Pricing Program, September 2025"
-            url="https://www.cbo.gov/publication/61730"
+            url="https://www.cbo.gov/publication/60661"
           />
           <ul>
             <li>The number of urban hospitals holding rural status in Medicare rose from 3 in 2017 to 425 in 2023, after a 2016 payment rule. The status lowers the 340B eligibility threshold from 11.75 percent to 8 percent, and Congress never voted on it.<F id="wang" /></li>
@@ -101,7 +101,7 @@ export default function Page() {
             <li>
               <div>
                 <h3>Require every hospital in the program to report it</h3>
-                <p>Annual, public reporting by each hospital covered entity: 340B purchases, payments received for 340B drugs, net 340B revenue, and the patients served by insurance type. The Tax-Exempt Hospital Transparency Act, H.R. 9504, would require hospitals above $100 million in net patient revenue or 100 beds to report 340B patients by insurance type, aggregate net 340B payment and compliance costs. On July 1, 2026 it became the first federal 340B disclosure requirement to clear a congressional committee, 25 to 15.<F id="hr9504" /> Nine states, plus Hawaii for health centers, already require covered-entity reports; Minnesota’s shows that facilities there netted 44 cents on every 340B dollar in 2024, with hospitals taking more than 80 percent.<F id="states" /></p>
+                <p>Annual, public reporting by each hospital covered entity: 340B purchases, payments received for 340B drugs, net 340B revenue, and the patients served by insurance type. The Tax-Exempt Hospital Transparency Act, H.R. 9504, would require hospitals with net patient revenue above $100 million to report 340B patients by insurance type, aggregate net 340B payment and compliance costs. On July 1, 2026 it became the first federal 340B disclosure requirement to clear a congressional committee, 25 to 15.<F id="hr9504" /> Nine states, plus Hawaii for health centers, already require covered-entity reports; Minnesota’s shows that facilities there netted 44 cents on every 340B dollar in 2024, with hospitals taking more than 80 percent.<F id="states" /></p>
               </div>
             </li>
             <li>
