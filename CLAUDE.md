@@ -24,7 +24,7 @@ Four page templates cover every desk: person dossier (model: `/aha/profiles/`), 
 2. Refresh every data point with a source while moving it. NOT FOUND beats a guess. Never fill a gap to finish.
 3. Flip the desk's `href` in `sections.json` to the internal path. Add every new page to `src/app/sitemap.ts`.
 4. Preview, independent fact-check by a fresh agent, then Dutch reviews and merges.
-5. Only after the new pages are live: one `_redirects` line in the old repo (`/* https://rojasreport.com/<desk>/:splat 301`). Retire the old Netlify project 30 to 60 days later.
+5. Only after the new pages are live: forced `_redirects` lines in the old repo (`/* https://rojasreport.com/<desk>/:splat 301!`). Force them: Netlify skips an unforced rule while the old page is still in the deploy. Record the map in `docs/redirects.md`. Dutch retires the old project 30 to 60 days later.
 
 ## Copy rules
 

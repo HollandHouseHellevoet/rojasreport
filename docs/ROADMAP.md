@@ -81,14 +81,14 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 
 | ID | Task | Done when | Depends | Status |
 |---|---|---|---|---|
-| Q0 | Merge PR 7 (physician-owned hospitals, 176 hospitals, 30 states). Switch on POH redirects. | PR 7 merged; every old poh URL 301s to its new path; redirect map in `docs/redirects.md` | none | IN PR (PR 7). Redirects ready on `RojasReportIntelligence` branch `claude/poh-redirect` |
+| Q0 | Merge PR 7 (physician-owned hospitals, 176 hospitals, 30 states). Switch on POH redirects. | PR 7 merged; every old poh URL 301s to its new path; redirect map in `docs/redirects.md` | none | DONE 2026-11-16. PR 7 merged; old poh URLs 301 (RojasReportIntelligence PRs 3 and 4); map in `docs/redirects.md` |
 | Q1 | conlaws.rojasreport.com redirect | DNS record added in Netlify; the conlaws front page 301s to `/con/` and every other old path 301s to the same path here (D-11); spot-check 10 old links | D-5 | IN PR (PR 8). Alias and DNS record live 2026-11-14 (wildcard cert covers it). Path-preserving per D-11 |
 | Q2 | CON count reconciliation | All copy says 35 jurisdictions (34 states and D.C.). Grep the repo for "36" near CON terms, including section index tables and llms.txt. Reconcile with the "36 states have CON pages" figure: document which pages cover states with no current CON law (repeal history) and label them that way. Confirm D.C. status: it has CON but appears on the "no page" list. | PR 8 | IN PR (PR 8), partial. D.C. has a page (`data/states/washington-dc.json`); the audit's no-page list wrongly included it. Labelling still to do |
 | Q3 | Build-time source check | Build step fails on any figure missing `value`, `basis`, `source`, or `as_of`. Run once in report mode first, fix every violation, then switch to fail mode. | none | IN PR (PR 8), partial. Covers figures in the brief's format (99 today, all pass); desk data with its own source fields not yet covered (Intake) |
 | Q4 | AHA pages at 375px | Main AHA page has zero horizontal overflow at 375px; power map table scrolls inside its own container | wait for the other session's AHA commits | IN PR (PR 8). Fixed on its own branch; the other session's edits are untouched |
 | Q5 | Mike Thompson (CA-04) status | Member page and committee page reflect the AP call, with date. Until the call, page reads "not called" with the as-of date. | AP call | WAITING (not called as of 2026-11-13) |
 | Q6 | Greg Murphy (NC-03) status | Status confirmed against the official canvass; member and committee pages updated with as-of date | canvass result | WAITING (pages show his November 11 concession on unofficial returns) |
-| Q7 | Retire old subdomain projects | Calendar note in `docs/redirects.md`: retire each Netlify/GitHub Pages project 30 to 60 days after its redirect goes live (waysandmeans, poh, fah). Dutch does the retirement. | Q0 | READY |
+| Q7 | Retire old subdomain projects | Calendar note in `docs/redirects.md`: retire each Netlify/GitHub Pages project 30 to 60 days after its redirect goes live (waysandmeans, poh, fah). Dutch does the retirement. | Q0 | DONE 2026-11-16. Windows in `docs/redirects.md`; Dutch retires |
 | Q8 | Lighthouse accessibility | Lighthouse run on every template; each scores 95+; results in `docs/lighthouse.md`; add to CI if feasible | none | IN PROGRESS. 13 templates run on the PR 8 branch: 10 at 100, 3 at 96. `docs/lighthouse.md` and CI still to do |
 | Q9 | "Sign in" in utility bar | Brief and site match D-7 | D-7 | BLOCKED (D-7) |
 | Q10 | Remove businesses tied to Dutch Rojas | Built site has zero mentions of MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives or the Alliance; home "Build" section and NC "Practicing here?" links gone | D-12 | DONE (PR 10, merged 2026-11-14) |
@@ -223,4 +223,7 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-14 | Roadmap | this PR | IN PR | ROADMAP.md added; statuses set to the state of PRs 7 and 8 |
 | 2026-11-14 | Q10 | PR 10 | DONE | Home "Build" section and NC practicing links removed (D-12) |
 | 2026-11-14 | Q11 | PR 11 | DONE | Three "doctor" uses on the Allina AHA profile changed to "physician" |
+| 2026-11-16 | PRs 7, 8, 9 | PRs 7, 8, 9 | DONE | Merged by Dutch's go-ahead; POH desk, quick fixes and roadmap live; all 240 conlaws paths load |
+| 2026-11-16 | Q0 | this PR | DONE | Old poh URLs 301 (RojasReportIntelligence PRs 3 and 4, rules forced); all 38 old pages checked |
+| 2026-11-16 | Q7 | this PR | DONE | Retirement windows for each old project in `docs/redirects.md` |
 | 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |
