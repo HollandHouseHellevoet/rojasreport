@@ -88,7 +88,7 @@ export default function Header() {
                       aria-expanded={isOpen}
                       aria-controls={`panel-${i}`}
                       onClick={() => setOpen(isOpen ? null : i)}
-                      className={`relative inline-flex items-center gap-1.5 h-16 px-2.5 xl:px-3.5 font-tight font-semibold text-[14px] xl:text-[15px] whitespace-nowrap after:content-[''] after:absolute after:left-2.5 after:right-2.5 after:bottom-0 after:h-[2px] after:bg-oxblood after:origin-left after:transition-transform ${
+                      className={`relative inline-flex items-center gap-1.5 h-16 px-2.5 xl:px-2 2xl:px-3.5 font-tight font-semibold text-[14px] xl:text-[15px] whitespace-nowrap after:content-[''] after:absolute after:left-2.5 after:right-2.5 after:bottom-0 after:h-[2px] after:bg-oxblood after:origin-left after:transition-transform ${
                         isActive(n.href) || isOpen ? 'after:scale-x-100' : 'after:scale-x-0 hover:after:scale-x-100'
                       } ${isActive(n.href) ? 'text-oxblood' : 'text-ink'}`}
                     >
