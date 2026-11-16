@@ -6,7 +6,7 @@ import ScopeMatrix from '@/components/ScopeMatrix';
 
 export const metadata: Metadata = makeMetadata({
   title: 'CON Scope Matrix | What Requires a Certificate of Need by State',
-  description: 'Filterable grid showing which healthcare services require a Certificate of Need permit in each of 36 states. Filter by facility type, tier, and sort by restrictiveness.',
+  description: 'Which healthcare services need a Certificate of Need permit in each of the 35 jurisdictions that still require one (34 states and D.C.), plus Florida. Filter by facility type and tier.',
   path: '/scope/',
   ogImage: '/og/scope.svg',
 });

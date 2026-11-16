@@ -6,7 +6,7 @@ import ReformTracker from '@/components/ReformTracker';
 
 export const metadata: Metadata = makeMetadata({
   title: 'CON Reform Tracker 2026 | Certificate of Need Repeal Progress',
-  description: 'Track Certificate of Need reform momentum across 36 states. Each state scored on 5 dimensions: bill introduced, committee assignment, hearing held, governor support, prior reform history.',
+  description: 'Certificate of Need reform in the 35 jurisdictions that still require a permit (34 states and D.C.), plus Florida. Each scored on five steps: bill, committee, hearing, governor support and prior reform.',
   path: '/reform/',
   ogImage: '/og/reform.svg',
 });

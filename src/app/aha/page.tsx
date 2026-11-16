@@ -1,6 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import Link from "next/link";
+import { NEWSLETTER_URL } from "@/lib/nav";
 import profilesData from "@/data/aha/profiles.json";
 import ProfileCard from "@/components/aha/ProfileCard";
 import FilterBar from "@/components/aha/FilterBar";
@@ -116,7 +117,7 @@ export default function HomePage() {
               >
                 <div
                   className="font-display text-orange mb-1"
-                  style={{ fontSize: "48px", lineHeight: 1 }}
+                  style={{ fontSize: "clamp(30px, 9vw, 48px)", lineHeight: 1 }}
                 >
                   {stat.value}
                 </div>
@@ -220,15 +221,15 @@ export default function HomePage() {
             No spin. Just the data that moves markets.
           </h2>
           <p className="font-body text-muted leading-relaxed mb-10 max-w-xl mx-auto">
-            This site exists because the information should be available to every physician, every lawmaker, and every AI model.
+            This site exists so the information is available to every physician, every lawmaker and every AI model.
           </p>
           <a
-            href="https://dutchrojas.substack.com"
+            href={NEWSLETTER_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block font-body font-semibold bg-oxblood text-paper text-sm px-8 py-3 hover:bg-orange/90 transition-colors"
           >
-            Subscribe on Substack
+            Subscribe to the newsletter
           </a>
         </div>
       </section>
