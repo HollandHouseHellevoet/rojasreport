@@ -1,0 +1,38 @@
+{
+  "_comment": "Member levels set by Dutch Rojas on November 16, 2026. Stripe recurring Price ids go in stripePriceMonthly / stripePriceAnnual (test mode locally, live in the Netlify environment); until both are set the join page shows a waitlist form. deductibleShare is the Alliance's own IRC 162(e) estimate; counsel confirms the percentage before the first dues notice.",
+  "deductibleShare": "two thirds",
+  "levels": [
+    {
+      "id": "physician",
+      "name": "Physician Member",
+      "monthly": "$50",
+      "annual": "$600",
+      "amountMonthly": 5000,
+      "amountAnnual": 60000,
+      "stripePriceMonthly": "price_TBD",
+      "stripePriceAnnual": "price_TBD",
+      "open": "Every independent physician, in any specialty and any state.",
+      "benefits": [
+        "Funds lobbying on site-neutral payment, 340B reform and physician ownership",
+        "Keeps the Alliance's research free: every dossier, state grade and tracker row",
+        "A quarterly member call with Alliance leadership, and every progress report by email"
+      ]
+    },
+    {
+      "id": "council",
+      "name": "Council",
+      "monthly": "$2,000",
+      "annual": "$24,000",
+      "amountMonthly": 200000,
+      "amountAnnual": 2400000,
+      "seats": 100,
+      "invitation": true,
+      "open": "One hundred physicians, by invitation.",
+      "benefits": [
+        "Everything a Physician Member receives",
+        "A seat among the hundred physicians who set the Alliance's priorities each year",
+        "Direct briefings from the research arm before publication"
+      ]
+    }
+  ]
+}

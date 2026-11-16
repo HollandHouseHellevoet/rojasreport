@@ -27,7 +27,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     return {
       title: `${dossier.name} | States`,
       description: dossier.verdict,
-      alternates: { canonical: `https://rojasreport.com/states/${dossier.slug}/` },
+      alternates: { canonical: `https://tafhc.org/states/${dossier.slug}/` },
     };
   }
   const state = getState(params.state);

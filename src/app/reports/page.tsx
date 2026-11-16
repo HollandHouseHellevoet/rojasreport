@@ -4,8 +4,10 @@ import StatusLabel from '@/components/StatusLabel';
 
 export const metadata: Metadata = {
   title: 'Reports & Data',
-  description: 'Read it, download it, own the data: reports and datasets behind every Rojas Report page.',
-  alternates: { canonical: 'https://rojasreport.com/reports/' },
+  description: 'Read it, download it, own the data: reports and datasets behind every page.',
+  alternates: { canonical: 'https://tafhc.org/reports/' },
+  // Held off the public site (Dutch, November 16, 2026, D7): not indexed, not in the sitemap, unlinked.
+  robots: { index: false, follow: false },
 };
 
 export default function Page() {
@@ -21,7 +23,7 @@ export default function Page() {
       </p>
       <div className="border-t border-ink">
         {[
-          { name: 'Physician-owned hospitals', blurb: 'Every hospital on the Rojas Report list, with its owner and a dated source. Free to read.', href: '/poh/hospitals/' },
+          { name: 'Physician-owned hospitals', blurb: 'Every hospital on the Alliance list, with its owner and a dated source. Free to read.', href: '/poh/hospitals/' },
           { name: 'Health system datasets', blurb: 'The subsidy ledger and key figures behind each profile.' },
           { name: 'State datasets', blurb: 'Every figure on a state dossier, with its source.' },
           { name: 'Committee member datasets', blurb: 'Positions, scored actions and hospital money for every member.' },

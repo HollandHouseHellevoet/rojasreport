@@ -48,20 +48,19 @@ export async function generateMetadata({
     title: `${profile.name || slug}: AHA Dossier`,
     description,
     alternates: {
-      canonical: `https://rojasreport.com/aha/profiles/${slug}/`,
+      canonical: `https://tafhc.org/aha/profiles/${slug}/`,
     },
     openGraph: {
       title: `${profile.name || slug} -- AHA Dossier`,
       description,
-      url: `https://rojasreport.com/aha/profiles/${slug}/`,
-      images: [{ url: "https://rojasreport.com/aha/og-image.png", width: 1200, height: 630 }],
+      url: `https://tafhc.org/aha/profiles/${slug}/`,
+      images: [{ url: "https://tafhc.org/aha/og-image.png", width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
       title: `${profile.name || slug}: AHA Dossier`,
       description,
-      images: ["https://rojasreport.com/aha/og-image.png"],
-      site: "@TheRojasReport",
+      images: ["https://tafhc.org/aha/og-image.png"],
     },
   };
 }
@@ -118,7 +117,7 @@ export default async function ProfilePage({
     .slice(0, 3);
 
   const tweetText = encodeURIComponent(
-    `${profile.name} -- ${(profile.redFlags[0] || profile.patternSummary || "").slice(0, 100)} Full dossier: rojasreport.com/aha/profiles/${profile.slug}/ via @dutchrojas`
+    `${profile.name} -- ${(profile.redFlags[0] || profile.patternSummary || "").slice(0, 100)} Full dossier: tafhc.org/aha/profiles/${profile.slug}/`
   );
 
   const personJsonLd = {
@@ -128,7 +127,7 @@ export default async function ProfilePage({
     jobTitle: profile.title,
     worksFor: { "@type": "Organization", name: profile.organization },
     description: profile.patternSummary,
-    url: `https://rojasreport.com/aha/profiles/${profile.slug}/`,
+    url: `https://tafhc.org/aha/profiles/${profile.slug}/`,
   };
 
   const faqJsonLd =

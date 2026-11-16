@@ -10,37 +10,35 @@ export const metadata: Metadata = {
   title: "AHA: Who Controls American Hospital Policy",
   description:
     "The sourced intelligence database on the American Hospital Association's board and executive team: conflicts of interest, executive pay, lobbying expenditures and red flags.",
-  alternates: { canonical: "https://rojasreport.com/aha/" },
+  alternates: { canonical: "https://tafhc.org/aha/" },
   openGraph: {
-    title: "AHA | The Rojas Report",
+    title: "AHA | The Alliance for Healthcare Competition",
     description: DESCRIPTION,
-    url: "https://rojasreport.com/aha/",
-    siteName: "The Rojas Report",
-    images: [{ url: "https://rojasreport.com/aha/og-image.png", width: 1200, height: 630, alt: "AHA - The Rojas Report" }],
+    url: "https://tafhc.org/aha/",
+    siteName: "The Alliance for Healthcare Competition",
+    images: [{ url: "https://tafhc.org/aha/og-image.png", width: 1200, height: 630, alt: "AHA | The Alliance for Healthcare Competition" }],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AHA | The Rojas Report",
+    title: "AHA | The Alliance for Healthcare Competition",
     description: DESCRIPTION,
-    images: ["https://rojasreport.com/aha/og-image.png"],
-    site: "@TheRojasReport",
+    images: ["https://tafhc.org/aha/og-image.png"],
   },
 };
 
 const sectionJsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
-  name: "AHA | The Rojas Report",
-  url: "https://rojasreport.com/aha/",
+  name: "AHA | The Alliance for Healthcare Competition",
+  url: "https://tafhc.org/aha/",
   description:
     "Primary source intelligence on the American Hospital Association: board conflicts, lobbying expenditures, PAC architecture, and institutional capture.",
   publisher: {
     "@type": "Organization",
-    name: "The Rojas Report",
-    url: "https://rojasreport.com",
-    founder: { "@type": "Person", name: "Dutch Rojas" },
+    name: "The Alliance for Healthcare Competition",
+    url: "https://tafhc.org",
   },
 };
 
@@ -57,7 +55,7 @@ const itemListJsonLd = {
       "@type": "ListItem",
       position: i + 1,
       name: p.name,
-      url: `https://rojasreport.com/aha/profiles/${p.slug}/`,
+      url: `https://tafhc.org/aha/profiles/${p.slug}/`,
     })),
 };
 

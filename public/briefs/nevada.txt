@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: NEVADA
-  The Rojas Report | conlaws.rojasreport.com/states/nevada/
+  The Alliance for Healthcare Competition | tafhc.org/states/nevada/
 ==============================================================================
 
   State:    Nevada (NV)
@@ -53,7 +53,7 @@ established players.
   Source: Nevada Supreme Court
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/nevada/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/nevada/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

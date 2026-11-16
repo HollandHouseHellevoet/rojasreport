@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: VERMONT
-  The Rojas Report | conlaws.rojasreport.com/states/vermont/
+  The Alliance for Healthcare Competition | tafhc.org/states/vermont/
 ==============================================================================
 
   State:    Vermont (VT)
@@ -13,7 +13,7 @@
 ------------------------------------------------------------------------------
 
   Vermont scores 100/100 on CON restrictiveness. The Green Mountain Care Board
-holds both CON and rate-setting authority — unique in the nation. UVM Health
+holds both CON and rate-setting authority, unique in the nation. UVM Health
 Network dominates with 6 hospitals.
 
 ------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ Network dominates with 6 hospitals.
   Vermont's Green Mountain Care Board is the only regulatory body in the
 nation that combines Certificate of Need authority with hospital budget review
 and rate-setting power. This means the GMCB doesn't just decide who can build
-— it decides what they can charge.
+it decides what they can charge.
 
   Reviews and approves hospital budgets annually
 
@@ -51,7 +51,7 @@ and rate-setting power. This means the GMCB doesn't just decide who can build
 reform status.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/vermont/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/vermont/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

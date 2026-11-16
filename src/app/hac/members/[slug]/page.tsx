@@ -15,13 +15,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!m) return {};
   const title = `${m.name}: Healthcare Advisory Committee Dossier`;
   const description = `${m.nickname}. ${m.title}, ${m.org}. ${(m.redFlags[0] || m.overview).slice(0, 120)}`.slice(0, 155);
-  const url = `https://rojasreport.com/hac/members/${m.slug}/`;
+  const url = `https://tafhc.org/hac/members/${m.slug}/`;
   return {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: "The Rojas Report", type: "article" },
-    twitter: { card: "summary_large_image", title, description, site: "@TheRojasReport" },
+    openGraph: { title, description, url, siteName: "The Alliance for Healthcare Competition", type: "article" },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
@@ -39,7 +39,7 @@ export default function MemberPage({ params }: { params: { slug: string } }) {
   const m = getMember(params.slug);
   if (!m) notFound();
   const { prev, next } = getAdjacent(m.slug);
-  const url = `https://rojasreport.com/hac/members/${m.slug}/`;
+  const url = `https://tafhc.org/hac/members/${m.slug}/`;
 
   const jsonLd = [
     {
@@ -48,7 +48,7 @@ export default function MemberPage({ params }: { params: { slug: string } }) {
       headline: `${m.name}: ${committee.name}`,
       description: `${m.nickname}. ${m.title}, ${m.org}.`,
       url,
-      publisher: { "@type": "Organization", name: "The Rojas Report", url: "https://rojasreport.com" },
+      publisher: { "@type": "Organization", name: "The Alliance for Healthcare Competition", url: "https://tafhc.org" },
       datePublished: "2026-03-28",
       dateModified: committee.asOf,
     },

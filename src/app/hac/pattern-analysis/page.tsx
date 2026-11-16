@@ -8,9 +8,9 @@ const DESC = "Sector by sector, who the Healthcare Advisory Committee serves, wh
 export const metadata: Metadata = {
   title: "Healthcare Advisory Committee: Pattern Analysis",
   description: DESC,
-  alternates: { canonical: "https://rojasreport.com/hac/pattern-analysis/" },
-  openGraph: { title: "Pattern Analysis | The Rojas Report", description: DESC, url: "https://rojasreport.com/hac/pattern-analysis/", siteName: "The Rojas Report", type: "article" },
-  twitter: { card: "summary_large_image", title: "Pattern Analysis | The Rojas Report", description: DESC, site: "@TheRojasReport" },
+  alternates: { canonical: "https://tafhc.org/hac/pattern-analysis/" },
+  openGraph: { title: "Pattern Analysis | The Alliance for Healthcare Competition", description: DESC, url: "https://tafhc.org/hac/pattern-analysis/", siteName: "The Alliance for Healthcare Competition", type: "article" },
+  twitter: { card: "summary_large_image", title: "Pattern Analysis | The Alliance for Healthcare Competition", description: DESC },
 };
 
 const sectorMap = [

@@ -1,0 +1,9 @@
+{
+  "_comment": "The How We Win timeline, one entry per quarter. Edit freely; the component renders whatever is here.",
+  "quarters": [
+    { "label": "Q1 2027", "title": "Stand up the coalition", "text": "Recruit founding physician members, sign the first employer and payer partners, publish the three fight reports." },
+    { "label": "Q2 2027", "title": "Put the data in front of Congress", "text": "Briefings for committee staff on all three fights. Testimony where hearings are held. Progress report to members." },
+    { "label": "Q3 2027", "title": "Move the vehicles", "text": "Push each bill from introduction to committee action. Score every member's position. Progress report to members." },
+    { "label": "Q4 2027", "title": "Hold the line through year-end", "text": "Work the year-end packages where health provisions ride. Set the 2028 plan with members. Progress report to members." }
+  ]
+}

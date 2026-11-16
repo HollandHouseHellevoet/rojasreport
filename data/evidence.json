@@ -32,7 +32,7 @@
       "number": "06",
       "label": "Featured Investigations",
       "title": "Deep-Dive State Profiles",
-      "subtitle": "These states have been fully investigated by The Rojas Report. Each profile includes market concentration data, case law, reform status, and the names of the systems that benefit from the monopoly."
+      "subtitle": "These states have been fully investigated by The Alliance for Healthcare Competition. Each profile includes market concentration data, case law, reform status, and the names of the systems that benefit from the monopoly."
     }
   ],
   "origin_story": [
@@ -53,7 +53,7 @@
     },
     {
       "text": "They didn't prove waste. They proved access.",
-      "source": "\u2014 The Rojas Report, on Roemer's Law"
+      "source": "The Alliance for Healthcare Competition, on Roemer's Law"
     }
   ],
   "hero_stats": [
@@ -156,7 +156,7 @@
       "score": 80,
       "status": "Highly Restrictive",
       "href": "/alabama/certificate-of-need",
-      "description": "Decatur HHI 10,000 \u2014 literal monopoly. BCBS Alabama controls 84% of the commercial market."
+      "description": "Decatur HHI 10,000, a literal monopoly. BCBS Alabama controls 84% of the commercial market."
     },
     {
       "state": "Mississippi",
@@ -177,7 +177,7 @@
       "score": 65,
       "status": "Restrictive",
       "href": "/illinois/certificate-of-need",
-      "description": "BCBS controls 97% of the HMO market. CON law sunsets in 2029 \u2014 if the incumbents let it."
+      "description": "BCBS controls 97% of the HMO market. CON law sunsets in 2029, if the incumbents let it."
     },
     {
       "state": "Florida",

@@ -237,15 +237,15 @@ export default function StateDossier({ state }: StateDossierProps) {
       <section className="bg-navy-dark border-b border-ink/10">
         <div className="max-w-content mx-auto px-5 py-10">
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Link href={`/compare/?states=${state.abbreviation}`} className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
+            <Link href={`/con/compare/?states=${state.abbreviation}`} className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
               <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream">Compare</span>
               <h3 className="mt-1 font-tight font-bold tracking-[-0.015em] text-[18px] text-cream">Compare {state.state}</h3>
             </Link>
-            <Link href="/scope/" className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
+            <Link href="/con/scope/" className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
               <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream">Scope Matrix</span>
               <h3 className="mt-1 font-tight font-bold tracking-[-0.015em] text-[18px] text-cream">What Requires CON?</h3>
             </Link>
-            <Link href="/reform/" className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
+            <Link href="/con/reform/" className="block border border-ink/10 p-4 hover:border-orange/40 transition-colors">
               <span className="font-body text-xs font-semibold tracking-widest uppercase text-cream">Reform Tracker</span>
               <h3 className="mt-1 font-tight font-bold tracking-[-0.015em] text-[18px] text-cream">Reform Momentum</h3>
             </Link>

@@ -867,13 +867,13 @@
         "label": "Committee member dataset",
         "price": null,
         "primary": true,
-        "href": "/reports/"
+        "href": "/contact/"
       },
       {
         "label": "Request a briefing for staff",
         "price": "Contact →",
         "primary": false,
-        "href": "https://read.rojasreport.com/about"
+        "href": "/corrections/"
       }
     ]
   },

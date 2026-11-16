@@ -11,7 +11,7 @@ import { wrap, eyebrow, Crumbs } from '@/components/poh/ui';
 export const metadata: Metadata = {
   title: 'The evidence on physician-owned hospitals | Physician-Owned',
   description: 'Prices, quality and Medicare costs at physician-owned hospitals: what the peer-reviewed studies and the insurers found.',
-  alternates: { canonical: `https://rojasreport.com${POH_BASE}/evidence/` },
+  alternates: { canonical: `https://tafhc.org${POH_BASE}/evidence/` },
 };
 
 interface Finding {

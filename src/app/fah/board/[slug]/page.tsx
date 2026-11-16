@@ -17,13 +17,13 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   if (!m) return {};
   const title = `${m.name}: Federation of American Hospitals Board Dossier`;
   const description = `${m.nickname}. ${m.title}, ${m.company}. ${(m.redFlags[0] || m.overview).slice(0, 120)}`.slice(0, 155);
-  const url = `https://rojasreport.com/fah/board/${m.slug}/`;
+  const url = `https://tafhc.org/fah/board/${m.slug}/`;
   return {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: "The Rojas Report", type: "article" },
-    twitter: { card: "summary_large_image", title, description, site: "@TheRojasReport" },
+    openGraph: { title, description, url, siteName: "The Alliance for Healthcare Competition", type: "article" },
+    twitter: { card: "summary_large_image", title, description },
   };
 }
 
@@ -51,7 +51,7 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
   const m = getMember(params.slug);
   if (!m) notFound();
   const { prev, next } = getAdjacentMember(m.slug);
-  const url = `https://rojasreport.com/fah/board/${m.slug}/`;
+  const url = `https://tafhc.org/fah/board/${m.slug}/`;
 
   const jsonLd = [
     {
@@ -60,7 +60,7 @@ export default function BoardMemberPage({ params }: { params: { slug: string } }
       headline: `${m.name}: ${org.name} board dossier`,
       description: `${m.nickname}. ${m.title}, ${m.company}.`,
       url,
-      publisher: { "@type": "Organization", name: "The Rojas Report", url: "https://rojasreport.com" },
+      publisher: { "@type": "Organization", name: "The Alliance for Healthcare Competition", url: "https://tafhc.org" },
       dateModified: m.lastVerified,
     },
     { "@context": "https://schema.org", "@type": "Person", name: m.name, jobTitle: m.title, worksFor: { "@type": "Organization", name: m.company }, url },

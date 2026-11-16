@@ -8,8 +8,8 @@ import HospitalList from '@/components/poh/HospitalList';
 
 export const metadata: Metadata = {
   title: 'Every physician-owned hospital | Physician-Owned',
-  description: `The ${pohMeta.tracked} hospitals on the Rojas Report list, each re-verified in November 2026: who owns it now, and the source.`,
-  alternates: { canonical: `https://rojasreport.com${POH_BASE}/hospitals/` },
+  description: `The ${pohMeta.tracked} hospitals on the Alliance list, each re-verified in November 2026: who owns it now, and the source.`,
+  alternates: { canonical: `https://tafhc.org${POH_BASE}/hospitals/` },
 };
 
 export default function HospitalsPage() {

@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: WASHINGTON
-  The Rojas Report | conlaws.rojasreport.com/states/washington/
+  The Alliance for Healthcare Competition | tafhc.org/states/washington/
 ==============================================================================
 
   State:    Washington (WA)
@@ -62,11 +62,11 @@ disclosure requirements.
   A proposal for a new three-room ambulatory surgical facility in Richland was
 denied by the Department of Health. The state determined the project was not
 consistent with its criteria for need, financial feasibility, and cost
-containment—classic CON gatekeeping that protects existing hospitals from a
+containment, classic CON gatekeeping that protects existing hospitals from a
 new, specialized competitor.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/washington/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/washington/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

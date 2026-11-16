@@ -5,7 +5,7 @@
   "verdict": "Its 340B hospitals cleared $4.1 billion in a year and take an estimated $1.1 billion in tax breaks. A physician still needs a state permit to open a competing facility.",
   "asOf": "September 30, 2026",
   "grade": {
-    "note": "Driver grades are the Rojas Report editorial grades from Build Brief 2 (November 6, 2026), provisional until the state-grade rubric is published at /methodology/state-grade/."
+    "note": "Driver grades are the Alliance grades from Build Brief 2 (November 6, 2026), provisional until the state-grade rubric is published at /methodology/state-grade/."
   },
   "money": {
     "asOf": "North Carolina's 54 hospitals in the 340B program, fiscal years ending 2024 to 2025",
@@ -31,7 +31,7 @@
         "text": "a year in estimated tax breaks, against $846M of charity care.",
         "note": "Federal income $862M, state income $92M, property $161M, at 2025 rates. Sales tax not estimated.",
         "basis": "estimated",
-        "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 5: federal income tax $862,401,207 (21% of cost-report net income of the 48 profitable hospitals), North Carolina income tax $92,400,129 (2.25% rate, tax year 2025), property tax high case $161,322,797 (commercial effective rates from the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study, April 2026 edition, taxes paid in 2025, on $18.4 billion of land and buildings at historical cost); total $1,116,124,133. Charity care at cost 846,319,513 from the cost reports",
+        "source": "Alliance state dossier, North Carolina, release r71 (October 13, 2026), section 5: federal income tax $862,401,207 (21% of cost-report net income of the 48 profitable hospitals), North Carolina income tax $92,400,129 (2.25% rate, tax year 2025), property tax high case $161,322,797 (commercial effective rates from the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study, April 2026 edition, taxes paid in 2025, on $18.4 billion of land and buildings at historical cost); total $1,116,124,133. Charity care at cost 846,319,513 from the cost reports",
         "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2024 to 2025"
       },
       {
@@ -58,7 +58,7 @@
       "href": "/physician-owned/",
       "linkText": "Read the physician-owned hospital desk",
       "basis": "reported",
-      "source": "Rojas Report physician-owned hospital database (Physician_Owned_Hospitals_US.xlsx, February 2026): master list row 78, North Carolina Specialty Hospital, Durham, grandfathered (ACA Section 6001), operating; summary by state NC 1 listed, 1 operating",
+      "source": "Alliance physician-owned hospital database (Physician_Owned_Hospitals_US.xlsx, February 2026): master list row 78, North Carolina Specialty Hospital, Durham, grandfathered (ACA Section 6001), operating; summary by state NC 1 listed, 1 operating",
       "as_of": "February 2026"
     },
     {
@@ -74,7 +74,7 @@
       "href": null,
       "linkText": null,
       "basis": "pending",
-      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 7: bill-text search for 'price transparency', 2025-2026 Session (HB 434 passed both chambers in 2025, House failed to concur June 17, 2025, conferees changed April 6, 2026; SB 316 passed the Senate March 27, 2025, re-referred to House Health May 6, 2026); no state statute reviewed",
+      "source": "Alliance state dossier, North Carolina, release r71 (October 13, 2026), section 7: bill-text search for 'price transparency', 2025-2026 Session (HB 434 passed both chambers in 2025, House failed to concur June 17, 2025, conferees changed April 6, 2026; SB 316 passed the Senate March 27, 2025, re-referred to House Health May 6, 2026); no state statute reviewed",
       "as_of": "September 30, 2026"
     },
     {
@@ -90,7 +90,7 @@
       "href": "/con/north-carolina/",
       "linkText": "Read the North Carolina CON brief",
       "basis": "reported",
-      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 4: G.S. 131E-176(9b) scope; Session Law 2023-7 (HB 76) sections 3.1 (diagnostic threshold $1.5M to $3M, psychiatric and chemical dependency beds), 3.2 (psychiatric and chemical dependency facilities out; qualified urban ambulatory surgical facilities in counties over 125,000 exempt, G.S. 131E-147.5 4% rule, in effect two years after the first HASP payment) and 3.3 (MRI review limited to counties of 125,000 or fewer, three years after the first HASP payment)",
+      "source": "Alliance state dossier, North Carolina, release r71 (October 13, 2026), section 4: G.S. 131E-176(9b) scope; Session Law 2023-7 (HB 76) sections 3.1 (diagnostic threshold $1.5M to $3M, psychiatric and chemical dependency beds), 3.2 (psychiatric and chemical dependency facilities out; qualified urban ambulatory surgical facilities in counties over 125,000 exempt, G.S. 131E-147.5 4% rule, in effect two years after the first HASP payment) and 3.3 (MRI review limited to counties of 125,000 or fewer, three years after the first HASP payment)",
       "as_of": "September 30, 2026"
     },
     {
@@ -106,7 +106,7 @@
       "href": "/drivers/",
       "linkText": "Read the hospital subsidies desk",
       "basis": "estimated",
-      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 5 (exemptions $1,116,124,133 at 2025 rates; charity care at cost 846,319,513); HRSA 340B OPAIS export of September 29, 2026 (855 child sites, 1,698 arrangements); SB 517 in Senate Rules and Operations since March 26, 2025",
+      "source": "Alliance state dossier, North Carolina, release r71 (October 13, 2026), section 5 (exemptions $1,116,124,133 at 2025 rates; charity care at cost 846,319,513); HRSA 340B OPAIS export of September 29, 2026 (855 child sites, 1,698 arrangements); SB 517 in Senate Rules and Operations since March 26, 2025",
       "as_of": "September 30, 2026"
     },
     {
@@ -122,7 +122,7 @@
       "href": "/drivers/",
       "linkText": "Read the CMS favoritism desk",
       "basis": "reported",
-      "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 4: 12 of 54 with dual classification (cost report Rural; CMS FY2027 IPPS impact file urban, Section 401 flag): Duke Regional, Forsyth Memorial, Cape Fear Valley Medical Center, Catawba Valley, Moses H Cone Memorial, Alamance Regional, Duke University Hospital, FirstHealth Moore Regional, Novant Health New Hanover, Onslow Memorial, UNC Hospitals, Wayne Memorial",
+      "source": "Alliance state dossier, North Carolina, release r71 (October 13, 2026), section 4: 12 of 54 with dual classification (cost report Rural; CMS FY2027 IPPS impact file urban, Section 401 flag): Duke Regional, Forsyth Memorial, Cape Fear Valley Medical Center, Catawba Valley, Moses H Cone Memorial, Alamance Regional, Duke University Hospital, FirstHealth Moore Regional, Novant Health New Hanover, Onslow Memorial, UNC Hospitals, Wayne Memorial",
       "as_of": "CMS FY2027 IPPS final rule impact file (correction notice)"
     },
     {
@@ -1039,12 +1039,12 @@
       "as_of": "calendar year 2024 reports"
     },
     "basis": "reported",
-    "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), section 2 (officeholders from saved official rosters, collected October 3, 2026; Senate Health Care and House Health committee pages; NCGA leadership page; 119th Congress committee rosters; district counts from the Census geocoder and TIGERweb, retrieved September 30, 2026)",
+    "source": "Alliance state dossier, North Carolina, release r71 (October 13, 2026), section 2 (officeholders from saved official rosters, collected October 3, 2026; Senate Health Care and House Health committee pages; NCGA leadership page; 119th Congress committee rosters; district counts from the Census geocoder and TIGERweb, retrieved September 30, 2026)",
     "as_of": "September 30, 2026"
   },
   "bills": {
     "subtitle": "Remaining 2026 windows: Nov. 16 to 19 and Nov. 30 to Dec. 18",
-    "source": "Rojas Report North Carolina state dossier, release r71 (October 13, 2026), sections 2 and 7: N.C. General Assembly bill pages and Resolution 2026-6 (reconvened windows October 26 to 28, November 16 to 19 and November 30 to December 18, 2026; adjournment sine die December 18, 2026)",
+    "source": "Alliance state dossier, North Carolina, release r71 (October 13, 2026), sections 2 and 7: N.C. General Assembly bill pages and Resolution 2026-6 (reconvened windows October 26 to 28, November 16 to 19 and November 30 to December 18, 2026; adjournment sine die December 18, 2026)",
     "as_of": "September 30, 2026",
     "rows": [
       {
@@ -1095,5 +1095,5 @@
       }
     ]
   },
-  "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, IRS Form 990, N.C. General Statutes and Session Laws, N.C. General Assembly, N.C. State Board of Elections, CMS FY2027 IPPS impact file, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Rojas Report physician-owned hospital database (February 2026)."
+  "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, IRS Form 990, N.C. General Statutes and Session Laws, N.C. General Assembly, N.C. State Board of Elections, CMS FY2027 IPPS impact file, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Alliance physician-owned hospital database (February 2026)."
 }

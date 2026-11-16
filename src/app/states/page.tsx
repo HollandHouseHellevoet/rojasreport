@@ -7,7 +7,7 @@ import StatesMap from '@/components/states/StatesMap';
 import StateGroups from '@/components/states/StateGroups';
 import StatusLabel from '@/components/StatusLabel';
 import PendingChip from '@/components/PendingChip';
-import GetIntelligence from '@/components/home/GetIntelligence';
+import JoinBand from '@/components/JoinBand';
 
 /**
  * /states/: the map, the published dossiers, every state grouped by CON tier, and the desks.
@@ -17,7 +17,7 @@ import GetIntelligence from '@/components/home/GetIntelligence';
 export const metadata: Metadata = {
   title: 'The States',
   description: 'Where it costs you: certificate-of-need rules, rankings and reform status in every state.',
-  alternates: { canonical: 'https://rojasreport.com/states/' },
+  alternates: { canonical: 'https://tafhc.org/states/' },
 };
 
 const wrap = 'max-w-content mx-auto px-4 md:px-8';
@@ -202,7 +202,7 @@ export default function StatesIndex() {
       </section>
 
       {/* 6. Get the intelligence */}
-      <GetIntelligence label="V · Get the intelligence" />
+      <JoinBand />
     </>
   );
 }

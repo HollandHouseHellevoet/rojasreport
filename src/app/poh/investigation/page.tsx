@@ -11,7 +11,7 @@ import { wrap, eyebrow, h2, Crumbs } from '@/components/poh/ui';
 export const metadata: Metadata = {
   title: 'Section 6001: the ban on physician-owned hospitals | Physician-Owned',
   description: 'What Section 6001 of the Affordable Care Act does, who lobbied for it, what happened to the hospitals it froze, and the bills and rules that could change it.',
-  alternates: { canonical: `https://rojasreport.com${POH_BASE}/investigation/` },
+  alternates: { canonical: `https://tafhc.org${POH_BASE}/investigation/` },
 };
 
 type Src = { label: string; href: string };
@@ -115,12 +115,12 @@ export default function Investigation() {
           title={`${by['Physician-owned']} left on their own.`}
           sources={[
             { label: 'Cole CM, Physician-owned hospitals and self-referral, Virtual Mentor (AMA Journal of Ethics) 2013;15(2):150-155', href: 'https://doi.org/10.1001/virtualmentor.2013.15.2.hlaw1-1302' },
-            { label: `Rojas Report physician-owned hospital list, ${pohMeta.tracked} hospitals re-checked in November 2026, one source per hospital`, href: `${POH_BASE}/hospitals/` },
+            { label: `Alliance physician-owned hospital list, ${pohMeta.tracked} hospitals re-checked in November 2026, one source per hospital`, href: `${POH_BASE}/hospitals/` },
           ]}
         >
           <p>By 2010, about 265 U.S. hospitals were owned in whole or in part by physicians.</p>
           <p>
-            The Rojas Report list tracks {pohMeta.tracked} of them, each re-checked in November 2026. {operating} still operate with physician owners. Only {by['Physician-owned']} have no hospital system, corporate chain or outside investor among their owners.
+            The Alliance list tracks {pohMeta.tracked} of them, each re-checked in November 2026. {operating} still operate with physician owners. Only {by['Physician-owned']} have no hospital system, corporate chain or outside investor among their owners.
           </p>
           <p>
             {by['Joint venture']} are joint ventures, where a system, chain or outside investor holds 5 percent or more. {by['Sold or acquired']} were sold outright. {by['Closed']} closed.

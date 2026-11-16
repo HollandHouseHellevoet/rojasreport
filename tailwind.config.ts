@@ -51,6 +51,17 @@ const config: Config = {
         "ink-text": "#C9BFA9",
         "ink-text-2": "#E4DCCB",
         "ink-label": "#8C8577",
+        // Alliance tokens (tafhc.com src/styles/tokens.css), for the pages ported in the November 2026 merge.
+        // The accent never appears as text on paper (1.9:1): it is a filled button with ink text, a key number
+        // on an ink band, or a thin rule.
+        accent: "#E3A72F",
+        "accent-hover": "#D99A1F",
+        slate: "#4A5563",
+        mist: "#E4E1DA",
+        rule: "#D5D1C8",
+        "rule-dark": "#343841",
+        "ink-2": "#22252C",
+        "paper-muted": "#B8BCC6",
 
         // Legacy aliases (desks built before the redesign)
         navy: paper,

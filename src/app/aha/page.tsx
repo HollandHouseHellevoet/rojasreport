@@ -1,7 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import { NEWSLETTER_URL } from "@/lib/nav";
+import { JOIN } from "@/lib/nav";
 import profilesData from "@/data/aha/profiles.json";
 import ProfileCard from "@/components/aha/ProfileCard";
 import FilterBar from "@/components/aha/FilterBar";
@@ -130,7 +130,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Section 01 — The Intelligence Database */}
+      {/* Section 01: The Intelligence Database */}
       <section id="database" className="max-w-7xl mx-auto px-4 py-16 scroll-mt-20">
         <div className="mb-8">
           <div className="flex items-baseline gap-3 mb-2">
@@ -165,7 +165,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Section 02 — The Power Map */}
+      {/* Section 02: The Power Map */}
       <section className="border-y border-border" style={{ backgroundColor: "#ECE5D8" }}>
         <div className="max-w-7xl mx-auto px-4 py-16">
           <div className="flex items-baseline gap-3 mb-2">
@@ -211,11 +211,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Section 03 — No Paywall */}
+      {/* Section 03: No Paywall */}
       <section className="bg-dark border-b border-border">
         <div className="max-w-3xl mx-auto px-4 py-20 text-center">
           <span className="inline-block border border-orange text-orange font-body text-xs uppercase tracking-widest px-3 py-1 mb-8">
-            Rojas Intelligence
+            The Alliance
           </span>
           <h2 className="font-display text-[32px] md:text-[40px] text-cream mb-6">
             No spin. Just the data that moves markets.
@@ -224,12 +224,10 @@ export default function HomePage() {
             This site exists so the information is available to every physician, every lawmaker and every AI model.
           </p>
           <a
-            href={NEWSLETTER_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={JOIN.href}
             className="inline-block font-body font-semibold bg-oxblood text-paper text-sm px-8 py-3 hover:bg-orange/90 transition-colors"
           >
-            Subscribe to the newsletter
+            {JOIN.label}
           </a>
         </div>
       </section>

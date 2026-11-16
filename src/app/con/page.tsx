@@ -13,7 +13,7 @@ import IntelligencePill from '@/components/IntelligencePill';
 const FEATURED_SLUGS = ['kentucky', 'virginia', 'georgia', 'west-virginia'];
 
 const SHARE_TEXT = encodeURIComponent(
-  'In 35 jurisdictions, it is illegal to open a hospital without government permission. The Rojas Report mapped every one. https://rojasreport.com/con/'
+  'In 35 jurisdictions, it is illegal to open a hospital without government permission. The Alliance mapped every one. https://tafhc.org/con/'
 );
 
 const MECHANISM_STEPS = [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   title: 'Certificate of Need Laws by State',
   description:
     'In 35 jurisdictions, it is illegal to open a hospital without government permission. Complete intelligence on every CON state: rankings, market data, case law, reform status.',
-  alternates: { canonical: 'https://rojasreport.com/con/' },
+  alternates: { canonical: 'https://tafhc.org/con/' },
 };
 
 export default function ConHomePage() {
@@ -141,7 +141,7 @@ export default function ConHomePage() {
           <EvidencePreview />
           <div className="mt-6">
             <Link
-              href="/evidence/"
+              href="/con/evidence/"
               className="font-body text-sm font-semibold text-orange hover:text-orange-light transition-colors"
             >
               Read the full investigation &rarr;
@@ -215,7 +215,7 @@ export default function ConHomePage() {
 
           <div className="mt-8 text-center">
             <Link
-              href="/rankings/"
+              href="/con/rankings/"
               className="inline-block font-body text-sm font-semibold text-orange hover:text-orange-light transition-colors"
             >
               View Full 51-Jurisdiction Rankings &rarr;

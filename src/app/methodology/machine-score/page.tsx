@@ -6,8 +6,8 @@ import { MethodPage, Section, Formula, Defs, Band, Pending, prose, small, th, td
 
 export const metadata: Metadata = {
   title: 'The Machine Score | Methodology',
-  description: 'How The Rojas Report scores a member of Congress on independence from the hospital lobby. The anchor, the scored actions, the weights, the formula and the bands.',
-  alternates: { canonical: 'https://rojasreport.com/methodology/machine-score/' },
+  description: 'How the Alliance scores a member of Congress on independence from the hospital lobby. The anchor, the scored actions, the weights, the formula and the bands.',
+  alternates: { canonical: 'https://tafhc.org/methodology/machine-score/' },
 };
 
 const scored = [
@@ -148,7 +148,7 @@ export default function MachineScoreMethod() {
         <p className="mt-10 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           Shown on the <Link href="/committees/senate-finance/" className="text-ink border-b border-hairline hover:text-oxblood">Senate Finance</Link> scorecard.{' '}
           <Link href="/methodology/" className="text-ink border-b border-hairline hover:text-oxblood">All methods</Link> ·{' '}
-          <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
+          <a href="/corrections/" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
         </p>
       </Section>
     </MethodPage>

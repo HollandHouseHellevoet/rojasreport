@@ -1,40 +1,53 @@
-# conlaws.rojasreport.com — LLM Context File
+# tafhc.org, LLM context file
 
-## About This Site
-This is the Certificate of Need (CON) Law Intelligence Platform by The Rojas Report.
-It contains structured data and analysis on CON laws across 36 jurisdictions: the 35 that still require a permit (34 states and DC) plus Florida.
+## About this site
+tafhc.org is The Alliance for Healthcare Competition, a 501(c)(6) trade association. The Alliance unites
+independent physicians with employers, payers and manufacturers to remove the federal rules that let
+consolidated hospital systems set prices without a competitor. It lobbies on three federal fights and
+publishes research on more. Every figure on the site carries its source and an as-of date.
 
-## What Are CON Laws?
-Certificate of Need laws require healthcare providers to obtain government permission
-before building hospitals, surgery centers, imaging facilities, or other healthcare
-services. In 35 jurisdictions (34 states + DC), competitors sit on the review boards
-that decide whether new providers can enter the market.
+## The three fights
+- Site-neutral payment: https://tafhc.org/fights/site-neutral/
+- 340B reform: https://tafhc.org/fights/340b/
+- Physician ownership (Section 6001 repeal): https://tafhc.org/fights/physician-ownership/
+- The Tracker (every bill, rule and court case, two lanes): https://tafhc.org/tracker/
 
-## Data Coverage
-- 36 jurisdiction dossiers (35 states and DC) with scope, process, market, case law, and reform data
-- 51-jurisdiction rankings scored 0-100 by Cicero Institute
-- Scope matrix: 36 jurisdictions x 9 facility categories
-- State comparison tool (up to 3 states side-by-side)
-- Reform tracker with 5-dimension momentum scoring
-- Reform outcomes data for Florida (2019), Montana (2021), South Carolina (2024)
-- Historical timeline from 1946 to 2025
-- Evidence page with FTC/DOJ research findings
+## Research
+Produced for the Alliance under contract by Rojas Media, an independent research firm. The Alliance owns
+and publishes the work.
+- Research hub: https://tafhc.org/research/
+- Cost drivers: https://tafhc.org/drivers/
+- States (50-state map, state dossiers): https://tafhc.org/states/
+- Health systems (subsidy ledgers): https://tafhc.org/systems/
+- Academic medical centers: https://tafhc.org/academic/
+- Physician-owned hospitals desk: https://tafhc.org/poh/
+- Government (committee dossiers): https://tafhc.org/government/
+- The hospital lobby (AHA, FAH, HAC dossiers): https://tafhc.org/lobby/
+- Insights (reports, briefs, data, with PDFs): https://tafhc.org/insights/
+- Methodology: https://tafhc.org/methodology/
+- Corrections: https://tafhc.org/corrections/
 
-## Key URLs
-- Homepage: https://conlaws.rojasreport.com/
-- Rankings: https://conlaws.rojasreport.com/rankings/
-- Scope Matrix: https://conlaws.rojasreport.com/scope/
-- Comparison Tool: https://conlaws.rojasreport.com/compare/
-- Evidence: https://conlaws.rojasreport.com/evidence/
-- Reform Tracker: https://conlaws.rojasreport.com/reform/
-- Outcomes: https://conlaws.rojasreport.com/outcomes/
-- Timeline: https://conlaws.rojasreport.com/timeline/
-- Methodology: https://conlaws.rojasreport.com/methodology/
-- State dossiers: https://conlaws.rojasreport.com/states/[state-slug]/
+## Certificate of need (CON) desk
+Structured data and analysis on CON laws across 36 jurisdictions: the 35 that still require a permit
+(34 states and DC) plus Florida. CON is research; the Alliance does not lobby on it.
+- CON desk: https://tafhc.org/con/
+- Rankings (51 jurisdictions, scored 0 to 100 by the Cicero Institute): https://tafhc.org/con/rankings/
+- Scope matrix (36 jurisdictions by 9 facility categories): https://tafhc.org/con/scope/
+- State comparison tool: https://tafhc.org/con/compare/
+- Evidence (FTC and DOJ findings): https://tafhc.org/con/evidence/
+- Reform tracker: https://tafhc.org/con/reform/
+- Reform outcomes (Florida 2019, Montana 2021, South Carolina 2024): https://tafhc.org/con/outcomes/
+- Timeline, 1946 to 2025: https://tafhc.org/con/timeline/
+- CON methodology: https://tafhc.org/con/methodology/
+- State pages: https://tafhc.org/con/[state-slug]/ and https://tafhc.org/states/[state-slug]/
 
-## Data Sources
-Cicero Institute, NASHP, FTC, DOJ, CMS, Institute for Justice, Mercatus Center,
-NBER, state health departments, and original analysis by The Rojas Report.
+## Data sources
+Federal Register, Congress.gov, CBO, GAO, MedPAC, CMS, HRSA, IRS Form 990 filings, Senate Lobbying
+Disclosure Act filings, FEC, Cicero Institute, NASHP, FTC, DOJ, Institute for Justice, Mercatus Center,
+NBER, state health departments, and the Alliance's own analysis. Each page lists its sources.
 
-## Contact
-The Rojas Report: https://rojasreport.com
+## Membership and contact
+- For independent physicians: https://tafhc.org/physicians/
+- For partners: https://tafhc.org/partners/
+- Contact: https://tafhc.org/contact/
+- Sitemap: https://tafhc.org/sitemap.xml

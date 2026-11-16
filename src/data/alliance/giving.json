@@ -1,0 +1,9 @@
+{
+  "_comment": "Preset amounts for /give/ in whole dollars. Monthly is the default; one-time is secondary. Min and max apply to custom amounts. `open` is false until STRIPE_SECRET_KEY is set in Netlify; while false the page shows a waitlist form in place of the payment form.",
+  "open": false,
+  "monthly": [25, 50, 100, 250],
+  "once": [50, 100, 250, 1000],
+  "min": 5,
+  "max": 50000,
+  "currency": "usd"
+}

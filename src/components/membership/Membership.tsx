@@ -42,7 +42,7 @@ export function Grid({ items }: { items: { title: string; body: string }[] }) {
 }
 
 export function Apply({ subject, note }: { subject: string; note: string }) {
-  const href = `mailto:info@rojasreport.com?subject=${encodeURIComponent(subject)}`;
+  const href = `mailto:info@tafhc.org?subject=${encodeURIComponent(subject)}`;
   return (
     <section className="max-w-content mx-auto px-5 py-16 border-t border-ink/10">
       <Label>Apply</Label>
@@ -54,7 +54,7 @@ export function Apply({ subject, note }: { subject: string; note: string }) {
       >
         Apply for membership →
       </a>
-      <p className="font-body text-sm text-cream mt-4">Or write to info@rojasreport.com with &ldquo;{subject}&rdquo; in the subject line.</p>
+      <p className="font-body text-sm text-cream mt-4">Or write to info@tafhc.org with &ldquo;{subject}&rdquo; in the subject line.</p>
     </section>
   );
 }
@@ -63,7 +63,7 @@ export function Independence() {
   return (
     <section className="max-w-content mx-auto px-5 pb-20">
       <p className="font-body text-sm text-cream max-w-2xl leading-relaxed border-l-2 border-orange/60 pl-4">
-        Membership buys access, never influence. The Rojas Report publishes what the evidence shows, regardless of who is a member.
+        Membership buys access, never influence. The Alliance publishes what the evidence shows, regardless of who is a member.
       </p>
     </section>
   );

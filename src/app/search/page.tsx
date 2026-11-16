@@ -7,7 +7,7 @@ import SearchResults from '@/components/search/SearchResults';
 
 export const metadata: Metadata = {
   title: 'Search',
-  description: 'Search every health system, hospital, lawmaker and state on The Rojas Report.',
+  description: 'Search every health system, hospital, lawmaker and state on tafhc.org.',
   robots: { index: false, follow: true },
 };
 

@@ -10,9 +10,9 @@ const DESC = "The Federation of American Hospitals' documented positions on the 
 export const metadata: Metadata = {
   title: "The Eight Pillars: Where FAH Stands",
   description: DESC,
-  alternates: { canonical: "https://rojasreport.com/fah/pillars/" },
-  openGraph: { title: "The Eight Pillars | The Rojas Report", description: DESC, url: "https://rojasreport.com/fah/pillars/", siteName: "The Rojas Report", type: "website" },
-  twitter: { card: "summary_large_image", title: "The Eight Pillars | The Rojas Report", description: DESC, site: "@TheRojasReport" },
+  alternates: { canonical: "https://tafhc.org/fah/pillars/" },
+  openGraph: { title: "The Eight Pillars | The Alliance for Healthcare Competition", description: DESC, url: "https://tafhc.org/fah/pillars/", siteName: "The Alliance for Healthcare Competition", type: "website" },
+  twitter: { card: "summary_large_image", title: "The Eight Pillars | The Alliance for Healthcare Competition", description: DESC },
 };
 
 export default function PillarsPage() {

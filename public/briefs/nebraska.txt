@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: NEBRASKA
-  The Rojas Report | conlaws.rojasreport.com/states/nebraska/
+  The Alliance for Healthcare Competition | tafhc.org/states/nebraska/
 ==============================================================================
 
   State:    Nebraska (NE)
@@ -65,7 +65,7 @@ competition at the direct expense of patient choice and potential access to
 newer facilities.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/nebraska/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/nebraska/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

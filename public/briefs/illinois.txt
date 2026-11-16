@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: ILLINOIS
-  The Rojas Report | conlaws.rojasreport.com/states/illinois/
+  The Alliance for Healthcare Competition | tafhc.org/states/illinois/
 ==============================================================================
 
   State:    Illinois (IL)
@@ -52,7 +52,7 @@ capital expenditures. The process allows incumbent providers to protest,
 effectively giving existing players a veto over new competition. Application
 fees can reach $150,000.
 
-  The case illustrates how the CON process can be weaponized — not just to
+  The case illustrates how the CON process can be weaponized, not just to
 protect incumbents from competition, but potentially to punish those who
 challenge the system itself.
 
@@ -60,19 +60,19 @@ challenge the system itself.
   CASE LAW / DENIALS
 ------------------------------------------------------------------------------
 
-  Edward Hospital — Plainfield Facility Denial
+  Edward Hospital, Plainfield Facility Denial
 
   The Health Facilities and Services Review Board denied the application. The
 hospital's CEO alleged the denial was retaliatory after she exposed a kickback
 scheme within the review process. Despite the allegations, the board formally
 rejected the CON, leaving the community without the facility it needed.
 
-  The case illustrates how the CON process can be weaponized — not just to
+  The case illustrates how the CON process can be weaponized, not just to
 protect incumbents from competition, but potentially to punish those who
 challenge the system itself.
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/illinois/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/illinois/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

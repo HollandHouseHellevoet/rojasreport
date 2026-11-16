@@ -1,0 +1,600 @@
+old_url,target_url,status,note
+https://rojasreport.com/,https://tafhc.org/,301,Merge into existing Alliance page: tafhc.org home
+https://rojasreport.com/drivers/,https://tafhc.org/drivers/,301,"Migrate and rewrite to Alliance voice (becomes the Intelligence cost-driver index; II, IV, V figures pending)"
+https://rojasreport.com/states/,https://tafhc.org/states/,301,Migrate as is (Intelligence: States)
+https://rojasreport.com/systems/,https://tafhc.org/systems/,301,Migrate as is (Intelligence: Health Systems)
+https://rojasreport.com/carriers/,https://tafhc.org/carriers/,301,Migrate as is (section placeholder; all desks planned)
+https://rojasreport.com/physician-owned/,https://tafhc.org/physician-owned/,301,Merge into existing Alliance page: /fights/physician-ownership/ links here as the research section
+https://rojasreport.com/government/,https://tafhc.org/government/,301,Migrate as is (Intelligence: Government)
+https://rojasreport.com/lobby/,https://tafhc.org/lobby/,301,Migrate as is (Intelligence: The Lobby)
+https://rojasreport.com/tracker/,https://tafhc.org/tracker/,301,"Merge into existing Alliance page: tafhc.com /fights/ status tracker (two status models, see Conflicts)"
+https://rojasreport.com/reports/,https://tafhc.org/research/data/,301,"Hold for decision: dataset sales under the Alliance (nonmember income, prices unset)"
+https://rojasreport.com/support/,https://tafhc.org/give/,301,"Retire: Rojas Media product, converts to Alliance giving (parent page: Give)"
+https://rojasreport.com/partners/,https://tafhc.org/partners/,301,Retire: Rojas Media product; audience goes to Alliance For Partners (parent page)
+https://rojasreport.com/builders-table/,https://tafhc.org/physicians/,301,Retire: Dutch 2026-11-16; Council replaces it (parent page: For Physicians)
+https://rojasreport.com/search/,https://tafhc.org/search/,301,Migrate as is (index rebuilt for the merged site)
+https://rojasreport.com/privacy/,https://tafhc.org/privacy/,301,"Merge into existing Alliance page: /privacy/ (Alliance policy, counsel)"
+https://rojasreport.com/methodology/,https://tafhc.org/methodology/,301,"Migrate and rewrite to Alliance voice (publisher refs, correction link to read.rojasreport.com)"
+https://rojasreport.com/methodology/subsidy-ledger/,https://tafhc.org/methodology/subsidy-ledger/,301,"Migrate and rewrite to Alliance voice (correction link; ""Rojas Report estimate"" labels)"
+https://rojasreport.com/methodology/state-grade/,https://tafhc.org/methodology/state-grade/,301,Migrate and rewrite to Alliance voice (correction link)
+https://rojasreport.com/methodology/machine-score/,https://tafhc.org/methodology/machine-score/,301,"Hold for decision: Dutch 2026-11-16 ""wait""; methodology may migrate, no scores"
+https://rojasreport.com/academic/,https://tafhc.org/academic/,301,"Migrate and rewrite to Alliance voice (JSON-LD, publisher, lede)"
+https://rojasreport.com/aha/,https://tafhc.org/aha/,301,Migrate as is (rebrand layout strings)
+https://rojasreport.com/aha/about/,https://tafhc.org/aha/about/,301,Migrate and rewrite to Alliance voice (about text names the Report)
+https://rojasreport.com/aha/powermap/,https://tafhc.org/aha/powermap/,301,Migrate as is (rebrand; $170B figure in Conflicts)
+https://rojasreport.com/fah/,https://tafhc.org/fah/,301,Migrate as is (rebrand layout strings)
+https://rojasreport.com/fah/lobbying/,https://tafhc.org/fah/lobbying/,301,"Migrate as is (rebrand; title ""The machine"" is an editorial call, see Phase 4)"
+https://rojasreport.com/fah/pac/,https://tafhc.org/fah/pac/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/,https://tafhc.org/fah/pillars/,301,Migrate as is (rebrand)
+https://rojasreport.com/hac/,https://tafhc.org/hac/,301,Migrate as is (rebrand layout strings)
+https://rojasreport.com/hac/pattern-analysis/,https://tafhc.org/hac/pattern-analysis/,301,Migrate as is (rebrand)
+https://rojasreport.com/con/,https://tafhc.org/con/,301,"Migrate as is (Intelligence: research, no fight)"
+https://rojasreport.com/con/methodology/,https://tafhc.org/con/methodology/,301,Migrate as is (rebrand)
+https://rojasreport.com/rankings/,https://tafhc.org/con/rankings/,301,"Migrate as is, move under /con/"
+https://rojasreport.com/scope/,https://tafhc.org/con/scope/,301,"Migrate as is, move under /con/"
+https://rojasreport.com/compare/,https://tafhc.org/con/compare/,301,"Migrate as is, move under /con/ (last code change April 2026, check it still builds)"
+https://rojasreport.com/evidence/,https://tafhc.org/con/evidence/,301,"Migrate as is, move under /con/"
+https://rojasreport.com/outcomes/,https://tafhc.org/con/outcomes/,301,"Migrate as is, move under /con/"
+https://rojasreport.com/reform/,https://tafhc.org/con/reform/,301,"Migrate as is, move under /con/ (state tracker, research only)"
+https://rojasreport.com/timeline/,https://tafhc.org/con/timeline/,301,"Migrate as is, move under /con/"
+https://rojasreport.com/poh/,https://tafhc.org/poh/,301,Migrate as is (250+ vs 240+ in Conflicts)
+https://rojasreport.com/poh/investigation/,https://tafhc.org/poh/investigation/,301,"Migrate as is; link from /fights/physician-ownership/ (overlap, see Phase 1)"
+https://rojasreport.com/poh/evidence/,https://tafhc.org/poh/evidence/,301,Migrate as is
+https://rojasreport.com/poh/hospitals/,https://tafhc.org/poh/hospitals/,301,Migrate as is
+https://rojasreport.com/poh/states/,https://tafhc.org/poh/states/,301,Migrate as is
+https://rojasreport.com/aha/profiles/albert/,https://tafhc.org/aha/profiles/albert/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/allen/,https://tafhc.org/aha/profiles/allen/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/bakerrichardson/,https://tafhc.org/aha/profiles/bakerrichardson/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/barwis/,https://tafhc.org/aha/profiles/barwis/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/boom/,https://tafhc.org/aha/profiles/boom/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/coffman/,https://tafhc.org/aha/profiles/coffman/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/derienzo/,https://tafhc.org/aha/profiles/derienzo/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/fish/,https://tafhc.org/aha/profiles/fish/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/freesedecker/,https://tafhc.org/aha/profiles/freesedecker/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/gallagher/,https://tafhc.org/aha/profiles/gallagher/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/gassen/,https://tafhc.org/aha/profiles/gassen/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/glasgo/,https://tafhc.org/aha/profiles/glasgo/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/golder/,https://tafhc.org/aha/profiles/golder/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/gressle/,https://tafhc.org/aha/profiles/gressle/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/hancock/,https://tafhc.org/aha/profiles/hancock/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/hirsch/,https://tafhc.org/aha/profiles/hirsch/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/hood/,https://tafhc.org/aha/profiles/hood/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/hrobsky/,https://tafhc.org/aha/profiles/hrobsky/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/hughes/,https://tafhc.org/aha/profiles/hughes/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/jennings/,https://tafhc.org/aha/profiles/jennings/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/jones/,https://tafhc.org/aha/profiles/jones/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/kaiser/,https://tafhc.org/aha/profiles/kaiser/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/lewis/,https://tafhc.org/aha/profiles/lewis/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/november/,https://tafhc.org/aha/profiles/november/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/ozuah/,https://tafhc.org/aha/profiles/ozuah/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/peters/,https://tafhc.org/aha/profiles/peters/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/pollack/,https://tafhc.org/aha/profiles/pollack/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/shannon/,https://tafhc.org/aha/profiles/shannon/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/slubowski/,https://tafhc.org/aha/profiles/slubowski/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/suttonwallace/,https://tafhc.org/aha/profiles/suttonwallace/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/trestman/,https://tafhc.org/aha/profiles/trestman/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/ugwueke/,https://tafhc.org/aha/profiles/ugwueke/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/vanhouweling/,https://tafhc.org/aha/profiles/vanhouweling/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/vissers/,https://tafhc.org/aha/profiles/vissers/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/walsh/,https://tafhc.org/aha/profiles/walsh/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/aha/profiles/wexler/,https://tafhc.org/aha/profiles/wexler/,301,Migrate as is (rebrand; dossier naming an individual: review standard in Phase 4)
+https://rojasreport.com/fah/board/hazen/,https://tafhc.org/fah/board/hazen/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/sutaria/,https://tafhc.org/fah/board/sutaria/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/dill/,https://tafhc.org/fah/board/dill/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/tarr/,https://tafhc.org/fah/board/tarr/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/miller/,https://tafhc.org/fah/board/miller/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/hammons/,https://tafhc.org/fah/board/hammons/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/reddy/,https://tafhc.org/fah/board/reddy/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/caspers/,https://tafhc.org/fah/board/caspers/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/board/shirley/,https://tafhc.org/fah/board/shirley/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/fah/pillars/con-laws/,https://tafhc.org/fah/pillars/con-laws/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/consolidation/,https://tafhc.org/fah/pillars/consolidation/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/340b/,https://tafhc.org/fah/pillars/340b/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/idr/,https://tafhc.org/fah/pillars/idr/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/poh-ban/,https://tafhc.org/fah/pillars/poh-ban/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/site-neutral/,https://tafhc.org/fah/pillars/site-neutral/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/scope/,https://tafhc.org/fah/pillars/scope/,301,Migrate as is (rebrand)
+https://rojasreport.com/fah/pillars/transparency/,https://tafhc.org/fah/pillars/transparency/,301,Migrate as is (rebrand)
+https://rojasreport.com/hac/members/elizabeth-fago/,https://tafhc.org/hac/members/elizabeth-fago/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/robert-bessler/,https://tafhc.org/hac/members/robert-bessler/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/david-carmouche/,https://tafhc.org/hac/members/david-carmouche/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/clive-fields/,https://tafhc.org/hac/members/clive-fields/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/kyu-rhee/,https://tafhc.org/hac/members/kyu-rhee/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/linda-thomas-hemak/,https://tafhc.org/hac/members/linda-thomas-hemak/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/william-gassen/,https://tafhc.org/hac/members/william-gassen/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/dennis-laraway/,https://tafhc.org/hac/members/dennis-laraway/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/dan-liljenquist/,https://tafhc.org/hac/members/dan-liljenquist/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/andrew-lynch/,https://tafhc.org/hac/members/andrew-lynch/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/russ-thomas/,https://tafhc.org/hac/members/russ-thomas/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/kimberly-brandt/,https://tafhc.org/hac/members/kimberly-brandt/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/stephanie-carlton/,https://tafhc.org/hac/members/stephanie-carlton/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/sebastian-caliri/,https://tafhc.org/hac/members/sebastian-caliri/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/tony-robbins/,https://tafhc.org/hac/members/tony-robbins/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/ursel-mcelroy/,https://tafhc.org/hac/members/ursel-mcelroy/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/valerie-huhn/,https://tafhc.org/hac/members/valerie-huhn/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/hac/members/jenni-gudapati/,https://tafhc.org/hac/members/jenni-gudapati/,301,Migrate as is (rebrand; names an individual)
+https://rojasreport.com/states/alabama/,https://tafhc.org/states/alabama/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/alaska/,https://tafhc.org/states/alaska/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/arkansas/,https://tafhc.org/states/arkansas/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/connecticut/,https://tafhc.org/states/connecticut/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/delaware/,https://tafhc.org/states/delaware/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/florida/,https://tafhc.org/states/florida/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/georgia/,https://tafhc.org/states/georgia/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/hawaii/,https://tafhc.org/states/hawaii/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/illinois/,https://tafhc.org/states/illinois/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/iowa/,https://tafhc.org/states/iowa/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/kentucky/,https://tafhc.org/states/kentucky/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/louisiana/,https://tafhc.org/states/louisiana/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/maine/,https://tafhc.org/states/maine/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/maryland/,https://tafhc.org/states/maryland/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/massachusetts/,https://tafhc.org/states/massachusetts/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/michigan/,https://tafhc.org/states/michigan/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/minnesota/,https://tafhc.org/states/minnesota/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/mississippi/,https://tafhc.org/states/mississippi/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/missouri/,https://tafhc.org/states/missouri/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/montana/,https://tafhc.org/states/montana/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/nebraska/,https://tafhc.org/states/nebraska/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/nevada/,https://tafhc.org/states/nevada/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/new-jersey/,https://tafhc.org/states/new-jersey/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/new-york/,https://tafhc.org/states/new-york/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/north-carolina/,https://tafhc.org/states/north-carolina/,301,Migrate as is (full state dossier; NC only)
+https://rojasreport.com/states/north-dakota/,https://tafhc.org/states/north-dakota/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/oklahoma/,https://tafhc.org/states/oklahoma/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/oregon/,https://tafhc.org/states/oregon/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/rhode-island/,https://tafhc.org/states/rhode-island/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/tennessee/,https://tafhc.org/states/tennessee/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/vermont/,https://tafhc.org/states/vermont/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/virginia/,https://tafhc.org/states/virginia/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/washington/,https://tafhc.org/states/washington/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/washington-dc/,https://tafhc.org/states/washington-dc/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/west-virginia/,https://tafhc.org/states/west-virginia/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/states/wisconsin/,https://tafhc.org/states/wisconsin/,301,Migrate as is (CON state page; dossier in preparation)
+https://rojasreport.com/con/north-carolina/,https://tafhc.org/con/north-carolina/,301,Migrate as is
+https://rojasreport.com/systems/commonspirit/,https://tafhc.org/systems/commonspirit/,301,"Migrate as is (rebrand ""Rojas Report estimate"" labels)"
+https://rojasreport.com/committees/senate-finance/,https://tafhc.org/committees/senate-finance/,301,Migrate as is (rebrand; Machine Score column stays a dash)
+https://rojasreport.com/committees/ways-and-means/,https://tafhc.org/committees/ways-and-means/,301,Migrate as is (rebrand; Machine Score column stays a dash)
+https://rojasreport.com/committees/ways-and-means/members/,https://tafhc.org/committees/ways-and-means/members/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/,https://tafhc.org/committees/ways-and-means/votes/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/members/jason-smith/,https://tafhc.org/committees/ways-and-means/members/jason-smith/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/vern-buchanan/,https://tafhc.org/committees/ways-and-means/members/vern-buchanan/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/adrian-smith/,https://tafhc.org/committees/ways-and-means/members/adrian-smith/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/mike-kelly/,https://tafhc.org/committees/ways-and-means/members/mike-kelly/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/david-schweikert/,https://tafhc.org/committees/ways-and-means/members/david-schweikert/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/darin-lahood/,https://tafhc.org/committees/ways-and-means/members/darin-lahood/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/jodey-arrington/,https://tafhc.org/committees/ways-and-means/members/jodey-arrington/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/ron-estes/,https://tafhc.org/committees/ways-and-means/members/ron-estes/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/lloyd-smucker/,https://tafhc.org/committees/ways-and-means/members/lloyd-smucker/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/kevin-hern/,https://tafhc.org/committees/ways-and-means/members/kevin-hern/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/carol-miller/,https://tafhc.org/committees/ways-and-means/members/carol-miller/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/greg-murphy/,https://tafhc.org/committees/ways-and-means/members/greg-murphy/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/david-kustoff/,https://tafhc.org/committees/ways-and-means/members/david-kustoff/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/brian-fitzpatrick/,https://tafhc.org/committees/ways-and-means/members/brian-fitzpatrick/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/greg-steube/,https://tafhc.org/committees/ways-and-means/members/greg-steube/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/claudia-tenney/,https://tafhc.org/committees/ways-and-means/members/claudia-tenney/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/michelle-fischbach/,https://tafhc.org/committees/ways-and-means/members/michelle-fischbach/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/blake-moore/,https://tafhc.org/committees/ways-and-means/members/blake-moore/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/beth-van-duyne/,https://tafhc.org/committees/ways-and-means/members/beth-van-duyne/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/randy-feenstra/,https://tafhc.org/committees/ways-and-means/members/randy-feenstra/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/nicole-malliotakis/,https://tafhc.org/committees/ways-and-means/members/nicole-malliotakis/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/mike-carey/,https://tafhc.org/committees/ways-and-means/members/mike-carey/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/rudy-yakym/,https://tafhc.org/committees/ways-and-means/members/rudy-yakym/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/max-miller/,https://tafhc.org/committees/ways-and-means/members/max-miller/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/aaron-bean/,https://tafhc.org/committees/ways-and-means/members/aaron-bean/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/nathaniel-moran/,https://tafhc.org/committees/ways-and-means/members/nathaniel-moran/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/richard-neal/,https://tafhc.org/committees/ways-and-means/members/richard-neal/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/lloyd-doggett/,https://tafhc.org/committees/ways-and-means/members/lloyd-doggett/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/mike-thompson/,https://tafhc.org/committees/ways-and-means/members/mike-thompson/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/john-larson/,https://tafhc.org/committees/ways-and-means/members/john-larson/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/danny-davis/,https://tafhc.org/committees/ways-and-means/members/danny-davis/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/linda-sanchez/,https://tafhc.org/committees/ways-and-means/members/linda-sanchez/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/terri-sewell/,https://tafhc.org/committees/ways-and-means/members/terri-sewell/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/suzan-delbene/,https://tafhc.org/committees/ways-and-means/members/suzan-delbene/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/judy-chu/,https://tafhc.org/committees/ways-and-means/members/judy-chu/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/gwen-moore/,https://tafhc.org/committees/ways-and-means/members/gwen-moore/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/brendan-boyle/,https://tafhc.org/committees/ways-and-means/members/brendan-boyle/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/don-beyer/,https://tafhc.org/committees/ways-and-means/members/don-beyer/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/dwight-evans/,https://tafhc.org/committees/ways-and-means/members/dwight-evans/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/brad-schneider/,https://tafhc.org/committees/ways-and-means/members/brad-schneider/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/jimmy-panetta/,https://tafhc.org/committees/ways-and-means/members/jimmy-panetta/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/jimmy-gomez/,https://tafhc.org/committees/ways-and-means/members/jimmy-gomez/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/steven-horsford/,https://tafhc.org/committees/ways-and-means/members/steven-horsford/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/stacey-plaskett/,https://tafhc.org/committees/ways-and-means/members/stacey-plaskett/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/members/tom-suozzi/,https://tafhc.org/committees/ways-and-means/members/tom-suozzi/,301,Migrate as is (rebrand; names an individual; PAC money and votes sourced)
+https://rojasreport.com/committees/ways-and-means/votes/2025-70/,https://tafhc.org/committees/ways-and-means/votes/2025-70/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2025-145/,https://tafhc.org/committees/ways-and-means/votes/2025-145/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2025-151/,https://tafhc.org/committees/ways-and-means/votes/2025-151/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2025-190/,https://tafhc.org/committees/ways-and-means/votes/2025-190/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2025-281/,https://tafhc.org/committees/ways-and-means/votes/2025-281/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2025-285/,https://tafhc.org/committees/ways-and-means/votes/2025-285/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2025-349/,https://tafhc.org/committees/ways-and-means/votes/2025-349/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2025-362/,https://tafhc.org/committees/ways-and-means/votes/2025-362/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2026-45/,https://tafhc.org/committees/ways-and-means/votes/2026-45/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2026-53/,https://tafhc.org/committees/ways-and-means/votes/2026-53/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2026-128/,https://tafhc.org/committees/ways-and-means/votes/2026-128/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2026-272/,https://tafhc.org/committees/ways-and-means/votes/2026-272/,301,Migrate as is
+https://rojasreport.com/committees/ways-and-means/votes/2026-286/,https://tafhc.org/committees/ways-and-means/votes/2026-286/,301,Migrate as is
+https://rojasreport.com/poh/states/al/,https://tafhc.org/poh/states/al/,301,Migrate as is
+https://rojasreport.com/poh/states/az/,https://tafhc.org/poh/states/az/,301,Migrate as is
+https://rojasreport.com/poh/states/ar/,https://tafhc.org/poh/states/ar/,301,Migrate as is
+https://rojasreport.com/poh/states/ca/,https://tafhc.org/poh/states/ca/,301,Migrate as is
+https://rojasreport.com/poh/states/co/,https://tafhc.org/poh/states/co/,301,Migrate as is
+https://rojasreport.com/poh/states/fl/,https://tafhc.org/poh/states/fl/,301,Migrate as is
+https://rojasreport.com/poh/states/ga/,https://tafhc.org/poh/states/ga/,301,Migrate as is
+https://rojasreport.com/poh/states/id/,https://tafhc.org/poh/states/id/,301,Migrate as is
+https://rojasreport.com/poh/states/in/,https://tafhc.org/poh/states/in/,301,Migrate as is
+https://rojasreport.com/poh/states/ks/,https://tafhc.org/poh/states/ks/,301,Migrate as is
+https://rojasreport.com/poh/states/la/,https://tafhc.org/poh/states/la/,301,Migrate as is
+https://rojasreport.com/poh/states/mi/,https://tafhc.org/poh/states/mi/,301,Migrate as is
+https://rojasreport.com/poh/states/mo/,https://tafhc.org/poh/states/mo/,301,Migrate as is
+https://rojasreport.com/poh/states/mt/,https://tafhc.org/poh/states/mt/,301,Migrate as is
+https://rojasreport.com/poh/states/ne/,https://tafhc.org/poh/states/ne/,301,Migrate as is
+https://rojasreport.com/poh/states/nv/,https://tafhc.org/poh/states/nv/,301,Migrate as is
+https://rojasreport.com/poh/states/nm/,https://tafhc.org/poh/states/nm/,301,Migrate as is
+https://rojasreport.com/poh/states/nc/,https://tafhc.org/poh/states/nc/,301,Migrate as is
+https://rojasreport.com/poh/states/oh/,https://tafhc.org/poh/states/oh/,301,Migrate as is
+https://rojasreport.com/poh/states/ok/,https://tafhc.org/poh/states/ok/,301,Migrate as is
+https://rojasreport.com/poh/states/or/,https://tafhc.org/poh/states/or/,301,Migrate as is
+https://rojasreport.com/poh/states/pa/,https://tafhc.org/poh/states/pa/,301,Migrate as is
+https://rojasreport.com/poh/states/sc/,https://tafhc.org/poh/states/sc/,301,Migrate as is
+https://rojasreport.com/poh/states/sd/,https://tafhc.org/poh/states/sd/,301,Migrate as is
+https://rojasreport.com/poh/states/tn/,https://tafhc.org/poh/states/tn/,301,Migrate as is
+https://rojasreport.com/poh/states/tx/,https://tafhc.org/poh/states/tx/,301,Migrate as is
+https://rojasreport.com/poh/states/ut/,https://tafhc.org/poh/states/ut/,301,Migrate as is
+https://rojasreport.com/poh/states/wv/,https://tafhc.org/poh/states/wv/,301,Migrate as is
+https://rojasreport.com/poh/states/wi/,https://tafhc.org/poh/states/wi/,301,Migrate as is
+https://rojasreport.com/poh/states/wy/,https://tafhc.org/poh/states/wy/,301,Migrate as is
+https://rojasreport.com/washington/,https://tafhc.org/government/,301,Retire: retired Nov 2026 (already 301 on rojasreport.com)
+https://rojasreport.com/fights/,https://tafhc.org/drivers/,301,Retire: retired Nov 2026 (rojasreport /fights was the cost-driver index; Alliance /fights/ is a different page)
+https://rojasreport.com/physicians/,https://tafhc.org/physician-owned/,301,Retire: retired Nov 2026 (rojasreport /physicians was the physician-owned section)
+https://rojasreport.com/sitemap.xml,https://tafhc.org/sitemap.xml,301,Migrate as is (regenerated for tafhc.org)
+https://rojasreport.com/robots.txt,https://tafhc.org/robots.txt,301,Migrate as is (regenerated for tafhc.org)
+https://rojasreport.com/llms.txt,https://tafhc.org/llms.txt,301,Migrate as is (regenerated for tafhc.org)
+https://rojasreport.com/briefs/alabama.txt,https://tafhc.org/briefs/alabama.txt,301,Migrate as is
+https://rojasreport.com/briefs/alaska.txt,https://tafhc.org/briefs/alaska.txt,301,Migrate as is
+https://rojasreport.com/briefs/arkansas.txt,https://tafhc.org/briefs/arkansas.txt,301,Migrate as is
+https://rojasreport.com/briefs/connecticut.txt,https://tafhc.org/briefs/connecticut.txt,301,Migrate as is
+https://rojasreport.com/briefs/delaware.txt,https://tafhc.org/briefs/delaware.txt,301,Migrate as is
+https://rojasreport.com/briefs/florida.txt,https://tafhc.org/briefs/florida.txt,301,Migrate as is
+https://rojasreport.com/briefs/georgia.txt,https://tafhc.org/briefs/georgia.txt,301,Migrate as is
+https://rojasreport.com/briefs/hawaii.txt,https://tafhc.org/briefs/hawaii.txt,301,Migrate as is
+https://rojasreport.com/briefs/illinois.txt,https://tafhc.org/briefs/illinois.txt,301,Migrate as is
+https://rojasreport.com/briefs/iowa.txt,https://tafhc.org/briefs/iowa.txt,301,Migrate as is
+https://rojasreport.com/briefs/kentucky.txt,https://tafhc.org/briefs/kentucky.txt,301,Migrate as is
+https://rojasreport.com/briefs/louisiana.txt,https://tafhc.org/briefs/louisiana.txt,301,Migrate as is
+https://rojasreport.com/briefs/maine.txt,https://tafhc.org/briefs/maine.txt,301,Migrate as is
+https://rojasreport.com/briefs/maryland.txt,https://tafhc.org/briefs/maryland.txt,301,Migrate as is
+https://rojasreport.com/briefs/massachusetts.txt,https://tafhc.org/briefs/massachusetts.txt,301,Migrate as is
+https://rojasreport.com/briefs/michigan.txt,https://tafhc.org/briefs/michigan.txt,301,Migrate as is
+https://rojasreport.com/briefs/minnesota.txt,https://tafhc.org/briefs/minnesota.txt,301,Migrate as is
+https://rojasreport.com/briefs/mississippi.txt,https://tafhc.org/briefs/mississippi.txt,301,Migrate as is
+https://rojasreport.com/briefs/missouri.txt,https://tafhc.org/briefs/missouri.txt,301,Migrate as is
+https://rojasreport.com/briefs/montana.txt,https://tafhc.org/briefs/montana.txt,301,Migrate as is
+https://rojasreport.com/briefs/nebraska.txt,https://tafhc.org/briefs/nebraska.txt,301,Migrate as is
+https://rojasreport.com/briefs/nevada.txt,https://tafhc.org/briefs/nevada.txt,301,Migrate as is
+https://rojasreport.com/briefs/new-jersey.txt,https://tafhc.org/briefs/new-jersey.txt,301,Migrate as is
+https://rojasreport.com/briefs/new-york.txt,https://tafhc.org/briefs/new-york.txt,301,Migrate as is
+https://rojasreport.com/briefs/north-carolina.txt,https://tafhc.org/briefs/north-carolina.txt,301,Migrate as is
+https://rojasreport.com/briefs/north-dakota.txt,https://tafhc.org/briefs/north-dakota.txt,301,Migrate as is
+https://rojasreport.com/briefs/oklahoma.txt,https://tafhc.org/briefs/oklahoma.txt,301,Migrate as is
+https://rojasreport.com/briefs/oregon.txt,https://tafhc.org/briefs/oregon.txt,301,Migrate as is
+https://rojasreport.com/briefs/rhode-island.txt,https://tafhc.org/briefs/rhode-island.txt,301,Migrate as is
+https://rojasreport.com/briefs/tennessee.txt,https://tafhc.org/briefs/tennessee.txt,301,Migrate as is
+https://rojasreport.com/briefs/vermont.txt,https://tafhc.org/briefs/vermont.txt,301,Migrate as is
+https://rojasreport.com/briefs/virginia.txt,https://tafhc.org/briefs/virginia.txt,301,Migrate as is
+https://rojasreport.com/briefs/washington-dc.txt,https://tafhc.org/briefs/washington-dc.txt,301,Migrate as is
+https://rojasreport.com/briefs/washington.txt,https://tafhc.org/briefs/washington.txt,301,Migrate as is
+https://rojasreport.com/briefs/west-virginia.txt,https://tafhc.org/briefs/west-virginia.txt,301,Migrate as is
+https://rojasreport.com/briefs/wisconsin.txt,https://tafhc.org/briefs/wisconsin.txt,301,Migrate as is
+https://rojasreport.com/about,https://tafhc.org/about/,301,Retire: old About (404 today) to Alliance About
+https://conlaws.rojasreport.com/about,https://tafhc.org/about/,301,Retire: old About (404 today) to Alliance About
+https://rojasreport.com/certificate-of-need,https://tafhc.org/con/,301,Retire: old CON index to the CON desk
+https://conlaws.rojasreport.com/certificate-of-need,https://tafhc.org/con/,301,Retire: old CON index to the CON desk
+https://rojasreport.com/340b-drug-pricing,https://tafhc.org/fights/340b/,301,Retire: old 340B page (404 today) to the 340B fight
+https://conlaws.rojasreport.com/340b-drug-pricing,https://tafhc.org/fights/340b/,301,Retire: old 340B page (404 today) to the 340B fight
+https://rojasreport.com/hospital-monopolies,https://tafhc.org/systems/,301,Retire: old hospital monopolies page (404 today) to Health Systems (parent page)
+https://conlaws.rojasreport.com/hospital-monopolies,https://tafhc.org/systems/,301,Retire: old hospital monopolies page (404 today) to Health Systems (parent page)
+https://rojasreport.com/idr-no-surprises-act,https://tafhc.org/fah/pillars/idr/,301,"Retire: old IDR page (404 today) to the closest live content, the FAH IDR pillar (parent page)"
+https://conlaws.rojasreport.com/idr-no-surprises-act,https://tafhc.org/fah/pillars/idr/,301,"Retire: old IDR page (404 today) to the closest live content, the FAH IDR pillar (parent page)"
+https://rojasreport.com/hospital-monopolies/university-of-michigan,https://tafhc.org/academic/,301,Retire: old U-M page (404 today) to the academic medical centers desk (parent page)
+https://conlaws.rojasreport.com/hospital-monopolies/university-of-michigan,https://tafhc.org/academic/,301,Retire: old U-M page (404 today) to the academic medical centers desk (parent page)
+https://rojasreport.com/alabama/certificate-of-need,https://tafhc.org/states/alabama/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/alabama/certificate-of-need,https://tafhc.org/states/alabama/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/alaska/certificate-of-need,https://tafhc.org/states/alaska/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/alaska/certificate-of-need,https://tafhc.org/states/alaska/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/arkansas/certificate-of-need,https://tafhc.org/states/arkansas/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/arkansas/certificate-of-need,https://tafhc.org/states/arkansas/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/connecticut/certificate-of-need,https://tafhc.org/states/connecticut/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/connecticut/certificate-of-need,https://tafhc.org/states/connecticut/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/dc/certificate-of-need,https://tafhc.org/states/washington-dc/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/dc/certificate-of-need,https://tafhc.org/states/washington-dc/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/delaware/certificate-of-need,https://tafhc.org/states/delaware/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/delaware/certificate-of-need,https://tafhc.org/states/delaware/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/florida/certificate-of-need,https://tafhc.org/states/florida/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/florida/certificate-of-need,https://tafhc.org/states/florida/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/georgia/certificate-of-need,https://tafhc.org/states/georgia/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/georgia/certificate-of-need,https://tafhc.org/states/georgia/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/hawaii/certificate-of-need,https://tafhc.org/states/hawaii/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/hawaii/certificate-of-need,https://tafhc.org/states/hawaii/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/illinois/certificate-of-need,https://tafhc.org/states/illinois/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/illinois/certificate-of-need,https://tafhc.org/states/illinois/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/iowa/certificate-of-need,https://tafhc.org/states/iowa/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/iowa/certificate-of-need,https://tafhc.org/states/iowa/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/kentucky/certificate-of-need,https://tafhc.org/states/kentucky/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/kentucky/certificate-of-need,https://tafhc.org/states/kentucky/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/louisiana/certificate-of-need,https://tafhc.org/states/louisiana/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/louisiana/certificate-of-need,https://tafhc.org/states/louisiana/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/maine/certificate-of-need,https://tafhc.org/states/maine/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/maine/certificate-of-need,https://tafhc.org/states/maine/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/maryland/certificate-of-need,https://tafhc.org/states/maryland/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/maryland/certificate-of-need,https://tafhc.org/states/maryland/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/massachusetts/certificate-of-need,https://tafhc.org/states/massachusetts/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/massachusetts/certificate-of-need,https://tafhc.org/states/massachusetts/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/michigan/certificate-of-need,https://tafhc.org/states/michigan/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/michigan/certificate-of-need,https://tafhc.org/states/michigan/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/minnesota/certificate-of-need,https://tafhc.org/states/minnesota/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/minnesota/certificate-of-need,https://tafhc.org/states/minnesota/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/mississippi/certificate-of-need,https://tafhc.org/states/mississippi/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/mississippi/certificate-of-need,https://tafhc.org/states/mississippi/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/missouri/certificate-of-need,https://tafhc.org/states/missouri/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/missouri/certificate-of-need,https://tafhc.org/states/missouri/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/montana/certificate-of-need,https://tafhc.org/states/montana/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/montana/certificate-of-need,https://tafhc.org/states/montana/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/nebraska/certificate-of-need,https://tafhc.org/states/nebraska/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/nebraska/certificate-of-need,https://tafhc.org/states/nebraska/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/nevada/certificate-of-need,https://tafhc.org/states/nevada/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/nevada/certificate-of-need,https://tafhc.org/states/nevada/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/new-jersey/certificate-of-need,https://tafhc.org/states/new-jersey/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/new-jersey/certificate-of-need,https://tafhc.org/states/new-jersey/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/new-york/certificate-of-need,https://tafhc.org/states/new-york/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/new-york/certificate-of-need,https://tafhc.org/states/new-york/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/north-carolina/certificate-of-need,https://tafhc.org/states/north-carolina/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/north-carolina/certificate-of-need,https://tafhc.org/states/north-carolina/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/north-dakota/certificate-of-need,https://tafhc.org/states/north-dakota/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/north-dakota/certificate-of-need,https://tafhc.org/states/north-dakota/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/oklahoma/certificate-of-need,https://tafhc.org/states/oklahoma/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/oklahoma/certificate-of-need,https://tafhc.org/states/oklahoma/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/oregon/certificate-of-need,https://tafhc.org/states/oregon/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/oregon/certificate-of-need,https://tafhc.org/states/oregon/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/rhode-island/certificate-of-need,https://tafhc.org/states/rhode-island/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/rhode-island/certificate-of-need,https://tafhc.org/states/rhode-island/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/tennessee/certificate-of-need,https://tafhc.org/states/tennessee/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/tennessee/certificate-of-need,https://tafhc.org/states/tennessee/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/vermont/certificate-of-need,https://tafhc.org/states/vermont/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/vermont/certificate-of-need,https://tafhc.org/states/vermont/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/virginia/certificate-of-need,https://tafhc.org/states/virginia/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/virginia/certificate-of-need,https://tafhc.org/states/virginia/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/washington/certificate-of-need,https://tafhc.org/states/washington/,301,"Retire: old CON state page (301 via the /washington/* rule today, then 404) to the state page"
+https://conlaws.rojasreport.com/washington/certificate-of-need,https://tafhc.org/states/washington/,301,"Retire: old CON state page (301 via the /washington/* rule today, then 404) to the state page"
+https://rojasreport.com/west-virginia/certificate-of-need,https://tafhc.org/states/west-virginia/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/west-virginia/certificate-of-need,https://tafhc.org/states/west-virginia/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/wisconsin/certificate-of-need,https://tafhc.org/states/wisconsin/,301,Retire: old CON state page (404 today) to the state page
+https://conlaws.rojasreport.com/wisconsin/certificate-of-need,https://tafhc.org/states/wisconsin/,301,Retire: old CON state page (404 today) to the state page
+https://rojasreport.com/investigations/con,https://tafhc.org/con/,301,legacy pattern
+https://conlaws.rojasreport.com/investigations/con,https://tafhc.org/con/,301,legacy pattern
+https://rojasreport.com/investigations/con-laws,https://tafhc.org/con/,301,legacy pattern
+https://conlaws.rojasreport.com/investigations/con-laws,https://tafhc.org/con/,301,legacy pattern
+https://rojasreport.com/investigations/340b,https://tafhc.org/fights/340b/,301,legacy pattern
+https://conlaws.rojasreport.com/investigations/340b,https://tafhc.org/fights/340b/,301,legacy pattern
+https://rojasreport.com/investigations/idr,https://tafhc.org/fah/pillars/idr/,301,legacy pattern (parent page)
+https://conlaws.rojasreport.com/investigations/idr,https://tafhc.org/fah/pillars/idr/,301,legacy pattern (parent page)
+https://rojasreport.com/investigations/hospital-monopolies,https://tafhc.org/systems/,301,legacy pattern (parent page)
+https://conlaws.rojasreport.com/investigations/hospital-monopolies,https://tafhc.org/systems/,301,legacy pattern (parent page)
+https://rojasreport.com/con,https://tafhc.org/con/,301,"legacy pattern; the live site already 301s /con to /con/, kept so the hop is direct"
+https://conlaws.rojasreport.com/con,https://tafhc.org/con/,301,"legacy pattern; the live site already 301s /con to /con/, kept so the hop is direct"
+https://rojasreport.com/340b,https://tafhc.org/fights/340b/,301,legacy pattern
+https://conlaws.rojasreport.com/340b,https://tafhc.org/fights/340b/,301,legacy pattern
+https://rojasreport.com/idr,https://tafhc.org/fah/pillars/idr/,301,legacy pattern (parent page)
+https://conlaws.rojasreport.com/idr,https://tafhc.org/fah/pillars/idr/,301,legacy pattern (parent page)
+https://conlaws.rojasreport.com/,https://tafhc.org/con/,301,alias
+https://www.rojasreport.com/*,https://tafhc.org/:splat,301,"www alias, same map as apex"
+https://aha.rojasreport.com/,https://tafhc.org/aha/,301,Retire: already 301 to rojasreport.com/aha/; repoint to tafhc.org
+https://aha.rojasreport.com/about/,https://tafhc.org/aha/about/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/powermap/,https://tafhc.org/aha/powermap/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/privacy/,https://tafhc.org/privacy/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/albert/,https://tafhc.org/aha/profiles/albert/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/allen/,https://tafhc.org/aha/profiles/allen/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/bakerrichardson/,https://tafhc.org/aha/profiles/bakerrichardson/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/barwis/,https://tafhc.org/aha/profiles/barwis/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/boom/,https://tafhc.org/aha/profiles/boom/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/coffman/,https://tafhc.org/aha/profiles/coffman/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/derienzo/,https://tafhc.org/aha/profiles/derienzo/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/fish/,https://tafhc.org/aha/profiles/fish/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/freesedecker/,https://tafhc.org/aha/profiles/freesedecker/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/gallagher/,https://tafhc.org/aha/profiles/gallagher/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/gassen/,https://tafhc.org/aha/profiles/gassen/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/glasgo/,https://tafhc.org/aha/profiles/glasgo/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/golder/,https://tafhc.org/aha/profiles/golder/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/gressle/,https://tafhc.org/aha/profiles/gressle/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/hancock/,https://tafhc.org/aha/profiles/hancock/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/hirsch/,https://tafhc.org/aha/profiles/hirsch/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/hood/,https://tafhc.org/aha/profiles/hood/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/hrobsky/,https://tafhc.org/aha/profiles/hrobsky/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/hughes/,https://tafhc.org/aha/profiles/hughes/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/jennings/,https://tafhc.org/aha/profiles/jennings/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/jones/,https://tafhc.org/aha/profiles/jones/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/kaiser/,https://tafhc.org/aha/profiles/kaiser/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/lewis/,https://tafhc.org/aha/profiles/lewis/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/november/,https://tafhc.org/aha/profiles/november/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/ozuah/,https://tafhc.org/aha/profiles/ozuah/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/peters/,https://tafhc.org/aha/profiles/peters/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/pollack/,https://tafhc.org/aha/profiles/pollack/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/shannon/,https://tafhc.org/aha/profiles/shannon/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/slubowski/,https://tafhc.org/aha/profiles/slubowski/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/suttonwallace/,https://tafhc.org/aha/profiles/suttonwallace/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/trestman/,https://tafhc.org/aha/profiles/trestman/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/ugwueke/,https://tafhc.org/aha/profiles/ugwueke/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/vanhouweling/,https://tafhc.org/aha/profiles/vanhouweling/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/vissers/,https://tafhc.org/aha/profiles/vissers/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/walsh/,https://tafhc.org/aha/profiles/walsh/,301,Retire: already 301; repoint
+https://aha.rojasreport.com/profiles/wexler/,https://tafhc.org/aha/profiles/wexler/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/,https://tafhc.org/hac/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/pattern-analysis/,https://tafhc.org/hac/pattern-analysis/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/elizabeth-fago/,https://tafhc.org/hac/members/elizabeth-fago/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/robert-bessler/,https://tafhc.org/hac/members/robert-bessler/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/david-carmouche/,https://tafhc.org/hac/members/david-carmouche/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/clive-fields/,https://tafhc.org/hac/members/clive-fields/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/kyu-rhee/,https://tafhc.org/hac/members/kyu-rhee/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/linda-thomas-hemak/,https://tafhc.org/hac/members/linda-thomas-hemak/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/william-gassen/,https://tafhc.org/hac/members/william-gassen/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/dennis-laraway/,https://tafhc.org/hac/members/dennis-laraway/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/dan-liljenquist/,https://tafhc.org/hac/members/dan-liljenquist/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/andrew-lynch/,https://tafhc.org/hac/members/andrew-lynch/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/russ-thomas/,https://tafhc.org/hac/members/russ-thomas/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/kimberly-brandt/,https://tafhc.org/hac/members/kimberly-brandt/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/stephanie-carlton/,https://tafhc.org/hac/members/stephanie-carlton/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/sebastian-caliri/,https://tafhc.org/hac/members/sebastian-caliri/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/tony-robbins/,https://tafhc.org/hac/members/tony-robbins/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/ursel-mcelroy/,https://tafhc.org/hac/members/ursel-mcelroy/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/valerie-huhn/,https://tafhc.org/hac/members/valerie-huhn/,301,Retire: already 301; repoint
+https://hac.rojasreport.com/members/jenni-gudapati/,https://tafhc.org/hac/members/jenni-gudapati/,301,Retire: already 301; repoint
+https://academic.rojasreport.com/,https://tafhc.org/academic/,301,Retire: already 301; repoint
+https://fah.rojasreport.com/,https://tafhc.org/fah/,301,"Retire: meta refresh today, no 301; DNS move gives a true 301"
+https://fah.rojasreport.com/lobbying/,https://tafhc.org/fah/lobbying/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pac/,https://tafhc.org/fah/pac/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/,https://tafhc.org/fah/,301,Retire: no board index on the merged site; parent page
+https://fah.rojasreport.com/pillars/,https://tafhc.org/fah/pillars/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/bonick.html,https://tafhc.org/fah/,301,Retire: meta refresh today; left the board for 2027: parent page
+https://fah.rojasreport.com/board/dill.html,https://tafhc.org/fah/board/dill/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/hammons.html,https://tafhc.org/fah/board/hammons/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/hazen.html,https://tafhc.org/fah/board/hazen/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/jay.html,https://tafhc.org/fah/,301,Retire: meta refresh today; left the board for 2027: parent page
+https://fah.rojasreport.com/board/miller.html,https://tafhc.org/fah/board/miller/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/reddy.html,https://tafhc.org/fah/board/reddy/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/sutaria.html,https://tafhc.org/fah/board/sutaria/,301,Retire: meta refresh today
+https://fah.rojasreport.com/board/tarr.html,https://tafhc.org/fah/board/tarr/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/340b.html,https://tafhc.org/fah/pillars/340b/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/con-laws.html,https://tafhc.org/fah/pillars/con-laws/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/consolidation.html,https://tafhc.org/fah/pillars/consolidation/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/idr.html,https://tafhc.org/fah/pillars/idr/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/poh-ban.html,https://tafhc.org/fah/pillars/poh-ban/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/scope.html,https://tafhc.org/fah/pillars/scope/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/site-neutral.html,https://tafhc.org/fah/pillars/site-neutral/,301,Retire: meta refresh today
+https://fah.rojasreport.com/pillars/transparency.html,https://tafhc.org/fah/pillars/transparency/,301,Retire: meta refresh today
+https://poh.rojasreport.com/,https://tafhc.org/poh/,301,"Retire: serves 200 today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint to tafhc.org"
+https://poh.rojasreport.com/investigation/,https://tafhc.org/poh/investigation/,301,"Retire: serves 200 today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint to tafhc.org"
+https://poh.rojasreport.com/data-explorer/,https://tafhc.org/poh/hospitals/,301,"Retire: serves 200 today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint to tafhc.org"
+https://poh.rojasreport.com/evidence/,https://tafhc.org/poh/evidence/,301,"Retire: serves 200 today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint to tafhc.org"
+https://poh.rojasreport.com/states/,https://tafhc.org/poh/states/,301,"Retire: serves 200 today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint to tafhc.org"
+https://poh.rojasreport.com/about/,https://tafhc.org/poh/,301,"Retire: serves 200 today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint to tafhc.org"
+https://poh.rojasreport.com/states/AL/,https://tafhc.org/poh/states/al/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/al/,https://tafhc.org/poh/states/al/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/AR/,https://tafhc.org/poh/states/ar/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/ar/,https://tafhc.org/poh/states/ar/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/AZ/,https://tafhc.org/poh/states/az/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/az/,https://tafhc.org/poh/states/az/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/CA/,https://tafhc.org/poh/states/ca/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/ca/,https://tafhc.org/poh/states/ca/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/CO/,https://tafhc.org/poh/states/co/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/co/,https://tafhc.org/poh/states/co/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/FL/,https://tafhc.org/poh/states/fl/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/fl/,https://tafhc.org/poh/states/fl/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/GA/,https://tafhc.org/poh/states/ga/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/ga/,https://tafhc.org/poh/states/ga/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/IA/,https://tafhc.org/poh/states/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint (no hospital left on the list: parent page)"
+https://poh.rojasreport.com/states/ia/,https://tafhc.org/poh/states/,301,Retire: serves 200 today; repoint (no hospital left on the list: parent page)
+https://poh.rojasreport.com/states/ID/,https://tafhc.org/poh/states/id/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/id/,https://tafhc.org/poh/states/id/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/IN/,https://tafhc.org/poh/states/in/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/in/,https://tafhc.org/poh/states/in/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/KS/,https://tafhc.org/poh/states/ks/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/ks/,https://tafhc.org/poh/states/ks/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/LA/,https://tafhc.org/poh/states/la/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/la/,https://tafhc.org/poh/states/la/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/MI/,https://tafhc.org/poh/states/mi/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/mi/,https://tafhc.org/poh/states/mi/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/MO/,https://tafhc.org/poh/states/mo/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/mo/,https://tafhc.org/poh/states/mo/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/MT/,https://tafhc.org/poh/states/mt/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/mt/,https://tafhc.org/poh/states/mt/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/NC/,https://tafhc.org/poh/states/nc/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/nc/,https://tafhc.org/poh/states/nc/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/NE/,https://tafhc.org/poh/states/ne/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/ne/,https://tafhc.org/poh/states/ne/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/NH/,https://tafhc.org/poh/states/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint (no hospital left on the list: parent page)"
+https://poh.rojasreport.com/states/nh/,https://tafhc.org/poh/states/,301,Retire: serves 200 today; repoint (no hospital left on the list: parent page)
+https://poh.rojasreport.com/states/NM/,https://tafhc.org/poh/states/nm/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/nm/,https://tafhc.org/poh/states/nm/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/NV/,https://tafhc.org/poh/states/nv/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/nv/,https://tafhc.org/poh/states/nv/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/OH/,https://tafhc.org/poh/states/oh/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/oh/,https://tafhc.org/poh/states/oh/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/OK/,https://tafhc.org/poh/states/ok/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/ok/,https://tafhc.org/poh/states/ok/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/OR/,https://tafhc.org/poh/states/or/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/or/,https://tafhc.org/poh/states/or/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/PA/,https://tafhc.org/poh/states/pa/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/pa/,https://tafhc.org/poh/states/pa/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/SC/,https://tafhc.org/poh/states/sc/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/sc/,https://tafhc.org/poh/states/sc/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/SD/,https://tafhc.org/poh/states/sd/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/sd/,https://tafhc.org/poh/states/sd/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/TN/,https://tafhc.org/poh/states/tn/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/tn/,https://tafhc.org/poh/states/tn/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/TX/,https://tafhc.org/poh/states/tx/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/tx/,https://tafhc.org/poh/states/tx/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/UT/,https://tafhc.org/poh/states/ut/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/ut/,https://tafhc.org/poh/states/ut/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/WI/,https://tafhc.org/poh/states/wi/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/wi/,https://tafhc.org/poh/states/wi/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/WV/,https://tafhc.org/poh/states/wv/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/wv/,https://tafhc.org/poh/states/wv/,301,Retire: serves 200 today; repoint
+https://poh.rojasreport.com/states/WY/,https://tafhc.org/poh/states/wy/,301,"Retire: 301 to the lowercase path today; RRI PR 3 merged 2026-11-16, PR 4 (force) open; repoint"
+https://poh.rojasreport.com/states/wy/,https://tafhc.org/poh/states/wy/,301,Retire: serves 200 today; repoint
+https://waysandmeans.rojasreport.com/,https://tafhc.org/committees/ways-and-means/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/jason-smith,https://tafhc.org/committees/ways-and-means/members/jason-smith/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/vern-buchanan,https://tafhc.org/committees/ways-and-means/members/vern-buchanan/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/adrian-smith,https://tafhc.org/committees/ways-and-means/members/adrian-smith/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/mike-kelly,https://tafhc.org/committees/ways-and-means/members/mike-kelly/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/david-schweikert,https://tafhc.org/committees/ways-and-means/members/david-schweikert/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/darin-lahood,https://tafhc.org/committees/ways-and-means/members/darin-lahood/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/jodey-arrington,https://tafhc.org/committees/ways-and-means/members/jodey-arrington/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/ron-estes,https://tafhc.org/committees/ways-and-means/members/ron-estes/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/lloyd-smucker,https://tafhc.org/committees/ways-and-means/members/lloyd-smucker/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/kevin-hern,https://tafhc.org/committees/ways-and-means/members/kevin-hern/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/carol-miller,https://tafhc.org/committees/ways-and-means/members/carol-miller/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/greg-murphy,https://tafhc.org/committees/ways-and-means/members/greg-murphy/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/david-kustoff,https://tafhc.org/committees/ways-and-means/members/david-kustoff/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/brian-fitzpatrick,https://tafhc.org/committees/ways-and-means/members/brian-fitzpatrick/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/greg-steube,https://tafhc.org/committees/ways-and-means/members/greg-steube/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/claudia-tenney,https://tafhc.org/committees/ways-and-means/members/claudia-tenney/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/michelle-fischbach,https://tafhc.org/committees/ways-and-means/members/michelle-fischbach/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/blake-moore,https://tafhc.org/committees/ways-and-means/members/blake-moore/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/beth-van-duyne,https://tafhc.org/committees/ways-and-means/members/beth-van-duyne/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/randy-feenstra,https://tafhc.org/committees/ways-and-means/members/randy-feenstra/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/nicole-malliotakis,https://tafhc.org/committees/ways-and-means/members/nicole-malliotakis/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/mike-carey,https://tafhc.org/committees/ways-and-means/members/mike-carey/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/rudy-yakym,https://tafhc.org/committees/ways-and-means/members/rudy-yakym/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/max-miller,https://tafhc.org/committees/ways-and-means/members/max-miller/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/aaron-bean,https://tafhc.org/committees/ways-and-means/members/aaron-bean/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/nathaniel-moran,https://tafhc.org/committees/ways-and-means/members/nathaniel-moran/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/richard-neal,https://tafhc.org/committees/ways-and-means/members/richard-neal/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/lloyd-doggett,https://tafhc.org/committees/ways-and-means/members/lloyd-doggett/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/mike-thompson,https://tafhc.org/committees/ways-and-means/members/mike-thompson/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/john-larson,https://tafhc.org/committees/ways-and-means/members/john-larson/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/danny-davis,https://tafhc.org/committees/ways-and-means/members/danny-davis/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/linda-sanchez,https://tafhc.org/committees/ways-and-means/members/linda-sanchez/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/terri-sewell,https://tafhc.org/committees/ways-and-means/members/terri-sewell/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/suzan-delbene,https://tafhc.org/committees/ways-and-means/members/suzan-delbene/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/judy-chu,https://tafhc.org/committees/ways-and-means/members/judy-chu/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/gwen-moore,https://tafhc.org/committees/ways-and-means/members/gwen-moore/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/brendan-boyle,https://tafhc.org/committees/ways-and-means/members/brendan-boyle/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/don-beyer,https://tafhc.org/committees/ways-and-means/members/don-beyer/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/dwight-evans,https://tafhc.org/committees/ways-and-means/members/dwight-evans/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/brad-schneider,https://tafhc.org/committees/ways-and-means/members/brad-schneider/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/jimmy-panetta,https://tafhc.org/committees/ways-and-means/members/jimmy-panetta/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/jimmy-gomez,https://tafhc.org/committees/ways-and-means/members/jimmy-gomez/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/steven-horsford,https://tafhc.org/committees/ways-and-means/members/steven-horsford/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/stacey-plaskett,https://tafhc.org/committees/ways-and-means/members/stacey-plaskett/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/member/tom-suozzi,https://tafhc.org/committees/ways-and-means/members/tom-suozzi/,301,Retire: already 301; repoint
+https://waysandmeans.rojasreport.com/bill/hr-3421-118,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-3284-118,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-2-117,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-3-116,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-1319-117,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-3076-117,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-987-116,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-8800-117,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-2474-118,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-5378-118,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-4822-118,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)
+https://waysandmeans.rojasreport.com/bill/hr-247-119,https://tafhc.org/committees/ways-and-means/votes/,301,Retire: old bill pages not ported (unverified April 2026 data); key-votes list (parent page)

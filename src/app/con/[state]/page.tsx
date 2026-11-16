@@ -37,6 +37,7 @@ export default function ConStatePage({ params }: PageProps) {
     description: state.meta_description || `CON intelligence for ${state.state}`,
     score: state.score,
     tier: state.tier,
+    path: `/con/${state.slug}/`,
   });
 
   return (

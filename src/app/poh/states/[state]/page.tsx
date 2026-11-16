@@ -18,18 +18,18 @@ export function generateMetadata({ params }: { params: { state: string } }): Met
   if (!s) return {};
   return {
     title: `Physician-owned hospitals in ${s.name} | Physician-Owned`,
-    description: `${s.total} physician-owned hospitals in ${s.name} on the Rojas Report list: who still owns them, who bought them, and which closed. Re-verified November 2026.`,
-    alternates: { canonical: `https://rojasreport.com${POH_BASE}/states/${s.slug}/` },
+    description: `${s.total} physician-owned hospitals in ${s.name} on the Alliance list: who still owns them, who bought them, and which closed. Re-verified November 2026.`,
+    alternates: { canonical: `https://tafhc.org${POH_BASE}/states/${s.slug}/` },
   };
 }
 
 function conLine(name: string, tier: string | null, status: string | null): string | null {
   if (!tier || !status) return null;
   if (status === 'No') return `${name} has no certificate-of-need law.`;
-  if (status === 'Repealed') return `${name} repealed most of its certificate-of-need law. The Rojas Report ranks it ${tier}.`;
-  if (status === 'Limited') return `${name} keeps a limited certificate-of-need law. The Rojas Report ranks it ${tier}.`;
-  if (status === 'Repealing') return `${name} is phasing out its certificate-of-need law. The Rojas Report ranks it ${tier}.`;
-  return `${name} keeps a certificate-of-need law. The Rojas Report ranks it ${tier}.`;
+  if (status === 'Repealed') return `${name} repealed most of its certificate-of-need law. The Alliance ranks it ${tier}.`;
+  if (status === 'Limited') return `${name} keeps a limited certificate-of-need law. The Alliance ranks it ${tier}.`;
+  if (status === 'Repealing') return `${name} is phasing out its certificate-of-need law. The Alliance ranks it ${tier}.`;
+  return `${name} keeps a certificate-of-need law. The Alliance ranks it ${tier}.`;
 }
 
 export default function StatePage({ params }: { params: { state: string } }) {

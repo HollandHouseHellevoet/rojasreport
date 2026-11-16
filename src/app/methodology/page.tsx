@@ -6,8 +6,8 @@ import { MethodPage, Section, Defs, Band, prose, small, th, td } from '@/compone
 
 export const metadata: Metadata = {
   title: 'Methodology',
-  description: 'How every figure on The Rojas Report is sourced and labeled. How the subsidy ledger, the state grade and the Machine Score are calculated.',
-  alternates: { canonical: 'https://rojasreport.com/methodology/' },
+  description: 'How every figure on this site is sourced and labeled. How the subsidy ledger, the state grade and the Machine Score are calculated.',
+  alternates: { canonical: 'https://tafhc.org/methodology/' },
 };
 
 const methods = [
@@ -63,10 +63,10 @@ export default function MethodologyIndex() {
             },
             {
               term: <>Estimated <span className="font-meta text-[13px] uppercase tracking-[0.12em] text-oxblood">est.</span></>,
-              body: 'A Rojas Report calculation from reported inputs. The method is on one of the three pages below, and the source line shows the inputs and the arithmetic.',
+              body: 'An Alliance calculation from reported inputs. The method is on one of the three pages below, and the source line shows the inputs and the arithmetic.',
             },
             {
-              term: <>Pending <span className="font-display text-[22px] text-muted">&mdash;</span></>,
+              term: <>Pending <span className="font-display text-[22px] text-muted">&ndash;</span></>,
               body: 'A line still being built from source filings. It shows as a dash, never as a guess, and it is left out of every total until it is filled.',
             },
           ]}
@@ -131,7 +131,7 @@ export default function MethodologyIndex() {
         />
         <p className="mt-10 font-meta text-[13px] leading-[1.7] text-muted max-w-[720px]">
           Questions about a figure or a method:{' '}
-          <a href="https://read.rojasreport.com/about" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
+          <a href="/corrections/" className="text-ink border-b border-hairline hover:text-oxblood">Report a correction</a>
         </p>
       </Section>
     </MethodPage>

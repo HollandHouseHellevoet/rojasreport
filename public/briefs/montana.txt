@@ -1,6 +1,6 @@
 ==============================================================================
   CERTIFICATE OF NEED INTELLIGENCE BRIEF: MONTANA
-  The Rojas Report | conlaws.rojasreport.com/states/montana/
+  The Alliance for Healthcare Competition | tafhc.org/states/montana/
 ==============================================================================
 
   State:    Montana (MT)
@@ -40,7 +40,7 @@ narrow focus means few applications are filed.
   Billings Clinic, Providence Health
 
 ==============================================================================
-  Source: The Rojas Report | conlaws.rojasreport.com/states/montana/
+  Source: The Alliance for Healthcare Competition | tafhc.org/states/montana/
   Data: Cicero Institute, NASHP, FTC, DOJ, CMS, state health departments
   Generated: April 2026
 ==============================================================================

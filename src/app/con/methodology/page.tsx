@@ -51,7 +51,7 @@ export default function MethodologyPage() {
           />
           <p className="mt-4 font-body text-sm text-cream">
             This page covers the certificate of need desk only. The site-wide methods (the subsidy ledger, the state grade and the Machine Score) are at{' '}
-            <a href="/methodology/" className="text-cream border-b border-cream/40">rojasreport.com/methodology</a>.
+            <a href="/methodology/" className="text-cream border-b border-cream/40">tafhc.org/methodology</a>.
           </p>
         </div>
       </section>
@@ -199,7 +199,7 @@ export default function MethodologyPage() {
                 { name: 'Mercatus Center at George Mason University', desc: 'Economic research on CON impacts' },
                 { name: 'National Bureau of Economic Research (NBER)', desc: 'Academic working papers on CON and health outcomes' },
                 { name: 'State health departments', desc: 'Individual state CON program rules, fee schedules, and application data' },
-                { name: 'The Rojas Report', desc: 'Original analysis, market concentration data, and editorial content' },
+                { name: 'The Alliance for Healthcare Competition', desc: 'Original analysis and market concentration data' },
               ].map(s => (
                 <li key={s.name} className="flex items-start gap-3">
                   <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-orange flex-shrink-0" />
