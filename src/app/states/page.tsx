@@ -5,7 +5,6 @@ import { getStateIndex } from '@/lib/stateIndex';
 import { stateDossiers, stateGrade } from '@/lib/stateDossiers';
 import StatesMap from '@/components/states/StatesMap';
 import StateGroups from '@/components/states/StateGroups';
-import StatusLabel from '@/components/StatusLabel';
 import PendingChip from '@/components/PendingChip';
 import JoinBand from '@/components/JoinBand';
 
@@ -180,24 +179,21 @@ export default function StatesIndex() {
             <h2 className={h2}>More on the states.</h2>
           </div>
           <div className="grid gap-x-6 grid-cols-1 md:grid-cols-2">
-            {desks.map((d) =>
-              d.status === 'live' && d.href ? (
-                <Link key={d.name} href={d.href} className="group flex justify-between gap-6 items-start border-t-2 border-ink py-6">
-                  <span className="flex flex-col gap-2">
-                    <span className="font-tight font-bold text-[26px] leading-[1.1] tracking-[-0.02em] group-hover:text-oxblood">{d.name}</span>
-                    {d.blurb && <span className="text-[17px] leading-[1.45]">{d.blurb}</span>}
-                  </span>
-                  <span className="mt-1.5 group-hover:text-oxblood"><Arrow size={22} /></span>
-                </Link>
-              ) : (
-                <div key={d.name} className="flex flex-col gap-2 border-t-2 border-ink py-6">
-                  <span className="font-tight font-bold text-[26px] leading-[1.1] tracking-[-0.02em]">{d.name}</span>
+            {desks.filter((d) => d.status === 'live' && d.href).map((d) => (
+              <Link key={d.name} href={d.href!} className="group flex justify-between gap-6 items-start border-t-2 border-ink py-6">
+                <span className="flex flex-col gap-2">
+                  <span className="font-tight font-bold text-[26px] leading-[1.1] tracking-[-0.02em] group-hover:text-oxblood">{d.name}</span>
                   {d.blurb && <span className="text-[17px] leading-[1.45]">{d.blurb}</span>}
-                  <span className="mt-1"><StatusLabel status="pending" note="In preparation" /></span>
-                </div>
-              ),
-            )}
+                </span>
+                <span className="mt-1.5 group-hover:text-oxblood"><Arrow size={22} /></span>
+              </Link>
+            ))}
           </div>
+          {desks.some((d) => !(d.status === 'live' && d.href)) && (
+            <p className="border-t border-hairline py-6 text-[15px] leading-[1.5] text-muted">
+              <span className="font-tight font-semibold text-ink">In preparation:</span> {desks.filter((d) => !(d.status === 'live' && d.href)).map((d) => d.name).join(' · ')}
+            </p>
+          )}
         </div>
       </section>
 

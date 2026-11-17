@@ -44,7 +44,6 @@ const COLS: { h: string; links: [string, string][] }[] = [
     h: 'About',
     links: [
       ['Mission', '/about/'],
-      ['Board', '/about/#board'],
       ['Newsroom', '/newsroom/'],
       ['Founder', '/founder/'],
       ['Contact', '/contact/'],

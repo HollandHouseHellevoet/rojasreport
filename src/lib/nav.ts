@@ -33,7 +33,7 @@ export const NAV: NavSection[] = [
       { label: 'Physician-Owned', href: '/physician-owned/', blurb: 'What physicians built anyway.' },
       { label: 'Government', href: '/government/', blurb: 'Who writes the rules.' },
       { label: 'The Lobby', href: '/lobby/', blurb: 'Who buys the outcome.' },
-      { label: 'Carriers', href: '/carriers/', blurb: 'Who holds the premium.' },
+      // Carriers (/carriers/) returns to this menu when its first desk is live (sections.json).
       { label: 'Methodology', href: '/methodology/', blurb: 'How every figure is labeled and sourced.' },
       { label: 'Search', href: '/search/', blurb: 'Every page, every figure.' },
     ],
@@ -53,7 +53,7 @@ export const NAV: NavSection[] = [
     items: [
       { label: 'The plan', href: '/how-we-win/', blurb: 'Three fights, run at once, with the parties who pay for care.' },
       { label: 'Timeline', href: '/how-we-win/#timeline', blurb: 'What happens each quarter of 2027.' },
-      { label: 'Progress reports', href: '/how-we-win/#progress', blurb: 'What the Alliance did, and what comes next.' },
+      // Progress reports (/how-we-win/#progress) returns when the first report is posted (how-we-win/page.tsx).
     ],
   },
   {
@@ -82,7 +82,7 @@ export const NAV: NavSection[] = [
     href: '/about/',
     items: [
       { label: 'Mission', href: '/about/', blurb: 'Why a 501(c)(6), and who funds it.' },
-      { label: 'Board', href: '/about/#board', blurb: 'Physician board members on two-year terms.' },
+      // Board (/about/#board) returns when the first director is listed (about/page.tsx).
       { label: 'Newsroom', href: '/newsroom/', blurb: 'Press releases and the media contact.' },
       { label: 'Founder', href: '/founder/', blurb: 'The column by the Alliance’s founder.' },
       { label: 'Contact', href: '/contact/', blurb: 'Write to the Alliance.' },
