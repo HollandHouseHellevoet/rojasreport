@@ -44,11 +44,11 @@ export default function Page() {
         <Timeline quarters={timeline.quarters} />
       </Band>
 
-      <Band id="progress" label="Progress reports">
-        <SectionHead eyebrow="Progress reports" title="What the Alliance did, and what comes next." text="Dated reports to members, newest first. Physicians who join receive each one by email the day it is published." />
-        <div className="grid grid-cols-12">
-          <div className="col-span-12 lg:col-span-8 grid gap-12">
-            {reports.length === 0 && <p className="text-[17px]">No report is posted here yet. The first follows the soft launch.</p>}
+      {reports.length > 0 && (
+        <Band id="progress" label="Progress reports">
+          <SectionHead eyebrow="Progress reports" title="What the Alliance did, and what comes next." text="Dated reports to members, newest first. Physicians who join receive each one by email the day it is published." />
+          <div className="grid grid-cols-12">
+            <div className="col-span-12 lg:col-span-8 grid gap-12">
             {reports.map((r) => (
               <article key={r.title} className="flex flex-col gap-3 pt-6 border-t border-hairline">
                 <p className="font-tight text-[13px] font-semibold uppercase tracking-[0.14em]"><time dateTime={r.date}>{r.date}</time></p>
@@ -56,9 +56,10 @@ export default function Page() {
                 <p>{r.summary}</p>
               </article>
             ))}
+            </div>
           </div>
-        </div>
-      </Band>
+        </Band>
+      )}
 
       <JoinBand />
     </>

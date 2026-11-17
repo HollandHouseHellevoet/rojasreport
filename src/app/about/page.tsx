@@ -9,7 +9,7 @@ import { breadcrumbsJsonLd, makeMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = makeMetadata({
   title: 'About',
-  description: `${ORG} is the free-market trade association for American healthcare: independent physicians, employers, payers and manufacturers united to end hospital monopoly pricing. Mission, board and frequently asked questions.`,
+  description: `${ORG} is the free-market trade association for American healthcare: independent physicians, employers, payers and manufacturers united to end hospital monopoly pricing. Mission, leadership and frequently asked questions.`,
   path: '/about/',
 });
 
@@ -20,6 +20,9 @@ const faqs = [
   { q: 'Is the Alliance partisan?', a: '<p>No. The Alliance is pro-competition. It works with members of both parties, and it will score every member of Congress on the same three questions regardless of party: site-neutral payment, 340B reform and physician ownership.</p>' },
   { q: 'What does the Alliance not do?', a: '<p>It does not lobby outside its three fights. Research on other questions, certificate of need among them, is published as research and not as a position. It does not endorse candidates. It does not name its contributors. It does not publish a figure without a source.</p>' },
 ];
+
+// Directors are listed here as each seat is filled; the Board band renders once the first is listed.
+const directors: { name: string; specialty: string; state: string }[] = [];
 
 export default function Page() {
   return (
@@ -41,10 +44,19 @@ export default function Page() {
         </div>
       </Band>
 
-      <Band dark id="board" label="Board">
-        <SectionHead dark eyebrow="Board of directors" title="Physicians, in independent practice, on two-year terms." text="The board is drawn from independent physicians across specialties and states. Each director serves a two-year term." />
-        <p className={`${lede} text-ink-text-2 max-w-[60ch]`}>No director is listed here yet. Directors appear as each seat is filled.</p>
-      </Band>
+      {directors.length > 0 && (
+        <Band dark id="board" label="Board">
+          <SectionHead dark eyebrow="Board of directors" title="Physicians, in independent practice, on two-year terms." text="The board is drawn from independent physicians across specialties and states. Each director serves a two-year term." />
+          <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 list-none m-0 p-0">
+            {directors.map((d) => (
+              <li key={d.name} className="flex flex-col gap-1 pt-5 border-t border-rule-dark">
+                <p className="font-tight font-bold text-[20px] leading-[1.2]">{d.name}</p>
+                <p className="text-[15px] text-ink-text-2">{d.specialty} · {d.state}</p>
+              </li>
+            ))}
+          </ul>
+        </Band>
+      )}
 
       <Band id="leadership" label="Leadership">
         <SectionHead eyebrow="Leadership" title="Founder" />
