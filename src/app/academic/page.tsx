@@ -331,11 +331,11 @@ function BondTableSection() {
     { name: 'Vanderbilt UMC', moodys: 'A3', sp: 'N/F', outlook: 'Negative (2021)', debt: '~$2.4B', action: 'Debt $2.42B (Mar 2025); last Moody\u2019s action Oct 2021', unverified: true },
     { name: 'WakeMed', moodys: 'A2', sp: 'N/F', outlook: 'Stable', debt: '~$0.76B', action: 'Outlook stable from negative (2024)', unverified: false },
     { name: 'Penn Medicine (UPHS)', moodys: 'Aa3', sp: 'N/F', outlook: 'Stable', debt: '~$2.3B', action: 'Moody\u2019s affirmed Aa3, stable (FY2024 review)', unverified: false },
-    { name: 'U of Michigan Health', moodys: 'Aa2', sp: 'AA+', outlook: 'Stable', debt: 'N/F', action: 'Hospital Aa2/AA+ (univ Aaa/AAA)', unverified: false },
+    { name: 'U of Michigan Health', moodys: 'Aa2', sp: 'AA+', outlook: 'Stable', debt: '$1.68B', action: 'Hospital Aa2/AA+ (univ Aaa/AAA); debt $1.68B (June 2025 audit)', unverified: false },
     { name: 'Houston Methodist', moodys: 'N/F', sp: 'AA', outlook: 'Stable', debt: 'N/F', action: 'Fitch AA, stable', unverified: true },
     { name: 'Emory Healthcare', moodys: 'N/F', sp: 'N/F', outlook: 'Negative (Jan 2024)', debt: 'N/F', action: '$862.7M priced (June 2025)', unverified: false },
     { name: 'UCSF Health', moodys: 'Aa2*', sp: 'AA*', outlook: 'Stable', debt: 'N/F', action: 'UC system-level ratings', unverified: false },
-    { name: 'Ochsner Health', moodys: 'A3', sp: 'A', outlook: 'Stable', debt: 'N/F', action: 'Affirmed A3/A, stable', unverified: false },
+    { name: 'Ochsner Health', moodys: 'A3', sp: 'A', outlook: 'Stable', debt: '$2.46B', action: 'Affirmed A3/A, stable; bonds and debt $2.46B (Dec 2025 audit)', unverified: false },
   ];
 
   return (
@@ -391,7 +391,7 @@ function BondTableSection() {
             <div className="card-figure">8</div>
             <div className="card-label">Below Aa3 / AA-</div>
             <p className="card-desc">
-              32% of the cohort rated below the Aa3/AA- threshold, carrying ~$19.2B+
+              32% of the cohort rated below the Aa3/AA- threshold, carrying ~$21.6B+
               in combined long-term debt.
             </p>
           </div>
@@ -404,11 +404,11 @@ function BondTableSection() {
             </p>
           </div>
           <div className="card">
-            <div className="card-figure">$63B+</div>
+            <div className="card-figure">$67B+</div>
             <div className="card-label">Aggregate LT Debt</div>
             <p className="card-desc">
-              Long-term debt across the 19 institutions with published figures: about
-              $62.9B. The other 6 are not found, so the true total is higher.
+              Long-term debt across the 21 institutions with published figures: about
+              $67.0B. The other 4 are not found, so the true total is higher.
             </p>
           </div>
         </div>

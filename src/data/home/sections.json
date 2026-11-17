@@ -8,7 +8,8 @@
     "desks": [
       {
         "name": "I · Section 6001: the physician-owned hospital ban",
-        "status": "planned",
+        "href": "/poh/investigation/",
+        "status": "live",
         "blurb": "The 2010 freeze on physician-owned hospitals."
       },
       {

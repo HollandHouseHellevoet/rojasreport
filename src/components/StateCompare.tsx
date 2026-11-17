@@ -35,7 +35,7 @@ const COMPARE_ROWS: CompareRow[] = [
   {
     label: 'Services Regulated',
     getValue: s => {
-      const qs = s.quick_stats?.find(q => q.label.toLowerCase().includes('services'));
+      const qs = s.quick_stats?.find(q => q.label.toLowerCase().includes('services') || q.label.toLowerCase().includes('categor'));
       return qs?.value || 'N/A';
     },
   },

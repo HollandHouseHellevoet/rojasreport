@@ -4,6 +4,22 @@
   "slug": "michigan",
   "meta_description": "In-depth analysis of Michigan's Certificate of Need (CON) program, its market impact on healthcare providers like Corewell Health, and the regulatory landscape.",
   "path": "/michigan/certificate-of-need",
+  "quick_stats": [
+    {
+      "value": "14",
+      "label": "Services regulated by CON (Commission review standards)",
+      "basis": "reported",
+      "source": "Michigan Department of Health and Human Services, Certificate of Need Review Standards, https://www.michigan.gov/mdhhs/doing-business/providers/certificateofneed/sharedlinks/review-standards",
+      "as_of": "2026-10-02"
+    },
+    {
+      "value": "1988",
+      "label": "Year CON enacted (1988 PA 332, Public Health Code Part 222)",
+      "basis": "reported",
+      "source": "Michigan Compiled Laws 333.22209, history note, https://www.legislature.mi.gov/Laws/MCL?objectName=mcl-333-22209",
+      "as_of": "2026-10-02"
+    }
+  ],
   "section_headers": [
     {
       "title": "Scope of Regulation",
