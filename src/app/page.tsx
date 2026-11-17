@@ -1,26 +1,21 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import cover from '@/data/home/cover.json';
-import membership from '@/data/alliance/membership.json';
-import { getAllStates } from '@/lib/data';
 import { buildSearchIndex } from '@/lib/searchIndex';
 import { FIGHT_TILES } from '@/lib/fightFigures';
-import { getFight, tracker, trackerAsOf } from '@/lib/fights';
-import { insights } from '@/lib/insights';
-import { stateDossiers } from '@/lib/stateDossiers';
-import { GOAL_PHYSICIANS } from '@/lib/site';
+import { getFight, trackerAsOf } from '@/lib/fights';
+import { sections } from '@/lib/home';
 import { JOIN } from '@/lib/nav';
 import { makeMetadata } from '@/lib/seo';
 import Search from '@/components/home/Search';
-import StateTileMap from '@/components/home/StateTileMap';
-import JoinBand from '@/components/JoinBand';
-import TaxNotice from '@/components/TaxNotice';
-import { Arrow, Band, InsightCard, SectionHead, Smart, Stat, btnPrimary, eyebrow, fmtDate, lede, textlink, wrap } from '@/components/alliance/ui';
+import { Field, Form, STATES } from '@/components/alliance/Form';
+import SentNotice from '@/components/alliance/SentNotice';
+import { Arrow, Band, SectionHead, Smart, btnPrimary, eyebrow, fmtDate, lede, textlink, wrap } from '@/components/alliance/ui';
 
 /**
- * Home page (MERGER_PLAN.md, section 3.6): the three fights with their tracker stage, what the Alliance knows,
- * why join at $50 a month, who stands with the Alliance, insights, how we win. Every figure comes from a data file
- * or a sourced constant.
+ * Home page, one-page intro edition (Dutch, November 17, 2026). The search bar and the opening stay as they were.
+ * Below them: the research that is live today, the three fights in brief, the briefing signup, and what is in
+ * preparation. The lists are read from sections.json at build time so the page never promises a desk that is not live.
+ * The form posts to the same Formspree endpoint as every other form on the site (FORMSPREE in src/lib/site.ts).
  */
 export const metadata: Metadata = makeMetadata({
   title: 'The Alliance for Healthcare Competition',
@@ -28,30 +23,27 @@ export const metadata: Metadata = makeMetadata({
   path: '/',
 });
 
-const level = membership.levels[0];
-const pillars = [
-  { t: 'Unite the parties who pay for care behind independent physicians', p: 'Employers, payers and manufacturers pay the bill or sell the drug. Independent physicians compete with the hospital under price rules written for the hospital. The Alliance puts them in the same room with the same ask.' },
-  { t: 'Put data in front of lawmakers', p: 'Committee staff act on figures they can cite. Every Alliance report carries its sources, and every member of Congress hears the same numbers from a physician in the district and an employer in the state.' },
-  { t: 'Run all three fights at once', p: 'Three rules with one effect: a hospital system that faces no competitor sets the price. The Alliance moves all three in the same Congress.' },
-];
-const partners = [
-  { h: 'Employers', p: 'Self-funded employers pay the hospital bill as priced.' },
-  { h: 'Payers and manufacturers', p: 'Hospital rates for office-level care, and a drug discount that stops short of the patient.' },
-  { h: 'Physician-owned hospitals, REITs and ASC developers', p: 'The owners and builders of physician-led facilities.' },
-  { h: 'Medical societies', p: 'A society keeps its voice and adds a lobbying operation on the three rules its members name first.' },
-];
+const ROLES = ['Independent physician', 'Employed physician', 'Employer', 'Payer', 'Manufacturer', 'Physician-owned facility', 'Congressional or agency staff', 'Press', 'Something else'];
 
 export default function HomePage() {
   const index = buildSearchIndex();
-  const conSlugs = Object.fromEntries(getAllStates().map((s) => [s.abbreviation, s.slug]));
-  const latest = [...tracker].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 3);
-  const latestInsights = insights.slice(0, 3);
+
+  // Live desks, one card per destination; planned desks, grouped by section.
+  const seen = new Set<string>();
+  const live = sections.flatMap((s) =>
+    s.desks
+      .filter((d) => d.status === 'live' && d.href && !seen.has(d.href) && seen.add(d.href))
+      .map((d) => ({ ...d, href: d.href as string, section: s.name })),
+  );
+  const planned = sections
+    .map((s) => ({ section: s.name, desks: s.desks.filter((d) => d.status === 'planned').map((d) => d.name.replace(/^[IVX]+ · /, '')) }))
+    .filter((s) => s.desks.length > 0);
 
   return (
     <>
       <Search index={index} />
 
-      {/* 1. Competition is the cure: the three fights with their tracker stage */}
+      {/* 1. The opening, unchanged */}
       <section className="pt-14 md:pt-[96px] pb-12 md:pb-16">
         <div className={wrap}>
           <p className={`${eyebrow} mb-5`}>The Alliance for Healthcare Competition</p>
@@ -65,124 +57,97 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 2. The research that is live today */}
+      <Band dark label="The research">
+        <SectionHead dark eyebrow="Live today" title="The hospital lobby’s own filings, read and dated." text="The research arm publishes dossiers on the systems, the states, the committees and the lobby. Every figure is sourced to a public filing. Free to read." link={{ label: 'All the research', href: '/research/' }} />
+        <ul className="grid gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3 list-none m-0 p-0">
+          {live.map((d) => (
+            <li key={d.href} className="flex flex-col gap-2 pt-5 border-t border-rule-dark">
+              <p className={`${eyebrow} text-ink-text`}>{d.section}</p>
+              <h3 className="font-tight font-bold text-[22px] leading-[1.15] tracking-[-0.02em]"><Link href={d.href} className="hover:underline">{d.name.replace(/^[IVX]+ · /, '')}</Link></h3>
+              {d.stat && <p className="text-[15px] leading-[1.5] text-ink-text-2"><span className="num font-tight font-bold text-[28px] text-paper leading-none">{d.stat}</span> {d.statLabel}</p>}
+              {d.blurb && <p className="text-[15px] leading-[1.55] text-ink-text-2">{d.blurb}</p>}
+            </li>
+          ))}
+        </ul>
+      </Band>
+
+      {/* 3. The three fights, in brief */}
       <Band tight label="The three fights">
-        <div className="grid gap-6 md:grid-cols-3">
-          {FIGHT_TILES.map((t) => {
+        <SectionHead eyebrow="In Congress" title="Three rules. One Congress." text="Each fight has a page with the bill, the money and the Alliance’s ask." link={{ label: 'Every bill, rule and court case', href: '/tracker/' }} />
+        <ol className="grid gap-6 md:grid-cols-3 list-none m-0 p-0">
+          {FIGHT_TILES.map((t, i) => {
             const f = getFight(t.slug);
             return (
-              <article key={t.slug} className="bg-mist p-7 flex flex-col gap-6 h-full">
-                <Stat value={t.value} label={t.label} source={t.source} url={t.url} size="sm" />
-                <div className="flex flex-col gap-2.5 flex-1">
-                  <h2 className="font-tight font-bold text-[22px] leading-[1.15] tracking-[-0.02em]"><Link href={t.href} className="hover:underline">{t.title}</Link></h2>
-                  <p className="text-[16px] leading-[1.55]">{t.stake}</p>
-                </div>
-                <p className="text-[14px] leading-[1.45] pt-4 border-t border-hairline">
-                  <span className="font-tight font-semibold uppercase tracking-[0.1em] text-[12px]">In Congress</span><br />
-                  <span className="font-semibold">{f.stage}</span> · {f.vehicle}
-                </p>
-                <Link href={t.href} className={`${textlink} self-start`}>The fight<span className="sr-only">: {t.title}</span> <Arrow /></Link>
-              </article>
+              <li key={t.slug} className="flex flex-col gap-3 pt-5 border-t-2 border-ink">
+                <span className="num text-[14px] tracking-[0.08em]" aria-hidden="true">0{i + 1}</span>
+                <h3 className="font-tight font-bold text-[22px] leading-[1.15] tracking-[-0.02em]"><Link href={t.href} className="hover:underline">{t.title}</Link></h3>
+                <p className="text-[15px] leading-[1.55]">{t.stake}</p>
+                <p className="text-[14px] leading-[1.45]"><span className="font-semibold">{f.stage}</span> · {f.vehicle}</p>
+              </li>
             );
           })}
-        </div>
-        <p className="text-[14px] mt-8">Tracker as of {fmtDate(trackerAsOf)}. <Link href="/tracker/" className="underline underline-offset-[3px] hover:text-oxblood">Every bill, rule and court case</Link>.</p>
+        </ol>
+        <p className="text-[14px] mt-8">Tracker as of {fmtDate(trackerAsOf)}.</p>
       </Band>
 
-      {/* 2. What the Alliance knows */}
-      <Band dark label="What the Alliance knows">
-        <SectionHead dark eyebrow="What the Alliance knows" title="The hospital lobby’s own filings, read and dated." text="The research arm publishes dossiers on the systems, the states, the committees and the lobby. Every figure is sourced to a public filing." link={{ label: 'All the research', href: '/research/' }} />
-        <div className="grid gap-x-8 gap-y-12 lg:grid-cols-12">
-          <div className="lg:col-span-4 flex flex-col gap-8">
-            <Stat dark value="$25.47M" label="Federal lobbying the American Hospital Association reported for 2025" source="Senate Lobbying Disclosure Act filings, 2025" url="https://lda.senate.gov/" />
-            <Smart href="/aha/" className={`${textlink} text-paper self-start`}>The AHA dossiers <Arrow /></Smart>
-          </div>
-          <div className="lg:col-span-4 flex flex-col gap-4">
-            <p className={`${eyebrow} text-ink-text`}>Newest dossier · {cover.date}</p>
-            <h3 className="font-tight font-extrabold text-[26px] md:text-[30px] leading-[1.05] tracking-[-0.03em]">{cover.headline}.</h3>
-            <p className="text-[15px] leading-[1.55] text-ink-text-2">{cover.dek}</p>
-            <Smart href={cover.href} className={`${textlink} text-paper self-start`}>{cover.cta} <Arrow /></Smart>
-            <p className={`${eyebrow} text-ink-text mt-4`}>Tracker · latest changes</p>
-            <ol className="list-none m-0 p-0">
-              {latest.map((r) => (
-                <li key={r.id} className="py-3 border-t border-rule-dark grid gap-0.5">
-                  <span className="text-[12px] text-ink-text">{fmtDate(r.date)} · {r.stage}</span>
-                  <Link href={r.href ?? (r.fight === 'research' ? '/tracker/' : `/fights/${r.fight}/`)} className="font-tight font-semibold text-[16px] leading-[1.3] hover:underline">{r.issue}</Link>
-                </li>
-              ))}
-            </ol>
-          </div>
-          <div className="lg:col-span-4 flex flex-col gap-4 min-w-0">
-            <p className={`${eyebrow} text-ink-text`}>The states</p>
-            <StateTileMap conSlugs={conSlugs} onDark />
-            <p className="text-[14px] leading-[1.5] text-ink-text-2">{getAllStates().length} certificate-of-need dossiers. {stateDossiers.length} state graded on all six cost drivers so far; the rest follow as each dossier publishes.</p>
-            <Link href="/states/" className={`${textlink} text-paper self-start`}>Pick a state <Arrow /></Link>
-          </div>
-        </div>
-      </Band>
-
-      {/* 3. Why join at $50 a month */}
-      <Band id="join" label="Why join">
+      {/* 4. The briefing signup */}
+      <Band mist id="briefing" label="The Alliance briefing">
         <div className="grid gap-10 lg:grid-cols-12">
           <div className="lg:col-span-5 flex flex-col gap-5">
+            <p className={eyebrow}>The Alliance briefing</p>
+            <h2 className="font-tight font-bold leading-[1.04] tracking-[-0.03em] text-[34px] md:text-[52px]">Data and progress reports. Twice a month.</h2>
+            <p className="text-[17px] leading-[1.55] max-w-[48ch]">The dossiers as they publish, the tracker as it moves, and what the Alliance asks of Congress. Free, and the first thing a new member reads.</p>
+          </div>
+          <div className="lg:col-span-6 lg:col-start-7">
+            <SentNotice messages={{ briefing: 'You are on the list. The next briefing reaches you when it publishes.' }} />
+            <Form name="briefing" subject="TAFHC Briefing Signup" action="/?sent=briefing#briefing" submit="Get the briefing" note="One list, twice a month. Your address is not published or shared.">
+              <Field label="Name" id="b-name"><input id="b-name" name="name" type="text" required autoComplete="name" /></Field>
+              <Field label="Email" id="b-email"><input id="b-email" name="email" type="email" required autoComplete="email" /></Field>
+              <Field label="I am" id="b-role">
+                <select id="b-role" name="role" required defaultValue="">
+                  <option value="">Choose one</option>
+                  {ROLES.map((r) => <option key={r}>{r}</option>)}
+                </select>
+              </Field>
+              <Field label="State" id="b-state" hint="Optional.">
+                <select id="b-state" name="state" defaultValue="">
+                  <option value="">Choose one</option>
+                  {STATES.map((s) => <option key={s}>{s}</option>)}
+                </select>
+              </Field>
+            </Form>
+          </div>
+        </div>
+      </Band>
+
+      {/* 5. Membership, and what is in preparation */}
+      <Band label="Membership and what comes next">
+        <div className="grid gap-12 lg:grid-cols-12">
+          <div className="lg:col-span-5 flex flex-col gap-5">
             <p className={eyebrow}>For independent physicians</p>
-            <h2 className="font-tight font-bold leading-[1.04] tracking-[-0.03em] text-[34px] md:text-[52px]">{level.monthly} a month. {GOAL_PHYSICIANS} physicians.</h2>
-            <p className="text-[17px] leading-[1.55] max-w-[48ch]">Independent physicians have lost ground for 25 years. The Alliance is the trade association built to fight back for them.</p>
-            <div className="flex flex-wrap items-center gap-5">
-              <Link href={JOIN.href} className={btnPrimary}>{JOIN.label} <Arrow size={16} /></Link>
-              <span className="text-[15px]">or <strong className="font-tight">{level.annual} a year</strong></span>
+            <h2 className="font-tight font-bold leading-[1.04] tracking-[-0.03em] text-[34px] md:text-[52px]">Membership opens soon.</h2>
+            <p className="text-[17px] leading-[1.55] max-w-[48ch]">Physician membership and the Council open when checkout is live. The join page explains each level and holds the waitlist. Partners reach leadership by application.</p>
+            <div className="flex flex-wrap gap-5">
+              <Smart href={JOIN.href} className={textlink}>Membership <Arrow /></Smart>
+              <Smart href="/partners/" className={textlink}>For partners <Arrow /></Smart>
             </div>
           </div>
           <div className="lg:col-span-6 lg:col-start-7 flex flex-col gap-6">
-            <ol className="grid gap-5 list-none m-0 p-0">
-              {level.benefits.map((b, i) => (
-                <li key={b} className="flex gap-5 pt-4 border-t-2 border-ink">
-                  <span className="num text-[14px] tracking-[0.08em] pt-1" aria-hidden="true">0{i + 1}</span>
-                  <p className="font-tight font-semibold text-[19px] leading-[1.3] tracking-[-0.01em]">{b}</p>
-                </li>
+            <p className={eyebrow}>In preparation</p>
+            <dl className="grid gap-5 m-0">
+              {planned.map((s) => (
+                <div key={s.section} className="grid gap-1 pt-4 border-t border-hairline">
+                  <dt className="font-tight font-semibold text-[15px]">{s.section}</dt>
+                  <dd className="m-0 text-[15px] leading-[1.55]">{s.desks.join(' · ')}</dd>
+                </div>
               ))}
-            </ol>
-            <p className="text-[14px] leading-[1.5]">The Alliance estimates {membership.deductibleShare} of dues are deductible as a business expense. The exact share is reported to members each year.</p>
-            <TaxNotice compact />
+            </dl>
+            <p className="text-[14px] leading-[1.5]">Each desk publishes when its figures are sourced. The briefing carries the news.</p>
           </div>
         </div>
       </Band>
-
-      {/* 4. Who stands with the Alliance */}
-      <Band mist label="Who stands with the Alliance">
-        <SectionHead eyebrow="Who stands with the Alliance" title="The parties who pay for care and the physicians who deliver it." text="Partners share one interest with independent physicians: competition. Partnership is by application; the Alliance publishes no partner names, tiers or logos." link={{ label: 'For partners', href: '/partners/' }} />
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-          {partners.map((g) => (
-            <div key={g.h} className="flex flex-col gap-3 pt-5 border-t-2 border-ink">
-              <h3 className="font-tight font-bold text-[20px] leading-[1.15] tracking-[-0.02em]">{g.h}</h3>
-              <p className="text-[15px] leading-[1.55]">{g.p}</p>
-            </div>
-          ))}
-        </div>
-      </Band>
-
-      {/* 5. Insights */}
-      <Band label="Insights">
-        <SectionHead eyebrow="Insights" title="Data lawmakers and staff can cite." text="Reports, briefs and data, each with its sources listed and a PDF to hand across a desk." link={{ label: 'All insights', href: '/insights/' }} />
-        <div className="grid gap-8 md:grid-cols-3">
-          {latestInsights.map((i) => <InsightCard key={i.slug} title={i.title} format={i.format} issue={i.issue} date={i.date} readTime={i.readTime} href={`/insights/${i.slug}/`} summary={i.summary} />)}
-        </div>
-      </Band>
-
-      {/* 6. How we win */}
-      <Band dark label="How we win">
-        <SectionHead dark eyebrow="How we win" title="Unite the buyers. Put the data in front of Congress. Run all three fights at once." link={{ label: 'The plan and the timeline', href: '/how-we-win/' }} />
-        <ol className="grid gap-10 lg:grid-cols-3 list-none m-0 p-0">
-          {pillars.map((x, i) => (
-            <li key={x.t} className="flex flex-col gap-4 pt-5 border-t-2 border-accent">
-              <span className="num text-[14px] tracking-[0.08em] text-accent" aria-hidden="true">0{i + 1}</span>
-              <h3 className="font-tight font-bold text-[22px] leading-[1.15] tracking-[-0.02em]">{x.t}</h3>
-              <p className="text-[15px] leading-[1.55] text-ink-text-2">{x.p}</p>
-            </li>
-          ))}
-        </ol>
-      </Band>
-
-      <JoinBand />
     </>
   );
 }
