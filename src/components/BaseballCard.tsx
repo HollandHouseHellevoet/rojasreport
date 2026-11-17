@@ -51,7 +51,7 @@ function copyShareLink() {
 }
 
 export default function BaseballCard({ state }: BaseballCardProps) {
-  const servicesCount = extractStat(state, ['services']) || state.regulated_services_count?.toString() || '–';
+  const servicesCount = extractStat(state, ['services', 'categor']) || state.regulated_services_count?.toString() || '–';
   const yearEnacted = extractStat(state, ['year', 'enacted']) || state.con_year || '–';
   const topInsurer = findInText(state.insurer_data, '%', 100);
   const hhi = findInText(state.market_data, 'hhi', 150) ||
