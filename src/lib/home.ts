@@ -25,6 +25,16 @@ export interface Section {
 
 export const sections = sectionsData as Section[];
 
+/** A desk name without its section numeral ("III · Certificate of need" → "Certificate of need"). */
+export const deskTitle = (name: string) => name.replace(/^[IVX]+ · /, '');
+
+/** Build-time guard: a desk marked live must link somewhere, or the home page would drop it without a trace. */
+for (const s of sections) {
+  for (const d of s.desks) {
+    if (d.status === 'live' && !d.href) throw new Error(`Live desk without href: ${s.slug} / ${d.name}`);
+  }
+}
+
 export function getSection(slug: string): Section {
   const s = sections.find((x) => x.slug === slug);
   if (!s) throw new Error(`Unknown section: ${slug}`);

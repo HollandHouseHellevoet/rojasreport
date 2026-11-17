@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { buildSearchIndex } from '@/lib/searchIndex';
 import { FIGHT_TILES } from '@/lib/fightFigures';
 import { getFight, trackerAsOf } from '@/lib/fights';
-import { sections } from '@/lib/home';
+import { deskTitle, sections } from '@/lib/home';
 import { JOIN } from '@/lib/nav';
 import { makeMetadata } from '@/lib/seo';
 import Search from '@/components/home/Search';
@@ -32,11 +32,11 @@ export default function HomePage() {
   const seen = new Set<string>();
   const live = sections.flatMap((s) =>
     s.desks
-      .filter((d) => d.status === 'live' && d.href && !seen.has(d.href) && seen.add(d.href))
+      .filter((d) => d.status === 'live' && !!d.href && !seen.has(d.href) && seen.add(d.href))
       .map((d) => ({ ...d, href: d.href as string, section: s.name })),
   );
   const planned = sections
-    .map((s) => ({ section: s.name, desks: s.desks.filter((d) => d.status === 'planned').map((d) => d.name.replace(/^[IVX]+ · /, '')) }))
+    .map((s) => ({ section: s.name, desks: s.desks.filter((d) => d.status === 'planned').map((d) => deskTitle(d.name)) }))
     .filter((s) => s.desks.length > 0);
 
   return (
@@ -61,11 +61,11 @@ export default function HomePage() {
       {/* 2. The research that is live today */}
       <Band dark label="The research">
         <SectionHead dark eyebrow="Live today" title="The hospital lobby’s own filings, read and dated." text="The research arm publishes dossiers on the systems, the states, the committees and the lobby. Every figure is sourced to a public filing. Free to read." link={{ label: 'All the research', href: '/research/' }} />
-        <ul className="grid gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3 list-none m-0 p-0">
+        <ul role="list" className="grid gap-x-8 gap-y-8 md:grid-cols-2 lg:grid-cols-3 list-none m-0 p-0">
           {live.map((d) => (
             <li key={d.href} className="flex flex-col gap-2 pt-5 border-t border-rule-dark">
               <p className={`${eyebrow} text-ink-text`}>{d.section}</p>
-              <h3 className="font-tight font-bold text-[22px] leading-[1.15] tracking-[-0.02em]"><Link href={d.href} className="hover:underline">{d.name.replace(/^[IVX]+ · /, '')}</Link></h3>
+              <h3 className="font-tight font-bold text-[22px] leading-[1.15] tracking-[-0.02em]"><Link href={d.href} className="hover:underline">{deskTitle(d.name)}</Link></h3>
               {d.stat && <p className="text-[15px] leading-[1.5] text-ink-text-2"><span className="num font-tight font-bold text-[28px] text-paper leading-none">{d.stat}</span> {d.statLabel}</p>}
               {d.blurb && <p className="text-[15px] leading-[1.55] text-ink-text-2">{d.blurb}</p>}
             </li>
@@ -76,7 +76,7 @@ export default function HomePage() {
       {/* 3. The three fights, in brief */}
       <Band tight label="The three fights">
         <SectionHead eyebrow="In Congress" title="Three rules. One Congress." text="Each fight has a page with the bill, the money and the Alliance’s ask." link={{ label: 'Every bill, rule and court case', href: '/tracker/' }} />
-        <ol className="grid gap-6 md:grid-cols-3 list-none m-0 p-0">
+        <ol role="list" className="grid gap-6 md:grid-cols-3 list-none m-0 p-0">
           {FIGHT_TILES.map((t, i) => {
             const f = getFight(t.slug);
             return (
@@ -102,7 +102,7 @@ export default function HomePage() {
           </div>
           <div className="lg:col-span-6 lg:col-start-7">
             <SentNotice messages={{ briefing: 'You are on the list. The next briefing reaches you when it publishes.' }} />
-            <Form name="briefing" subject="TAFHC Briefing Signup" action="/?sent=briefing#briefing" submit="Get the briefing" note="One list, twice a month. Your address is not published or shared.">
+            <Form name="briefing" subject="TAFHC Newsletter Subscribe" action="/?sent=briefing#briefing" submit="Get the briefing" note="One list, twice a month. Your address is not published or shared.">
               <Field label="Name" id="b-name"><input id="b-name" name="name" type="text" required autoComplete="name" /></Field>
               <Field label="Email" id="b-email"><input id="b-email" name="email" type="email" required autoComplete="email" /></Field>
               <Field label="I am" id="b-role">
