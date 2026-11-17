@@ -45,3 +45,9 @@ One session per phase, sequential, a deploy preview and Dutch's review at the en
 11. **No other businesses.** The site never mentions a business tied to Dutch Rojas (MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives, the Alliance or any other). Rojas Media appears only as the publisher. Replaces the November 9 call to keep PhyCap Fund (D-12, Q10).
 12. **Physician.** Write "physician," never "doctor" or "provider." The CLAUDE.md rule stands; the roadmap now matches.
 13. **conlaws paths.** Dutch left D-11 to Claude Code. Every old conlaws path keeps its path on rojasreport.com; only the front page goes to `/con/`.
+
+## 2026-11-16
+
+14. **Merger.** The Rojas Report merged into The Alliance for Healthcare Competition. The site is tafhc.org (PR 13). The Rojas Report is retired as a website and as a public research brand and continues only as Dutch's personal newsletter. `MERGER_PLAN.md` section 1.2 records Dutch's November 16 decisions and wins over this log and the brief where they disagree.
+15. **Decision 11 amended.** The Alliance owns and publishes the site, so it is named. Rojas Media appears only in the producer disclosure sentence. MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives and any other business tied to Dutch Rojas stay off the site.
+16. **Superseded by the merger plan.** The seven-section nav of decisions 2 and 5 (now Research, with nine sections, under the merger plan's seven-item nav); Reports & Data in the utility bar (off the site at launch); Sign in (dropped); Support (now Alliance giving); the boxed "THE ROJAS REPORT" mark of decision 6; the Builders Table (retired; the Council replaces it). The Machine Score waits. Decision 13's path-for-path conlaws rule: old conlaws paths now go to their tafhc.org pages through host-qualified rules (the front page to `/con/`); decision 10's alias still holds.

@@ -1,6 +1,6 @@
-# ROADMAP.md · rojasreport.com build map
+# ROADMAP.md · tafhc.org Research build map
 
-Source: Site audit of November 13, 2026, plus docs/BUILD_BRIEF.md and docs/DECISIONS.md.
+Source: Site audit of November 13, 2026, plus docs/BUILD_BRIEF.md and docs/DECISIONS.md. Reconciled November 16, 2026 with `MERGER_PLAN.md`: the Rojas Report merged into The Alliance for Healthcare Competition at tafhc.org (PR 13). Where this file and MERGER_PLAN.md section 1.2 disagree, the merger plan wins.
 Owner: Dutch Rojas. Executor: Claude Code.
 Place this file at `docs/ROADMAP.md`. Read it at the start of every session.
 
@@ -8,7 +8,7 @@ Place this file at `docs/ROADMAP.md`. Read it at the start of every session.
 
 ## 0. How to use this file
 
-1. Read this file, then `docs/DECISIONS.md`, then `git log -10`.
+1. Read this file, then MERGER_PLAN.md section 1.2, then `docs/DECISIONS.md`, then `git log -10`.
 2. Pick the **first packet in the current phase** whose status is `READY` and whose dependencies are `DONE`. Never start a `BLOCKED` packet.
 3. One packet = one branch = one PR. Branch name: `wp/<packet-id>-<slug>` (example: `wp/Q3-source-check`).
 4. Work to the packet's **Done when** list. Nothing else ships in that PR.
@@ -17,7 +17,7 @@ Place this file at `docs/ROADMAP.md`. Read it at the start of every session.
 7. Update this file in the same PR: status, date, PR number. Add any new decision to `docs/DECISIONS.md`.
 8. If a packet turns up a new gap, add it to section 10 (Intake). Do not expand the current packet.
 
-Status values: `READY` · `IN PROGRESS` · `IN PR` · `DONE` · `BLOCKED (D-x)`.
+Status values: `READY` · `IN PROGRESS` · `IN PR` · `DONE` · `BLOCKED (D-x)` · `ON HOLD` (waits by a merger decision) · `SUPERSEDED` (replaced by the merger plan).
 
 ---
 
@@ -38,7 +38,10 @@ Status values: `READY` · `IN PROGRESS` · `IN PR` · `DONE` · `BLOCKED (D-x)`.
 - A reduction in projected growth is not a "cut."
 - Charity care is counted as a subsidy.
 - Never state publicly that any person or institution is excluded from membership or purchase.
-- Do not mention any other business tied to Dutch Rojas: MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives, the Alliance, or any other. Rojas Media appears only as the publisher. (Dutch, 2026-11-14)
+- Voice: the Alliance's, third person, professional, advocating for members (MERGER_PLAN.md 5.2). Never "I" outside `/founder/`. "We" only on membership and About pages. Own estimates read "Alliance estimate," with the method named.
+- No business tied to Dutch Rojas is named except the Alliance itself: never MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives, or any other. Rojas Media appears only in the producer disclosure sentence. (Dutch, 2026-11-14; the Alliance clause amended by the merger, 2026-11-16)
+- Dossiers that name a person follow MERGER_PLAN.md 5.4: public record only, dated offer of the figures to the person or office, counsel read recommended, Dutch signs off, disclosure line on the page.
+- tafhc.org does not link to or sell The Rojas Report newsletter (read.rojasreport.com).
 
 **Build**
 - Next.js SSG on Netlify. Structure first, visual design later. Reuse live templates before building new ones.
@@ -62,14 +65,14 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 
 | ID | Decision | Unblocks | Status |
 |---|---|---|---|
-| D-1 | Machine Score rubric: band names, lookback window, start date (per `docs/MACHINE_SCORE_DRAFT.md`). Scale already set: 100 = fully independent of the hospital lobby. | P1-3, P3-x scorecards | OPEN |
+| D-1 | Machine Score rubric: band names, lookback window, start date (per `docs/MACHINE_SCORE_DRAFT.md`). Scale already set: 100 = fully independent of the hospital lobby. | P1-3, P3-x scorecards | ON HOLD 2026-11-16: the Machine Score waits (merger). When it returns, the band names need counsel's read as a lobbying communication (merger D13, after December 15) |
 | D-2 | Driver grade rubrics for price transparency and Stark/AKS | P1-1 grades, state grades leave "provisional" | OPEN |
-| D-3 | Stripe Payment Links: Reader $10, Patron $25, Founder $100, one-time | M-1 | OPEN |
-| D-4 | Dataset prices: system, state, committee datasets | M-2 | OPEN |
+| D-3 | Stripe Payment Links: Reader $10, Patron $25, Founder $100, one-time | M-1 | SUPERSEDED 2026-11-16: Support converts to Alliance giving; member levels are Physician Member $50 a month or $600 a year and Council $2,000 a month or $24,000 a year (merger 1.2) |
+| D-4 | Dataset prices: system, state, committee datasets | M-2 | SUPERSEDED 2026-11-16: Reports & Data stays off the site at launch; revisit in January with counsel (merger D7) |
 | D-5 | OK to add conlaws DNS redirect record | Q1 | DECIDED 2026-11-14: yes (alias and DNS record added that day) |
 | D-6 | State order: MA, PA, NY, TN (brief) or Texas first | P2-2 | OPEN |
-| D-7 | "Sign in" in the utility bar: drop it, or keep for paid tiers | Q9 | OPEN |
-| D-8 | Go-ahead to open /builders-table application | M-3 | OPEN |
+| D-7 | "Sign in" in the utility bar: drop it, or keep for paid tiers | Q9 | SUPERSEDED 2026-11-16: the merged utility bar has no Sign in (merger 3.1) |
+| D-8 | Go-ahead to open /builders-table application | M-3 | SUPERSEDED 2026-11-16: the Builders Table is retired; the Council replaces it (merger 1.2) |
 | D-9 | Canonical list of the top 100 health systems (which list, which metric, which year) | P2-1 batches past the 84 on hand | OPEN |
 | D-10 | CON count | Q2 | DECIDED 2026-11-13: 35 jurisdictions (34 states and D.C.) |
 | D-11 | conlaws redirect target: every path to `/con/` (Q1 as written) or keep each path (old CON routes still live here); see Intake | Q1 | DECIDED 2026-11-14: Dutch left it to Claude Code. Keep each path; only the front page goes to `/con/` (PR 8) |
@@ -89,20 +92,23 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | Q5 | Mike Thompson (CA-04) status | Member page and committee page reflect the AP call, with date. Until the call, page reads "not called" with the as-of date. | AP call | WAITING (not called as of 2026-11-13) |
 | Q6 | Greg Murphy (NC-03) status | Status confirmed against the official canvass; member and committee pages updated with as-of date | canvass result | WAITING (pages show his November 11 concession on unofficial returns) |
 | Q7 | Retire old subdomain projects | Calendar note in `docs/redirects.md`: retire each Netlify/GitHub Pages project 30 to 60 days after its redirect goes live (waysandmeans, poh, fah). Dutch does the retirement. | Q0 | DONE 2026-11-16. Windows in `docs/redirects.md`; Dutch retires |
-| Q8 | Lighthouse accessibility | Lighthouse run on every template; each scores 95+; results in `docs/lighthouse.md`; add to CI if feasible | none | IN PROGRESS. 13 templates run on the PR 8 branch: 10 at 100, 3 at 96. `docs/lighthouse.md` and CI still to do |
-| Q9 | "Sign in" in utility bar | Brief and site match D-7 | D-7 | BLOCKED (D-7) |
-| Q10 | Remove businesses tied to Dutch Rojas | Built site has zero mentions of MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives or the Alliance; home "Build" section and NC "Practicing here?" links gone | D-12 | DONE (PR 10, merged 2026-11-14) |
+| Q8 | Lighthouse accessibility | Lighthouse run on every template; each scores 95+; results in `docs/lighthouse.md`; add to CI if feasible | none | IN PROGRESS. 13 templates run on the PR 8 branch: 10 at 100, 3 at 96. Re-run on the tafhc.org templates after the merger (PR 13); `docs/lighthouse.md` and CI still to do |
+| Q9 | "Sign in" in utility bar | Brief and site match D-7 | D-7 | SUPERSEDED (no Sign in on tafhc.org) |
+| Q10 | Remove businesses tied to Dutch Rojas | Built site has zero mentions of MedMerge, Cornerstone Indemnity, PhyCap Fund or DrCaptives; home "Build" section and NC "Practicing here?" links gone | D-12 | DONE (PR 10, merged 2026-11-14). The Alliance clause no longer applies: the site is the Alliance's (merger, 2026-11-16) |
 | Q11 | "Physician" in site copy | Built site uses "doctor" only inside proper names and source URLs | none | DONE (PR 11, merged 2026-11-14) |
+| Q12 | Reconcile repo docs with the merger | CLAUDE.md, this file and DECISIONS.md match MERGER_PLAN.md section 1.2: site name, voice, the Alliance clause, three fights, Machine Score, Reports & Data, giving, Builders Table | none | IN PR (PR 18) |
+| Q13 | "Rojas grade" on the state pages | The live state grade label reads "Rojas grade" in seven strings across five files (`/states/` twice, the state dossier, the states map twice, a screen-reader label, the home desk card). Rename to match the merger's attribution rule | Dutch picks the label | READY once named (Intake) |
 
 ---
 
 ## 5. Phase 1 · Weeks 1 to 2 · Every home card leads somewhere
 
 ### P1-1 · Five cost-driver briefs
+- **Under the merger:** these are Research briefs under `/drivers/`, not fights. Three of them have an Alliance fight page to link to: Section 6001 (`/fights/physician-ownership/`), hospital subsidies (`/fights/340b/`), CMS favoritism (`/fights/site-neutral/`). Price transparency and Stark and Anti-Kickback are research only. Figures match MERGER_PLAN.md 1.2: physician-owned hospitals "250+" (CMS FY 2027 IPPS proposed rule) with 176 tracked in 30 states; site-neutral savings $156.9B (CBO Option 16, largest alternative), with $170B only where the full policy is discussed.
 - **Inputs:** POH investigation and evidence (Section 6001); Alliance evidence banks in `research/tafhc-site` (site-neutral, 340B program); CMS 2026 rules in `fights.json`.
 - **Client rule:** `research/tafhc-site` is evidence only. Use the public sources it cites. Never reuse its presentation or copy.
 - **Steps:**
-  1. Build one fight-page template. Sections: the mechanism, who benefits, the dollars, where the money moved, the state picture, current fight (rules, bills, dockets), sources.
+  1. Build one research-brief template. Sections: the mechanism, who benefits, the dollars, where the money moved, the state picture, current fight (rules, bills, dockets), sources.
   2. One brief per driver, in this order: Section 6001 (evidence already in hand), hospital subsidies (340B program, DSH, GME, charity care, tax exemption), price transparency, CMS favoritism, Stark and Anti-Kickback.
   3. Replace both "figure pending" home cards with sourced figures.
 - **Done when:** six home cards all resolve to live pages; zero "figure pending"; fact-check gate passed per brief.
@@ -110,14 +116,15 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 - **Size:** 2 sessions. **Status:** READY
 
 ### P1-2 · Lobby: Hospital PACs (pulled forward)
-- **Why now:** FEC bulk files already in hand and the AHA/FAH desks are the template. Cheap win that feeds the Machine Score.
+- **Why now:** FEC bulk files already in hand and the AHA/FAH desks are the template. Cheap win. (It fed the Machine Score, which now waits.)
+- **Naming people:** recipient links to member pages follow MERGER_PLAN.md 5.4.
 - **Done when:** PAC desk live with receipts and disbursements by cycle, linked to committee member pages where recipients overlap.
 - **Size:** 1 session. **Status:** READY
 
 ### P1-3 · Machine Score on Ways and Means
 - **Inputs:** `docs/MACHINE_SCORE_DRAFT.md`; 13 Ways and Means roll calls; AHA and FAH positions from the lobby desks; PAC data from P1-2.
 - **Done when:** every Ways and Means member has a score, a band, and a "how this was scored" link listing each vote and position used; committee scorecard shows no "pending."
-- **Depends:** D-1, P1-2. **Size:** 2 sessions. **Status:** BLOCKED (D-1)
+- **Depends:** D-1, P1-2. **Size:** 2 sessions. **Status:** ON HOLD (the Machine Score waits; merger 1.2 and D13)
 
 ---
 
@@ -147,7 +154,7 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 
 | ID | Desk | Inputs | Plan | Size | Depends |
 |---|---|---|---|---|---|
-| P3-1 | Energy and Commerce | Ways and Means pipeline (Clerk roster, FEC, roll calls, PTRs) | Research pass, committee page, member pages, Machine Score | 2 | D-1 |
+| P3-1 | Energy and Commerce | Ways and Means pipeline (Clerk roster, FEC, roll calls, PTRs) | Research pass, committee page, member pages (Machine Score when it returns) | 2 | none for the pages; D-1 for scores |
 | P3-2 | Senate HELP | Senate Finance template | Same as P3-1 using Senate sources | 2 | D-1 |
 | P3-3 | Lobbying firms | LDA pipeline (shipped Oct 9) | Firm pages, clients, issues, revolving door | 1 | none |
 | P3-4 | State hospital associations | LDA, state filings, 990s | Desk on the AHA pattern | 1 | none |
@@ -164,9 +171,9 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 
 | ID | Item | Where | Claude Code task once supplied | Depends |
 |---|---|---|---|---|
-| M-1 | Stripe Payment Links | Support page, home band | Replace "Checkout opens soon" with live links; test each in Stripe test mode first | D-3 |
-| M-2 | Dataset prices | Reports page | Turn on the three datasets with prices and delivery path | D-4 |
-| M-3 | Builders Table | Home card, /builders-table | Open the application form | D-8 |
+| M-1 | Stripe for Alliance dues and giving | Dues: `/physicians/join/`, `/physicians/council/` (`src/data/alliance/membership.json`). Giving: `/give/` (`src/data/alliance/giving.json`, `open` flag) | Wire Dutch's Stripe price ids and key; test in Stripe test mode first. Dues checkout stays closed until counsel supplies the lobbying percentage for the §6033(e) notice (merger D11) | Dutch's price ids and key, counsel |
+| M-2 | Dataset prices | Reports page | SUPERSEDED: Reports & Data stays off at launch (merger D7) | January, with counsel |
+| M-3 | Builders Table | Home card, /builders-table | SUPERSEDED: retired; the Council replaces it | none |
 | M-4 | Portraits and cover art | Committee chairs, weekly cover | Drop in images; remove every "Portrait pending" | Dutch's images |
 | M-5 | CommonSpirit ledger lines | CommonSpirit profile | Fill the remaining 8 lines from `research/DOWNLOAD_LIST_COMMONSPIRIT.md` | Dutch's downloads |
 
@@ -180,7 +187,7 @@ Sizes from the audit, in working sessions:
 |---|---|
 | Phase 0 quick fixes | about 3 |
 | Cost-driver briefs | 2 |
-| Machine Score | 2 |
+| Machine Score (on hold) | 2 |
 | Health systems (99) | 10+ plus research on 16 |
 | State dossiers (50) at 1 per state | 50 |
 | Committees (2) | 4 |
@@ -208,9 +215,12 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-14 | Q3 | Desk data with its own source fields (Ways and Means `src/data/committees/wm`, POH `src/data/poh`, AHA, FAH, HAC) is not covered by the source check. Extend the check, or move those files to the four-field shape. | 1 session |
 | 2026-11-14 | Q4 | Uncommitted edits from a November 9 session sit in the main checkout (AHA pages, `fights.json`, `data/states/*`, `StateDossier`, `BaseballCard`, `rankings`). Some duplicate fixes now in PR 8. Commit or discard them, then delete. | XS |
 | 2026-11-14 | Audit | Branch `claude/physicians-about` (another session) built `/physicians/` and an About page; no PR was opened. Review and PR, or close. | XS |
+| 2026-11-16 | Q3 | This roadmap predates the merger into the Alliance at tafhc.org (PR 13). Several items conflict with the merger decisions: the "no other businesses" rule names the Alliance, the Machine Score waits, three fights only, Reports & Data off at launch, Support becomes Alliance giving. The roadmap needs one pass to match the merger plan before Phase 1 work starts. Resolved by Q12 (PR 18). | S |
+| 2026-11-16 | Q12 | "The Rojas grade" survived the merger rename on the live state pages: `src/app/states/page.tsx` (2), `StateDossierPage.tsx`, `StatesMap.tsx` (2), `StateGroups.tsx`, `src/data/home/sections.json`. The merger's rule renames "Rojas Report estimate" to "Alliance estimate"; the grade needs the same call. Proposed: "Alliance grade." Q13. | XS |
+| 2026-11-16 | Q12 | `docs/redirects.md` predates the merger: the old subdomains are now aliases of this project with host-qualified rules here, and the merger plan retires the old Netlify projects at L+60 (February 13, 2027). The merger session's log (`merger/SUBDOMAINS.md`, branch `merger/subdomains`) holds the current map. Update `docs/redirects.md` when that branch lands. | XS |
+| 2026-11-16 | Q12 | `/methodology/machine-score/` is live, in the sitemap and search index, and linked from `/methodology/` and the committee dossiers. MERGER_PLAN.md 3.8 says it is held (D13). Dutch decides: keep the method page up while scores wait, or hold it. | XS once decided |
 
 ---
-| 2026-11-16 | Q3 | This roadmap predates the merger into the Alliance at tafhc.org (PR 13). Several items conflict with the merger decisions: the "no other businesses" rule names the Alliance, the Machine Score waits, three fights only, Reports & Data off at launch, Support becomes Alliance giving. The roadmap needs one pass to match the merger plan before Phase 1 work starts. | S |
 
 ## 11. Log
 
@@ -228,4 +238,5 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-16 | Q0 | this PR | DONE | Old poh URLs 301 (RojasReportIntelligence PRs 3 and 4, rules forced); all 38 old pages checked |
 | 2026-11-16 | Q7 | this PR | DONE | Retirement windows for each old project in `docs/redirects.md` |
 | 2026-11-16 | Q3 | this PR | DONE | Desk data gate added; one undated POH source (Nix, San Antonio Report) dated October 24, 2024 |
-| 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |
+| 2026-11-14 | Rules | PR 9 | DONE | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |
+| 2026-11-16 | Q12 | PR 18 | IN PR | Repo docs reconciled with the merger plan; Machine Score on hold; D-3, D-4, D-7, D-8 superseded; Q13 opened for the grade label |
