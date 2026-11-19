@@ -67,7 +67,7 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 | D-3 | Stripe Payment Links: Reader $10, Patron $25, Founder $100, one-time | M-1 | OPEN |
 | D-4 | Dataset prices: system, state, committee datasets | M-2 | OPEN |
 | D-5 | OK to add conlaws DNS redirect record | Q1 | DECIDED 2026-11-14: yes (alias and DNS record added that day) |
-| D-6 | State order: MA, PA, NY, TN (brief) or Texas first | P2-2 | OPEN |
+| D-6 | State order: MA, PA, NY, TN (brief) or Texas first | P2-2 | DECIDED 2026-11-19: research in hand first. Texas, then CA, FL, KS, KY, MI, OH, SC, VA, WI (public filings behind the state research of October 2026); then the brief's default MA, PA, NY, TN; then the remaining no-page states |
 | D-7 | "Sign in" in the utility bar: drop it, or keep for paid tiers | Q9 | OPEN |
 | D-8 | Go-ahead to open /builders-table application | M-3 | OPEN |
 | D-9 | Canonical list of the top 100 health systems (which list, which metric, which year) | P2-1 batches past the 84 on hand | OPEN |
@@ -135,11 +135,12 @@ Packets that depend on these stay `BLOCKED` until the answer is logged in `docs/
 
 ### P2-2 · State dossiers
 - **Inputs:** NC template; 36 jurisdictions with CON pages (35 states and D.C.); 15 states with no page (AZ, CA, CO, ID, IN, KS, NH, NM, OH, PA, SC, SD, TX, UT, WY).
-- **Order:** per D-6. Default if no answer: MA, PA, NY, TN, then TX, then the remaining no-page states.
+- **Order:** per D-6 (decided 2026-11-19): TX, then CA, FL, KS, KY, MI, OH, SC, VA, WI in packets of two or three, then MA, PA, NY, TN, then the remaining no-page states.
 - **Before state two:** build a state data pipeline that pulls every dossier field for all 51 at once (CON status, AG and governor, tax-exempt systems in state, DSH and GME, provider tax, POH and ASC counts, private-practice counts over time). The dossier page then becomes a render, not a research job. See section 9.
 - **Includes:** AG oversight section (P4-3) built into the template from the first new state, not retrofitted later.
 - **Done when (per state):** dossier live with letter grade (marked provisional until D-2), every figure sourced, linked to its systems and CON page.
-- **Size:** 1 session per state today; target 3 to 5 states per session once the pipeline exists. **Status:** BLOCKED (D-6) for order; pipeline work READY
+- **Pipeline:** `research/states/` (README there): pull scripts for all 51 jurisdictions, one editorial file per state, `build_state.py` renders `src/data/states/<st>.json`.
+- **Size:** 1 session per state today; target 3 to 5 states per session once the pipeline exists. **Status:** IN PROGRESS (packet 1: pipeline scaffold, D-6, Texas)
 
 ---
 
@@ -227,3 +228,4 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-16 | Q0 | this PR | DONE | Old poh URLs 301 (RojasReportIntelligence PRs 3 and 4, rules forced); all 38 old pages checked |
 | 2026-11-16 | Q7 | this PR | DONE | Retirement windows for each old project in `docs/redirects.md` |
 | 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |
+| 2026-11-19 | P2-2 packet 1 | this PR | IN PR | D-6 decided (Texas first); state pipeline `research/states/` for all 51 jurisdictions; Texas dossier rendered from it with the attorney general section (P4-3) in the template; grades IV and V and the grade label flagged for Dutch |

@@ -69,7 +69,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const stateSlugs = getAllStateSlugs();
+  // Every CON state page, plus dossier states that have no CON page (Texas has no CON law).
+  const conSlugs = getAllStateSlugs();
+  const stateSlugs = [...conSlugs];
+  for (const d of stateDossiers) if (!stateSlugs.includes(d.slug)) stateSlugs.push(d.slug);
   const statePages = stateSlugs.map(slug => ({
     url: `${baseUrl}/states/${slug}/`,
     lastModified: now,
@@ -95,7 +98,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
   // CON desk pages for states whose /states/ URL carries the dossier.
   const conStatePages = stateDossiers
-    .filter((d) => stateSlugs.includes(d.slug))
+    .filter((d) => conSlugs.includes(d.slug))
     .map((d) => ({ url: `${baseUrl}/con/${d.slug}/`, lastModified: now, changeFrequency: 'monthly' as const, priority: 0.7 }));
 
   const ahaBase = 'https://tafhc.org/aha';

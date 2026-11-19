@@ -58,6 +58,15 @@
         "group": "State dossiers"
       },
       {
+        "name": "Texas",
+        "href": "/states/texas/",
+        "status": "live",
+        "stat": "B",
+        "statLabel": "The Rojas grade, provisional",
+        "blurb": "167 hospitals in the 340B program cleared $6.5B in a year, take an estimated $2.2B in tax breaks and face no certificate of need. The attorney general gets the list of hospitals that miss the charity care standard every July.",
+        "group": "State dossiers"
+      },
+      {
         "name": "CON state pages",
         "href": "/con/",
         "status": "live",

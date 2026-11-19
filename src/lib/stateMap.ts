@@ -11,4 +11,4 @@ export const STATE_TILES: [string, number, number, string][] = [
 ];
 
 /** State dossiers published in the brief's format (`/states/[st]`). North Carolina first (phase 3). */
-export const PUBLISHED_DOSSIERS: Record<string, string> = { NC: "/states/north-carolina/" };
+export const PUBLISHED_DOSSIERS: Record<string, string> = { NC: "/states/north-carolina/", TX: "/states/texas/" };

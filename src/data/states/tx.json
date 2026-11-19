@@ -1,0 +1,2329 @@
+{
+ "slug": "texas",
+ "code": "TX",
+ "name": "Texas",
+ "verdict": "Its 340B hospitals cleared $6.5 billion in a year and take an estimated $2.2 billion in tax breaks. No state permit stands between a physician and a new facility. Every July the attorney general gets the list of hospitals that missed the charity care standard. No enforcement action on it has been found.",
+ "asOf": "November 19, 2026",
+ "grade": {
+  "note": "Driver grades I and III follow the Build Brief 2 scale (November 6, 2026). Grades IV and V are provisional Alliance grades, open until the state-grade rubric is published at /methodology/state-grade/."
+ },
+ "money": {
+  "asOf": "Texas's 167 hospitals in the 340B program, fiscal years ending 2023 to 2025",
+  "items": [
+   {
+    "value": "$6.5B",
+    "text": "in net income in one year, on $50.8B of patient revenue.",
+    "note": "118 of 166 made money. CMS hospital cost reports, latest report per hospital.",
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Net Income 6,540,725,516 and Net Patient Revenue 50,838,858,818 over the 166 active 340B hospitals with cost reports; 118 of 166 with positive net income",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "value": "$78.6B",
+    "text": "in total assets on their books.",
+    "note": "CMS hospital cost reports, latest report per hospital.",
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Total Assets 78,630,839,110 over the 166 hospitals",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "value": "$2.2B",
+    "text": "a year in estimated tax breaks, against $5.0B of charity care.",
+    "note": "Federal income $1.5B, property $729M, at 2025 rates. No state corporate income tax; franchise and sales tax not estimated.",
+    "basis": "estimated",
+    "source": "Estimate from the cost reports: federal income tax 1,480,945,006 (21% of cost-report net income of the 118 profitable hospitals, 7,052,119,075); Texas has no corporate income tax. Franchise and sales tax exemptions are not estimated.; property tax 729,074,640 on 35,143,113,048 of land, land improvements and buildings at historical cost at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study effective commercial rates for taxes paid in 2025 (Houston 2.028% for hospitals in Harris County, Fort Stockton 2.087% elsewhere); total 2,210,019,646. Charity care at cost 4,952,445,972 from the cost reports",
+    "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "value": "1,011",
+    "text": "340B contract pharmacy arrangements with pharmacies outside Texas, of 2,939 in all.",
+    "note": "HRSA 340B registry, September 29, 2026.",
+    "basis": "reported",
+    "source": "HRSA 340B OPAIS export of September 29, 2026: 2,939 active contract pharmacy arrangements for the 167 hospitals, 1,011 with pharmacies outside the state (34%)",
+    "as_of": "September 29, 2026"
+   }
+  ]
+ },
+ "drivers": [
+  {
+   "num": "I",
+   "label": "Section 6001",
+   "key": "6001",
+   "weight": 5,
+   "title": "Physician-owned hospitals",
+   "grade": "F",
+   "body": "The federal ban applies here as everywhere. Texas has 11 physician-owned hospitals still operating under the grandfather clause, of 55 on the Alliance list. Sixteen more run as joint ventures with health systems; 13 closed and 13 were sold. No new one can open and bill Medicare.",
+   "status": "LOBBY HOLDING · Federal ban unchanged",
+   "tone": "red",
+   "href": "/physician-owned/",
+   "linkText": "Read the physician-owned hospital desk",
+   "basis": "reported",
+   "source": "Alliance physician-owned hospital database (research/poh/poh_db_2026-03.json, March 2026): Texas 55 hospitals listed; status Operating 11, Joint Venture 16, Closed 13, Sold/Acquired 13, Under Development 1, Unknown 1",
+   "as_of": "March 2026"
+  },
+  {
+   "num": "II",
+   "label": "Price Transparency",
+   "key": "transparency",
+   "weight": 12.5,
+   "title": "A state law with small teeth",
+   "grade": null,
+   "body": "Texas has its own price-disclosure law, Health and Safety Code chapter 327 (SB 1137, 2021). Hospitals post machine-readable standard charges and a shoppable-services list. SB 331 (2025) limited the chapter to facilities with $10 million or more in gross revenue. The penalty tops out at $1,000 a day for facilities over $100 million. Graded when the rubric is published.",
+   "status": "STATE LAW IN FORCE · Rubric pending",
+   "tone": "grey",
+   "href": null,
+   "linkText": null,
+   "basis": "reported",
+   "source": "Texas Health and Safety Code chapter 327 (tcss.legis.texas.gov, retrieved November 19, 2026): section 327.002 added by Acts 2021, 87th Leg., ch. 1044 (SB 1137), effective September 1, 2021; section 327.0015 ($10 million gross revenue applicability) added by Acts 2025, 89th Leg., ch. 1131 (SB 331), section 2, effective June 20, 2025; section 327.008(c) penalties of $100 per violation for facilities with $10 million to $100 million in gross revenue and $1,000 per day above $100 million, as amended by SB 331 section 3",
+   "as_of": "November 19, 2026"
+  },
+  {
+   "num": "III",
+   "label": "Certificate of Need",
+   "key": "con",
+   "weight": 30,
+   "title": "No permit to compete",
+   "grade": "A",
+   "body": "Texas has had no certificate of need law since 1985, when the Texas Health Facilities Commission was abolished. A hospital needs a license under Health and Safety Code chapter 241 and nothing more. A physician can build a surgery center or hospital without a competitor's say.",
+   "status": "NO CON LAW · Abolished 1985",
+   "tone": "green",
+   "href": "/con/",
+   "linkText": "Read the certificate of need desk",
+   "basis": "reported",
+   "source": "Texas Sunset Advisory Commission, Texas Health Facilities Commission agency record (1984-1985 review cycle, 69th Legislature: 'No legislation; agency abolished'); Texas Health and Safety Code chapter 241 (Hospital Licensing Law, no need review); the CON desk's rankings (data/rankings.json: Texas, no CON law, Free Market tier, score 0)",
+   "as_of": "November 19, 2026"
+  },
+  {
+   "num": "IV",
+   "label": "Hospital Subsidies",
+   "key": "subsidies",
+   "weight": 27.5,
+   "title": "$2.2 billion a year in tax breaks",
+   "grade": "C",
+   "body": "Estimated federal income and property tax exemptions for the 166 hospitals in the 340B program with cost reports come to $2.2 billion a year. Against that, $5.0 billion of charity care at cost. Texas has a charity care standard in law. Tax Code 11.1801 ties the exemption to one of four tests. Those hospitals run 2,377 340B child sites and 2,939 contract pharmacy arrangements.",
+   "status": "STANDARD IN LAW · HB 3708 died",
+   "tone": "gold",
+   "href": "/drivers/",
+   "linkText": "Read the hospital subsidies desk",
+   "basis": "estimated",
+   "source": "Estimate from CMS hospital cost reports (2023 and 2024 files, latest report per hospital): federal income tax 1,480,945,006 (21% of net income of the 118 profitable hospitals, 7,052,119,075); property tax 729,074,640 on 35,143,113,048 of land, land improvements and buildings at historical cost, at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study effective commercial rates for taxes paid in 2025 (Houston 2.028% for Harris County hospitals, Fort Stockton 2.087% elsewhere); total 2,210,019,646; no state corporate income tax; charity care at cost 4,952,445,972; Texas Tax Code section 11.1801(a) (four charity care and community benefit standards); HRSA 340B OPAIS export of September 29, 2026 (2,377 child sites, 2,939 arrangements); HB 3708 (89R) reported from House Public Health 7 to 4 on May 1, 2025, died at sine die June 2, 2025",
+   "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2023 to 2025"
+  },
+  {
+   "num": "V",
+   "label": "CMS Favoritism",
+   "key": "cms",
+   "weight": 12.5,
+   "title": "Urban hospitals, rural rules",
+   "grade": "C",
+   "body": "21 of the 166 are hospitals in urban areas that CMS treats as rural under 42 CFR 412.103. Memorial Hermann Texas Medical Center, Parkland, Baylor University Medical Center and UTMB are among them. Rural status can lower the 340B eligibility bar for a rural referral center and change Medicare wage-index reclassification. 76 of the 166 are projected to draw Medicare DSH payments in fiscal 2027, with $1.1 billion in uncompensated care payments.",
+   "status": "IN PLAY · 21 of 166 reclassified",
+   "tone": "gold",
+   "href": "/drivers/",
+   "linkText": "Read the CMS favoritism desk",
+   "basis": "reported",
+   "source": "CMS hospital cost reports (Rural Versus Urban = rural) against the CMS FY2027 IPPS final rule impact file, correction notice (urban geographic classification with the Section 401 flag): ASCENSION PROVIDENCE, BAPTIST HOSPITALS OF SOUTHEAST TEXAS DBA BAPTIST BEAUMONT HOSPITAL, BAYLOR UNIVERSITY MEDICAL CTR, CHRISTUS HOSPITAL, CHRISTUS MOTHER FRANCES HOSP-TYLER, CHRISTUS ST MICHAEL, DALLAS COUNTY HOSPITAL DISTRICT dba PARKLAND HEALTH, Dell Seton Medical Center at The University of Texas, GOOD SHEPHERD MEDICAL CENTER, MEDICAL CENTER HOSPITAL , METHODIST HOSPITAL, MIDLAND MEMORIAL HOSPITAL, Memorial Hermann Texas Medical Center, SANTA ROSA HEALTHCARE, SHANNON MEDICAL CENTER, ST. JOSEPH REGIONAL HEALTH CENTER, TX HLTH HARRIS METHODIST HOSPITAL, Tarrant County Hospital District d/b/a JPS Health Network, UNIVERSITY HEALTH SYSTEM, UNIVERSITY MEDICAL CENTER OF EL PASO, UNIVERSITY OF TEXAS MEDICAL BRANCH; CMS FY2027 IPPS Medicare DSH supplemental file: 76 Texas 340B hospitals projected to receive DSH in FY2027, total uncompensated care payment 1,116,374,226",
+   "as_of": "CMS FY2027 IPPS final rule impact file (correction notice) and DSH supplemental file"
+  },
+  {
+   "num": "VI",
+   "label": "Stark & Anti-Kickback",
+   "key": "stark",
+   "weight": 12.5,
+   "title": "No room to build rivals",
+   "grade": null,
+   "body": "Texas has its own anti-kickback statute. Occupations Code 102.001 makes it a crime to pay or accept anything of value for patient referrals to a licensed practitioner or facility. Section 102.003 carves out whatever federal law allows. Whether Texas self-referral law goes beyond the federal statutes is not yet researched.",
+   "status": "PENDING RESEARCH",
+   "tone": "grey",
+   "href": null,
+   "linkText": null,
+   "basis": "pending",
+   "source": "Texas Occupations Code chapter 102 (tcss.legis.texas.gov, retrieved November 19, 2026): sections 102.001 (soliciting patients; Class A misdemeanor, third-degree felony on a prior conviction) and 102.003 (federal safe harbors apply); state self-referral review not yet done",
+   "as_of": "November 19, 2026"
+  }
+ ],
+ "systems": {
+  "subtitle": "Their 340B hospitals in Texas",
+  "note": "Margin is net income over net patient revenue plus other income, the cost report's total margin. CMS hospital cost reports, latest report per hospital; hospitals assigned to systems by the AHRQ 2023 Compendium linkage. Hospital districts such as Parkland, Harris Health, University Health and JPS are public bodies and file no Form 990. One 340B hospital, Driscoll Children's Hospital Rio Grande Valley, has no cost report yet.",
+  "rows": [
+   {
+    "name": "Baylor Scott & White Health",
+    "slug": null,
+    "hospitals": 7,
+    "netPatientRevenue": 5163125182,
+    "netIncome": 1336910563,
+    "otherIncome": 1371737109,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "HCA Healthcare",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 3850858390,
+    "netIncome": 850180079,
+    "otherIncome": 28296269,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Driscoll Children's Hospital",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 955080164,
+    "netIncome": 559900210,
+    "otherIncome": 183496979,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Cook Children's Health Care System",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 1965340416,
+    "netIncome": 427452280,
+    "otherIncome": 236528432,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "JPS Health Network",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 794957615,
+    "netIncome": 395586247,
+    "otherIncome": 1094725752,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "University Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1458758126,
+    "netIncome": 372291187,
+    "otherIncome": 2133224086,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Ascension Health",
+    "slug": null,
+    "hospitals": 8,
+    "netPatientRevenue": 2920969758,
+    "netIncome": 341251637,
+    "otherIncome": 67906005,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Hendrick Health System",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 911536574,
+    "netIncome": 282334037,
+    "otherIncome": 237236612,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Christus Health",
+    "slug": null,
+    "hospitals": 14,
+    "netPatientRevenue": 5036106589,
+    "netIncome": 243622331,
+    "otherIncome": 562985591,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Houston Methodist",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 1951637703,
+    "netIncome": 209645086,
+    "otherIncome": -3165473,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Children's Health",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 2424676884,
+    "netIncome": 191591138,
+    "otherIncome": 132963916,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "The University of Texas System",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 1513024866,
+    "netIncome": 188033820,
+    "otherIncome": 770036523,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "United Regional Health Care System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 497190205,
+    "netIncome": 163379194,
+    "otherIncome": 80346825,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Harris Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 748065683,
+    "netIncome": 139504530,
+    "otherIncome": 1786366592,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Texas Health Resources",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 1657409925,
+    "netIncome": 134910458,
+    "otherIncome": 24999608,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Parkland Health and Hospital System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1172520190,
+    "netIncome": 131428059,
+    "otherIncome": 1774132995,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Shannon Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 733702817,
+    "netIncome": 116357110,
+    "otherIncome": 12356067,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Providence",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 570064008,
+    "netIncome": 106976440,
+    "otherIncome": 30669214,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Memorial Hermann Health System",
+    "slug": null,
+    "hospitals": 4,
+    "netPatientRevenue": 6335720167,
+    "netIncome": 85764722,
+    "otherIncome": 156703469,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Community Hospital Corporation",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 477074502,
+    "netIncome": 62448599,
+    "otherIncome": 48057423,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "UMC Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 751033451,
+    "netIncome": 50757140,
+    "otherIncome": 306979738,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Peterson Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 207710514,
+    "netIncome": 45533812,
+    "otherIncome": 42518386,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Midland County Hospital District",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 326328544,
+    "netIncome": 29515141,
+    "otherIncome": 84125405,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Methodist Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 657416530,
+    "netIncome": 24102748,
+    "otherIncome": 77240861,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Prime Healthcare Services",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 264077263,
+    "netIncome": 19565365,
+    "otherIncome": 7970153,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "AdventHealth",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 197090008,
+    "netIncome": 19319588,
+    "otherIncome": 12295137,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Texas Children's Hospital",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 3045921345,
+    "netIncome": 7484167,
+    "otherIncome": 681031329,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Steward Health Care System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 46085757,
+    "netIncome": 2165496,
+    "otherIncome": 1094375,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Universal Health Services",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 13848077,
+    "netIncome": -202862,
+    "otherIncome": 1126552,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "El Paso County Hospital District",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 518301833,
+    "netIncome": -16485621,
+    "otherIncome": 409223085,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "CommonSpirit Health",
+    "slug": "commonspirit",
+    "hospitals": 6,
+    "netPatientRevenue": 704071419,
+    "netIncome": -26566691,
+    "otherIncome": 77512275,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Independent hospitals (85)",
+    "slug": null,
+    "hospitals": 85,
+    "netPatientRevenue": 2969154313,
+    "netIncome": 45969506,
+    "otherIncome": 1642841956,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN); hospitals with no system in the linkage file",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   }
+  ]
+ },
+ "hospitals": {
+  "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital",
+  "as_of": "hospital fiscal years ending 2023 to 2025",
+  "rows": [
+   {
+    "ccn": "453304",
+    "name": "Texas Children's Hospital",
+    "system": "Texas Children's Hospital",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 3045921345,
+    "netIncome": 7484167,
+    "totalAssets": 7980585892,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "450068",
+    "name": "Memorial Hermann Texas Medical Center",
+    "system": "Memorial Hermann Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 2943300246,
+    "netIncome": -25779924,
+    "totalAssets": 1604064865,
+    "charityCareAtCost": 149404039
+   },
+   {
+    "ccn": "450388",
+    "name": "METHODIST HOSPITAL",
+    "system": "HCA Healthcare",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 2801596449,
+    "netIncome": 577101288,
+    "totalAssets": 1685079920,
+    "charityCareAtCost": 170133042
+   },
+   {
+    "ccn": "450184",
+    "name": "MEMORIAL HERMANN HOSPITAL SYSTEM",
+    "system": "Memorial Hermann Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 2335542887,
+    "netIncome": 72231166,
+    "totalAssets": 1321317012,
+    "charityCareAtCost": 208325375
+   },
+   {
+    "ccn": "453302",
+    "name": "CHILDREN'S MEDICAL CENTER DALLAS",
+    "system": "Children's Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 2030958730,
+    "netIncome": 172299255,
+    "totalAssets": 3256568035,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "450054",
+    "name": "SCOTT AND WHITE MEMORIAL HOSPITAL",
+    "system": "Baylor Scott & White Health",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 2025178308,
+    "netIncome": 317574222,
+    "totalAssets": 2001633293,
+    "charityCareAtCost": 72152696
+   },
+   {
+    "ccn": "453300",
+    "name": "COOK CHILDREN'S MEDICAL CENTER",
+    "system": "Cook Children's Health Care System",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1868356937,
+    "netIncome": 452282758,
+    "totalAssets": 2349913977,
+    "charityCareAtCost": 31327360
+   },
+   {
+    "ccn": "450021",
+    "name": "BAYLOR UNIVERSITY MEDICAL CTR",
+    "system": "Baylor Scott & White Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1510714800,
+    "netIncome": 779381326,
+    "totalAssets": 4514352791,
+    "charityCareAtCost": 84973158
+   },
+   {
+    "ccn": "450213",
+    "name": "UNIVERSITY HEALTH SYSTEM",
+    "system": "University Health System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1458758126,
+    "netIncome": 372291187,
+    "totalAssets": 5676723661,
+    "charityCareAtCost": 324241106
+   },
+   {
+    "ccn": "450018",
+    "name": "UNIVERSITY OF TEXAS MEDICAL BRANCH",
+    "system": "The University of Texas System",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 1335809891,
+    "netIncome": 170452111,
+    "totalAssets": 4539549353,
+    "charityCareAtCost": 65357439
+   },
+   {
+    "ccn": "450135",
+    "name": "TX HLTH HARRIS METHODIST HOSPITAL",
+    "system": "Texas Health Resources",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1232554511,
+    "netIncome": 94482964,
+    "totalAssets": 1718470869,
+    "charityCareAtCost": 73420960
+   },
+   {
+    "ccn": "450015",
+    "name": "DALLAS COUNTY HOSPITAL DISTRICT dba PARKLAND HEALTH",
+    "system": "Parkland Health and Hospital System",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1172520190,
+    "netIncome": 131428059,
+    "totalAssets": 3774408618,
+    "charityCareAtCost": 727708096
+   },
+   {
+    "ccn": "450431",
+    "name": "ST. DAVID'S HEALTHCARE PARTNERSHIP, L.P., LLP, DBA ST. DAVID'S MEDICAL CENTER",
+    "system": "HCA Healthcare",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1011754252,
+    "netIncome": 260430934,
+    "totalAssets": 502945196,
+    "charityCareAtCost": 39493703
+   },
+   {
+    "ccn": "450102",
+    "name": "CHRISTUS MOTHER FRANCES HOSP-TYLER",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1010086446,
+    "netIncome": 13542589,
+    "totalAssets": 820900302,
+    "charityCareAtCost": 87505488
+   },
+   {
+    "ccn": "453310",
+    "name": "Ascension Seton d/b/a Dell Children's Medical Center of Central Texas",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 970607315,
+    "netIncome": 196255009,
+    "totalAssets": 1009975459,
+    "charityCareAtCost": 38824116
+   },
+   {
+    "ccn": "453301",
+    "name": "Driscoll Children's Hospital",
+    "system": "Driscoll Children's Hospital",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 955080164,
+    "netIncome": 559900210,
+    "totalAssets": 2038622402,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "450056",
+    "name": "Ascension Seton d/b/a Ascension Seton Medical Center Austin",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 821502963,
+    "netIncome": 87091511,
+    "totalAssets": 824109312,
+    "charityCareAtCost": 85082609
+   },
+   {
+    "ccn": "450039",
+    "name": "Tarrant County Hospital District d/b/a JPS Health Network",
+    "system": "JPS Health Network",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 794957615,
+    "netIncome": 395586247,
+    "totalAssets": 2961520621,
+    "charityCareAtCost": 339338089
+   },
+   {
+    "ccn": "450844",
+    "name": "HOUSTON METHODIST WILLOWBROOK HOSPITAL",
+    "system": "Houston Methodist",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 785677617,
+    "netIncome": 54716125,
+    "totalAssets": 469199789,
+    "charityCareAtCost": 57369696
+   },
+   {
+    "ccn": "450229",
+    "name": "HENDRICK MEDICAL CENTER",
+    "system": "Hendrick Health System",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 784971237,
+    "netIncome": 262955244,
+    "totalAssets": 1646213529,
+    "charityCareAtCost": 28234799
+   },
+   {
+    "ccn": "450046",
+    "name": "CHRISTUS SPOHN HOSPITAL CORPUS CHRISTI SHORELINE",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 755544899,
+    "netIncome": 22981617,
+    "totalAssets": 757689994,
+    "charityCareAtCost": 103629127
+   },
+   {
+    "ccn": "450686",
+    "name": "UNIVERSITY MEDICAL CENTER",
+    "system": "UMC Health System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 751033451,
+    "netIncome": 50757140,
+    "totalAssets": 1298226793,
+    "charityCareAtCost": 104186491
+   },
+   {
+    "ccn": "450289",
+    "name": "Harris Health Ben Taub Hospital",
+    "system": "Harris Health System",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 748065683,
+    "netIncome": 139504530,
+    "totalAssets": 2922076582,
+    "charityCareAtCost": 736438755
+   },
+   {
+    "ccn": "450571",
+    "name": "SHANNON MEDICAL CENTER",
+    "system": "Shannon Health System",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 733702817,
+    "netIncome": 116357110,
+    "totalAssets": 1311298662,
+    "charityCareAtCost": 20035506
+   },
+   {
+    "ccn": "450610",
+    "name": "MEMORIAL HERMANN MEMORIAL CITY MEDIC",
+    "system": "Memorial Hermann Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 702369238,
+    "netIncome": -6338246,
+    "totalAssets": 478466782,
+    "charityCareAtCost": 46425086
+   },
+   {
+    "ccn": "670077",
+    "name": "METHODIST WEST HOUSTON HOSPITAL",
+    "system": "Houston Methodist",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 670558057,
+    "netIncome": 114293930,
+    "totalAssets": 511153146,
+    "charityCareAtCost": 43064101
+   },
+   {
+    "ccn": "450051",
+    "name": "METHODIST DALLAS MEDICAL CENTER",
+    "system": "Methodist Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 657416530,
+    "netIncome": 24102748,
+    "totalAssets": -102479653,
+    "charityCareAtCost": 61650512
+   },
+   {
+    "ccn": "450032",
+    "name": "GOOD SHEPHERD MEDICAL CENTER",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 647564918,
+    "netIncome": 72839994,
+    "totalAssets": 403004832,
+    "charityCareAtCost": 56189712
+   },
+   {
+    "ccn": "450137",
+    "name": "BAYLOR SCOTT & WHITE ALL SAINTS MEDICAL CENTER - FORT WORTH",
+    "system": "Baylor Scott & White Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 589926550,
+    "netIncome": 119770462,
+    "totalAssets": 915857703,
+    "charityCareAtCost": 22336569
+   },
+   {
+    "ccn": "450801",
+    "name": "CHRISTUS ST MICHAEL",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 571203465,
+    "netIncome": 40148282,
+    "totalAssets": 258306805,
+    "charityCareAtCost": 40430124
+   },
+   {
+    "ccn": "450124",
+    "name": "Dell Seton Medical Center at The University of Texas",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 543791629,
+    "netIncome": 14261882,
+    "totalAssets": 572745934,
+    "charityCareAtCost": 139169601
+   },
+   {
+    "ccn": "450237",
+    "name": "SANTA ROSA HEALTHCARE",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 532585255,
+    "netIncome": -49054028,
+    "totalAssets": 458383790,
+    "charityCareAtCost": 47247188
+   },
+   {
+    "ccn": "450101",
+    "name": "HILLCREST BAPTIST MEDICAL CENTER",
+    "system": "Baylor Scott & White Health",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 519891024,
+    "netIncome": 63119047,
+    "totalAssets": 533115189,
+    "charityCareAtCost": 27833099
+   },
+   {
+    "ccn": "450024",
+    "name": "UNIVERSITY MEDICAL CENTER OF EL PASO",
+    "system": "El Paso County Hospital District",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 518301833,
+    "netIncome": -16485621,
+    "totalAssets": 697220671,
+    "charityCareAtCost": 142723784
+   },
+   {
+    "ccn": "453315",
+    "name": "CHRISTUS Children's",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 501543083,
+    "netIncome": 48007102,
+    "totalAssets": 481306419,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "450010",
+    "name": "UNITED REGIONAL HEALTH CARE SYSTEM",
+    "system": "United Regional Health Care System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 497190205,
+    "netIncome": 163379194,
+    "totalAssets": 0,
+    "charityCareAtCost": 24996802
+   },
+   {
+    "ccn": "450424",
+    "name": "HOUSTON METHODIST BAYTOWN HOSPITAL",
+    "system": "Houston Methodist",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 495402029,
+    "netIncome": 40635031,
+    "totalAssets": 385250735,
+    "charityCareAtCost": 47054838
+   },
+   {
+    "ccn": "453306",
+    "name": "Methodist Children's Hospital d/b/a Covenant Children's Hospital",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 477255093,
+    "netIncome": 113286862,
+    "totalAssets": 737235174,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "450034",
+    "name": "CHRISTUS HOSPITAL",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 437948678,
+    "netIncome": 17180544,
+    "totalAssets": 347841313,
+    "charityCareAtCost": 42732254
+   },
+   {
+    "ccn": "450346",
+    "name": "BAPTIST HOSPITALS OF SOUTHEAST TEXAS DBA BAPTIST BEAUMONT HOSPITAL",
+    "system": "Community Hospital Corporation",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 411904029,
+    "netIncome": 57251726,
+    "totalAssets": 496490653,
+    "charityCareAtCost": 28199807
+   },
+   {
+    "ccn": "450011",
+    "name": "ST. JOSEPH REGIONAL HEALTH CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 410694092,
+    "netIncome": -35234813,
+    "totalAssets": 449553170,
+    "charityCareAtCost": 17629855
+   },
+   {
+    "ccn": "453316",
+    "name": "Children’s Medical Center Plano",
+    "system": "Children's Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 393718154,
+    "netIncome": 19291883,
+    "totalAssets": 1830198871,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "450848",
+    "name": "Memorial Hermann Sugar Land Hospital",
+    "system": "Memorial Hermann Health System",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 354507796,
+    "netIncome": 45651726,
+    "totalAssets": 1453122761,
+    "charityCareAtCost": 16099001
+   },
+   {
+    "ccn": "450639",
+    "name": "TEXAS HEALTH H-E-B",
+    "system": "Texas Health Resources",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 351760462,
+    "netIncome": 28612656,
+    "totalAssets": 436629558,
+    "charityCareAtCost": 20597092
+   },
+   {
+    "ccn": "450042",
+    "name": "ASCENSION PROVIDENCE",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 347385720,
+    "netIncome": 31715948,
+    "totalAssets": 204754905,
+    "charityCareAtCost": 27969659
+   },
+   {
+    "ccn": "450133",
+    "name": "MIDLAND MEMORIAL HOSPITAL",
+    "system": "Midland County Hospital District",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 326328544,
+    "netIncome": 29515141,
+    "totalAssets": 597270878,
+    "charityCareAtCost": 26081196
+   },
+   {
+    "ccn": "450079",
+    "name": "BAYLOR MEDICAL CENTER AT IRVING",
+    "system": "Baylor Scott & White Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 291804114,
+    "netIncome": 80850403,
+    "totalAssets": 936581884,
+    "charityCareAtCost": 35050654
+   },
+   {
+    "ccn": "450132",
+    "name": "MEDICAL CENTER HOSPITAL ",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 270946568,
+    "netIncome": 21626075,
+    "totalAssets": 388125916,
+    "charityCareAtCost": 23034945
+   },
+   {
+    "ccn": "450007",
+    "name": "PETERSON REGIONAL MEDICAL CENTER",
+    "system": "Peterson Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 207710514,
+    "netIncome": 45533812,
+    "totalAssets": 353644819,
+    "charityCareAtCost": 17785908
+   },
+   {
+    "ccn": "453313",
+    "name": "El Paso Children's Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 196572002,
+    "netIncome": 15710561,
+    "totalAssets": 202165583,
+    "charityCareAtCost": 10521332
+   },
+   {
+    "ccn": "450352",
+    "name": "Hunt Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 185784337,
+    "netIncome": -12279032,
+    "totalAssets": 223829833,
+    "charityCareAtCost": 8812333
+   },
+   {
+    "ccn": "450023",
+    "name": "CITIZENS MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 183641012,
+    "netIncome": -11214941,
+    "totalAssets": 223034921,
+    "charityCareAtCost": 5998530
+   },
+   {
+    "ccn": "450211",
+    "name": "CHI ST LUKES HEALTH MEMORIAL LUFKIN",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 182701793,
+    "netIncome": -10293369,
+    "totalAssets": 182764973,
+    "charityCareAtCost": 7675116
+   },
+   {
+    "ccn": "451374",
+    "name": "Baylor Scott & White Medical Center- Taylor",
+    "system": "Baylor Scott & White Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 178033997,
+    "netIncome": -30502365,
+    "totalAssets": 51359789,
+    "charityCareAtCost": 5378709
+   },
+   {
+    "ccn": "450690",
+    "name": "UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT TYLER",
+    "system": "The University of Texas System",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 177214975,
+    "netIncome": 17581709,
+    "totalAssets": 562000777,
+    "charityCareAtCost": 2836915
+   },
+   {
+    "ccn": "450152",
+    "name": "AdventHealth Central Texas",
+    "system": "AdventHealth",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 169593089,
+    "netIncome": 11634703,
+    "totalAssets": 94895014,
+    "charityCareAtCost": 12831431
+   },
+   {
+    "ccn": "450272",
+    "name": "CHRISTUS Santa Rosa Hospital - San Marcos",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 165584419,
+    "netIncome": 1323317,
+    "totalAssets": 67237980,
+    "charityCareAtCost": 16594995
+   },
+   {
+    "ccn": "450176",
+    "name": "MISSION HOSPITAL",
+    "system": "Prime Healthcare Services",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 144724048,
+    "netIncome": 5531869,
+    "totalAssets": 54677444,
+    "charityCareAtCost": 9672525
+   },
+   {
+    "ccn": "450104",
+    "name": "GUADALUPE REGIONAL MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 143510432,
+    "netIncome": -939867,
+    "totalAssets": 254058879,
+    "charityCareAtCost": 12206802
+   },
+   {
+    "ccn": "451387",
+    "name": "Uvalde Memorial Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 133698372,
+    "netIncome": 73949502,
+    "totalAssets": 429602433,
+    "charityCareAtCost": 7239502
+   },
+   {
+    "ccn": "450236",
+    "name": "CHRISTUS Mother Frances Hospital-Sulphur Springs - CHRISTUS Hopkins Health Alliance",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 132636281,
+    "netIncome": 25381736,
+    "totalAssets": 65579612,
+    "charityCareAtCost": 12693234
+   },
+   {
+    "ccn": "450587",
+    "name": "HENDRICK MEDICAL CENTER BROWNWOOD",
+    "system": "Hendrick Health System",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 126565337,
+    "netIncome": 19378793,
+    "totalAssets": 110233300,
+    "charityCareAtCost": 5524981
+   },
+   {
+    "ccn": "450867",
+    "name": "Ascension Seton d/b/a Ascension Seton Northwest",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 123730290,
+    "netIncome": 609210,
+    "totalAssets": 81931517,
+    "charityCareAtCost": 27460696
+   },
+   {
+    "ccn": "450128",
+    "name": "KNAPP MEDICAL CENTER",
+    "system": "Prime Healthcare Services",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 119353215,
+    "netIncome": 14033496,
+    "totalAssets": 61687605,
+    "charityCareAtCost": 6913194
+   },
+   {
+    "ccn": "450080",
+    "name": "CHRISTUS Health Mount Pleasant",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 111343266,
+    "netIncome": -2247582,
+    "totalAssets": 74430706,
+    "charityCareAtCost": 5879047
+   },
+   {
+    "ccn": "453317",
+    "name": "COOK CHILDRENS MEDICAL CENTER PROSPE",
+    "system": "Cook Children's Health Care System",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 96983479,
+    "netIncome": -24830478,
+    "totalAssets": -1675814,
+    "charityCareAtCost": 2369953
+   },
+   {
+    "ccn": "451319",
+    "name": "MOTHER FRANCES HOSPITAL-JACKSONVILLE",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 93957128,
+    "netIncome": 25038145,
+    "totalAssets": 30633401,
+    "charityCareAtCost": 6393064
+   },
+   {
+    "ccn": "450154",
+    "name": "Val Verde Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 82118433,
+    "netIncome": -1439006,
+    "totalAssets": 46380338,
+    "charityCareAtCost": 11807252
+   },
+   {
+    "ccn": "451379",
+    "name": "CORYELL COUNTY MEMORIAL HOSPITAL AUTHORITY",
+    "system": "Independent",
+    "fiscalYearEnd": "07/31/2024",
+    "netPatientRevenue": 79789972,
+    "netIncome": 285959,
+    "totalAssets": 119230635,
+    "charityCareAtCost": 2440575
+   },
+   {
+    "ccn": "450351",
+    "name": "TEXAS HEALTH HARRIS METHODIST STEPHE",
+    "system": "Texas Health Resources",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 73094952,
+    "netIncome": 11814838,
+    "totalAssets": 127454629,
+    "charityCareAtCost": 5401284
+   },
+   {
+    "ccn": "450828",
+    "name": "CHRISTUS SPOHN HOSPITAL ALICE",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 69403494,
+    "netIncome": 14119863,
+    "totalAssets": 23395891,
+    "charityCareAtCost": 12371204
+   },
+   {
+    "ccn": "450539",
+    "name": "COVENANT HOSPITAL PLAINVIEW",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 67584449,
+    "netIncome": -4018246,
+    "totalAssets": 76081439,
+    "charityCareAtCost": 6493793
+   },
+   {
+    "ccn": "453319",
+    "name": "TEXAS CHILDRENS HOSPITAL N AUSTIN",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 62283140,
+    "netIncome": -168894303,
+    "totalAssets": 499503922,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "450395",
+    "name": "Memorial Medical Center-Livingston",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 58237563,
+    "netIncome": 8867345,
+    "totalAssets": 47899689,
+    "charityCareAtCost": 3832336
+   },
+   {
+    "ccn": "451365",
+    "name": "Ascension Seton d/b/a Ascension Seton Highland Lakes",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 54841861,
+    "netIncome": 4718720,
+    "totalAssets": 39083475,
+    "charityCareAtCost": 5301765
+   },
+   {
+    "ccn": "451398",
+    "name": "Prime Healthcare Services Pampa LLC d/b/a Pampa Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 53375016,
+    "netIncome": 4753072,
+    "totalAssets": 34798541,
+    "charityCareAtCost": 4851126
+   },
+   {
+    "ccn": "450163",
+    "name": "CHRISTUS SPOHN HOSPITAL KLEBERG",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 51260276,
+    "netIncome": 5496269,
+    "totalAssets": 49209,
+    "charityCareAtCost": 8938743
+   },
+   {
+    "ccn": "450235",
+    "name": "GONZALES HEALTHCARE SYSTEMS",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 50096280,
+    "netIncome": 6717735,
+    "totalAssets": 100812776,
+    "charityCareAtCost": 3386953
+   },
+   {
+    "ccn": "451386",
+    "name": "Moore County Hospital District d/b/a Memorial Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 48724168,
+    "netIncome": 2940246,
+    "totalAssets": 60030857,
+    "charityCareAtCost": 5219856
+   },
+   {
+    "ccn": "451397",
+    "name": "BAYLOR SCOTT & WHITE WMC - BRENHAM",
+    "system": "Baylor Scott & White Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 47576389,
+    "netIncome": 6717468,
+    "totalAssets": 35760717,
+    "charityCareAtCost": 5290418
+   },
+   {
+    "ccn": "450082",
+    "name": "CHRISTUS SPOHN HOSPITAL BEEVILLE",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 46211631,
+    "netIncome": 6280067,
+    "totalAssets": 8887259,
+    "charityCareAtCost": 8932969
+   },
+   {
+    "ccn": "450653",
+    "name": "SCENIC MOUNTAIN MEDICAL CENTER",
+    "system": "Steward Health Care System",
+    "fiscalYearEnd": "12/31/2023",
+    "netPatientRevenue": 46085757,
+    "netIncome": 2165496,
+    "totalAssets": 23353918,
+    "charityCareAtCost": 2966943
+   },
+   {
+    "ccn": "451392",
+    "name": "Hamilton General Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 45415442,
+    "netIncome": 2276136,
+    "totalAssets": 99068272,
+    "charityCareAtCost": 3707267
+   },
+   {
+    "ccn": "450465",
+    "name": "Matagorda Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 43332029,
+    "netIncome": -403373,
+    "totalAssets": 120018642,
+    "charityCareAtCost": 4116762
+   },
+   {
+    "ccn": "450369",
+    "name": "CHILDRESS REGIONAL MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 42949720,
+    "netIncome": 8603728,
+    "totalAssets": 98793274,
+    "charityCareAtCost": 2124822
+   },
+   {
+    "ccn": "450654",
+    "name": "STARR COUNTY MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 42361765,
+    "netIncome": 6286442,
+    "totalAssets": 98923460,
+    "charityCareAtCost": 411164
+   },
+   {
+    "ccn": "450508",
+    "name": "Nacogdoches Memorial Hospital",
+    "system": "Community Hospital Corporation",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 41513299,
+    "netIncome": 3814817,
+    "totalAssets": 63919885,
+    "charityCareAtCost": 12519254
+   },
+   {
+    "ccn": "451382",
+    "name": "Comanche County Medical Center Company dba Comanche County Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 40103082,
+    "netIncome": -310218,
+    "totalAssets": 19696573,
+    "charityCareAtCost": 882343
+   },
+   {
+    "ccn": "450597",
+    "name": "DEWITT MEDICAL DISTRICT DBA CUERO REGIONAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 39248300,
+    "netIncome": 7776710,
+    "totalAssets": 112506094,
+    "charityCareAtCost": 2599716
+   },
+   {
+    "ccn": "451358",
+    "name": "MEMORIAL HOSPITAL-SEMINOLE",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 37548828,
+    "netIncome": -1772240,
+    "totalAssets": 55336541,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "451330",
+    "name": "MEDINA COUNTY HOSPITAL DISTRICT",
+    "system": "HCA Healthcare",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 37507689,
+    "netIncome": 12647857,
+    "totalAssets": 89304404,
+    "charityCareAtCost": 2739269
+   },
+   {
+    "ccn": "451371",
+    "name": "Ascension Seton d/b/a Ascension Seton Edgar B. Davis",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 35678569,
+    "netIncome": 5530136,
+    "totalAssets": 18298627,
+    "charityCareAtCost": 6444075
+   },
+   {
+    "ccn": "450565",
+    "name": "Palo Pinto General Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 35581608,
+    "netIncome": -2841287,
+    "totalAssets": 86315676,
+    "charityCareAtCost": 5691632
+   },
+   {
+    "ccn": "450370",
+    "name": "COLUMBUS COMMUNITY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "04/30/2025",
+    "netPatientRevenue": 34736609,
+    "netIncome": -61653543,
+    "totalAssets": 77110263,
+    "charityCareAtCost": 1860356
+   },
+   {
+    "ccn": "451385",
+    "name": "Bosque County Hospital District  DBA Goodall-Witcher Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 33700447,
+    "netIncome": 2427223,
+    "totalAssets": 42183151,
+    "charityCareAtCost": 2455958
+   },
+   {
+    "ccn": "451310",
+    "name": "BALLINGER MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 31672240,
+    "netIncome": 6064828,
+    "totalAssets": 38315984,
+    "charityCareAtCost": 2003928
+   },
+   {
+    "ccn": "450144",
+    "name": "Andrews Co Hospital District dba Permian Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 31512579,
+    "netIncome": -2175580,
+    "totalAssets": 111061110,
+    "charityCareAtCost": 3852051
+   },
+   {
+    "ccn": "451384",
+    "name": "D.M. COGDELL MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2023",
+    "netPatientRevenue": 30560329,
+    "netIncome": -1417866,
+    "totalAssets": 44676631,
+    "charityCareAtCost": 4528757
+   },
+   {
+    "ccn": "450055",
+    "name": "ROLLING PLAINS MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 30260246,
+    "netIncome": -5674857,
+    "totalAssets": 39555591,
+    "charityCareAtCost": 3116919
+   },
+   {
+    "ccn": "451333",
+    "name": "MARTIN COUNTY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "04/30/2025",
+    "netPatientRevenue": 28401353,
+    "netIncome": 25829794,
+    "totalAssets": 154786711,
+    "charityCareAtCost": 2532875
+   },
+   {
+    "ccn": "451323",
+    "name": "AdventHealth Rollins Brook",
+    "system": "AdventHealth",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 27496919,
+    "netIncome": 7684885,
+    "totalAssets": 47657661,
+    "charityCareAtCost": 1968943
+   },
+   {
+    "ccn": "451356",
+    "name": "MEMORIAL MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 27155111,
+    "netIncome": -2488579,
+    "totalAssets": 37372622,
+    "charityCareAtCost": 3648493
+   },
+   {
+    "ccn": "450241",
+    "name": "FAITH COMMUNITY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "05/31/2025",
+    "netPatientRevenue": 26967613,
+    "netIncome": -2616189,
+    "totalAssets": 37410593,
+    "charityCareAtCost": 1733070
+   },
+   {
+    "ccn": "451364",
+    "name": "OTTO KAISER MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 26777910,
+    "netIncome": 6017251,
+    "totalAssets": 107011303,
+    "charityCareAtCost": 2692570
+   },
+   {
+    "ccn": "451391",
+    "name": "FRIO REGIONAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 26596241,
+    "netIncome": 580068,
+    "totalAssets": 35314457,
+    "charityCareAtCost": 4043284
+   },
+   {
+    "ccn": "451343",
+    "name": "ELECTRA MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 26362639,
+    "netIncome": 2664339,
+    "totalAssets": 28966037,
+    "charityCareAtCost": 1981035
+   },
+   {
+    "ccn": "451377",
+    "name": "REEVES COUNTY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 26294544,
+    "netIncome": 44243807,
+    "totalAssets": 398907733,
+    "charityCareAtCost": 675682
+   },
+   {
+    "ccn": "451303",
+    "name": "LIMESTONE MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 26166876,
+    "netIncome": 13505086,
+    "totalAssets": 123334048,
+    "charityCareAtCost": 1743514
+   },
+   {
+    "ccn": "450755",
+    "name": "Methodist Hospital Levelland (DBA Covenant Hospital Levelland)",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 25224466,
+    "netIncome": -2292176,
+    "totalAssets": 23084942,
+    "charityCareAtCost": 2487233
+   },
+   {
+    "ccn": "451369",
+    "name": "GOLDEN PLAINS COMMUNITY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 24004443,
+    "netIncome": -3674212,
+    "totalAssets": 27575927,
+    "charityCareAtCost": 2999552
+   },
+   {
+    "ccn": "451346",
+    "name": "YOAKUM COMMUNITY HOSPITAL",
+    "system": "Community Hospital Corporation",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 23657174,
+    "netIncome": 1382056,
+    "totalAssets": 19880689,
+    "charityCareAtCost": 1772681
+   },
+   {
+    "ccn": "450143",
+    "name": "Ascension Seton Smithville",
+    "system": "Ascension Health",
+    "fiscalYearEnd": "08/10/2025",
+    "netPatientRevenue": 23431411,
+    "netIncome": 1069221,
+    "totalAssets": 14914780,
+    "charityCareAtCost": 3674155
+   },
+   {
+    "ccn": "451359",
+    "name": "OCHILTREE GENERAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 23303443,
+    "netIncome": 1490475,
+    "totalAssets": 53745091,
+    "charityCareAtCost": 1343224
+   },
+   {
+    "ccn": "451322",
+    "name": "Grimes St. Joseph Health Center",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 21838108,
+    "netIncome": 7031282,
+    "totalAssets": 9192399,
+    "charityCareAtCost": 3260152
+   },
+   {
+    "ccn": "451389",
+    "name": "PECOS COUNTY MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 21645439,
+    "netIncome": 14702570,
+    "totalAssets": 42263741,
+    "charityCareAtCost": 3480801
+   },
+   {
+    "ccn": "671300",
+    "name": "Graham Regional Medical Center ",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 21110674,
+    "netIncome": 538363,
+    "totalAssets": 25139101,
+    "charityCareAtCost": 1433574
+   },
+   {
+    "ccn": "451312",
+    "name": "RICE MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 20838707,
+    "netIncome": 3966220,
+    "totalAssets": 22880313,
+    "charityCareAtCost": 1263227
+   },
+   {
+    "ccn": "451381",
+    "name": "MOTHER FRANCES HOSPITAL-WINNSBORO",
+    "system": "Christus Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 20576616,
+    "netIncome": 336834,
+    "totalAssets": 13209572,
+    "charityCareAtCost": 2671936
+   },
+   {
+    "ccn": "451373",
+    "name": "Ward Memorial Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 19171665,
+    "netIncome": 9873775,
+    "totalAssets": 36539276,
+    "charityCareAtCost": 4877023
+   },
+   {
+    "ccn": "451344",
+    "name": "HANSFORD COUNTY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 18419419,
+    "netIncome": -2264148,
+    "totalAssets": 24850459,
+    "charityCareAtCost": 1093840
+   },
+   {
+    "ccn": "451376",
+    "name": "LAVACA MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 18390202,
+    "netIncome": -739024,
+    "totalAssets": 18985395,
+    "charityCareAtCost": 927095
+   },
+   {
+    "ccn": "451363",
+    "name": "JACKSON COUNTY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 18358684,
+    "netIncome": 738597,
+    "totalAssets": 30130297,
+    "charityCareAtCost": 2687822
+   },
+   {
+    "ccn": "451390",
+    "name": "DIMMIT REGIONAL HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 18296553,
+    "netIncome": 309150,
+    "totalAssets": 19154312,
+    "charityCareAtCost": 3310360
+   },
+   {
+    "ccn": "450489",
+    "name": "MEDICAL ARTS HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "03/31/2025",
+    "netPatientRevenue": 16814594,
+    "netIncome": 836212,
+    "totalAssets": 28814084,
+    "charityCareAtCost": 804020
+   },
+   {
+    "ccn": "450155",
+    "name": "DEAF SMITH COUNTY HOSPITAL DISTRICT DBA HEREFORD REGIONAL MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 16646616,
+    "netIncome": -184988,
+    "totalAssets": 54642359,
+    "charityCareAtCost": 7017544
+   },
+   {
+    "ccn": "451351",
+    "name": "LYNN COUNTY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 16461376,
+    "netIncome": -879279,
+    "totalAssets": 12829174,
+    "charityCareAtCost": 2377976
+   },
+   {
+    "ccn": "451399",
+    "name": "Baylor County Hospital District - Seymour Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 16163567,
+    "netIncome": 377655,
+    "totalAssets": 23204625,
+    "charityCareAtCost": 564705
+   },
+   {
+    "ccn": "451311",
+    "name": "SWEENY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 15783570,
+    "netIncome": -2377845,
+    "totalAssets": 94114214,
+    "charityCareAtCost": 1807877
+   },
+   {
+    "ccn": "451354",
+    "name": "OLNEY HAMILTON HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "02/28/2025",
+    "netPatientRevenue": 15731035,
+    "netIncome": 3906346,
+    "totalAssets": 57724495,
+    "charityCareAtCost": 1597292
+   },
+   {
+    "ccn": "451316",
+    "name": "Madison St. Joseph Health Care Center",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 15385380,
+    "netIncome": 1903370,
+    "totalAssets": 9874746,
+    "charityCareAtCost": 2560977
+   },
+   {
+    "ccn": "451305",
+    "name": "CHI St. Joseph Health - Burleson Hospital",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 15214483,
+    "netIncome": 1159494,
+    "totalAssets": 11128548,
+    "charityCareAtCost": 1945159
+   },
+   {
+    "ccn": "451331",
+    "name": "COON MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "07/31/2024",
+    "netPatientRevenue": 15080493,
+    "netIncome": 10,
+    "totalAssets": 14740807,
+    "charityCareAtCost": 2325681
+   },
+   {
+    "ccn": "451342",
+    "name": "MITCHELL COUNTY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 14924232,
+    "netIncome": -1360946,
+    "totalAssets": 36434487,
+    "charityCareAtCost": 1774796
+   },
+   {
+    "ccn": "671301",
+    "name": "Hemphill County Hospital ",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 14678046,
+    "netIncome": 3059230,
+    "totalAssets": 25831570,
+    "charityCareAtCost": 1030457
+   },
+   {
+    "ccn": "451375",
+    "name": "Liberty Dayton Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 14220364,
+    "netIncome": 869454,
+    "totalAssets": 14029434,
+    "charityCareAtCost": 3730267
+   },
+   {
+    "ccn": "451370",
+    "name": "Fannin County Hospital Authority ",
+    "system": "Universal Health Services",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 13848077,
+    "netIncome": -202862,
+    "totalAssets": 6407198,
+    "charityCareAtCost": 1335840
+   },
+   {
+    "ccn": "451348",
+    "name": "MCCULLOCH COUNTY HOSPITAL DISTRICT D/B/A HEART OF TEXAS HEALTHCARE SYSTEM",
+    "system": "Independent",
+    "fiscalYearEnd": "03/31/2025",
+    "netPatientRevenue": 13248783,
+    "netIncome": -771944,
+    "totalAssets": 20597446,
+    "charityCareAtCost": 2308009
+   },
+   {
+    "ccn": "451394",
+    "name": "Knox County Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 13171680,
+    "netIncome": -830699,
+    "totalAssets": 17300821,
+    "charityCareAtCost": 1200361
+   },
+   {
+    "ccn": "451317",
+    "name": "REFUGIO MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 12894955,
+    "netIncome": -1242002,
+    "totalAssets": 31014680,
+    "charityCareAtCost": 3016138
+   },
+   {
+    "ccn": "451314",
+    "name": "Winkler County Hospital District",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 12818818,
+    "netIncome": 3334765,
+    "totalAssets": 41620561,
+    "charityCareAtCost": 2802540
+   },
+   {
+    "ccn": "450411",
+    "name": "Eastland Memorial Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 12719480,
+    "netIncome": 7523213,
+    "totalAssets": 214481157,
+    "charityCareAtCost": 1694602
+   },
+   {
+    "ccn": "451308",
+    "name": "YOAKUM COUNTY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 12718955,
+    "netIncome": 2127286,
+    "totalAssets": 28122707,
+    "charityCareAtCost": 4097315
+   },
+   {
+    "ccn": "450399",
+    "name": "Brownfield Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 12143749,
+    "netIncome": -2246207,
+    "totalAssets": 17161989,
+    "charityCareAtCost": 1241395
+   },
+   {
+    "ccn": "451300",
+    "name": "PARMER COUNTY COMMUNITY HOSPT. INC.",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 10880787,
+    "netIncome": -101378,
+    "totalAssets": 13791183,
+    "charityCareAtCost": 1608904
+   },
+   {
+    "ccn": "450498",
+    "name": "STEPHENS MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 10522599,
+    "netIncome": 1140956,
+    "totalAssets": 23960664,
+    "charityCareAtCost": 2976435
+   },
+   {
+    "ccn": "451335",
+    "name": "MUENSTER MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 10300455,
+    "netIncome": 237293,
+    "totalAssets": 8754486,
+    "charityCareAtCost": 268438
+   },
+   {
+    "ccn": "451350",
+    "name": "Castro County Health District DBA Plains Memorial Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 10022121,
+    "netIncome": -79086,
+    "totalAssets": 28073552,
+    "charityCareAtCost": 3620523
+   },
+   {
+    "ccn": "451337",
+    "name": "Lockney General Hospital District",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 9984657,
+    "netIncome": -1482461,
+    "totalAssets": 4017397,
+    "charityCareAtCost": 1787064
+   },
+   {
+    "ccn": "451324",
+    "name": "LILLIAN M. HUDSPETH MEMORIAL HOSP.",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 9847640,
+    "netIncome": 2815715,
+    "totalAssets": 42396167,
+    "charityCareAtCost": 1159237
+   },
+   {
+    "ccn": "451313",
+    "name": "FISHER COUNTY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 9579487,
+    "netIncome": 1727747,
+    "totalAssets": 16342372,
+    "charityCareAtCost": 868165
+   },
+   {
+    "ccn": "451352",
+    "name": "HARDEMAN COUNTY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 9554348,
+    "netIncome": 76777,
+    "totalAssets": 12448508,
+    "charityCareAtCost": 1013387
+   },
+   {
+    "ccn": "450698",
+    "name": "LAMB COUNTY HOSPITAL DBA LAMB HEALTHCARE CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 9238769,
+    "netIncome": -2439435,
+    "totalAssets": 6875820,
+    "charityCareAtCost": 1483345
+   },
+   {
+    "ccn": "451329",
+    "name": "RANKIN COUNTY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 9181655,
+    "netIncome": 28303877,
+    "totalAssets": 82735751,
+    "charityCareAtCost": 1928050
+   },
+   {
+    "ccn": "451362",
+    "name": "CLAY COUNTY MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 9149352,
+    "netIncome": -1718573,
+    "totalAssets": 8403494,
+    "charityCareAtCost": 1043250
+   },
+   {
+    "ccn": "451341",
+    "name": "HASKELL MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 8795892,
+    "netIncome": 1178837,
+    "totalAssets": 14608379,
+    "charityCareAtCost": 1245479
+   },
+   {
+    "ccn": "451349",
+    "name": "Swisher Memorial Healthcare System",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 8704863,
+    "netIncome": -1578679,
+    "totalAssets": 6036579,
+    "charityCareAtCost": 1296422
+   },
+   {
+    "ccn": "451301",
+    "name": "REAGAN MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 8315786,
+    "netIncome": 1240819,
+    "totalAssets": 51828941,
+    "charityCareAtCost": 3675219
+   },
+   {
+    "ccn": "451353",
+    "name": "CRANE COUNTY HOSPITAL DISTRICT D/B/A CRANE MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 7670589,
+    "netIncome": 5397949,
+    "totalAssets": 54501115,
+    "charityCareAtCost": 1047222
+   },
+   {
+    "ccn": "451309",
+    "name": "McCamey County Hospital District",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 7466871,
+    "netIncome": -505701,
+    "totalAssets": 34730424,
+    "charityCareAtCost": 1525229
+   },
+   {
+    "ccn": "451315",
+    "name": "NORTH RUNNELS HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 7440571,
+    "netIncome": 983753,
+    "totalAssets": 6698465,
+    "charityCareAtCost": 107241
+   },
+   {
+    "ccn": "451325",
+    "name": "CONCHO COUNTY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 6306476,
+    "netIncome": -2298500,
+    "totalAssets": 6507040,
+    "charityCareAtCost": 1769981
+   },
+   {
+    "ccn": "451372",
+    "name": "MULESHOE AREA MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2023",
+    "netPatientRevenue": 5785237,
+    "netIncome": -784941,
+    "totalAssets": 2715585,
+    "charityCareAtCost": 1366251
+   },
+   {
+    "ccn": "451334",
+    "name": "PARKVIEW HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "05/31/2025",
+    "netPatientRevenue": 5009314,
+    "netIncome": 2738736,
+    "totalAssets": 32496474,
+    "charityCareAtCost": 1374154
+   },
+   {
+    "ccn": "451332",
+    "name": "PALACIOS COMMUNITY MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 4792964,
+    "netIncome": 511771,
+    "totalAssets": 13106430,
+    "charityCareAtCost": 761691
+   },
+   {
+    "ccn": "451339",
+    "name": "THROCKMORTON COUNTY MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 3615593,
+    "netIncome": -432920,
+    "totalAssets": 1702089,
+    "charityCareAtCost": 629575
+   },
+   {
+    "ccn": "451366",
+    "name": "COCHRAN MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1640236,
+    "netIncome": 64824,
+    "totalAssets": 10241026,
+    "charityCareAtCost": 1580332
+   }
+  ]
+ },
+ "whoDecides": {
+  "subtitle": "Machine Scores coming with the lawmaker pages",
+  "groups": [
+   {
+    "name": "The executive",
+    "people": [
+     {
+      "name": "Greg Abbott",
+      "role": "Governor (R), first elected 2014, third term"
+     },
+     {
+      "name": "Ken Paxton",
+      "role": "Attorney General (R), sworn in January 2015, third term"
+     }
+    ]
+   },
+   {
+    "name": "The Legislature",
+    "people": [
+     {
+      "name": "Dan Patrick",
+      "role": "Lieutenant Governor and President of the Senate (R), first elected 2014"
+     },
+     {
+      "name": "Dustin Burrows",
+      "role": "Speaker of the House (R), District 83, since January 2025"
+     },
+     {
+      "name": "Lois W. Kolkhorst",
+      "role": "Chair, Senate Health and Human Services (R), District 18"
+     },
+     {
+      "name": "Gary VanDeaver",
+      "role": "Chair, House Public Health (R), District 1"
+     }
+    ],
+    "note": "23 of 30 state senators and 67 of 150 House members have a 340B hospital in their district."
+   },
+   {
+    "name": "In Washington",
+    "people": [
+     {
+      "name": "Sen. John Cornyn",
+      "role": "Senate Finance"
+     },
+     {
+      "name": "Rep. Jodey Arrington",
+      "role": "Ways and Means (TX-19)"
+     },
+     {
+      "name": "Rep. Lloyd Doggett",
+      "role": "Ways and Means (TX-37)"
+     },
+     {
+      "name": "Rep. Dan Crenshaw",
+      "role": "Energy and Commerce (TX-2)"
+     }
+    ]
+   }
+  ],
+  "pac": {
+   "text": "The Texas Hospital Association's PAC, HOSPAC, reported $52,500 in political contributions in 2025 and $129,500 from January 1 to August 25, 2026.",
+   "basis": "reported",
+   "source": "Texas Ethics Commission, The Political Action Committee of the Texas Hospital Association (HOSPAC), filer ID 00015794: 13 contributions (expenditure category DONATIONS) totaling $52,500.00 in calendar year 2025; 49 contributions totaling $129,500.00 from January 1 to August 25, 2026 (latest filed report period); processing fees and PAC accounting services excluded",
+   "as_of": "reports through August 25, 2026"
+  },
+  "basis": "reported",
+  "source": "Office of the Texas Governor (gov.texas.gov/about), Office of the Attorney General (texasattorneygeneral.gov/about-office), Office of the Lieutenant Governor (ltgov.texas.gov/about), Texas House Speaker page (house.texas.gov/members/speaker), Senate Health and Human Services and House Public Health committee membership pages, Senate directory and Legislative Reference Library rosters, U.S. Senate contact and Finance committee XML, U.S. House Clerk MemberData.xml, all saved October 1, 2026; names cross-checked against the National Governors Association and National Association of Attorneys General rosters on November 19, 2026; district counts from the Census geocoder and TIGERweb on the hospitals' registered addresses (28 of 167 could not be placed and are not counted)",
+  "as_of": "October 1, 2026"
+ },
+ "agOversight": {
+  "subtitle": "What the office can do, and what it has done",
+  "items": [
+   {
+    "title": "The charity care standard",
+    "body": "Health and Safety Code 311.045 makes every nonprofit hospital meet one of four charity care standards. The best known is 4 percent of net patient revenue. By July 1 each year the Department of State Health Services sends the attorney general and comptroller the list of hospitals that missed it. By November 1 it sends every hospital's charity care, net patient revenue and tax-exempt benefit figures.",
+    "source": "Texas Health and Safety Code sections 311.045 and 311.0455 (tcss.legis.texas.gov, retrieved November 19, 2026); Tax Code section 11.1801(a)"
+   },
+   {
+    "title": "Charitable assets",
+    "body": "Property Code 123.002 makes the attorney general a proper party in any proceeding involving a charitable trust, with notice required within 30 days. Business Organizations Code 12.151 to 12.156 let the office examine any Texas entity's books and management. Refusal forfeits the right to do business and is a misdemeanor.",
+    "source": "Texas Property Code sections 123.002 and 123.003; Business Organizations Code sections 12.151, 12.152, 12.153, 12.155 and 12.156 (tcss.legis.texas.gov, retrieved November 19, 2026)"
+   },
+   {
+    "title": "Hospital sales and conversions",
+    "body": "No Texas statute requires attorney general review of a nonprofit hospital sale, merger or conversion. HB 2747 (2025) would have required notice of material change transactions to the attorney general. It cleared House Public Health 8 to 4 and died in Calendars.",
+    "source": "Texas Legislature Online, HB 2747 (89R) history: filed February 12, 2025; reported favorably as substituted April 28, 2025 (Ayes 8, Nays 4); committee report sent to Calendars May 10, 2025; no further action before sine die June 2, 2025; statute search of the Health and Safety, Business Organizations and Property Codes, November 19, 2026"
+   },
+   {
+    "title": "Enforcement record",
+    "body": "No attorney general enforcement action on hospital charity care, tax exemption or the 340B program was found. The office's site was searched on October 3 and November 19, 2026.",
+    "source": "texasattorneygeneral.gov site search for hospital charity care, nonprofit hospital and 340B (October 3, 2026, and November 19, 2026): NOT FOUND"
+   }
+  ],
+  "basis": "reported",
+  "source": "Texas statutes at tcss.legis.texas.gov (saved with checksums in research/states/sources/tx/), Texas Legislature Online, texasattorneygeneral.gov, retrieved November 19, 2026",
+  "as_of": "November 19, 2026"
+ },
+ "bills": {
+  "subtitle": "The 89th Legislature adjourned June 2, 2025; the 90th convenes January 12, 2027",
+  "basis": "reported",
+  "source": "Texas Legislature Online bill history and text pages for HB 3265, HB 4422, HB 3708 and HB 2747 (89R), saved October 1 and November 19, 2026; Texas Health and Safety Code chapter 327 enactment notes for SB 331; Texas Legislature Online session dates (89th Regular Session sine die June 2, 2025; 90th Legislature convenes January 12, 2027)",
+  "as_of": "November 19, 2026",
+  "rows": [
+   {
+    "id": "HB 3265",
+    "title": "340B protection, all comers",
+    "body": "Would have barred manufacturers, distributors, pharmacy benefit managers and payers from limiting 340B hospitals and their contract pharmacies, with civil penalties. Cleared House Insurance 5 to 2 on April 24, 2025 and died in Calendars.",
+    "status": "DIED · House Calendars, Jun. 2, 2025",
+    "tone": "red"
+   },
+   {
+    "id": "HB 4422",
+    "title": "340B protection, payers only",
+    "body": "Would have barred health plans, pharmacy benefit managers and other payers from discriminating against 340B entities. Referred to House Insurance April 2, 2025 and never heard.",
+    "status": "DIED · No hearing",
+    "tone": "red"
+   },
+   {
+    "id": "HB 3708",
+    "title": "Charity care counted system-wide",
+    "body": "Would have made a nonprofit system count all its Texas revenue against the charity care standard, and screen patients before billing. Cleared House Public Health 7 to 4 on May 1, 2025 and died.",
+    "status": "DIED · House Calendars, Jun. 2, 2025",
+    "tone": "gold"
+   },
+   {
+    "id": "HB 2747",
+    "title": "Notice of hospital deals to the attorney general",
+    "body": "Would have required health care entities to notify the attorney general of material change transactions. Reported from Public Health 8 to 4 and sent to Calendars May 10, 2025.",
+    "status": "DIED · House Calendars, Jun. 2, 2025",
+    "tone": "gold"
+   },
+   {
+    "id": "SB 331",
+    "title": "Price transparency, narrowed",
+    "body": "Limits the state price-disclosure law to facilities with $10 million or more in gross revenue and scales penalties to facility size.",
+    "status": "ENACTED Jun. 20, 2025",
+    "tone": "red"
+   }
+  ]
+ },
+ "buy": {
+  "heading": "Take Texas with you.",
+  "text": "Every hospital, every subsidy line, every lawmaker's district exposure, with the source documents.",
+  "options": [
+   {
+    "label": "Texas dataset",
+    "price": null,
+    "perYear": false,
+    "primary": true
+   },
+   {
+    "label": "All states, all-access",
+    "price": null,
+    "perYear": true,
+    "primary": false
+   }
+  ]
+ },
+ "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, Texas Health and Safety, Tax, Property, Business Organizations and Occupations Codes, Texas Legislature Online, Texas Ethics Commission, CMS FY2027 IPPS impact and Medicare DSH supplemental files, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Alliance physician-owned hospital database (March 2026)."
+}

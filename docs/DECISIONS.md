@@ -45,3 +45,7 @@ One session per phase, sequential, a deploy preview and Dutch's review at the en
 11. **No other businesses.** The site never mentions a business tied to Dutch Rojas (MedMerge, Cornerstone Indemnity, PhyCap Fund, DrCaptives, the Alliance or any other). Rojas Media appears only as the publisher. Replaces the November 9 call to keep PhyCap Fund (D-12, Q10).
 12. **Physician.** Write "physician," never "doctor" or "provider." The CLAUDE.md rule stands; the roadmap now matches.
 13. **conlaws paths.** Dutch left D-11 to Claude Code. Every old conlaws path keeps its path on rojasreport.com; only the front page goes to `/con/`.
+
+## 2026-11-19
+
+14. **State order (D-6).** Research in hand first: Texas, then California, Florida, Kansas, Kentucky, Michigan, Ohio, South Carolina, Virginia and Wisconsin, the states whose public filings were already pulled in October 2026. Then the brief's default (Massachusetts, Pennsylvania, New York, Tennessee), then the remaining no-page states. Packet 1 is the state data pipeline plus Texas; later packets carry two or three states each.

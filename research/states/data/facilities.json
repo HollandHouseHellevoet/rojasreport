@@ -1,0 +1,639 @@
+{
+ "sources": {
+  "rankings": {
+   "name": "CON desk rankings (certificate-of-need status and score by jurisdiction)",
+   "url": "https://tafhc.org/con/rankings/",
+   "retrieved": "2026-11-13",
+   "as_of": "November 2026",
+   "sha256": "70bdbfd74e4c12188270d2ba2e72f1ce7c335bc2e468bed09cdd4cccdba106aa"
+  },
+  "poh": {
+   "name": "Alliance physician-owned hospital list, verified March 2026",
+   "url": "https://tafhc.org/poh/hospitals/",
+   "retrieved": "2026-11-13",
+   "as_of": "March 2026",
+   "sha256": "4cfe021ef288100cbc53668ccb38c56e94db0b1af8378fd6089ffc71f5a52210"
+  },
+  "pos": {
+   "name": "CMS Provider of Services file, hospitals and other facilities, Q2 2026",
+   "url": "https://data.cms.gov/provider-characteristics/hospitals-and-other-facilities/provider-of-services-file-hospital-non-hospital-facilities",
+   "retrieved": "2026-09-29",
+   "as_of": "Q2 2026",
+   "sha256": "bcfb9c680f02fdc05a4c82b90e434ad96bb52ea0a1f04eb424bb3dad5a9ffe3d"
+  }
+ },
+ "states": {
+  "AK": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 55,
+    "tier": "Restrictive",
+    "rank": 25
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 37,
+   "ascEverCertified": 61
+  },
+  "AL": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 80,
+    "tier": "Highly Restrictive",
+    "rank": 33
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 219,
+   "ascEverCertified": 277
+  },
+  "AR": {
+   "con": {
+    "conStatus": "Limited",
+    "score": 15,
+    "tier": "Mostly Free",
+    "rank": 18
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 4,
+   "ascActive": 240,
+   "ascEverCertified": 265
+  },
+  "AZ": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 3,
+   "physicianOwnedHospitalsListed": 7,
+   "ascActive": 185,
+   "ascEverCertified": 255
+  },
+  "CA": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 2,
+   "physicianOwnedHospitalsListed": 8,
+   "ascActive": 1671,
+   "ascEverCertified": 1903
+  },
+  "CO": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 3,
+   "ascActive": 218,
+   "ascEverCertified": 265
+  },
+  "CT": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "rank": 37
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 144,
+   "ascEverCertified": 177
+  },
+  "DC": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 48,
+   "ascEverCertified": 75
+  },
+  "DE": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 45,
+    "tier": "Moderate",
+    "rank": 23
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 13,
+   "ascEverCertified": 19
+  },
+  "FL": {
+   "con": {
+    "conStatus": "Repealed",
+    "score": 5,
+    "tier": "Mostly Free",
+    "rank": 14
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 3,
+   "ascActive": 532,
+   "ascEverCertified": 683
+  },
+  "GA": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 95,
+    "tier": "Most Restrictive",
+    "rank": 41
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 381,
+   "ascEverCertified": 444
+  },
+  "HI": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 65,
+    "tier": "Restrictive",
+    "rank": 27
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 83,
+   "ascEverCertified": 91
+  },
+  "IA": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "rank": 37
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 105,
+   "ascEverCertified": 121
+  },
+  "ID": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 3,
+   "ascActive": 126,
+   "ascEverCertified": 138
+  },
+  "IL": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 65,
+    "tier": "Restrictive",
+    "rank": 27
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 477,
+   "ascEverCertified": 617
+  },
+  "IN": {
+   "con": {
+    "conStatus": "Limited",
+    "score": 15,
+    "tier": "Mostly Free",
+    "rank": 18
+   },
+   "physicianOwnedHospitalsOperating": 3,
+   "physicianOwnedHospitalsListed": 9,
+   "ascActive": 419,
+   "ascEverCertified": 489
+  },
+  "KS": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 2,
+   "physicianOwnedHospitalsListed": 10,
+   "ascActive": 116,
+   "ascEverCertified": 134
+  },
+  "KY": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 506,
+   "ascEverCertified": 574
+  },
+  "LA": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 55,
+    "tier": "Restrictive",
+    "rank": 25
+   },
+   "physicianOwnedHospitalsOperating": 9,
+   "physicianOwnedHospitalsListed": 21,
+   "ascActive": 445,
+   "ascEverCertified": 484
+  },
+  "MA": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "rank": 37
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 143,
+   "ascEverCertified": 157
+  },
+  "MD": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 95,
+    "tier": "Most Restrictive",
+    "rank": 41
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 124,
+   "ascEverCertified": 158
+  },
+  "ME": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 65,
+    "tier": "Restrictive",
+    "rank": 27
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 124,
+   "ascEverCertified": 171
+  },
+  "MI": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 65,
+    "tier": "Restrictive",
+    "rank": 27
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 2,
+   "ascActive": 329,
+   "ascEverCertified": 428
+  },
+  "MN": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 30,
+    "tier": "Moderate",
+    "rank": 21
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 82,
+   "ascEverCertified": 99
+  },
+  "MO": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 80,
+    "tier": "Highly Restrictive",
+    "rank": 33
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 2,
+   "ascActive": 345,
+   "ascEverCertified": 422
+  },
+  "MS": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 90,
+    "tier": "Highly Restrictive",
+    "rank": 37
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 338,
+   "ascEverCertified": 359
+  },
+  "MT": {
+   "con": {
+    "conStatus": "Limited",
+    "score": 5,
+    "tier": "Mostly Free",
+    "rank": 14
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 2,
+   "ascActive": 90,
+   "ascEverCertified": 102
+  },
+  "NC": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 474,
+   "ascEverCertified": 539
+  },
+  "ND": {
+   "con": {
+    "conStatus": "Limited",
+    "score": 5,
+    "tier": "Mostly Free",
+    "rank": 14
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 24,
+   "ascEverCertified": 31
+  },
+  "NE": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 45,
+    "tier": "Moderate",
+    "rank": 23
+   },
+   "physicianOwnedHospitalsOperating": 2,
+   "physicianOwnedHospitalsListed": 4,
+   "ascActive": 71,
+   "ascEverCertified": 77
+  },
+  "NH": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 60,
+   "ascEverCertified": 73
+  },
+  "NJ": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 130,
+   "ascEverCertified": 162
+  },
+  "NM": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 156,
+   "ascEverCertified": 184
+  },
+  "NV": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 69,
+   "ascEverCertified": 79
+  },
+  "NY": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 65,
+    "tier": "Restrictive",
+    "rank": 27
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 599,
+   "ascEverCertified": 692
+  },
+  "OH": {
+   "con": {
+    "conStatus": "Repealed",
+    "score": 5,
+    "tier": "Mostly Free",
+    "rank": 14
+   },
+   "physicianOwnedHospitalsOperating": 2,
+   "physicianOwnedHospitalsListed": 8,
+   "ascActive": 525,
+   "ascEverCertified": 624
+  },
+  "OK": {
+   "con": {
+    "conStatus": "Limited",
+    "score": 20,
+    "tier": "Mostly Free",
+    "rank": 20
+   },
+   "physicianOwnedHospitalsOperating": 8,
+   "physicianOwnedHospitalsListed": 18,
+   "ascActive": 194,
+   "ascEverCertified": 221
+  },
+  "OR": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 65,
+    "tier": "Restrictive",
+    "rank": 27
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 211,
+   "ascEverCertified": 261
+  },
+  "PA": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 4,
+   "ascActive": 461,
+   "ascEverCertified": 534
+  },
+  "RI": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 80,
+    "tier": "Highly Restrictive",
+    "rank": 33
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 48,
+   "ascEverCertified": 64
+  },
+  "SC": {
+   "con": {
+    "conStatus": "Repealing",
+    "score": 35,
+    "tier": "Moderate",
+    "rank": 22
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 260,
+   "ascEverCertified": 317
+  },
+  "SD": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 2,
+   "physicianOwnedHospitalsListed": 9,
+   "ascActive": 51,
+   "ascEverCertified": 56
+  },
+  "TN": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 85,
+    "tier": "Highly Restrictive",
+    "rank": 36
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 181,
+   "ascEverCertified": 213
+  },
+  "TX": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 11,
+   "physicianOwnedHospitalsListed": 55,
+   "ascActive": 729,
+   "ascEverCertified": 903
+  },
+  "UT": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 54,
+   "ascEverCertified": 76
+  },
+  "VA": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 191,
+   "ascEverCertified": 217
+  },
+  "VT": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 70,
+   "ascEverCertified": 86
+  },
+  "WA": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 0,
+   "ascActive": 313,
+   "ascEverCertified": 349
+  },
+  "WI": {
+   "con": {
+    "conStatus": "Limited",
+    "score": 5,
+    "tier": "Mostly Free",
+    "rank": 14
+   },
+   "physicianOwnedHospitalsOperating": 2,
+   "physicianOwnedHospitalsListed": 4,
+   "ascActive": 99,
+   "ascEverCertified": 117
+  },
+  "WV": {
+   "con": {
+    "conStatus": "Yes",
+    "score": 100,
+    "tier": "Most Restrictive",
+    "rank": 43
+   },
+   "physicianOwnedHospitalsOperating": 0,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 443,
+   "ascEverCertified": 505
+  },
+  "WY": {
+   "con": {
+    "conStatus": "No",
+    "score": 0,
+    "tier": "Free Market",
+    "rank": 1
+   },
+   "physicianOwnedHospitalsOperating": 1,
+   "physicianOwnedHospitalsListed": 1,
+   "ascActive": 24,
+   "ascEverCertified": 38
+  }
+ }
+}

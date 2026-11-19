@@ -1,4 +1,5 @@
 import nc from '@/data/states/nc.json';
+import tx from '@/data/states/tx.json';
 import type { Basis } from '@/lib/systems';
 
 /** State dossiers in the brief's format (docs/BUILD_BRIEF.md section 4.3), one JSON file per state under src/data/states. */
@@ -64,6 +65,12 @@ export interface PeopleGroup {
   note?: string;
 }
 
+export interface AgItem {
+  title: string;
+  body: string;
+  source: string;
+}
+
 export interface Bill {
   id: string;
   title: string;
@@ -88,13 +95,15 @@ export interface StateDossierRecord {
     groups: PeopleGroup[];
     pac: Sourced & { text: string };
   };
+  /** Attorney general oversight of the state's nonprofit systems (roadmap P4-3); states built after North Carolina carry it. */
+  agOversight?: Sourced & { subtitle: string; items: AgItem[] };
   bills: Sourced & { subtitle: string; rows: Bill[] };
   practicing?: { heading: string; text: string; links: { name: string; href: string | null }[] };
   buy: { heading: string; text: string; options: { label: string; price: string | null; perYear: boolean; primary: boolean }[] };
   sourcesLine: string;
 }
 
-export const stateDossiers: StateDossierRecord[] = [nc as StateDossierRecord];
+export const stateDossiers: StateDossierRecord[] = [nc as StateDossierRecord, tx as StateDossierRecord];
 
 export function getStateDossier(slug: string): StateDossierRecord | undefined {
   return stateDossiers.find((s) => s.slug === slug);

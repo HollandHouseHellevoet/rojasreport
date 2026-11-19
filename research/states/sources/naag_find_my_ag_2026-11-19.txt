@@ -1,0 +1,53 @@
+# National Association of Attorneys General, "Find my AG" (https://www.naag.org/find-my-ag/), page read November 19, 2026.
+# The page lists names only (no party, no term start). Alaska is shown as acting.
+Alabama | Steve Marshall
+Alaska (Acting) | Cori Mills
+Arizona | Kris Mayes
+Arkansas | Tim Griffin
+California | Rob Bonta
+Colorado | Phil Weiser
+Connecticut | William Tong
+Delaware | Kathy Jennings
+District of Columbia | Brian Schwalb
+Florida | James Uthmeier
+Georgia | Chris Carr
+Hawaii | Anne E. Lopez
+Idaho | Raúl Labrador
+Illinois | Kwame Raoul
+Indiana | Todd Rokita
+Iowa | Brenna Bird
+Kansas | Kris Kobach
+Kentucky | Russell Coleman
+Louisiana | Liz Murrill
+Maine | Aaron Frey
+Maryland | Anthony G. Brown
+Massachusetts | Andrea Campbell
+Michigan | Dana Nessel
+Minnesota | Keith Ellison
+Mississippi | Lynn Fitch
+Missouri | Catherine Hanaway
+Montana | Austin Knudsen
+Nebraska | Mike Hilgers
+Nevada | Aaron D. Ford
+New Hampshire | John Formella
+New Jersey | Jennifer Davenport
+New Mexico | Raúl Torrez
+New York | Letitia A. James
+North Carolina | Jeff Jackson
+North Dakota | Drew Wrigley
+Ohio | Andy Wilson
+Oklahoma | Gentner Drummond
+Oregon | Dan Rayfield
+Pennsylvania | Dave Sunday
+Rhode Island | Peter F. Neronha
+South Carolina | Alan Wilson
+South Dakota | Marty Jackley
+Tennessee | Jonathan Skrmetti
+Texas | Ken Paxton
+Utah | Derek Brown
+Vermont | Charity R. Clark
+Virginia | Jay Jones
+Washington | Nick Brown
+West Virginia | John B. McCuskey
+Wisconsin | Josh Kaul
+Wyoming | Keith Kautz
