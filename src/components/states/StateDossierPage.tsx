@@ -175,6 +175,21 @@ export default function StateDossierPage({ d }: { d: StateDossierRecord }) {
         <p className="mt-7 italic text-[17px] text-body" title={d.whoDecides.pac.source}>{d.whoDecides.pac.text}</p>
       </section>
 
+      {/* The attorney general */}
+      {d.agOversight && (
+        <section className="max-w-content mx-auto px-5 md:px-8 pb-20">
+          <Heading title="The attorney general" aside={d.agOversight.subtitle} />
+          <div className="grid border-t border-hairline" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))' }} title={d.agOversight.source}>
+            {d.agOversight.items.map((it) => (
+              <article key={it.title} className="pt-7 pb-8 md:pr-8 border-b border-hairline flex flex-col gap-3" title={it.source}>
+                <h3 className="font-tight font-bold tracking-[-0.015em] text-[24px] leading-[1.2]">{it.title}</h3>
+                <p className="text-[17px] leading-[1.5] text-body">{it.body}</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* The bills */}
       <section className="bg-paper-2 border-y border-hairline">
         <div className="max-w-[1000px] mx-auto px-5 md:px-8 py-[72px]" title={d.bills.source}>

@@ -1,0 +1,230 @@
+{
+  "slug": "texas",
+  "code": "TX",
+  "name": "Texas",
+  "possessive": "Texas's",
+  "asOf": "November 19, 2026",
+  "verdict": "Its 340B hospitals cleared {netIncomeWords} in a year and take an estimated {exemptionsWords} in tax breaks. No state permit stands between a physician and a new facility. Every July the attorney general gets the list of hospitals that missed the charity care standard. No enforcement action on it has been found.",
+  "gradeNote": "Driver grades I and III follow the Build Brief 2 scale (November 6, 2026). Grades IV and V are provisional Alliance grades, open until the state-grade rubric is published at /methodology/state-grade/.",
+  "stateIncomeTax": { "rate": null, "note": "Texas has no corporate income tax. Franchise and sales tax exemptions are not estimated." },
+  "propertyTax": {
+    "largestCityCounties": ["HARRIS"],
+    "note": "Hospitals in Harris County at the Houston rate, all others at the Fort Stockton rate, on land, land improvements and buildings at historical cost."
+  },
+  "slugs": { "CommonSpirit Health": "commonspirit" },
+  "systemNames": {
+    "Baylor Scott and White Health": "Baylor Scott & White Health",
+    "Childrens Health": "Children's Health",
+    "Cook Childrens Health Care System": "Cook Children's Health Care System",
+    "Driscoll Childrens Hospital": "Driscoll Children's Hospital",
+    "Texas Childrens Hospital": "Texas Children's Hospital",
+    "Memorial Hermann Healthcare System": "Memorial Hermann Health System"
+  },
+  "systems": {
+    "subtitle": "Their 340B hospitals in Texas",
+    "note": "Margin is net income over net patient revenue plus other income, the cost report's total margin. CMS hospital cost reports, latest report per hospital; hospitals assigned to systems by the AHRQ 2023 Compendium linkage. Hospital districts such as Parkland, Harris Health, University Health and JPS are public bodies and file no Form 990. One 340B hospital, Driscoll Children's Hospital Rio Grande Valley, has no cost report yet."
+  },
+  "drivers": [
+    {
+      "num": "I", "label": "Section 6001", "key": "6001", "weight": 5,
+      "title": "Physician-owned hospitals",
+      "grade": "F",
+      "body": "The federal ban applies here as everywhere. Texas has {pohOperating} physician-owned hospitals still operating under the grandfather clause, of {pohListed} on the Alliance list. Sixteen more run as joint ventures with health systems; 13 closed and 13 were sold. No new one can open and bill Medicare.",
+      "status": "LOBBY HOLDING · Federal ban unchanged",
+      "tone": "red",
+      "href": "/physician-owned/",
+      "linkText": "Read the physician-owned hospital desk",
+      "basis": "reported",
+      "source": "Alliance physician-owned hospital database (research/poh/poh_db_2026-03.json, March 2026): Texas {pohListed} hospitals listed; status Operating {pohOperating}, Joint Venture 16, Closed 13, Sold/Acquired 13, Under Development 1, Unknown 1",
+      "as_of": "March 2026"
+    },
+    {
+      "num": "II", "label": "Price Transparency", "key": "transparency", "weight": 12.5,
+      "title": "A state law with small teeth",
+      "grade": null,
+      "body": "Texas has its own price-disclosure law, Health and Safety Code chapter 327 (SB 1137, 2021). Hospitals post machine-readable standard charges and a shoppable-services list. SB 331 (2025) limited the chapter to facilities with $10 million or more in gross revenue. The penalty tops out at $1,000 a day for facilities over $100 million. Graded when the rubric is published.",
+      "status": "STATE LAW IN FORCE · Rubric pending",
+      "tone": "grey",
+      "href": null,
+      "linkText": null,
+      "basis": "reported",
+      "source": "Texas Health and Safety Code chapter 327 (tcss.legis.texas.gov, retrieved November 19, 2026): section 327.002 added by Acts 2021, 87th Leg., ch. 1044 (SB 1137), effective September 1, 2021; section 327.0015 ($10 million gross revenue applicability) added by Acts 2025, 89th Leg., ch. 1131 (SB 331), section 2, effective June 20, 2025; section 327.008(c) penalties of $100 per violation for facilities with $10 million to $100 million in gross revenue and $1,000 per day above $100 million, as amended by SB 331 section 3",
+      "as_of": "November 19, 2026"
+    },
+    {
+      "num": "III", "label": "Certificate of Need", "key": "con", "weight": 30,
+      "title": "No permit to compete",
+      "grade": "A",
+      "body": "Texas has had no certificate of need law since 1985, when the Texas Health Facilities Commission was abolished. A hospital needs a license under Health and Safety Code chapter 241 and nothing more. A physician can build a surgery center or hospital without a competitor's say.",
+      "status": "NO CON LAW · Abolished 1985",
+      "tone": "green",
+      "href": "/con/",
+      "linkText": "Read the certificate of need desk",
+      "basis": "reported",
+      "source": "Texas Sunset Advisory Commission, Texas Health Facilities Commission agency record (1984-1985 review cycle, 69th Legislature: 'No legislation; agency abolished'); Texas Health and Safety Code chapter 241 (Hospital Licensing Law, no need review); the CON desk's rankings (data/rankings.json: Texas, no CON law, Free Market tier, score 0)",
+      "as_of": "November 19, 2026"
+    },
+    {
+      "num": "IV", "label": "Hospital Subsidies", "key": "subsidies", "weight": 27.5,
+      "title": "{exemptionsWords} a year in tax breaks",
+      "grade": "C",
+      "body": "Estimated federal income and property tax exemptions for the {inCostReport} hospitals in the 340B program with cost reports come to {exemptionsWords} a year. Against that, {charityWords} of charity care at cost. Texas has a charity care standard in law. Tax Code 11.1801 ties the exemption to one of four tests. Those hospitals run {childSites} 340B child sites and {contractPharmacies} contract pharmacy arrangements.",
+      "status": "STANDARD IN LAW · HB 3708 died",
+      "tone": "gold",
+      "href": "/drivers/",
+      "linkText": "Read the hospital subsidies desk",
+      "basis": "estimated",
+      "source": "Estimate from CMS hospital cost reports (2023 and 2024 files, latest report per hospital): federal income tax {federalTaxExact} (21% of net income of the {positiveNetIncome} profitable hospitals, {positiveNetIncomeSumExact}); property tax {propertyTaxExact} on {propertyAtCostExact} of land, land improvements and buildings at historical cost, at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study effective commercial rates for taxes paid in 2025 (Houston 2.028% for Harris County hospitals, Fort Stockton 2.087% elsewhere); total {exemptionsExact}; no state corporate income tax; charity care at cost {charityExact}; Texas Tax Code section 11.1801(a) (four charity care and community benefit standards); HRSA 340B OPAIS export of September 29, 2026 ({childSites} child sites, {contractPharmacies} arrangements); HB 3708 (89R) reported from House Public Health 7 to 4 on May 1, 2025, died at sine die June 2, 2025",
+      "as_of": "exemptions at 2025 rates on hospital fiscal years ending {fiscalYears}"
+    },
+    {
+      "num": "V", "label": "CMS Favoritism", "key": "cms", "weight": 12.5,
+      "title": "Urban hospitals, rural rules",
+      "grade": "C",
+      "body": "{dual} of the {inCostReport} are hospitals in urban areas that CMS treats as rural under 42 CFR 412.103. Memorial Hermann Texas Medical Center, Parkland, Baylor University Medical Center and UTMB are among them. Rural status can lower the 340B eligibility bar for a rural referral center and change Medicare wage-index reclassification. {projectedDsh} of the {inCostReport} are projected to draw Medicare DSH payments in fiscal 2027, with {ucpWords} in uncompensated care payments.",
+      "status": "IN PLAY · {dual} of {inCostReport} reclassified",
+      "tone": "gold",
+      "href": "/drivers/",
+      "linkText": "Read the CMS favoritism desk",
+      "basis": "reported",
+      "source": "CMS hospital cost reports (Rural Versus Urban = rural) against the CMS FY2027 IPPS final rule impact file, correction notice (urban geographic classification with the Section 401 flag): {dualNames}; CMS FY2027 IPPS Medicare DSH supplemental file: {projectedDsh} Texas 340B hospitals projected to receive DSH in FY2027, total uncompensated care payment {ucpExact}",
+      "as_of": "CMS FY2027 IPPS final rule impact file (correction notice) and DSH supplemental file"
+    },
+    {
+      "num": "VI", "label": "Stark & Anti-Kickback", "key": "stark", "weight": 12.5,
+      "title": "No room to build rivals",
+      "grade": null,
+      "body": "Texas has its own anti-kickback statute. Occupations Code 102.001 makes it a crime to pay or accept anything of value for patient referrals to a licensed practitioner or facility. Section 102.003 carves out whatever federal law allows. Whether Texas self-referral law goes beyond the federal statutes is not yet researched.",
+      "status": "PENDING RESEARCH",
+      "tone": "grey",
+      "href": null,
+      "linkText": null,
+      "basis": "pending",
+      "source": "Texas Occupations Code chapter 102 (tcss.legis.texas.gov, retrieved November 19, 2026): sections 102.001 (soliciting patients; Class A misdemeanor, third-degree felony on a prior conviction) and 102.003 (federal safe harbors apply); state self-referral review not yet done",
+      "as_of": "November 19, 2026"
+    }
+  ],
+  "moneyNotes": {
+    "exemptions": "Federal income {federalTax}, property {propertyTax}, at 2025 rates. No state corporate income tax; franchise and sales tax not estimated."
+  },
+  "whoDecides": {
+    "subtitle": "Machine Scores coming with the lawmaker pages",
+    "groups": [
+      {
+        "name": "The executive",
+        "people": [
+          { "name": "Greg Abbott", "role": "Governor (R), first elected 2014, third term" },
+          { "name": "Ken Paxton", "role": "Attorney General (R), sworn in January 2015, third term" }
+        ]
+      },
+      {
+        "name": "The Legislature",
+        "people": [
+          { "name": "Dan Patrick", "role": "Lieutenant Governor and President of the Senate (R), first elected 2014" },
+          { "name": "Dustin Burrows", "role": "Speaker of the House (R), District 83, since January 2025" },
+          { "name": "Lois W. Kolkhorst", "role": "Chair, Senate Health and Human Services (R), District 18" },
+          { "name": "Gary VanDeaver", "role": "Chair, House Public Health (R), District 1" }
+        ],
+        "note": "23 of 30 state senators and 67 of 150 House members have a 340B hospital in their district."
+      },
+      {
+        "name": "In Washington",
+        "people": [
+          { "name": "Sen. John Cornyn", "role": "Senate Finance" },
+          { "name": "Rep. Jodey Arrington", "role": "Ways and Means (TX-19)" },
+          { "name": "Rep. Lloyd Doggett", "role": "Ways and Means (TX-37)" },
+          { "name": "Rep. Dan Crenshaw", "role": "Energy and Commerce (TX-2)" }
+        ]
+      }
+    ],
+    "pac": {
+      "text": "The Texas Hospital Association's PAC, HOSPAC, reported $52,500 in political contributions in 2025 and $129,500 from January 1 to August 25, 2026.",
+      "basis": "reported",
+      "source": "Texas Ethics Commission, The Political Action Committee of the Texas Hospital Association (HOSPAC), filer ID 00015794: 13 contributions (expenditure category DONATIONS) totaling $52,500.00 in calendar year 2025; 49 contributions totaling $129,500.00 from January 1 to August 25, 2026 (latest filed report period); processing fees and PAC accounting services excluded",
+      "as_of": "reports through August 25, 2026"
+    },
+    "basis": "reported",
+    "source": "Office of the Texas Governor (gov.texas.gov/about), Office of the Attorney General (texasattorneygeneral.gov/about-office), Office of the Lieutenant Governor (ltgov.texas.gov/about), Texas House Speaker page (house.texas.gov/members/speaker), Senate Health and Human Services and House Public Health committee membership pages, Senate directory and Legislative Reference Library rosters, U.S. Senate contact and Finance committee XML, U.S. House Clerk MemberData.xml, all saved October 1, 2026; names cross-checked against the National Governors Association and National Association of Attorneys General rosters on November 19, 2026; district counts from the Census geocoder and TIGERweb on the hospitals' registered addresses (28 of 167 could not be placed and are not counted)",
+    "as_of": "October 1, 2026"
+  },
+  "agOversight": {
+    "subtitle": "What the office can do, and what it has done",
+    "items": [
+      {
+        "title": "The charity care standard",
+        "body": "Health and Safety Code 311.045 makes every nonprofit hospital meet one of four charity care standards. The best known is 4 percent of net patient revenue. By July 1 each year the Department of State Health Services sends the attorney general and comptroller the list of hospitals that missed it. By November 1 it sends every hospital's charity care, net patient revenue and tax-exempt benefit figures.",
+        "source": "Texas Health and Safety Code sections 311.045 and 311.0455 (tcss.legis.texas.gov, retrieved November 19, 2026); Tax Code section 11.1801(a)"
+      },
+      {
+        "title": "Charitable assets",
+        "body": "Property Code 123.002 makes the attorney general a proper party in any proceeding involving a charitable trust, with notice required within 30 days. Business Organizations Code 12.151 to 12.156 let the office examine any Texas entity's books and management. Refusal forfeits the right to do business and is a misdemeanor.",
+        "source": "Texas Property Code sections 123.002 and 123.003; Business Organizations Code sections 12.151, 12.152, 12.153, 12.155 and 12.156 (tcss.legis.texas.gov, retrieved November 19, 2026)"
+      },
+      {
+        "title": "Hospital sales and conversions",
+        "body": "No Texas statute requires attorney general review of a nonprofit hospital sale, merger or conversion. HB 2747 (2025) would have required notice of material change transactions to the attorney general. It cleared House Public Health 8 to 4 and died in Calendars.",
+        "source": "Texas Legislature Online, HB 2747 (89R) history: filed February 12, 2025; reported favorably as substituted April 28, 2025 (Ayes 8, Nays 4); committee report sent to Calendars May 10, 2025; no further action before sine die June 2, 2025; statute search of the Health and Safety, Business Organizations and Property Codes, November 19, 2026"
+      },
+      {
+        "title": "Enforcement record",
+        "body": "No attorney general enforcement action on hospital charity care, tax exemption or the 340B program was found. The office's site was searched on October 3 and November 19, 2026.",
+        "source": "texasattorneygeneral.gov site search for hospital charity care, nonprofit hospital and 340B (October 3, 2026, and November 19, 2026): NOT FOUND"
+      }
+    ],
+    "basis": "reported",
+    "source": "Texas statutes at tcss.legis.texas.gov (saved with checksums in research/states/sources/tx/), Texas Legislature Online, texasattorneygeneral.gov, retrieved November 19, 2026",
+    "as_of": "November 19, 2026"
+  },
+  "bills": {
+    "subtitle": "The 89th Legislature adjourned June 2, 2025; the 90th convenes January 12, 2027",
+    "basis": "reported",
+    "source": "Texas Legislature Online bill history and text pages for HB 3265, HB 4422, HB 3708 and HB 2747 (89R), saved October 1 and November 19, 2026; Texas Health and Safety Code chapter 327 enactment notes for SB 331; Texas Legislature Online session dates (89th Regular Session sine die June 2, 2025; 90th Legislature convenes January 12, 2027)",
+    "as_of": "November 19, 2026",
+    "rows": [
+      {
+        "id": "HB 3265",
+        "title": "340B protection, all comers",
+        "body": "Would have barred manufacturers, distributors, pharmacy benefit managers and payers from limiting 340B hospitals and their contract pharmacies, with civil penalties. Cleared House Insurance 5 to 2 on April 24, 2025 and died in Calendars.",
+        "status": "DIED · House Calendars, Jun. 2, 2025",
+        "tone": "red"
+      },
+      {
+        "id": "HB 4422",
+        "title": "340B protection, payers only",
+        "body": "Would have barred health plans, pharmacy benefit managers and other payers from discriminating against 340B entities. Referred to House Insurance April 2, 2025 and never heard.",
+        "status": "DIED · No hearing",
+        "tone": "red"
+      },
+      {
+        "id": "HB 3708",
+        "title": "Charity care counted system-wide",
+        "body": "Would have made a nonprofit system count all its Texas revenue against the charity care standard, and screen patients before billing. Cleared House Public Health 7 to 4 on May 1, 2025 and died.",
+        "status": "DIED · House Calendars, Jun. 2, 2025",
+        "tone": "gold"
+      },
+      {
+        "id": "HB 2747",
+        "title": "Notice of hospital deals to the attorney general",
+        "body": "Would have required health care entities to notify the attorney general of material change transactions. Reported from Public Health 8 to 4 and sent to Calendars May 10, 2025.",
+        "status": "DIED · House Calendars, Jun. 2, 2025",
+        "tone": "gold"
+      },
+      {
+        "id": "SB 331",
+        "title": "Price transparency, narrowed",
+        "body": "Limits the state price-disclosure law to facilities with $10 million or more in gross revenue and scales penalties to facility size.",
+        "status": "ENACTED Jun. 20, 2025",
+        "tone": "red"
+      }
+    ]
+  },
+  "buy": {
+    "heading": "Take Texas with you.",
+    "text": "Every hospital, every subsidy line, every lawmaker's district exposure, with the source documents.",
+    "options": [
+      { "label": "Texas dataset", "price": null, "perYear": false, "primary": true },
+      { "label": "All states, all-access", "price": null, "perYear": true, "primary": false }
+    ]
+  },
+  "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, Texas Health and Safety, Tax, Property, Business Organizations and Occupations Codes, Texas Legislature Online, Texas Ethics Commission, CMS FY2027 IPPS impact and Medicare DSH supplemental files, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Alliance physician-owned hospital database (March 2026)."
+}

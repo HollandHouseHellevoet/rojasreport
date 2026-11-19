@@ -1,0 +1,619 @@
+{
+ "source": {
+  "name": "Lincoln Institute of Land Policy and Minnesota Center for Fiscal Excellence, 50-State Property Tax Comparison Study for Taxes Paid in 2025 (April 2026)",
+  "url": "https://www.lincolninst.edu/publications/other/50-state-property-tax-comparison-study-2025/",
+  "retrieved": "2026-09-30",
+  "sha256": "af849d8906a7d00c1062f653fd8e9661f1b04da2acec26d4fa375f584214ec30",
+  "basis": "Effective tax rate (net tax bill over market value) on a $1 million commercial property with $200,000 of fixtures; Appendix Table 3a (largest city in each state) and 3c (a rural municipality in each state)"
+ },
+ "states": {
+  "AK": {
+   "largestCity": {
+    "city": "Anchorage",
+    "rate": 0.01395,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Ketchikan",
+    "rate": 0.01052,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "AL": {
+   "largestCity": {
+    "city": "Huntsville",
+    "rate": 0.01043,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Monroeville",
+    "rate": 0.00882,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "AR": {
+   "largestCity": {
+    "city": "Little Rock",
+    "rate": 0.01366,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Pocahontas",
+    "rate": 0.00819,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "AZ": {
+   "largestCity": {
+    "city": "Phoenix",
+    "rate": 0.01612,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Safford",
+    "rate": 0.00713,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "CA": {
+   "largestCity": {
+    "city": "Los Angeles",
+    "rate": 0.01187,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Yreka",
+    "rate": 0.01061,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "CO": {
+   "largestCity": {
+    "city": "Denver",
+    "rate": 0.02081,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Walsenburg",
+    "rate": 0.02416,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "CT": {
+   "largestCity": {
+    "city": "Bridgeport",
+    "rate": 0.02225,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Litchfield",
+    "rate": 0.014,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "DC": {
+   "largestCity": {
+    "city": "Washington",
+    "rate": 0.0115,
+    "table": "Appendix Table 3a"
+   },
+   "rural": "NOT FOUND"
+  },
+  "DE": {
+   "largestCity": {
+    "city": "Wilmington",
+    "rate": 0.01599,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Georgetown",
+    "rate": 0.00439,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "FL": {
+   "largestCity": {
+    "city": "Jacksonville",
+    "rate": 0.0168,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Moore Haven",
+    "rate": 0.02035,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "GA": {
+   "largestCity": {
+    "city": "Atlanta",
+    "rate": 0.01616,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Fitzgerald",
+    "rate": 0.0169,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "HI": {
+   "largestCity": {
+    "city": "Honolulu",
+    "rate": 0.00875,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Kauai",
+    "rate": 0.00675,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "IA": {
+   "largestCity": {
+    "city": "Des Moines",
+    "rate": 0.02693,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Hampton",
+    "rate": 0.02235,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "ID": {
+   "largestCity": {
+    "city": "Boise",
+    "rate": 0.00751,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Saint Anthony",
+    "rate": 0.00637,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "IL": {
+   "largestCity": {
+    "city": "Chicago",
+    "rate": 0.0336,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Galena",
+    "rate": 0.02087,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "IN": {
+   "largestCity": {
+    "city": "Indianapolis",
+    "rate": 0.02718,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "North Vernon",
+    "rate": 0.02908,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "KS": {
+   "largestCity": {
+    "city": "Wichita",
+    "rate": 0.02563,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Iola",
+    "rate": 0.03956,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "KY": {
+   "largestCity": {
+    "city": "Louisville",
+    "rate": 0.01216,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Morehead",
+    "rate": 0.01263,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "LA": {
+   "largestCity": {
+    "city": "New Orleans",
+    "rate": 0.01836,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Natchitoches",
+    "rate": 0.01308,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "MA": {
+   "largestCity": {
+    "city": "Boston",
+    "rate": 0.02163,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Adams",
+    "rate": 0.01873,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "MD": {
+   "largestCity": {
+    "city": "Baltimore",
+    "rate": 0.02739,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Denton",
+    "rate": 0.0196,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "ME": {
+   "largestCity": {
+    "city": "Portland",
+    "rate": 0.01198,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Rockland",
+    "rate": 0.01658,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "MI": {
+   "largestCity": {
+    "city": "Detroit",
+    "rate": 0.04035,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Manistique",
+    "rate": 0.02701,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "MN": {
+   "largestCity": {
+    "city": "Minneapolis",
+    "rate": 0.02451,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Glencoe",
+    "rate": 0.02435,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "MO": {
+   "largestCity": {
+    "city": "Kansas City",
+    "rate": 0.03086,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Boonville",
+    "rate": 0.02348,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "MS": {
+   "largestCity": {
+    "city": "Jackson",
+    "rate": 0.0291,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Philadelphia",
+    "rate": 0.02064,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "MT": {
+   "largestCity": {
+    "city": "Billings",
+    "rate": 0.00729,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Glasgow",
+    "rate": 0.01198,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "NC": {
+   "largestCity": {
+    "city": "Charlotte",
+    "rate": 0.00695,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Edenton",
+    "rate": 0.00876,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "ND": {
+   "largestCity": {
+    "city": "Fargo",
+    "rate": 0.01146,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Devils Lake",
+    "rate": 0.01331,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "NE": {
+   "largestCity": {
+    "city": "Omaha",
+    "rate": 0.01877,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Sidney",
+    "rate": 0.0199,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "NH": {
+   "largestCity": {
+    "city": "Manchester",
+    "rate": 0.01154,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Lancaster",
+    "rate": 0.01508,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "NJ": {
+   "largestCity": {
+    "city": "Newark",
+    "rate": 0.01592,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Maurice River Twp",
+    "rate": 0.01938,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "NM": {
+   "largestCity": {
+    "city": "Albuquerque",
+    "rate": 0.01638,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Santa Rosa",
+    "rate": 0.01087,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "NV": {
+   "largestCity": {
+    "city": "Las Vegas",
+    "rate": 0.01131,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Fallon",
+    "rate": 0.01257,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "NY": {
+   "largestCity": {
+    "city": "New York City",
+    "rate": 0.01695,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Warsaw",
+    "rate": 0.02228,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "OH": {
+   "largestCity": {
+    "city": "Columbus",
+    "rate": 0.01995,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Bryan",
+    "rate": 0.01674,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "OK": {
+   "largestCity": {
+    "city": "Oklahoma City",
+    "rate": 0.01408,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Mangum",
+    "rate": 0.00998,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "OR": {
+   "largestCity": {
+    "city": "Portland",
+    "rate": 0.02611,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Tillamook",
+    "rate": 0.01161,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "PA": {
+   "largestCity": {
+    "city": "Philadelphia",
+    "rate": 0.02031,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Ridgway",
+    "rate": 0.02036,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "RI": {
+   "largestCity": {
+    "city": "Providence",
+    "rate": 0.02658,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Hopkinton",
+    "rate": 0.0131,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "SC": {
+   "largestCity": {
+    "city": "Charleston",
+    "rate": 0.0193,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Mullins",
+    "rate": 0.03249,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "SD": {
+   "largestCity": {
+    "city": "Sioux Falls",
+    "rate": 0.01321,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Vermillion",
+    "rate": 0.01774,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "TN": {
+   "largestCity": {
+    "city": "Nashville",
+    "rate": 0.01079,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Savannah",
+    "rate": 0.00796,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "TX": {
+   "largestCity": {
+    "city": "Houston",
+    "rate": 0.02028,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Fort Stockton",
+    "rate": 0.02087,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "UT": {
+   "largestCity": {
+    "city": "Salt Lake City",
+    "rate": 0.00876,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Richfield",
+    "rate": 0.00946,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "VA": {
+   "largestCity": {
+    "city": "Virginia Beach",
+    "rate": 0.00908,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Wise",
+    "rate": 0.0086,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "VT": {
+   "largestCity": {
+    "city": "Burlington",
+    "rate": 0.02214,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Hartford",
+    "rate": 0.01287,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "WA": {
+   "largestCity": {
+    "city": "Seattle",
+    "rate": 0.00858,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Okanogan",
+    "rate": 0.00813,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "WI": {
+   "largestCity": {
+    "city": "Milwaukee",
+    "rate": 0.02059,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Rice Lake",
+    "rate": 0.01663,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "WV": {
+   "largestCity": {
+    "city": "Charleston",
+    "rate": 0.0183,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Elkins",
+    "rate": 0.00966,
+    "table": "Appendix Table 3c"
+   }
+  },
+  "WY": {
+   "largestCity": {
+    "city": "Cheyenne",
+    "rate": 0.00637,
+    "table": "Appendix Table 3a"
+   },
+   "rural": {
+    "city": "Worland",
+    "rate": 0.00742,
+    "table": "Appendix Table 3c"
+   }
+  }
+ }
+}

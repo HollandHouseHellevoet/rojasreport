@@ -1,0 +1,574 @@
+{
+ "sources": {
+  "governors": {
+   "name": "National Governors Association, current governors",
+   "url": "https://www.nga.org/governors/",
+   "retrieved": "2026-11-19"
+  },
+  "attorneysGeneral": {
+   "name": "National Association of Attorneys General, Find my AG",
+   "url": "https://www.naag.org/find-my-ag/",
+   "retrieved": "2026-11-19"
+  }
+ },
+ "states": {
+  "AK": {
+   "governor": {
+    "name": "Mike Dunleavy",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Cori Mills",
+    "note": "Acting",
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "AL": {
+   "governor": {
+    "name": "Kay Ivey",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Steve Marshall",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "AR": {
+   "governor": {
+    "name": "Sarah Huckabee Sanders",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Tim Griffin",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "AZ": {
+   "governor": {
+    "name": "Katie Hobbs",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Kris Mayes",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "CA": {
+   "governor": {
+    "name": "Gavin Newsom",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Rob Bonta",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "CO": {
+   "governor": {
+    "name": "Jared Polis",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Phil Weiser",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "CT": {
+   "governor": {
+    "name": "Ned Lamont",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "William Tong",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "DC": {
+   "governor": "NOT FOUND",
+   "attorneyGeneral": {
+    "name": "Brian Schwalb",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "DE": {
+   "governor": {
+    "name": "Matt Meyer",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Kathy Jennings",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "FL": {
+   "governor": {
+    "name": "Ron DeSantis",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "James Uthmeier",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "GA": {
+   "governor": {
+    "name": "Brian Kemp",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Chris Carr",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "HI": {
+   "governor": {
+    "name": "Josh Green",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Anne E. Lopez",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "IA": {
+   "governor": {
+    "name": "Kim Reynolds",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Brenna Bird",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "ID": {
+   "governor": {
+    "name": "Brad Little",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Raúl Labrador",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "IL": {
+   "governor": {
+    "name": "JB Pritzker",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Kwame Raoul",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "IN": {
+   "governor": {
+    "name": "Mike Braun",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Todd Rokita",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "KS": {
+   "governor": {
+    "name": "Laura Kelly",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Kris Kobach",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "KY": {
+   "governor": {
+    "name": "Andy Beshear",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Russell Coleman",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "LA": {
+   "governor": {
+    "name": "Jeff Landry",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Liz Murrill",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "MA": {
+   "governor": {
+    "name": "Maura Healey",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Andrea Campbell",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "MD": {
+   "governor": {
+    "name": "Wes Moore",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Anthony G. Brown",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "ME": {
+   "governor": {
+    "name": "Janet Mills",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Aaron Frey",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "MI": {
+   "governor": {
+    "name": "Gretchen Whitmer",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Dana Nessel",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "MN": {
+   "governor": {
+    "name": "Tim Walz",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Keith Ellison",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "MO": {
+   "governor": {
+    "name": "Mike Kehoe",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Catherine Hanaway",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "MS": {
+   "governor": {
+    "name": "Tate Reeves",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Lynn Fitch",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "MT": {
+   "governor": {
+    "name": "Greg Gianforte",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Austin Knudsen",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "NC": {
+   "governor": {
+    "name": "Josh Stein",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Jeff Jackson",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "ND": {
+   "governor": {
+    "name": "Kelly Armstrong",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Drew Wrigley",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "NE": {
+   "governor": {
+    "name": "Jim Pillen",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Mike Hilgers",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "NH": {
+   "governor": {
+    "name": "Kelly Ayotte",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "John Formella",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "NJ": {
+   "governor": {
+    "name": "Mikie Sherrill",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Jennifer Davenport",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "NM": {
+   "governor": {
+    "name": "Michelle Lujan Grisham",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Raúl Torrez",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "NV": {
+   "governor": {
+    "name": "Joe Lombardo",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Aaron D. Ford",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "NY": {
+   "governor": {
+    "name": "Kathy Hochul",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Letitia A. James",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "OH": {
+   "governor": {
+    "name": "Mike DeWine",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Andy Wilson",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "OK": {
+   "governor": {
+    "name": "Kevin Stitt",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Gentner Drummond",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "OR": {
+   "governor": {
+    "name": "Tina Kotek",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Dan Rayfield",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "PA": {
+   "governor": {
+    "name": "Josh Shapiro",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Dave Sunday",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "RI": {
+   "governor": {
+    "name": "Dan McKee",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Peter F. Neronha",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "SC": {
+   "governor": {
+    "name": "Henry McMaster",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Alan Wilson",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "SD": {
+   "governor": {
+    "name": "Larry Rhoden",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Marty Jackley",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "TN": {
+   "governor": {
+    "name": "Bill Lee",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Jonathan Skrmetti",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "TX": {
+   "governor": {
+    "name": "Greg Abbott",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Ken Paxton",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "UT": {
+   "governor": {
+    "name": "Spencer Cox",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Derek Brown",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "VA": {
+   "governor": {
+    "name": "Abigail Spanberger",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Jay Jones",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "VT": {
+   "governor": {
+    "name": "Phil Scott",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Charity R. Clark",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "WA": {
+   "governor": {
+    "name": "Bob Ferguson",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Nick Brown",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "WI": {
+   "governor": {
+    "name": "Tony Evers",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Josh Kaul",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "WV": {
+   "governor": {
+    "name": "Patrick Morrisey",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "John B. McCuskey",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  },
+  "WY": {
+   "governor": {
+    "name": "Mark Gordon",
+    "source": "National Governors Association, current governors (https://www.nga.org/governors/), retrieved 2026-11-19"
+   },
+   "attorneyGeneral": {
+    "name": "Keith Kautz",
+    "note": null,
+    "source": "National Association of Attorneys General, Find my AG (https://www.naag.org/find-my-ag/), page read 2026-11-19"
+   }
+  }
+ }
+}
