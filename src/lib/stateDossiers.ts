@@ -1,5 +1,7 @@
 import nc from '@/data/states/nc.json';
 import tx from '@/data/states/tx.json';
+import ca from '@/data/states/ca.json';
+import fl from '@/data/states/fl.json';
 import type { Basis } from '@/lib/systems';
 
 /** State dossiers in the brief's format (docs/BUILD_BRIEF.md section 4.3), one JSON file per state under src/data/states. */
@@ -103,7 +105,7 @@ export interface StateDossierRecord {
   sourcesLine: string;
 }
 
-export const stateDossiers: StateDossierRecord[] = [nc as StateDossierRecord, tx as StateDossierRecord];
+export const stateDossiers: StateDossierRecord[] = [nc as StateDossierRecord, tx as StateDossierRecord, ca as StateDossierRecord, fl as StateDossierRecord];
 
 export function getStateDossier(slug: string): StateDossierRecord | undefined {
   return stateDossiers.find((s) => s.slug === slug);

@@ -1,0 +1,2767 @@
+{
+ "slug": "california",
+ "code": "CA",
+ "name": "California",
+ "verdict": "Its 340B hospitals cleared $6.4 billion in a year and take an estimated $3.7 billion in tax breaks. No state permit stands between a physician and a new facility. The attorney general must consent to every nonprofit hospital sale and writes charity care into the terms. Just over half of their 3,613 contract pharmacy arrangements are with pharmacies outside California.",
+ "asOf": "November 21, 2026",
+ "grade": {
+  "note": "Driver grades I and III follow the Build Brief 2 scale (November 6, 2026). Grades IV and V are provisional Alliance grades, open until the state-grade rubric is published at /methodology/state-grade/."
+ },
+ "money": {
+  "asOf": "California's 182 hospitals in the 340B program, fiscal years ending 2023 to 2025",
+  "items": [
+   {
+    "value": "$6.4B",
+    "text": "in net income in one year, on $123.4B of patient revenue.",
+    "note": "125 of 182 made money. CMS hospital cost reports, latest report per hospital.",
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Net Income 6,388,102,970 and Net Patient Revenue 123,376,707,830 over the 182 active 340B hospitals with cost reports; 125 of 182 with positive net income",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "value": "$193.7B",
+    "text": "in total assets on their books.",
+    "note": "CMS hospital cost reports, latest report per hospital.",
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Total Assets 193,732,037,368 over the 182 hospitals",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "value": "$3.7B",
+    "text": "a year in estimated tax breaks, against $1.6B of charity care.",
+    "note": "Federal income $2.0B, state franchise $843M, property $887M, at 2025 rates. Sales and use tax not estimated.",
+    "basis": "estimated",
+    "source": "Estimate from the cost reports: federal income tax 2,001,734,113 (21% of cost-report net income of the 125 profitable hospitals, 9,532,067,205); state income tax 842,634,741 (8.84% on the same base); property tax 886,955,546 on 81,270,944,026 of land, land improvements and buildings at historical cost at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study effective commercial rates for taxes paid in 2025 (Los Angeles 1.187% for hospitals in Los Angeles County, Yreka 1.061% elsewhere); total 3,731,324,400. Charity care at cost 1,589,857,287 from the cost reports",
+    "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "value": "1,843",
+    "text": "340B contract pharmacy arrangements with pharmacies outside California, of 3,613 in all.",
+    "note": "HRSA 340B registry, September 29, 2026.",
+    "basis": "reported",
+    "source": "HRSA 340B OPAIS export of September 29, 2026: 3,613 active contract pharmacy arrangements for the 182 hospitals, 1,843 with pharmacies outside the state (51%)",
+    "as_of": "September 29, 2026"
+   }
+  ]
+ },
+ "drivers": [
+  {
+   "num": "I",
+   "label": "Section 6001",
+   "key": "6001",
+   "weight": 5,
+   "title": "Physician-owned hospitals",
+   "grade": "F",
+   "body": "The federal ban applies here as everywhere. California has 2 physician-owned hospitals still operating under the grandfather clause, of 8 on the Alliance list. They are Hoag Orthopedic Institute in Irvine and Patients' Hospital of Redding. One more runs as a joint venture with a health system; two closed and three were sold. No new one can open and bill Medicare.",
+   "status": "LOBBY HOLDING · Federal ban unchanged",
+   "tone": "red",
+   "href": "/physician-owned/",
+   "linkText": "Read the physician-owned hospital desk",
+   "basis": "reported",
+   "source": "Alliance physician-owned hospital database (research/poh/poh_db_2026-03.json, March 2026): California 8 hospitals listed; status Operating 2 (Hoag Orthopedic Institute, Irvine; Patients' Hospital of Redding), Joint Venture 1 (Fresno Surgical Hospital), Closed 2, Sold/Acquired 3",
+   "as_of": "March 2026"
+  },
+  {
+   "num": "II",
+   "label": "Price Transparency",
+   "key": "transparency",
+   "weight": 12.5,
+   "title": "A chargemaster on request",
+   "grade": null,
+   "body": "California's price law dates to 2003. Health and Safety Code 1339.51 makes a hospital post or hand over its charge description master, the gross charge list. Section 1339.585 gives an uninsured patient a written estimate on request. The state sets no machine-readable file and no shoppable-services list of its own. The federal rule does that work. Graded when the rubric is published.",
+   "status": "STATE LAW IN FORCE · Rubric pending",
+   "tone": "grey",
+   "href": null,
+   "linkText": null,
+   "basis": "reported",
+   "source": "California Health and Safety Code section 1339.51 (Payers' Bill of Rights, added by Stats. 2003, Ch. 582, effective January 1, 2004; charge description master available from July 1, 2004; small and rural hospitals exempt) and section 1339.585 (written estimate for a person without health coverage, as amended by Stats. 2021, Ch. 465, AB 532, effective January 1, 2022), leginfo.legislature.ca.gov, retrieved November 21, 2026",
+   "as_of": "November 21, 2026"
+  },
+  {
+   "num": "III",
+   "label": "Certificate of Need",
+   "key": "con",
+   "weight": 30,
+   "title": "No permit to compete",
+   "grade": "A",
+   "body": "California's certificate of need program ended on January 1, 1987, and the statute was repealed in 1995. A hospital needs a license under Health and Safety Code 1250 and nothing more. A physician can build a surgery center or hospital without a competitor's say. Since 2024 the Office of Health Care Affordability reviews large deals for cost and market impact. It reports; it cannot block.",
+   "status": "NO CON LAW · Ended 1987",
+   "tone": "green",
+   "href": "/con/",
+   "linkText": "Read the certificate of need desk",
+   "basis": "reported",
+   "source": "Stats. 1984, Ch. 1745 (former Health and Safety Code section 439.7: certificate of need requirements inoperative from January 1, 1987); Stats. 1995, Ch. 415 (repeal of the former Division 1 planning statutes); California Health and Safety Code section 1250 (licensing of health facilities); Health and Safety Code section 127507 (Office of Health Care Affordability cost and market impact review, added by Stats. 2022, Ch. 47, as amended by Stats. 2025, Ch. 641, effective January 1, 2026; the office analyzes and reports); the CON desk's rankings (data/rankings.json: California, no CON law, Free Market tier, score 0)",
+   "as_of": "November 21, 2026"
+  },
+  {
+   "num": "IV",
+   "label": "Hospital Subsidies",
+   "key": "subsidies",
+   "weight": 27.5,
+   "title": "$3.7 billion a year in tax breaks",
+   "grade": "C",
+   "body": "Estimated federal, state and property tax exemptions for the 182 hospitals in the 340B program come to $3.7 billion a year. Against that, $1.6 billion of charity care at cost. California ties no charity care standard to the exemption. Health and Safety Code 127405 makes every hospital offer charity care or discounts to patients at or below 400 percent of the poverty level. Those hospitals run 2,262 340B child sites and 3,613 contract pharmacy arrangements.",
+   "status": "NO STANDARD · Discount law at 400% FPL",
+   "tone": "gold",
+   "href": "/drivers/",
+   "linkText": "Read the hospital subsidies desk",
+   "basis": "estimated",
+   "source": "Estimate from CMS hospital cost reports (2023 and 2024 files, latest report per hospital): federal income tax 2,001,734,113 (21% of net income of the 125 profitable hospitals, 9,532,067,205); state franchise tax 842,634,741 (8.84% on the same base, Revenue and Taxation Code section 23151); property tax 886,955,546 on 81,270,944,026 of land, land improvements and buildings at historical cost, at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study effective commercial rates for taxes paid in 2025 (Los Angeles 1.187% for Los Angeles County hospitals, Yreka 1.061% elsewhere); total 3,731,324,400; charity care at cost 1,589,857,287; California Health and Safety Code section 127405(a) (charity care and discount payment policies for patients at or below 400 percent of the federal poverty level, as amended by Stats. 2024, Ch. 511, AB 2297) and sections 127340 to 127360 (community benefit plans, no bearing on tax status); HRSA 340B OPAIS export of September 29, 2026 (2,262 child sites, 3,613 arrangements)",
+   "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2023 to 2025"
+  },
+  {
+   "num": "V",
+   "label": "CMS Favoritism",
+   "key": "cms",
+   "weight": 12.5,
+   "title": "Urban hospitals, rural rules",
+   "grade": "C",
+   "body": "34 of the 182 are hospitals in urban areas that CMS treats as rural under 42 CFR 412.103. Cedars-Sinai, Stanford Health Care, Ronald Reagan UCLA and UCSF Medical Center are among them. Rural status can lower the 340B eligibility bar for a rural referral center and change Medicare wage-index reclassification. 134 of the 182 are projected to draw Medicare DSH payments in fiscal 2027, with $423 million in uncompensated care payments.",
+   "status": "IN PLAY · 34 of 182 reclassified",
+   "tone": "gold",
+   "href": "/drivers/",
+   "linkText": "Read the CMS favoritism desk",
+   "basis": "reported",
+   "source": "CMS hospital cost reports (Rural Versus Urban = rural) against the CMS FY2027 IPPS final rule impact file, correction notice (urban geographic classification with the Section 401 flag): ARROWHEAD REGIONAL MEDICAL CENTER, CALIFORNIA HOSPITAL MEDICAL CENTER, CEDARS-SINAI MEDICAL CENTER, COMMUNITY HOSP. MONTEREY PENINSULA, EISENHOWER MEDICAL CENTER, GLENDALE ADVENTIST MEDICAL CENTER, GLENDALE MEMORIAL HOSPITAL & HEALTH CENTER, HUNTINGTON HOSPITAL, Keck Hospital of USC, MISSION HOSPITAL REG MEDICAL CENTER, PIH HEALTH GOOD SAMARITAN HOSPITAL, RIDEOUT MEMORIAL HOSPITAL DBA Adventist Health and Rideout, RONALD REAGAN UCLA MEDICAL CENTER, Reedley Community Hospital dba Adventist Health Reedley, Riverside University Health System, SALINAS VALLEY HEALTH MEDICAL CENTER, SANTA BARBARA COTTAGE HOSPITAL, SANTA MONICA UCLAMC AND ORTHOPAEDIC HOSPITAL, SCRIPPS MERCY HOSPITAL, ST JOSEPH'S MEDICAL CENTER, ST JUDE MEDICAL CENTER FULLERTON, ST Joseph Health Northern California LLC-DBA Queen of the Valley Medical Center, ST Joseph Health Northern California LLC-DBA Santa Rosa Memorial Hospital, ST. BERNARDINE MEDICAL CENTER, STANFORD HEALTH CARE, STANFORD HEALTH CARE TRI-VALLEY, SUTTER VALLEY HOSPITALS DBA SUTTER MEDICAL CENTER SACRAMENTO, Sutter Valley Hospital DBA Memorial Hospital Los Banos, UCI Health-Orange, UCSD MEDICAL CENTER, UCSF-MEDICAL CENTER, UNIVERSITY OF CALIFORNIA DAVIS MEDICAL CENTER, WASHINGTON HOSPITAL HEALTHCARE SYSTEM, WHITE MEMORIAL MEDICAL CENTER, DBA Adventist Health White Memorial; CMS FY2027 IPPS Medicare DSH supplemental file: 134 California 340B hospitals projected to receive DSH in FY2027, total uncompensated care payment 422,505,594",
+   "as_of": "CMS FY2027 IPPS final rule impact file (correction notice) and DSH supplemental file"
+  },
+  {
+   "num": "VI",
+   "label": "Stark & Anti-Kickback",
+   "key": "stark",
+   "weight": 12.5,
+   "title": "No room to build rivals",
+   "grade": null,
+   "body": "California has its own anti-kickback and self-referral laws. Business and Professions Code 650 makes it a crime to pay or accept anything of value for patient referrals. A first conviction carries up to a year in jail, a $50,000 fine, or both. Section 650.01, the Physician Ownership and Referral Act, covers imaging, laboratory and six other services. A physician cannot refer to an entity in which the physician holds a financial interest. Welfare and Institutions Code 14107.2 adds a Medi-Cal kickback crime. Whether these go beyond the federal statutes is not yet researched.",
+   "status": "PENDING RESEARCH",
+   "tone": "grey",
+   "href": null,
+   "linkText": null,
+   "basis": "pending",
+   "source": "California Business and Professions Code section 650 (unearned rebates for referrals; first conviction up to one year in county jail or a fine up to $50,000, or both, as amended by Stats. 2021, Ch. 439) and section 650.01 (referrals for laboratory, diagnostic nuclear medicine, radiation oncology, physical therapy, physical rehabilitation, psychometric testing, home infusion therapy and diagnostic imaging barred where the licensee or immediate family has a financial interest, as amended by Stats. 2020, Ch. 265); Welfare and Institutions Code section 14107.2 (Medi-Cal kickbacks); leginfo.legislature.ca.gov, retrieved November 21, 2026; state self-referral review not yet done",
+   "as_of": "November 21, 2026"
+  }
+ ],
+ "systems": {
+  "subtitle": "Their 340B hospitals in California",
+  "note": "Margin is net income over net patient revenue plus other income, the cost report's total margin. CMS hospital cost reports, latest report per hospital; hospitals assigned to systems by the AHRQ 2023 Compendium linkage. 50 of the 182 are public hospitals (hospital districts, counties and the University of California) and file no Form 990. Every one of the 182 hospitals has a cost report.",
+  "rows": [
+   {
+    "name": "University of California Health",
+    "slug": null,
+    "hospitals": 7,
+    "netPatientRevenue": 22161486031,
+    "netIncome": 1678909232,
+    "otherIncome": 1834156277,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Stanford Health Care",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 11028225269,
+    "netIncome": 1225252347,
+    "otherIncome": 754446614,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "CommonSpirit Health",
+    "slug": "commonspirit",
+    "hospitals": 24,
+    "netPatientRevenue": 10732414405,
+    "netIncome": 834103857,
+    "otherIncome": 1017913875,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Sharp HealthCare",
+    "slug": null,
+    "hospitals": 4,
+    "netPatientRevenue": 3324849457,
+    "netIncome": 698782488,
+    "otherIncome": 706558199,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Cedars-Sinai Health System",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 5353083828,
+    "netIncome": 643584519,
+    "otherIncome": 1044996786,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Community Medical Centers",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 2291820030,
+    "netIncome": 313930032,
+    "otherIncome": 425806900,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Loma Linda University Health",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 2389245332,
+    "netIncome": 213902662,
+    "otherIncome": 894232207,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Sutter Health",
+    "slug": null,
+    "hospitals": 17,
+    "netPatientRevenue": 8068611453,
+    "netIncome": 203180218,
+    "otherIncome": 210411735,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "CHOC Children's",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1373123733,
+    "netIncome": 202963301,
+    "otherIncome": 290753303,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "PIH Health",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 1403860515,
+    "netIncome": 175175763,
+    "otherIncome": 278712857,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Cottage Health System",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 958897191,
+    "netIncome": 151556039,
+    "otherIncome": 146650087,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Santa Clara Valley Health and Hospital System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 3097737327,
+    "netIncome": 106343602,
+    "otherIncome": 865143098,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Contra Costa Health Services",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 775564675,
+    "netIncome": 103154855,
+    "otherIncome": 201076716,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "John Muir Health",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 1868713015,
+    "netIncome": 102010058,
+    "otherIncome": 124171500,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Salinas Valley Memorial Healthcare System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 699633076,
+    "netIncome": 94185913,
+    "otherIncome": 77003285,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Rady Children's Hospital-San Diego",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1738310754,
+    "netIncome": 86927491,
+    "otherIncome": 81302924,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Arrowhead Regional Medical Center",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 525936490,
+    "netIncome": 68568054,
+    "otherIncome": 446594725,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Montage Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 880390938,
+    "netIncome": 67571676,
+    "otherIncome": 15147000,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Redlands Community Hospital",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 241666339,
+    "netIncome": 50435495,
+    "otherIncome": 64715325,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Scripps Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1070184811,
+    "netIncome": 47761194,
+    "otherIncome": 248046931,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Tahoe Forest Hospital District",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 334556065,
+    "netIncome": 45658669,
+    "otherIncome": 48254550,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Barton Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 196260770,
+    "netIncome": 42691242,
+    "otherIncome": 63617211,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "University of Southern California",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 2429948288,
+    "netIncome": 41443866,
+    "otherIncome": 237974287,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Washington Hospital Healthcare System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 630993985,
+    "netIncome": 39992763,
+    "otherIncome": 73602610,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Northbay Healthcare",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 806949012,
+    "netIncome": 36816940,
+    "otherIncome": 54458778,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Eisenhower Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1259180643,
+    "netIncome": 33700249,
+    "otherIncome": 124329956,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "OroHealth Corporation",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 405109083,
+    "netIncome": 32077056,
+    "otherIncome": 36228829,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "San Antonio Regional Hospital",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 481571043,
+    "netIncome": 28748879,
+    "otherIncome": 27048656,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Enloe Medical Center",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1057826871,
+    "netIncome": 28344362,
+    "otherIncome": 23864093,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Kaweah Delta Health Care District",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 648956608,
+    "netIncome": 27658312,
+    "otherIncome": 313446522,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Community Memorial Health System",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 634442651,
+    "netIncome": 27339418,
+    "otherIncome": 44248662,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Pomona Valley Hospital Medical Center",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 833376702,
+    "netIncome": 27156631,
+    "otherIncome": 38331187,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "MarinHealth",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 578874017,
+    "netIncome": 22994165,
+    "otherIncome": 88683758,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Alameda Health System",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 430586923,
+    "netIncome": 22448000,
+    "otherIncome": 1197317314,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Emanate Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 594874488,
+    "netIncome": 17296805,
+    "otherIncome": 32224362,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "San Joaquin County Clinics",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 284443190,
+    "netIncome": 12009721,
+    "otherIncome": 266500206,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Tri-City Healthcare District",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 290656427,
+    "netIncome": 11955299,
+    "otherIncome": 61315416,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "MLK Community Healthcare",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 175201317,
+    "netIncome": 10484982,
+    "otherIncome": 282369861,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Antelope Valley Medical Center",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 569222016,
+    "netIncome": 9099287,
+    "otherIncome": 17911877,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Marshall Medical Center",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 333255269,
+    "netIncome": 8800984,
+    "otherIncome": 10607496,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Ventura County Health Care Agency",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 633461379,
+    "netIncome": 7816562,
+    "otherIncome": 96835134,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Children's Hospital Los Angeles",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1429610869,
+    "netIncome": 1839026,
+    "otherIncome": 456074925,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Banner Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 43108231,
+    "netIncome": -6867325,
+    "otherIncome": 38518,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "El Centro Regional Medical Center",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 150395756,
+    "netIncome": -7235350,
+    "otherIncome": 9084951,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "San Mateo County Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 214566377,
+    "netIncome": -16119762,
+    "otherIncome": 253390861,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Riverside University Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 941981706,
+    "netIncome": -21116985,
+    "otherIncome": 116453533,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Trinity Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 695393426,
+    "netIncome": -27532785,
+    "otherIncome": 32160353,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Adventist Health",
+    "slug": null,
+    "hospitals": 15,
+    "netPatientRevenue": 4586063631,
+    "netIncome": -28833975,
+    "otherIncome": 544892131,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Palomar Health",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 808851636,
+    "netIncome": -32064648,
+    "otherIncome": 35851277,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "MemorialCare Health System",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 1766163108,
+    "netIncome": -50338000,
+    "otherIncome": 186668528,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "San Francisco Health Network",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1059024754,
+    "netIncome": -93325520,
+    "otherIncome": 375031692,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "HCA Healthcare",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 223033550,
+    "netIncome": -98081766,
+    "otherIncome": 1445583,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Tenet Healthcare",
+    "slug": null,
+    "hospitals": 4,
+    "netPatientRevenue": 858707676,
+    "netIncome": -114799265,
+    "otherIncome": 4563128,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Providence",
+    "slug": null,
+    "hospitals": 15,
+    "netPatientRevenue": 6428253012,
+    "netIncome": -221342217,
+    "otherIncome": 817405925,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Los Angeles County Department of Health Services",
+    "slug": null,
+    "hospitals": 4,
+    "netPatientRevenue": 5250556805,
+    "netIncome": -863620979,
+    "otherIncome": 231139612,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   },
+   {
+    "name": "Independent hospitals (27)",
+    "slug": null,
+    "hospitals": 27,
+    "netPatientRevenue": 5327495877,
+    "netIncome": 364709533,
+    "otherIncome": 976750626,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN); hospitals with no system in the linkage file",
+    "as_of": "hospital fiscal years ending 2023 to 2025"
+   }
+  ]
+ },
+ "hospitals": {
+  "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital",
+  "as_of": "hospital fiscal years ending 2023 to 2025",
+  "rows": [
+   {
+    "ccn": "050441",
+    "name": "STANFORD HEALTH CARE",
+    "system": "Stanford Health Care",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 7893382434,
+    "netIncome": 1054860529,
+    "totalAssets": 12742655687,
+    "charityCareAtCost": 23229724
+   },
+   {
+    "ccn": "050454",
+    "name": "UCSF-MEDICAL CENTER",
+    "system": "University of California Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 6828788445,
+    "netIncome": 422704627,
+    "totalAssets": 8971762581,
+    "charityCareAtCost": 103720736
+   },
+   {
+    "ccn": "050625",
+    "name": "CEDARS-SINAI MEDICAL CENTER",
+    "system": "Cedars-Sinai Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 4400597166,
+    "netIncome": 660870210,
+    "totalAssets": 13159755517,
+    "charityCareAtCost": 67830546
+   },
+   {
+    "ccn": "050025",
+    "name": "UCSD MEDICAL CENTER",
+    "system": "University of California Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 4117937010,
+    "netIncome": 424603266,
+    "totalAssets": 3929933306,
+    "charityCareAtCost": 40680863
+   },
+   {
+    "ccn": "050599",
+    "name": "UNIVERSITY OF CALIFORNIA DAVIS MEDICAL CENTER",
+    "system": "University of California Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 3865080424,
+    "netIncome": 241798265,
+    "totalAssets": 5798653000,
+    "charityCareAtCost": 32319261
+   },
+   {
+    "ccn": "050262",
+    "name": "RONALD REAGAN UCLA MEDICAL CENTER",
+    "system": "University of California Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 3127598036,
+    "netIncome": 423976027,
+    "totalAssets": 5492790000,
+    "charityCareAtCost": 11050063
+   },
+   {
+    "ccn": "050038",
+    "name": "SANTA CLARA VALLEY MEDICAL CENTER",
+    "system": "Santa Clara Valley Health and Hospital System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 3097737327,
+    "netIncome": 106343602,
+    "totalAssets": 2097314681,
+    "charityCareAtCost": 90262917
+   },
+   {
+    "ccn": "053305",
+    "name": "LUCILE PACKARD CHILDREN'S HOSPITAL",
+    "system": "Stanford Health Care",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 2604252586,
+    "netIncome": 156061632,
+    "totalAssets": 4694001870,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050146",
+    "name": "CITY OF HOPE NATIONAL MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 2586642676,
+    "netIncome": 210494048,
+    "totalAssets": 4764311091,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050348",
+    "name": "UCI Health-Orange",
+    "system": "University of California Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 2540747028,
+    "netIncome": -155736319,
+    "totalAssets": 0,
+    "charityCareAtCost": 27476017
+   },
+   {
+    "ccn": "050373",
+    "name": "LOS ANGELES COUNTY DEPARTMENT OF HEALTH SERVICES - Los Angeles General Medical Center",
+    "system": "Los Angeles County Department of Health Services",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 2122344235,
+    "netIncome": -707181782,
+    "totalAssets": 4637723485,
+    "charityCareAtCost": 49061837
+   },
+   {
+    "ccn": "050108",
+    "name": "SUTTER VALLEY HOSPITALS DBA SUTTER MEDICAL CENTER SACRAMENTO",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1826709690,
+    "netIncome": 99211002,
+    "totalAssets": 1271765677,
+    "charityCareAtCost": 15944677
+   },
+   {
+    "ccn": "050376",
+    "name": "LOS ANGELES COUNTY (LAC)",
+    "system": "Los Angeles County Department of Health Services",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1802918396,
+    "netIncome": 262797529,
+    "totalAssets": 3725564810,
+    "charityCareAtCost": 39759188
+   },
+   {
+    "ccn": "053303",
+    "name": "RADY CHILDREN'S HOSPITAL SAN DIEGO",
+    "system": "Rady Children's Hospital-San Diego",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1738310754,
+    "netIncome": 86927491,
+    "totalAssets": 1587062585,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050327",
+    "name": "LOMA LINDA UNIVERSITY MEDICAL CENTER",
+    "system": "Loma Linda University Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1556752257,
+    "netIncome": 160145103,
+    "totalAssets": 3967854696,
+    "charityCareAtCost": 44201970
+   },
+   {
+    "ccn": "050060",
+    "name": "COMMUNITY REGIONAL MEDICAL CENTER",
+    "system": "Community Medical Centers",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 1556068863,
+    "netIncome": 279776907,
+    "totalAssets": 2078635092,
+    "charityCareAtCost": 10462528
+   },
+   {
+    "ccn": "050100",
+    "name": "SHARP MEMORIAL HOSPITAL",
+    "system": "Sharp HealthCare",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1520035499,
+    "netIncome": 410599827,
+    "totalAssets": 4464873284,
+    "charityCareAtCost": 20832140
+   },
+   {
+    "ccn": "050696",
+    "name": "Keck Hospital of USC",
+    "system": "University of Southern California",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1477065713,
+    "netIncome": -28240315,
+    "totalAssets": 1156360491,
+    "charityCareAtCost": 5272322
+   },
+   {
+    "ccn": "053302",
+    "name": "Childrens Hospital Los Angeles",
+    "system": "Children's Hospital Los Angeles",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1429610869,
+    "netIncome": 1839026,
+    "totalAssets": 2690542949,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "053304",
+    "name": "Children's Hospital of Orange County",
+    "system": "CHOC Children's",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1373123733,
+    "netIncome": 202963301,
+    "totalAssets": 2440915520,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050573",
+    "name": "EISENHOWER MEDICAL CENTER",
+    "system": "Eisenhower Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1259180643,
+    "netIncome": 33700249,
+    "totalAssets": 1737399658,
+    "charityCareAtCost": 6313172
+   },
+   {
+    "ccn": "050180",
+    "name": "JOHN MUIR MEDICAL CENTER - WC",
+    "system": "John Muir Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1166945780,
+    "netIncome": 87254943,
+    "totalAssets": 1307946487,
+    "charityCareAtCost": 5344087
+   },
+   {
+    "ccn": "050047",
+    "name": "SUTTER BAY HOSPITALS DBA CPMC VAN NESS CAMPUS",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1145639267,
+    "netIncome": -104997880,
+    "totalAssets": 2933496094,
+    "charityCareAtCost": 7775812
+   },
+   {
+    "ccn": "050077",
+    "name": "SCRIPPS MERCY HOSPITAL",
+    "system": "Scripps Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1070184811,
+    "netIncome": 47761194,
+    "totalAssets": 552204523,
+    "charityCareAtCost": 17488189
+   },
+   {
+    "ccn": "050228",
+    "name": "Zuckerberg San Francisco General",
+    "system": "San Francisco Health Network",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1059024754,
+    "netIncome": -93325520,
+    "totalAssets": 1007605547,
+    "charityCareAtCost": 76935410
+   },
+   {
+    "ccn": "050039",
+    "name": "ENLOE MEDICAL CENTER",
+    "system": "Enloe Medical Center",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1057826871,
+    "netIncome": 28344362,
+    "totalAssets": 1045913292,
+    "charityCareAtCost": 7907831
+   },
+   {
+    "ccn": "050026",
+    "name": "GROSSMONT HOSPITAL",
+    "system": "Sharp HealthCare",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 997799233,
+    "netIncome": 135479680,
+    "totalAssets": 1529645150,
+    "charityCareAtCost": 16626367
+   },
+   {
+    "ccn": "050112",
+    "name": "SANTA MONICA UCLAMC AND ORTHOPAEDIC HOSPITAL",
+    "system": "University of California Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 969814668,
+    "netIncome": 109343125,
+    "totalAssets": 919900249,
+    "charityCareAtCost": 4221165
+   },
+   {
+    "ccn": "050557",
+    "name": "Sutter Valley Hospitals DBA Memorial Medical Center",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 955137045,
+    "netIncome": 104343387,
+    "totalAssets": 417188428,
+    "charityCareAtCost": 8725975
+   },
+   {
+    "ccn": "050292",
+    "name": "Riverside University Health System",
+    "system": "Riverside University Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 941981706,
+    "netIncome": -21116985,
+    "totalAssets": 975040012,
+    "charityCareAtCost": 5016121
+   },
+   {
+    "ccn": "050396",
+    "name": "SANTA BARBARA COTTAGE HOSPITAL",
+    "system": "Cottage Health System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 929476925,
+    "netIncome": 144423272,
+    "totalAssets": 2429875664,
+    "charityCareAtCost": 6174836
+   },
+   {
+    "ccn": "050040",
+    "name": "OLIVE VIEW MEDICAL CENTER",
+    "system": "Los Angeles County Department of Health Services",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 886031958,
+    "netIncome": -153814163,
+    "totalAssets": 1547916261,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050145",
+    "name": "COMMUNITY HOSP. MONTEREY PENINSULA",
+    "system": "Montage Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 880390938,
+    "netIncome": 67571676,
+    "totalAssets": 704638927,
+    "charityCareAtCost": 6814603
+   },
+   {
+    "ccn": "050169",
+    "name": "PIH Health Whittier Hospital",
+    "system": "PIH Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 836291290,
+    "netIncome": 149730173,
+    "totalAssets": 2037189041,
+    "charityCareAtCost": 4004003
+   },
+   {
+    "ccn": "050231",
+    "name": "POMONA VALLEY HOSPITAL MEDICAL CENTER",
+    "system": "Pomona Valley Hospital Medical Center",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 833376702,
+    "netIncome": 27156631,
+    "totalAssets": 794405480,
+    "charityCareAtCost": 3767606
+   },
+   {
+    "ccn": "050485",
+    "name": "Long Beach Memorial Medical Center, Inc. dba MemorialCare Long Beach Medical Center",
+    "system": "MemorialCare Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 824207808,
+    "netIncome": 20039190,
+    "totalAssets": 1611673916,
+    "charityCareAtCost": 10096388
+   },
+   {
+    "ccn": "050567",
+    "name": "MISSION HOSPITAL REG MEDICAL CENTER",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 813972937,
+    "netIncome": -45624693,
+    "totalAssets": 548959633,
+    "charityCareAtCost": 8636705
+   },
+   {
+    "ccn": "050367",
+    "name": "NorthBay Healthcare Group",
+    "system": "Northbay Healthcare",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 806949012,
+    "netIncome": 36816940,
+    "totalAssets": 889465780,
+    "charityCareAtCost": 8323871
+   },
+   {
+    "ccn": "050107",
+    "name": "MARIAN MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 804837630,
+    "netIncome": 111273842,
+    "totalAssets": 652466010,
+    "charityCareAtCost": 18489802
+   },
+   {
+    "ccn": "050017",
+    "name": "MERCY GENERAL HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 791217017,
+    "netIncome": 84306307,
+    "totalAssets": 606034673,
+    "charityCareAtCost": 10538362
+   },
+   {
+    "ccn": "050438",
+    "name": "HUNTINGTON HOSPITAL",
+    "system": "Cedars-Sinai Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 786533006,
+    "netIncome": -9821555,
+    "totalAssets": 1782224363,
+    "charityCareAtCost": 17886472
+   },
+   {
+    "ccn": "050516",
+    "name": "MERCY SAN JUAN MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 784324178,
+    "netIncome": 17904038,
+    "totalAssets": 450614692,
+    "charityCareAtCost": 21479563
+   },
+   {
+    "ccn": "050084",
+    "name": "ST JOSEPH'S MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 782306395,
+    "netIncome": 133048337,
+    "totalAssets": 1047296918,
+    "charityCareAtCost": 17483382
+   },
+   {
+    "ccn": "050276",
+    "name": "CONTRA COSTA REGIONAL MEDICAL CENTER",
+    "system": "Contra Costa Health Services",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 775564675,
+    "netIncome": 103154855,
+    "totalAssets": 890751265,
+    "charityCareAtCost": 12695798
+   },
+   {
+    "ccn": "050305",
+    "name": "Sutter Bay Hospitals, dba Alta Bates Summit Medical Center",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 764447055,
+    "netIncome": -92013123,
+    "totalAssets": 966196484,
+    "charityCareAtCost": 6826823
+   },
+   {
+    "ccn": "050492",
+    "name": "Fresno Community Hospital & Medical Center dba Clovis Community Medical Center",
+    "system": "Community Medical Centers",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 735751167,
+    "netIncome": 34153125,
+    "totalAssets": 931447149,
+    "charityCareAtCost": 5787968
+   },
+   {
+    "ccn": "050069",
+    "name": "ST. JOSEPH HOSPITAL OF ORANGE",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 726892323,
+    "netIncome": -70277956,
+    "totalAssets": 779863615,
+    "charityCareAtCost": 13332137
+   },
+   {
+    "ccn": "053301",
+    "name": "CHILDRENS HOSP & RES CNTR OAKLAND",
+    "system": "University of California Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 711520420,
+    "netIncome": 212220241,
+    "totalAssets": 1289279597,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050496",
+    "name": "JOHN MUIR MEDICAL CENTER - CONCORD",
+    "system": "John Muir Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 701767235,
+    "netIncome": 14755115,
+    "totalAssets": 388446454,
+    "charityCareAtCost": 3611423
+   },
+   {
+    "ccn": "050334",
+    "name": "SALINAS VALLEY HEALTH MEDICAL CENTER",
+    "system": "Salinas Valley Memorial Healthcare System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 699633076,
+    "netIncome": 94185913,
+    "totalAssets": 1287782710,
+    "charityCareAtCost": 3406394
+   },
+   {
+    "ccn": "050455",
+    "name": "Adventist Health Bakersfield",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 696438352,
+    "netIncome": -11479753,
+    "totalAssets": 705800122,
+    "charityCareAtCost": 5847782
+   },
+   {
+    "ccn": "050093",
+    "name": "SAINT AGNES MEDICAL CENTER",
+    "system": "Trinity Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 695393426,
+    "netIncome": -27532785,
+    "totalAssets": 586276977,
+    "charityCareAtCost": 10432945
+   },
+   {
+    "ccn": "050036",
+    "name": "BAKERSFIELD MEMORIAL HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 694096648,
+    "netIncome": 131881596,
+    "totalAssets": 1170275780,
+    "charityCareAtCost": 14970793
+   },
+   {
+    "ccn": "050168",
+    "name": "ST JUDE MEDICAL CENTER FULLERTON",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 682569907,
+    "netIncome": -43291187,
+    "totalAssets": 1084616765,
+    "charityCareAtCost": 11243681
+   },
+   {
+    "ccn": "050057",
+    "name": "Kaweah Delta Health Care District DBA Kaweah Health",
+    "system": "Kaweah Delta Health Care District",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 648956608,
+    "netIncome": 27658312,
+    "totalAssets": 729601319,
+    "charityCareAtCost": 4452076
+   },
+   {
+    "ccn": "050159",
+    "name": "VENTURA COUNTY MEDICAL CENTER",
+    "system": "Ventura County Health Care Agency",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 633461379,
+    "netIncome": 7816562,
+    "totalAssets": 829858656,
+    "charityCareAtCost": 5719482
+   },
+   {
+    "ccn": "050278",
+    "name": "PROVIDENCE HEALTH SYSTEM SOUTHERN CALIFORNIA DBA PROVIDENCE HOLY CROSS MEDICAL CENTER",
+    "system": "Providence",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 631815697,
+    "netIncome": 48925258,
+    "totalAssets": 832178622,
+    "charityCareAtCost": 11624439
+   },
+   {
+    "ccn": "050195",
+    "name": "WASHINGTON HOSPITAL HEALTHCARE SYSTEM",
+    "system": "Washington Hospital Healthcare System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 630993985,
+    "netIncome": 39992763,
+    "totalAssets": 1550800135,
+    "charityCareAtCost": 1557035
+   },
+   {
+    "ccn": "050222",
+    "name": "SHARP CHULA VISTA MEDICAL CENTER",
+    "system": "Sharp HealthCare",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 630170816,
+    "netIncome": 109677035,
+    "totalAssets": 709217983,
+    "charityCareAtCost": 13528141
+   },
+   {
+    "ccn": "050115",
+    "name": "Palomar UCSD Medical Center Escondido",
+    "system": "Palomar Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 628761959,
+    "netIncome": -22111733,
+    "totalAssets": 10227022819,
+    "charityCareAtCost": 11717172
+   },
+   {
+    "ccn": "050082",
+    "name": "ST JOHNS REGIONAL MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 628217041,
+    "netIncome": 29429628,
+    "totalAssets": 574018341,
+    "charityCareAtCost": 10949527
+   },
+   {
+    "ccn": "050280",
+    "name": "MERCY MEDICAL CENTER, REDDING",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 622694038,
+    "netIncome": 182929508,
+    "totalAssets": 1749128301,
+    "charityCareAtCost": 13104877
+   },
+   {
+    "ccn": "050149",
+    "name": "CALIFORNIA HOSPITAL MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 610650255,
+    "netIncome": 15211558,
+    "totalAssets": 993987472,
+    "charityCareAtCost": 21381390
+   },
+   {
+    "ccn": "050174",
+    "name": "ST Joseph Health Northern California LLC-DBA Santa Rosa Memorial Hospital",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 608198478,
+    "netIncome": -66905791,
+    "totalAssets": 236807796,
+    "charityCareAtCost": 11312077
+   },
+   {
+    "ccn": "050660",
+    "name": "USC Norris Cancer Hospital",
+    "system": "University of Southern California",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 605265091,
+    "netIncome": 121886016,
+    "totalAssets": 211006550,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050043",
+    "name": "Sutter Bay Hospitals, dba Alta Bates Summit Medical Center",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 598888450,
+    "netIncome": 29056871,
+    "totalAssets": 966196484,
+    "charityCareAtCost": 4558737
+   },
+   {
+    "ccn": "050382",
+    "name": "EMANATE HEALTH MEDICAL CENTER",
+    "system": "Emanate Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 594874488,
+    "netIncome": 17296805,
+    "totalAssets": 722110992,
+    "charityCareAtCost": 12469514
+   },
+   {
+    "ccn": "050103",
+    "name": "WHITE MEMORIAL MEDICAL CENTER, DBA Adventist Health White Memorial",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 594304463,
+    "netIncome": -2036901,
+    "totalAssets": 1079205515,
+    "charityCareAtCost": 11847358
+   },
+   {
+    "ccn": "050394",
+    "name": "CMH OF SAN BUENAVENTURA",
+    "system": "Community Memorial Health System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 589913419,
+    "netIncome": 35210240,
+    "totalAssets": 986307604,
+    "charityCareAtCost": 517331
+   },
+   {
+    "ccn": "050360",
+    "name": "MARIN GENERAL HOSPITAL",
+    "system": "MarinHealth",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 578874017,
+    "netIncome": 22994165,
+    "totalAssets": 670532747,
+    "charityCareAtCost": 806820
+   },
+   {
+    "ccn": "050235",
+    "name": "PROVIDENCE HEALTH SYSTEM SOUTHERN CALIFORNIA DBA PROVIDENCE SAINT JOSEPH MEDICAL CENTER",
+    "system": "Providence",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 577330165,
+    "netIncome": 126081013,
+    "totalAssets": 685204683,
+    "charityCareAtCost": 7808269
+   },
+   {
+    "ccn": "050116",
+    "name": "NORTHRIDGE HOSPITAL MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 573313729,
+    "netIncome": 37295140,
+    "totalAssets": 591210823,
+    "charityCareAtCost": 14037797
+   },
+   {
+    "ccn": "050056",
+    "name": "ANTELOPE VALLEY MEDICAL CENTER",
+    "system": "Antelope Valley Medical Center",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 569222016,
+    "netIncome": 9099287,
+    "totalAssets": 506039092,
+    "charityCareAtCost": 4964086
+   },
+   {
+    "ccn": "050239",
+    "name": "GLENDALE ADVENTIST MEDICAL CENTER",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 560373831,
+    "netIncome": -39850884,
+    "totalAssets": 206691696,
+    "charityCareAtCost": 6883359
+   },
+   {
+    "ccn": "050778",
+    "name": "LOMA LINDA UNIVERSITY CHILDRENS HOSP",
+    "system": "Loma Linda University Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 539955022,
+    "netIncome": 54907808,
+    "totalAssets": 1633947461,
+    "charityCareAtCost": 13712554
+   },
+   {
+    "ccn": "050353",
+    "name": " PROVIDENCE HEALTH SYSTEM SOUTHERN CALIFORNIA DBA PROVIDENCE LITTLE COMPANY OF MARY MEDICAL CENTER TORRANCE",
+    "system": "Providence",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 537037280,
+    "netIncome": -26329955,
+    "totalAssets": 517290754,
+    "charityCareAtCost": 6692520
+   },
+   {
+    "ccn": "050283",
+    "name": "STANFORD HEALTH CARE TRI-VALLEY",
+    "system": "Stanford Health Care",
+    "fiscalYearEnd": "08/31/2024",
+    "netPatientRevenue": 530590249,
+    "netIncome": 14330186,
+    "totalAssets": 474137439,
+    "charityCareAtCost": 12619334
+   },
+   {
+    "ccn": "050245",
+    "name": "ARROWHEAD REGIONAL MEDICAL CENTER",
+    "system": "Arrowhead Regional Medical Center",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 525936490,
+    "netIncome": 68568054,
+    "totalAssets": 1067975913,
+    "charityCareAtCost": 20958327
+   },
+   {
+    "ccn": "050126",
+    "name": "Valley Presbyterian Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 525081123,
+    "netIncome": 34304361,
+    "totalAssets": 609593348,
+    "charityCareAtCost": 2786221
+   },
+   {
+    "ccn": "050242",
+    "name": "DOMINICAN HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 506880635,
+    "netIncome": 128169416,
+    "totalAssets": 1160452380,
+    "charityCareAtCost": 5736575
+   },
+   {
+    "ccn": "050129",
+    "name": "ST. BERNARDINE MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 498450057,
+    "netIncome": 8073280,
+    "totalAssets": 355644041,
+    "charityCareAtCost": 10130663
+   },
+   {
+    "ccn": "050291",
+    "name": "Sutter Bay Hospitals, dba Sutter Santa Rosa Regional Hospital",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 493325895,
+    "netIncome": 3808267,
+    "totalAssets": 469709869,
+    "charityCareAtCost": 5122912
+   },
+   {
+    "ccn": "050099",
+    "name": "SAN ANTONIO REGIONAL HOSPITAL",
+    "system": "San Antonio Regional Hospital",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 481571043,
+    "netIncome": 28748879,
+    "totalAssets": 810666145,
+    "charityCareAtCost": 5502237
+   },
+   {
+    "ccn": "050133",
+    "name": "RIDEOUT MEMORIAL HOSPITAL DBA Adventist Health and Rideout",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 480142687,
+    "netIncome": -52552323,
+    "totalAssets": 254960771,
+    "charityCareAtCost": 7729355
+   },
+   {
+    "ccn": "050678",
+    "name": "ORANGE COAST MEMORIAL MEDICAL CENTER",
+    "system": "MemorialCare Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 471380769,
+    "netIncome": 30880275,
+    "totalAssets": 428336579,
+    "charityCareAtCost": 5087276
+   },
+   {
+    "ccn": "053309",
+    "name": "Long Beach Memorial Medical Center, Inc., dba MemorialCare Miller Children's and Women's Hospital Long Beach",
+    "system": "MemorialCare Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 470574531,
+    "netIncome": -101257465,
+    "totalAssets": 339585823,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050488",
+    "name": "Sutter Bay Hospitals, dba Eden Medical Center",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 466939615,
+    "netIncome": 37867721,
+    "totalAssets": 337321191,
+    "charityCareAtCost": 6009709
+   },
+   {
+    "ccn": "050717",
+    "name": "RANCHO LOS AMIGOS NATIONAL REHABILITATION CENTER",
+    "system": "Los Angeles County Department of Health Services",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 439262216,
+    "netIncome": -265422563,
+    "totalAssets": 1370768161,
+    "charityCareAtCost": 4911221
+   },
+   {
+    "ccn": "050444",
+    "name": "MERCY MEDICAL CENTER MERCED",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 431451788,
+    "netIncome": 82172754,
+    "totalAssets": 536895498,
+    "charityCareAtCost": 17226066
+   },
+   {
+    "ccn": "050295",
+    "name": "MERCY HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 416883811,
+    "netIncome": 77967391,
+    "totalAssets": 720523498,
+    "charityCareAtCost": 15778851
+   },
+   {
+    "ccn": "050300",
+    "name": "ST. MARY MEDICAL CENTER",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 414617290,
+    "netIncome": -12013517,
+    "totalAssets": 594219621,
+    "charityCareAtCost": 8168270
+   },
+   {
+    "ccn": "050121",
+    "name": "Adventist Medical Center",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 408295069,
+    "netIncome": 67801306,
+    "totalAssets": 866891224,
+    "charityCareAtCost": 10114242
+   },
+   {
+    "ccn": "050030",
+    "name": "OROVILLE HOSPITAL",
+    "system": "OroHealth Corporation",
+    "fiscalYearEnd": "11/30/2024",
+    "netPatientRevenue": 405109083,
+    "netIncome": 32077056,
+    "totalAssets": 565257402,
+    "charityCareAtCost": 1797750
+   },
+   {
+    "ccn": "050006",
+    "name": "St. Joseph Health Northern California, LLC-DBA St. Joseph Hospital",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 398164912,
+    "netIncome": -44793764,
+    "totalAssets": 183870343,
+    "charityCareAtCost": 4758044
+   },
+   {
+    "ccn": "050191",
+    "name": "ST. MARY MEDICAL CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 393975940,
+    "netIncome": -20113728,
+    "totalAssets": 311975270,
+    "charityCareAtCost": 10832513
+   },
+   {
+    "ccn": "050590",
+    "name": "METHODIST HOSPITAL OF SACRAMENTO",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 382917203,
+    "netIncome": 6767020,
+    "totalAssets": 211959978,
+    "charityCareAtCost": 11172620
+   },
+   {
+    "ccn": "050471",
+    "name": "PIH HEALTH GOOD SAMARITAN HOSPITAL",
+    "system": "PIH Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 356262041,
+    "netIncome": -16221843,
+    "totalAssets": 552400827,
+    "charityCareAtCost": 6586625
+   },
+   {
+    "ccn": "050238",
+    "name": "USC ARCADIA HOSPITAL",
+    "system": "University of Southern California",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 347617484,
+    "netIncome": -52201835,
+    "totalAssets": 803495587,
+    "charityCareAtCost": 4563202
+   },
+   {
+    "ccn": "050761",
+    "name": "TARZANA MEDICAL CENTER LLC DBA PROVIDENCE CEDARS SINAI TARZANA MEDICAL CENTER",
+    "system": "Providence",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 344944027,
+    "netIncome": -7245497,
+    "totalAssets": 897881400,
+    "charityCareAtCost": 4757872
+   },
+   {
+    "ccn": "050089",
+    "name": "COMMUNITY HOSPITAL OF SAN BERNARDINO",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 336872162,
+    "netIncome": 11873098,
+    "totalAssets": 241553216,
+    "charityCareAtCost": 7674773
+   },
+   {
+    "ccn": "051328",
+    "name": "TAHOE FOREST HOSPITAL",
+    "system": "Tahoe Forest Hospital District",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 334556065,
+    "netIncome": 45658669,
+    "totalAssets": 531774864,
+    "charityCareAtCost": 637844
+   },
+   {
+    "ccn": "050254",
+    "name": "MARSHALL MEDICAL CENTER",
+    "system": "Marshall Medical Center",
+    "fiscalYearEnd": "10/31/2024",
+    "netPatientRevenue": 333255269,
+    "netIncome": 8800984,
+    "totalAssets": 350530203,
+    "charityCareAtCost": 1264680
+   },
+   {
+    "ccn": "050335",
+    "name": "Sonora Community Hospital DBA Adventist Health Sonora",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 327880037,
+    "netIncome": 31607322,
+    "totalAssets": 407470203,
+    "charityCareAtCost": 3403797
+   },
+   {
+    "ccn": "050570",
+    "name": "FOUNTAIN VALLEY REG MEDICAL CENTER",
+    "system": "Tenet Healthcare",
+    "fiscalYearEnd": "12/31/2023",
+    "netPatientRevenue": 312957323,
+    "netIncome": -27171498,
+    "totalAssets": 281113226,
+    "charityCareAtCost": 3344969
+   },
+   {
+    "ccn": "050009",
+    "name": "ST Joseph Health Northern California LLC-DBA Queen of the Valley Medical Center",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 308384708,
+    "netIncome": 3013818,
+    "totalAssets": 473046112,
+    "charityCareAtCost": 3943013
+   },
+   {
+    "ccn": "050320",
+    "name": "ALAMEDA HEALTH SYSTEM",
+    "system": "Alameda Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 307305618,
+    "netIncome": 58938285,
+    "totalAssets": 807575997,
+    "charityCareAtCost": 32394816
+   },
+   {
+    "ccn": "050315",
+    "name": "KERN MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 307220164,
+    "netIncome": 3808171,
+    "totalAssets": 568028382,
+    "charityCareAtCost": 2527801
+   },
+   {
+    "ccn": "050770",
+    "name": "LLUMC MURRIETA",
+    "system": "Loma Linda University Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 292538053,
+    "netIncome": -1150249,
+    "totalAssets": 335163671,
+    "charityCareAtCost": 11676586
+   },
+   {
+    "ccn": "050128",
+    "name": "SHARP TRI-CITY MEDICAL CENTER",
+    "system": "Tri-City Healthcare District",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 290656427,
+    "netIncome": 11955299,
+    "totalAssets": 235357502,
+    "charityCareAtCost": 3587980
+   },
+   {
+    "ccn": "050058",
+    "name": "GLENDALE MEMORIAL HOSPITAL & HEALTH CENTER",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 288432247,
+    "netIncome": -42990399,
+    "totalAssets": 234048378,
+    "charityCareAtCost": 7632308
+   },
+   {
+    "ccn": "050336",
+    "name": "Adventist Health Lodi Memorial",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 286849845,
+    "netIncome": 9117876,
+    "totalAssets": 224765743,
+    "charityCareAtCost": 5584515
+   },
+   {
+    "ccn": "050167",
+    "name": "SAN JOAQUIN GENERAL HOSPITAL",
+    "system": "San Joaquin County Clinics",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 284443190,
+    "netIncome": 12009721,
+    "totalAssets": 461629959,
+    "charityCareAtCost": 3809088
+   },
+   {
+    "ccn": "050008",
+    "name": "SUTTER BAY HOSPITALS-DBA CALIFORNIA PACIFIC MED CTR DAVIES CAMPUS",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 274065044,
+    "netIncome": 49962962,
+    "totalAssets": 2933496094,
+    "charityCareAtCost": 3726538
+   },
+   {
+    "ccn": "050013",
+    "name": "St. Helena Hospital, DBA Adventist Health St. Helena",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 263612973,
+    "netIncome": -28002915,
+    "totalAssets": 21498134,
+    "charityCareAtCost": 1749362
+   },
+   {
+    "ccn": "050523",
+    "name": "Sutter Bay Hospitals, dba Sutter Delta Medical Center",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 257714739,
+    "netIncome": 3178781,
+    "totalAssets": 136362628,
+    "charityCareAtCost": 3724801
+   },
+   {
+    "ccn": "050581",
+    "name": "LAKEWOOD REGIONAL MED. CTR.",
+    "system": "Tenet Healthcare",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 249186259,
+    "netIncome": -68619240,
+    "totalAssets": 267733826,
+    "charityCareAtCost": 7640957
+   },
+   {
+    "ccn": "050272",
+    "name": "REDLANDS COMMUNITY HOSPITAL",
+    "system": "Redlands Community Hospital",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 241666339,
+    "netIncome": 50435495,
+    "totalAssets": 582918861,
+    "charityCareAtCost": 4005876
+   },
+   {
+    "ccn": "050127",
+    "name": "WOODLAND MEMORIAL HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 235959461,
+    "netIncome": 1524509,
+    "totalAssets": 127336014,
+    "charityCareAtCost": 5710905
+   },
+   {
+    "ccn": "050481",
+    "name": "UCLA WEST VALLEY MEDICAL CENTER",
+    "system": "HCA Healthcare",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 223033550,
+    "netIncome": -98081766,
+    "totalAssets": 412850000,
+    "charityCareAtCost": 2473222
+   },
+   {
+    "ccn": "050313",
+    "name": "SUTTER VALLEY HOSPITALS DBA SUTTER TRACY COMMUNITY HOSPITAL",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 220724514,
+    "netIncome": 47049385,
+    "totalAssets": 91005654,
+    "charityCareAtCost": 2782656
+   },
+   {
+    "ccn": "050192",
+    "name": "Reedley Community Hospital dba Adventist Health Reedley",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 219174354,
+    "netIncome": 24324080,
+    "totalAssets": 308508836,
+    "charityCareAtCost": 8043633
+   },
+   {
+    "ccn": "050457",
+    "name": "UCSF HEALTH STANYAN HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "07/31/2024",
+    "netPatientRevenue": 214620572,
+    "netIncome": -189338359,
+    "totalAssets": 150913755,
+    "charityCareAtCost": 6580721
+   },
+   {
+    "ccn": "050113",
+    "name": "SAN MATEO MEDICAL CENTER",
+    "system": "San Mateo County Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 214566377,
+    "netIncome": -16119762,
+    "totalAssets": 464752159,
+    "charityCareAtCost": 8862269
+   },
+   {
+    "ccn": "050150",
+    "name": "SIERRA NEVADA MEMORIAL HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 214188598,
+    "netIncome": 35898940,
+    "totalAssets": 375883013,
+    "charityCareAtCost": 5130649
+   },
+   {
+    "ccn": "050301",
+    "name": "ADVENTIST HEALTH UKIAH VALLEY",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 211495906,
+    "netIncome": 9033314,
+    "totalAssets": 268349575,
+    "charityCareAtCost": 4506249
+   },
+   {
+    "ccn": "050393",
+    "name": "PIH HEALTH DOWNEY HOSPITAL",
+    "system": "PIH Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 211307184,
+    "netIncome": 41667433,
+    "totalAssets": 224539695,
+    "charityCareAtCost": 2802421
+   },
+   {
+    "ccn": "050078",
+    "name": "PROVIDENCE HEALTH SYSTEM SOUTHERN CALIFORNIA DBA PROVIDENCE  LITTLE COMPANY OF MARY MEDICAL CENTER SAN PEDRO",
+    "system": "Providence",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 210180721,
+    "netIncome": -26001469,
+    "totalAssets": 177425960,
+    "charityCareAtCost": 4051579
+   },
+   {
+    "ccn": "050537",
+    "name": "SUTTER VALLEY HOSPITALS, DBA SUTTER DAVIS HOSPITAL",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 206537399,
+    "netIncome": 26993596,
+    "totalAssets": 123424355,
+    "charityCareAtCost": 2078331
+   },
+   {
+    "ccn": "050506",
+    "name": "ADVENTIST HEALTH SIERRA VISTA",
+    "system": "Tenet Healthcare",
+    "fiscalYearEnd": "05/31/2025",
+    "netPatientRevenue": 203015174,
+    "netIncome": -18335232,
+    "totalAssets": 284688410,
+    "charityCareAtCost": 2603638
+   },
+   {
+    "ccn": "050352",
+    "name": "BARTON MEMORIAL HOSPITAL",
+    "system": "Barton Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 196260770,
+    "netIncome": 42691242,
+    "totalAssets": 471374260,
+    "charityCareAtCost": 3444644
+   },
+   {
+    "ccn": "050055",
+    "name": "SUTTER BAY HOSPITALS DBA CPMC MISSION BERNAL CAMPUS",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 192315629,
+    "netIncome": -54212192,
+    "totalAssets": 2852336901,
+    "charityCareAtCost": 2769611
+   },
+   {
+    "ccn": "050042",
+    "name": "ST ELIZABETH COMMUNITY HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 185327788,
+    "netIncome": 54049087,
+    "totalAssets": 425614685,
+    "charityCareAtCost": 6207703
+   },
+   {
+    "ccn": "050101",
+    "name": "Sutter Valley Hospitals, DBA Sutter Solano Medical Center",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 182481793,
+    "netIncome": -4525198,
+    "totalAssets": 106933678,
+    "charityCareAtCost": 2395786
+   },
+   {
+    "ccn": "050636",
+    "name": "PALOMAR UCSD MEDICAL CENTER POWAY",
+    "system": "Palomar Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 180089677,
+    "netIncome": -9952915,
+    "totalAssets": 3195354920,
+    "charityCareAtCost": 2549914
+   },
+   {
+    "ccn": "050234",
+    "name": "SHARP CORONADO HOSPITAL",
+    "system": "Sharp HealthCare",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 176843909,
+    "netIncome": 43025946,
+    "totalAssets": 238229761,
+    "charityCareAtCost": 2697619
+   },
+   {
+    "ccn": "051317",
+    "name": "Adventist Health Clearlake Hospital, Inc.",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 176420326,
+    "netIncome": 3751038,
+    "totalAssets": 149069602,
+    "charityCareAtCost": 2393268
+   },
+   {
+    "ccn": "050152",
+    "name": "UCSF HEALTH HYDE HOSPITAL",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 176025275,
+    "netIncome": -71890515,
+    "totalAssets": -1584314,
+    "charityCareAtCost": 9935504
+   },
+   {
+    "ccn": "050779",
+    "name": "MARTIN LUTHER KING COMMUNITY HOSP",
+    "system": "MLK Community Healthcare",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 175201317,
+    "netIncome": 10484982,
+    "totalAssets": 614446394,
+    "charityCareAtCost": 18254093
+   },
+   {
+    "ccn": "050342",
+    "name": "PIONEERS MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 173500849,
+    "netIncome": 12124875,
+    "totalAssets": 194867931,
+    "charityCareAtCost": 1254307
+   },
+   {
+    "ccn": "050110",
+    "name": "LOMPOC HEALTHCARE DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 169979500,
+    "netIncome": 14118419,
+    "totalAssets": 164308207,
+    "charityCareAtCost": 754457
+   },
+   {
+    "ccn": "050261",
+    "name": "Sierra View Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 169592475,
+    "netIncome": 5410831,
+    "totalAssets": 325777885,
+    "charityCareAtCost": 942251
+   },
+   {
+    "ccn": "050740",
+    "name": "CEDARS-SINAI MARINA DEL REY HOSPITAL",
+    "system": "Cedars-Sinai Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 165953656,
+    "netIncome": -7464136,
+    "totalAssets": 182944722,
+    "charityCareAtCost": 7125831
+   },
+   {
+    "ccn": "051337",
+    "name": "HAZEL HAWKINS MEM. HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 154228007,
+    "netIncome": 25753153,
+    "totalAssets": 145126112,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "050194",
+    "name": "WATSONVILLE COMMUNITY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 151014847,
+    "netIncome": 2759084,
+    "totalAssets": 34280916,
+    "charityCareAtCost": 1964045
+   },
+   {
+    "ccn": "050045",
+    "name": "EL CENTRO REGIONAL MEDICAL CENTER",
+    "system": "El Centro Regional Medical Center",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 150395756,
+    "netIncome": -7235350,
+    "totalAssets": 209431997,
+    "charityCareAtCost": 402448
+   },
+   {
+    "ccn": "051333",
+    "name": "Ridgecrest Regional Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 145122527,
+    "netIncome": -3434963,
+    "totalAssets": 148696363,
+    "charityCareAtCost": 324664
+   },
+   {
+    "ccn": "050528",
+    "name": "Sutter Valley Hospital DBA Memorial Hospital Los Banos",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 130944291,
+    "netIncome": 38682126,
+    "totalAssets": 53047850,
+    "charityCareAtCost": 2494932
+   },
+   {
+    "ccn": "050122",
+    "name": "DAMERON HOSPITAL ASSOCIATION",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 124600464,
+    "netIncome": -41168532,
+    "totalAssets": 83518406,
+    "charityCareAtCost": 4027788
+   },
+   {
+    "ccn": "050211",
+    "name": "ALAMEDA HOSPITAL",
+    "system": "Alameda Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 123281305,
+    "netIncome": -36490285,
+    "totalAssets": 807575997,
+    "charityCareAtCost": 1991867
+   },
+   {
+    "ccn": "050417",
+    "name": "SUTTER COAST HOSPITAL",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 121414261,
+    "netIncome": 7587435,
+    "totalAssets": 65116268,
+    "charityCareAtCost": 1628888
+   },
+   {
+    "ccn": "051329",
+    "name": "Sutter Bay Hospitals, dba Sutter Lakeside Hospital",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 120708602,
+    "netIncome": 8018145,
+    "totalAssets": 58344475,
+    "charityCareAtCost": 1588487
+   },
+   {
+    "ccn": "051316",
+    "name": "Fairchild Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 120583787,
+    "netIncome": 730521,
+    "totalAssets": 102280208,
+    "charityCareAtCost": 356492
+   },
+   {
+    "ccn": "051324",
+    "name": "NORTHERN INYO HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 113931098,
+    "netIncome": 5196358,
+    "totalAssets": 152033194,
+    "charityCareAtCost": 3607
+   },
+   {
+    "ccn": "051303",
+    "name": "Southern Mono Healthcare District DBA Mammoth Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 112050282,
+    "netIncome": 24768619,
+    "totalAssets": 263264658,
+    "charityCareAtCost": 1292424
+   },
+   {
+    "ccn": "050014",
+    "name": "SUTTER VALLEY HOSPITALS DBA SUTTER AMADOR HOSPITAL",
+    "system": "Sutter Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 110618164,
+    "netIncome": 3168933,
+    "totalAssets": 74292105,
+    "charityCareAtCost": 930791
+   },
+   {
+    "ccn": "050407",
+    "name": "CHINESE HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 100030308,
+    "netIncome": -17967559,
+    "totalAssets": 312893424,
+    "charityCareAtCost": 441227
+   },
+   {
+    "ccn": "050589",
+    "name": "PLACENTIA LINDA COMMUNITY HOSPITAL",
+    "system": "Tenet Healthcare",
+    "fiscalYearEnd": "03/31/2025",
+    "netPatientRevenue": 93548920,
+    "netIncome": -673295,
+    "totalAssets": 242877670,
+    "charityCareAtCost": 1035501
+   },
+   {
+    "ccn": "051310",
+    "name": "Willits Hospital Inc., DBA Adventist Health Howard Memorial",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 87294624,
+    "netIncome": 3304205,
+    "totalAssets": 139644136,
+    "charityCareAtCost": 1014052
+   },
+   {
+    "ccn": "051332",
+    "name": "Mark Twain Medical Center",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 86813951,
+    "netIncome": -463057,
+    "totalAssets": 87729105,
+    "charityCareAtCost": 1831324
+   },
+   {
+    "ccn": "050136",
+    "name": "NorCal HealthConnect LLC, DBA Petaluma Valley Hospital",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 85620140,
+    "netIncome": -24077767,
+    "totalAssets": -19479544,
+    "charityCareAtCost": 2511025
+   },
+   {
+    "ccn": "051325",
+    "name": "ADVENTIST HEALTH MENDOCINO COAST",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 81057390,
+    "netIncome": -7403858,
+    "totalAssets": 43803065,
+    "charityCareAtCost": 1976820
+   },
+   {
+    "ccn": "051319",
+    "name": "DIGNITY HEALTH D/B/A MERCY MEDICAL CENTER MT. SHASTA",
+    "system": "CommonSpirit Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 71957986,
+    "netIncome": 9124466,
+    "totalAssets": 96093657,
+    "charityCareAtCost": 2233887
+   },
+   {
+    "ccn": "051301",
+    "name": "Adventist Health Medical Center Tehachapi",
+    "system": "Adventist Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 68123310,
+    "netIncome": 4722050,
+    "totalAssets": 86538032,
+    "charityCareAtCost": 432716
+   },
+   {
+    "ccn": "051336",
+    "name": "Southern Monterey County Memorial Hospital DBA: George L. Mee Memorial Hospital",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 68120258,
+    "netIncome": -143052,
+    "totalAssets": 59575252,
+    "charityCareAtCost": 150142
+   },
+   {
+    "ccn": "051318",
+    "name": "St Joseph Health Northern California LLC- DBA Redwood Memorial Hospital",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 53713976,
+    "netIncome": -289098,
+    "totalAssets": 172279202,
+    "charityCareAtCost": 1351994
+   },
+   {
+    "ccn": "051305",
+    "name": "MAYERS MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 50469639,
+    "netIncome": 3488922,
+    "totalAssets": 85225466,
+    "charityCareAtCost": 1292285
+   },
+   {
+    "ccn": "051326",
+    "name": "PLUMAS DISTRICT HOSPITAL CAH",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 45242149,
+    "netIncome": 7124898,
+    "totalAssets": 79829416,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "051334",
+    "name": "OJAI VALLEY COMMUNITY HOSPITAL",
+    "system": "Community Memorial Health System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 44529232,
+    "netIncome": -7870822,
+    "totalAssets": 42567430,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "051300",
+    "name": "EASTERN PLUMAS HEALTH CARE",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 44083538,
+    "netIncome": 3437110,
+    "totalAssets": 40348135,
+    "charityCareAtCost": 53006
+   },
+   {
+    "ccn": "051320",
+    "name": "BANNER LASSEN MEDICAL CENTER",
+    "system": "Banner Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 43108231,
+    "netIncome": -6867325,
+    "totalAssets": 39082009,
+    "charityCareAtCost": 606779
+   },
+   {
+    "ccn": "051330",
+    "name": "MODOC MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 42392967,
+    "netIncome": 4812098,
+    "totalAssets": 139435110,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "051314",
+    "name": "KERN VALLEY HEALTHCARE DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 40903928,
+    "netIncome": 996684,
+    "totalAssets": 39277234,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "051312",
+    "name": "SAN BERNARDINO MOUNTAINS COMMUNITY HOSPITAL DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 38298570,
+    "netIncome": 4921334,
+    "totalAssets": 69726924,
+    "charityCareAtCost": 51121
+   },
+   {
+    "ccn": "051335",
+    "name": "BEAR VALLEY COMMUNITY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 36274713,
+    "netIncome": 6202622,
+    "totalAssets": 68979159,
+    "charityCareAtCost": 92868
+   },
+   {
+    "ccn": "051321",
+    "name": "NorCal HealthConnect LLC- DBA Healdsburg Hospital",
+    "system": "Providence",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 34810451,
+    "netIncome": -32511612,
+    "totalAssets": 41834552,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "051311",
+    "name": "ORCHARD HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 30388642,
+    "netIncome": 183580,
+    "totalAssets": 18801694,
+    "charityCareAtCost": 154570
+   },
+   {
+    "ccn": "051304",
+    "name": "JOHN C. FREMONT HEALTHCARE DISTRICT",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 29551191,
+    "netIncome": 1234338,
+    "totalAssets": 31887440,
+    "charityCareAtCost": 5128
+   },
+   {
+    "ccn": "051331",
+    "name": "SANTA YNEZ VALLEY COTTAGE HOSPITAL",
+    "system": "Cottage Health System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 29420266,
+    "netIncome": 7132767,
+    "totalAssets": 96597257,
+    "charityCareAtCost": 502210
+   },
+   {
+    "ccn": "051327",
+    "name": "SENECA DISTRICT HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 26886069,
+    "netIncome": 5099528,
+    "totalAssets": 44365780,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "051309",
+    "name": "JEROLD PHELPS COMMUNITY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 19004712,
+    "netIncome": 3903345,
+    "totalAssets": 6720250,
+    "charityCareAtCost": 91974
+   },
+   {
+    "ccn": "051307",
+    "name": "CATALINA ISLAND MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 17211136,
+    "netIncome": 3153251,
+    "totalAssets": 16254661,
+    "charityCareAtCost": 36559
+   },
+   {
+    "ccn": "051323",
+    "name": "Colorado River Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 9690722,
+    "netIncome": 2228957,
+    "totalAssets": 13521055,
+    "charityCareAtCost": 0
+   }
+  ]
+ },
+ "whoDecides": {
+  "subtitle": "Machine Scores coming with the lawmaker pages",
+  "groups": [
+   {
+    "name": "The executive",
+    "people": [
+     {
+      "name": "Gavin Newsom",
+      "role": "Governor (D), first elected 2018, second term began January 2023"
+     },
+     {
+      "name": "Rob Bonta",
+      "role": "Attorney General (D), elected November 2022, term began January 2023"
+     }
+    ]
+   },
+   {
+    "name": "The Legislature",
+    "people": [
+     {
+      "name": "Eleni Kounalakis",
+      "role": "Lieutenant Governor and President of the Senate (D)"
+     },
+     {
+      "name": "Monique Limón",
+      "role": "Senate President pro Tempore (D), District 21"
+     },
+     {
+      "name": "Robert Rivas",
+      "role": "Speaker of the Assembly (D), District 29"
+     },
+     {
+      "name": "Akilah Weber Pierson",
+      "role": "Chair, Senate Health (D), District 39"
+     },
+     {
+      "name": "Mia Bonta",
+      "role": "Chair, Assembly Health (D), District 18"
+     }
+    ],
+    "note": "All 39 sitting state senators and 68 of 79 sitting Assembly members have a 340B hospital in their district."
+   },
+   {
+    "name": "In Washington",
+    "people": [
+     {
+      "name": "Rep. Mike Thompson",
+      "role": "Ways and Means (CA-4)"
+     },
+     {
+      "name": "Rep. Linda Sánchez",
+      "role": "Ways and Means (CA-38)"
+     },
+     {
+      "name": "Rep. Judy Chu",
+      "role": "Ways and Means (CA-28)"
+     },
+     {
+      "name": "Rep. Doris Matsui",
+      "role": "Energy and Commerce (CA-7)"
+     },
+     {
+      "name": "Rep. Jay Obernolte",
+      "role": "Energy and Commerce (CA-23)"
+     }
+    ],
+    "note": "Neither California senator sits on Senate Finance or HELP. 50 of 52 U.S. House members have a 340B hospital in their district."
+   }
+  ],
+  "pac": {
+   "text": "The California Hospital Association's PAC paid $507,564 to the committees of 96 legislators from January 1, 2025 to September 19, 2026. The association reported $3,297,375 in lobbying payments for calendar 2025.",
+   "basis": "reported",
+   "source": "California Secretary of State, Cal-Access raw data export of October 1, 2026: California Hospital Association PAC (ID 1026634) Form 460 payments to candidate committees, periods January 1, 2025 to September 19, 2026, $507,564 to 96 legislators' committees; California Association of Hospitals and Health Systems Form 635 quarterly lobbying reports for calendar 2025, four quarters totaling $3,297,375",
+   "as_of": "Cal-Access filings through September 19, 2026 (export of October 1, 2026)"
+  },
+  "basis": "reported",
+  "source": "Office of the Governor (gov.ca.gov), Office of the Attorney General (oag.ca.gov), Office of the Lieutenant Governor (ltg.ca.gov), California State Senate and Assembly rosters and leadership pages, Senate Health and Assembly Health committee membership pages, U.S. Senate committee XML, U.S. House Clerk MemberData.xml, all saved October 1, 2026; names cross-checked against the National Governors Association and National Association of Attorneys General rosters on November 19, 2026; Senate district 10 and Assembly district 3 were vacant on the rosters; district counts from the Census geocoder and TIGERweb on the hospitals' registered addresses",
+  "as_of": "October 1, 2026"
+ },
+ "agOversight": {
+  "subtitle": "What the office can do, and what it has done",
+  "items": [
+   {
+    "title": "Consent to every hospital deal",
+    "body": "Corporations Code 5914 and 5920 cover every nonprofit hospital. Before it sells or hands control of a material amount of its assets, it needs the attorney general's written consent. That holds whether the buyer is for-profit or nonprofit. The office has 90 days to decide, with a 45-day extension. Its regulations let it attach conditions.",
+    "source": "California Corporations Code sections 5914 and 5920 (as amended by Stats. 2017, Ch. 782, AB 651), 5915 and 5921 (90-day decision period, 45-day extension), 5925 (regulations); California Code of Regulations title 11, section 999.5; leginfo.legislature.ca.gov, retrieved November 21, 2026"
+   },
+   {
+    "title": "Charity care written into the deals",
+    "body": "Consent comes with conditions, and charity care levels are among them. The office consented to the Dignity Health and Catholic Health Initiatives combination on November 21, 2018 on conditions. It consented to Cedars-Sinai's affiliation with Huntington Hospital on December 10, 2020 on conditions. On July 2, 2024 it settled with the University of California over its Dignity Health hospital purchase with an assurance of voluntary compliance.",
+    "source": "Office of the Attorney General, nonprofit health facility transaction decisions: Dignity Health / Catholic Health Initiatives (conditional consent, November 21, 2018); Cedars-Sinai Health System / Huntington Memorial Hospital (conditional consent, December 10, 2020); People ex rel. Bonta v. Regents of the University of California, San Francisco Superior Court No. CGC-24-615801, assurance of voluntary compliance filed July 2, 2024 (UCSF Health acquisition of Saint Francis Memorial Hospital and St. Mary's Medical Center from Dignity Health); oag.ca.gov, saved October 1, 2026"
+   },
+   {
+    "title": "Charity care letters",
+    "body": "On June 14, 2022 the attorney general issued a consumer alert on hospital charity care. The office also wrote to hospitals about their duties under the Hospital Fair Pricing Act. No enforcement suit on charity care has been found.",
+    "source": "Office of the Attorney General press release and consumer alert of June 14, 2022 (hospital charity care obligations under Health and Safety Code sections 127400 to 127446); oag.ca.gov search for charity care enforcement actions, October 1 and November 21, 2026: no suit found"
+   },
+   {
+    "title": "The 340B program: billing, not spending",
+    "body": "The office polices how hospitals bill Medi-Cal for 340B drugs, not what they keep. On November 2, 2020 it announced an $18.9 million settlement with Memorial Health Services for billing Medi-Cal above acquisition cost on 340B drugs. On February 5, 2024 it announced a $2.1 million settlement with Pomona Valley Hospital Medical Center on the same theory. On December 14, 2020 it led a multistate letter pressing HHS to make drug makers keep supplying 340B discounts to contract pharmacies.",
+    "source": "Office of the Attorney General press releases: Attorney General Becerra Announces $18.9 Million California Settlement with Memorial Health Services (November 2, 2020); Attorney General Bonta Announces $2.1 Million Settlement Against Pomona Hospital for Medi-Cal Fraud (February 5, 2024); Attorney General Becerra Leads Bipartisan Coalition on 340B Drug Pricing Program Requirements (December 14, 2020); oag.ca.gov, saved November 21, 2026 (research/states/sources/ca/)"
+   },
+   {
+    "title": "Market review beside the office",
+    "body": "Since January 1, 2024 the Office of Health Care Affordability takes 90 days' notice of material deals. It can run a cost and market impact review. Deals already under attorney general review are exempt from the notice but can be referred for a review.",
+    "source": "California Health and Safety Code section 127507 (Stats. 2022, Ch. 47, as amended by Stats. 2025, Ch. 641, AB 1415, effective January 1, 2026): subdivisions (c)(3) (90-day notice), (d)(4) (exemption for transactions under Corporations Code article 2 review) and (e) (referral for cost and market impact review); leginfo.legislature.ca.gov, retrieved November 21, 2026"
+   }
+  ],
+  "basis": "reported",
+  "source": "California statutes at leginfo.legislature.ca.gov (saved as page text with checksums in research/states/sources/ca/), Office of the Attorney General decisions and press releases at oag.ca.gov, retrieved November 21, 2026",
+  "as_of": "November 21, 2026"
+ },
+ "bills": {
+  "subtitle": "The 2025-26 session ends November 30, 2026; the 2027-28 session convenes December 7, 2026",
+  "basis": "reported",
+  "source": "California Legislative Information (leginfo.legislature.ca.gov) bill history and status pages for AB 1460 (2025-26), SB 786 (2023-24), AB 2297 and SB 1061 (2023-24) and AB 1312 (2025-26), saved October 1 and November 21, 2026; California Constitution article IV, section 3 (sessions)",
+  "as_of": "November 21, 2026",
+  "rows": [
+   {
+    "id": "AB 1460",
+    "title": "340B contract pharmacy protection, clinics only",
+    "body": "Would bar manufacturers from limiting 340B drug shipments to contract pharmacies used by clinics and health centers. Hospitals are not covered. Passed the Assembly 44 to 6 on May 19, 2025. Senate Health postponed its hearing on July 16, 2025 and never took it up.",
+    "status": "STALLED · Senate Health since Jul. 2025",
+    "tone": "gold"
+   },
+   {
+    "id": "SB 786",
+    "title": "No PBM discrimination against 340B entities",
+    "body": "Bars pharmacy benefit managers from paying 340B covered entities and their pharmacies less, excluding them from networks or clawing back the discount. In force since January 1, 2024.",
+    "status": "ENACTED · Stats. 2023, Ch. 414",
+    "tone": "red"
+   },
+   {
+    "id": "AB 1312",
+    "title": "Charity care without an application",
+    "body": "From July 1, 2027, hospitals must screen patients for charity care and discount eligibility before billing them, using data they already hold.",
+    "status": "ENACTED · Stats. 2025, Ch. 450",
+    "tone": "gold"
+   },
+   {
+    "id": "AB 2297",
+    "title": "Charity care, no asset test",
+    "body": "Bars hospitals from counting a patient's assets in charity care decisions, from setting application deadlines, and from placing liens on homes to collect. In force since January 1, 2025.",
+    "status": "ENACTED · Stats. 2024, Ch. 511",
+    "tone": "gold"
+   },
+   {
+    "id": "SB 1061",
+    "title": "Medical debt off credit reports",
+    "body": "Bars medical debt from California credit reports. A debt a hospital knowingly reports becomes void and unenforceable. In force since January 1, 2025.",
+    "status": "ENACTED · Stats. 2024, Ch. 520",
+    "tone": "gold"
+   }
+  ]
+ },
+ "buy": {
+  "heading": "Take California with you.",
+  "text": "Every hospital, every subsidy line, every lawmaker's district exposure, with the source documents.",
+  "options": [
+   {
+    "label": "California dataset",
+    "price": null,
+    "perYear": false,
+    "primary": true
+   },
+   {
+    "label": "All states, all-access",
+    "price": null,
+    "perYear": true,
+    "primary": false
+   }
+  ]
+ },
+ "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, California Corporations, Health and Safety, Business and Professions, Revenue and Taxation and Welfare and Institutions Codes, California Legislative Information, Office of the Attorney General, Cal-Access, CMS FY2027 IPPS impact and Medicare DSH supplemental files, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Alliance physician-owned hospital database (March 2026)."
+}

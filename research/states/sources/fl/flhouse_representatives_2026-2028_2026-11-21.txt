@@ -1,0 +1,12 @@
+Source: https://www.flhouse.gov/Sections/Representatives/representatives.aspx (Representatives for 2026 - 2028, Speaker Garrison)
+Retrieved 2026-11-21 in the browser (the site rejects command-line fetches); member rows as rendered, filtered to the names used in the dossier:
+Busatta, Demi Republican — District: 114 Part of Miami-Dade 11/04/26 - 11/07/28  https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4800&LegislativeTermId=92
+Garrison, Sam Republican — District: 11 Part of Clay 11/04/26 - 11/07/28  https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4767&LegislativeTermId=92
+Redondo, Mike Republican — District: 118 Part of Miami-Dade 11/04/26 - 11/07/28  https://www.flhouse.gov/Sections/Representatives/details.aspx?MemberId=4902&LegislativeTermId=92
+
+Committee pages, same date (https://www.flhouse.gov/Sections/Committees/committeesdetail.aspx?CommitteeId=...):
+3395 Health & Human Services Committee: Chair Busatta, Demi [R]
+3376 Health Care Appropriations Subcommittee: Chair Redondo, Mike [R]
+3397 Health Care Finance & Facilities Subcommittee: no chair listed
+Florida Senate, https://www.flsenate.gov/Committees/ (Term: 2026-2028, President Boyd): "There is no committee data available at this time."
+Florida Senate, https://www.flsenate.gov/Senators/s20: Senator Jim Boyd, Republican, PRESIDENT (2026-2028).

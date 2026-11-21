@@ -229,3 +229,4 @@ Add rows here. Dutch triages them into a phase.
 | 2026-11-16 | Q7 | this PR | DONE | Retirement windows for each old project in `docs/redirects.md` |
 | 2026-11-14 | Rules | this PR | IN PR | Dutch's rulings: no businesses tied to him, "physician" only, D-11 left to Claude Code (path-preserving) |
 | 2026-11-19 | P2-2 packet 1 | this PR | IN PR | D-6 decided (Texas first); state pipeline `research/states/` for all 51 jurisdictions; Texas dossier rendered from it with the attorney general section (P4-3) in the template; grades IV and V and the grade label flagged for Dutch |
+| 2026-11-21 | P2-2 packet 2 | this PR | IN PR | California and Florida rendered from the pipeline (exemption totals match the October research to the dollar); builder gains a land-and-building rate switch (Florida) and blank-county city keying (California); Florida officeholders updated for the November 17, 2026 organization session; grades IV and V still provisional |

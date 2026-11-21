@@ -67,6 +67,24 @@
         "group": "State dossiers"
       },
       {
+        "name": "California",
+        "href": "/states/california/",
+        "status": "live",
+        "stat": "B",
+        "statLabel": "The Rojas grade, provisional",
+        "blurb": "182 hospitals in the 340B program cleared $6.4B in a year, take an estimated $3.7B in tax breaks and face no certificate of need. The attorney general signs off on every nonprofit hospital sale and writes charity care into the terms.",
+        "group": "State dossiers"
+      },
+      {
+        "name": "Florida",
+        "href": "/states/florida/",
+        "status": "live",
+        "stat": "B",
+        "statLabel": "The Rojas grade, provisional",
+        "blurb": "55 hospitals in the 340B program cleared $6.1B in a year, take an estimated $2.6B in tax breaks and face no hospital certificate of need. No charity care standard attaches to the tax exemption, and no attorney general review stands over a hospital sale.",
+        "group": "State dossiers"
+      },
+      {
         "name": "CON state pages",
         "href": "/con/",
         "status": "live",

@@ -12,7 +12,9 @@ and the attorney general section, with {placeholders} for the figures (see FIGUR
 Tax exemption estimate: federal income tax at 21% of the net income of the hospitals that made money;
 state income tax at the editorial file's rate on the same base (null where the state has none);
 property tax on land, land improvements and buildings at historical cost, at the Lincoln Institute
-largest-city rate for hospitals in the counties the editorial file names and the rural rate elsewhere.
+largest-city rate for hospitals in the counties the editorial file names and the rural rate elsewhere
+(propertyTax.rateKey picks the study's published rate or its land-and-building rate; propertyTax.largestCityCities
+keys hospitals whose cost report leaves the county blank by city).
 """
 import json
 import sys
@@ -75,11 +77,20 @@ def main(st):
     state_rate = ed['stateIncomeTax']['rate']
     state_tax = round(state_rate * t['positiveNetIncomeSum']) if state_rate else 0
     city_counties = {c.upper() for c in ed['propertyTax']['largestCityCounties']}
-    city_rate, rural_rate = rates['largestCity']['rate'], rates['rural']['rate']
+    # rateKey: 'rate' (the study's published effective rate, land, building and fixtures) or 'landBuildingRate'
+    # (the $1 million net tax bill over land and building value, for states that tax fixtures at a lower rate).
+    rate_key = ed['propertyTax'].get('rateKey', 'rate')
+    city_rate, rural_rate = rates['largestCity'][rate_key], rates['rural'][rate_key]
+    rate_basis = ('effective commercial rates' if rate_key == 'rate'
+                  else 'land-and-building rates (the $1 million net tax bill over land and building value, since the state taxes fixtures at a lower rate)')
+    # largestCityCities: where the cost report leaves the county blank, key the hospital by its city instead.
+    city_names = {c.upper() for c in ed['propertyTax'].get('largestCityCities', [])}
     prop = 0.0
     for h in rows:
         if h.get('propertyAtCost'):
-            prop += h['propertyAtCost'] * (city_rate if (h.get('county') or '').upper() in city_counties else rural_rate)
+            county, city = (h.get('county') or '').upper(), (h.get('city') or '').upper()
+            in_city = county in city_counties or (not county and city in city_names)
+            prop += h['propertyAtCost'] * (city_rate if in_city else rural_rate)
     prop = round(prop)
     exemptions = federal + state_tax + prop
 
@@ -121,7 +132,7 @@ def main(st):
          'note': e['moneyNotes']['exemptions'], 'basis': 'estimated',
          'source': f"Estimate from the cost reports: federal income tax {figures['federalTaxExact']} (21% of cost-report net income of the {t['positiveNetIncome']} profitable hospitals, {figures['positiveNetIncomeSumExact']})"
                    + (f"; state income tax {figures['stateTaxExact']} ({state_rate * 100:g}% on the same base)" if state_rate else f"; {ed['stateIncomeTax']['note']}")
-                   + f"; property tax {figures['propertyTaxExact']} on {figures['propertyAtCostExact']} of land, land improvements and buildings at historical cost at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study effective commercial rates for taxes paid in 2025 ({rates['largestCity']['city']} {city_rate * 100:.3f}% for hospitals in {', '.join(c.title() for c in sorted(city_counties))} County, {rates['rural']['city']} {rural_rate * 100:.3f}% elsewhere); total {figures['exemptionsExact']}. Charity care at cost {figures['charityExact']} from the cost reports",
+                   + f"; property tax {figures['propertyTaxExact']} on {figures['propertyAtCostExact']} of land, land improvements and buildings at historical cost at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study {rate_basis} for taxes paid in 2025 ({rates['largestCity']['city']} {city_rate * 100:.4g}% for hospitals in {', '.join(c.title() for c in sorted(city_counties))} County, {rates['rural']['city']} {rural_rate * 100:.4g}% elsewhere); total {figures['exemptionsExact']}. Charity care at cost {figures['charityExact']} from the cost reports",
          'as_of': f'exemptions at 2025 rates on {fy}'},
         {'value': figures['contractPharmaciesOutOfState'], 'text': f"340B contract pharmacy arrangements with pharmacies outside {e['name']}, of {figures['contractPharmacies']} in all.",
          'note': 'HRSA 340B registry, September 29, 2026.', 'basis': 'reported',
