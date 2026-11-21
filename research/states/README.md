@@ -17,7 +17,7 @@ state's dossier is then `build_state.py <ST>` over its editorial file. No figure
 | `data/` | Pull outputs (JSON, checked in so a render is reproducible without the source files) |
 | `editorial/<st>.json` | Prose, grades, statuses, officeholders, bills, the attorney general section, with `{placeholders}` for figures |
 | `overrides/<st>.json` | Optional: CCN fixes, system assignments and exclusions for one state (`{"ccn": {}, "system": {}, "exclude": {}}`) |
-| `sources/` | Saved source pages that refuse scripted fetches (NAAG roster as text; Texas statute pages with `.sha256` sidecars) |
+| `sources/` | Saved source pages, one folder per state, with `.sha256` sidecars: statute pages (`.htm`) where the site serves them to a script (Texas, Florida); page text (`.txt`) where it does not (California's leginfo.legislature.ca.gov, read in the browser); attorney general releases and roster pages used for an officeholder or an enforcement item |
 
 Source files live outside the repository (default `../research/dossiers/_sources` next to the repo; set `STATE_SOURCES` to
 point elsewhere). Each data file records the sha256 of the source file it was built from.
@@ -44,6 +44,11 @@ Federal income tax at 21% of the net income of the hospitals that made money; st
 editorial file on the same base (null where the state has none); property tax on land, land improvements and buildings at
 historical cost, at the Lincoln largest-city rate for hospitals in the counties the editorial file names and the rural rate
 elsewhere. Sales tax is not estimated. This is the convention of the North Carolina and Texas research of October 2026.
+
+Two editorial switches cover the cases met so far. `propertyTax.rateKey` is `rate` (the study's published effective rate on
+land, building and fixtures; the default) or `landBuildingRate` (the $1 million net tax bill over land and building value,
+for a state that taxes fixtures at a lower rate: Florida). `propertyTax.largestCityCities` keys a hospital by its city where
+the cost report leaves the county blank (California: three Los Angeles hospitals).
 
 ### Fields still pending a 50-state source
 

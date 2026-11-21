@@ -69,16 +69,17 @@ def parse(lines, tag):
             continue
         before = line[:m.start()].strip().rstrip('*')
         rate = round(float(m.group(3)) / 100, 5)
+        bill = int(m.group(4).replace(',', ''))
         if page1:
             n = len(rows)
             if n >= len(states):
                 continue
             city = before if before else (cities[n] if n < len(cities) else '')
-            rows.append((states[n], city, rate))
+            rows.append((states[n], city, rate, bill))
         else:
             st = next((n for n in NAMES if before.startswith(n + ' ')), None)
             if st:
-                rows.append(('District of Columbia' if st == 'DC' else st, before[len(st) + 1:].strip(), rate))
+                rows.append(('District of Columbia' if st == 'DC' else st, before[len(st) + 1:].strip(), rate, bill))
     return rows
 
 
@@ -91,14 +92,15 @@ def main():
         'basis': 'Effective tax rate (net tax bill over market value) on a $1 million commercial property with $200,000 of fixtures; Appendix Table 3a (largest city in each state) and 3c (a rural municipality in each state)'},
         'states': {st: {} for st in sorted(STATES)}}
     for tag, key in (('3a', 'largestCity'), ('3c', 'rural')):
-        for state, city, rate in parse(lines, tag):
+        for state, city, rate, bill in parse(lines, tag):
             code = NAME_TO_CODE.get(state)
             if not code:
                 continue
             # Illinois and New York list two cities in 3a; keep Chicago and New York City as the largest city.
             if key in out['states'][code] and city not in ('Chicago', 'New York City'):
                 continue
-            out['states'][code][key] = {'city': city, 'rate': rate, 'table': f'Appendix Table {tag}'}
+            # landBuildingRate: the $1 million net tax bill per dollar of land and building, the rate to use where a state taxes fixtures at a lower rate than real property (Appendix Table 4g).
+            out['states'][code][key] = {'city': city, 'rate': rate, 'bill': bill, 'landBuildingRate': round(bill / 1e6, 6), 'table': f'Appendix Table {tag}'}
     for st, v in out['states'].items():
         v.setdefault('largestCity', 'NOT FOUND')
         v.setdefault('rural', 'NOT FOUND')

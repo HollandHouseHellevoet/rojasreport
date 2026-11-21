@@ -11,11 +11,15 @@
    "largestCity": {
     "city": "Anchorage",
     "rate": 0.01395,
+    "bill": 16737,
+    "landBuildingRate": 0.016737,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Ketchikan",
     "rate": 0.01052,
+    "bill": 12629,
+    "landBuildingRate": 0.012629,
     "table": "Appendix Table 3c"
    }
   },
@@ -23,11 +27,15 @@
    "largestCity": {
     "city": "Huntsville",
     "rate": 0.01043,
+    "bill": 12516,
+    "landBuildingRate": 0.012516,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Monroeville",
     "rate": 0.00882,
+    "bill": 10586,
+    "landBuildingRate": 0.010586,
     "table": "Appendix Table 3c"
    }
   },
@@ -35,11 +43,15 @@
    "largestCity": {
     "city": "Little Rock",
     "rate": 0.01366,
+    "bill": 16387,
+    "landBuildingRate": 0.016387,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Pocahontas",
     "rate": 0.00819,
+    "bill": 9828,
+    "landBuildingRate": 0.009828,
     "table": "Appendix Table 3c"
    }
   },
@@ -47,11 +59,15 @@
    "largestCity": {
     "city": "Phoenix",
     "rate": 0.01612,
+    "bill": 19342,
+    "landBuildingRate": 0.019342,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Safford",
     "rate": 0.00713,
+    "bill": 8558,
+    "landBuildingRate": 0.008558,
     "table": "Appendix Table 3c"
    }
   },
@@ -59,11 +75,15 @@
    "largestCity": {
     "city": "Los Angeles",
     "rate": 0.01187,
+    "bill": 14249,
+    "landBuildingRate": 0.014249,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Yreka",
     "rate": 0.01061,
+    "bill": 12729,
+    "landBuildingRate": 0.012729,
     "table": "Appendix Table 3c"
    }
   },
@@ -71,11 +91,15 @@
    "largestCity": {
     "city": "Denver",
     "rate": 0.02081,
+    "bill": 24970,
+    "landBuildingRate": 0.02497,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Walsenburg",
     "rate": 0.02416,
+    "bill": 28995,
+    "landBuildingRate": 0.028995,
     "table": "Appendix Table 3c"
    }
   },
@@ -83,11 +107,15 @@
    "largestCity": {
     "city": "Bridgeport",
     "rate": 0.02225,
+    "bill": 26704,
+    "landBuildingRate": 0.026704,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Litchfield",
     "rate": 0.014,
+    "bill": 16800,
+    "landBuildingRate": 0.0168,
     "table": "Appendix Table 3c"
    }
   },
@@ -95,6 +123,8 @@
    "largestCity": {
     "city": "Washington",
     "rate": 0.0115,
+    "bill": 13794,
+    "landBuildingRate": 0.013794,
     "table": "Appendix Table 3a"
    },
    "rural": "NOT FOUND"
@@ -103,11 +133,15 @@
    "largestCity": {
     "city": "Wilmington",
     "rate": 0.01599,
+    "bill": 19191,
+    "landBuildingRate": 0.019191,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Georgetown",
     "rate": 0.00439,
+    "bill": 5271,
+    "landBuildingRate": 0.005271,
     "table": "Appendix Table 3c"
    }
   },
@@ -115,11 +149,15 @@
    "largestCity": {
     "city": "Jacksonville",
     "rate": 0.0168,
+    "bill": 20165,
+    "landBuildingRate": 0.020165,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Moore Haven",
     "rate": 0.02035,
+    "bill": 24415,
+    "landBuildingRate": 0.024415,
     "table": "Appendix Table 3c"
    }
   },
@@ -127,11 +165,15 @@
    "largestCity": {
     "city": "Atlanta",
     "rate": 0.01616,
+    "bill": 19391,
+    "landBuildingRate": 0.019391,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Fitzgerald",
     "rate": 0.0169,
+    "bill": 20283,
+    "landBuildingRate": 0.020283,
     "table": "Appendix Table 3c"
    }
   },
@@ -139,11 +181,15 @@
    "largestCity": {
     "city": "Honolulu",
     "rate": 0.00875,
+    "bill": 10503,
+    "landBuildingRate": 0.010503,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Kauai",
     "rate": 0.00675,
+    "bill": 8100,
+    "landBuildingRate": 0.0081,
     "table": "Appendix Table 3c"
    }
   },
@@ -151,11 +197,15 @@
    "largestCity": {
     "city": "Des Moines",
     "rate": 0.02693,
+    "bill": 32311,
+    "landBuildingRate": 0.032311,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Hampton",
     "rate": 0.02235,
+    "bill": 26815,
+    "landBuildingRate": 0.026815,
     "table": "Appendix Table 3c"
    }
   },
@@ -163,11 +213,15 @@
    "largestCity": {
     "city": "Boise",
     "rate": 0.00751,
+    "bill": 9014,
+    "landBuildingRate": 0.009014,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Saint Anthony",
     "rate": 0.00637,
+    "bill": 7645,
+    "landBuildingRate": 0.007645,
     "table": "Appendix Table 3c"
    }
   },
@@ -175,11 +229,15 @@
    "largestCity": {
     "city": "Chicago",
     "rate": 0.0336,
+    "bill": 40325,
+    "landBuildingRate": 0.040325,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Galena",
     "rate": 0.02087,
+    "bill": 25038,
+    "landBuildingRate": 0.025038,
     "table": "Appendix Table 3c"
    }
   },
@@ -187,11 +245,15 @@
    "largestCity": {
     "city": "Indianapolis",
     "rate": 0.02718,
+    "bill": 32622,
+    "landBuildingRate": 0.032622,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "North Vernon",
     "rate": 0.02908,
+    "bill": 34890,
+    "landBuildingRate": 0.03489,
     "table": "Appendix Table 3c"
    }
   },
@@ -199,11 +261,15 @@
    "largestCity": {
     "city": "Wichita",
     "rate": 0.02563,
+    "bill": 30757,
+    "landBuildingRate": 0.030757,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Iola",
     "rate": 0.03956,
+    "bill": 47476,
+    "landBuildingRate": 0.047476,
     "table": "Appendix Table 3c"
    }
   },
@@ -211,11 +277,15 @@
    "largestCity": {
     "city": "Louisville",
     "rate": 0.01216,
+    "bill": 14594,
+    "landBuildingRate": 0.014594,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Morehead",
     "rate": 0.01263,
+    "bill": 15160,
+    "landBuildingRate": 0.01516,
     "table": "Appendix Table 3c"
    }
   },
@@ -223,11 +293,15 @@
    "largestCity": {
     "city": "New Orleans",
     "rate": 0.01836,
+    "bill": 22035,
+    "landBuildingRate": 0.022035,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Natchitoches",
     "rate": 0.01308,
+    "bill": 15696,
+    "landBuildingRate": 0.015696,
     "table": "Appendix Table 3c"
    }
   },
@@ -235,11 +309,15 @@
    "largestCity": {
     "city": "Boston",
     "rate": 0.02163,
+    "bill": 25960,
+    "landBuildingRate": 0.02596,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Adams",
     "rate": 0.01873,
+    "bill": 22474,
+    "landBuildingRate": 0.022474,
     "table": "Appendix Table 3c"
    }
   },
@@ -247,11 +325,15 @@
    "largestCity": {
     "city": "Baltimore",
     "rate": 0.02739,
+    "bill": 32863,
+    "landBuildingRate": 0.032863,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Denton",
     "rate": 0.0196,
+    "bill": 23517,
+    "landBuildingRate": 0.023517,
     "table": "Appendix Table 3c"
    }
   },
@@ -259,11 +341,15 @@
    "largestCity": {
     "city": "Portland",
     "rate": 0.01198,
+    "bill": 14376,
+    "landBuildingRate": 0.014376,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Rockland",
     "rate": 0.01658,
+    "bill": 19896,
+    "landBuildingRate": 0.019896,
     "table": "Appendix Table 3c"
    }
   },
@@ -271,11 +357,15 @@
    "largestCity": {
     "city": "Detroit",
     "rate": 0.04035,
+    "bill": 48421,
+    "landBuildingRate": 0.048421,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Manistique",
     "rate": 0.02701,
+    "bill": 32414,
+    "landBuildingRate": 0.032414,
     "table": "Appendix Table 3c"
    }
   },
@@ -283,11 +373,15 @@
    "largestCity": {
     "city": "Minneapolis",
     "rate": 0.02451,
+    "bill": 29411,
+    "landBuildingRate": 0.029411,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Glencoe",
     "rate": 0.02435,
+    "bill": 29226,
+    "landBuildingRate": 0.029226,
     "table": "Appendix Table 3c"
    }
   },
@@ -295,11 +389,15 @@
    "largestCity": {
     "city": "Kansas City",
     "rate": 0.03086,
+    "bill": 37033,
+    "landBuildingRate": 0.037033,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Boonville",
     "rate": 0.02348,
+    "bill": 28171,
+    "landBuildingRate": 0.028171,
     "table": "Appendix Table 3c"
    }
   },
@@ -307,11 +405,15 @@
    "largestCity": {
     "city": "Jackson",
     "rate": 0.0291,
+    "bill": 34915,
+    "landBuildingRate": 0.034915,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Philadelphia",
     "rate": 0.02064,
+    "bill": 24764,
+    "landBuildingRate": 0.024764,
     "table": "Appendix Table 3c"
    }
   },
@@ -319,11 +421,15 @@
    "largestCity": {
     "city": "Billings",
     "rate": 0.00729,
+    "bill": 8747,
+    "landBuildingRate": 0.008747,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Glasgow",
     "rate": 0.01198,
+    "bill": 14374,
+    "landBuildingRate": 0.014374,
     "table": "Appendix Table 3c"
    }
   },
@@ -331,11 +437,15 @@
    "largestCity": {
     "city": "Charlotte",
     "rate": 0.00695,
+    "bill": 8341,
+    "landBuildingRate": 0.008341,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Edenton",
     "rate": 0.00876,
+    "bill": 10511,
+    "landBuildingRate": 0.010511,
     "table": "Appendix Table 3c"
    }
   },
@@ -343,11 +453,15 @@
    "largestCity": {
     "city": "Fargo",
     "rate": 0.01146,
+    "bill": 13750,
+    "landBuildingRate": 0.01375,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Devils Lake",
     "rate": 0.01331,
+    "bill": 15975,
+    "landBuildingRate": 0.015975,
     "table": "Appendix Table 3c"
    }
   },
@@ -355,11 +469,15 @@
    "largestCity": {
     "city": "Omaha",
     "rate": 0.01877,
+    "bill": 22523,
+    "landBuildingRate": 0.022523,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Sidney",
     "rate": 0.0199,
+    "bill": 23885,
+    "landBuildingRate": 0.023885,
     "table": "Appendix Table 3c"
    }
   },
@@ -367,11 +485,15 @@
    "largestCity": {
     "city": "Manchester",
     "rate": 0.01154,
+    "bill": 13844,
+    "landBuildingRate": 0.013844,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Lancaster",
     "rate": 0.01508,
+    "bill": 18099,
+    "landBuildingRate": 0.018099,
     "table": "Appendix Table 3c"
    }
   },
@@ -379,11 +501,15 @@
    "largestCity": {
     "city": "Newark",
     "rate": 0.01592,
+    "bill": 19103,
+    "landBuildingRate": 0.019103,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Maurice River Twp",
     "rate": 0.01938,
+    "bill": 23257,
+    "landBuildingRate": 0.023257,
     "table": "Appendix Table 3c"
    }
   },
@@ -391,11 +517,15 @@
    "largestCity": {
     "city": "Albuquerque",
     "rate": 0.01638,
+    "bill": 19660,
+    "landBuildingRate": 0.01966,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Santa Rosa",
     "rate": 0.01087,
+    "bill": 13046,
+    "landBuildingRate": 0.013046,
     "table": "Appendix Table 3c"
    }
   },
@@ -403,11 +533,15 @@
    "largestCity": {
     "city": "Las Vegas",
     "rate": 0.01131,
+    "bill": 13572,
+    "landBuildingRate": 0.013572,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Fallon",
     "rate": 0.01257,
+    "bill": 15079,
+    "landBuildingRate": 0.015079,
     "table": "Appendix Table 3c"
    }
   },
@@ -415,11 +549,15 @@
    "largestCity": {
     "city": "New York City",
     "rate": 0.01695,
+    "bill": 20344,
+    "landBuildingRate": 0.020344,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Warsaw",
     "rate": 0.02228,
+    "bill": 26733,
+    "landBuildingRate": 0.026733,
     "table": "Appendix Table 3c"
    }
   },
@@ -427,11 +565,15 @@
    "largestCity": {
     "city": "Columbus",
     "rate": 0.01995,
+    "bill": 23934,
+    "landBuildingRate": 0.023934,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Bryan",
     "rate": 0.01674,
+    "bill": 20084,
+    "landBuildingRate": 0.020084,
     "table": "Appendix Table 3c"
    }
   },
@@ -439,11 +581,15 @@
    "largestCity": {
     "city": "Oklahoma City",
     "rate": 0.01408,
+    "bill": 16899,
+    "landBuildingRate": 0.016899,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Mangum",
     "rate": 0.00998,
+    "bill": 11973,
+    "landBuildingRate": 0.011973,
     "table": "Appendix Table 3c"
    }
   },
@@ -451,11 +597,15 @@
    "largestCity": {
     "city": "Portland",
     "rate": 0.02611,
+    "bill": 31335,
+    "landBuildingRate": 0.031335,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Tillamook",
     "rate": 0.01161,
+    "bill": 13936,
+    "landBuildingRate": 0.013936,
     "table": "Appendix Table 3c"
    }
   },
@@ -463,11 +613,15 @@
    "largestCity": {
     "city": "Philadelphia",
     "rate": 0.02031,
+    "bill": 24374,
+    "landBuildingRate": 0.024374,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Ridgway",
     "rate": 0.02036,
+    "bill": 24438,
+    "landBuildingRate": 0.024438,
     "table": "Appendix Table 3c"
    }
   },
@@ -475,11 +629,15 @@
    "largestCity": {
     "city": "Providence",
     "rate": 0.02658,
+    "bill": 31901,
+    "landBuildingRate": 0.031901,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Hopkinton",
     "rate": 0.0131,
+    "bill": 15720,
+    "landBuildingRate": 0.01572,
     "table": "Appendix Table 3c"
    }
   },
@@ -487,11 +645,15 @@
    "largestCity": {
     "city": "Charleston",
     "rate": 0.0193,
+    "bill": 23162,
+    "landBuildingRate": 0.023162,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Mullins",
     "rate": 0.03249,
+    "bill": 38989,
+    "landBuildingRate": 0.038989,
     "table": "Appendix Table 3c"
    }
   },
@@ -499,11 +661,15 @@
    "largestCity": {
     "city": "Sioux Falls",
     "rate": 0.01321,
+    "bill": 15855,
+    "landBuildingRate": 0.015855,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Vermillion",
     "rate": 0.01774,
+    "bill": 21286,
+    "landBuildingRate": 0.021286,
     "table": "Appendix Table 3c"
    }
   },
@@ -511,11 +677,15 @@
    "largestCity": {
     "city": "Nashville",
     "rate": 0.01079,
+    "bill": 12944,
+    "landBuildingRate": 0.012944,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Savannah",
     "rate": 0.00796,
+    "bill": 9555,
+    "landBuildingRate": 0.009555,
     "table": "Appendix Table 3c"
    }
   },
@@ -523,11 +693,15 @@
    "largestCity": {
     "city": "Houston",
     "rate": 0.02028,
+    "bill": 24341,
+    "landBuildingRate": 0.024341,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Fort Stockton",
     "rate": 0.02087,
+    "bill": 25039,
+    "landBuildingRate": 0.025039,
     "table": "Appendix Table 3c"
    }
   },
@@ -535,11 +709,15 @@
    "largestCity": {
     "city": "Salt Lake City",
     "rate": 0.00876,
+    "bill": 10517,
+    "landBuildingRate": 0.010517,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Richfield",
     "rate": 0.00946,
+    "bill": 11357,
+    "landBuildingRate": 0.011357,
     "table": "Appendix Table 3c"
    }
   },
@@ -547,11 +725,15 @@
    "largestCity": {
     "city": "Virginia Beach",
     "rate": 0.00908,
+    "bill": 10899,
+    "landBuildingRate": 0.010899,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Wise",
     "rate": 0.0086,
+    "bill": 10319,
+    "landBuildingRate": 0.010319,
     "table": "Appendix Table 3c"
    }
   },
@@ -559,11 +741,15 @@
    "largestCity": {
     "city": "Burlington",
     "rate": 0.02214,
+    "bill": 26562,
+    "landBuildingRate": 0.026562,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Hartford",
     "rate": 0.01287,
+    "bill": 15443,
+    "landBuildingRate": 0.015443,
     "table": "Appendix Table 3c"
    }
   },
@@ -571,11 +757,15 @@
    "largestCity": {
     "city": "Seattle",
     "rate": 0.00858,
+    "bill": 10294,
+    "landBuildingRate": 0.010294,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Okanogan",
     "rate": 0.00813,
+    "bill": 9755,
+    "landBuildingRate": 0.009755,
     "table": "Appendix Table 3c"
    }
   },
@@ -583,11 +773,15 @@
    "largestCity": {
     "city": "Milwaukee",
     "rate": 0.02059,
+    "bill": 24706,
+    "landBuildingRate": 0.024706,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Rice Lake",
     "rate": 0.01663,
+    "bill": 19956,
+    "landBuildingRate": 0.019956,
     "table": "Appendix Table 3c"
    }
   },
@@ -595,11 +789,15 @@
    "largestCity": {
     "city": "Charleston",
     "rate": 0.0183,
+    "bill": 21964,
+    "landBuildingRate": 0.021964,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Elkins",
     "rate": 0.00966,
+    "bill": 11594,
+    "landBuildingRate": 0.011594,
     "table": "Appendix Table 3c"
    }
   },
@@ -607,11 +805,15 @@
    "largestCity": {
     "city": "Cheyenne",
     "rate": 0.00637,
+    "bill": 7639,
+    "landBuildingRate": 0.007639,
     "table": "Appendix Table 3a"
    },
    "rural": {
     "city": "Worland",
     "rate": 0.00742,
+    "bill": 8904,
+    "landBuildingRate": 0.008904,
     "table": "Appendix Table 3c"
    }
   }

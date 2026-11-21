@@ -1,0 +1,311 @@
+{
+  "slug": "florida",
+  "code": "FL",
+  "name": "Florida",
+  "possessive": "Florida's",
+  "asOf": "November 21, 2026",
+  "verdict": "Its 340B hospitals cleared {netIncomeWords} in a year and take an estimated {exemptionsWords} in tax breaks. The hospital certificate of need law has been gone since 2019. No state law ties the property tax exemption to charity care, and no attorney general review stands over a hospital sale. Four 340B protection bills in three years died in their first committee.",
+  "gradeNote": "Driver grades I and III follow the Build Brief 2 scale (November 6, 2026). Grades IV and V are provisional Alliance grades, open until the state-grade rubric is published at /methodology/state-grade/.",
+  "stateIncomeTax": {
+    "rate": 0.055,
+    "note": "Florida corporate income tax at 5.5% on the same base."
+  },
+  "propertyTax": {
+    "largestCityCounties": [
+      "DUVAL"
+    ],
+    "rateKey": "landBuildingRate",
+    "note": "Hospitals in Duval County at the Jacksonville rate, all others at the Moore Haven rate, on land, land improvements and buildings at historical cost. Florida taxes fixtures at a lower rate than real property, so the study's land-and-building rates apply."
+  },
+  "slugs": {},
+  "systemNames": {
+    "Ascension Health": "Ascension",
+    "Baptist Health": "Baptist Health (Jacksonville)",
+    "Florida Health Sciences Center": "Tampa General Hospital",
+    "Nemours Childrens Health": "Nemours Children's Health",
+    "Nicklaus Childrens Health System": "Nicklaus Children's Health System"
+  },
+  "systems": {
+    "subtitle": "Their 340B hospitals in Florida",
+    "note": "Margin is net income over net patient revenue plus other income, the cost report's total margin. CMS hospital cost reports, latest report per hospital; hospitals assigned to systems by the AHRQ 2023 Compendium linkage. 16 of the {inCostReport} are public hospitals (hospital districts and counties) and file no Form 990. Every one of the {hospitals} hospitals has a cost report."
+  },
+  "drivers": [
+    {
+      "num": "I",
+      "label": "Section 6001",
+      "key": "6001",
+      "weight": 5,
+      "title": "Physician-owned hospitals",
+      "grade": "F",
+      "body": "The federal ban applies here as everywhere. Florida has no physician-owned hospital still operating under the grandfather clause. All {pohListed} on the Alliance list were sold. No new one can open and bill Medicare.",
+      "status": "LOBBY HOLDING · Federal ban unchanged",
+      "tone": "red",
+      "href": "/physician-owned/",
+      "linkText": "Read the physician-owned hospital desk",
+      "basis": "reported",
+      "source": "Alliance physician-owned hospital database (research/poh/poh_db_2026-03.json, March 2026): Florida {pohListed} hospitals listed; status Operating {pohOperating}, Sold/Acquired 3",
+      "as_of": "March 2026"
+    },
+    {
+      "num": "II",
+      "label": "Price Transparency",
+      "key": "transparency",
+      "weight": 12.5,
+      "title": "A state law with teeth of its own",
+      "grade": null,
+      "body": "Florida statute 395.301 makes a hospital post prices for at least 300 shoppable services or run a price estimator that meets the federal standard. A patient can demand a written estimate. A late estimate draws $1,000 a day, up to $10,000 per estimate. Statute 395.3011 bars lawsuits, liens and credit reporting until the hospital has checked the patient for financial assistance. Graded when the rubric is published.",
+      "status": "STATE LAW IN FORCE · Rubric pending",
+      "tone": "grey",
+      "href": null,
+      "linkText": null,
+      "basis": "reported",
+      "source": "Florida Statutes section 395.301(1)(b) (consumer-friendly list of standard charges for at least 300 shoppable services or an internet-based price estimator meeting federal standards), (1)(c) and (4) (written estimates; daily fine of $1,000 until the estimate is provided, not more than $10,000 per patient estimate); section 395.3011 (extraordinary collection actions barred before reasonable efforts to determine financial assistance eligibility; created by chapter 2024-183, amended by chapter 2025-98); leg.state.fl.us, retrieved November 21, 2026",
+      "as_of": "November 21, 2026"
+    },
+    {
+      "num": "III",
+      "label": "Certificate of Need",
+      "key": "con",
+      "weight": 30,
+      "title": "Hospital permits gone since 2019",
+      "grade": "A",
+      "body": "Florida repealed certificate of need for general hospitals on July 1, 2019 and for specialty hospitals on July 1, 2021. Nursing homes, hospices and intermediate care facilities still need one, which keeps the state off the top rank. A physician can build a surgery center or hospital without a competitor's say.",
+      "status": "HOSPITAL CON REPEALED · Ch. 2019-136",
+      "tone": "green",
+      "href": "/con/florida/",
+      "linkText": "Read the Florida certificate of need page",
+      "basis": "reported",
+      "source": "Chapter 2019-136, Laws of Florida (CS/HB 21): certificate of need review removed for general hospitals effective July 1, 2019 and for specialty hospitals effective July 1, 2021; Florida Statutes section 408.036(1) (projects still subject to review: community nursing home and intermediate care facility beds, hospices), leg.state.fl.us, retrieved November 21, 2026; the CON desk's rankings (data/rankings.json: Florida, hospital CON repealed, Mostly Free tier, score 5, rank 14)",
+      "as_of": "November 21, 2026"
+    },
+    {
+      "num": "IV",
+      "label": "Hospital Subsidies",
+      "key": "subsidies",
+      "weight": 27.5,
+      "title": "{exemptionsWords} a year in tax breaks",
+      "grade": "C",
+      "body": "Estimated federal, state and property tax exemptions for the {inCostReport} hospitals in the 340B program come to {exemptionsWords} a year. Against that, {charityWords} of charity care at cost. Florida ties no charity care standard to the exemption. Statute 196.197 exempts a nonprofit hospital's property on its charitable use and nothing more. Florida has no community benefit reporting law. Those hospitals run {childSites} 340B child sites and {contractPharmacies} contract pharmacy arrangements.",
+      "status": "NO STANDARD · No community benefit law",
+      "tone": "gold",
+      "href": "/drivers/",
+      "linkText": "Read the hospital subsidies desk",
+      "basis": "estimated",
+      "source": "Estimate from CMS hospital cost reports (2023 and 2024 files, latest report per hospital): federal income tax {federalTaxExact} (21% of net income of the {positiveNetIncome} profitable hospitals, {positiveNetIncomeSumExact}); state corporate income tax {stateTaxExact} (5.5% on the same base, Florida Statutes section 220.11); property tax {propertyTaxExact} on {propertyAtCostExact} of land, land improvements and buildings at historical cost, at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study land-and-building rates for taxes paid in 2025 (Jacksonville 2.0165% for Duval County hospitals, Moore Haven 2.4415% elsewhere; the $1 million net tax bill over land and building value, since Florida taxes fixtures at a lower rate); total {exemptionsExact}; charity care at cost {charityExact}; Florida Statutes section 196.197 (property exemption for a Florida nonprofit corporation exempt under section 501(c)(3), on charitable use; no charity care condition); statute search for a community benefit reporting requirement, October 2 and November 21, 2026: none; HRSA 340B OPAIS export of September 29, 2026 ({childSites} child sites, {contractPharmacies} arrangements)",
+      "as_of": "exemptions at 2025 rates on hospital fiscal years ending {fiscalYears}"
+    },
+    {
+      "num": "V",
+      "label": "CMS Favoritism",
+      "key": "cms",
+      "weight": 12.5,
+      "title": "Urban hospitals, rural rules",
+      "grade": "C",
+      "body": "{dual} of the {inCostReport} are hospitals in urban areas that CMS treats as rural under 42 CFR 412.103. Tampa General, AdventHealth Orlando, Orlando Health and Jackson Health System are among them. Rural status can lower the 340B eligibility bar for a rural referral center and change Medicare wage-index reclassification. {projectedDsh} of the {inCostReport} are projected to draw Medicare DSH payments in fiscal 2027, with {ucpWords} in uncompensated care payments.",
+      "status": "IN PLAY · {dual} of {inCostReport} reclassified",
+      "tone": "gold",
+      "href": "/drivers/",
+      "linkText": "Read the CMS favoritism desk",
+      "basis": "reported",
+      "source": "CMS hospital cost reports (Rural Versus Urban = rural) against the CMS FY2027 IPPS final rule impact file, correction notice (urban geographic classification with the Section 401 flag): {dualNames}; CMS FY2027 IPPS Medicare DSH supplemental file: {projectedDsh} Florida 340B hospitals projected to receive DSH in FY2027, total uncompensated care payment {ucpExact}",
+      "as_of": "CMS FY2027 IPPS final rule impact file (correction notice) and DSH supplemental file"
+    },
+    {
+      "num": "VI",
+      "label": "Stark & Anti-Kickback",
+      "key": "stark",
+      "weight": 12.5,
+      "title": "No room to build rivals",
+      "grade": null,
+      "body": "Florida has its own self-referral and anti-kickback laws. The Patient Self-Referral Act, statute 456.053, covers laboratory, imaging, physical therapy, rehabilitation and radiation therapy. A physician cannot refer to an entity in which the physician is an investor. Statute 456.054 makes it unlawful to pay or take a kickback, bonus or split fee for referrals. Whether these go beyond the federal statutes is not yet researched.",
+      "status": "PENDING RESEARCH",
+      "tone": "grey",
+      "href": null,
+      "linkText": null,
+      "basis": "pending",
+      "source": "Florida Statutes section 456.053 (Patient Self-Referral Act of 1992: referrals for designated health services to an entity in which the physician is an investor barred, with exceptions) and section 456.054 (kickbacks prohibited; commissions, bonuses, kickbacks, rebates and split-fee arrangements for referrals unlawful), leg.state.fl.us, retrieved November 21, 2026; state self-referral review not yet done",
+      "as_of": "November 21, 2026"
+    }
+  ],
+  "moneyNotes": {
+    "exemptions": "Federal income {federalTax}, state corporate {stateTax}, property {propertyTax}, at 2025 rates. Sales tax not estimated."
+  },
+  "whoDecides": {
+    "subtitle": "Machine Scores coming with the lawmaker pages",
+    "groups": [
+      {
+        "name": "The executive",
+        "people": [
+          {
+            "name": "Ron DeSantis",
+            "role": "Governor (R), in office since January 8, 2019, second term"
+          },
+          {
+            "name": "James Uthmeier",
+            "role": "Attorney General (R), appointed February 2025, elected to a full term November 3, 2026"
+          }
+        ]
+      },
+      {
+        "name": "The Legislature",
+        "people": [
+          {
+            "name": "Jay Collins",
+            "role": "Lieutenant Governor (R), since August 12, 2025"
+          },
+          {
+            "name": "Jim Boyd",
+            "role": "President of the Senate (R), District 20, since November 17, 2026"
+          },
+          {
+            "name": "Sam Garrison",
+            "role": "Speaker of the House (R), District 11, since November 17, 2026"
+          },
+          {
+            "name": "Demi Busatta",
+            "role": "Chair, House Health & Human Services (R), District 114"
+          },
+          {
+            "name": "Mike Redondo",
+            "role": "Chair, House Health Care Appropriations (R), District 118"
+          }
+        ],
+        "note": "The Senate had not posted its 2026-28 committee chairs on November 21, 2026. On the October 2026 rosters, 24 of 39 state senators and 38 of 116 House members had a 340B hospital in their district."
+      },
+      {
+        "name": "In Washington",
+        "people": [
+          {
+            "name": "Sen. Ashley Moody",
+            "role": "Senate HELP"
+          },
+          {
+            "name": "Rep. Vern Buchanan",
+            "role": "Ways and Means (FL-16)"
+          },
+          {
+            "name": "Rep. Aaron Bean",
+            "role": "Ways and Means (FL-4)"
+          },
+          {
+            "name": "Rep. Gus Bilirakis",
+            "role": "Energy and Commerce (FL-12)"
+          },
+          {
+            "name": "Rep. Neal Dunn",
+            "role": "Energy and Commerce, vice chair (FL-2)"
+          },
+          {
+            "name": "Rep. Kathy Castor",
+            "role": "Energy and Commerce (FL-14)"
+          }
+        ],
+        "note": "No Florida senator sits on Senate Finance. 21 of 27 sitting U.S. House members have a 340B hospital in their district; FL-20 has been vacant since April 21, 2026."
+      }
+    ],
+    "pac": {
+      "text": "The Florida Hospital Association's political committee reported $581,220 in contributions in 2024, $376,500 in 2025 and $272,000 from January 1 to October 1, 2026.",
+      "basis": "reported",
+      "source": "Florida Department of State, Division of Elections, campaign finance database, contributions by Florida Hospital Association PC: 2024 $581,220.49 in 75 entries to 58 recipients; 2025 $376,500 in 44 entries to 33 recipients; January 1 to October 1, 2026 $272,000 in 23 entries to 20 recipients (query saved October 2, 2026)",
+      "as_of": "January 1, 2024 to October 1, 2026"
+    },
+    "basis": "reported",
+    "source": "Office of the Governor (flgov.com), Office of the Attorney General (myfloridalegal.com), Florida Senate and House rosters and committee pages, U.S. Senate committee XML, U.S. House Clerk MemberData.xml, all saved October 1 and 2, 2026; names cross-checked against the National Governors Association and National Association of Attorneys General rosters on November 19, 2026; Senate President and House Speaker, committee chairs and member districts from flsenate.gov and flhouse.gov on November 21, 2026 (2026-28 term pages); the attorney general's November 3, 2026 election from the Associated Press call as reported by WPTV on November 3, 2026 (certified results pending); Senate district 39 and House districts 55, 78, 113 and 116 were vacant on the October rosters; district counts from the Census geocoder and TIGERweb on the hospitals' registered addresses",
+    "as_of": "November 21, 2026"
+  },
+  "agOversight": {
+    "subtitle": "What the office can do, and what it has done",
+    "items": [
+      {
+        "title": "No say over hospital deals",
+        "body": "No Florida statute requires the attorney general to review a nonprofit hospital sale, lease or conversion. Its one recent hospital opinion went to the Marion County Hospital District on July 19, 2020. It dealt with open-meetings law at a board session on the lessee's expansion plans, not the lease itself.",
+        "source": "Statute search of Florida Statutes chapters 395, 408, 617 and 736 for attorney general notice or consent on nonprofit hospital transactions, October 2 and November 21, 2026: none; Office of the Attorney General informal opinion to the Marion County Hospital District, July 19, 2020 (public-hospital strategic-plan exemption from the open meetings law not applicable to a District board meeting at which AdventHealth Ocala presents expansion plans), myfloridalegal.com, saved October 2, 2026"
+      },
+      {
+        "title": "Charities and corporations",
+        "body": "Statute 617.1430 lets the Department of Legal Affairs, the attorney general's department, ask a court to dissolve a nonprofit corporation. The grounds are a charter got by fraud or abuse of its legal authority. Statute 736.0110 lets the attorney general assert a beneficiary's rights over a charitable trust administered in Florida.",
+        "source": "Florida Statutes section 617.1430(1)(a) (judicial dissolution in a proceeding by the Department of Legal Affairs) and section 736.0110(3) (Attorney General may assert the rights of a qualified beneficiary of a charitable trust with its principal place of administration in Florida), leg.state.fl.us, retrieved November 21, 2026"
+      },
+      {
+        "title": "An assessment instead of a standard",
+        "body": "Florida charges every hospital 1.5 percent of inpatient and 1 percent of outpatient net operating revenue into the Public Medical Assistance Trust Fund. The property tax exemption rests on nonprofit status and charitable use. No charity care minimum attaches to it, and no office audits one.",
+        "source": "Florida Statutes section 395.701(2)(a) and (b) (annual assessments of 1.5 percent of net operating revenue for inpatient services and 1 percent for outpatient services, Public Medical Assistance Trust Fund) and section 196.197(1) (exemption for a Florida corporation not for profit exempt under section 501(c)(3), on charitable use), leg.state.fl.us, retrieved November 21, 2026"
+      },
+      {
+        "title": "Enforcement record",
+        "body": "No attorney general enforcement action on hospital charity care, tax exemption or the 340B program was found. The office's site was searched on October 2 and November 21, 2026.",
+        "source": "myfloridalegal.com site searches for 340B, contract pharmacy and hospital charity care (October 2, 2026, and November 21, 2026): NOT FOUND"
+      },
+      {
+        "title": "The one 340B case is private",
+        "body": "Tampa General's operator sued Eli Lilly in federal court in Tampa on July 2, 2026. Lilly moved to dismiss on September 21, 2026 with an as-applied challenge to Florida's deceptive trade practices act. No Florida statute on 340B contract pharmacies is at stake, because the state has none.",
+        "source": "Florida Health Sciences Center, Inc. v. Eli Lilly and Company, M.D. Fla. No. 8:26-cv-01918 (Judge William F. Jung), complaint filed July 2, 2026; defendants' motion to dismiss and as-applied challenge filed September 21, 2026 (docket saved October 2, 2026); Florida Statutes search for 340B: section 499.003(48)(w) (distributor permit exemption) and section 499.026 (price-increase reporting factor) only"
+      }
+    ],
+    "basis": "reported",
+    "source": "Florida Statutes at leg.state.fl.us (saved with checksums in research/states/sources/fl/), Office of the Attorney General at myfloridalegal.com, PACER docket for M.D. Fla. 8:26-cv-01918, retrieved October 2 and November 21, 2026",
+    "as_of": "November 21, 2026"
+  },
+  "bills": {
+    "subtitle": "The Legislature organized November 17, 2026; the 2027 session convenes March 2, 2027",
+    "basis": "reported",
+    "source": "Florida House of Representatives bill history pages for HB 1281, SB 1638, SB 1758, HB 573 and SB 886 (2026), HB 1527 (2025) and SB 1608 (2024), saved October 2, 2026; Florida Statutes section 395.3011 history (chapter 2024-183, chapter 2025-98); Florida Constitution article III, section 3 (sessions); Florida House and Senate organization session pages, November 17, 2026",
+    "as_of": "November 21, 2026",
+    "rows": [
+      {
+        "id": "HB 1281 / SB 1638",
+        "title": "340B protection, all comers",
+        "body": "Would have barred manufacturers, pharmacy benefit managers and payers from limiting 340B entities and their contract pharmacies. Neither bill got a hearing. Both died in their first committee on March 13, 2026.",
+        "status": "DIED · First committee, Mar. 13, 2026",
+        "tone": "red"
+      },
+      {
+        "id": "HB 1527 / SB 1608",
+        "title": "The same bill, twice before",
+        "body": "The 2025 and 2024 versions of the 340B protection bill. Each died in its first committee without a hearing, HB 1527 on June 16, 2025.",
+        "status": "DIED · No hearing, 2024 and 2025",
+        "tone": "red"
+      },
+      {
+        "id": "SB 1758",
+        "title": "A 340B compliance study",
+        "body": "Would have ordered a study of 340B compliance with data from covered entities. Cleared Senate Health Policy 8 to 3 and Appropriations 14 to 4, then passed the Senate 26 to 11 on March 9, 2026. The House never took it up.",
+        "status": "DIED · House messages, Mar. 13, 2026",
+        "tone": "green"
+      },
+      {
+        "id": "HB 573 / SB 886",
+        "title": "A Medicaid 340B pricing study",
+        "body": "Would have made the Agency for Health Care Administration study paying Medicaid pharmacies no more than the 340B price. HB 573 died in the Health Care Facilities & Systems Subcommittee and SB 886 in Senate Health Policy on March 13, 2026. The Florida Hospital Association, AdventHealth, BayCare and Tampa General filed notices on HB 573.",
+        "status": "DIED · Committee, Mar. 13, 2026",
+        "tone": "gold"
+      },
+      {
+        "id": "Ch. 2024-183",
+        "title": "Collection limits on hospitals",
+        "body": "Created statute 395.3011. A hospital cannot sue, lien, garnish or report a patient to a credit bureau until it has checked the patient for financial assistance. Amended in 2025.",
+        "status": "ENACTED · Amended Ch. 2025-98",
+        "tone": "gold"
+      }
+    ]
+  },
+  "buy": {
+    "heading": "Take Florida with you.",
+    "text": "Every hospital, every subsidy line, every lawmaker's district exposure, with the source documents.",
+    "options": [
+      {
+        "label": "Florida dataset",
+        "price": null,
+        "perYear": false,
+        "primary": true
+      },
+      {
+        "label": "All states, all-access",
+        "price": null,
+        "perYear": true,
+        "primary": false
+      }
+    ]
+  },
+  "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, Florida Statutes chapters 196, 220, 395, 408, 456, 499, 617 and 736, Florida House and Senate bill histories, Florida Division of Elections, PACER, CMS FY2027 IPPS impact and Medicare DSH supplemental files, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Alliance physician-owned hospital database (March 2026)."
+}

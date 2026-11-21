@@ -1,0 +1,1127 @@
+{
+ "slug": "florida",
+ "code": "FL",
+ "name": "Florida",
+ "verdict": "Its 340B hospitals cleared $6.1 billion in a year and take an estimated $2.6 billion in tax breaks. The hospital certificate of need law has been gone since 2019. No state law ties the property tax exemption to charity care, and no attorney general review stands over a hospital sale. Four 340B protection bills in three years died in their first committee.",
+ "asOf": "November 21, 2026",
+ "grade": {
+  "note": "Driver grades I and III follow the Build Brief 2 scale (November 6, 2026). Grades IV and V are provisional Alliance grades, open until the state-grade rubric is published at /methodology/state-grade/."
+ },
+ "money": {
+  "asOf": "Florida's 55 hospitals in the 340B program, fiscal years ending 2024 to 2025",
+  "items": [
+   {
+    "value": "$6.1B",
+    "text": "in net income in one year, on $49.8B of patient revenue.",
+    "note": "46 of 55 made money. CMS hospital cost reports, latest report per hospital.",
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Net Income 6,147,549,922 and Net Patient Revenue 49,827,849,959 over the 55 active 340B hospitals with cost reports; 46 of 55 with positive net income",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "value": "$74.3B",
+    "text": "in total assets on their books.",
+    "note": "CMS hospital cost reports, latest report per hospital.",
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital: sum of Total Assets 74,322,087,224 over the 55 hospitals",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "value": "$2.6B",
+    "text": "a year in estimated tax breaks, against $2.0B of charity care.",
+    "note": "Federal income $1.5B, state corporate $404M, property $656M, at 2025 rates. Sales tax not estimated.",
+    "basis": "estimated",
+    "source": "Estimate from the cost reports: federal income tax 1,542,323,281 (21% of cost-report net income of the 46 profitable hospitals, 7,344,396,574); state income tax 403,941,812 (5.5% on the same base); property tax 656,256,639 on 27,346,511,835 of land, land improvements and buildings at historical cost at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study land-and-building rates (the $1 million net tax bill over land and building value, since the state taxes fixtures at a lower rate) for taxes paid in 2025 (Jacksonville 2.016% for hospitals in Duval County, Moore Haven 2.442% elsewhere); total 2,602,521,732. Charity care at cost 2,024,655,143 from the cost reports",
+    "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "value": "817",
+    "text": "340B contract pharmacy arrangements with pharmacies outside Florida, of 2,684 in all.",
+    "note": "HRSA 340B registry, September 29, 2026.",
+    "basis": "reported",
+    "source": "HRSA 340B OPAIS export of September 29, 2026: 2,684 active contract pharmacy arrangements for the 55 hospitals, 817 with pharmacies outside the state (30%)",
+    "as_of": "September 29, 2026"
+   }
+  ]
+ },
+ "drivers": [
+  {
+   "num": "I",
+   "label": "Section 6001",
+   "key": "6001",
+   "weight": 5,
+   "title": "Physician-owned hospitals",
+   "grade": "F",
+   "body": "The federal ban applies here as everywhere. Florida has no physician-owned hospital still operating under the grandfather clause. All 3 on the Alliance list were sold. No new one can open and bill Medicare.",
+   "status": "LOBBY HOLDING · Federal ban unchanged",
+   "tone": "red",
+   "href": "/physician-owned/",
+   "linkText": "Read the physician-owned hospital desk",
+   "basis": "reported",
+   "source": "Alliance physician-owned hospital database (research/poh/poh_db_2026-03.json, March 2026): Florida 3 hospitals listed; status Operating 0, Sold/Acquired 3",
+   "as_of": "March 2026"
+  },
+  {
+   "num": "II",
+   "label": "Price Transparency",
+   "key": "transparency",
+   "weight": 12.5,
+   "title": "A state law with teeth of its own",
+   "grade": null,
+   "body": "Florida statute 395.301 makes a hospital post prices for at least 300 shoppable services or run a price estimator that meets the federal standard. A patient can demand a written estimate. A late estimate draws $1,000 a day, up to $10,000 per estimate. Statute 395.3011 bars lawsuits, liens and credit reporting until the hospital has checked the patient for financial assistance. Graded when the rubric is published.",
+   "status": "STATE LAW IN FORCE · Rubric pending",
+   "tone": "grey",
+   "href": null,
+   "linkText": null,
+   "basis": "reported",
+   "source": "Florida Statutes section 395.301(1)(b) (consumer-friendly list of standard charges for at least 300 shoppable services or an internet-based price estimator meeting federal standards), (1)(c) and (4) (written estimates; daily fine of $1,000 until the estimate is provided, not more than $10,000 per patient estimate); section 395.3011 (extraordinary collection actions barred before reasonable efforts to determine financial assistance eligibility; created by chapter 2024-183, amended by chapter 2025-98); leg.state.fl.us, retrieved November 21, 2026",
+   "as_of": "November 21, 2026"
+  },
+  {
+   "num": "III",
+   "label": "Certificate of Need",
+   "key": "con",
+   "weight": 30,
+   "title": "Hospital permits gone since 2019",
+   "grade": "A",
+   "body": "Florida repealed certificate of need for general hospitals on July 1, 2019 and for specialty hospitals on July 1, 2021. Nursing homes, hospices and intermediate care facilities still need one, which keeps the state off the top rank. A physician can build a surgery center or hospital without a competitor's say.",
+   "status": "HOSPITAL CON REPEALED · Ch. 2019-136",
+   "tone": "green",
+   "href": "/con/florida/",
+   "linkText": "Read the Florida certificate of need page",
+   "basis": "reported",
+   "source": "Chapter 2019-136, Laws of Florida (CS/HB 21): certificate of need review removed for general hospitals effective July 1, 2019 and for specialty hospitals effective July 1, 2021; Florida Statutes section 408.036(1) (projects still subject to review: community nursing home and intermediate care facility beds, hospices), leg.state.fl.us, retrieved November 21, 2026; the CON desk's rankings (data/rankings.json: Florida, hospital CON repealed, Mostly Free tier, score 5, rank 14)",
+   "as_of": "November 21, 2026"
+  },
+  {
+   "num": "IV",
+   "label": "Hospital Subsidies",
+   "key": "subsidies",
+   "weight": 27.5,
+   "title": "$2.6 billion a year in tax breaks",
+   "grade": "C",
+   "body": "Estimated federal, state and property tax exemptions for the 55 hospitals in the 340B program come to $2.6 billion a year. Against that, $2.0 billion of charity care at cost. Florida ties no charity care standard to the exemption. Statute 196.197 exempts a nonprofit hospital's property on its charitable use and nothing more. Florida has no community benefit reporting law. Those hospitals run 1,502 340B child sites and 2,684 contract pharmacy arrangements.",
+   "status": "NO STANDARD · No community benefit law",
+   "tone": "gold",
+   "href": "/drivers/",
+   "linkText": "Read the hospital subsidies desk",
+   "basis": "estimated",
+   "source": "Estimate from CMS hospital cost reports (2023 and 2024 files, latest report per hospital): federal income tax 1,542,323,281 (21% of net income of the 46 profitable hospitals, 7,344,396,574); state corporate income tax 403,941,812 (5.5% on the same base, Florida Statutes section 220.11); property tax 656,256,639 on 27,346,511,835 of land, land improvements and buildings at historical cost, at the Lincoln Institute / Minnesota Center for Fiscal Excellence 50-State Property Tax Comparison Study land-and-building rates for taxes paid in 2025 (Jacksonville 2.0165% for Duval County hospitals, Moore Haven 2.4415% elsewhere; the $1 million net tax bill over land and building value, since Florida taxes fixtures at a lower rate); total 2,602,521,732; charity care at cost 2,024,655,143; Florida Statutes section 196.197 (property exemption for a Florida nonprofit corporation exempt under section 501(c)(3), on charitable use; no charity care condition); statute search for a community benefit reporting requirement, October 2 and November 21, 2026: none; HRSA 340B OPAIS export of September 29, 2026 (1,502 child sites, 2,684 arrangements)",
+   "as_of": "exemptions at 2025 rates on hospital fiscal years ending 2024 to 2025"
+  },
+  {
+   "num": "V",
+   "label": "CMS Favoritism",
+   "key": "cms",
+   "weight": 12.5,
+   "title": "Urban hospitals, rural rules",
+   "grade": "C",
+   "body": "18 of the 55 are hospitals in urban areas that CMS treats as rural under 42 CFR 412.103. Tampa General, AdventHealth Orlando, Orlando Health and Jackson Health System are among them. Rural status can lower the 340B eligibility bar for a rural referral center and change Medicare wage-index reclassification. 42 of the 55 are projected to draw Medicare DSH payments in fiscal 2027, with $486 million in uncompensated care payments.",
+   "status": "IN PLAY · 18 of 55 reclassified",
+   "tone": "gold",
+   "href": "/drivers/",
+   "linkText": "Read the CMS favoritism desk",
+   "basis": "reported",
+   "source": "CMS hospital cost reports (Rural Versus Urban = rural) against the CMS FY2027 IPPS final rule impact file, correction notice (urban geographic classification with the Section 401 flag): ASCENSION ST. VINCENTS SOUTHSIDE HO, AdventHealth Ocala, AdventHealth Orlando, BAPTIST MEDICAL CENTER, BAYFRONT HEALTH ST. PETERSBURG, HALIFAX HEALTH MEDICAL CENTER, JACKSON HEALTH SYSTEM, LAKELAND REGIONAL MED CTR, MEMORIAL HOSPITAL WEST, MEMORIAL REGIONAL HOSPITAL, ORLANDO HEALTH, SACRED HEART HEALTH SYSTEM, SACRED HEART HOSPITAL ON THE EMERALD, SHANDS TEACHING HOSPITAL AND CLINICS, INC., ST JOSEPH'S HOSPITAL, ST. ANTHONYS HOSPITAL, TAMPA GENERAL HOSPITAL, WINTER HAVEN HOSPITAL; CMS FY2027 IPPS Medicare DSH supplemental file: 42 Florida 340B hospitals projected to receive DSH in FY2027, total uncompensated care payment 485,751,655",
+   "as_of": "CMS FY2027 IPPS final rule impact file (correction notice) and DSH supplemental file"
+  },
+  {
+   "num": "VI",
+   "label": "Stark & Anti-Kickback",
+   "key": "stark",
+   "weight": 12.5,
+   "title": "No room to build rivals",
+   "grade": null,
+   "body": "Florida has its own self-referral and anti-kickback laws. The Patient Self-Referral Act, statute 456.053, covers laboratory, imaging, physical therapy, rehabilitation and radiation therapy. A physician cannot refer to an entity in which the physician is an investor. Statute 456.054 makes it unlawful to pay or take a kickback, bonus or split fee for referrals. Whether these go beyond the federal statutes is not yet researched.",
+   "status": "PENDING RESEARCH",
+   "tone": "grey",
+   "href": null,
+   "linkText": null,
+   "basis": "pending",
+   "source": "Florida Statutes section 456.053 (Patient Self-Referral Act of 1992: referrals for designated health services to an entity in which the physician is an investor barred, with exceptions) and section 456.054 (kickbacks prohibited; commissions, bonuses, kickbacks, rebates and split-fee arrangements for referrals unlawful), leg.state.fl.us, retrieved November 21, 2026; state self-referral review not yet done",
+   "as_of": "November 21, 2026"
+  }
+ ],
+ "systems": {
+  "subtitle": "Their 340B hospitals in Florida",
+  "note": "Margin is net income over net patient revenue plus other income, the cost report's total margin. CMS hospital cost reports, latest report per hospital; hospitals assigned to systems by the AHRQ 2023 Compendium linkage. 16 of the 55 are public hospitals (hospital districts and counties) and file no Form 990. Every one of the 55 hospitals has a cost report.",
+  "rows": [
+   {
+    "name": "AdventHealth",
+    "slug": null,
+    "hospitals": 5,
+    "netPatientRevenue": 9333984012,
+    "netIncome": 1878162025,
+    "otherIncome": 571783695,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Baptist Health South Florida",
+    "slug": null,
+    "hospitals": 8,
+    "netPatientRevenue": 4586546760,
+    "netIncome": 833774748,
+    "otherIncome": 190436797,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Baptist Health (Jacksonville)",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 2475211000,
+    "netIncome": 718466998,
+    "otherIncome": 373711739,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "University of Miami Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 3075600015,
+    "netIncome": 648411557,
+    "otherIncome": 368373908,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Orlando Health",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 4565495345,
+    "netIncome": 580073498,
+    "otherIncome": 881657944,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Trinity Health",
+    "slug": null,
+    "hospitals": 4,
+    "netPatientRevenue": 3200838275,
+    "netIncome": 456975587,
+    "otherIncome": 60134162,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Tampa General Hospital",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 2229611987,
+    "netIncome": 437517732,
+    "otherIncome": 790859668,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "UF Health",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 3903356085,
+    "netIncome": 239450867,
+    "otherIncome": 352979493,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Lee Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1578024000,
+    "netIncome": 230881000,
+    "otherIncome": 123363379,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Johns Hopkins Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 821711577,
+    "netIncome": 176526539,
+    "otherIncome": 99487198,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Lakeland Regional Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1182475799,
+    "netIncome": 163564438,
+    "otherIncome": 22632972,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Mount Sinai Medical Center of Florida",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1033672368,
+    "netIncome": 121264984,
+    "otherIncome": 164101677,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Nicklaus Children's Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 959783263,
+    "netIncome": 120743308,
+    "otherIncome": 104595936,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Broward Health",
+    "slug": null,
+    "hospitals": 4,
+    "netPatientRevenue": 1361374897,
+    "netIncome": 116116642,
+    "otherIncome": 283620783,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Jackson Health System",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 1621179794,
+    "netIncome": 104430560,
+    "otherIncome": 1571504068,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Ascension",
+    "slug": null,
+    "hospitals": 3,
+    "netPatientRevenue": 1809102757,
+    "netIncome": 79720672,
+    "otherIncome": 141919173,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Halifax Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 689626894,
+    "netIncome": 70186816,
+    "otherIncome": 80736234,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Tallahassee Memorial Healthcare",
+    "slug": null,
+    "hospitals": 2,
+    "netPatientRevenue": 995180299,
+    "netIncome": 30874385,
+    "otherIncome": 99556831,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Baptist Health Care",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 572919448,
+    "netIncome": 27753597,
+    "otherIncome": 70546049,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Nemours Children's Health",
+    "slug": null,
+    "hospitals": 1,
+    "netPatientRevenue": 411873037,
+    "netIncome": 20586937,
+    "otherIncome": 34321001,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Memorial Healthcare System",
+    "slug": null,
+    "hospitals": 4,
+    "netPatientRevenue": 3181082173,
+    "netIncome": -927990870,
+    "otherIncome": 613681954,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN)",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   },
+   {
+    "name": "Independent hospitals (8)",
+    "slug": null,
+    "hospitals": 8,
+    "netPatientRevenue": 239200174,
+    "netIncome": 20057902,
+    "otherIncome": 71518781,
+    "basis": "reported",
+    "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital; hospitals assigned to systems by the AHRQ Compendium of U.S. Health Systems 2023 linkage file (CCN); hospitals with no system in the linkage file",
+    "as_of": "hospital fiscal years ending 2024 to 2025"
+   }
+  ]
+ },
+ "hospitals": {
+  "source": "CMS Hospital Provider Cost Report, CostReport_2023_Final.csv and CostReport_2024_Final.csv (data.cms.gov, retrieved September 30, 2026), latest report per hospital",
+  "as_of": "hospital fiscal years ending 2024 to 2025",
+  "rows": [
+   {
+    "ccn": "100007",
+    "name": "AdventHealth Orlando",
+    "system": "AdventHealth",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 7153306371,
+    "netIncome": 1611713308,
+    "totalAssets": 10197717660,
+    "charityCareAtCost": 268871857
+   },
+   {
+    "ccn": "100006",
+    "name": "ORLANDO HEALTH",
+    "system": "Orlando Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 3769621986,
+    "netIncome": 438178481,
+    "totalAssets": 9219586172,
+    "charityCareAtCost": 215032510
+   },
+   {
+    "ccn": "100079",
+    "name": "UNIVERSITY OF MIAMI HOSPITAL AND CLINICS",
+    "system": "University of Miami Health System",
+    "fiscalYearEnd": "05/31/2025",
+    "netPatientRevenue": 3075600015,
+    "netIncome": 648411557,
+    "totalAssets": 2766642507,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "100113",
+    "name": "SHANDS TEACHING HOSPITAL AND CLINICS, INC.",
+    "system": "UF Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 2897733094,
+    "netIncome": 169050799,
+    "totalAssets": 1989680377,
+    "charityCareAtCost": 63158006
+   },
+   {
+    "ccn": "100088",
+    "name": "BAPTIST MEDICAL CENTER",
+    "system": "Baptist Health (Jacksonville)",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 2475211000,
+    "netIncome": 718466998,
+    "totalAssets": 4728976000,
+    "charityCareAtCost": 129903825
+   },
+   {
+    "ccn": "100128",
+    "name": "TAMPA GENERAL HOSPITAL",
+    "system": "Tampa General Hospital",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 2229611987,
+    "netIncome": 437517732,
+    "totalAssets": 4974760330,
+    "charityCareAtCost": 118569170
+   },
+   {
+    "ccn": "100008",
+    "name": "Baptist Hospital of Miami, INC",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 2215211418,
+    "netIncome": 548003436,
+    "totalAssets": 1410762911,
+    "charityCareAtCost": 27452209
+   },
+   {
+    "ccn": "100075",
+    "name": "ST JOSEPH'S HOSPITAL",
+    "system": "Trinity Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1944457190,
+    "netIncome": 358717594,
+    "totalAssets": 3393719679,
+    "charityCareAtCost": 69993501
+   },
+   {
+    "ccn": "100038",
+    "name": "MEMORIAL REGIONAL HOSPITAL",
+    "system": "Memorial Healthcare System",
+    "fiscalYearEnd": "04/30/2025",
+    "netPatientRevenue": 1774197547,
+    "netIncome": -1114364021,
+    "totalAssets": 4571947713,
+    "charityCareAtCost": 88149263
+   },
+   {
+    "ccn": "100022",
+    "name": "JACKSON HEALTH SYSTEM",
+    "system": "Jackson Health System",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1621179794,
+    "netIncome": 104430560,
+    "totalAssets": 7114905246,
+    "charityCareAtCost": 147925529
+   },
+   {
+    "ccn": "100012",
+    "name": "LEE HEALTH SYSTEM, INC. DBA LEE HEALTH",
+    "system": "Lee Health",
+    "fiscalYearEnd": "10/31/2024",
+    "netPatientRevenue": 1578024000,
+    "netIncome": 230881000,
+    "totalAssets": 3037231800,
+    "charityCareAtCost": 55437972
+   },
+   {
+    "ccn": "100025",
+    "name": "SACRED HEART HEALTH SYSTEM",
+    "system": "Ascension",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1227640929,
+    "netIncome": 84386482,
+    "totalAssets": 551143936,
+    "charityCareAtCost": 52118073
+   },
+   {
+    "ccn": "100157",
+    "name": "LAKELAND REGIONAL MED CTR",
+    "system": "Lakeland Regional Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 1182475799,
+    "netIncome": 163564438,
+    "totalAssets": 1163223710,
+    "charityCareAtCost": 52277648
+   },
+   {
+    "ccn": "100034",
+    "name": "MOUNT SINAI MEDICAL CENTER",
+    "system": "Mount Sinai Medical Center of Florida",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1033672368,
+    "netIncome": 121264984,
+    "totalAssets": 1286399155,
+    "charityCareAtCost": 29833497
+   },
+   {
+    "ccn": "100001",
+    "name": "SHANDS JACKSONVILLE MEDICAL CENTER",
+    "system": "UF Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 1005622991,
+    "netIncome": 70400068,
+    "totalAssets": 1264677312,
+    "charityCareAtCost": 83105301
+   },
+   {
+    "ccn": "100173",
+    "name": "AdventHealth TAMPA",
+    "system": "AdventHealth",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 1000298714,
+    "netIncome": 84074444,
+    "totalAssets": 848184776,
+    "charityCareAtCost": 32313276
+   },
+   {
+    "ccn": "100135",
+    "name": "TALLAHASSEE MEMORIAL HEALTHCARE, INC",
+    "system": "Tallahassee Memorial Healthcare",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 985546474,
+    "netIncome": 31114704,
+    "totalAssets": 1151040007,
+    "charityCareAtCost": 20301753
+   },
+   {
+    "ccn": "103301",
+    "name": "Nicklaus Children's Hospital",
+    "system": "Nicklaus Children's Health System",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 959783263,
+    "netIncome": 120743308,
+    "totalAssets": 1873250733,
+    "charityCareAtCost": 8480529
+   },
+   {
+    "ccn": "100281",
+    "name": "MEMORIAL HOSPITAL WEST",
+    "system": "Memorial Healthcare System",
+    "fiscalYearEnd": "04/30/2025",
+    "netPatientRevenue": 889911232,
+    "netIncome": 101979668,
+    "totalAssets": 510800936,
+    "charityCareAtCost": 35665158
+   },
+   {
+    "ccn": "103300",
+    "name": "JOHNS HOPKINS ALL CHILDREN'S HOSPITAL, INC.",
+    "system": "Johns Hopkins Health System",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 821711577,
+    "netIncome": 176526539,
+    "totalAssets": 1577063225,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "100154",
+    "name": "South Miami Hospital",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 780495099,
+    "netIncome": 139586473,
+    "totalAssets": 466214546,
+    "charityCareAtCost": 11184182
+   },
+   {
+    "ccn": "100017",
+    "name": "HALIFAX HEALTH MEDICAL CENTER",
+    "system": "Halifax Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 689626894,
+    "netIncome": 70186816,
+    "totalAssets": 989872355,
+    "charityCareAtCost": 52779597
+   },
+   {
+    "ccn": "100039",
+    "name": "BROWARD HEALTH MEDICAL CENTER",
+    "system": "Broward Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 656136654,
+    "netIncome": 43178566,
+    "totalAssets": 1311426318,
+    "charityCareAtCost": 57518476
+   },
+   {
+    "ccn": "100093",
+    "name": "BAPTIST HOSPITAL",
+    "system": "Baptist Health Care",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 572919448,
+    "netIncome": 27753597,
+    "totalAssets": 1127882224,
+    "charityCareAtCost": 38619032
+   },
+   {
+    "ccn": "100067",
+    "name": "ST. ANTHONYS HOSPITAL",
+    "system": "Trinity Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 550986736,
+    "netIncome": 48390700,
+    "totalAssets": 551474149,
+    "charityCareAtCost": 24987732
+   },
+   {
+    "ccn": "100062",
+    "name": "AdventHealth Ocala",
+    "system": "AdventHealth",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 524610225,
+    "netIncome": 48302028,
+    "totalAssets": 337713243,
+    "charityCareAtCost": 19823374
+   },
+   {
+    "ccn": "100052",
+    "name": "WINTER HAVEN HOSPITAL",
+    "system": "Trinity Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 496565002,
+    "netIncome": 44247161,
+    "totalAssets": 265871886,
+    "charityCareAtCost": 21242036
+   },
+   {
+    "ccn": "100314",
+    "name": "West Kendall Baptist Hospital",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 492219002,
+    "netIncome": 136824228,
+    "totalAssets": 351467153,
+    "charityCareAtCost": 8584272
+   },
+   {
+    "ccn": "103304",
+    "name": "NEMOURS CHILDRENS HOSPITAL",
+    "system": "Nemours Children's Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 411873037,
+    "netIncome": 20586937,
+    "totalAssets": 510334723,
+    "charityCareAtCost": 0
+   },
+   {
+    "ccn": "100030",
+    "name": "ORLANDO HEALTH-HEALTH CENTRAL HOSPIT",
+    "system": "Orlando Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 402793316,
+    "netIncome": 97333220,
+    "totalAssets": 705186061,
+    "charityCareAtCost": 46996530
+   },
+   {
+    "ccn": "100002",
+    "name": "Bethesda Hospital",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 397272449,
+    "netIncome": -30996926,
+    "totalAssets": 397415421,
+    "charityCareAtCost": 5325785
+   },
+   {
+    "ccn": "100032",
+    "name": "BAYFRONT HEALTH ST. PETERSBURG",
+    "system": "Orlando Health",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 393080043,
+    "netIncome": 44561797,
+    "totalAssets": 426391361,
+    "charityCareAtCost": 40845031
+   },
+   {
+    "ccn": "100307",
+    "name": "ASCENSION ST. VINCENTS SOUTHSIDE HO",
+    "system": "Ascension",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 378983769,
+    "netIncome": -39190427,
+    "totalAssets": 246522895,
+    "charityCareAtCost": 15171661
+   },
+   {
+    "ccn": "100137",
+    "name": "AdventHealth Heart of Florida",
+    "system": "AdventHealth",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 360746334,
+    "netIncome": 82158329,
+    "totalAssets": 420490444,
+    "charityCareAtCost": 13381576
+   },
+   {
+    "ccn": "100086",
+    "name": "BROWARD HEALTH NORTH",
+    "system": "Broward Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 336258048,
+    "netIncome": 42651053,
+    "totalAssets": 434390284,
+    "charityCareAtCost": 23981578
+   },
+   {
+    "ccn": "100285",
+    "name": "MEMORIAL HOSPITAL MIRAMAR",
+    "system": "Memorial Healthcare System",
+    "fiscalYearEnd": "04/30/2024",
+    "netPatientRevenue": 303983221,
+    "netIncome": 71281121,
+    "totalAssets": 121984430,
+    "charityCareAtCost": 16402021
+   },
+   {
+    "ccn": "100069",
+    "name": "ADVENTHEALTH CARROLLWOOD",
+    "system": "AdventHealth",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 295022368,
+    "netIncome": 51913916,
+    "totalAssets": 376787827,
+    "charityCareAtCost": 10477685
+   },
+   {
+    "ccn": "100125",
+    "name": "Homestead Hospital",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 281309400,
+    "netIncome": -6262244,
+    "totalAssets": 129689598,
+    "charityCareAtCost": 35164567
+   },
+   {
+    "ccn": "100296",
+    "name": "Doctors Hospital",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 273194403,
+    "netIncome": 10983153,
+    "totalAssets": 253089337,
+    "charityCareAtCost": 3833577
+   },
+   {
+    "ccn": "100276",
+    "name": "Broward Health Coral Springs",
+    "system": "Broward Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 241200378,
+    "netIncome": 33331582,
+    "totalAssets": 464483265,
+    "charityCareAtCost": 12562761
+   },
+   {
+    "ccn": "100230",
+    "name": "MEMORIAL HOSPITAL PEMBROKE",
+    "system": "Memorial Healthcare System",
+    "fiscalYearEnd": "04/30/2025",
+    "netPatientRevenue": 212990173,
+    "netIncome": 13112362,
+    "totalAssets": 166749412,
+    "charityCareAtCost": 19034477
+   },
+   {
+    "ccn": "100063",
+    "name": "MORTON PLANT NORTH BAY HOSPITAL",
+    "system": "Trinity Health",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 208829347,
+    "netIncome": 5620132,
+    "totalAssets": -34649967,
+    "charityCareAtCost": 13648653
+   },
+   {
+    "ccn": "100292",
+    "name": "SACRED HEART HOSPITAL ON THE EMERALD",
+    "system": "Ascension",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 202478059,
+    "netIncome": 34524617,
+    "totalAssets": 121210983,
+    "charityCareAtCost": 10521192
+   },
+   {
+    "ccn": "100200",
+    "name": "BROWARD HEALTH IMPERIAL POINT",
+    "system": "Broward Health",
+    "fiscalYearEnd": "06/30/2025",
+    "netPatientRevenue": 127779817,
+    "netIncome": -3044559,
+    "totalAssets": 134938624,
+    "charityCareAtCost": 9945867
+   },
+   {
+    "ccn": "101313",
+    "name": "Mariners Hospital",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 83671890,
+    "netIncome": 18092798,
+    "totalAssets": 62046139,
+    "charityCareAtCost": 3483597
+   },
+   {
+    "ccn": "100142",
+    "name": "JACKSON HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 82344841,
+    "netIncome": 378195,
+    "totalAssets": 97805769,
+    "charityCareAtCost": 2232595
+   },
+   {
+    "ccn": "101312",
+    "name": "Fishermen's Hospital",
+    "system": "Baptist Health South Florida",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 63173099,
+    "netIncome": 17543830,
+    "totalAssets": 71795145,
+    "charityCareAtCost": 1094921
+   },
+   {
+    "ccn": "101309",
+    "name": "Hendry County Hospital Authority DBA Hendry Regional Medical Center",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 42469128,
+    "netIncome": 8912743,
+    "totalAssets": 33926380,
+    "charityCareAtCost": 1808808
+   },
+   {
+    "ccn": "100130",
+    "name": "LAKESIDE MEDICAL CENTER",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 26779529,
+    "netIncome": 634723,
+    "totalAssets": 39982350,
+    "charityCareAtCost": 2552244
+   },
+   {
+    "ccn": "101307",
+    "name": "Holmes County Hospital Corp d/b/a Doctors Memorial Hospital ",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 25177205,
+    "netIncome": 1332267,
+    "totalAssets": 12358298,
+    "charityCareAtCost": 370137
+   },
+   {
+    "ccn": "101314",
+    "name": "Doctors Memorial Hospital, Inc.",
+    "system": "Independent",
+    "fiscalYearEnd": "05/31/2025",
+    "netPatientRevenue": 24069303,
+    "netIncome": -1181677,
+    "totalAssets": 11069915,
+    "charityCareAtCost": 1241792
+   },
+   {
+    "ccn": "101304",
+    "name": "CALHOUN-LIBERTY HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "12/31/2024",
+    "netPatientRevenue": 16159209,
+    "netIncome": 11548130,
+    "totalAssets": 46603087,
+    "charityCareAtCost": 132008
+   },
+   {
+    "ccn": "101311",
+    "name": "MADISON CTY MEMORIAL HOSPITAL",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 12832823,
+    "netIncome": -375394,
+    "totalAssets": 22321123,
+    "charityCareAtCost": 492866
+   },
+   {
+    "ccn": "101305",
+    "name": "GEORGE E. WEEMS MEMORIAL HOSPITAL",
+    "system": "Tallahassee Memorial Healthcare",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 9633825,
+    "netIncome": -240319,
+    "totalAssets": 9259596,
+    "charityCareAtCost": 250548
+   },
+   {
+    "ccn": "101315",
+    "name": "JAY HOSPITAL, INC.",
+    "system": "Independent",
+    "fiscalYearEnd": "09/30/2024",
+    "netPatientRevenue": 9368136,
+    "netIncome": -1191085,
+    "totalAssets": 6268665,
+    "charityCareAtCost": 374888
+   }
+  ]
+ },
+ "whoDecides": {
+  "subtitle": "Machine Scores coming with the lawmaker pages",
+  "groups": [
+   {
+    "name": "The executive",
+    "people": [
+     {
+      "name": "Ron DeSantis",
+      "role": "Governor (R), in office since January 8, 2019, second term"
+     },
+     {
+      "name": "James Uthmeier",
+      "role": "Attorney General (R), appointed February 2025, elected to a full term November 3, 2026"
+     }
+    ]
+   },
+   {
+    "name": "The Legislature",
+    "people": [
+     {
+      "name": "Jay Collins",
+      "role": "Lieutenant Governor (R), since August 12, 2025"
+     },
+     {
+      "name": "Jim Boyd",
+      "role": "President of the Senate (R), District 20, since November 17, 2026"
+     },
+     {
+      "name": "Sam Garrison",
+      "role": "Speaker of the House (R), District 11, since November 17, 2026"
+     },
+     {
+      "name": "Demi Busatta",
+      "role": "Chair, House Health & Human Services (R), District 114"
+     },
+     {
+      "name": "Mike Redondo",
+      "role": "Chair, House Health Care Appropriations (R), District 118"
+     }
+    ],
+    "note": "The Senate had not posted its 2026-28 committee chairs on November 21, 2026. On the October 2026 rosters, 24 of 39 state senators and 38 of 116 House members had a 340B hospital in their district."
+   },
+   {
+    "name": "In Washington",
+    "people": [
+     {
+      "name": "Sen. Ashley Moody",
+      "role": "Senate HELP"
+     },
+     {
+      "name": "Rep. Vern Buchanan",
+      "role": "Ways and Means (FL-16)"
+     },
+     {
+      "name": "Rep. Aaron Bean",
+      "role": "Ways and Means (FL-4)"
+     },
+     {
+      "name": "Rep. Gus Bilirakis",
+      "role": "Energy and Commerce (FL-12)"
+     },
+     {
+      "name": "Rep. Neal Dunn",
+      "role": "Energy and Commerce, vice chair (FL-2)"
+     },
+     {
+      "name": "Rep. Kathy Castor",
+      "role": "Energy and Commerce (FL-14)"
+     }
+    ],
+    "note": "No Florida senator sits on Senate Finance. 21 of 27 sitting U.S. House members have a 340B hospital in their district; FL-20 has been vacant since April 21, 2026."
+   }
+  ],
+  "pac": {
+   "text": "The Florida Hospital Association's political committee reported $581,220 in contributions in 2024, $376,500 in 2025 and $272,000 from January 1 to October 1, 2026.",
+   "basis": "reported",
+   "source": "Florida Department of State, Division of Elections, campaign finance database, contributions by Florida Hospital Association PC: 2024 $581,220.49 in 75 entries to 58 recipients; 2025 $376,500 in 44 entries to 33 recipients; January 1 to October 1, 2026 $272,000 in 23 entries to 20 recipients (query saved October 2, 2026)",
+   "as_of": "January 1, 2024 to October 1, 2026"
+  },
+  "basis": "reported",
+  "source": "Office of the Governor (flgov.com), Office of the Attorney General (myfloridalegal.com), Florida Senate and House rosters and committee pages, U.S. Senate committee XML, U.S. House Clerk MemberData.xml, all saved October 1 and 2, 2026; names cross-checked against the National Governors Association and National Association of Attorneys General rosters on November 19, 2026; Senate President and House Speaker, committee chairs and member districts from flsenate.gov and flhouse.gov on November 21, 2026 (2026-28 term pages); the attorney general's November 3, 2026 election from the Associated Press call as reported by WPTV on November 3, 2026 (certified results pending); Senate district 39 and House districts 55, 78, 113 and 116 were vacant on the October rosters; district counts from the Census geocoder and TIGERweb on the hospitals' registered addresses",
+  "as_of": "November 21, 2026"
+ },
+ "agOversight": {
+  "subtitle": "What the office can do, and what it has done",
+  "items": [
+   {
+    "title": "No say over hospital deals",
+    "body": "No Florida statute requires the attorney general to review a nonprofit hospital sale, lease or conversion. Its one recent hospital opinion went to the Marion County Hospital District on July 19, 2020. It dealt with open-meetings law at a board session on the lessee's expansion plans, not the lease itself.",
+    "source": "Statute search of Florida Statutes chapters 395, 408, 617 and 736 for attorney general notice or consent on nonprofit hospital transactions, October 2 and November 21, 2026: none; Office of the Attorney General informal opinion to the Marion County Hospital District, July 19, 2020 (public-hospital strategic-plan exemption from the open meetings law not applicable to a District board meeting at which AdventHealth Ocala presents expansion plans), myfloridalegal.com, saved October 2, 2026"
+   },
+   {
+    "title": "Charities and corporations",
+    "body": "Statute 617.1430 lets the Department of Legal Affairs, the attorney general's department, ask a court to dissolve a nonprofit corporation. The grounds are a charter got by fraud or abuse of its legal authority. Statute 736.0110 lets the attorney general assert a beneficiary's rights over a charitable trust administered in Florida.",
+    "source": "Florida Statutes section 617.1430(1)(a) (judicial dissolution in a proceeding by the Department of Legal Affairs) and section 736.0110(3) (Attorney General may assert the rights of a qualified beneficiary of a charitable trust with its principal place of administration in Florida), leg.state.fl.us, retrieved November 21, 2026"
+   },
+   {
+    "title": "An assessment instead of a standard",
+    "body": "Florida charges every hospital 1.5 percent of inpatient and 1 percent of outpatient net operating revenue into the Public Medical Assistance Trust Fund. The property tax exemption rests on nonprofit status and charitable use. No charity care minimum attaches to it, and no office audits one.",
+    "source": "Florida Statutes section 395.701(2)(a) and (b) (annual assessments of 1.5 percent of net operating revenue for inpatient services and 1 percent for outpatient services, Public Medical Assistance Trust Fund) and section 196.197(1) (exemption for a Florida corporation not for profit exempt under section 501(c)(3), on charitable use), leg.state.fl.us, retrieved November 21, 2026"
+   },
+   {
+    "title": "Enforcement record",
+    "body": "No attorney general enforcement action on hospital charity care, tax exemption or the 340B program was found. The office's site was searched on October 2 and November 21, 2026.",
+    "source": "myfloridalegal.com site searches for 340B, contract pharmacy and hospital charity care (October 2, 2026, and November 21, 2026): NOT FOUND"
+   },
+   {
+    "title": "The one 340B case is private",
+    "body": "Tampa General's operator sued Eli Lilly in federal court in Tampa on July 2, 2026. Lilly moved to dismiss on September 21, 2026 with an as-applied challenge to Florida's deceptive trade practices act. No Florida statute on 340B contract pharmacies is at stake, because the state has none.",
+    "source": "Florida Health Sciences Center, Inc. v. Eli Lilly and Company, M.D. Fla. No. 8:26-cv-01918 (Judge William F. Jung), complaint filed July 2, 2026; defendants' motion to dismiss and as-applied challenge filed September 21, 2026 (docket saved October 2, 2026); Florida Statutes search for 340B: section 499.003(48)(w) (distributor permit exemption) and section 499.026 (price-increase reporting factor) only"
+   }
+  ],
+  "basis": "reported",
+  "source": "Florida Statutes at leg.state.fl.us (saved with checksums in research/states/sources/fl/), Office of the Attorney General at myfloridalegal.com, PACER docket for M.D. Fla. 8:26-cv-01918, retrieved October 2 and November 21, 2026",
+  "as_of": "November 21, 2026"
+ },
+ "bills": {
+  "subtitle": "The Legislature organized November 17, 2026; the 2027 session convenes March 2, 2027",
+  "basis": "reported",
+  "source": "Florida House of Representatives bill history pages for HB 1281, SB 1638, SB 1758, HB 573 and SB 886 (2026), HB 1527 (2025) and SB 1608 (2024), saved October 2, 2026; Florida Statutes section 395.3011 history (chapter 2024-183, chapter 2025-98); Florida Constitution article III, section 3 (sessions); Florida House and Senate organization session pages, November 17, 2026",
+  "as_of": "November 21, 2026",
+  "rows": [
+   {
+    "id": "HB 1281 / SB 1638",
+    "title": "340B protection, all comers",
+    "body": "Would have barred manufacturers, pharmacy benefit managers and payers from limiting 340B entities and their contract pharmacies. Neither bill got a hearing. Both died in their first committee on March 13, 2026.",
+    "status": "DIED · First committee, Mar. 13, 2026",
+    "tone": "red"
+   },
+   {
+    "id": "HB 1527 / SB 1608",
+    "title": "The same bill, twice before",
+    "body": "The 2025 and 2024 versions of the 340B protection bill. Each died in its first committee without a hearing, HB 1527 on June 16, 2025.",
+    "status": "DIED · No hearing, 2024 and 2025",
+    "tone": "red"
+   },
+   {
+    "id": "SB 1758",
+    "title": "A 340B compliance study",
+    "body": "Would have ordered a study of 340B compliance with data from covered entities. Cleared Senate Health Policy 8 to 3 and Appropriations 14 to 4, then passed the Senate 26 to 11 on March 9, 2026. The House never took it up.",
+    "status": "DIED · House messages, Mar. 13, 2026",
+    "tone": "green"
+   },
+   {
+    "id": "HB 573 / SB 886",
+    "title": "A Medicaid 340B pricing study",
+    "body": "Would have made the Agency for Health Care Administration study paying Medicaid pharmacies no more than the 340B price. HB 573 died in the Health Care Facilities & Systems Subcommittee and SB 886 in Senate Health Policy on March 13, 2026. The Florida Hospital Association, AdventHealth, BayCare and Tampa General filed notices on HB 573.",
+    "status": "DIED · Committee, Mar. 13, 2026",
+    "tone": "gold"
+   },
+   {
+    "id": "Ch. 2024-183",
+    "title": "Collection limits on hospitals",
+    "body": "Created statute 395.3011. A hospital cannot sue, lien, garnish or report a patient to a credit bureau until it has checked the patient for financial assistance. Amended in 2025.",
+    "status": "ENACTED · Amended Ch. 2025-98",
+    "tone": "gold"
+   }
+  ]
+ },
+ "buy": {
+  "heading": "Take Florida with you.",
+  "text": "Every hospital, every subsidy line, every lawmaker's district exposure, with the source documents.",
+  "options": [
+   {
+    "label": "Florida dataset",
+    "price": null,
+    "perYear": false,
+    "primary": true
+   },
+   {
+    "label": "All states, all-access",
+    "price": null,
+    "perYear": true,
+    "primary": false
+   }
+  ]
+ },
+ "sourcesLine": "Sources: CMS hospital cost reports (2023 and 2024 files, latest report per hospital), HRSA 340B OPAIS export of September 29, 2026, Florida Statutes chapters 196, 220, 395, 408, 456, 499, 617 and 736, Florida House and Senate bill histories, Florida Division of Elections, PACER, CMS FY2027 IPPS impact and Medicare DSH supplemental files, Lincoln Institute 50-State Property Tax Comparison Study (April 2026), the Alliance physician-owned hospital database (March 2026)."
+}
